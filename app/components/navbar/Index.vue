@@ -1,198 +1,349 @@
 <script setup lang="ts">
-import { useColorMode } from "@vueuse/core"
-import { Moon, Sun } from "lucide-vue-next"
+import { ref, onMounted, onUnmounted } from "vue"
+import { Menu, X, ChevronDown, Phone, Mail } from "lucide-vue-next"
 
-const mode = useColorMode()
+const mobileOpen = ref(false)
+const activeDropdown = ref<string | null>(null)
+const scrolled = ref(false)
 
-/*
-  Función que genera el mismo dropdown para todos los grados
-*/
-const baseChildren = (slug: string, label: string) => [
-  {
-    label: `Página ${label}`,
-    href: `/${slug}`,
-  },
-  {
-    label: "Folletos",
-    href: `/${slug}/folletos`,
-  },
-  {
-    label: "Admisiones",
-    href: `/${slug}/admisiones`,
-  },
-  {
-    label: "Test Vocacional",
-    href: "/test-vocacional",
-  },
-  {
-    label: "Calcula tu Beca",
-    href: "/beca",
-  },
+const handleScroll = () => { scrolled.value = window.scrollY > 10 }
+onMounted(() => window.addEventListener("scroll", handleScroll))
+onUnmounted(() => window.removeEventListener("scroll", handleScroll))
+
+interface Child { label: string; href: string }
+interface Program { label: string; slug: string; color: string; href: string; children: Child[] }
+
+const programs: Program[] = [
+  { label: "Universidad",          slug: "universidad",          color: "#1565C0", href: "https://universidad.uninter.edu.mx/",                          children: [{ label: "Licenciaturas Presenciales", href: "https://universidad.uninter.edu.mx/" }, { label: "Licenciaturas Ejecutivas", href: "https://universidad.uninter.edu.mx/ejecutivas" }, { label: "Folletos", href: "https://universidad.uninter.edu.mx/Folletos-Digitales" }, { label: "Admisiones", href: "https://universidad.uninter.edu.mx/Admisiones" }, { label: "Test Vocacional", href: "https://universidad.uninter.edu.mx/test-vocacional" }, { label: "Calcula tu Beca", href: "https://universidad.uninter.edu.mx/Calcula-Tu-Beca" }] },
+  { label: "Bachillerato",         slug: "bachillerato",         color: "#2E7D32", href: "https://biu.uninter.edu.mx/",                                  children: [{ label: "Sitio Web", href: "https://biu.uninter.edu.mx/" }, { label: "Folleto", href: "https://biu.uninter.edu.mx/" }] },
+  { label: "Secundaria",           slug: "secundaria",           color: "#E65100", href: "https://siu.uninter.edu.mx/",                                  children: [{ label: "Sitio Web", href: "https://siu.uninter.edu.mx/" }, { label: "Folleto", href: "https://uninter.edu.mx/folletos/revistas/siurevista/" }] },
+  { label: "Posgrados",            slug: "posgrados",            color: "#546E7A", href: "https://posgrados.uninter.edu.mx/",                            children: [{ label: "Sitio Web", href: "https://posgrados.uninter.edu.mx/" }, { label: "Admisiones", href: "https://posgrados.uninter.edu.mx/Admisiones" }] },
+  { label: "Diplomados",           slug: "diplomados",           color: "#6D4C41", href: "https://diplomados.uninter.edu.mx/",                           children: [{ label: "Sitio Web", href: "https://diplomados.uninter.edu.mx/" }, { label: "Folletos", href: "https://diplomados.uninter.edu.mx/folletos-Digitales" }, { label: "Admisiones", href: "https://diplomados.uninter.edu.mx/admisiones" }] },
+  { label: "Spanish School",       slug: "spanish-school",       color: "#BF360C", href: "https://spanishschool.uninter.edu.mx/",                        children: [{ label: "Sitio Web", href: "https://spanishschool.uninter.edu.mx/" }, { label: "Admissions", href: "https://spanishschool.uninter.edu.mx/Home" }] },
+  { label: "Verano Kids",          slug: "verano-kids",          color: "#6A1B9A", href: "https://kids.uninter.edu.mx/",                                 children: [{ label: "Spanish", href: "https://kids.uninter.edu.mx/" }, { label: "English", href: "https://spanishschool.uninter.edu.mx/Kids-Program" }] },
+  { label: "Prepa Abierta",        slug: "prepa-abierta",        color: "#00695C", href: "https://uninter.edu.mx/prep-a/",                               children: [] },
+  { label: "Eventos",              slug: "eventos",              color: "#1A237E", href: "https://uninter.edu.mx/sesiones-informativas/",                 children: [{ label: "Sesiones Informativas", href: "https://uninter.edu.mx/sesiones-informativas/" }, { label: "Eventos", href: "https://uninter.edu.mx/eventos/" }, { label: "On Demand", href: "https://uninter.edu.mx/ondemand/" }, { label: "Calendario Cultural", href: "https://uninter.edu.mx/difusion-cultural/" }] },
+  { label: "Internacionalización", slug: "internacionalizacion", color: "#C62828", href: "https://universidad.uninter.edu.mx/Internacionalizaci%C3%B3n", children: [] },
+  { label: "Centro de Idiomas",    slug: "centro-idiomas",       color: "#0277BD", href: "https://uninter.edu.mx/centroidiomas/",                        children: [] },
 ]
 
-const programs = [
-  {
-    label: "Universidad",
-    slug: "universidad",
-    color: "bg-blue-600",
-  },
-  {
-    label: "Bachillerato",
-    slug: "bachillerato",
-    color: "bg-green-600",
-  },
-  {
-    label: "Secundaria",
-    slug: "secundaria",
-    color: "bg-orange-500",
-  },
-  {
-    label: "Posgrados",
-    slug: "posgrados",
-    color: "bg-gray-500",
-  },
-  {
-    label: "Diplomados",
-    slug: "diplomados",
-    color: "bg-red-700",
-  },
-  {
-    label: "Spanish School",
-    slug: "spanish-school",
-    color: "bg-orange-600",
-  },
-  {
-    label: "Verano Kids",
-    slug: "verano-kids",
-    color: "bg-purple-600",
-  },
-  {
-    label: "Prepa Abierta",
-    slug: "prepa-abierta",
-    color: "bg-emerald-600",
-  },
-  {
-    label: "Eventos",
-    slug: "eventos",
-    color: "bg-blue-900",
-  },
-  {
-    label: "Internacionalización",
-    slug: "internacionalizacion",
-    color: "bg-red-600",
-  },
-  {
-    label: "Centro de Idiomas",
-    slug: "centro-idiomas",
-    color: "bg-blue-500",
-  },
+const leftPrograms  = programs.slice(0, 5)
+const rightPrograms = programs.slice(5)
+
+const social = [
+  { icon: "mdi:facebook",  href: "https://www.facebook.com/uninter.mx" },
+  { icon: "mdi:instagram", href: "https://www.instagram.com/uninter.mx" },
+  { icon: "mdi:youtube",   href: "https://www.youtube.com/@unintermx" },
+  { icon: "mdi:linkedin",  href: "https://www.linkedin.com/school/uninter-mx" },
+  { icon: "mdi:tiktok",    href: "https://www.tiktok.com/@uninter.mx" },
 ]
 </script>
 
 <template>
-  <header class="w-full bg-white shadow-sm">
+  <header class="nh" :class="{ 'nh--scrolled': scrolled }">
 
-    <!-- TOP BAR -->
-    <div class="border-b">
-      <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-
-        <!-- Logo + Subtitulo -->
-        <div class="flex items-center gap-4">
-          <Logo />
-          <div class="hidden md:block text-sm text-gray-500">
-            Secundaria · Bachillerato · Licenciatura · Ingeniería · Posgrado
-          </div>
+    <div class="nh-top">
+      <div class="nh-c nh-top__inner">
+        <div class="nh-top__left">
+          <a href="tel:7773579000" class="nh-tl"><Phone :size="11" /><span>777 357 9000</span></a>
+          <a href="tel:7773579001" class="nh-tl nh-tl--hide"><Phone :size="11" /><span>777 357 9001</span></a>
+          <a href="mailto:info@uninter.edu.mx" class="nh-tl nh-tl--hidesm"><Mail :size="11" /><span>info@uninter.edu.mx</span></a>
         </div>
-
-        <!-- Contacto + redes -->
-        <div class="flex items-center gap-5">
-          <span class="text-sm font-semibold tracking-wide">CONTACTO</span>
-
-          <div class="flex gap-4 text-lg">
-            <Icon name="mdi:facebook" />
-            <Icon name="mdi:instagram" />
-            <Icon name="mdi:youtube" />
-            <Icon name="mdi:linkedin" />
-            <Icon name="mdi:tiktok" />
+        <div class="nh-top__right">
+          <div class="nh-socials">
+            <a v-for="s in social" :key="s.icon" :href="s.href" target="_blank" class="nh-soc">
+              <Icon :name="s.icon" size="13" />
+            </a>
           </div>
-
-          <button
-            class="ml-4 p-2 rounded-md border"
-            @click="mode = mode === 'light' ? 'dark' : 'light'"
-          >
-            <Moon v-if="mode === 'light'" />
-            <Sun v-else />
-          </button>
+          <a href="https://universidad.uninter.edu.mx/Calcula-Tu-Beca" target="_blank" class="nh-beca">
+            Calcula tu Beca
+          </a>
         </div>
+      </div>
+    </div>
+
+    <div class="nh-prog-bar">
+      <div class="nh-c nh-prog-bar__inner">
+
+        <ul class="nh-plist nh-plist--left">
+          <li v-for="prog in leftPrograms" :key="prog.slug" class="nh-pitem"
+              @mouseenter="prog.children.length ? activeDropdown = prog.slug : null"
+              @mouseleave="activeDropdown = null">
+            <a v-if="!prog.children.length" :href="prog.href" target="_blank"
+               class="nh-pbtn" :style="`background:${prog.color}`">{{ prog.label }}</a>
+            <button v-else class="nh-pbtn" :style="`background:${prog.color}`">
+              {{ prog.label }}
+              <ChevronDown :size="9" class="nh-chev" :class="{ 'nh-chev--open': activeDropdown === prog.slug }" />
+            </button>
+            <Transition name="nh-dd">
+              <div v-if="prog.children.length && activeDropdown === prog.slug" class="nh-dropdown">
+                <div class="nh-dd__bar" :style="`background:${prog.color}`"></div>
+                <a :href="prog.href" target="_blank" class="nh-dd__head">
+                  <span class="nh-dd__dot" :style="`background:${prog.color}`"></span>
+                  {{ prog.label }}
+                  <Icon name="mdi:open-in-new" size="10" class="nh-dd__ext" />
+                </a>
+                <div class="nh-dd__sep"></div>
+                <ul class="nh-dd__list">
+                  <li v-for="c in prog.children" :key="c.label">
+                    <a :href="c.href" target="_blank" class="nh-dd__link">{{ c.label }}</a>
+                  </li>
+                </ul>
+              </div>
+            </Transition>
+          </li>
+        </ul>
+
+        <div class="nh-medallion-spacer" aria-hidden="true"></div>
+
+        <ul class="nh-plist nh-plist--right">
+          <li v-for="prog in rightPrograms" :key="prog.slug" class="nh-pitem"
+              @mouseenter="prog.children.length ? activeDropdown = prog.slug : null"
+              @mouseleave="activeDropdown = null">
+            <a v-if="!prog.children.length" :href="prog.href" target="_blank"
+               class="nh-pbtn" :style="`background:${prog.color}`">{{ prog.label }}</a>
+            <button v-else class="nh-pbtn" :style="`background:${prog.color}`">
+              {{ prog.label }}
+              <ChevronDown :size="9" class="nh-chev" :class="{ 'nh-chev--open': activeDropdown === prog.slug }" />
+            </button>
+            <Transition name="nh-dd">
+              <div v-if="prog.children.length && activeDropdown === prog.slug" class="nh-dropdown">
+                <div class="nh-dd__bar" :style="`background:${prog.color}`"></div>
+                <a :href="prog.href" target="_blank" class="nh-dd__head">
+                  <span class="nh-dd__dot" :style="`background:${prog.color}`"></span>
+                  {{ prog.label }}
+                  <Icon name="mdi:open-in-new" size="10" class="nh-dd__ext" />
+                </a>
+                <div class="nh-dd__sep"></div>
+                <ul class="nh-dd__list">
+                  <li v-for="c in prog.children" :key="c.label">
+                    <a :href="c.href" target="_blank" class="nh-dd__link">{{ c.label }}</a>
+                  </li>
+                </ul>
+              </div>
+            </Transition>
+          </li>
+        </ul>
+
+        <button class="nh-hamburger" @click="mobileOpen = !mobileOpen" aria-label="Menú">
+          <X v-if="mobileOpen" :size="20" />
+          <Menu v-else :size="20" />
+        </button>
 
       </div>
     </div>
 
-    <!-- PROGRAM NAV -->
-    <nav class="w-full bg-white border-b">
+    <NuxtLink to="/" class="nh-medallion">
+      <div class="nh-medallion__shell">
+        <img src="/images/logo-uninter.png" alt="UNINTER" class="nh-medallion__logo" />
+        <span class="nh-medallion__name">UNINTER</span>
+      </div>
+    </NuxtLink>
 
-      <div class="max-w-7xl mx-auto">
-
-<ul class="flex justify-center items-stretch flex-nowrap">
-
-        <li
-  v-for="program in programs"
-  :key="program.slug"
-  class="relative group border-r border-white last:border-r-0"
->
-
-
-            <!-- Botón principal -->
-<button
-  class="px-6 py-3 text-xs font-semibold uppercase text-white transition duration-200 whitespace-nowrap"
-  :class="program.color"
->
-  {{ program.label }}
-</button>
-
-
-            <!-- Dropdown -->
-            <div
-              class="absolute left-1/2 -translate-x-1/2 top-full mt-1
-                     opacity-0 invisible
-                     group-hover:opacity-100 group-hover:visible
-                     transition duration-200
-                     bg-white shadow-lg border rounded-md min-w-[220px] z-50"
-            >
-              <ul>
-                <li
-                  v-for="child in baseChildren(program.slug, program.label)"
-                  :key="child.label"
-                  class="border-b last:border-none"
-                >
-                  <NuxtLink
-                    :to="child.href"
-                    class="block px-4 py-3 text-sm hover:bg-gray-100 transition"
-                  >
-                    {{ child.label }}
-                  </NuxtLink>
+    <Transition name="nh-mob">
+      <div v-if="mobileOpen" class="nh-mobile">
+        <div class="nh-mobile__ctas">
+          <a href="https://universidad.uninter.edu.mx/Calcula-Tu-Beca" target="_blank"
+             class="nh-mcta nh-mcta--out" @click="mobileOpen=false">Calcula tu Beca</a>
+          <a href="https://universidad.uninter.edu.mx/Admisiones" target="_blank"
+             class="nh-mcta nh-mcta--solid" @click="mobileOpen=false">Admisiones</a>
+        </div>
+        <div v-for="prog in programs" :key="prog.slug" class="nh-mobile__section">
+          <a v-if="!prog.children.length" :href="prog.href" target="_blank"
+             class="nh-mobile__direct" @click="mobileOpen=false">
+            <span class="nh-mbadge" :style="`background:${prog.color}`">{{ prog.label }}</span>
+            <Icon name="mdi:open-in-new" size="12" class="nh-mobile__ext" />
+          </a>
+          <template v-else>
+            <button class="nh-mobile__trigger"
+                    @click="activeDropdown = activeDropdown===prog.slug ? null : prog.slug">
+              <span class="nh-mbadge" :style="`background:${prog.color}`">{{ prog.label }}</span>
+              <ChevronDown :size="13" class="nh-chev nh-chev--r"
+                           :class="{ 'nh-chev--open': activeDropdown===prog.slug }" />
+            </button>
+            <Transition name="nh-acc">
+              <ul v-if="activeDropdown===prog.slug" class="nh-mobile__children">
+                <li v-for="c in prog.children" :key="c.label">
+                  <a :href="c.href" target="_blank" class="nh-mobile__link" @click="mobileOpen=false">{{ c.label }}</a>
                 </li>
               </ul>
-            </div>
-
-          </li>
-
-        </ul>
-
+            </Transition>
+          </template>
+        </div>
+        <div class="nh-mobile__social">
+          <a v-for="s in social" :key="s.icon" :href="s.href" target="_blank" class="nh-mobile__soc">
+            <Icon :name="s.icon" size="17" />
+          </a>
+        </div>
       </div>
-
-    </nav>
+    </Transition>
 
   </header>
 </template>
 
 <style scoped>
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
+.nh {
+  --p:      #0F3C61;
+  --pl:     #1565C0;
+  --bd:     #e2e8f0;
+  --txt:    #1e293b;
+  --mut:    #64748b;
+  --top-h:  34px;
+  --prog-h: 48px;
+  --med-w:  148px;
+  position: sticky; top: 0; z-index: 100; width: 100%;
+  isolation: isolate; transition: box-shadow .3s;
 }
-.no-scrollbar {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+.nh--scrolled { box-shadow: 0 3px 20px rgba(0,0,0,.15); }
+.nh-c { max-width: 1280px; margin: 0 auto; padding: 0 1.5rem; }
+
+.nh-top { background: var(--p); height: var(--top-h); position: relative; z-index: 2; }
+.nh-top__inner { display: flex; align-items: center; justify-content: space-between; height: 100%; }
+.nh-top__left { display: flex; align-items: center; gap: 1.25rem; }
+.nh-tl { display: flex; align-items: center; gap: 4px; font-size: .68rem; color: rgba(255,255,255,.75); text-decoration: none; transition: color .2s; }
+.nh-tl:hover { color: #fff; }
+.nh-top__right { display: flex; align-items: center; gap: .75rem; }
+.nh-socials { display: flex; gap: 4px; }
+.nh-soc { width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; border-radius: 4px; color: rgba(255,255,255,.65); text-decoration: none; transition: color .2s, background .2s; }
+.nh-soc:hover { color: #fff; background: rgba(255,255,255,.12); }
+.nh-beca { font-size: .7rem; font-weight: 700; color: #fff; background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.3); padding: .22rem .8rem; border-radius: 3px; text-decoration: none; transition: background .2s; white-space: nowrap; }
+.nh-beca:hover { background: rgba(255,255,255,.26); }
+
+.nh-prog-bar { background: #fff; border-bottom: 1px solid var(--bd); height: var(--prog-h); position: relative; overflow: visible; z-index: 10; }
+.nh-prog-bar__inner { display: flex; align-items: stretch; height: 100%; position: relative; }
+.nh-medallion-spacer { flex-shrink: 0; width: var(--med-w); }
+.nh-plist { display: flex; align-items: stretch; list-style: none; margin: 0; padding: 0; flex: 1; min-width: 0; }
+.nh-plist--left  { justify-content: flex-end; }
+.nh-plist--right { justify-content: flex-start; }
+.nh-pitem { position: relative; display: flex; align-items: stretch; }
+.nh-pbtn { display: flex; align-items: center; gap: 4px; height: 100%; padding: 0 .7rem; font-size: .65rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: #fff; border: none; cursor: pointer; white-space: nowrap; text-decoration: none; transition: filter .15s; }
+.nh-pbtn:hover { filter: brightness(1.18); }
+.nh-chev { transition: transform .2s; opacity: .8; flex-shrink: 0; }
+.nh-chev--open { transform: rotate(180deg); }
+.nh-chev--r { margin-left: auto; }
+
+.nh-medallion { position: absolute; left: 50%; transform: translateX(-50%); top: 0; z-index: 200; text-decoration: none; display: block; width: var(--med-w); }
+.nh-medallion__shell { width: 100%; display: flex; flex-direction: column; align-items: center; border-radius: 0 0 46% 46% / 0 0 22% 22%; border: 2px solid #c8d8eb; box-shadow: 0 6px 28px rgba(0,0,0,.22), inset 0 1px 0 rgba(255,255,255,.6); background: #ffffff; padding-top: 6px; padding-bottom: 12px; transition: box-shadow .25s, transform .25s; }
+.nh-medallion:hover .nh-medallion__shell { box-shadow: 0 10px 36px rgba(15,60,97,.32); transform: translateY(-2px); }
+.nh-medallion__logo { width: 96px; height: 96px; object-fit: contain; display: block; filter: drop-shadow(0 2px 6px rgba(0,0,0,.3)); transition: transform .25s; }
+.nh-medallion:hover .nh-medallion__logo { transform: scale(1.04); }
+.nh-medallion__name { display: block; font-size: .82rem; font-weight: 800; color: #0F3C61; letter-spacing: .16em; font-family: Georgia, var(--font-serif, serif); margin-top: 2px; line-height: 1; padding-bottom: 2px; }
+
+.nh-dropdown { position: absolute; top: 100%; left: 50%; transform: translateX(-50%); min-width: 215px; background: #fff; border: 1px solid var(--bd); border-radius: 8px; overflow: hidden; box-shadow: 0 12px 36px rgba(0,0,0,.13); z-index: 200; }
+.nh-dd__bar { height: 3px; }
+.nh-dd__head { display: flex; align-items: center; gap: 7px; padding: .6rem 1rem .35rem; font-size: .68rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--txt); text-decoration: none; transition: background .15s; }
+.nh-dd__head:hover { background: #f8fafc; }
+.nh-dd__dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+.nh-dd__ext { margin-left: auto; opacity: .4; }
+.nh-dd__sep { height: 1px; background: var(--bd); margin: 0 1rem .375rem; }
+.nh-dd__list { list-style: none; padding: 0 0 .5rem; margin: 0; }
+.nh-dd__link { display: flex; align-items: center; padding: .42rem 1rem; font-size: .8rem; color: var(--mut); text-decoration: none; transition: background .15s, color .15s; }
+.nh-dd__link:hover { background: #f8fafc; color: var(--txt); }
+.nh-dd-enter-active, .nh-dd-leave-active { transition: opacity .14s ease, transform .14s ease; }
+.nh-dd-enter-from, .nh-dd-leave-to { opacity: 0; transform: translateX(-50%) translateY(-6px); }
+
+.nh-hamburger { display: none; align-items: center; justify-content: center; width: 36px; height: 36px; background: transparent; border: 1.5px solid var(--bd); border-radius: 5px; color: var(--txt); cursor: pointer; margin: auto 0 auto auto; flex-shrink: 0; }
+
+.nh-mobile { background: #fff; border-bottom: 1px solid var(--bd); max-height: calc(100dvh - 74px); overflow-y: auto; -webkit-overflow-scrolling: touch; }
+.nh-mobile__ctas { display: flex; gap: .625rem; padding: .875rem 1.25rem; border-bottom: 1px solid var(--bd); }
+.nh-mcta { flex: 1; display: flex; align-items: center; justify-content: center; font-size: .82rem; font-weight: 700; border-radius: 5px; padding: .55rem 1rem; text-decoration: none; transition: all .2s; border: none; cursor: pointer; }
+.nh-mcta--out   { color: var(--p); border: 1.5px solid var(--p); background: transparent; }
+.nh-mcta--out:hover  { background: var(--p); color: #fff; }
+.nh-mcta--solid { background: var(--p); color: #fff; }
+.nh-mcta--solid:hover { background: var(--pl); }
+.nh-mobile__section { border-bottom: 1px solid var(--bd); }
+.nh-mobile__direct { display: flex; align-items: center; gap: .625rem; padding: .62rem 1.25rem; text-decoration: none; }
+.nh-mobile__trigger { display: flex; align-items: center; gap: .625rem; width: 100%; padding: .62rem 1.25rem; background: transparent; border: none; cursor: pointer; }
+.nh-mobile__ext { margin-left: auto; color: var(--mut); opacity: .5; }
+.nh-mbadge { display: inline-block; padding: .2rem .6rem; border-radius: 4px; font-size: .68rem; font-weight: 700; color: #fff; }
+.nh-mobile__children { list-style: none; margin: 0; padding: 0; background: #f8f9fb; }
+.nh-mobile__link { display: block; padding: .48rem 1.25rem .48rem 2.5rem; font-size: .78rem; color: var(--mut); text-decoration: none; transition: color .15s; }
+.nh-mobile__link:hover { color: var(--txt); }
+.nh-mobile__social { display: flex; justify-content: center; gap: .875rem; padding: 1rem 1.25rem; border-top: 1px solid var(--bd); }
+.nh-mobile__soc { width: 34px; height: 34px; display: flex; align-items: center; justify-content: center; border-radius: 7px; background: #f0f4f8; color: var(--p); text-decoration: none; transition: background .2s; }
+.nh-mobile__soc:hover { background: var(--p); color: #fff; }
+.nh-mob-enter-active, .nh-mob-leave-active { transition: opacity .2s ease, transform .2s ease; }
+.nh-mob-enter-from, .nh-mob-leave-to { opacity: 0; transform: translateY(-8px); }
+.nh-acc-enter-active, .nh-acc-leave-active { transition: max-height .24s ease, opacity .2s ease; max-height: 300px; overflow: hidden; }
+.nh-acc-enter-from, .nh-acc-leave-to { max-height: 0; opacity: 0; }
+
+/* ── RESPONSIVE ──────────────────────────────────────────── */
+@media (max-width: 1100px) {
+  .nh-pbtn { padding: 0 .5rem; font-size: .6rem; }
+  .nh { --med-w: 132px; }
+  .nh-medallion__logo { width: 84px; height: 84px; }
 }
 
+@media (max-width: 860px) {
+  .nh-plist { display: none; }
+  .nh-hamburger { display: flex; }
+  .nh-medallion-spacer { display: none; }
+
+  /* Barra se vuelve azul como el topbar */
+  .nh-prog-bar {
+    background: var(--p);
+    border-bottom: none;
+    height: 56px;
+  }
+  .nh-prog-bar__inner {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.25rem;
+    position: relative;
+  }
+
+  /* Hamburger: blanco sobre azul, a la derecha */
+  .nh-hamburger {
+    border-color: rgba(255,255,255,.3);
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    margin: 0;
+  }
+  .nh-hamburger:hover { background: rgba(255,255,255,.1); }
+
+  /* Medallón: sigue centrado absolute, misma forma que desktop */
+  .nh-medallion {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    width: 110px;
+    z-index: 1;
+  }
+  .nh-medallion__shell {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    border-radius: 0 0 46% 46% / 0 0 22% 22%;
+    border: 2px solid rgba(255,255,255,.4);
+    background: #fff;
+    box-shadow: 0 4px 16px rgba(0,0,0,.2);
+    transform: none;
+  }
+  .nh-medallion:hover .nh-medallion__shell {
+    box-shadow: 0 6px 20px rgba(0,0,0,.25);
+    transform: translateY(-2px);
+  }
+  .nh-medallion__logo { width: 52px; height: 52px; filter: drop-shadow(0 1px 4px rgba(0,0,0,.2)); }
+  .nh-medallion__name { font-size: .62rem; letter-spacing: .14em; color: #0F3C61; margin-top: 1px; padding-bottom: 0; }
+}
+
+@media (max-width: 640px) {
+  .nh-tl--hide   { display: none; }
+  .nh-tl--hidesm { display: none; }
+  .nh-socials    { display: none; }
+  .nh-prog-bar   { height: 50px; }
+  .nh-medallion  { width: 96px; }
+  .nh-medallion__logo { width: 44px; height: 44px; }
+  .nh-medallion__name { font-size: .56rem; }
+}
+
+@media (max-width: 380px) {
+  .nh-tl { display: none; }
+  .nh-prog-bar__inner { padding: 0 .875rem; }
+  .nh-medallion { width: 84px; }
+  .nh-medallion__logo { width: 38px; height: 38px; }
+}
 </style>

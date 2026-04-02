@@ -1,54 +1,67 @@
 <template>
-  <Navbare />
+  <div>
+    <!-- Header fijo -->
+    <Navbare />
 
-  <!-- Impacto -->
-  <HeroCarousel />
+    <!-- 1. Hero institucional -->
+    <HeroCarousel />
 
-  <!-- Producto principal -->
-  <section class="py-28">
-    <OfertaLicenciaturas />
-  </section>
-
-  <section class="py-24 bg-muted">
-    <OfertaEjecutivas />
-  </section>
-
-  <!-- Contexto académico -->
-  <section class="py-24">
+    <!-- 2. Oferta educativa — acceso a cada nivel -->
     <OfertaEducativa />
-  </section>
 
-  <!-- Orientación -->
-  <section class="py-24 bg-muted">
-    <QuickAccess />
-  </section>
+    <!-- 3. Historias de éxito -->
+    <HistoriasExito />
 
-  <!-- Confianza -->
-  <section class="py-24">
-    <Diferenciadores />
-  </section>
+    <!-- 4. Noticias UNINTER -->
+    <NoticiasUninter />
 
-  <!-- Experiencia -->
-  <section class="py-28 bg-muted">
+    <!-- 5. Blogs -->
+    <BlogsSection />
+
+    <!-- 6. Vida universitaria -->
     <VidaUniversitaria />
-  </section>
 
-  <!-- Conversión -->
-  <CTAFinal />
+    <!-- 7. Calcula tu beca — CTA -->
+    <CalculaBeca />
 
-  <FloatingActions />
+    <!-- 8. Spanish School -->
+    <SpanishSchool />
+
+    <!-- 9. Encuéntranos -->
+    <Encuentranos />
+
+    <!-- 10. Acreditaciones y certificaciones -->
+    <Acreditaciones />
+
+    <!-- Footer -->
+    <PortalFooter />
+
+    <!-- Acciones flotantes -->
+    <FloatingActions />
+  </div>
 </template>
 
 <script setup lang="ts">
-import Navbare from '@/components/navbar/Index.vue'
-
-import HeroCarousel from '@/components/portal/HeroCarousel.vue'
-import OfertaLicenciaturas from '@/components/portal/OfertaLicenciaturas.vue'
-import OfertaEjecutivas from '@/components/portal/OfertaEjecutivas.vue'
+import Navbare        from '@/components/navbar/Index.vue'
+import HeroCarousel   from '@/components/portal/HeroCarousel.vue'
 import OfertaEducativa from '@/components/portal/OfertaEducativa.vue'
-import QuickAccess from '@/components/portal/QuickAccess.vue'
-import Diferenciadores from '@/components/portal/Diferenciadores.vue'
+import HistoriasExito  from '@/components/portal/Historiasexito.vue'
+import NoticiasUninter from '@/components/portal/Noticiasuninter.vue'
+import BlogsSection    from '@/components/portal/Blogssection.vue'
 import VidaUniversitaria from '@/components/portal/VidaUniversitaria.vue'
-import CTAFinal from '@/components/portal/CTAFinal.vue'
+import CalculaBeca     from '@/components/portal/Calculabeca.vue'
+import SpanishSchool   from '@/components/portal/Spanishschool.vue'
+import Encuentranos    from '@/components/portal/Encuentranos.vue'
+import Acreditaciones  from '@/components/portal/Acreditaciones.vue'
+import PortalFooter    from '@/components/portal/Footer.vue'
 import FloatingActions from '@/components/portal/FloatingActions.vue'
+
+useHead({
+  title: 'UNINTER — Universidad Internacional | Cuernavaca, Morelos',
+  meta: [
+    { name: 'description', content: 'Universidad Internacional UNINTER. Secundaria, Bachillerato, Licenciaturas, Posgrados y más en Cuernavaca, Morelos. +30 años formando profesionales.' },
+    { property: 'og:title', content: 'UNINTER — Universidad Internacional' },
+    { property: 'og:description', content: 'Forma tu futuro en UNINTER. Cuernavaca, Morelos.' },
+  ],
+})
 </script>

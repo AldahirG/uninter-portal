@@ -617,7 +617,8 @@ const social = [
   /*[Update] Se redujo el padding para que entren palabras */
   padding: 0 0.2rem;
 
-  font-size: 0.65rem;
+  /*[UPDATE] La fuente se encoge en pantallas pequeñas */
+  font-size: clamp(0.5rem, 0.75vw, 0.65rem);
   font-weight: 700;
   /*[UPDATE] Quitar el tracking para ahorrar espacio */
   letter-spacing: 0;
@@ -626,12 +627,21 @@ const social = [
   color: #fff;
   border: none;
   cursor: pointer;
-  white-space: nowrap;
+
+  /*[UPDATE] Se evita que el texto se desborde */
+  white-space: normal;
+
+  /*[ADD] */
+  text-align: center;
+
+  /** */
+  line-height: 1.1;
+
+  /** */
+  word-break: break-word;
+
   text-decoration: none;
   transition: filter 0.15s;
-
-  /*[ADD] Si es texto largo se ocula y no empuja*/
-  overflow: hidden;
 }
 .nh-pbtn:hover {
   filter: brightness(1.18);

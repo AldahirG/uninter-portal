@@ -71,6 +71,7 @@ const razones = [
       </div>
     </section>
 
+    <!--
     <section class="conocenos-section">
       <div class="uninter-container">
         <div class="conocenos-header">
@@ -90,7 +91,8 @@ const razones = [
           </div>
         </div>
       </div>
-    </section>
+    </section> 
+    -->
   </div>
 </template>
 

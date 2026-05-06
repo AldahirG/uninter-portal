@@ -14,11 +14,9 @@ const bannerData = {
         class="banner-slide__img"
       />
 
-      <!-- Degradados para oscurecer la imagen y asegurar que el texto sea legible -->
       <div class="banner-slide__overlay"></div>
       <div class="banner-slide__overlay2"></div>
 
-      <!-- Contenido sobrepuesto y centrado -->
       <div class="banner-content uninter-container">
         <div class="banner-inner">
           <h1 class="banner-title">
@@ -97,25 +95,24 @@ const bannerData = {
   );
 }
 
-/* --- CLASES DE CENTRADO --- */
 .banner-content {
   position: relative;
   z-index: 2;
   width: 100%;
   display: flex;
-  justify-content: center; /* Centra horizontalmente el contenedor interior */
+  justify-content: center; 
 }
 
 .banner-inner {
   max-width: 800px;
   width: 100%;
-  text-align: center; /* Centra el texto */
+  text-align: center;
 }
 
 .banner-title {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centra las líneas divididas por \n */
+  align-items: center; 
   font-family: var(--font-serif, Georgia, serif);
   font-size: clamp(2.2rem, 5vw, 4rem);
   font-weight: 700;
@@ -129,7 +126,6 @@ const bannerData = {
   display: block;
 }
 
-/* --- RESPONSIVE --- */
 @media (max-width: 768px) {
   .banner-section {
     --h: clamp(320px, 50vh, 420px);

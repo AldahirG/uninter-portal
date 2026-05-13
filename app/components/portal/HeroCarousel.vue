@@ -1,25 +1,14 @@
 <script setup lang="ts">
-import { Swiper, SwiperSlide } from 'swiper/vue'
-import { Autoplay, EffectFade } from 'swiper/modules'
-import { ref } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-vue-next'
 
 const WA_URL = 'https://wa.me/5217776154241?text=Hola%20vengo%20de%20la%20p%C3%A1gina%20de%20Universidad%2C%20necesito%20m%C3%A1s%20informaci%C3%B3n%20%E2%9C%8C%EF%B8%8F.'
 
+const DELAY = 5500
 const activeIndex = ref(0)
-const swiperRef = ref<any>(null)
-
-const onSwiper = (sw: any) => {
-  swiperRef.value = sw
-}
-
-const onSlideChange = (sw: any) => {
-  activeIndex.value = sw.realIndex
-}
-
-const prev = () => swiperRef.value?.slidePrev()
-const next = () => swiperRef.value?.slideNext()
-const goTo = (i: number) => swiperRef.value?.slideTo(i)
+const prevIndex   = ref<number | null>(null)
+const animating   = ref(false)
+let timer: ReturnType<typeof setTimeout> | null = null
 
 const slides = [
   {
@@ -28,8 +17,8 @@ const slides = [
     title: 'Forma tu futuro\nen UNINTER',
     subtitle: 'Secundaria · Bachillerato · Licenciatura · Posgrado. Cuernavaca, Morelos.',
     image: '/images/hero/ejecutivas.jpg',
-    cta: { label: 'Solicitar información', href: 'https://universidad.uninter.edu.mx/Admisiones' },
-    ctaGhost: { label: 'Ver oferta educativa', href: '#oferta' },
+    cta:      { label: 'Solicitar información', href: 'https://universidad.uninter.edu.mx/Admisiones' },
+    ctaGhost: { label: 'Ver oferta educativa',  href: '#oferta' },
   },
   {
     id: 2,
@@ -37,8 +26,8 @@ const slides = [
     title: 'Deporte, cultura\ny liderazgo',
     subtitle: 'Más de 40 actividades anuales. Formación integral dentro y fuera del aula.',
     image: '/images/hero/licenciaturas.jpg',
-    cta: { label: 'Conocer más', href: '#vida' },
-    ctaGhost: { label: 'Ver eventos', href: 'https://uninter.edu.mx/eventos/' },
+    cta:      { label: 'Conocer más', href: '#vida' },
+    ctaGhost: { label: 'Ver eventos',  href: 'https://uninter.edu.mx/eventos/' },
   },
   {
     id: 3,
@@ -46,8 +35,8 @@ const slides = [
     title: 'Aprende español\nen México',
     subtitle: 'Cursos intensivos para extranjeros. Cuernavaca, la ciudad de la eterna primavera.',
     image: '/images/hero/talleres.jpg',
-    cta: { label: 'Ver programa', href: 'https://spanishschool.uninter.edu.mx/' },
-    ctaGhost: { label: 'Admissions', href: 'https://spanishschool.uninter.edu.mx/Home' },
+    cta:      { label: 'Ver programa', href: 'https://spanishschool.uninter.edu.mx/' },
+    ctaGhost: { label: 'Admissions',   href: 'https://spanishschool.uninter.edu.mx/Home' },
   },
   {
     id: 4,
@@ -55,8 +44,8 @@ const slides = [
     title: 'Conoce UNINTER\nen persona',
     subtitle: 'Sesiones informativas presenciales y on demand. ¡Aparta tu lugar!',
     image: '/images/hero/ejecutivas.jpg',
-    cta: { label: 'Ver sesiones', href: 'https://uninter.edu.mx/sesiones-informativas/' },
-    ctaGhost: { label: 'On Demand', href: 'https://uninter.edu.mx/ondemand/' },
+    cta:      { label: 'Ver sesiones', href: 'https://uninter.edu.mx/sesiones-informativas/' },
+    ctaGhost: { label: 'On Demand',    href: 'https://uninter.edu.mx/ondemand/' },
   },
 ]
 
@@ -66,54 +55,72 @@ const stats = [
   { value: 'RVOE',   label: 'Acreditado SEP' },
   { value: 'ISO',    label: '9001:2015' },
 ]
+
+function goTo(i: number) {
+  if (animating.value || i === activeIndex.value) return
+  animating.value = true
+  prevIndex.value = activeIndex.value
+  activeIndex.value = i
+  resetTimer()
+  setTimeout(() => {
+    prevIndex.value = null
+    animating.value = false
+  }, 950)
+}
+
+function next() { goTo((activeIndex.value + 1) % slides.length) }
+function prev() { goTo((activeIndex.value - 1 + slides.length) % slides.length) }
+
+function resetTimer() {
+  if (timer) clearTimeout(timer)
+  timer = setTimeout(next, DELAY)
+}
+
+onMounted(() => resetTimer())
+onUnmounted(() => { if (timer) clearTimeout(timer) })
 </script>
 
 <template>
   <section class="hero-section">
-    <Swiper
-      :modules="[Autoplay, EffectFade]"
-      :autoplay="{ delay: 5500, disableOnInteraction: false, pauseOnMouseEnter: false }"
-      :loop="false"
-      :rewind="true"
-      effect="fade"
-      :fade-effect="{ crossFade: true }"
-      :allow-touch-move="true"
-      :speed="900"
-      class="hero-swiper"
-      @swiper="onSwiper"
-      @slide-change="onSlideChange"
-    >
-      <SwiperSlide v-for="slide in slides" :key="slide.id">
-        <div class="hero-slide">
-          <img :src="slide.image" :alt="slide.title" class="hero-slide__img" />
-          <div class="hero-slide__overlay"></div>
-          <div class="hero-slide__overlay2"></div>
 
-          <div class="hero-content uninter-container">
-            <div class="hero-inner">
-              <div class="hero-eyebrow">
-                <span class="hero-eyebrow__line"></span>
-                {{ slide.eyebrow }}
-              </div>
-              <h1 class="hero-title">
-                <span v-for="(line, i) in slide.title.split('\n')" :key="i" class="hero-title__line">
-                  {{ line }}
-                </span>
-              </h1>
-              <p class="hero-subtitle">{{ slide.subtitle }}</p>
-              <div class="hero-btns">
-                <a :href="slide.cta.href" target="_blank" class="hero-btn-primary">
-                  {{ slide.cta.label }} <ArrowRight :size="15" />
-                </a>
-                <a :href="slide.ctaGhost.href" class="hero-btn-ghost">
-                  {{ slide.ctaGhost.label }}
-                </a>
-              </div>
+    <div class="hero-track">
+      <div
+        v-for="(slide, i) in slides"
+        :key="slide.id"
+        class="hero-slide"
+        :class="{
+          'hero-slide--active': activeIndex === i,
+          'hero-slide--prev':   prevIndex   === i,
+        }"
+      >
+        <img :src="slide.image" :alt="slide.title" class="hero-slide__img" />
+        <div class="hero-slide__overlay"></div>
+        <div class="hero-slide__overlay2"></div>
+
+        <div class="hero-content uninter-container">
+          <div class="hero-inner">
+            <div class="hero-eyebrow">
+              <span class="hero-eyebrow__line"></span>
+              {{ slide.eyebrow }}
+            </div>
+            <h1 class="hero-title">
+              <span v-for="(line, li) in slide.title.split('\n')" :key="li" class="hero-title__line">
+                {{ line }}
+              </span>
+            </h1>
+            <p class="hero-subtitle">{{ slide.subtitle }}</p>
+            <div class="hero-btns">
+              <a :href="slide.cta.href" target="_blank" class="hero-btn-primary">
+                {{ slide.cta.label }} <ArrowRight :size="15" />
+              </a>
+              <a :href="slide.ctaGhost.href" class="hero-btn-ghost">
+                {{ slide.ctaGhost.label }}
+              </a>
             </div>
           </div>
         </div>
-      </SwiperSlide>
-    </Swiper>
+      </div>
+    </div>
 
     <!-- Nav buttons -->
     <button class="hero-nav hero-nav--prev" @click="prev" aria-label="Anterior">
@@ -142,6 +149,7 @@ const stats = [
         </div>
       </div>
     </div>
+
   </section>
 </template>
 
@@ -152,16 +160,58 @@ const stats = [
   overflow: hidden;
   background: #0F3C61;
 }
-.hero-swiper { height: var(--h); }
-.hero-slide { position: relative; width: 100%; height: var(--h); display: flex; align-items: center; }
-.hero-slide__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-.hero-swiper :deep(.swiper-slide-active) .hero-slide__img { animation: kb 8s ease forwards; }
+
+/* ── Track: define la altura, todos los slides apilados dentro ── */
+.hero-track {
+  position: relative;
+  height: var(--h);
+}
+
+/* Todos los slides absolutos, invisibles por default */
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .9s ease;
+  z-index: 0;
+}
+
+/* Slide saliente: empieza a desvanecerse (z-index menor que activo) */
+.hero-slide--prev {
+  opacity: 0;
+  z-index: 1;
+}
+
+/* Slide entrante: visible y encima */
+.hero-slide--active {
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 2;
+}
+
+/* Imagen de fondo */
+.hero-slide__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Kenburns solo en slide activo — se reinicia cada vez que entra */
+.hero-slide--active .hero-slide__img {
+  animation: kb 8s ease forwards;
+}
 @keyframes kb { from { transform: scale(1); } to { transform: scale(1.05); } }
-.hero-slide__overlay { position: absolute; inset: 0; background: linear-gradient(105deg, rgba(10,24,50,.88) 0%, rgba(10,24,50,.55) 50%, rgba(10,24,50,.15) 100%); }
+
+.hero-slide__overlay  { position: absolute; inset: 0; background: linear-gradient(105deg, rgba(10,24,50,.88) 0%, rgba(10,24,50,.55) 50%, rgba(10,24,50,.15) 100%); }
 .hero-slide__overlay2 { position: absolute; inset: 0; background: linear-gradient(to top, rgba(10,24,50,.65) 0%, transparent 55%); }
 
 .hero-content { position: relative; z-index: 2; width: 100%; }
-.hero-inner { max-width: 580px; }
+.hero-inner   { max-width: 580px; }
 
 .hero-eyebrow { display: flex; align-items: center; gap: .625rem; font-size: .7rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; color: #93c5fd; margin-bottom: 1rem; }
 .hero-eyebrow__line { display: block; width: 24px; height: 2px; background: #93c5fd; flex-shrink: 0; }
@@ -177,7 +227,7 @@ const stats = [
 .hero-btn-ghost { display: inline-flex; align-items: center; font-size: .84rem; font-weight: 600; padding: .7rem 1.4rem; border-radius: 6px; text-decoration: none; border: 1px solid rgba(255,255,255,.3); color: #fff; transition: background .2s; }
 .hero-btn-ghost:hover { background: rgba(255,255,255,.1); }
 
-.hero-nav { position: absolute; top: calc(50% - 26px); transform: translateY(-50%); z-index: 20; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.2); border-radius: 50%; color: #fff; cursor: pointer; backdrop-filter: blur(6px); transition: background .2s; }
+.hero-nav { position: absolute; top: calc(var(--h) / 2); transform: translateY(-50%); z-index: 20; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.2); border-radius: 50%; color: #fff; cursor: pointer; backdrop-filter: blur(6px); transition: background .2s; }
 .hero-nav:hover { background: rgba(255,255,255,.22); }
 .hero-nav--prev { left: 1.25rem; }
 .hero-nav--next { right: 1.25rem; }

@@ -31,11 +31,11 @@ const leftPrograms  = programs.slice(0, 5)
 const rightPrograms = programs.slice(5)
 
 const social = [
-  { icon: "mdi:facebook",  href: "https://www.facebook.com/uninter.mx" },
-  { icon: "mdi:instagram", href: "https://www.instagram.com/uninter.mx" },
-  { icon: "mdi:youtube",   href: "https://www.youtube.com/@unintermx" },
-  { icon: "mdi:linkedin",  href: "https://www.linkedin.com/school/uninter-mx" },
-  { icon: "mdi:tiktok",    href: "https://www.tiktok.com/@uninter.mx" },
+  { icon: "mdi:facebook",  href: "https://www.facebook.com/uninteredu" },
+  { icon: "mdi:instagram", href: "https://www.instagram.com/uninter_cuerna" },
+  { icon: "mdi:youtube",   href: "https://www.youtube.com/user/UniversidadUninter" },
+  { icon: "mdi:linkedin",  href: "https://www.linkedin.com/in/egresados-uninter/" },
+  { icon: "mdi:tiktok",    href: "https://www.tiktok.com/@uninter_cuerna" },
 ]
 </script>
 
@@ -47,7 +47,7 @@ const social = [
         <div class="nh-top__left">
           <a href="tel:7773579000" class="nh-tl"><Phone :size="11" /><span>777 357 9000</span></a>
           <a href="tel:7773579001" class="nh-tl nh-tl--hide"><Phone :size="11" /><span>777 357 9001</span></a>
-          <a href="mailto:info@uninter.edu.mx" class="nh-tl nh-tl--hidesm"><Mail :size="11" /><span>info@uninter.edu.mx</span></a>
+          <a href="/cdn-cgi/l/email-protection#eb8884859f8a889f84ab9e8582859f8e99c58e8f9ec58693" class="nh-tl nh-tl--hidesm"><Mail :size="11" /><span><span class="__cf_email__" data-cfemail="3d5e5253495c5e49527d4853545349584f13585948135045">[email&#160;protected]</span></span></a>
         </div>
         <div class="nh-top__right">
           <div class="nh-socials">
@@ -125,6 +125,9 @@ const social = [
           </li>
         </ul>
 
+        <a href="https://universidad.uninter.edu.mx/Calcula-Tu-Beca" target="_blank" class="nh-beca nh-beca--mobile">
+          Calcula tu Beca
+        </a>
         <button class="nh-hamburger" @click="mobileOpen = !mobileOpen" aria-label="Menú">
           <X v-if="mobileOpen" :size="20" />
           <Menu v-else :size="20" />
@@ -274,6 +277,9 @@ const social = [
   .nh-medallion__logo { width: 84px; height: 84px; }
 }
 
+/* Botón beca mobile: oculto por default, solo visible en mobile */
+.nh-beca--mobile { display: none; }
+
 @media (max-width: 860px) {
   .nh-plist { display: none; }
   .nh-hamburger { display: flex; }
@@ -292,6 +298,25 @@ const social = [
     position: relative;
   }
 
+  /* Ocultar beca del topbar en mobile, mostrar la de la barra */
+  .nh-top .nh-beca { display: none; }
+  .nh-beca--mobile {
+    display: inline-flex;
+    font-size: .7rem;
+    font-weight: 700;
+    color: #fff;
+    background: rgba(255,255,255,.15);
+    border: 1px solid rgba(255,255,255,.3);
+    padding: .22rem .75rem;
+    border-radius: 3px;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background .2s;
+    position: relative;
+    z-index: 2;
+  }
+  .nh-beca--mobile:hover { background: rgba(255,255,255,.26); }
+
   /* Hamburger: blanco sobre azul, a la derecha */
   .nh-hamburger {
     border-color: rgba(255,255,255,.3);
@@ -302,32 +327,32 @@ const social = [
   }
   .nh-hamburger:hover { background: rgba(255,255,255,.1); }
 
-  /* Medallón: sigue centrado absolute, misma forma que desktop */
+  /* Medallón: centrado absolute, idéntico al desktop */
   .nh-medallion {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: 0;
-    width: 110px;
+    width: var(--med-w);
     z-index: 1;
   }
   .nh-medallion__shell {
     flex-direction: column;
     align-items: center;
-    padding-top: 4px;
-    padding-bottom: 8px;
+    padding-top: 6px;
+    padding-bottom: 12px;
     border-radius: 0 0 46% 46% / 0 0 22% 22%;
-    border: 2px solid rgba(255,255,255,.4);
+    border: 2px solid #c8d8eb;
     background: #fff;
-    box-shadow: 0 4px 16px rgba(0,0,0,.2);
+    box-shadow: 0 6px 28px rgba(0,0,0,.22), inset 0 1px 0 rgba(255,255,255,.6);
     transform: none;
   }
   .nh-medallion:hover .nh-medallion__shell {
-    box-shadow: 0 6px 20px rgba(0,0,0,.25);
+    box-shadow: 0 10px 36px rgba(15,60,97,.32);
     transform: translateY(-2px);
   }
-  .nh-medallion__logo { width: 52px; height: 52px; filter: drop-shadow(0 1px 4px rgba(0,0,0,.2)); }
-  .nh-medallion__name { font-size: .62rem; letter-spacing: .14em; color: #0F3C61; margin-top: 1px; padding-bottom: 0; }
+  .nh-medallion__logo { width: 64px; height: 64px; filter: drop-shadow(0 2px 6px rgba(0,0,0,.3)); }
+  .nh-medallion__name { font-size: .72rem; font-weight: 800; color: #0F3C61; letter-spacing: .16em; margin-top: 2px; padding-bottom: 2px; }
 }
 
 @media (max-width: 640px) {
@@ -335,15 +360,18 @@ const social = [
   .nh-tl--hidesm { display: none; }
   .nh-socials    { display: none; }
   .nh-prog-bar   { height: 50px; }
-  .nh-medallion  { width: 96px; }
-  .nh-medallion__logo { width: 44px; height: 44px; }
-  .nh-medallion__name { font-size: .56rem; }
+  .nh-medallion  { width: 110px; }
+  .nh-medallion__logo { width: 52px; height: 52px; }
+  .nh-medallion__name { font-size: .62rem; }
+  .nh-beca--mobile { font-size: .65rem; padding: .2rem .6rem; }
 }
 
 @media (max-width: 380px) {
   .nh-tl { display: none; }
-  .nh-prog-bar__inner { padding: 0 .875rem; }
-  .nh-medallion { width: 84px; }
-  .nh-medallion__logo { width: 38px; height: 38px; }
+  .nh-medallion { width: 96px; }
+  .nh-medallion__logo { width: 44px; height: 44px; }
+  .nh-medallion__name { font-size: .56rem; }
+  .nh-beca--mobile { font-size: .6rem; padding: .18rem .5rem; }
 }
+
 </style>

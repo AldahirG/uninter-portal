@@ -125,8 +125,8 @@
 
 @layer base {
   * { @apply border-border outline-ring/50; }
-  html { @apply scroll-smooth; }
-  body { @apply bg-background text-foreground; letter-spacing: var(--tracking-normal); }
+  html { @apply scroll-smooth; overflow-x: clip; }
+  body { @apply bg-background text-foreground; letter-spacing: var(--tracking-normal); overflow-x: clip; }
 }
 
 /* Utilidades globales del portal */

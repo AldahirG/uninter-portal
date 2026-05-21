@@ -1,219 +1,255 @@
-<script setup lang="ts">
-import {
-  Sparkles,
-  GraduationCap,
-  BrainCircuit,
-  BrainCircuitIcon,
-} from "lucide-vue-next";
+﻿<script setup lang="ts">
+import { GraduationCap, Globe, Building2, Star } from "lucide-vue-next";
+
+const stats = [
+  { icon: Star,        value: "1980",    label: "Año de fundación"              },
+  { icon: GraduationCap, value: "71,000+", label: "Egresados mexicanos y extranjeros" },
+  { icon: Globe,       value: "130+",    label: "Universidades aliadas en el mundo" },
+  { icon: Building2,   value: "25",      label: "Países representados en campus" },
+];
+
+const pillars = [
+  {
+    title: "Formación internacional",
+    desc: "Idiomas curriculares, materias en inglés y francés, y certificaciones internacionales incluidas en tu licenciatura.",
+  },
+  {
+    title: "Conexión profesional",
+    desc: "Más de 1,500 convenios empresariales para prácticas profesionales desde el primer año.",
+  },
+  {
+    title: "Garantía de calidad",
+    desc: "Certificación ISO 9001:2015, acreditación FIMPES y más de 40 años en rankings de las mejores universidades.",
+  },
+];
 </script>
 
 <template>
   <section class="welcome-section">
     <div class="uninter-container">
-      <div class="welcome-grid">
-        <!-- Columna Izquierda: Texto Principal -->
-        <div class="welcome-content">
-          <div class="section-eyebrow">
-            <span class="eyebrow-line"></span> COMUNIDAD UNINTER
-          </div>
 
+      <!-- Eyebrow -->
+      <div class="section-eyebrow">
+        <span class="eyebrow-line"></span>
+        COMUNIDAD UNINTER
+      </div>
+
+      <!-- Encabezado + descripción -->
+      <div class="welcome-top">
+        <div class="welcome-text">
           <h2 class="section-title">
-            Bienvenido a la <br />
+            Bienvenido a la<br />
             <span class="title-highlight">comunidad UNINTER</span>
           </h2>
-
-          <p class="section-text">
-            Desde 1980, nuestra Institución está comprometida a ofrecer una
-            educación de calidad para ayudar a que personas como tú alcancen sus
-            metas educativas y personales.
-          </p>
-          <p class="section-text">
-            Queremos que te unas a más de
-            <strong>71,000 profesionistas mexicanos y extranjeros</strong>
-            egresados de la Universidad Internacional, que hoy son capaces de
-            alcanzar sus sueños y aspiraciones profesionales. Tú como ellos
-            puedes dar el primer paso al integrarte al camino de la preparación
-            para el futuro, mientras nosotros te apoyaremos e impulsaremos a lo
-            largo de este camino.
+          <p class="section-desc">
+            Desde 1980, formamos profesionistas con conocimientos sólidos,
+            pensamiento creativo y visión global. Únete a más de
+            <strong>71,000 egresados mexicanos y extranjeros</strong> que hoy
+            son líderes en sus industrias.
           </p>
         </div>
 
-        <!-- Columna Derecha: Tarjeta de Resalte (Estilo limpio de tu diseño) -->
-        <div class="welcome-highlight">
-          <div class="info-card">
-            <div class="card-icon-wrapper">
-              <BrainCircuitIcon :size="24" class="card-icon" />
-            </div>
-            <h3 class="card-title">Pensamiento creativo e innovador</h3>
-            <p class="card-text">
-              En Universidad Internacional formamos jóvenes con conocimientos
-              sólidos, los cuales son complementados con programas de lenguas
-              extranjeras y materias prácticas.
-            </p>
-            <p class="card-text">
-              Esto les permite desarrollar su pensamiento creativo y continuar
-              sus estudios profesionales con <strong>garantía de éxito.</strong>
-            </p>
-
-            <!-- Detalle decorativo sutil -->
-            <div class="card-footer">
-              <GraduationCap :size="16" class="footer-icon" />
-              <span>Preparación para el futuro</span>
+        <!-- Tarjeta de pilares -->
+        <div class="welcome-pillars">
+          <div
+            v-for="(p, i) in pillars"
+            :key="i"
+            class="pillar-item"
+          >
+            <span class="pillar-num">0{{ i + 1 }}</span>
+            <div>
+              <p class="pillar-title">{{ p.title }}</p>
+              <p class="pillar-desc">{{ p.desc }}</p>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Stats -->
+      <div class="welcome-stats">
+        <div v-for="stat in stats" :key="stat.label" class="stat-card">
+          <div class="stat-card__icon">
+            <component :is="stat.icon" :size="22" />
+          </div>
+          <p class="stat-card__value">{{ stat.value }}</p>
+          <p class="stat-card__label">{{ stat.label }}</p>
+        </div>
+      </div>
+
     </div>
   </section>
 </template>
 
 <style scoped>
-/* Contenedor principal alineado con tu layout */
 .uninter-container {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
 
-/* Sección con mucho respiro (padding) para ese look relajado y limpio */
 .welcome-section {
-  padding: 6rem 0;
-  background-color: #fafafa; /* Un gris muuuy sutil, casi blanco, para separar secciones */
+  padding: 6rem 0 5rem;
+  background: #ffffff;
 }
 
-/* Grid para dividir en dos columnas en escritorio */
-.welcome-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 3rem;
-  align-items: center;
-}
-
-@media (min-width: 860px) {
-  .welcome-grid {
-    grid-template-columns: 1.1fr 0.9fr;
-    gap: 5rem;
-  }
-}
-
-/* --- ESTILOS TEXTO IZQUIERDO (Basado en tu imagen) --- */
+/* Eyebrow */
 .section-eyebrow {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   font-weight: 800;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #0f3c61; /* Azul principal */
-  margin-bottom: 1.25rem;
+  color: #0f3c61;
+  margin-bottom: 2rem;
 }
-
 .eyebrow-line {
   display: block;
   width: 24px;
   height: 2px;
   background: #0f3c61;
+  flex-shrink: 0;
+}
+
+/* Top grid */
+.welcome-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+  margin-bottom: 3.5rem;
 }
 
 .section-title {
   font-family: var(--font-serif, Georgia, serif);
   font-size: clamp(2rem, 4vw, 3rem);
-  font-weight: 700;
-  line-height: 1.15;
-  color: #1e293b; /* Tono oscuro suave */
-  margin-bottom: 1.5rem;
+  font-weight: 800;
+  line-height: 1.12;
+  color: #1e293b;
+  margin: 0 0 1.25rem;
   letter-spacing: -0.02em;
 }
+.title-highlight { color: #0f3c61; }
 
-.title-highlight {
-  color: #0f3c61; /* Azul UNINTER */
+.section-desc {
+  font-size: 1rem;
+  color: #475569;
+  line-height: 1.72;
+  margin: 0;
 }
+.section-desc strong { color: #0f3c61; font-weight: 700; }
 
-.section-text {
-  font-size: 1.05rem;
-  color: #475569; /* Gris pizarra legible y moderno */
-  line-height: 1.7;
-  margin-bottom: 1.25rem;
-}
-.section-text strong {
-  color: #0f3c61;
-  font-weight: 600;
-}
-
-/* --- ESTILOS TARJETA DERECHA (Basado en tus Historias de Éxito) --- */
-.info-card {
-  background: #ffffff;
+/* Pilares */
+.welcome-pillars {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
   border: 1px solid #e2e8f0;
-  border-radius: 12px;
-  padding: 2.5rem;
-  box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.04);
-  position: relative;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+  border-radius: 16px;
+  overflow: hidden;
 }
 
-.info-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 15px 40px -10px rgba(0, 0, 0, 0.08);
+.pillar-item {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  padding: 1.4rem 1.75rem;
+  border-bottom: 1px solid #e2e8f0;
+  transition: background 0.2s;
+}
+.pillar-item:last-child { border-bottom: none; }
+.pillar-item:hover { background: #f8fafc; }
+
+.pillar-num {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #dceaf7;
+  line-height: 1;
+  font-family: var(--font-serif, Georgia, serif);
+  flex-shrink: 0;
+  min-width: 2rem;
 }
 
-/* Círculo con el ícono (Estilo de las iniciales en tu imagen) */
-.card-icon-wrapper {
-  width: 48px;
-  height: 48px;
-  background-color: #1565c0; /* Azul vibrante */
-  border-radius: 50%;
+.pillar-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #0f3c61;
+  margin: 0 0 0.25rem;
+}
+.pillar-desc {
+  font-size: 0.82rem;
+  color: #64748b;
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* Stats strip */
+.welcome-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: #e2e8f0;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.stat-card {
+  background: #f8fafc;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  transition: background 0.2s;
+}
+.stat-card:hover { background: #fff; }
+
+.stat-card__icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: #1565c018;
+  color: #1565c0;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.25rem;
 }
 
-.card-title {
-  font-size: 1.25rem;
-  font-weight: 700;
+.stat-card__value {
+  font-size: clamp(1.6rem, 2.5vw, 2.1rem);
+  font-weight: 900;
   color: #0f3c61;
-  margin-bottom: 1rem;
-  line-height: 1.3;
+  margin: 0;
+  line-height: 1;
+  font-family: var(--font-serif, Georgia, serif);
 }
 
-.card-text {
-  font-size: 0.95rem;
+.stat-card__label {
+  font-size: 0.72rem;
   color: #64748b;
-  line-height: 1.6;
-  margin-bottom: 1rem;
-}
-.card-text strong {
-  color: #1e293b;
-}
-
-.card-footer {
-  margin-top: 2rem;
-  padding-top: 1.25rem;
-  border-top: 1px solid #f1f5f9;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.8rem;
   font-weight: 600;
-  color: #94a3b8;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-.footer-icon {
-  color: #1565c0;
+  margin: 0;
+  line-height: 1.35;
 }
 
-/* --- RESPONSIVE ADICIONAL --- */
-@media (max-width: 640px) {
-  .welcome-section {
-    padding: 4rem 0;
+/* Responsive */
+@media (max-width: 900px) {
+  .welcome-top {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
   }
-  .info-card {
-    padding: 1.75rem;
+  .welcome-stats {
+    grid-template-columns: repeat(2, 1fr);
   }
+}
+
+@media (max-width: 560px) {
+  .welcome-section { padding: 4rem 0 3.5rem; }
+  .welcome-stats { grid-template-columns: repeat(2, 1fr); }
+  .stat-card { padding: 1.5rem 1rem; }
 }
 </style>

@@ -4,7 +4,7 @@
       
       <!-- Logo -->
       <NuxtLink to="/" class="flex items-center gap-3">
-        <img src="/logo-uninter.svg" alt="UNINTER" class="h-10" />
+        <img src="/images/logo-uninter.png" alt="UNINTER" class="h-10" />
       </NuxtLink>
 
       <!-- Navegación -->

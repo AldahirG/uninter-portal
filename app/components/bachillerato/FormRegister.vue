@@ -1,19 +1,19 @@
 ﻿<script setup lang="ts">
 import { ref } from "vue";
-import { User, Phone, Mail, BookOpen, Send, RefreshCcw, HandshakeIcon, CheckCircle2 } from "lucide-vue-next";
+import { User, Phone, Mail, BookOpen, Send, RefreshCcw, GraduationCap, CheckCircle2 } from "lucide-vue-next";
 
 const form = ref({
   nombre: "",
   telefono: "",
   correo: "",
-  programa: "",
+  modalidad: "",
   avisoPrivacidad: false,
 });
 
 const isSubmitting = ref(false);
 const submitted = ref(false);
 
-const enviarRegistro = () => {
+const enviar = () => {
   isSubmitting.value = true;
   setTimeout(() => {
     isSubmitting.value = false;
@@ -23,122 +23,87 @@ const enviarRegistro = () => {
 
 const reiniciar = () => {
   submitted.value = false;
-  form.value = { nombre: "", telefono: "", correo: "", programa: "", avisoPrivacidad: false };
+  form.value = { nombre: "", telefono: "", correo: "", modalidad: "", avisoPrivacidad: false };
 };
-
-const programas = [
-  "Ciencias Sociales y Humanidades",
-  "Negocios y Administración",
-  "Diseño y Artes",
-  "Ingeniería",
-];
 </script>
 
 <template>
   <section class="reg-section">
-    <div class="uninter-container">
+    <div class="biu-container">
       <div class="reg-card">
 
         <!-- Lado formulario -->
         <div class="reg-form-side">
           <Transition name="fade" mode="out-in">
-            <!-- Estado enviado -->
+            <!-- Éxito -->
             <div v-if="submitted" key="success" class="reg-success">
-              <div class="success-icon-wrap">
-                <CheckCircle2 :size="52" class="success-icon" />
-              </div>
+              <CheckCircle2 :size="54" class="success-icon" />
               <h2 class="success-title">¡Registro enviado!</h2>
               <p class="success-desc">
                 Gracias, <strong>{{ form.nombre || "aspirante" }}</strong>. Un asesor
-                se pondrá en contacto contigo a la brevedad para guiarte en tu
-                proceso de admisión.
+                BIU se pondrá en contacto contigo para acompañarte en tu proceso.
               </p>
               <button @click="reiniciar" class="reg-btn reg-btn--outline">
-                <RefreshCcw :size="15" /> Nuevo registro
+                <RefreshCcw :size="14" /> Nuevo registro
               </button>
             </div>
 
             <!-- Formulario -->
             <div v-else key="form">
-              <div class="reg-form-header">
+              <div class="reg-header">
                 <div class="reg-eyebrow">
-                  <HandshakeIcon :size="14" />
+                  <GraduationCap :size="14" />
                   <span>¡Únete a la legión!</span>
                 </div>
-                <h2 class="reg-title">¡Bienvenido a UNINTER!</h2>
+                <h2 class="reg-title">¡Bienvenido a BIU!</h2>
                 <p class="reg-subtitle">
-                  Completa el formulario y da el primer paso hacia tu
-                  licenciatura presencial.
+                  Completa el formulario y comienza tu camino en el Bachillerato
+                  Bilingüe &amp; Multicultural de UNINTER.
                 </p>
               </div>
 
-              <form @submit.prevent="enviarRegistro" class="reg-form">
+              <form @submit.prevent="enviar" class="reg-form">
                 <!-- Nombre -->
                 <div class="reg-field">
-                  <label class="reg-label" for="reg-nombre">Nombre completo</label>
+                  <label class="reg-label" for="biu-nombre">Nombre completo</label>
                   <div class="reg-input-wrap">
                     <User :size="16" class="reg-icon" />
-                    <input
-                      id="reg-nombre"
-                      type="text"
-                      v-model="form.nombre"
-                      placeholder="Tu nombre completo"
-                      required
-                      class="reg-input"
-                    />
+                    <input id="biu-nombre" type="text" v-model="form.nombre" placeholder="Tu nombre completo" required class="reg-input" />
                   </div>
                 </div>
 
                 <!-- Teléfono -->
                 <div class="reg-field">
-                  <label class="reg-label" for="reg-tel">Teléfono</label>
+                  <label class="reg-label" for="biu-tel">Teléfono</label>
                   <div class="reg-input-wrap">
                     <span class="reg-prefix">MX +52</span>
-                    <input
-                      id="reg-tel"
-                      type="tel"
-                      v-model="form.telefono"
-                      placeholder="10 dígitos"
-                      required
-                      class="reg-input reg-input--prefix"
-                    />
+                    <input id="biu-tel" type="tel" v-model="form.telefono" placeholder="10 dígitos" required class="reg-input reg-input--prefix" />
                   </div>
                 </div>
 
                 <!-- Correo -->
                 <div class="reg-field">
-                  <label class="reg-label" for="reg-email">Correo electrónico</label>
+                  <label class="reg-label" for="biu-email">Correo electrónico</label>
                   <div class="reg-input-wrap">
                     <Mail :size="16" class="reg-icon" />
-                    <input
-                      id="reg-email"
-                      type="email"
-                      v-model="form.correo"
-                      placeholder="correo@ejemplo.com"
-                      required
-                      class="reg-input"
-                    />
+                    <input id="biu-email" type="email" v-model="form.correo" placeholder="correo@ejemplo.com" required class="reg-input" />
                   </div>
                 </div>
 
-                <!-- Programa -->
+                <!-- Modalidad -->
                 <div class="reg-field">
-                  <label class="reg-label" for="reg-prog">Área de interés</label>
+                  <label class="reg-label" for="biu-mod">Modalidad de interés</label>
                   <div class="reg-input-wrap">
                     <BookOpen :size="16" class="reg-icon" />
-                    <select
-                      id="reg-prog"
-                      v-model="form.programa"
-                      required
-                      class="reg-input reg-select"
-                    >
-                      <option value="" disabled>Selecciona un área</option>
-                      <option v-for="p in programas" :key="p" :value="p">{{ p }}</option>
+                    <select id="biu-mod" v-model="form.modalidad" required class="reg-input reg-select">
+                      <option value="" disabled>Selecciona una modalidad</option>
+                      <option value="bilingue">BIU Bilingüe</option>
+                      <option value="multicultural">BIU Multicultural</option>
                     </select>
                   </div>
                 </div>
 
-                <!-- Aviso -->
+                <!-- Checkbox -->
                 <label class="reg-checkbox">
                   <input type="checkbox" v-model="form.avisoPrivacidad" class="reg-check-input" />
                   <span class="reg-check-box"></span>
@@ -156,20 +121,12 @@ const programas = [
                     <span>No soy un robot</span>
                   </label>
                   <div class="captcha-brand">
-                    <img
-                      src="https://www.gstatic.com/recaptcha/api2/logo_48.png"
-                      alt="reCAPTCHA"
-                      width="24"
-                    />
+                    <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA" width="24" />
                     <small>reCAPTCHA</small>
                   </div>
                 </div>
 
-                <button
-                  type="submit"
-                  :disabled="isSubmitting || !form.avisoPrivacidad"
-                  class="reg-btn"
-                >
+                <button type="submit" :disabled="isSubmitting || !form.avisoPrivacidad" class="reg-btn">
                   <span v-if="!isSubmitting">Enviar registro</span>
                   <span v-else>Enviando...</span>
                   <Send v-if="!isSubmitting" :size="15" />
@@ -183,11 +140,7 @@ const programas = [
         <!-- Lado mascota -->
         <div class="reg-mascot-side">
           <div class="mascot-wrap">
-            <img
-              src="/images/forms/legi-mascot.png"
-              alt="Mascota Legi UNINTER"
-              class="mascot-img"
-            />
+            <img src="/images/forms/legi-mascot.png" alt="Mascota Legi UNINTER" class="mascot-img" />
           </div>
         </div>
 
@@ -197,29 +150,28 @@ const programas = [
 </template>
 
 <style scoped>
-.uninter-container {
+.biu-container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
 
-/* ── Sección ───────────────────────────────────────────────── */
 .reg-section {
-  background: #eef2f6;
+  background: #f1f8f0;
   padding: 5rem 0;
 }
 
-/* ── Tarjeta ───────────────────────────────────────────────── */
+/* Tarjeta */
 .reg-card {
   display: flex;
   background: #fff;
   border-radius: 24px;
   overflow: hidden;
-  box-shadow: 0 24px 60px rgba(15,60,97,0.12);
-  min-height: 580px;
+  box-shadow: 0 24px 60px rgba(74,122,2,0.12);
+  min-height: 560px;
 }
 
-/* ── Lado formulario ───────────────────────────────────────── */
+/* Lado formulario */
 .reg-form-side {
   flex: 1.25;
   padding: 3.5rem;
@@ -237,13 +189,12 @@ const programas = [
   gap: 0.875rem;
   padding: 2rem 0;
 }
-.success-icon-wrap { }
-.success-icon { color: #10b981; }
+.success-icon { color: #6BAF04; }
 .success-title {
   font-family: var(--font-serif, Georgia, serif);
   font-size: 1.8rem;
   font-weight: 800;
-  color: #0f3c61;
+  color: #4A7A02;
   margin: 0;
 }
 .success-desc {
@@ -253,31 +204,29 @@ const programas = [
   margin: 0;
   max-width: 340px;
 }
-.success-desc strong { color: #0f3c61; }
+.success-desc strong { color: #4A7A02; }
 
 /* Header */
 .reg-eyebrow {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  background: #f0f6fc;
-  color: #1565c0;
+  background: #e8f5e9;
+  color: #6BAF04;
   font-size: 0.75rem;
   font-weight: 700;
   padding: 0.35rem 0.75rem;
   border-radius: 20px;
   margin-bottom: 1rem;
 }
-
 .reg-title {
   font-family: var(--font-serif, Georgia, serif);
   font-size: clamp(1.7rem, 3vw, 2.2rem);
   font-weight: 800;
-  color: #0f3c61;
+  color: #4A7A02;
   margin: 0 0 0.5rem;
   line-height: 1.15;
 }
-
 .reg-subtitle {
   font-size: 0.9rem;
   color: #64748b;
@@ -286,18 +235,8 @@ const programas = [
 }
 
 /* Formulario */
-.reg-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.reg-field {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-}
-
+.reg-form { display: flex; flex-direction: column; gap: 1rem; }
+.reg-field { display: flex; flex-direction: column; gap: 0.35rem; }
 .reg-label {
   font-size: 0.7rem;
   font-weight: 700;
@@ -305,7 +244,6 @@ const programas = [
   text-transform: uppercase;
   color: #64748b;
 }
-
 .reg-input-wrap {
   display: flex;
   align-items: center;
@@ -317,12 +255,10 @@ const programas = [
   transition: border-color 0.2s, box-shadow 0.2s;
 }
 .reg-input-wrap:focus-within {
-  border-color: #1565c0;
-  box-shadow: 0 0 0 3px rgba(21,101,192,0.1);
+  border-color: #6BAF04;
+  box-shadow: 0 0 0 3px rgba(107,175,4,0.12);
 }
-
 .reg-icon { color: #94a3b8; flex-shrink: 0; }
-
 .reg-input {
   width: 100%;
   border: none;
@@ -333,7 +269,6 @@ const programas = [
   color: #1e293b;
 }
 .reg-input::placeholder { color: #94a3b8; }
-
 .reg-prefix {
   font-size: 0.82rem;
   font-weight: 600;
@@ -344,17 +279,9 @@ const programas = [
   flex-shrink: 0;
 }
 .reg-input--prefix { padding-left: 0.5rem; }
+.reg-select { appearance: none; cursor: pointer; }
 
-.reg-select {
-  appearance: none;
-  cursor: pointer;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right 1rem center;
-  padding-right: 2.5rem;
-}
-
-/* Checkbox personalizado */
+/* Checkbox */
 .reg-checkbox {
   display: flex;
   align-items: flex-start;
@@ -372,10 +299,7 @@ const programas = [
   transition: border-color 0.2s, background 0.2s;
   position: relative;
 }
-.reg-check-input:checked + .reg-check-box {
-  background: #1565c0;
-  border-color: #1565c0;
-}
+.reg-check-input:checked + .reg-check-box { background: #6BAF04; border-color: #6BAF04; }
 .reg-check-input:checked + .reg-check-box::after {
   content: "";
   position: absolute;
@@ -388,12 +312,8 @@ const programas = [
   border-left: none;
   transform: rotate(45deg);
 }
-.reg-check-label {
-  font-size: 0.72rem;
-  color: #64748b;
-  line-height: 1.5;
-}
-.reg-link { color: #1565c0; text-decoration: underline; }
+.reg-check-label { font-size: 0.72rem; color: #64748b; line-height: 1.5; }
+.reg-link { color: #6BAF04; text-decoration: underline; }
 
 /* reCAPTCHA */
 .reg-captcha {
@@ -414,16 +334,8 @@ const programas = [
   color: #333;
   cursor: pointer;
 }
-.captcha-check {
-  width: 22px;
-  height: 22px;
-  cursor: pointer;
-}
-.captcha-brand {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+.captcha-check { width: 22px; height: 22px; cursor: pointer; }
+.captcha-brand { display: flex; flex-direction: column; align-items: center; }
 .captcha-brand small { font-size: 0.5rem; color: #555; }
 
 /* Botón */
@@ -432,9 +344,9 @@ const programas = [
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  background: #1565c0;
+  background: #6BAF04;
   color: #fff;
-  border: 2px solid #1565c0;
+  border: 2px solid #6BAF04;
   border-radius: 10px;
   padding: 0.875rem 1.5rem;
   font-size: 0.92rem;
@@ -442,88 +354,56 @@ const programas = [
   cursor: pointer;
   transition: all 0.2s;
 }
-.reg-btn:hover:not(:disabled) {
-  background: #0f3c61;
-  border-color: #0f3c61;
-  transform: translateY(-1px);
-}
-.reg-btn:disabled {
-  background: #cbd5e1;
-  border-color: #cbd5e1;
-  cursor: not-allowed;
-}
-.reg-btn--outline {
-  background: transparent;
-  color: #1565c0;
-  border-color: #1565c0;
-}
-.reg-btn--outline:hover {
-  background: #f0f6fc;
-  transform: translateY(-1px);
-}
+.reg-btn:hover:not(:disabled) { background: #4A7A02; border-color: #4A7A02; transform: translateY(-1px); }
+.reg-btn:disabled { background: #cbd5e1; border-color: #cbd5e1; cursor: not-allowed; }
+.reg-btn--outline { background: transparent; color: #6BAF04; border-color: #6BAF04; }
+.reg-btn--outline:hover { background: #e8f5e9; transform: translateY(-1px); }
 
 .spin { animation: spin 1s linear infinite; }
 @keyframes spin { 100% { transform: rotate(360deg); } }
 
-/* Animación fade */
 .fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.25s ease, transform 0.25s ease;
-}
+.fade-leave-active { transition: opacity 0.25s ease, transform 0.25s ease; }
 .fade-enter-from,
-.fade-leave-to {
-  opacity: 0;
-  transform: translateY(8px);
-}
+.fade-leave-to { opacity: 0; transform: translateY(8px); }
 
-/* ── Lado mascota ──────────────────────────────────────────── */
+/* Mascota */
 .reg-mascot-side {
   flex: 0.75;
-  background: linear-gradient(145deg, #1a73e8 0%, #0f3c61 100%);
+  background: linear-gradient(145deg, #6BAF04 0%, #0d1f0e 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   position: relative;
 }
-
 .reg-mascot-side::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 30% 70%, rgba(255,255,255,0.07) 0%, transparent 60%);
+  background: radial-gradient(circle at 30% 70%, rgba(255,255,255,0.06) 0%, transparent 60%);
 }
-
 .mascot-wrap {
   width: 85%;
   max-width: 300px;
   position: relative;
   z-index: 1;
 }
-
 .mascot-img {
   width: 100%;
   height: auto;
   object-fit: contain;
-  filter: drop-shadow(0 20px 30px rgba(0,0,0,0.35));
+  filter: drop-shadow(0 20px 30px rgba(0,0,0,0.4));
 }
 
-/* ── Responsive ────────────────────────────────────────────── */
+/* Responsive */
 @media (max-width: 900px) {
-  .reg-card {
-    flex-direction: column-reverse;
-  }
-  .reg-mascot-side {
-    padding: 2.5rem 0;
-    min-height: 200px;
-  }
+  .reg-card { flex-direction: column-reverse; }
+  .reg-mascot-side { padding: 2.5rem 0; min-height: 200px; }
   .mascot-wrap { width: 50%; }
-  .reg-form-side {
-    padding: 2.5rem 1.75rem;
-  }
+  .reg-form-side { padding: 2.5rem 1.75rem; }
   .reg-captcha { max-width: 100%; }
 }
-
 @media (max-width: 560px) {
   .reg-section { padding: 3rem 0; }
   .reg-form-side { padding: 2rem 1.25rem; }

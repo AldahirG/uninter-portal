@@ -1,0 +1,118 @@
+{
+  "categories": [
+    { "label": "Todas las materias", "value": "all" },
+    { "label": "🎥 Producción Audiovisual", "value": "audiovisual" },
+    { "label": "✍️ Periodismo y Medios", "value": "periodismo" },
+    { "label": "📈 Marketing y R.P.", "value": "marketing" },
+    { "label": "🌐 Formación General", "value": "general" }
+  ],
+  "syllabus": [
+    {
+      "id": "sem-1-2",
+      "tabLabel": "Semestres 1 y 2",
+      "blocks": [
+        {
+          "title": "Primer Semestre",
+          "subjects": [
+            { "name": "Teorías de la Comunicación I", "tag": "periodismo" },
+            { "name": "Fundamentos Técnicos de los Medios de Comunicación", "tag": "audiovisual" },
+            { "name": "Análisis Estadístico", "tag": "general" },
+            { "name": "Taller de Ortografía, Lectura y Redacción", "tag": "periodismo" },
+            { "name": "Fotografía Digital", "tag": "audiovisual" },
+            { "name": "Lengua Extranjera I", "tag": "general" }
+          ]
+        },
+        {
+          "title": "Segundo Semestre",
+          "subjects": [
+            { "name": "Historia Mundial Contemporánea", "tag": "general" },
+            { "name": "Teorías de la Comunicación II", "tag": "periodismo" },
+            { "name": "Mercadotecnia Básica", "tag": "marketing" },
+            { "name": "Taller de Expresión Oral y Escrita", "tag": "periodismo" },
+            { "name": "Computación", "tag": "general" },
+            { "name": "Lengua Extranjera II", "tag": "general" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-3-4",
+      "tabLabel": "Semestres 3 y 4",
+      "blocks": [
+        {
+          "title": "Tercer Semestre",
+          "subjects": [
+            { "name": "Géneros Periodísticos", "tag": "periodismo" },
+            { "name": "Producción de Radio", "tag": "audiovisual" },
+            { "name": "Relaciones Públicas", "tag": "marketing" },
+            { "name": "Comunicación Organizacional", "tag": "marketing" },
+            { "name": "Diseño Gráfico Básico", "tag": "general" },
+            { "name": "Lengua Extranjera III", "tag": "general" }
+          ]
+        },
+        {
+          "title": "Cuarto Semestre",
+          "subjects": [
+            { "name": "Producción de Televisión", "tag": "audiovisual" },
+            { "name": "Guionismo Audiovisual", "tag": "audiovisual" },
+            { "name": "Comunicación Política", "tag": "general" },
+            { "name": "Publicidad Estratégica", "tag": "marketing" },
+            { "name": "Edición Digital", "tag": "audiovisual" },
+            { "name": "Lengua Extranjera IV", "tag": "general" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-5-6",
+      "tabLabel": "Semestres 5 y 6",
+      "blocks": [
+        {
+          "title": "Quinto Semestre",
+          "subjects": [
+            { "name": "Cine y Narrativa Visual", "tag": "audiovisual" },
+            { "name": "Investigación Cuantitativa", "tag": "general" },
+            { "name": "Legislación de los Medios", "tag": "general" },
+            { "name": "Marketing Digital", "tag": "marketing" },
+            { "name": "Optativa I", "tag": "general" }
+          ]
+        },
+        {
+          "title": "Sexto Semestre",
+          "subjects": [
+            { "name": "Periodismo Digital", "tag": "periodismo" },
+            { "name": "Gestión de Redes Sociales", "tag": "marketing" },
+            { "name": "Investigación Cualitativa", "tag": "general" },
+            { "name": "Dirección de Arte", "tag": "audiovisual" },
+            { "name": "Optativa II", "tag": "general" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-7-8",
+      "tabLabel": "Semestres 7 y 8",
+      "blocks": [
+        {
+          "title": "Séptimo Semestre",
+          "subjects": [
+            { "name": "Seminario de Titulación I", "tag": "periodismo" },
+            { "name": "Producción Transmedia", "tag": "audiovisual" },
+            { "name": "Ética Profesional", "tag": "general" },
+            { "name": "Desarrollo de Emprendedores", "tag": "marketing" },
+            { "name": "Prácticas Profesionales I", "tag": "general" }
+          ]
+        },
+        {
+          "title": "Octavo Semestre",
+          "subjects": [
+            { "name": "Seminario de Titulación II", "tag": "periodismo" },
+            { "name": "Portafolio Profesional", "tag": "audiovisual" },
+            { "name": "Análisis de la Cultura Contemporánea", "tag": "periodismo" },
+            { "name": "Prácticas Profesionales II", "tag": "general" }
+          ]
+        }
+      ]
+    }
+  ]
+}

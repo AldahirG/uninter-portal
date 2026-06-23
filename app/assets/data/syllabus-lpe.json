@@ -1,0 +1,118 @@
+{
+  "categories": [
+    { "label": "Todas las materias", "value": "all" },
+    { "label": "🧠 Teoría y Psicopedagogía", "value": "teoria" },
+    { "label": "📐 Diseño Curricular", "value": "curricular" },
+    { "label": "⚡ Tecnología Educativa", "value": "tecnologia" },
+    { "label": "🏫 Gestión e Inclusión", "value": "gestion" }
+  ],
+  "syllabus": [
+    {
+      "id": "sem-1-2",
+      "tabLabel": "Semestres 1 y 2",
+      "blocks": [
+        {
+          "title": "Primer Semestre",
+          "subjects": [
+            { "name": "Introducción a la Pedagogía", "tag": "teoria" },
+            { "name": "Psicología del Desarrollo Humano I", "tag": "teoria" },
+            { "name": "Historia de la Educación en México", "tag": "teoria" },
+            { "name": "Sociología de la Educación", "tag": "teoria" },
+            { "name": "Taller de Redacción y Expresión Oral", "tag": "teoria" },
+            { "name": "Lengua Extranjera I", "tag": "teoria" }
+          ]
+        },
+        {
+          "title": "Segundo Semestre",
+          "subjects": [
+            { "name": "Teorías del Aprendizaje", "tag": "teoria" },
+            { "name": "Psicología del Desarrollo Humano II", "tag": "teoria" },
+            { "name": "Epistemología de la Educación", "tag": "teoria" },
+            { "name": "Estadística para Ciencias Sociales", "tag": "teoria" },
+            { "name": "Metodología de la Investigación Pedagógica", "tag": "teoria" },
+            { "name": "Lengua Extranjera II", "tag": "teoria" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-3-4",
+      "tabLabel": "Semestres 3 y 4",
+      "blocks": [
+        {
+          "title": "Tercer Semestre",
+          "subjects": [
+            { "name": "Didáctica General y Modelos Docentes", "tag": "teoria" },
+            { "name": "Psicología Educativa y del Aprendizaje", "tag": "teoria" },
+            { "name": "Teoría y Diseño Curricular", "tag": "curricular" },
+            { "name": "Evaluación del Aprendizaje Escolar", "tag": "curricular" },
+            { "name": "Introducción a la Tecnología Educativa", "tag": "tecnologia" },
+            { "name": "Lengua Extranjera III", "tag": "teoria" }
+          ]
+        },
+        {
+          "title": "Cuarto Semestre",
+          "subjects": [
+            { "name": "Evaluación e Innovación Curricular", "tag": "curricular" },
+            { "name": "Psicopedagogía y Dificultades de Aprendizaje", "tag": "teoria" },
+            { "name": "Planeación y Organización Educativa", "tag": "gestion" },
+            { "name": "Diseño de Entornos Virtuales de Aprendizaje", "tag": "tecnologia" },
+            { "name": "Investigación Cualitativa en Educación", "tag": "teoria" },
+            { "name": "Lengua Extranjera IV", "tag": "teoria" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-5-6",
+      "tabLabel": "Semestres 5 y 6",
+      "blocks": [
+        {
+          "title": "Quinto Semestre",
+          "subjects": [
+            { "name": "Orientación Educativa, Vocacional y Profesional", "tag": "teoria" },
+            { "name": "Educación Especial e Inclusión Escolar", "tag": "gestion" },
+            { "name": "Administración de Instituciones Educativas", "tag": "gestion" },
+            { "name": "Producción de Materiales Educativos Digitales", "tag": "tecnologia" },
+            { "name": "Optativa I", "tag": "teoria" }
+          ]
+        },
+        {
+          "title": "Sexto Semestre",
+          "subjects": [
+            { "name": "Diseño Instruccional para E-learning", "tag": "tecnologia" },
+            { "name": "Capacitación y Desarrollo de Talento Humano", "tag": "curricular" },
+            { "name": "Supervisión y Auditoría Educativa", "tag": "gestion" },
+            { "name": "Educación No Formal y Comunitaria", "tag": "gestion" },
+            { "name": "Optativa II", "tag": "teoria" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-7-8",
+      "tabLabel": "Semestres 7 y 8",
+      "blocks": [
+        {
+          "title": "Séptimo Semestre",
+          "subjects": [
+            { "name": "Seminario de Titulación I", "tag": "teoria" },
+            { "name": "Consultoría y Auditoría Pedagógica", "tag": "gestion" },
+            { "name": "Diseño de Proyectos Educativos Multimedia", "tag": "tecnologia" },
+            { "name": "Prácticas Profesionales Pedagógicas", "tag": "gestion" },
+            { "name": "Optativa III", "tag": "teoria" }
+          ]
+        },
+        {
+          "title": "Octavo Semestre",
+          "subjects": [
+            { "name": "Seminario de Titulación II", "tag": "teoria" },
+            { "name": "Políticas Públicas y Legislación Educativa", "tag": "gestion" },
+            { "name": "Ética en la Práctica Pedagógica", "tag": "teoria" },
+            { "name": "Educación Comparada y Globalización", "tag": "teoria" }
+          ]
+        }
+      ]
+    }
+  ]
+}

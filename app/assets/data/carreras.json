@@ -1,0 +1,1789 @@
+{
+  "comunicacion": {
+    "id": "LCO",
+    "name": "Comunicación",
+    "slug": "comunicacion",
+    "tagline": "Conecta. Crea. Lidera el mundo digital.",
+    "description": "Fórmate como un experto en transmedia, creación de contenido, relaciones públicas y periodismo digital. Prepárate para diseñar estrategias en un ecosistema mediático que evoluciona cada segundo.",
+    "ingreso": "Si eres creativo, tienes facilidad de palabra, te apasionan las plataformas digitales y la producción de mensajes que impactan a la sociedad, esta es tu carrera.",
+    "egreso": "Serás un estratega capaz de dirigir campañas de comunicación, producir contenido audiovisual multiplataforma y gestionar la imagen pública de marcas y corporativos globales.",
+    "experienciaPractica": [
+      {
+        "title": "Cabina de Radio Profesional",
+        "desc": "Transmite en vivo, graba podcasts y domina la locución en una cabina acústicamente acondicionada con consolas digitales de última generación.",
+        "icon": "🎙️",
+        "tag": "Streaming & FM",
+        "features": [
+          "Consolas de audio digital",
+          "Microfonía Shure Pro",
+          "Software de automatización"
+        ]
+      },
+      {
+        "title": "Estudio de Televisión 4K",
+        "desc": "Aprende dirección de cámaras, producción en vivo, iluminación LED y conducción en un set con ciclorama verde (Chroma Key) profesional.",
+        "icon": "📺",
+        "tag": "Producción 4K",
+        "features": [
+          "Cámaras profesionales 4K",
+          "Set de iluminación DMX",
+          "Switchers Blackmagic"
+        ]
+      },
+      {
+        "title": "Isla de Edición Mac",
+        "desc": "Edita y postproduce tus proyectos cinematográficos en estaciones Apple iMac con Adobe Creative Cloud y DaVinci Resolve Studio.",
+        "icon": "🎬",
+        "tag": "Postproducción",
+        "features": [
+          "Adobe Creative Cloud",
+          "DaVinci Resolve Studio",
+          "Procesamiento gráfico veloz"
+        ]
+      },
+      {
+        "title": "Set de Fotografía Editorial",
+        "desc": "Domina el manejo de luz artificial y natural, composición y dirección de arte con flashes y difusores profesionales.",
+        "icon": "📷",
+        "tag": "Estudio Fotográfico",
+        "features": [
+          "Flashes profesionales",
+          "Cicloramas de colores",
+          "Modificadores de luz"
+        ]
+      },
+      {
+        "title": "Agencia de Medios In-House",
+        "desc": "Desarrolla campañas publicitarias reales, estrategias de relaciones públicas y branding para clientes del sector empresarial.",
+        "icon": "💼",
+        "tag": "Práctica Real",
+        "features": [
+          "Clientes reales",
+          "Estrategia digital",
+          "Gestión de reputación"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Publicidad y Animación",
+        "desc": "Especialízate en la creación de contenidos visuales de alto impacto y narrativas de vanguardia para medios digitales y tradicionales.",
+        "icon": "🎨",
+        "badge": "Creatividad Digital",
+        "courses": [
+          "Fotografía Digital",
+          "Diseño Gráfico Básico",
+          "Guionismo Audiovisual",
+          "Edición Digital",
+          "Cine y Narrativa Visual",
+          "Dirección de Arte"
+        ],
+        "jobs": [
+          "Director de Arte y Creativo",
+          "Animador y Diseñador Multimedia",
+          "Productor de Contenido Audiovisual",
+          "Especialista en Efectos Visuales"
+        ]
+      },
+      {
+        "title": "Mercadotecnia Estratégica",
+        "desc": "Desarrolla habilidades clave para el análisis de mercados complejos, posicionamiento de marcas globales y branding estratégico.",
+        "icon": "📈",
+        "badge": "Estrategia Comercial",
+        "courses": [
+          "Mercadotecnia Básica",
+          "Relaciones Públicas",
+          "Comunicación Organizacional",
+          "Publicidad Estratégica",
+          "Marketing Digital",
+          "Gestión de Redes Sociales"
+        ],
+        "jobs": [
+          "Brand Manager / Director de Marca",
+          "Coordinador de Relaciones Públicas",
+          "Estratega de Medios y Campañas",
+          "Consultor de Comunicación Corporativa"
+        ]
+      }
+    ]
+  },
+  "relaciones-internacionales": {
+    "id": "LRI",
+    "name": "Relaciones Internacionales",
+    "slug": "relaciones-internacionales",
+    "tagline": "Tu visión, sin fronteras. Domina la diplomacia global.",
+    "description": "Conviértete en un líder global capaz de entender, negociar y resolver conflictos en el escenario político y comercial internacional. El mundo necesita estrategas sin límites.",
+    "ingreso": "Ideal para personas con interés en geopolítica, dominio de idiomas, facilidad de negociación, análisis de conflictos y un genuino interés por las culturas del mundo.",
+    "egreso": "Egresarás con las habilidades para ocupar altos cargos en embajadas, organismos internacionales, consultorías de riesgo político o en el comercio exterior.",
+    "experienciaPractica": [
+      {
+        "title": "Simulación de Naciones Unidas (MUN)",
+        "desc": "Participa en modelos de debate diplomático donde representas a delegaciones reales, negociando resoluciones sobre conflictos globales actuales.",
+        "icon": "🌐",
+        "tag": "Diplomacia",
+        "features": [
+          "Debates de alto nivel",
+          "Negociación multilateral",
+          "Resolución de conflictos"
+        ]
+      },
+      {
+        "title": "Laboratorio de Geopolítica y Análisis",
+        "desc": "Accede a plataformas de inteligencia geopolítica y bases de datos internacionales para análisis de riesgo país y escenarios prospectivos.",
+        "icon": "🗺️",
+        "tag": "Análisis Estratégico",
+        "features": [
+          "Bases de datos CSIS y CFR",
+          "Mapeo geopolítico digital",
+          "Análisis de riesgo país"
+        ]
+      },
+      {
+        "title": "Intercambios Internacionales",
+        "desc": "Programa de movilidad académica con universidades de Europa, Asia y Sudamérica. Vive la experiencia de estudiar un semestre en el extranjero.",
+        "icon": "✈️",
+        "tag": "Movilidad Global",
+        "features": [
+          "Convenios en 15+ países",
+          "Becas de movilidad",
+          "Inmersión cultural"
+        ]
+      },
+      {
+        "title": "Prácticas en Organismos Internacionales",
+        "desc": "Realiza estancias profesionales en embajadas, consulados, cámaras de comercio exterior y ONGs internacionales con presencia en México.",
+        "icon": "🏛️",
+        "tag": "Vinculación Profesional",
+        "features": [
+          "Embajadas y consulados",
+          "Cámaras de comercio",
+          "ONGs internacionales"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Comercio Internacional y Aduanas",
+        "desc": "Domina los procesos de importación/exportación, clasificación arancelaria y logística internacional para operar en mercados globales.",
+        "icon": "📦",
+        "badge": "Comercio Global",
+        "courses": [
+          "Derecho Aduanero",
+          "Logística Internacional",
+          "Tratados de Libre Comercio",
+          "Clasificación Arancelaria",
+          "Financiamiento al Comercio Exterior"
+        ],
+        "jobs": [
+          "Agente Aduanal Certificado",
+          "Consultor de Comercio Exterior",
+          "Analista de Logística Internacional"
+        ]
+      },
+      {
+        "title": "Diplomacia y Mediación de Conflictos",
+        "desc": "Desarrolla las competencias de negociación, mediación y resolución pacífica de controversias en escenarios bilaterales y multilaterales.",
+        "icon": "🤝",
+        "badge": "Resolución de Conflictos",
+        "courses": [
+          "Derecho Internacional Público",
+          "Negociación Avanzada",
+          "Mediación y Arbitraje",
+          "Protocolo Diplomático",
+          "Derechos Humanos Internacionales"
+        ],
+        "jobs": [
+          "Analista Político Internacional",
+          "Mediador de Conflictos",
+          "Asesor Diplomático",
+          "Funcionario de Organismos Internacionales"
+        ]
+      }
+    ]
+  },
+  "derecho": {
+    "id": "LED",
+    "name": "Derecho",
+    "slug": "derecho",
+    "tagline": "Defiende la justicia. Lidera el cambio legal.",
+    "description": "Adquiere el poder de transformar la sociedad mediante la aplicación estratégica de las leyes. Un programa actualizado a las nuevas reformas penales, laborales y corporativas.",
+    "ingreso": "Debes poseer un alto sentido de la justicia, capacidad de argumentación, gusto por la lectura profunda, análisis crítico y facilidad para la resolución de conflictos.",
+    "egreso": "Podrás litigar con éxito, asesorar corporativos internacionales, ejercer en el servicio público o escalar como juzgador gracias a tu sólida argumentación jurídica.",
+    "experienciaPractica": [
+      {
+        "title": "Sala de Juicios Orales",
+        "desc": "Practica litigación en una sala certificada que replica las condiciones reales del sistema penal acusatorio mexicano con grabación en vivo.",
+        "icon": "⚖️",
+        "tag": "Litigación",
+        "features": [
+          "Sistema de grabación oficial",
+          "Mobiliario de tribunal real",
+          "Protocolos del SJPA"
+        ]
+      },
+      {
+        "title": "Clínica Jurídica UNINTER",
+        "desc": "Asesora legalmente a personas de la comunidad en casos reales de derecho familiar, laboral y civil bajo supervisión de abogados titulados.",
+        "icon": "📋",
+        "tag": "Práctica Real",
+        "features": [
+          "Casos reales supervisados",
+          "Derecho familiar y laboral",
+          "Asesoría gratuita a comunidad"
+        ]
+      },
+      {
+        "title": "Laboratorio de Investigación Jurídica",
+        "desc": "Accede a las bases de datos jurídicas más completas de México (SCJN, Semanario Judicial) para análisis de jurisprudencia y tesis aisladas.",
+        "icon": "📚",
+        "tag": "Investigación",
+        "features": [
+          "Acceso a SCJN en línea",
+          "Base de datos IUS",
+          "Análisis de jurisprudencia"
+        ]
+      },
+      {
+        "title": "Convenios con Despachos y Tribunales",
+        "desc": "Realiza prácticas profesionales en despachos jurídicos, notarías, tribunales y el Poder Judicial del Estado de Morelos.",
+        "icon": "🏛️",
+        "tag": "Vinculación",
+        "features": [
+          "Despachos certificados",
+          "Notarías públicas",
+          "Poder Judicial estatal"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Derecho Penal y Sistema Acusatorio",
+        "desc": "Conviértete en un especialista del nuevo sistema de justicia penal con técnicas avanzadas de litigación oral y teoría del caso.",
+        "icon": "🔨",
+        "badge": "Justicia Penal",
+        "courses": [
+          "Derecho Penal I y II",
+          "Procedimientos Penales",
+          "Juicios Orales",
+          "Criminología",
+          "Medicina Forense",
+          "Amparo Penal"
+        ],
+        "jobs": [
+          "Litigante Penalista",
+          "Ministerio Público",
+          "Defensor Público",
+          "Asesor Jurídico Penal"
+        ]
+      },
+      {
+        "title": "Derecho Corporativo y Empresarial",
+        "desc": "Domina el marco legal que rige a las empresas: contratos mercantiles, propiedad intelectual, cumplimiento regulatorio y gobierno corporativo.",
+        "icon": "🏢",
+        "badge": "Negocios Legales",
+        "courses": [
+          "Derecho Mercantil",
+          "Contratos Civiles y Mercantiles",
+          "Propiedad Intelectual",
+          "Derecho Fiscal",
+          "Derecho Laboral Empresarial"
+        ],
+        "jobs": [
+          "Abogado Corporativo",
+          "Director Jurídico",
+          "Consultor de Cumplimiento",
+          "Asesor de Propiedad Intelectual"
+        ]
+      }
+    ]
+  },
+  "arquitectura": {
+    "id": "ARQ",
+    "name": "Arquitectura",
+    "slug": "arquitectura",
+    "tagline": "Diseña el futuro. Construye innovación sustentable.",
+    "description": "Aprende a fusionar estética, funcionalidad y tecnología sustentable para crear espacios que mejoren la calidad de vida. Tu imaginación es el único límite estructural.",
+    "ingreso": "Necesitas sensibilidad espacial, creatividad, habilidad para el dibujo, comprensión lógico-matemática y pasión por la transformación del entorno urbano.",
+    "egreso": "Diseñarás, proyectarás y dirigirás obras arquitectónicas de vanguardia, desde diseño de interiores hasta macroproyectos de urbanismo inteligente y sustentable.",
+    "experienciaPractica": [
+      {
+        "title": "Taller de Maquetas y Fabricación Digital",
+        "desc": "Materializa tus proyectos con impresoras 3D, cortadoras láser y CNC para prototipos a escala con acabados profesionales.",
+        "icon": "🏗️",
+        "tag": "Fabricación Digital",
+        "features": [
+          "Impresoras 3D industriales",
+          "Cortadora láser",
+          "CNC para madera y acrílico"
+        ]
+      },
+      {
+        "title": "Laboratorio BIM y Renderizado",
+        "desc": "Domina Revit, AutoCAD, SketchUp y renders fotorrealistas con V-Ray y Lumion en estaciones de trabajo de alto rendimiento.",
+        "icon": "💻",
+        "tag": "Modelado 3D",
+        "features": [
+          "Autodesk Revit y AutoCAD",
+          "V-Ray y Lumion Pro",
+          "Estaciones de trabajo HP Z"
+        ]
+      },
+      {
+        "title": "Visitas a Obra y Proyectos Reales",
+        "desc": "Asiste a construcciones activas, analiza procesos constructivos in situ y colabora en proyectos arquitectónicos con empresas desarrolladoras.",
+        "icon": "🏠",
+        "tag": "Práctica de Campo",
+        "features": [
+          "Convenios con constructoras",
+          "Supervisión de obra",
+          "Análisis estructural in situ"
+        ]
+      },
+      {
+        "title": "Concursos Nacionales de Diseño",
+        "desc": "Participa en bienales y concursos de arquitectura a nivel nacional e internacional representando a UNINTER.",
+        "icon": "🏆",
+        "tag": "Competencias",
+        "features": [
+          "Bienal de Arquitectura",
+          "Concursos ASINEA",
+          "Exposiciones de diseño"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Diseño Sustentable y Bioclimático",
+        "desc": "Aprende a diseñar edificaciones que respeten el medio ambiente utilizando materiales ecológicos, energías renovables y certificaciones LEED.",
+        "icon": "🌿",
+        "badge": "Arquitectura Verde",
+        "courses": [
+          "Arquitectura Bioclimática",
+          "Instalaciones Sustentables",
+          "Materiales Ecológicos",
+          "Certificación LEED",
+          "Diseño Pasivo"
+        ],
+        "jobs": [
+          "Consultor de Sustentabilidad",
+          "Diseñador Bioclimático",
+          "Auditor LEED",
+          "Arquitecto Sustentable"
+        ]
+      },
+      {
+        "title": "Modelado BIM y Gestión de Proyectos",
+        "desc": "Domina la metodología BIM (Building Information Modeling) para gestionar proyectos arquitectónicos de gran escala con eficiencia y precisión.",
+        "icon": "📐",
+        "badge": "Tecnología BIM",
+        "courses": [
+          "Revit Architecture Avanzado",
+          "Gestión de Proyectos",
+          "Coordinación BIM",
+          "Presupuestos de Obra",
+          "Normatividad de Construcción"
+        ],
+        "jobs": [
+          "Coordinador BIM",
+          "Gerente de Proyecto",
+          "Director de Obra",
+          "Modelador BIM Senior"
+        ]
+      }
+    ]
+  },
+  "diseno-grafico": {
+    "id": "LDG",
+    "name": "Diseño Gráfico",
+    "slug": "diseno-grafico",
+    "tagline": "Comunica sin palabras. Impacta a través del diseño.",
+    "description": "Domina la comunicación visual, desde el branding y diseño UI/UX hasta la animación. Transforma conceptos complejos en experiencias visuales memorables y persuasivas.",
+    "ingreso": "Si tienes una alta creatividad visual, pasión por la estética, la tecnología, la ilustración y el deseo de darle identidad a marcas globales, tu lugar está aquí.",
+    "egreso": "Serás un director de arte integral, capaz de liderar equipos creativos en agencias de publicidad, estudios de diseño UI/UX y medios digitales interactivos.",
+    "experienciaPractica": [
+      {
+        "title": "Laboratorio de Diseño Digital",
+        "desc": "Trabaja con la suite completa de Adobe Creative Cloud, Figma y herramientas de prototipado en iMacs de última generación.",
+        "icon": "🖥️",
+        "tag": "Diseño Digital",
+        "features": [
+          "Adobe Creative Cloud",
+          "Figma Pro",
+          "iMacs de alto rendimiento"
+        ]
+      },
+      {
+        "title": "Taller de Serigrafía e Impresión",
+        "desc": "Aprende técnicas de impresión profesional: serigrafía, offset, sublimación y acabados especiales para proyectos editoriales.",
+        "icon": "🎨",
+        "tag": "Producción Gráfica",
+        "features": [
+          "Prensa de serigrafía",
+          "Plotter de corte",
+          "Sublimación textil"
+        ]
+      },
+      {
+        "title": "Estudio de Fotografía y Video",
+        "desc": "Produce sesiones fotográficas y videográficas profesionales para portfolios, campañas y contenido de marca en un set completamente equipado.",
+        "icon": "📸",
+        "tag": "Contenido Visual",
+        "features": [
+          "Iluminación profesional",
+          "Fondos intercambiables",
+          "Equipo de video 4K"
+        ]
+      },
+      {
+        "title": "Proyectos con Clientes Reales",
+        "desc": "Diseña identidades de marca, campañas visuales y piezas gráficas para empresas y organizaciones locales como parte de tu formación.",
+        "icon": "💼",
+        "tag": "Portafolio Profesional",
+        "features": [
+          "Branding para PyMEs",
+          "Campañas publicitarias",
+          "Diseño editorial"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Diseño UI/UX y Experiencia Digital",
+        "desc": "Especialízate en el diseño de interfaces y experiencias de usuario para aplicaciones móviles, sitios web y productos digitales.",
+        "icon": "📱",
+        "badge": "Experiencia Digital",
+        "courses": [
+          "Diseño de Interfaces (UI)",
+          "Experiencia de Usuario (UX)",
+          "Prototipado con Figma",
+          "Design Thinking",
+          "Testing de Usabilidad"
+        ],
+        "jobs": [
+          "Diseñador UI/UX",
+          "Product Designer",
+          "UX Researcher",
+          "Director de Experiencia Digital"
+        ]
+      },
+      {
+        "title": "Branding y Dirección de Arte",
+        "desc": "Crea identidades visuales poderosas y lidera la dirección creativa de campañas para marcas nacionales e internacionales.",
+        "icon": "✨",
+        "badge": "Identidad Visual",
+        "courses": [
+          "Identidad Corporativa",
+          "Tipografía Avanzada",
+          "Dirección de Arte",
+          "Packaging Design",
+          "Fotografía Publicitaria"
+        ],
+        "jobs": [
+          "Director de Arte",
+          "Brand Designer",
+          "Creative Director",
+          "Diseñador de Empaque"
+        ]
+      }
+    ]
+  },
+  "mecatronica": {
+    "id": "IME",
+    "name": "Mecatrónica",
+    "slug": "mecatronica",
+    "tagline": "Automatiza el mundo. Crea tecnología inteligente.",
+    "description": "Fusión de mecánica, electrónica y programación. Diseña sistemas robóticos y automatiza la industria 4.0 con tecnología que redefine el futuro de la manufactura y la vida cotidiana.",
+    "ingreso": "Se requiere fuerte aptitud matemática, pensamiento lógico, curiosidad por desarmar y entender cómo funcionan las máquinas y fascinación por la tecnología y la IA.",
+    "egreso": "Liderarás proyectos de robótica industrial, domótica, diseño de sistemas embebidos y optimización de procesos mediante Inteligencia Artificial y automatización.",
+    "experienciaPractica": [
+      {
+        "title": "Laboratorio de Robótica y Automatización",
+        "desc": "Programa y ensambla robots industriales, brazos mecánicos y sistemas de control automatizado con PLCs Allen-Bradley y Siemens.",
+        "icon": "🤖",
+        "tag": "Robótica",
+        "features": [
+          "Brazos robóticos KUKA",
+          "PLCs Siemens S7",
+          "Sensores y actuadores industriales"
+        ]
+      },
+      {
+        "title": "Taller de Manufactura CNC",
+        "desc": "Opera tornos y fresadoras CNC, impresoras 3D industriales y equipos de metrología para fabricar piezas de precisión.",
+        "icon": "⚙️",
+        "tag": "Manufactura",
+        "features": [
+          "Torno CNC Haas",
+          "Fresadora de 3 ejes",
+          "Impresión 3D metal/plástico"
+        ]
+      },
+      {
+        "title": "Laboratorio de Electrónica y Microcontroladores",
+        "desc": "Diseña circuitos, programa microcontroladores Arduino y ESP32, y desarrolla prototipos de IoT y sistemas embebidos.",
+        "icon": "🔌",
+        "tag": "Electrónica",
+        "features": [
+          "Osciloscopios digitales",
+          "Estaciones de soldadura",
+          "Kits Arduino y Raspberry Pi"
+        ]
+      },
+      {
+        "title": "Proyectos de Industria 4.0",
+        "desc": "Desarrolla proyectos integradores con empresas del sector automotriz y manufacturero del corredor industrial de Morelos.",
+        "icon": "🏭",
+        "tag": "Vinculación Industrial",
+        "features": [
+          "Convenios con CIVAC",
+          "Proyectos integradores",
+          "Certificaciones industriales"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Automatización y Control Industrial",
+        "desc": "Domina el diseño e implementación de sistemas automatizados con PLCs, HMIs y redes industriales para la manufactura inteligente.",
+        "icon": "🏭",
+        "badge": "Industria 4.0",
+        "courses": [
+          "Controladores Lógicos Programables",
+          "Instrumentación Industrial",
+          "Redes Industriales",
+          "Control de Procesos",
+          "Sistemas SCADA"
+        ],
+        "jobs": [
+          "Ingeniero de Automatización",
+          "Integrador de Sistemas",
+          "Especialista en PLC",
+          "Consultor Industria 4.0"
+        ]
+      },
+      {
+        "title": "Diseño Mecánico y CAD/CAM",
+        "desc": "Especialízate en el diseño mecánico asistido por computadora y la manufactura automatizada para la industria de precisión.",
+        "icon": "📐",
+        "badge": "Diseño Mecánico",
+        "courses": [
+          "SolidWorks Avanzado",
+          "Diseño de Mecanismos",
+          "Análisis de Elemento Finito",
+          "Manufactura CAM",
+          "Metrología Industrial"
+        ],
+        "jobs": [
+          "Diseñador Mecánico",
+          "Ingeniero CAD/CAM",
+          "Analista de Simulación",
+          "Gerente de Manufactura"
+        ]
+      }
+    ]
+  },
+  "sistemas-computacionales": {
+    "id": "ISC",
+    "name": "Sistemas Computacionales",
+    "slug": "sistemas-computacionales",
+    "tagline": "Programa el mañana. Lidera la revolución del software.",
+    "description": "Conviértete en un arquitecto de software de alto nivel. Aprende ingeniería de datos, ciberseguridad, desarrollo full-stack y creación de soluciones impulsadas por Inteligencia Artificial.",
+    "ingreso": "Debes tener pasión por la informática, pensamiento algorítmico, resolución de problemas complejos, curiosidad por el código y adaptabilidad tecnológica.",
+    "egreso": "Diseñarás arquitecturas en la nube, sistemas de software robustos, aplicaciones móviles y liderarás la transición digital en las mayores empresas tecnológicas.",
+    "experienciaPractica": [
+      {
+        "title": "Laboratorio de Desarrollo de Software",
+        "desc": "Programa en ambientes de desarrollo profesional con IDEs, control de versiones Git y metodologías ágiles (Scrum, Kanban).",
+        "icon": "💻",
+        "tag": "Desarrollo",
+        "features": [
+          "Visual Studio Code / JetBrains",
+          "Git y GitHub",
+          "Metodologías ágiles"
+        ]
+      },
+      {
+        "title": "Laboratorio de Redes y Ciberseguridad",
+        "desc": "Configura redes empresariales, firewalls y realiza pruebas de penetración en un ambiente controlado con equipos Cisco.",
+        "icon": "🔒",
+        "tag": "Ciberseguridad",
+        "features": [
+          "Equipos Cisco routers/switches",
+          "Kali Linux",
+          "Laboratorio de pentesting"
+        ]
+      },
+      {
+        "title": "Centro de Datos y Cloud Computing",
+        "desc": "Trabaja con infraestructura de servidores, virtualización y servicios cloud de AWS, Azure y Google Cloud Platform.",
+        "icon": "☁️",
+        "tag": "Cloud & DevOps",
+        "features": [
+          "AWS Academy",
+          "Microsoft Azure",
+          "Docker y Kubernetes"
+        ]
+      },
+      {
+        "title": "Hackathons y Competencias de Programación",
+        "desc": "Participa en maratones de programación y hackathons donde resuelves retos tecnológicos reales en equipos multidisciplinarios.",
+        "icon": "🏆",
+        "tag": "Competencias",
+        "features": [
+          "Hackathons nacionales",
+          "ACM ICPC",
+          "Google Code Jam prep"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Desarrollo Full-Stack y Cloud",
+        "desc": "Domina el desarrollo web y móvil completo: frontend con React/Vue, backend con Node.js/Python y despliegue en la nube.",
+        "icon": "🌐",
+        "badge": "Full-Stack Developer",
+        "courses": [
+          "Programación Web Frontend",
+          "Backend con Node.js",
+          "Bases de Datos SQL y NoSQL",
+          "APIs RESTful",
+          "Despliegue en AWS/Azure"
+        ],
+        "jobs": [
+          "Desarrollador Full-Stack",
+          "Ingeniero de Software",
+          "Arquitecto de Soluciones Cloud",
+          "DevOps Engineer"
+        ]
+      },
+      {
+        "title": "Inteligencia Artificial y Ciencia de Datos",
+        "desc": "Aprende machine learning, procesamiento de lenguaje natural y análisis predictivo para crear soluciones inteligentes basadas en datos.",
+        "icon": "🧠",
+        "badge": "IA & Data Science",
+        "courses": [
+          "Machine Learning",
+          "Python para Data Science",
+          "Redes Neuronales",
+          "Big Data Analytics",
+          "Procesamiento de Lenguaje Natural"
+        ],
+        "jobs": [
+          "Data Scientist",
+          "ML Engineer",
+          "Analista de Datos",
+          "Ingeniero de IA"
+        ]
+      }
+    ]
+  },
+  "mercadotecnia": {
+    "id": "LME",
+    "name": "Mercadotecnia",
+    "slug": "mercadotecnia",
+    "tagline": "Descifra la mente. Lidera el mercado.",
+    "description": "Aprende a analizar datos, comprender el comportamiento del consumidor y diseñar estrategias hiper-personalizadas que disparen el crecimiento de cualquier marca en el mundo digital y físico.",
+    "ingreso": "Ideal para mentes estratégicas, empáticas, innovadoras, con facilidad para interpretar tendencias, datos (analytics) y proponer soluciones creativas a problemas de ventas.",
+    "egreso": "Serás un Chief Marketing Officer (CMO) capaz de dominar el SEO/SEM, estrategias omnicanal, branding y análisis de Big Data para posicionamiento corporativo.",
+    "experienciaPractica": [
+      {
+        "title": "Laboratorio de Neuromarketing",
+        "desc": "Analiza el comportamiento del consumidor con herramientas de eye-tracking, mapas de calor y estudios de percepción sensorial.",
+        "icon": "🧠",
+        "tag": "Neuromarketing",
+        "features": [
+          "Eye-tracking Tobii",
+          "Mapas de calor",
+          "Análisis de emociones"
+        ]
+      },
+      {
+        "title": "Agencia Digital In-House",
+        "desc": "Gestiona campañas de marketing digital reales: Google Ads, Meta Ads, SEO y analítica web para clientes del sector empresarial.",
+        "icon": "📊",
+        "tag": "Marketing Digital",
+        "features": [
+          "Google Ads certificado",
+          "Meta Business Suite",
+          "Google Analytics 4"
+        ]
+      },
+      {
+        "title": "Simulador de Negocios",
+        "desc": "Toma decisiones estratégicas de marketing en tiempo real con simuladores empresariales que replican mercados competitivos globales.",
+        "icon": "🎮",
+        "tag": "Simulación",
+        "features": [
+          "Simulador Markestrat",
+          "Análisis de mercado",
+          "Decisiones en tiempo real"
+        ]
+      },
+      {
+        "title": "Ferias y Lanzamientos de Producto",
+        "desc": "Organiza eventos de lanzamiento, ferias comerciales y activaciones de marca donde aplicas BTL, trade marketing y experiencias inmersivas.",
+        "icon": "🎪",
+        "tag": "Eventos & BTL",
+        "features": [
+          "Activaciones de marca",
+          "Trade marketing",
+          "Experiencias inmersivas"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Marketing Digital y E-commerce",
+        "desc": "Certifícate en la gestión integral de campañas digitales, comercio electrónico y análisis de métricas para maximizar el ROI.",
+        "icon": "🛒",
+        "badge": "Digital Marketing",
+        "courses": [
+          "Google Ads y SEO",
+          "E-commerce y Marketplace",
+          "Email Marketing Automation",
+          "Social Media Management",
+          "Analítica Web Avanzada"
+        ],
+        "jobs": [
+          "Digital Marketing Manager",
+          "E-commerce Manager",
+          "Growth Hacker",
+          "Performance Marketer"
+        ]
+      },
+      {
+        "title": "Branding y Estrategia de Marca",
+        "desc": "Construye marcas poderosas desde cero: posicionamiento, storytelling, brand equity y gestión de reputación corporativa.",
+        "icon": "💎",
+        "badge": "Brand Strategy",
+        "courses": [
+          "Fundamentos de Branding",
+          "Investigación de Mercados",
+          "Comportamiento del Consumidor",
+          "Storytelling y Content Marketing",
+          "Gestión de Marca Global"
+        ],
+        "jobs": [
+          "Brand Manager",
+          "Planner Estratégico",
+          "Director de Marketing",
+          "Consultor de Branding"
+        ]
+      }
+    ]
+  },
+  "administracion-de-empresas": {
+    "id": "LAE",
+    "name": "Administración de Empresas",
+    "slug": "administracion-de-empresas",
+    "tagline": "Dirige con visión. Escala negocios globales.",
+    "description": "Adquiere la visión estratégica para gestionar capital humano, finanzas y operaciones. Aprende a crear, innovar y liderar empresas altamente rentables en mercados competitivos.",
+    "ingreso": "Requiere capacidad de liderazgo, interés por los negocios, habilidades numéricas, inteligencia emocional para gestionar equipos y visión emprendedora.",
+    "egreso": "Estarás capacitado para dirigir corporativos transnacionales, optimizar finanzas empresariales, o crear y escalar exitosamente tu propia startup o compañía.",
+    "experienciaPractica": [
+      {
+        "title": "Incubadora de Negocios UNINTER",
+        "desc": "Desarrolla tu plan de negocio con mentoría especializada, accede a fondos semilla y presenta tu proyecto ante inversionistas reales.",
+        "icon": "🚀",
+        "tag": "Emprendimiento",
+        "features": [
+          "Mentoría de empresarios",
+          "Fondos semilla",
+          "Pitch a inversionistas"
+        ]
+      },
+      {
+        "title": "Simulador Empresarial Avanzado",
+        "desc": "Toma decisiones de dirección general en un simulador que replica mercados financieros, operaciones y recursos humanos en tiempo real.",
+        "icon": "📈",
+        "tag": "Simulación Gerencial",
+        "features": [
+          "Simulador Harvard Business",
+          "Finanzas en tiempo real",
+          "Competencia entre equipos"
+        ]
+      },
+      {
+        "title": "Consultoría a PyMEs",
+        "desc": "Realiza diagnósticos empresariales y propón estrategias de mejora operativa, financiera y de marketing para PyMEs de Morelos.",
+        "icon": "🏢",
+        "tag": "Consultoría Real",
+        "features": [
+          "Diagnóstico empresarial",
+          "Plan de mejora continua",
+          "Implementación de KPIs"
+        ]
+      },
+      {
+        "title": "Certificaciones SAP y ERP",
+        "desc": "Aprende a operar los sistemas de planificación empresarial más utilizados en corporativos multinacionales del mundo.",
+        "icon": "⚡",
+        "tag": "Tecnología Empresarial",
+        "features": [
+          "SAP Business One",
+          "Módulos FI/CO/MM",
+          "ERP empresarial"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Finanzas Corporativas y Banca",
+        "desc": "Domina el análisis financiero, valuación de empresas, gestión de portafolios de inversión y la administración de riesgos bancarios.",
+        "icon": "💰",
+        "badge": "Finanzas Avanzadas",
+        "courses": [
+          "Análisis Financiero",
+          "Valuación de Empresas",
+          "Mercados de Capitales",
+          "Administración de Riesgos",
+          "Banca y Productos Financieros"
+        ],
+        "jobs": [
+          "Analista Financiero",
+          "Controller Corporativo",
+          "Director de Finanzas (CFO)",
+          "Asesor de Inversiones"
+        ]
+      },
+      {
+        "title": "Gestión del Capital Humano",
+        "desc": "Especialízate en la atracción, desarrollo y retención de talento con metodologías modernas de gestión organizacional.",
+        "icon": "👥",
+        "badge": "Talento Humano",
+        "courses": [
+          "Reclutamiento y Selección",
+          "Desarrollo Organizacional",
+          "Compensaciones y Beneficios",
+          "Cultura Empresarial",
+          "Liderazgo y Coaching"
+        ],
+        "jobs": [
+          "Director de Recursos Humanos",
+          "Business Partner HR",
+          "Consultor Organizacional",
+          "Headhunter Ejecutivo"
+        ]
+      }
+    ]
+  },
+  "comunicacion-y-relaciones-publicas": {
+    "id": "CORP",
+    "name": "Comunicación y Relaciones Públicas",
+    "slug": "comunicacion-y-relaciones-publicas",
+    "tagline": "Diseña la reputación. Lidera la influencia corporativa.",
+    "description": "Forma tu perfil como estratega de imagen, branding, manejo de crisis y comunicación institucional. Convierte la percepción en el activo más valioso de cualquier organización.",
+    "ingreso": "Orientado a personas con liderazgo, facilidad de palabra, empatía, interés por los medios digitales y la gestión de la reputación corporativa.",
+    "egreso": "Serás un profesional capaz de dirigir departamentos de relaciones públicas, vocerías de gobierno, consultorías de comunicación y campañas de branding.",
+    "experienciaPractica": [
+      {
+        "title": "Set de Vocería & Media Training",
+        "desc": "Simula conferencias de prensa virtuales y presenciales, preparándote para responder preguntas difíciles ante medios reales.",
+        "icon": "🎙️",
+        "tag": "Media Training",
+        "features": [
+          "Conferencias de prensa simuladas",
+          "Grabación de vocería profesional",
+          "Taller de manejo de crisis"
+        ]
+      },
+      {
+        "title": "Agencia de Relaciones Públicas In-House",
+        "desc": "Colabora en el diseño de estrategias reales de branding, comunicación interna y reputación de marca para empresas aliadas.",
+        "icon": "💼",
+        "tag": "Práctica Real",
+        "features": [
+          "Clientes del sector empresarial",
+          "Campañas de comunicación",
+          "Plan estratégico de R.P."
+        ]
+      },
+      {
+        "title": "Centro de Medios UNINTER",
+        "desc": "Utiliza cabinas de radio y estudios de TV 4K para aprender producción de mensajes audiovisuales e interactuar con audiencias masivas.",
+        "icon": "📺",
+        "tag": "Producción Audiovisual",
+        "features": [
+          "Cabinas de podcasting profesional",
+          "Cámaras profesionales 4K",
+          "Postproducción digital"
+        ]
+      },
+      {
+        "title": "Monitoreo y Auditoría de Reputación",
+        "desc": "Domina herramientas digitales de social listening para analizar la presencia y reputación de marcas de forma profesional.",
+        "icon": "📊",
+        "tag": "Social Listening",
+        "features": [
+          "Análisis de reputación digital",
+          "Auditoría de medios",
+          "Métricas e informes de marca"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Relaciones Públicas y Manejo de Crisis",
+        "desc": "Certifícate en la gestión estratégica de la reputación de marcas e instituciones y en el control de crisis mediáticas.",
+        "icon": "🤝",
+        "badge": "Gestión de Imagen",
+        "courses": [
+          "Relaciones Públicas",
+          "Comunicación Organizacional",
+          "Manejo de Crisis",
+          "Media Training",
+          "Protocolo y Eventos"
+        ],
+        "jobs": [
+          "Coordinador de Relaciones Públicas",
+          "Consultor en Manejo de Crisis",
+          "Asesor de Imagen Pública",
+          "Vocero Institucional"
+        ]
+      },
+      {
+        "title": "Branding y Estrategias Transmedia",
+        "desc": "Aprende a diseñar identidades de marca sólidas y a desplegar campañas publicitarias en múltiples plataformas digitales.",
+        "icon": "✨",
+        "badge": "Branding Estratégico",
+        "courses": [
+          "Publicidad Estratégica",
+          "Marketing de Influencia",
+          "Producción Transmedia",
+          "Dirección de Arte y Branding"
+        ],
+        "jobs": [
+          "Brand Manager / Gerente de Marca",
+          "Director de Cuentas Creativas",
+          "Estratega Digital",
+          "Coordinador de Branding"
+        ]
+      }
+    ]
+  },
+  "relaciones-internacionales-y-ciencias-politicas": {
+    "id": "RICP",
+    "name": "Relaciones Internacionales y Ciencias Políticas",
+    "slug": "relaciones-internacionales-y-ciencias-politicas",
+    "tagline": "Entiende el poder. Negocia el futuro del mundo.",
+    "description": "Combina el análisis político nacional con la diplomacia internacional. Prepárate para diseñar políticas públicas y liderar negociaciones en un mundo globalizado.",
+    "ingreso": "Apto para apasionados de la geopolítica, el servicio público, la mediación de conflictos, la diplomacia y el análisis de la coyuntura política.",
+    "egreso": "Ejercerás como asesor parlamentario, diplomático en embajadas, analista en organismos multilaterales (ONU, OEA) o estratega en partidos políticos.",
+    "experienciaPractica": [
+      {
+        "title": "Modelo de Naciones Unidas (UNINTER-MUN)",
+        "desc": "Debate diplomático representando a delegaciones de países reales ante conflictos de geopolítica global contemporánea.",
+        "icon": "🌐",
+        "tag": "Diplomacia Simulada",
+        "features": [
+          "Técnicas de debate de alto nivel",
+          "Mediación y resolución multilateral",
+          "Simulación de asambleas"
+        ]
+      },
+      {
+        "title": "Simulador de Proceso Parlamentario",
+        "desc": "Replica el trabajo del Congreso o Senado diseñando proyectos de ley, cabildeo y debates parlamentarios en tiempo real.",
+        "icon": "🏛️",
+        "tag": "Legislación",
+        "features": [
+          "Redacción de iniciativas de ley",
+          "Cabildeo y negociación",
+          "Simulación de tribuna legislativa"
+        ]
+      },
+      {
+        "title": "Laboratorio de Análisis Político y Electoral",
+        "desc": "Estudia encuestas, comportamientos de voto y diseña campañas electorales integrando analítica digital y opinión pública.",
+        "icon": "📊",
+        "tag": "Análisis de Datos",
+        "features": [
+          "Monitoreo electoral en vivo",
+          "Software de análisis de encuestas",
+          "Mapeo geopolítico"
+        ]
+      },
+      {
+        "title": "Prácticas en Organismos y ONGs",
+        "desc": "Estadías profesionales en el Congreso del Estado, dependencias gubernamentales y ONGs de cooperación internacional.",
+        "icon": "💼",
+        "tag": "Prácticas Profesionales",
+        "features": [
+          "Convenios gubernamentales",
+          "Proyectos de cooperación",
+          "Estadías en el servicio público"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Diplomacia y Relaciones Exteriores",
+        "desc": "Formación diplomática especializada para el ingreso y desarrollo en el Servicio Exterior y organismos internacionales.",
+        "icon": "🌍",
+        "badge": "Servicio Exterior",
+        "courses": [
+          "Derecho Internacional Público",
+          "Negociación Avanzada",
+          "Mediación y Arbitraje",
+          "Protocolo Diplomático"
+        ],
+        "jobs": [
+          "Asesor Diplomático",
+          "Funcionario Consular",
+          "Analista de Riesgo Geopolítico",
+          "Coordinador de Cooperación"
+        ]
+      },
+      {
+        "title": "Políticas Públicas y Gobernanza",
+        "desc": "Domina el diseño, presupuesto e implementación de políticas gubernamentales y programas de desarrollo social.",
+        "icon": "⚖️",
+        "badge": "Gestión del Estado",
+        "courses": [
+          "Administración Pública",
+          "Diseño de Políticas Públicas",
+          "Participación Ciudadana",
+          "Finanzas Estatales"
+        ],
+        "jobs": [
+          "Consultor de Políticas Públicas",
+          "Director en el Sector Público",
+          "Asesor Parlamentario",
+          "Gestor de Proyectos Sociales"
+        ]
+      }
+    ]
+  },
+  "relaciones-internacionales-y-economia": {
+    "id": "RIEC",
+    "name": "Relaciones Internacionales y Economía",
+    "slug": "relaciones-internacionales-y-economia",
+    "tagline": "El motor del mundo. Decide la economía global.",
+    "description": "Conecta la política exterior con las fuerzas financieras del mercado internacional. Conviértete en un experto en tratados comerciales, finanzas y desarrollo global.",
+    "ingreso": "Para estudiantes interesados en la macroeconomía, finanzas corporativas, acuerdos de libre comercio y la dinámica de los mercados globales.",
+    "egreso": "Liderarás en corporativos transnacionales, consultorías financieras internacionales, bancos de desarrollo o en aduanas y comercio exterior.",
+    "experienciaPractica": [
+      {
+        "title": "Laboratorio de Inteligencia Comercial",
+        "desc": "Analiza mercados de divisas, materias primas e indicadores macroeconómicos en terminales con bases de datos del Banco Mundial y FMI.",
+        "icon": "📈",
+        "tag": "Finanzas & Divisas",
+        "features": [
+          "Trading e inversiones simuladas",
+          "Análisis de riesgo país",
+          "Estadísticas macroeconómicas"
+        ]
+      },
+      {
+        "title": "Simulación Aduanera e Importaciones",
+        "desc": "Realiza trámites de pedimentos, clasificación de mercancías y despacho aduanero simulando escenarios reales de comercio exterior.",
+        "icon": "📦",
+        "tag": "Aduanas",
+        "features": [
+          "Clasificación arancelaria",
+          "Regulación y pedimentos",
+          "Logística de contenedores"
+        ]
+      },
+      {
+        "title": "Mesa de Negociación Comercial",
+        "desc": "Participa en rondas de discusión para la firma de tratados de libre comercio con dinámicas basadas en el T-MEC.",
+        "icon": "🤝",
+        "tag": "Negociación",
+        "features": [
+          "Rondas comerciales simuladas",
+          "Estrategia de aranceles",
+          "Resolución de controversias"
+        ]
+      },
+      {
+        "title": "Vinculación con Cámaras de Comercio",
+        "desc": "Desarrolla proyectos reales de internacionalización para PyMEs en coordinación con asociaciones de exportadores.",
+        "icon": "🏢",
+        "tag": "Práctica de Exportación",
+        "features": [
+          "Planes de exportación reales",
+          "Convenios con empresas",
+          "Mentoría empresarial"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Logística Aduanera y Tratados Comerciales",
+        "desc": "Especialízate en toda la operación de aduanas y el aprovechamiento de acuerdos bilaterales de libre comercio.",
+        "icon": "🚢",
+        "badge": "Comercio Global",
+        "courses": [
+          "Derecho Aduanero",
+          "Tratados de Libre Comercio",
+          "Logística Internacional",
+          "Clasificación de Mercancías"
+        ],
+        "jobs": [
+          "Consultor de Comercio Exterior",
+          "Operador de Logística Internacional",
+          "Asesor de Operaciones Aduaneras"
+        ]
+      },
+      {
+        "title": "Economía Internacional y Análisis de Riesgo",
+        "desc": "Certificación para evaluar viabilidad financiera en inversiones extranjeras y dinámicas del mercado global de divisas.",
+        "icon": "💵",
+        "badge": "Finanzas Globales",
+        "courses": [
+          "Macroeconomía Global",
+          "Finanzas Corporativas",
+          "Mercado de Divisas",
+          "Evaluación de Riesgo País"
+        ],
+        "jobs": [
+          "Analista de Riesgo de Inversión",
+          "Asesor Financiero Corporativo",
+          "Consultor Económico Internacional"
+        ]
+      }
+    ]
+  },
+  "ciencias-politicas-y-gestion-publica": {
+    "id": "LCP",
+    "name": "Ciencias Políticas y Gestión Pública",
+    "slug": "ciencias-politicas-y-gestion-publica",
+    "tagline": "Transforma la sociedad desde el servicio público.",
+    "description": "Prepárate para dirigir y reformar instituciones del Estado, planificar el presupuesto público y diseñar soluciones a los problemas sociales más apremiantes.",
+    "ingreso": "Ideal para líderes con vocación de servicio, ética profesional, interés por la estructura del Estado, las leyes y el bienestar social.",
+    "egreso": "Director de dependencias gubernamentales, consultor de políticas públicas, asesor legislativo o gestor de proyectos sociales y ONGs.",
+    "experienciaPractica": [
+      {
+        "title": "Taller de Diseño de Programas Sociales",
+        "desc": "Elabora planes de desarrollo municipal o estatal atacando problemas de pobreza, educación o salud con presupuestos y métricas reales.",
+        "icon": "📋",
+        "tag": "Políticas Sociales",
+        "features": [
+          "Diagnóstico de necesidades",
+          "Diseño presupuestal",
+          "Indicadores de impacto"
+        ]
+      },
+      {
+        "title": "Simulador Presupuestal Gubernamental",
+        "desc": "Toma el control de los fondos de un gobierno local en un simulador que pone a prueba la asignación de recursos ante crisis públicas.",
+        "icon": "💰",
+        "tag": "Finanzas Públicas",
+        "features": [
+          "Distribución presupuestaria",
+          "Optimización de recursos",
+          "Mecanismos de auditoría"
+        ]
+      },
+      {
+        "title": "Media Room de Comunicación Política",
+        "desc": "Diseña campañas electorales, spots publicitarios y discursos políticos para persuadir y movilizar a la ciudadanía.",
+        "icon": "📢",
+        "tag": "Marketing Político",
+        "features": [
+          "Estrategia de redes gubernamentales",
+          "Taller de oratoria profesional",
+          "Simulación de debates"
+        ]
+      },
+      {
+        "title": "Estadías en Municipios y Secretarías",
+        "desc": "Realiza tus prácticas profesionales en dependencias legislativas, cabildos municipales y del poder ejecutivo estatal.",
+        "icon": "🏛️",
+        "tag": "Servicio Real",
+        "features": [
+          "Proyectos en ayuntamientos",
+          "Práctica legislativa directa",
+          "Vinculación con funcionarios"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Gestión Gubernamental y Auditoría",
+        "desc": "Conocimiento profundo del marco administrativo y fiscal para laborar con ética y excelencia en dependencias de gobierno.",
+        "icon": "💼",
+        "badge": "Administración Pública",
+        "courses": [
+          "Derecho Administrativo",
+          "Finanzas Públicas",
+          "Auditoría Gubernamental",
+          "Transparencia y Acceso a la Información"
+        ],
+        "jobs": [
+          "Director en Administración Pública",
+          "Auditor del Gasto Público",
+          "Especialista en Transparencia"
+        ]
+      },
+      {
+        "title": "Marketing Político e Imagen de Gobierno",
+        "desc": "Aprende a gestionar la comunicación institucional y campañas políticas, construyendo marcas de gobierno confiables.",
+        "icon": "📣",
+        "badge": "Comunicación Política",
+        "courses": [
+          "Marketing Político",
+          "Oratoria e Imagen Pública",
+          "Comunicación de Crisis",
+          "Gestión de Redes Oficiales"
+        ],
+        "jobs": [
+          "Consultor de Marketing Político",
+          "Director de Comunicación Social",
+          "Estratega de Campañas Electorales"
+        ]
+      }
+    ]
+  },
+  "idiomas": {
+    "id": "LID",
+    "name": "Idiomas",
+    "slug": "idiomas",
+    "tagline": "El lenguaje une al mundo. Conecta culturas y negocios.",
+    "description": "Domina el inglés, francés y otras lenguas desde una perspectiva profesional. Especialízate en traducción, interpretación, docencia y comunicación multicultural de negocios.",
+    "ingreso": "Para personas con alta facilidad para el aprendizaje de lenguas, gusto por la lectura, interés por otras culturas y la comunicación internacional.",
+    "egreso": "Traductor perito certificado, intérprete en eventos internacionales, director de centros de lenguas o consultor lingüístico de negocios globales.",
+    "experienciaPractica": [
+      {
+        "title": "Cabina de Interpretación Simultánea",
+        "desc": "Practica la traducción simultánea y consecutiva en una cabina profesional con aislamiento y sistema de audio para congresos.",
+        "icon": "🎙️",
+        "tag": "Interpretación",
+        "features": [
+          "Cabinas profesionales aisladas",
+          "Sistemas de audio digital",
+          "Taller de fluidez inmediata"
+        ]
+      },
+      {
+        "title": "Taller de Traducción Legal y Pericial",
+        "desc": "Aprende a traducir con rigor oficial contratos, escrituras, patentes y patentes comerciales con validez legal.",
+        "icon": "⚖️",
+        "tag": "Traducción Oficial",
+        "features": [
+          "Traducción jurídica",
+          "Documentos con validez oficial",
+          "Terminología técnico-legal"
+        ]
+      },
+      {
+        "title": "Laboratorio de Inmersión y Fonética",
+        "desc": "Usa software interactivo para perfeccionar entonación, fonemas y comprensión auditiva nativa en diversos idiomas.",
+        "icon": "🗣️",
+        "tag": "Fonética",
+        "features": [
+          "Análisis de audio digital",
+          "Pruebas de pronunciación",
+          "Software de inmersión lingüística"
+        ]
+      },
+      {
+        "title": "Prácticas de Docencia y Vinculación",
+        "desc": "Participa en programas de tutoría de español a alumnos extranjeros y clases en escuelas vinculadas con UNINTER.",
+        "icon": "🏫",
+        "tag": "Docencia Real",
+        "features": [
+          "Intercambios de idiomas",
+          "Docencia supervisada",
+          "Materiales didácticos"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Traducción e Interpretación de Negocios",
+        "desc": "Especialización en traducción técnica, comercial e interpretación simultánea para el sector corporativo y diplomático.",
+        "icon": "📄",
+        "badge": "Traducción Profesional",
+        "courses": [
+          "Traducción Técnico-Científica",
+          "Interpretación en Eventos",
+          "Traducción Legal",
+          "Terminología Comercial"
+        ],
+        "jobs": [
+          "Traductor de Negocios Globales",
+          "Intérprete Simultáneo de Congresos",
+          "Traductor Técnico Autónomo"
+        ]
+      },
+      {
+        "title": "Metodología de la Enseñanza (TKT Cambridge)",
+        "desc": "Certificación avalada para el diseño curricular, docencia del inglés y nuevas metodologías educativas.",
+        "icon": "🎓",
+        "badge": "Docencia de Idiomas",
+        "courses": [
+          "Preparación TKT",
+          "Didáctica de Segundas Lenguas",
+          "Diseño de Material Educativo",
+          "Gestión de Aulas de Idioma"
+        ],
+        "jobs": [
+          "Docente de Idiomas Certificado",
+          "Director de Academias de Idiomas",
+          "Diseñador de Contenidos Lingüísticos"
+        ]
+      }
+    ]
+  },
+  "pedagogia": {
+    "id": "LPE",
+    "name": "Pedagogía",
+    "slug": "pedagogia",
+    "tagline": "Educa para transformar. Diseña el aprendizaje del futuro.",
+    "description": "Aprende a diseñar estrategias educativas innovadoras, planes de estudio en la era digital y consultorías de desarrollo humano en empresas y escuelas.",
+    "ingreso": "Ideal para personas con empatía, paciencia, vocación docente, interés por la psicología del aprendizaje y el desarrollo social.",
+    "egreso": "Director de centros educativos, diseñador de capacitación empresarial, creador de software educativo o consultor psicopedagógico.",
+    "experienciaPractica": [
+      {
+        "title": "Aula de Tecnologías del Aprendizaje",
+        "desc": "Crea aulas virtuales utilizando realidad aumentada, inteligencia artificial aplicada al aula y plataformas interactivas de aprendizaje.",
+        "icon": "💻",
+        "tag": "Tecnología Educativa",
+        "features": [
+          "Entornos de realidad virtual",
+          "Diseño de plataformas LMS",
+          "Gamificación aplicada al aula"
+        ]
+      },
+      {
+        "title": "Consultorio de Psicopedagogía UNINTER",
+        "desc": "Realiza diagnósticos e intervenciones reales de problemas de aprendizaje escolar a niños de escasos recursos bajo supervisión.",
+        "icon": "🧩",
+        "tag": "Diagnóstico Real",
+        "features": [
+          "Evaluación psicopedagógica",
+          "Terapia de aprendizaje supervisada",
+          "Apoyo comunitario"
+        ]
+      },
+      {
+        "title": "Taller de Diseño Curricular Corporativo",
+        "desc": "Diseña programas completos de capacitación interna y desarrollo de habilidades corporativas para empresas socias.",
+        "icon": "🏢",
+        "tag": "Capacitación",
+        "features": [
+          "Programas de formación laboral",
+          "Diseño instruccional",
+          "Detección de necesidades de capacitación"
+        ]
+      },
+      {
+        "title": "Prácticas de Inclusión Escolar y Social",
+        "desc": "Participa en programas de adaptación educativa y dinámicas de inclusión en centros escolares y organizaciones especiales.",
+        "icon": "🤝",
+        "tag": "Educación Inclusiva",
+        "features": [
+          "Adecuaciones de programas",
+          "Proyectos de educación especial",
+          "Tutoría inclusiva"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Diseño Instruccional y E-learning",
+        "desc": "Certifícate en la creación de programas de capacitación online y el manejo de herramientas de diseño para entornos web.",
+        "icon": "⚡",
+        "badge": "E-learning Specialist",
+        "courses": [
+          "Diseño Instruccional",
+          "Plataformas LMS",
+          "Producción de Recursos Digitales",
+          "Evaluación Virtual"
+        ],
+        "jobs": [
+          "Diseñador Instruccional E-learning",
+          "Coordinador de Capacitación Virtual",
+          "Creador de Contenido Educativo"
+        ]
+      },
+      {
+        "title": "Psicopedagogía y Educación Especial",
+        "desc": "Especialización para atender barreras en el aprendizaje y diseñar dinámicas pedagógicas de inclusión.",
+        "icon": "❤️",
+        "badge": "Inclusión Educativa",
+        "courses": [
+          "Diagnóstico de Aprendizaje",
+          "Estrategias de Educación Especial",
+          "Orientación Educativa y Vocacional",
+          "Inclusión Escolar"
+        ],
+        "jobs": [
+          "Orientador Educativo",
+          "Consultor Psicopedagógico",
+          "Coordinador de Inclusión en Escuelas"
+        ]
+      }
+    ]
+  },
+  "psicologia": {
+    "id": "LPS",
+    "name": "Psicología",
+    "slug": "psicologia",
+    "tagline": "Comprende la mente. Sana y fortalece la vida humana.",
+    "description": "Fórmate en las áreas clínica, organizacional y educativa. Desarrolla las competencias de terapia, evaluación psicométrica y consultoría organizacional.",
+    "ingreso": "Apto para personas empáticas, con capacidad de escucha activa, ética, inteligencia emocional y gusto por comprender la mente humana.",
+    "egreso": "Terapeuta clínico independiente, director de recursos humanos en empresas globales, o psicólogo educativo en instituciones formativas.",
+    "experienciaPractica": [
+      {
+        "title": "Cámara Gesell UNINTER",
+        "desc": "Practica técnicas de entrevista clínica, terapia familiar, dinámicas grupales y focus groups de mercadotecnia en un set profesional de observación bidireccional.",
+        "icon": "👁️",
+        "tag": "Cámara Gesell",
+        "features": [
+          "Espejo de visión unidireccional",
+          "Sistema de audio y video 4K",
+          "Cabina de observación docente"
+        ]
+      },
+      {
+        "title": "Gabinete de Pruebas Psicométricas",
+        "desc": "Aplica e interpreta baterías completas de pruebas clínicas, proyectivas, de personalidad y de aptitud laboral.",
+        "icon": "📋",
+        "tag": "Psicometría",
+        "features": [
+          "Batería de test proyectivos (Rorschach)",
+          "Evaluaciones psicométricas laborales",
+          "Software de interpretación de test"
+        ]
+      },
+      {
+        "title": "Clínicas de Atención Comunitaria",
+        "desc": "Brinda asesoría psicológica y primeros auxilios emocionales supervisados a personas que lo requieran.",
+        "icon": "🧠",
+        "tag": "Apoyo Clínico",
+        "features": [
+          "Atención clínica real supervisada",
+          "Terapia de apoyo",
+          "Talleres de salud mental"
+        ]
+      },
+      {
+        "title": "Consultoría Organizacional (NOM-035)",
+        "desc": "Interviene en empresas aliadas diagnosticando y mitigando factores de riesgo psicosocial de acuerdo con normativas del trabajo.",
+        "icon": "🏢",
+        "tag": "Psicología Laboral",
+        "features": [
+          "Evaluaciones del clima laboral",
+          "Prevención de riesgos psicosociales",
+          "Consultoría en NOM-035"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Psicología Clínica y Terapia de Apoyo",
+        "desc": "Especialización práctica en modelos psicoterapéuticos, entrevista clínica e intervención psicológica inmediata.",
+        "icon": "🛋️",
+        "badge": "Psicoterapia",
+        "courses": [
+          "Entrevista Psicológica I y II",
+          "Psicopatología General",
+          "Primeros Auxilios Psicológicos",
+          "Modelos de Psicoterapia"
+        ],
+        "jobs": [
+          "Psicólogo Clínico Consultor",
+          "Terapeuta en Centros de Salud",
+          "Especialista en Intervención en Crisis"
+        ]
+      },
+      {
+        "title": "Psicología Organizacional y Reclutamiento",
+        "desc": "Capacidades avanzadas para evaluar y mejorar el bienestar laboral, desarrollo organizacional y reclutamiento por competencias.",
+        "icon": "📊",
+        "badge": "Desarrollo Humano",
+        "courses": [
+          "Evaluación Psicométrica Laboral",
+          "Clima Organizacional y NOM-035",
+          "Atracción del Talento",
+          "Gestión de Recursos Humanos"
+        ],
+        "jobs": [
+          "Coordinador de Reclutamiento",
+          "Especialista en Desarrollo Organizacional",
+          "Gerente de Capital Humano"
+        ]
+      }
+    ]
+  },
+  "animacion-y-diseno-digital": {
+    "id": "LADD",
+    "name": "Animación y Diseño Digital",
+    "slug": "animacion-y-diseno-digital",
+    "tagline": "Crea mundos imposibles. Da vida a tu imaginación.",
+    "description": "Especialízate en animación 3D, efectos visuales (VFX), modelado orgánico, animación de personajes y desarrollo de videojuegos. Sé el motor creativo de la industria del entretenimiento.",
+    "ingreso": "Para creativos apasionados por los videojuegos, el cine de animación, el dibujo, la tecnología digital y la narrativa visual.",
+    "egreso": "Egresarás listo para laborar en estudios de animación, agencias creativas, productoras de cine/TV y empresas desarrolladoras de videojuegos nacionales e internacionales.",
+    "experienciaPractica": [
+      {
+        "title": "Laboratorio de Captura de Movimiento (Mocap)",
+        "desc": "Usa trajes y cámaras especiales de motion capture para transferir movimientos reales a tus personajes 3D.",
+        "icon": "🤖",
+        "tag": "Motion Capture",
+        "features": [
+          "Cámaras ópticas infrarrojas",
+          "Trajes Mocap profesionales",
+          "Software de retargeting de movimiento"
+        ]
+      },
+      {
+        "title": "iMac Design Lab & Render Farm",
+        "desc": "Utiliza computadoras iMac con tarjetas gráficas dedicadas de alta velocidad y granja de render propia para tus proyectos.",
+        "icon": "🖥️",
+        "tag": "Render Farm",
+        "features": [
+          "Granja de procesamiento de render",
+          "Estaciones iMac gráficas",
+          "Autodesk Maya y Unreal Engine"
+        ]
+      },
+      {
+        "title": "Taller de Modelado y Escultura Digital",
+        "desc": "Aprende esculpido orgánico en 3D utilizando tabletas Wacom profesionales y el estándar de la industria ZBrush.",
+        "icon": "🎨",
+        "tag": "Escultura 3D",
+        "features": [
+          "Tabletas digitales Wacom",
+          "ZBrush e Substance Painter",
+          "Prototipos orgánicos fotorrealistas"
+        ]
+      },
+      {
+        "title": "Estudio de Grabación de Audio & Foley",
+        "desc": "Crea la atmósfera perfecta para tus proyectos produciendo efectos de sonido, banda sonora y doblaje de voz.",
+        "icon": "🎙️",
+        "tag": "Efectos de Sonido",
+        "features": [
+          "Estudio insonorizado profesional",
+          "Microfonía para Foley",
+          "Consolas de mezcla digital"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Animación 3D y Efectos Visuales (VFX)",
+        "desc": "Especialización avanzada en modelado, animación de personajes y composición digital para cine y comerciales.",
+        "icon": "🎬",
+        "badge": "VFX Artist",
+        "courses": [
+          "Modelado 3D Orgánico",
+          "Animación de Personajes",
+          "Iluminación y Texturizado",
+          "Composición Digital con Nuke"
+        ],
+        "jobs": [
+          "Generalista 3D",
+          "Artista de VFX",
+          "Modelador de Personajes",
+          "Compositor Digital"
+        ]
+      },
+      {
+        "title": "Desarrollo de Videojuegos y VR",
+        "desc": "Domina los motores gráficos Unreal Engine y Unity para crear mundos interactivos y experiencias de realidad virtual.",
+        "icon": "🎮",
+        "badge": "Game Developer",
+        "courses": [
+          "Diseño de Videojuegos",
+          "Motores Gráficos I (Unity)",
+          "Motores Gráficos II (Unreal)",
+          "Interfaces y UX para Juegos"
+        ],
+        "jobs": [
+          "Diseñador de Niveles",
+          "Programador de Gameplay",
+          "Artista Técnico de Videojuegos",
+          "Desarrollador VR"
+        ]
+      }
+    ]
+  },
+  "diseno-industrial": {
+    "id": "LDI",
+    "name": "Diseño Industrial",
+    "slug": "diseno-industrial",
+    "tagline": "Transforma conceptos en objetos. Rediseña lo cotidiano.",
+    "description": "Combina estética, funcionalidad, ergonomía y viabilidad productiva. Diseña productos innovadores, empaques inteligentes y mobiliario sustentable para la industria.",
+    "ingreso": "Apto para personas creativas con interés por la mecánica, los materiales, la fabricación de objetos, la sustentabilidad y el dibujo técnico.",
+    "egreso": "Liderarás en departamentos de diseño y desarrollo de productos, consultorías de diseño de mobiliario, empaques industriales o gestionando tu propia marca de manufactura.",
+    "experienciaPractica": [
+      {
+        "title": "Taller de Manufactura de Modelos",
+        "desc": "Corta, lija y tornea madera, plásticos y metales para crear modelos volumétricos y pruebas funcionales.",
+        "icon": "🔨",
+        "tag": "Taller Mecánico",
+        "features": [
+          "Tornos y fresadoras manuales",
+          "Cabina de pintura y acabados",
+          "Herramientas de carpintería"
+        ]
+      },
+      {
+        "title": "Laboratorio de Impresión 3D y CNC",
+        "desc": "Materializa tus diseños en computadoras enviándolos directamente a impresoras 3D FDM/Resina y ruteadoras CNC.",
+        "icon": "⚙️",
+        "tag": "Fabricación Digital",
+        "features": [
+          "Impresoras 3D industriales",
+          "Ruteadora CNC de gran formato",
+          "Cortadora láser de alta precisión"
+        ]
+      },
+      {
+        "title": "Taller de Moldes y Resinas",
+        "desc": "Crea moldes de silicón y fibra de vidrio para vaciar resinas y plásticos en producción a baja escala.",
+        "icon": "🧪",
+        "tag": "Moldes y Vaciado",
+        "features": [
+          "Cámaras de vacío de desgasificación",
+          "Resinas de poliuretano y epóxicas",
+          "Moldes de silicón flexibles"
+        ]
+      },
+      {
+        "title": "Laboratorio de Ergonomía e Interacción",
+        "desc": "Prueba tus prototipos físicamente midiendo la antropometría y usabilidad con usuarios para asegurar un uso cómodo.",
+        "icon": "📏",
+        "tag": "Usabilidad",
+        "features": [
+          "Herramientas de medición antropométrica",
+          "Pruebas de esfuerzo y flexión",
+          "Estudios de usabilidad física"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Diseño de Mobiliario y Espacios",
+        "desc": "Especialízate en la creación de muebles y diseño comercial (exhibidores POP) optimizando materiales como madera y metal.",
+        "icon": "🪑",
+        "badge": "Furniture Design",
+        "courses": [
+          "Diseño de Muebles de Madera",
+          "Muebles Metálicos y Plásticos",
+          "Diseño Comercial y POP",
+          "Costos e Industrialización"
+        ],
+        "jobs": [
+          "Diseñador de Mobiliario",
+          "Diseñador de Interiores Comerciales",
+          "Especialista en Visual Merchandising"
+        ]
+      },
+      {
+        "title": "Modelado CAD/CAM y Diseño de Empaque",
+        "desc": "Domina el diseño paramétrico en SolidWorks y la planeación de envase y embalaje para distribución global.",
+        "icon": "📦",
+        "badge": "CAD/CAM Expert",
+        "courses": [
+          "SolidWorks Asociado (CSWA)",
+          "Diseño de Envase y Embalaje",
+          "Manufactura Asistida por Computadora (CAM)",
+          "Ecodiseño"
+        ],
+        "jobs": [
+          "Especialista en SolidWorks CAD",
+          "Diseñador de Empaque y Envase",
+          "Ingeniero de Desarrollo de Producto"
+        ]
+      }
+    ]
+  },
+  "diseno-de-modas-y-tendencias-internacionales": {
+    "id": "LDM",
+    "name": "Diseño de Modas",
+    "slug": "diseno-de-modas-y-tendencias-internacionales",
+    "tagline": "Define el estilo. Lidera la moda global.",
+    "description": "Desarrolla colecciones de ropa vanguardistas, domina el patronaje de alta costura, y especialízate en la mercadotecnia de la moda, pasarelas y el retail de lujo.",
+    "ingreso": "Perfecto para apasionados de las tendencias, la confección textil, el dibujo de moda (figurines), la fotografía editorial y el estilismo.",
+    "egreso": "Serás un diseñador de moda de renombre, director de tu propia firma, coordinador de desfiles, comprador de moda para tiendas departamentales o editor de revistas de moda.",
+    "experienciaPractica": [
+      {
+        "title": "Taller de Confección Profesional",
+        "desc": "Utiliza máquinas de coser industriales (rectas, overlocks y collareteras) en mesas de costura de nivel profesional.",
+        "icon": "🧵",
+        "tag": "Costura Industrial",
+        "features": [
+          "Máquinas de coser rectas y overlocks",
+          "Planchas de vapor industriales",
+          "Maniquíes profesionales de drapeado"
+        ]
+      },
+      {
+        "title": "Taller de Patronaje y Graduación",
+        "desc": "Diseña moldes físicos en papel y digitalízalos para escalar tallas de manera automatizada.",
+        "icon": "📐",
+        "tag": "Patronaje",
+        "features": [
+          "Software Gerber Accumark",
+          "Mesas de trazo a escala real",
+          "Graduación y escalado de tallas"
+        ]
+      },
+      {
+        "title": "Estudio de Estilismo y Fotografía Editorial",
+        "desc": "Produce books de fotos profesionales de tus colecciones en el set fotográfico con iluminación de estudio.",
+        "icon": "📸",
+        "tag": "Fotografía de Moda",
+        "features": [
+          "Set de iluminación profesional",
+          "Cicloramas de colores de estudio",
+          "Cámaras profesionales 4K"
+        ]
+      },
+      {
+        "title": "Pasarela Anual UNINTER-MODA",
+        "desc": "Participa activamente organizando el desfile anual donde vistes modelos reales y presentas tu colección ante medios.",
+        "icon": "✨",
+        "tag": "Show en Vivo",
+        "features": [
+          "Organización de pasarelas",
+          "Contacto con modelos y agencias",
+          "Coordinación de iluminación y música"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Alta Costura y Confección Textil",
+        "desc": "Técnicas avanzadas de drapeado, costura a mano, sastrería clásica y acabados finos de alta costura.",
+        "icon": "👗",
+        "badge": "Couture Specialist",
+        "courses": [
+          "Patronaje de Alta Costura",
+          "Drapeado y Modelado sobre Maniquí",
+          "Sastrería e Hilado",
+          "Bordados y Acabados de Lujo"
+        ],
+        "jobs": [
+          "Diseñador de Alta Costura",
+          "Sastre Profesional",
+          "Patronista Senior",
+          "Modista de Novias"
+        ]
+      },
+      {
+        "title": "Mercadotecnia de Moda y Retail",
+        "desc": "Gestión del negocio de la moda, planeación de colecciones para e-commerce, retail y marcas de lujo.",
+        "icon": "👠",
+        "badge": "Fashion Business",
+        "courses": [
+          "Mercadotecnia de Moda",
+          "Estilismo Editorial e Imagen",
+          "Comercio Electrónico Textil",
+          "Retail y Gestión de Lujo"
+        ],
+        "jobs": [
+          "Fashion Buyer / Comprador de Moda",
+          "Brand Manager de Moda",
+          "E-commerce Manager Textil",
+          "Coordinador de Moda"
+        ]
+      }
+    ]
+  }
+}

@@ -11,6 +11,20 @@ const LABELS: Record<string, string> = {
   posgrados:                     "Posgrados",
   diplomados:                    "Diplomados",
   admisiones:                    "Admisiones",
+  carreras:                      "Licenciaturas",
+};
+
+// Redireccionamiento especial para segmentos que no tienen página propia
+const HREF_OVERRIDES: Record<string, string> = {
+  carreras: "/LicenciaturasPresenciales",
+};
+
+// Convierte un slug como "relaciones-internacionales" en "Relaciones Internacionales"
+const slugToTitle = (slug: string): string => {
+  return slug
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
 };
 
 const crumbs = computed(() => {
@@ -21,7 +35,9 @@ const crumbs = computed(() => {
   let acc = "";
   segs.forEach((s, i) => {
     acc += "/" + s;
-    list.push({ label: LABELS[s] ?? s, href: acc, current: i === segs.length - 1 });
+    const label = LABELS[s] ?? slugToTitle(s);
+    const href = HREF_OVERRIDES[s] ?? acc;
+    list.push({ label, href, current: i === segs.length - 1 });
   });
   return list;
 });
@@ -32,6 +48,8 @@ const isHome = computed(() => route.path === "/");
 const parentHref = computed(() => {
   const parts = route.path.split("/").filter(Boolean);
   if (parts.length <= 1) return "/";
+  // Si estamos en /carreras/algo, el padre debe ser /LicenciaturasPresenciales
+  if (parts[0] === "carreras") return "/LicenciaturasPresenciales";
   parts.pop();
   return "/" + parts.join("/");
 });

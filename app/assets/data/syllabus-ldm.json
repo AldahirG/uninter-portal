@@ -1,0 +1,118 @@
+{
+  "categories": [
+    { "label": "Todas las materias", "value": "all" },
+    { "label": "👗 Alta Costura y Diseño", "value": "diseno" },
+    { "label": "📐 Patronaje y Confección", "value": "patronaje" },
+    { "label": "👜 Negocio de Moda y Retail", "value": "negocio" },
+    { "label": "🌐 Formación General", "value": "general" }
+  ],
+  "syllabus": [
+    {
+      "id": "sem-1-2",
+      "tabLabel": "Semestres 1 y 2",
+      "blocks": [
+        {
+          "title": "Primer Semestre",
+          "subjects": [
+            { "name": "Introducción al Diseño de Modas", "tag": "diseno" },
+            { "name": "Dibujo de Moda y Figurinismo I", "tag": "diseno" },
+            { "name": "Fibras y Materiales Textiles I", "tag": "general" },
+            { "name": "Historia de la Moda y el Vestido", "tag": "general" },
+            { "name": "Costura Básica e Introducción a Máquinas", "tag": "patronaje" },
+            { "name": "Lengua Extranjera I", "tag": "general" }
+          ]
+        },
+        {
+          "title": "Segundo Semestre",
+          "subjects": [
+            { "name": "Dibujo de Moda y Figurinismo II", "tag": "diseno" },
+            { "name": "Fibras y Materiales Textiles II", "tag": "general" },
+            { "name": "Patronaje Básico y Graduación Dama", "tag": "patronaje" },
+            { "name": "Taller de Confección I (Faldas y Blusas)", "tag": "patronaje" },
+            { "name": "Ilustración Digital de Modas", "tag": "diseno" },
+            { "name": "Lengua Extranjera II", "tag": "general" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-3-4",
+      "tabLabel": "Semestres 3 y 4",
+      "blocks": [
+        {
+          "title": "Tercer Semestre",
+          "subjects": [
+            { "name": "Diseño de Colección I (Casual/Prêt-à-Porter)", "tag": "diseno" },
+            { "name": "Patronaje y Graduación Caballero e Infantil", "tag": "patronaje" },
+            { "name": "Taller de Confección II (Sastrería)", "tag": "patronaje" },
+            { "name": "Drapeado y Modelado sobre Maniquí I", "tag": "diseno" },
+            { "name": "Introducción al Fashion Marketing", "tag": "negocio" },
+            { "name": "Lengua Extranjera III", "tag": "general" }
+          ]
+        },
+        {
+          "title": "Cuarto Semestre",
+          "subjects": [
+            { "name": "Diseño de Colección II (Alta Costura)", "tag": "diseno" },
+            { "name": "Drapeado y Modelado sobre Maniquí II", "tag": "diseno" },
+            { "name": "Taller de Confección de Alta Costura", "tag": "patronaje" },
+            { "name": "Patronaje Digital (Gerber Accumark)", "tag": "patronaje" },
+            { "name": "Estilismo Editorial y Fotografía de Modas", "tag": "negocio" },
+            { "name": "Lengua Extranjera IV", "tag": "general" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-5-6",
+      "tabLabel": "Semestres 5 y 6",
+      "blocks": [
+        {
+          "title": "Quinto Semestre",
+          "subjects": [
+            { "name": "Diseño de Accesorios, Calzado y Bolsos", "tag": "diseno" },
+            { "name": "E-commerce y Retail de Moda", "tag": "negocio" },
+            { "name": "Gestión de Marcas de Lujo (Branding)", "tag": "negocio" },
+            { "name": "Taller de Patronaje Industrial y Graduación", "tag": "patronaje" },
+            { "name": "Optativa I", "tag": "general" }
+          ]
+        },
+        {
+          "title": "Sexto Semestre",
+          "subjects": [
+            { "name": "Diseño de Colección de Graduación", "tag": "diseno" },
+            { "name": "Planeación de Colecciones y Costos", "tag": "negocio" },
+            { "name": "Organización de Eventos y Pasarelas", "tag": "negocio" },
+            { "name": "Metodología de la Investigación", "tag": "general" },
+            { "name": "Optativa II", "tag": "general" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-7-8",
+      "tabLabel": "Semestres 7 y 8",
+      "blocks": [
+        {
+          "title": "Séptimo Semestre",
+          "subjects": [
+            { "name": "Seminario de Titulación I", "tag": "general" },
+            { "name": "Estudios de Tendencias Globales (Coolhunting)", "tag": "negocio" },
+            { "name": "Moda Sustentable e Innovación Textil", "tag": "diseno" },
+            { "name": "Prácticas Profesionales y Desfiles", "tag": "negocio" },
+            { "name": "Optativa III", "tag": "general" }
+          ]
+        },
+        {
+          "title": "Octavo Semestre",
+          "subjects": [
+            { "name": "Seminario de Titulación II", "tag": "general" },
+            { "name": "Emprendimiento de Firmas de Moda", "tag": "negocio" },
+            { "name": "Ética Profesional", "tag": "general" },
+            { "name": "Derecho de la Moda (Fashion Law)", "tag": "general" }
+          ]
+        }
+      ]
+    }
+  ]
+}

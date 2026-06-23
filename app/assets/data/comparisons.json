@@ -1,0 +1,816 @@
+{
+  "comunicacion": {
+    "careerName": "Comunicación",
+    "competitors": [
+      {
+        "university": "UVM Cuernavaca",
+        "programName": "Ciencias de la Comunicación"
+      },
+      {
+        "university": "UAEM",
+        "programName": "Comunicación y Tecnología Educativa"
+      }
+    ],
+    "comparisonPoints": [
+      {
+        "feature": "Instalaciones / Laboratorios",
+        "uninter": "Centro de Medios propio con cabinas de radio y set de TV 4K disponibles para los alumnos en horarios extendidos. Equipamiento profesional de última generación.",
+        "competitors": [
+          "Uso muy restringido de laboratorios, sujeto a disponibilidad y reservación con semanas de anticipación.",
+          "Equipos desactualizados y escasez de cabinas profesionales; muchas prácticas se realizan con equipo personal de los alumnos."
+        ]
+      },
+      {
+        "feature": "Plan de Estudios",
+        "uninter": "Enfoque 100% práctico en Medios Digitales, Producción Transmedia y Relaciones Públicas, con actualización constante del plan de estudios al ritmo de la industria.",
+        "competitors": [
+          "Alta carga de materias de tronco común no enfocadas a la carrera, lo que retrasa la especialización profesional.",
+          "Enfoque altamente teórico y tradicional centrado en prensa escrita y radio AM, con poca integración de medios digitales."
+        ]
+      },
+      {
+        "feature": "Vinculación / Prácticas Profesionales",
+        "uninter": "Prácticas profesionales garantizadas en televisoras nacionales, agencias de publicidad y medios digitales en México y el extranjero. Convenios activos con más de 50 empresas del sector.",
+        "competitors": [
+          "Prácticas profesionales limitadas principalmente a empresas del estado de Morelos, con pocas opciones a nivel nacional.",
+          "Pocas opciones de intercambio internacional debido a procesos burocráticos prolongados y paros recurrentes que afectan los calendarios académicos."
+        ]
+      },
+      {
+        "feature": "Titulación y Egreso",
+        "uninter": "Múltiples opciones de titulación directa sin costo adicional oculto, incluyendo titulación por promedio, CENEVAL y proyecto integrador. Seguimiento personalizado a egresados.",
+        "competitors": [
+          "Costos ocultos de titulación elevados y procesos administrativos lentos que pueden demorar meses adicionales.",
+          "Tesis obligatoria como única modalidad de titulación, con procesos que frecuentemente tardan hasta 2 años en completarse."
+        ]
+      }
+    ]
+  },
+  "relaciones-internacionales": {
+    "careerName": "Relaciones Internacionales",
+    "competitors": [
+      {
+        "university": "UAEM",
+        "programName": "Relaciones Internacionales"
+      },
+      {
+        "university": "Universidad La Salle Cuernavaca",
+        "programName": "Relaciones Internacionales"
+      }
+    ],
+    "comparisonPoints": [
+      {
+        "feature": "Plan de Estudios",
+        "uninter": "Plan de estudios con enfoque en diplomacia contemporánea, comercio internacional y geopolítica, integrado con simulaciones de organismos internacionales (ONU, OEA) cada semestre.",
+        "competitors": [
+          "Plan de estudios con excesiva carga teórica en historia y filosofía política, con poca aplicación práctica en escenarios internacionales reales.",
+          "Enfoque generalista que no profundiza en áreas clave como comercio exterior o cooperación internacional, limitando la especialización del egresado."
+        ]
+      },
+      {
+        "feature": "Vinculación / Prácticas Profesionales",
+        "uninter": "Convenios activos con embajadas, consulados y organismos internacionales para prácticas profesionales. Programa de intercambio con universidades de Europa, Asia y Latinoamérica.",
+        "competitors": [
+          "Prácticas profesionales limitadas a dependencias gubernamentales estatales; los convenios internacionales activos son escasos y de difícil acceso para los alumnos.",
+          "Intercambios internacionales disponibles pero con costos adicionales muy elevados que resultan prohibitivos para la mayoría de los estudiantes."
+        ]
+      },
+      {
+        "feature": "Certificaciones",
+        "uninter": "Posibilidad de obtener certificaciones en idiomas (inglés, francés) y en comercio exterior integradas al plan de estudios, sin costo adicional por la preparación.",
+        "competitors": [
+          "No se ofrecen certificaciones internacionales dentro del programa; los alumnos deben buscarlas de forma externa y a su propio costo.",
+          "Se promueven certificaciones de idiomas pero sin preparación formal incluida en el plan, lo que reduce significativamente las tasas de aprobación."
+        ]
+      },
+      {
+        "feature": "Costos y Becas",
+        "uninter": "Colegiaturas competitivas con programa robusto de becas académicas, deportivas y socioeconómicas que pueden cubrir hasta el 50% del costo total de la carrera.",
+        "competitors": [
+          "Aunque la colegiatura base es accesible, los costos de materiales, exámenes extraordinarios y trámites administrativos elevan considerablemente el gasto real.",
+          "Colegiaturas significativamente más altas que el promedio estatal, con opciones de beca limitadas y altamente competitivas que benefician a pocos estudiantes."
+        ]
+      }
+    ]
+  },
+  "derecho": {
+    "careerName": "Derecho",
+    "competitors": [
+      {
+        "university": "UAEM",
+        "programName": "Derecho"
+      },
+      {
+        "university": "UNILA",
+        "programName": "Derecho"
+      }
+    ],
+    "comparisonPoints": [
+      {
+        "feature": "Instalaciones / Laboratorios",
+        "uninter": "Sala de juicios orales equipada con tecnología de punta que replica fielmente las condiciones de un tribunal real. Los alumnos practican litigación desde los primeros semestres.",
+        "competitors": [
+          "Sala de juicios orales con equipamiento básico y acceso limitado; las prácticas de litigación se concentran únicamente en los últimos semestres.",
+          "No cuenta con sala de juicios orales propia; las simulaciones se realizan en aulas adaptadas sin el equipo audiovisual adecuado."
+        ]
+      },
+      {
+        "feature": "Plan de Estudios",
+        "uninter": "Plan actualizado al nuevo sistema de justicia penal acusatorio, con énfasis en derecho digital, propiedad intelectual y mediación. Incluye prácticas de litigación oral desde tercer semestre.",
+        "competitors": [
+          "Plan de estudios con actualización lenta; algunas materias todavía reflejan el modelo inquisitivo anterior a la reforma penal de 2008.",
+          "Enfoque memorístico centrado en códigos y legislación, con poca formación en habilidades prácticas de argumentación y litigación oral."
+        ]
+      },
+      {
+        "feature": "Vinculación / Prácticas Profesionales",
+        "uninter": "Convenios con despachos jurídicos de prestigio, el Poder Judicial de Morelos y defensorías públicas para que los alumnos realicen prácticas profesionales reales con casos activos.",
+        "competitors": [
+          "Las prácticas profesionales se limitan frecuentemente a tareas administrativas en juzgados, sin participación real en procesos legales formativos.",
+          "Convenios de prácticas escasos y gestionados por los propios alumnos; la universidad ofrece poco apoyo institucional para colocar estudiantes en despachos."
+        ]
+      },
+      {
+        "feature": "Titulación y Egreso",
+        "uninter": "Opciones flexibles de titulación que incluyen CENEVAL, promedio mínimo y proyecto integrador. Índice de titulación superior al 85%, con acompañamiento personalizado durante el proceso.",
+        "competitors": [
+          "Proceso de titulación burocrático y lento, con tesis obligatoria como modalidad principal y tiempos de revisión que superan los 12 meses.",
+          "Alto índice de egresados no titulados debido a la complejidad del proceso administrativo y la falta de seguimiento institucional a los pasantes."
+        ]
+      }
+    ]
+  },
+  "arquitectura": {
+    "careerName": "Arquitectura",
+    "competitors": [
+      {
+        "university": "UAEM",
+        "programName": "Arquitectura"
+      },
+      {
+        "university": "Universidad La Salle Cuernavaca",
+        "programName": "Arquitectura"
+      }
+    ],
+    "comparisonPoints": [
+      {
+        "feature": "Instalaciones / Laboratorios",
+        "uninter": "Talleres de maquetería, laboratorio de cómputo con licencias profesionales de AutoCAD, Revit y 3ds Max, además de impresoras 3D disponibles para proyectos académicos.",
+        "competitors": [
+          "Talleres con horarios restringidos y equipo de cómputo insuficiente para la matrícula; los alumnos frecuentemente deben trabajar con sus propios equipos y licencias.",
+          "Instalaciones adecuadas pero con acceso limitado fuera de horario de clase; las licencias de software profesional no siempre están actualizadas a las últimas versiones."
+        ]
+      },
+      {
+        "feature": "Plan de Estudios",
+        "uninter": "Plan de estudios con enfoque en arquitectura sustentable, modelado BIM y diseño paramétrico. Proyectos integradores cada semestre vinculados con problemáticas urbanas reales de Morelos.",
+        "competitors": [
+          "Plan de estudios con orientación tradicional que incorpora lentamente las tecnologías BIM; escasa formación en sustentabilidad y eficiencia energética.",
+          "Buen nivel académico pero con enfoque predominantemente teórico en diseño; pocos proyectos vinculados con la comunidad o con problemáticas urbanas actuales."
+        ]
+      },
+      {
+        "feature": "Vinculación / Prácticas Profesionales",
+        "uninter": "Convenios con despachos de arquitectura reconocidos, constructoras y dependencias de desarrollo urbano. Participación en concursos nacionales e internacionales de diseño arquitectónico.",
+        "competitors": [
+          "Las prácticas profesionales se concentran en obra pública gubernamental con poca exposición a proyectos de diseño arquitectónico innovador.",
+          "Vinculación limitada con el sector privado de la construcción; los alumnos deben gestionar sus propias prácticas sin apoyo institucional suficiente."
+        ]
+      },
+      {
+        "feature": "Certificaciones",
+        "uninter": "Preparación integrada para la certificación en Autodesk Revit y AutoCAD, con posibilidad de presentar el examen como parte del plan de estudios. Egresados con doble valor curricular.",
+        "competitors": [
+          "No se ofrecen certificaciones de software dentro del programa; los alumnos interesados deben buscar y costear la certificación por cuenta propia.",
+          "Se imparten cursos de software pero sin vinculación formal con certificaciones de Autodesk u otros proveedores reconocidos en la industria."
+        ]
+      }
+    ]
+  },
+  "diseno-grafico": {
+    "careerName": "Diseño Gráfico",
+    "competitors": [
+      {
+        "university": "UVM Cuernavaca",
+        "programName": "Diseño Gráfico y Animación"
+      },
+      {
+        "university": "UAEM",
+        "programName": "Diseño Gráfico"
+      }
+    ],
+    "comparisonPoints": [
+      {
+        "feature": "Instalaciones / Laboratorios",
+        "uninter": "Laboratorios Mac y PC con la suite completa de Adobe Creative Cloud actualizada, estudio fotográfico profesional y taller de serigrafía. Acceso extendido para proyectos personales.",
+        "competitors": [
+          "Laboratorios con equipos compartidos entre varias carreras; el software de diseño no siempre está actualizado a la versión más reciente de la suite Adobe.",
+          "Equipos de cómputo insuficientes para la demanda estudiantil; el estudio fotográfico es básico y requiere reservación con mucha anticipación."
+        ]
+      },
+      {
+        "feature": "Plan de Estudios",
+        "uninter": "Formación integral en diseño UX/UI, branding, motion graphics y diseño editorial, con un portafolio profesional construido desde primer semestre con retroalimentación de profesores activos en la industria.",
+        "competitors": [
+          "Plan de estudios que combina diseño con animación, diluyendo la profundidad en áreas clave como branding y diseño editorial.",
+          "Enfoque académico tradicional con énfasis en teoría del diseño y poca formación en herramientas digitales contemporáneas como Figma o After Effects."
+        ]
+      },
+      {
+        "feature": "Vinculación / Prácticas Profesionales",
+        "uninter": "Prácticas en agencias de publicidad, estudios de diseño y departamentos creativos de empresas nacionales. Los mejores proyectos estudiantiles se presentan ante clientes reales cada semestre.",
+        "competitors": [
+          "Prácticas profesionales disponibles pero concentradas en empresas locales pequeñas con poca exposición a proyectos de diseño de alto impacto.",
+          "Vinculación empresarial débil en el área de diseño; las prácticas frecuentemente consisten en apoyo administrativo más que en trabajo creativo real."
+        ]
+      },
+      {
+        "feature": "Bolsa de Trabajo",
+        "uninter": "Bolsa de trabajo exclusiva con vacantes verificadas en diseño gráfico, UX/UI y producción visual. Tasa de empleabilidad del egresado superior al 80% durante el primer año.",
+        "competitors": [
+          "Bolsa de trabajo general de la universidad sin filtros especializados para diseño; muchas vacantes no corresponden al perfil creativo del egresado.",
+          "No cuenta con bolsa de trabajo institucional activa; la colocación laboral depende enteramente de las redes personales del egresado."
+        ]
+      }
+    ]
+  },
+  "mecatronica": {
+    "careerName": "Ingeniería Mecatrónica",
+    "competitors": [
+      {
+        "university": "UAEM",
+        "programName": "Ingeniería Mecánica"
+      },
+      {
+        "university": "UTEZ",
+        "programName": "Mecatrónica"
+      }
+    ],
+    "comparisonPoints": [
+      {
+        "feature": "Instalaciones / Laboratorios",
+        "uninter": "Laboratorios especializados de robótica, electrónica, automatización industrial y manufactura con CNC. Equipamiento de nivel industrial actualizado que permite prácticas reales desde los primeros semestres.",
+        "competitors": [
+          "Laboratorios de ingeniería mecánica sin equipamiento específico de robótica y automatización; los alumnos de mecatrónica comparten espacios con otras ingenierías.",
+          "Laboratorios funcionales pero con equipamiento limitado a nivel técnico; la infraestructura no siempre alcanza el nivel requerido para proyectos de ingeniería avanzados."
+        ]
+      },
+      {
+        "feature": "Plan de Estudios",
+        "uninter": "Plan de estudios que integra mecánica, electrónica, programación e inteligencia artificial aplicada. Enfoque en Industria 4.0, IoT y automatización con proyectos integradores semestrales.",
+        "competitors": [
+          "Programa centrado en ingeniería mecánica tradicional con módulos limitados de electrónica y programación; no ofrece la integración multidisciplinaria propia de la mecatrónica.",
+          "Plan orientado a nivel TSU con opción de continuidad a ingeniería; la profundidad en materias de diseño mecánico y control avanzado es menor comparada con un programa de licenciatura completo."
+        ]
+      },
+      {
+        "feature": "Certificaciones",
+        "uninter": "Preparación para certificaciones en SolidWorks, programación de PLCs Siemens y manufactura avanzada, integradas al plan de estudios para que el egresado tenga validación industrial desde el inicio.",
+        "competitors": [
+          "No se incluyen certificaciones industriales en el programa; los alumnos deben buscar y financiar certificaciones de software y manufactura por su cuenta.",
+          "Se ofrecen algunas certificaciones técnicas básicas, pero no alcanzan el nivel de certificaciones industriales reconocidas por empresas del sector manufacturero."
+        ]
+      },
+      {
+        "feature": "Vinculación / Prácticas Profesionales",
+        "uninter": "Convenios con empresas del sector automotriz, manufactura y tecnología en el corredor industrial Morelos-Puebla-Estado de México. Participación activa en competencias nacionales de robótica.",
+        "competitors": [
+          "Prácticas profesionales disponibles pero con procesos de asignación lentos y burocráticos que frecuentemente retrasan la experiencia laboral de los estudiantes.",
+          "Vinculación fuerte con el sector productivo local, pero las prácticas se enfocan en procesos operativos más que en diseño e innovación en ingeniería."
+        ]
+      }
+    ]
+  },
+  "sistemas-computacionales": {
+    "careerName": "Ingeniería en Sistemas Computacionales",
+    "competitors": [
+      {
+        "university": "UAEM",
+        "programName": "Ingeniería en Sistemas Computacionales"
+      },
+      {
+        "university": "Tec Milenio",
+        "programName": "Ingeniería en Sistemas Computacionales"
+      }
+    ],
+    "comparisonPoints": [
+      {
+        "feature": "Instalaciones / Laboratorios",
+        "uninter": "Laboratorios de cómputo con servidores propios para prácticas de redes, ciberseguridad y cloud computing. Ambiente de desarrollo profesional con acceso a herramientas enterprise como AWS Academy y Azure.",
+        "competitors": [
+          "Laboratorios de cómputo compartidos con otras carreras y con software que no siempre refleja las herramientas utilizadas en la industria actual.",
+          "Modelo predominantemente en línea con laboratorios virtuales; la experiencia práctica con hardware y redes físicas es muy limitada."
+        ]
+      },
+      {
+        "feature": "Plan de Estudios",
+        "uninter": "Plan actualizado con enfoque en desarrollo full-stack, inteligencia artificial, ciberseguridad y DevOps. Stack tecnológico alineado con las demandas reales del mercado laboral tech en México.",
+        "competitors": [
+          "Plan de estudios con actualización lenta que todavía incluye tecnologías obsoletas; la formación en IA, cloud y ciberseguridad es superficial.",
+          "Plan flexible y moderno en concepto pero con poca profundidad técnica; el modelo de aprendizaje autodirigido resulta insuficiente para materias complejas de ingeniería."
+        ]
+      },
+      {
+        "feature": "Bolsa de Trabajo",
+        "uninter": "Bolsa de trabajo especializada en TI con conexiones directas a empresas de software, consultoras tecnológicas y startups. Hackathons y ferias de empleo tech exclusivas para alumnos y egresados.",
+        "competitors": [
+          "Bolsa de trabajo institucional generalista donde las vacantes de tecnología se mezclan con todas las demás áreas profesionales.",
+          "Red de egresados Tec amplia, pero las vacantes tecnológicas de alto nivel se concentran en campus grandes como Monterrey y CDMX, no en Cuernavaca."
+        ]
+      },
+      {
+        "feature": "Costos y Becas",
+        "uninter": "Colegiaturas accesibles con becas académicas y por convenio empresarial. Excelente relación costo-beneficio comparada con la calidad de laboratorios y el nivel de empleabilidad de los egresados.",
+        "competitors": [
+          "Colegiatura pública accesible, pero los costos de materiales, equipos personales y certificaciones adicionales incrementan significativamente el gasto total de la carrera.",
+          "Colegiaturas considerablemente más altas que el promedio en Morelos, con un modelo de cobro que incluye costos adicionales por materias en línea y recursos digitales."
+        ]
+      }
+    ]
+  },
+  "mercadotecnia": {
+    "careerName": "Mercadotecnia",
+    "competitors": [
+      {
+        "university": "UVM Cuernavaca",
+        "programName": "Mercadotecnia"
+      },
+      {
+        "university": "Universidad La Salle Cuernavaca",
+        "programName": "Mercadotecnia"
+      }
+    ],
+    "comparisonPoints": [
+      {
+        "feature": "Plan de Estudios",
+        "uninter": "Plan de estudios enfocado en marketing digital, e-commerce, analítica de datos y neuromarketing. Casos prácticos reales con empresas de la región cada semestre.",
+        "competitors": [
+          "Plan de estudios que abarca marketing de forma amplia pero sin profundizar en herramientas digitales como Google Ads, Meta Ads y analítica web.",
+          "Enfoque tradicional en mercadotecnia con actualización gradual hacia lo digital; poca integración de herramientas de automatización y CRM en la formación."
+        ]
+      },
+      {
+        "feature": "Vinculación / Prácticas Profesionales",
+        "uninter": "Prácticas profesionales en agencias de marketing digital, departamentos comerciales de empresas nacionales y proyectos de consultoría real para PyMEs de Morelos con acompañamiento docente.",
+        "competitors": [
+          "Prácticas profesionales disponibles pero concentradas en el sector corporativo de CDMX, lo que dificulta la participación de alumnos que estudian en Cuernavaca.",
+          "Vinculación empresarial enfocada en empresas del grupo La Salle; las opciones fuera de la red institucional son limitadas y poco diversificadas."
+        ]
+      },
+      {
+        "feature": "Certificaciones",
+        "uninter": "Preparación integrada para certificaciones de Google Analytics, Google Ads y Meta Blueprint. Los alumnos egresan con credenciales digitales que validan sus competencias ante empleadores.",
+        "competitors": [
+          "No se incluyen certificaciones de marketing digital en el plan de estudios; los alumnos deben buscar y costear cursos de certificación por cuenta propia.",
+          "Se mencionan certificaciones como valor agregado, pero no hay preparación formal ni convenios con Google o Meta para facilitar el proceso a los alumnos."
+        ]
+      },
+      {
+        "feature": "Bolsa de Trabajo",
+        "uninter": "Bolsa de trabajo activa con vacantes en marketing digital, ventas, trade marketing y community management. Eventos de networking con profesionales del sector organizados cada trimestre.",
+        "competitors": [
+          "Bolsa de trabajo de la red UVM a nivel nacional, pero con pocas vacantes específicas de marketing en la zona de Cuernavaca y Morelos.",
+          "Bolsa de trabajo institucional con vacantes limitadas en número; los egresados reportan que la colocación laboral depende más de contactos personales que del apoyo universitario."
+        ]
+      }
+    ]
+  },
+  "administracion-de-empresas": {
+    "careerName": "Administración de Empresas",
+    "competitors": [
+      {
+        "university": "UAEM",
+        "programName": "Administración"
+      },
+      {
+        "university": "UCEM",
+        "programName": "Administración de Empresas"
+      }
+    ],
+    "comparisonPoints": [
+      {
+        "feature": "Plan de Estudios",
+        "uninter": "Plan de estudios con enfoque en emprendimiento, gestión de innovación y finanzas corporativas. Simuladores empresariales y desarrollo de un plan de negocio real como proyecto integrador final.",
+        "competitors": [
+          "Plan de estudios extenso con muchas materias de tronco común que retrasan la formación específica en administración y dilatan la duración efectiva de la carrera.",
+          "Programa funcional pero con enfoque operativo más que estratégico; poca profundidad en finanzas corporativas, innovación y gestión del cambio organizacional."
+        ]
+      },
+      {
+        "feature": "Vinculación / Prácticas Profesionales",
+        "uninter": "Convenios con cámaras empresariales (CANACO, CANACINTRA), empresas del sector turístico de Morelos y corporativos nacionales. Incubadora de negocios propia para proyectos emprendedores de los alumnos.",
+        "competitors": [
+          "Prácticas profesionales en dependencias gubernamentales y empresas públicas, con menor exposición al sector privado y al ecosistema emprendedor.",
+          "Vinculación empresarial limitada a convenios locales; pocas oportunidades de prácticas en empresas medianas y grandes fuera del estado de Morelos."
+        ]
+      },
+      {
+        "feature": "Titulación y Egreso",
+        "uninter": "Proceso de titulación ágil con múltiples modalidades: promedio, CENEVAL, proyecto de emprendimiento y estancia profesional. Tasa de titulación superior al 80% gracias al acompañamiento institucional.",
+        "competitors": [
+          "Proceso de titulación lento con requisitos burocráticos que pueden extender el trámite hasta un año después del egreso. Muchos pasantes nunca completan la titulación.",
+          "Modalidades de titulación limitadas; el proceso depende en gran medida del seguimiento individual del alumno, sin un programa institucional sólido de acompañamiento."
+        ]
+      },
+      {
+        "feature": "Costos y Becas",
+        "uninter": "Colegiaturas competitivas con esquemas de beca por promedio, convenio empresarial y apoyo socioeconómico. Plan de pagos flexible que se adapta a las necesidades de cada familia.",
+        "competitors": [
+          "Colegiatura pública baja, pero los costos indirectos (materiales, transporte a campus lejano, exámenes extraordinarios) incrementan el gasto total de forma considerable.",
+          "Colegiaturas accesibles en comparación con universidades privadas grandes, pero con pocas opciones de beca disponibles y montos de descuento reducidos."
+        ]
+      }
+    ]
+  },
+  "comunicacion-y-relaciones-publicas": {
+    "careerName": "Comunicación y Relaciones Públicas",
+    "competitors": [
+      {
+        "university": "UAEM",
+        "programName": "Licenciatura en Comunicación"
+      },
+      {
+        "university": "UVM Cuernavaca",
+        "programName": "Ciencias de la Comunicación"
+      }
+    ],
+    "comparisonPoints": [
+      {
+        "feature": "Enfoque de Relaciones Públicas",
+        "uninter": "Especialización dual: plan de estudios enfocado explícitamente en R.P., media training y gestión reputacional desde los primeros semestres.",
+        "competitors": [
+          "Enfoque generalista; la materia de Relaciones Públicas es opcional o de un solo semestre al final de la carrera.",
+          "Materias genéricas de comunicación corporativa sin preparación específica en vocería ni manejo de crisis en tiempo real."
+        ]
+      },
+      {
+        "feature": "Laboratorios e Infraestructura",
+        "uninter": "Acceso libre al Centro de Medios (TV 4K, radio, cabinas de podcast) y set de simulación de conferencias de prensa.",
+        "competitors": [
+          "Sin instalaciones específicas de relaciones públicas, y el acceso a salas de TV o radio es altamente limitado.",
+          "Instalaciones compartidas de producción audiovisual que no cubren dinámicas de media training ni simulación de crisis."
+        ]
+      },
+      {
+        "feature": "Certificaciones Curriculares",
+        "uninter": "Certificaciones integradas en Publicidad/Animación y en Mercadotecnia Estratégica que dan valor inmediato al currículum.",
+        "competitors": [
+          "No se otorgan diplomas de especialización intermedia dentro de la tira de materias regular.",
+          "Los talleres adicionales de especialidad tienen costos extra muy elevados."
+        ]
+      }
+    ]
+  },
+  "relaciones-internacionales-y-ciencias-politicas": {
+    "careerName": "Relaciones Internacionales y Ciencias Políticas",
+    "competitors": [
+      {
+        "university": "UAEM",
+        "programName": "Licenciatura en Relaciones Internacionales"
+      },
+      {
+        "university": "Universidad La Salle",
+        "programName": "Relaciones Internacionales"
+      }
+    ],
+    "comparisonPoints": [
+      {
+        "feature": "Formación Dual Integrada",
+        "uninter": "Combinación perfecta de política exterior y ciencias políticas en un solo programa académico de alta especialidad.",
+        "competitors": [
+          "Programas enfocados solo en relaciones internacionales, descuidando el análisis político nacional y las políticas públicas.",
+          "Enfoque corporativo comercial que no prepara para el servicio público, la legislación ni el asesoramiento parlamentario."
+        ]
+      },
+      {
+        "feature": "Modelos de Simulación Real",
+        "uninter": "Participación semestral en el MUN y simulación de sesiones en cámaras del Congreso nacional con oratoria bajo presión.",
+        "competitors": [
+          "Actividades de debate esporádicas organizadas de forma extracurricular por iniciativa de los propios estudiantes.",
+          "Sin simulaciones legislativas ni parlamentarias formales como parte evaluativa de la carrera."
+        ]
+      },
+      {
+        "feature": "Idiomas y Movilidad",
+        "uninter": "Inmersión bilingüe progresiva y convenios reales en más de 15 países con intercambio académico directo sin pérdida de créditos.",
+        "competitors": [
+          "Los intercambios están limitados a pocos países y el trámite de revalidación de materias es burocrático y demorado.",
+          "Fuerte énfasis teórico en idiomas pero sin un centro de lenguas propio que certifique internacionalmente."
+        ]
+      }
+    ]
+  },
+  "relaciones-internacionales-y-economia": {
+    "careerName": "Relaciones Internacionales y Economía",
+    "competitors": [
+      {
+        "university": "UAEM",
+        "programName": "Licenciatura en Economía"
+      },
+      {
+        "university": "UVM Cuernavaca",
+        "programName": "Comercio Internacional"
+      }
+    ],
+    "comparisonPoints": [
+      {
+        "feature": "Enfoque Macro y Finanzas",
+        "uninter": "Fusión del análisis geopolítico con macroeconomía y finanzas internacionales, preparando estrategas para el mercado bursátil y corporativos.",
+        "competitors": [
+          "Enfoque excesivamente matemático o histórico en economía teórica local, sin vinculación con geopolítica o tratados comerciales.",
+          "Plan de estudios dirigido solo a la logística operativa de aduanas, descuidando el análisis micro y macroeconómico global."
+        ]
+      },
+      {
+        "feature": "Simulador de Trading e Inteligencia",
+        "uninter": "Uso de simuladores financieros de divisas en tiempo real y terminales de inteligencia macroeconómica.",
+        "competitors": [
+          "Las clases son teóricas usando libros de texto tradicionales, sin simuladores de mercado en tiempo real.",
+          "Falta de laboratorios financieros especializados para estudiar la balanza de pagos y riesgos país."
+        ]
+      },
+      {
+        "feature": "Vinculación al Comercio Exterior",
+        "uninter": "Convenios activos con agencias aduanales en las fronteras y puertos del país, así como cámaras comerciales locales.",
+        "competitors": [
+          "Prácticas enfocadas principalmente en áreas administrativas del estado de Morelos con baja proyección global.",
+          "Procesos de prácticas auto-gestionados por el alumno debido a la escasez de convenios oficiales."
+        ]
+      }
+    ]
+  },
+  "ciencias-politicas-y-gestion-publica": {
+    "careerName": "Ciencias Políticas y Gestión Pública",
+    "competitors": [
+      {
+        "university": "UAEM",
+        "programName": "Licenciatura en Ciencias Políticas"
+      },
+      {
+        "university": "El Colegio de Morelos",
+        "programName": "Ciencias Políticas y Gestión Pública"
+      }
+    ],
+    "comparisonPoints": [
+      {
+        "feature": "Orientación Práctica en Gestión",
+        "uninter": "Enfoque en la administración práctica del Estado: presupuestos, auditoría gubernamental y diseño de programas sociales aplicados.",
+        "competitors": [
+          "Enfoque altamente teórico en sociología, filosofía e historia de las ideas políticas, con poca preparación en administración pública.",
+          "Programa dirigido exclusivamente al ámbito de la investigación académica, limitando las oportunidades laborales en gobiernos."
+        ]
+      },
+      {
+        "feature": "Marketing Político y Redes",
+        "uninter": "Certificación específica en Marketing Político e Imagen de Gobierno, aprendiendo a diseñar discursos y campañas electorales digitales.",
+        "competitors": [
+          "Sin materias dedicadas a la comunicación gubernamental, opinión pública o redes sociales oficiales.",
+          "Falta de talleres de oratoria profesional y manejo de medios o vocerías institucionales."
+        ]
+      },
+      {
+        "feature": "Garantía de Estadías Reales",
+        "uninter": "Estadías coordinadas por la universidad en ayuntamientos, congresos locales y delegaciones federales con impacto directo.",
+        "competitors": [
+          "Prácticas profesionales optativas y sin seguimiento institucional formal, limitando la creación de una red de contactos políticos.",
+          "Orientado a prácticas teóricas internas en cubículos de investigación académica."
+        ]
+      }
+    ]
+  },
+  "idiomas": {
+    "id": "LID",
+    "careerName": "Idiomas",
+    "competitors": [
+      {
+        "university": "UAEM",
+        "programName": "Licenciatura en Lenguas"
+      },
+      {
+        "university": "UVM Cuernavaca",
+        "programName": "Diseño y Enseñanza de Lenguas"
+      }
+    ],
+    "comparisonPoints": [
+      {
+        "feature": "Traducción e Interpretación Dual",
+        "uninter": "Enfoque dual: traducción legal/técnica e interpretación simultánea en cabinas profesionales de audio.",
+        "competitors": [
+          "Enfoque centralizado en la literatura e historia lingüística, sin laboratorios de interpretación en tiempo real.",
+          "Programa orientado casi al 100% a la docencia de idiomas, con poca especialización en traducción formal."
+        ]
+      },
+      {
+        "feature": "Instalaciones de Audio y Grabación",
+        "uninter": "Cabina de traducción simultánea acondicionada con consolas, micrófonos y receptores digitales para simulación de conferencias.",
+        "competitors": [
+          "No disponen de cabinas de interpretación; las prácticas se realizan en aulas tradicionales con reproductores portátiles.",
+          "Laboratorios de idiomas enfocados únicamente en software de auto-aprendizaje sin equipos de interpretación."
+        ]
+      },
+      {
+        "feature": "Certificación de Cambridge TKT",
+        "uninter": "Preparación integrada y facilidades de certificación de Cambridge dentro del plan de estudios, sin costo de preparación extra.",
+        "competitors": [
+          "Los alumnos deben buscar y pagar su preparación y certificaciones internacionales de manera externa.",
+          "No incluye certificaciones curriculares de didáctica internacional de manera obligatoria en el plan."
+        ]
+      }
+    ]
+  },
+  "pedagogia": {
+    "careerName": "Pedagogía",
+    "competitors": [
+      {
+        "university": "UAEM",
+        "programName": "Licenciatura en Ciencias de la Educación"
+      },
+      {
+        "university": "La Salle Cuernavaca",
+        "programName": "Pedagogía"
+      }
+    ],
+    "comparisonPoints": [
+      {
+        "feature": "Tecnología Educativa y E-learning",
+        "uninter": "Certificación en Diseño Instruccional y E-learning para entornos web corporativos y educativos de vanguardia.",
+        "competitors": [
+          "Enfoque tradicionalista centrado solo en dinámicas de pizarrón y planeación en papel, con baja integración tecnológica.",
+          "Materias básicas de cómputo educativo sin herramientas de creación de contenidos multimedia o plataformas LMS."
+        ]
+      },
+      {
+        "feature": "Consultoría y Capacitación Corporativa",
+        "uninter": "Doble vertiente de egreso: educación escolar y capacitación del capital humano en corporativos empresariales (diseño instruccional).",
+        "competitors": [
+          "Orientado únicamente a la docencia en educación básica y media, descuidando el mercado laboral de la capacitación empresarial.",
+          "Pocas opciones de prácticas fuera de escuelas primarias y secundarias tradicionales."
+        ]
+      },
+      {
+        "feature": "Clínica Psicopedagógica In-House",
+        "uninter": "Espacio propio en la universidad para realizar evaluaciones diagnósticas y atención real a problemas de aprendizaje escolar.",
+        "competitors": [
+          "Sin consultorio propio; los alumnos deben buscar sus propios casos de estudio y realizar prácticas fuera del campus sin supervisión constante.",
+          "Teoría psicopedagógica sin un espacio regulado de aplicación práctica real con niños."
+        ]
+      }
+    ]
+  },
+  "psicologia": {
+    "careerName": "Psicología",
+    "competitors": [
+      {
+        "university": "UAEM",
+        "programName": "Licenciatura en Psicología"
+      },
+      {
+        "university": "UVM Cuernavaca",
+        "programName": "Psicología"
+      }
+    ],
+    "comparisonPoints": [
+      {
+        "feature": "Infraestructura: Cámara Gesell",
+        "uninter": "Cámara Gesell profesional completamente equipada en el campus para prácticas de entrevista, terapia y focus groups grabados.",
+        "competitors": [
+          "Cámara Gesell inoperable, sin equipos de audio/video o utilizada como bodega administrativa.",
+          "Sin Cámara Gesell en el campus; las simulaciones se realizan en salones ordinarios."
+        ]
+      },
+      {
+        "feature": "Formación Multidisciplinaria Real",
+        "uninter": "Talleres y certificaciones en Psicología Clínica (terapia y crisis) y Organizacional (reclutamiento, clima y NOM-035).",
+        "competitors": [
+          "Enfoque puramente psicoanalítico y teórico sin preparación práctica en psicología del trabajo o normativas laborales actuales.",
+          "Pocas materias de psicología clínica real y carencia de pruebas psicométricas actualizadas en formato físico."
+        ]
+      },
+      {
+        "feature": "Vinculación y Prácticas Clínicas",
+        "uninter": "Estadías garantizadas en hospitales públicos, clínicas del DIF, centros de salud mental y corporativos industriales de Morelos.",
+        "competitors": [
+          "Largas listas de espera para conseguir plaza de prácticas debido a la saturación de alumnos y falta de convenios activos.",
+          "Prácticas auto-gestionadas por los alumnos sin seguimiento de tutores clínicos formales en la institución."
+        ]
+      }
+    ]
+  },
+  "animacion-y-diseno-digital": {
+    "careerName": "Animación y Diseño Digital",
+    "competitors": [
+      {
+        "university": "UVM Cuernavaca",
+        "programName": "Licenciatura en Animación 3D"
+      },
+      {
+        "university": "UAEM",
+        "programName": "Licenciatura en Artes Visuales"
+      }
+    ],
+    "comparisonPoints": [
+      {
+        "feature": "Laboratorio de Captura de Movimiento",
+        "uninter": "Contamos con un laboratorio propio de motion capture (trajes y cámaras infrarrojas) disponible para proyectos escolares.",
+        "competitors": [
+          "No disponen de equipo de captura de movimiento; la animación de personajes debe ser enteramente manual.",
+          "Instalaciones enfocadas al arte tradicional (óleo, escultura física) sin equipamiento de animación avanzado."
+        ]
+      },
+      {
+        "feature": "Licencias de Software Incluidas",
+        "uninter": "Acceso completo a la suite de Autodesk (Maya, 3ds Max), Adobe CC, Substance Painter y ZBrush en el campus y en casa.",
+        "competitors": [
+          "Tienen licencias compartidas en laboratorios pero con un uso muy limitado para tareas fuera del horario escolar.",
+          "Se requiere que el estudiante adquiera sus propios paquetes de licencias debido a la falta de convenios."
+        ]
+      },
+      {
+        "feature": "Enfoque en Motores de Videojuegos",
+        "uninter": "Certificación integrada en Unreal Engine y Unity para desarrollo interactivo de videojuegos y VR desde los primeros semestres.",
+        "competitors": [
+          "Enfoque limitado a animación de comerciales 2D y multimedia generalista, sin desarrollo formal de videojuegos.",
+          "Fuerte énfasis teórico e historia del arte, con escasa programación interactiva o motores 3D modernos."
+        ]
+      }
+    ]
+  },
+  "diseno-industrial": {
+    "careerName": "Diseño Industrial",
+    "competitors": [
+      {
+        "university": "UAEM",
+        "programName": "Diseño Industrial"
+      },
+      {
+        "university": "UVM Cuernavaca",
+        "programName": "Diseño Industrial"
+      }
+    ],
+    "comparisonPoints": [
+      {
+        "feature": "Acceso a Talleres y CNC",
+        "uninter": "Talleres completos de metal, madera, plásticos y cortadoras CNC con horarios flexibles para fabricar tus propios prototipos.",
+        "competitors": [
+          "Talleres con herramientas limitadas o fuera de servicio por falta de mantenimiento; los alumnos deben mandar a maquilar fuera.",
+          "Restricciones rigurosas en el uso de los talleres por temas administrativos y escasez de técnicos supervisores."
+        ]
+      },
+      {
+        "feature": "Fabricación Digital 3D",
+        "uninter": "Impresoras 3D FDM y de resina líquida industriales integradas al plan de diseño para maquetas funcionales.",
+        "competitors": [
+          "Pocas impresoras 3D de uso de escritorio y con cobro de material adicional muy elevado por cada impresión.",
+          "La tecnología de manufactura digital es optativa y de carácter puramente demostrativo."
+        ]
+      },
+      {
+        "feature": "Certificación SolidWorks",
+        "uninter": "Preparación y certificación oficial de SolidWorks (CSWA/CSWP) integrada al plan de estudios sin costo adicional por curso.",
+        "competitors": [
+          "Los alumnos aprenden SolidWorks básico pero deben buscar y pagar su examen de certificación externamente.",
+          "No se promueven certificaciones oficiales de modelado paramétrico de validez internacional."
+        ]
+      }
+    ]
+  },
+  "diseno-de-modas-y-tendencias-internacionales": {
+    "careerName": "Diseño de Modas",
+    "competitors": [
+      {
+        "university": "Centro de Estudios de Moda (Morelos)",
+        "programName": "Diseño y Confección"
+      },
+      {
+        "university": "UAEM",
+        "programName": "Licenciatura en Diseño"
+      }
+    ],
+    "comparisonPoints": [
+      {
+        "feature": "Máquinas y Equipo Industrial",
+        "uninter": "Taller equipado con máquinas de coser industriales rectas, overlocks y collareteras para acabados profesionales.",
+        "competitors": [
+          "Uso de máquinas domésticas o de costura básica que no soportan el trabajo continuo de materiales gruesos.",
+          "Comparten talleres con diseño industrial sin maniquíes profesionales suficientes para técnicas de drapeado."
+        ]
+      },
+      {
+        "feature": "Showcase: Pasarela Real",
+        "uninter": "Show de modas anual (UNINTER-MODA) con montaje profesional, pasarela, luces, fotógrafos y modelos profesionales.",
+        "competitors": [
+          "Pasarelas sencillas organizadas en el auditorio escolar con recursos limitados y sin convocatoria a medios.",
+          "Las entregas finales son únicamente carpetas de figurines y prendas expuestas en maniquíes estáticos."
+        ]
+      },
+      {
+        "feature": "Negocio de la Moda (Fashion Business)",
+        "uninter": "Fuerte enfoque en marketing de moda, retail de lujo, marcas editoriales y comercio electrónico textil.",
+        "competitors": [
+          "Enfoque exclusivo en técnicas de costura y sastrería artesanal, con poca preparación comercial o de branding.",
+          "La formación empresarial es mínima, dificultando al egresado emprender su propia firma o administrar tiendas."
+        ]
+      }
+    ]
+  }
+}

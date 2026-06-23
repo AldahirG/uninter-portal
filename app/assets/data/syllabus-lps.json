@@ -1,0 +1,118 @@
+{
+  "categories": [
+    { "label": "Todas las materias", "value": "all" },
+    { "label": "🛋️ Psicología Clínica", "value": "clinica" },
+    { "label": "🏢 Psicología Organizacional", "value": "organizacional" },
+    { "label": "📋 Psicometría y Evaluación", "value": "psicometria" },
+    { "label": "🧠 Neurociencias y Teoría", "value": "teoria" }
+  ],
+  "syllabus": [
+    {
+      "id": "sem-1-2",
+      "tabLabel": "Semestres 1 y 2",
+      "blocks": [
+        {
+          "title": "Primer Semestre",
+          "subjects": [
+            { "name": "Introducción a la Psicología", "tag": "teoria" },
+            { "name": "Bases Biológicas de la Conducta I", "tag": "teoria" },
+            { "name": "Historia y Corrientes de la Psicología", "tag": "teoria" },
+            { "name": "Estadística Descriptiva en Psicología", "tag": "teoria" },
+            { "name": "Taller de Oratoria y Redacción", "tag": "teoria" },
+            { "name": "Lengua Extranjera I", "tag": "teoria" }
+          ]
+        },
+        {
+          "title": "Segundo Semestre",
+          "subjects": [
+            { "name": "Procesos Psicológicos Básicos", "tag": "teoria" },
+            { "name": "Bases Biológicas de la Conducta II", "tag": "teoria" },
+            { "name": "Teorías de la Personalidad I", "tag": "teoria" },
+            { "name": "Estadística Inferencial en Psicología", "tag": "teoria" },
+            { "name": "Metodología de la Investigación en Psicología", "tag": "teoria" },
+            { "name": "Lengua Extranjera II", "tag": "teoria" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-3-4",
+      "tabLabel": "Semestres 3 y 4",
+      "blocks": [
+        {
+          "title": "Tercer Semestre",
+          "subjects": [
+            { "name": "Psicología Social y Grupal", "tag": "teoria" },
+            { "name": "Teorías de la Personalidad II", "tag": "teoria" },
+            { "name": "Teoría de la Medida y Psicometría", "tag": "psicometria" },
+            { "name": "Psicología del Desarrollo: Infancia y Adolescencia", "tag": "teoria" },
+            { "name": "Taller de Entrevista Psicológica I", "tag": "clinica" },
+            { "name": "Lengua Extranjera III", "tag": "teoria" }
+          ]
+        },
+        {
+          "title": "Cuarto Semestre",
+          "subjects": [
+            { "name": "Pruebas Psicométricas de Personalidad", "tag": "psicometria" },
+            { "name": "Psicología del Desarrollo: Adultez y Senectud", "tag": "teoria" },
+            { "name": "Taller de Entrevista Psicológica II (Gesell)", "tag": "clinica" },
+            { "name": "Psicopatología General I", "tag": "clinica" },
+            { "name": "Introducción a la Psicología del Trabajo", "tag": "organizacional" },
+            { "name": "Lengua Extranjera IV", "tag": "teoria" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-5-6",
+      "tabLabel": "Semestres 5 y 6",
+      "blocks": [
+        {
+          "title": "Quinto Semestre",
+          "subjects": [
+            { "name": "Psicopatología General II", "tag": "clinica" },
+            { "name": "Pruebas Psicométricas Proyectivas y de Inteligencia", "tag": "psicometria" },
+            { "name": "Evaluación del Desempeño y NOM-035", "tag": "organizacional" },
+            { "name": "Modelos y Enfoques de Psicoterapia", "tag": "clinica" },
+            { "name": "Optativa I", "tag": "teoria" }
+          ]
+        },
+        {
+          "title": "Sexto Semestre",
+          "subjects": [
+            { "name": "Psicología Clínica y de la Salud", "tag": "clinica" },
+            { "name": "Reclutamiento, Selección y Atracción del Talento", "tag": "organizacional" },
+            { "name": "Orientación Educativa y Vocacional", "tag": "teoria" },
+            { "name": "Neuropsicología Clínica", "tag": "teoria" },
+            { "name": "Optativa II", "tag": "teoria" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-7-8",
+      "tabLabel": "Semestres 7 y 8",
+      "blocks": [
+        {
+          "title": "Séptimo Semestre",
+          "subjects": [
+            { "name": "Seminario de Titulación I", "tag": "teoria" },
+            { "name": "Capacitación y Desarrollo Organizacional", "tag": "organizacional" },
+            { "name": "Primeros Auxilios Psicológicos e Intervención en Crisis", "tag": "clinica" },
+            { "name": "Prácticas Profesionales Clínicas/Organizacionales", "tag": "clinica" },
+            { "name": "Optativa III", "tag": "teoria" }
+          ]
+        },
+        {
+          "title": "Octavo Semestre",
+          "subjects": [
+            { "name": "Seminario de Titulación II", "tag": "teoria" },
+            { "name": "Ética y Bioética Profesional", "tag": "teoria" },
+            { "name": "Terapia Familiar y Sistémica", "tag": "clinica" },
+            { "name": "Dinámica de Grupos y Manejo de Conflictos", "tag": "organizacional" }
+          ]
+        }
+      ]
+    }
+  ]
+}

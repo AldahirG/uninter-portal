@@ -1,0 +1,118 @@
+{
+  "categories": [
+    { "label": "Todas las materias", "value": "all" },
+    { "label": "🕊️ Diplomacia", "value": "diplomacia" },
+    { "label": "💹 Economía Internacional", "value": "economia" },
+    { "label": "⚖️ Derecho Internacional", "value": "derecho-intl" },
+    { "label": "🌐 Formación General", "value": "general" }
+  ],
+  "syllabus": [
+    {
+      "id": "sem-1-2",
+      "tabLabel": "Semestres 1 y 2",
+      "blocks": [
+        {
+          "title": "Primer Semestre",
+          "subjects": [
+            { "name": "Introducción a las Relaciones Internacionales", "tag": "diplomacia" },
+            { "name": "Historia Mundial Contemporánea", "tag": "general" },
+            { "name": "Fundamentos de Economía", "tag": "economia" },
+            { "name": "Introducción al Derecho", "tag": "derecho-intl" },
+            { "name": "Taller de Redacción Académica", "tag": "general" },
+            { "name": "Lengua Extranjera I", "tag": "general" }
+          ]
+        },
+        {
+          "title": "Segundo Semestre",
+          "subjects": [
+            { "name": "Teoría Política Clásica y Moderna", "tag": "diplomacia" },
+            { "name": "Microeconomía", "tag": "economia" },
+            { "name": "Derecho Internacional Público", "tag": "derecho-intl" },
+            { "name": "Geopolítica Mundial", "tag": "diplomacia" },
+            { "name": "Metodología de la Investigación Social", "tag": "general" },
+            { "name": "Lengua Extranjera II", "tag": "general" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-3-4",
+      "tabLabel": "Semestres 3 y 4",
+      "blocks": [
+        {
+          "title": "Tercer Semestre",
+          "subjects": [
+            { "name": "Organismos Internacionales", "tag": "diplomacia" },
+            { "name": "Macroeconomía Internacional", "tag": "economia" },
+            { "name": "Derecho de los Tratados", "tag": "derecho-intl" },
+            { "name": "Política Exterior de México", "tag": "diplomacia" },
+            { "name": "Estadística Aplicada a las Ciencias Sociales", "tag": "general" },
+            { "name": "Lengua Extranjera III", "tag": "general" }
+          ]
+        },
+        {
+          "title": "Cuarto Semestre",
+          "subjects": [
+            { "name": "Negociación y Resolución de Conflictos", "tag": "diplomacia" },
+            { "name": "Comercio Internacional y Aduanas", "tag": "economia" },
+            { "name": "Derechos Humanos y Derecho Humanitario", "tag": "derecho-intl" },
+            { "name": "Sistema Político Mexicano", "tag": "general" },
+            { "name": "Finanzas Internacionales", "tag": "economia" },
+            { "name": "Lengua Extranjera IV", "tag": "general" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-5-6",
+      "tabLabel": "Semestres 5 y 6",
+      "blocks": [
+        {
+          "title": "Quinto Semestre",
+          "subjects": [
+            { "name": "Diplomacia y Protocolo Internacional", "tag": "diplomacia" },
+            { "name": "Economía de América Latina", "tag": "economia" },
+            { "name": "Derecho Internacional Privado", "tag": "derecho-intl" },
+            { "name": "Cooperación Internacional para el Desarrollo", "tag": "diplomacia" },
+            { "name": "Optativa I", "tag": "general" }
+          ]
+        },
+        {
+          "title": "Sexto Semestre",
+          "subjects": [
+            { "name": "Análisis de Política Internacional", "tag": "diplomacia" },
+            { "name": "Integración Económica y Bloques Regionales", "tag": "economia" },
+            { "name": "Derecho del Comercio Exterior", "tag": "derecho-intl" },
+            { "name": "Seguridad Nacional e Internacional", "tag": "diplomacia" },
+            { "name": "Optativa II", "tag": "general" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-7-8",
+      "tabLabel": "Semestres 7 y 8",
+      "blocks": [
+        {
+          "title": "Séptimo Semestre",
+          "subjects": [
+            { "name": "Seminario de Titulación I", "tag": "diplomacia" },
+            { "name": "Estrategia y Gobernanza Global", "tag": "diplomacia" },
+            { "name": "Proyectos de Inversión Internacional", "tag": "economia" },
+            { "name": "Ética y Responsabilidad Global", "tag": "general" },
+            { "name": "Prácticas Profesionales I", "tag": "general" }
+          ]
+        },
+        {
+          "title": "Octavo Semestre",
+          "subjects": [
+            { "name": "Seminario de Titulación II", "tag": "diplomacia" },
+            { "name": "Agenda Internacional Contemporánea", "tag": "diplomacia" },
+            { "name": "Migración y Movilidad Internacional", "tag": "derecho-intl" },
+            { "name": "Prácticas Profesionales II", "tag": "general" }
+          ]
+        }
+      ]
+    }
+  ]
+}

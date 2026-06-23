@@ -7,6 +7,14 @@ export default defineNuxtConfig({
     enabled: true
   },
 
+  experimental: {
+    viewTransition: true
+  },
+
+  app: {
+    pageTransition: { name: "page", mode: "out-in" }
+  },
+
   css: [
     "~/assets/css/tailwind.css",
 

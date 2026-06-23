@@ -1,0 +1,118 @@
+{
+  "categories": [
+    { "label": "Todas las materias", "value": "all" },
+    { "label": "🗣️ Lingüística y Gramática", "value": "linguistica" },
+    { "label": "⚖️ Traducción Profesional", "value": "traduccion" },
+    { "label": "🎙️ Interpretación Simultánea", "value": "interpretacion" },
+    { "label": "🏫 Docencia y Pedagogía", "value": "docencia" }
+  ],
+  "syllabus": [
+    {
+      "id": "sem-1-2",
+      "tabLabel": "Semestres 1 y 2",
+      "blocks": [
+        {
+          "title": "Primer Semestre",
+          "subjects": [
+            { "name": "Morfosintaxis del Español", "tag": "linguistica" },
+            { "name": "Inglés Avanzado I", "tag": "linguistica" },
+            { "name": "Francés I", "tag": "linguistica" },
+            { "name": "Introducción a la Traducción", "tag": "traduccion" },
+            { "name": "Taller de Expresión y Lectura Crítica", "tag": "linguistica" },
+            { "name": "Cultura y Civilización Anglófona", "tag": "linguistica" }
+          ]
+        },
+        {
+          "title": "Segundo Semestre",
+          "subjects": [
+            { "name": "Lingüística General", "tag": "linguistica" },
+            { "name": "Inglés Avanzado II", "tag": "linguistica" },
+            { "name": "Francés II", "tag": "linguistica" },
+            { "name": "Teorías y Métodos de Traducción", "tag": "traduccion" },
+            { "name": "Cultura y Civilización Francófona", "tag": "linguistica" },
+            { "name": "Computación Aplicada a la Traducción", "tag": "traduccion" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-3-4",
+      "tabLabel": "Semestres 3 y 4",
+      "blocks": [
+        {
+          "title": "Tercer Semestre",
+          "subjects": [
+            { "name": "Fonética y Fonología del Inglés", "tag": "linguistica" },
+            { "name": "Inglés Avanzado III", "tag": "linguistica" },
+            { "name": "Francés III", "tag": "linguistica" },
+            { "name": "Traducción Técnico-Científica", "tag": "traduccion" },
+            { "name": "Introducción a la Didáctica de Lenguas", "tag": "docencia" },
+            { "name": "Taller de Expresión Oral y Redacción en Inglés", "tag": "linguistica" }
+          ]
+        },
+        {
+          "title": "Cuarto Semestre",
+          "subjects": [
+            { "name": "Fonética y Fonología del Francés", "tag": "linguistica" },
+            { "name": "Inglés Avanzado IV", "tag": "linguistica" },
+            { "name": "Francés IV", "tag": "linguistica" },
+            { "name": "Traducción Jurídica y Comercial", "tag": "traduccion" },
+            { "name": "Introducción a la Interpretación Consecutiva", "tag": "interpretacion" },
+            { "name": "Diseño Curricular para Idiomas", "tag": "docencia" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-5-6",
+      "tabLabel": "Semestres 5 y 6",
+      "blocks": [
+        {
+          "title": "Quinto Semestre",
+          "subjects": [
+            { "name": "Semántica e Historiografía Lingüística", "tag": "linguistica" },
+            { "name": "Traducción Literaria y Editorial", "tag": "traduccion" },
+            { "name": "Interpretación Simultánea en Cabina I", "tag": "interpretacion" },
+            { "name": "Evaluación del Aprendizaje en Lenguas", "tag": "docencia" },
+            { "name": "Optativa I (Tercer Idioma - Italiano/Alemán)", "tag": "linguistica" }
+          ]
+        },
+        {
+          "title": "Sexto Semestre",
+          "subjects": [
+            { "name": "Análisis del Discurso Multilingüe", "tag": "linguistica" },
+            { "name": "Traducción Audiovisual y Subtitulaje", "tag": "traduccion" },
+            { "name": "Interpretación Simultánea en Cabina II", "tag": "interpretacion" },
+            { "name": "Tecnologías y Software para Traducción (CAT Tools)", "tag": "traduccion" },
+            { "name": "Optativa II (Tercer Idioma II)", "tag": "linguistica" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-7-8",
+      "tabLabel": "Semestres 7 y 8",
+      "blocks": [
+        {
+          "title": "Séptimo Semestre",
+          "subjects": [
+            { "name": "Seminario de Titulación I", "tag": "docencia" },
+            { "name": "Terminología y Gestión de Glosarios", "tag": "traduccion" },
+            { "name": "Interpretación de Conferencias y Protocolo", "tag": "interpretacion" },
+            { "name": "Prácticas Profesionales de Traducción/Docencia", "tag": "traduccion" },
+            { "name": "Optativa III (Tercer Idioma III)", "tag": "linguistica" }
+          ]
+        },
+        {
+          "title": "Octavo Semestre",
+          "subjects": [
+            { "name": "Seminario de Titulación II", "tag": "docencia" },
+            { "name": "Administración de Centros de Idiomas", "tag": "docencia" },
+            { "name": "Ética en la Traducción y Profesión", "tag": "traduccion" },
+            { "name": "Traducción Pericial y Certificación", "tag": "traduccion" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "categories": [
+    { "label": "Todas las materias", "value": "all" },
+    { "label": "🔒 Derecho Penal", "value": "penal" },
+    { "label": "📜 Derecho Civil", "value": "civil" },
+    { "label": "🏢 Derecho Corporativo", "value": "corporativo" },
+    { "label": "🌐 Formación General", "value": "general" }
+  ],
+  "syllabus": [
+    {
+      "id": "sem-1-2",
+      "tabLabel": "Semestres 1 y 2",
+      "blocks": [
+        {
+          "title": "Primer Semestre",
+          "subjects": [
+            { "name": "Introducción al Estudio del Derecho", "tag": "general" },
+            { "name": "Derecho Romano", "tag": "civil" },
+            { "name": "Teoría General del Estado", "tag": "general" },
+            { "name": "Sociología Jurídica", "tag": "general" },
+            { "name": "Taller de Argumentación Jurídica", "tag": "general" },
+            { "name": "Lengua Extranjera I", "tag": "general" }
+          ]
+        },
+        {
+          "title": "Segundo Semestre",
+          "subjects": [
+            { "name": "Personas y Familia", "tag": "civil" },
+            { "name": "Derecho Constitucional Mexicano", "tag": "general" },
+            { "name": "Teoría General del Proceso", "tag": "penal" },
+            { "name": "Historia del Derecho Mexicano", "tag": "general" },
+            { "name": "Filosofía del Derecho", "tag": "general" },
+            { "name": "Lengua Extranjera II", "tag": "general" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-3-4",
+      "tabLabel": "Semestres 3 y 4",
+      "blocks": [
+        {
+          "title": "Tercer Semestre",
+          "subjects": [
+            { "name": "Bienes y Derechos Reales", "tag": "civil" },
+            { "name": "Derecho Penal I (Parte General)", "tag": "penal" },
+            { "name": "Derecho Administrativo", "tag": "corporativo" },
+            { "name": "Obligaciones Civiles", "tag": "civil" },
+            { "name": "Derecho Laboral Individual", "tag": "corporativo" },
+            { "name": "Lengua Extranjera III", "tag": "general" }
+          ]
+        },
+        {
+          "title": "Cuarto Semestre",
+          "subjects": [
+            { "name": "Derecho Penal II (Parte Especial)", "tag": "penal" },
+            { "name": "Contratos Civiles y Mercantiles", "tag": "civil" },
+            { "name": "Derecho Mercantil", "tag": "corporativo" },
+            { "name": "Derecho Procesal Civil", "tag": "civil" },
+            { "name": "Derecho Laboral Colectivo y Seguridad Social", "tag": "corporativo" },
+            { "name": "Lengua Extranjera IV", "tag": "general" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-5-6",
+      "tabLabel": "Semestres 5 y 6",
+      "blocks": [
+        {
+          "title": "Quinto Semestre",
+          "subjects": [
+            { "name": "Derecho Procesal Penal (Sistema Acusatorio)", "tag": "penal" },
+            { "name": "Derecho Fiscal", "tag": "corporativo" },
+            { "name": "Sucesiones y Derecho Notarial", "tag": "civil" },
+            { "name": "Amparo I", "tag": "general" },
+            { "name": "Optativa I", "tag": "general" }
+          ]
+        },
+        {
+          "title": "Sexto Semestre",
+          "subjects": [
+            { "name": "Criminología y Política Criminal", "tag": "penal" },
+            { "name": "Derecho Societario y Gobierno Corporativo", "tag": "corporativo" },
+            { "name": "Derecho Internacional Público y Privado", "tag": "general" },
+            { "name": "Amparo II", "tag": "general" },
+            { "name": "Optativa II", "tag": "general" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-7-8",
+      "tabLabel": "Semestres 7 y 8",
+      "blocks": [
+        {
+          "title": "Séptimo Semestre",
+          "subjects": [
+            { "name": "Seminario de Titulación I", "tag": "general" },
+            { "name": "Práctica Forense Penal", "tag": "penal" },
+            { "name": "Propiedad Intelectual e Industrial", "tag": "corporativo" },
+            { "name": "Ética y Deontología Jurídica", "tag": "general" },
+            { "name": "Prácticas Profesionales I", "tag": "general" }
+          ]
+        },
+        {
+          "title": "Octavo Semestre",
+          "subjects": [
+            { "name": "Seminario de Titulación II", "tag": "general" },
+            { "name": "Práctica Forense Civil y Mercantil", "tag": "civil" },
+            { "name": "Medios Alternativos de Solución de Controversias", "tag": "penal" },
+            { "name": "Prácticas Profesionales II", "tag": "general" }
+          ]
+        }
+      ]
+    }
+  ]
+}

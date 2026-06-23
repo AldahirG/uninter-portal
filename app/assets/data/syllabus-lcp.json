@@ -1,0 +1,118 @@
+{
+  "categories": [
+    { "label": "Todas las materias", "value": "all" },
+    { "label": "🏛️ Ciencia Política", "value": "politica" },
+    { "label": "💼 Gestión y Adm. Pública", "value": "gestion" },
+    { "label": "📋 Políticas Públicas", "value": "politicas" },
+    { "label": "📊 Formación General", "value": "general" }
+  ],
+  "syllabus": [
+    {
+      "id": "sem-1-2",
+      "tabLabel": "Semestres 1 y 2",
+      "blocks": [
+        {
+          "title": "Primer Semestre",
+          "subjects": [
+            { "name": "Introducción a la Ciencia Política", "tag": "politica" },
+            { "name": "Introducción a la Administración Pública", "tag": "gestion" },
+            { "name": "Derecho Constitucional Mexicano", "tag": "general" },
+            { "name": "Historia Política de México I", "tag": "politica" },
+            { "name": "Taller de Oratoria y Redacción", "tag": "general" },
+            { "name": "Lengua Extranjera I", "tag": "general" }
+          ]
+        },
+        {
+          "title": "Segundo Semestre",
+          "subjects": [
+            { "name": "Teoría del Estado", "tag": "politica" },
+            { "name": "Estructura del Gobierno Federal", "tag": "gestion" },
+            { "name": "Derecho Administrativo", "tag": "gestion" },
+            { "name": "Historia Política de México II", "tag": "politica" },
+            { "name": "Metodología de la Investigación", "tag": "general" },
+            { "name": "Lengua Extranjera II", "tag": "general" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-3-4",
+      "tabLabel": "Semestres 3 y 4",
+      "blocks": [
+        {
+          "title": "Tercer Semestre",
+          "subjects": [
+            { "name": "Sistemas Políticos Comparados", "tag": "politica" },
+            { "name": "Administración Pública Estatal y Municipal", "tag": "gestion" },
+            { "name": "Introducción a las Políticas Públicas", "tag": "politicas" },
+            { "name": "Partidos Políticos y Grupos de Presión", "tag": "politica" },
+            { "name": "Sociología Política", "tag": "politica" },
+            { "name": "Lengua Extranjera III", "tag": "general" }
+          ]
+        },
+        {
+          "title": "Cuarto Semestre",
+          "subjects": [
+            { "name": "Diseño de Políticas Públicas", "tag": "politicas" },
+            { "name": "Finanzas Públicas y Presupuesto", "tag": "gestion" },
+            { "name": "Sistemas Electorales y Opinión Pública", "tag": "politica" },
+            { "name": "Marketing Político y Redes Sociales", "tag": "politica" },
+            { "name": "Estadística para el Análisis Político", "tag": "general" },
+            { "name": "Lengua Extranjera IV", "tag": "general" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-5-6",
+      "tabLabel": "Semestres 5 y 6",
+      "blocks": [
+        {
+          "title": "Quinto Semestre",
+          "subjects": [
+            { "name": "Implementación y Gestión de Políticas Públicas", "tag": "politicas" },
+            { "name": "Transparencia y Rendición de Cuentas", "tag": "gestion" },
+            { "name": "Oratoria y Comunicación Social", "tag": "politica" },
+            { "name": "Planeación Estratégica Gubernamental", "tag": "gestion" },
+            { "name": "Optativa I", "tag": "general" }
+          ]
+        },
+        {
+          "title": "Sexto Semestre",
+          "subjects": [
+            { "name": "Evaluación de Políticas Públicas", "tag": "politicas" },
+            { "name": "Auditoría Gubernamental y Control Interno", "tag": "gestion" },
+            { "name": "Liderazgo, Mediación y Negociación", "tag": "gestion" },
+            { "name": "Gobernanza y Participación Ciudadana", "tag": "politica" },
+            { "name": "Optativa II", "tag": "general" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-7-8",
+      "tabLabel": "Semestres 7 y 8",
+      "blocks": [
+        {
+          "title": "Séptimo Semestre",
+          "subjects": [
+            { "name": "Seminario de Titulación I", "tag": "general" },
+            { "name": "Gobernabilidad e Instituciones Democráticas", "tag": "politica" },
+            { "name": "Lobbying y Cabildeo Legislativo", "tag": "politica" },
+            { "name": "Prácticas Profesionales en la Adm. Pública", "tag": "gestion" },
+            { "name": "Optativa III", "tag": "general" }
+          ]
+        },
+        {
+          "title": "Octavo Semestre",
+          "subjects": [
+            { "name": "Seminario de Titulación II", "tag": "general" },
+            { "name": "Prospectiva Política y Social", "tag": "politica" },
+            { "name": "Ética Pública y Combate a la Corrupción", "tag": "general" },
+            { "name": "Desarrollo Local y Metropolitano", "tag": "politicas" }
+          ]
+        }
+      ]
+    }
+  ]
+}

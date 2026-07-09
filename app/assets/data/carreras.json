@@ -308,46 +308,57 @@
     "experienciaPractica": [
       {
         "title": "Taller de Maquetas y Fabricación Digital",
-        "desc": "Materializa tus proyectos con impresoras 3D, cortadoras láser y CNC para prototipos a escala con acabados profesionales.",
+        "desc": "Materializa tus proyectos con impresoras 3D, cortadoras láser y ruteadoras CNC para fabricar prototipos a escala con acabados profesionales.",
         "icon": "🏗️",
         "tag": "Fabricación Digital",
         "features": [
-          "Impresoras 3D industriales",
-          "Cortadora láser",
-          "CNC para madera y acrílico"
+          "Impresión 3D industrial",
+          "Cortadora láser de CO2",
+          "Ruteadora CNC"
         ]
       },
       {
-        "title": "Laboratorio BIM y Renderizado",
-        "desc": "Domina Revit, AutoCAD, SketchUp y renders fotorrealistas con V-Ray y Lumion en estaciones de trabajo de alto rendimiento.",
+        "title": "Laboratorio de Modelado y Renderizado",
+        "desc": "Domina herramientas BIM y de diseño en 2D/3D con estaciones de trabajo de alto rendimiento para renderizar tus propuestas tridimensionales.",
         "icon": "💻",
         "tag": "Modelado 3D",
         "features": [
-          "Autodesk Revit y AutoCAD",
-          "V-Ray y Lumion Pro",
-          "Estaciones de trabajo HP Z"
+          "Dibujo en AutoCAD y Rhinoceros 3D",
+          "Modelado rápido con SketchUp",
+          "Renders en V-Ray y Lumion Pro"
         ]
       },
       {
-        "title": "Visitas a Obra y Proyectos Reales",
-        "desc": "Asiste a construcciones activas, analiza procesos constructivos in situ y colabora en proyectos arquitectónicos con empresas desarrolladoras.",
-        "icon": "🏠",
-        "tag": "Práctica de Campo",
+        "title": "Intercambios Internacionales Destacados",
+        "desc": "Amplía tu perspectiva profesional cursando un semestre de estudios en universidades reconocidas de Europa, Sudamérica y Medio Oriente.",
+        "icon": "✈️",
+        "tag": "Movilidad Global",
         "features": [
-          "Convenios con constructoras",
-          "Supervisión de obra",
-          "Análisis estructural in situ"
+          "España e Italia",
+          "Colombia",
+          "Turquía"
         ]
       },
       {
-        "title": "Concursos Nacionales de Diseño",
-        "desc": "Participa en bienales y concursos de arquitectura a nivel nacional e internacional representando a UNINTER.",
+        "title": "Expo CIHAC y Vinculación Industrial",
+        "desc": "Asiste a la exposición de edificación y diseño líder en Latinoamérica, manteniéndote al día con las innovaciones del sector de la construcción.",
+        "icon": "🏢",
+        "tag": "Eventos del Gremio",
+        "features": [
+          "Asistencia a Expo CIHAC",
+          "Contacto directo con proveedores",
+          "Tendencias de ecotecnología"
+        ]
+      },
+      {
+        "title": "Exposición Semestral de Evidencias",
+        "desc": "Presenta y defiende tus maquetas y planos al cierre de cada semestre en nuestro evento de exposición interna ante académicos y arquitectos invitados.",
         "icon": "🏆",
-        "tag": "Competencias",
+        "tag": "Exhibición Interna",
         "features": [
-          "Bienal de Arquitectura",
-          "Concursos ASINEA",
-          "Exposiciones de diseño"
+          "Jurados y críticos externos",
+          "Galería de proyectos académicos",
+          "Feria de diseño estructural"
         ]
       }
     ],
@@ -388,6 +399,25 @@
           "Gerente de Proyecto",
           "Director de Obra",
           "Modelador BIM Senior"
+        ]
+      },
+      {
+        "title": "Certificación en Software CAD y Modelado 3D",
+        "desc": "Obtén certificaciones profesionales de software con valor curricular en las herramientas digitales estándar de dibujo técnico y representación volumétrica.",
+        "icon": "🖥️",
+        "badge": "Certificaciones Técnicas",
+        "courses": [
+          "Autodesk AutoCAD Professional",
+          "Trimble SketchUp Pro",
+          "McNeel Rhinoceros 3D",
+          "Dibujo Técnico Bidimensional",
+          "Modelado Paramétrico Avanzado"
+        ],
+        "jobs": [
+          "Diseñador de Planos y CAD",
+          "Especialista en Modelado 3D",
+          "Colaborador en Despachos",
+          "Consultor Técnico de Diseño"
         ]
       }
     ]
@@ -1513,14 +1543,16 @@
     "id": "LADD",
     "name": "Animación y Diseño Digital",
     "slug": "animacion-y-diseno-digital",
-    "tagline": "Crea mundos imposibles. Da vida a tu imaginación.",
-    "description": "Especialízate en animación 3D, efectos visuales (VFX), modelado orgánico, animación de personajes y desarrollo de videojuegos. Sé el motor creativo de la industria del entretenimiento.",
-    "ingreso": "Para creativos apasionados por los videojuegos, el cine de animación, el dibujo, la tecnología digital y la narrativa visual.",
-    "egreso": "Egresarás listo para laborar en estudios de animación, agencias creativas, productoras de cine/TV y empresas desarrolladoras de videojuegos nacionales e internacionales.",
+    "tagline": "Crea mundos, personajes, historias y experiencias digitales.",
+    "description": "En la Licenciatura en Animación y Diseño Digital aprenderás a convertir tus ideas en proyectos visuales, audiovisuales e interactivos mediante animación 2D y 3D, diseño digital, modelado, videojuegos, efectos especiales, simulación, ilustración, edición y postproducción. Esta carrera está dirigida a quienes desean contar historias, diseñar personajes, crear ambientes digitales, producir contenido audiovisual y desarrollar experiencias para medios digitales.",
+    "ingreso": "Esta carrera es para personas interesadas en crear historias, personajes, animaciones, videojuegos, experiencias digitales y contenidos audiovisuales. Es recomendable contar con sensibilidad artística, pensamiento creativo visual y disposición para aprender software especializado de modelado, animación y postproducción.",
+    "egreso": "Al concluir la licenciatura serás capaz de diseñar, desarrollar y producir proyectos visuales, audiovisuales e interactivos de animación 2D y 3D, videojuegos, simulación y efectos especiales para entretenimiento, educación, publicidad y nuevos medios, liderando y emprendiendo proyectos con visión de futuro.",
+    "syllabusDescription": "Nuestro plan de estudios conecta arte, tecnología y narrativa. Te capacita de forma 100% práctica en animación 2D/3D, modelado, videojuegos, postproducción e inteligencia artificial aplicada.",
+    "projectsBlogUrl": "https://blogs.uninter.edu.mx/ESCAT/index.php/category/proyectos/",
     "experienciaPractica": [
       {
         "title": "Laboratorio de Captura de Movimiento (Mocap)",
-        "desc": "Usa trajes y cámaras especiales de motion capture para transferir movimientos reales a tus personajes 3D.",
+        "desc": "Usa trajes y cámaras especiales de motion capture para transferir movimientos reales a tus personajes 3D. Experimenta con tecnologías inmersivas de última generación.",
         "icon": "🤖",
         "tag": "Motion Capture",
         "features": [
@@ -1531,7 +1563,7 @@
       },
       {
         "title": "iMac Design Lab & Render Farm",
-        "desc": "Utiliza computadoras iMac con tarjetas gráficas dedicadas de alta velocidad y granja de render propia para tus proyectos.",
+        "desc": "Utiliza estaciones de diseño iMac de alta gama y nuestra granja de render para procesar proyectos 3D complejos y simulaciones a alta velocidad.",
         "icon": "🖥️",
         "tag": "Render Farm",
         "features": [
@@ -1542,7 +1574,7 @@
       },
       {
         "title": "Taller de Modelado y Escultura Digital",
-        "desc": "Aprende esculpido orgánico en 3D utilizando tabletas Wacom profesionales y el estándar de la industria ZBrush.",
+        "desc": "Aprende esculpido orgánico, texturizado, shaders y renderizado en 3D utilizando tabletas Wacom y el estándar de la industria ZBrush.",
         "icon": "🎨",
         "tag": "Escultura 3D",
         "features": [
@@ -1553,7 +1585,7 @@
       },
       {
         "title": "Estudio de Grabación de Audio & Foley",
-        "desc": "Crea la atmósfera perfecta para tus proyectos produciendo efectos de sonido, banda sonora y doblaje de voz.",
+        "desc": "Crea la atmósfera perfecta para tus producciones mediante el diseño de sonido, banda sonora, Foley y doblaje de voz en un estudio insonorizado.",
         "icon": "🎙️",
         "tag": "Efectos de Sonido",
         "features": [
@@ -1566,7 +1598,7 @@
     "certificaciones": [
       {
         "title": "Animación 3D y Efectos Visuales (VFX)",
-        "desc": "Especialización avanzada en modelado, animación de personajes y composición digital para cine y comerciales.",
+        "desc": "Especialización avanzada en modelado orgánico, animación de personajes, rigging, weighting, shaders y postproducción digital.",
         "icon": "🎬",
         "badge": "VFX Artist",
         "courses": [
@@ -1584,7 +1616,7 @@
       },
       {
         "title": "Desarrollo de Videojuegos y VR",
-        "desc": "Domina los motores gráficos Unreal Engine y Unity para crear mundos interactivos y experiencias de realidad virtual.",
+        "desc": "Domina motores gráficos como Unity y Unreal Engine, diseño de niveles, interactividad e inteligencia artificial aplicada a videojuegos.",
         "icon": "🎮",
         "badge": "Game Developer",
         "courses": [
@@ -1599,9 +1631,48 @@
           "Artista Técnico de Videojuegos",
           "Desarrollador VR"
         ]
+      },
+      {
+        "title": "Transformación Digital & Liderazgo 4.0",
+        "desc": "Certificaciones orientadas al desarrollo de competencias tecnológicas, liderazgo, gestión y emprendimiento digital en el ámbito internacional.",
+        "icon": "🚀",
+        "badge": "Liderazgo & Movilidad",
+        "courses": [
+          "Transformación Digital",
+          "Liderazgo 4.0",
+          "Clases Espejo & Proyectos Internacionales"
+        ],
+        "jobs": [
+          "Líder de Proyectos Digitales",
+          "Gestor de Emprendimiento Tecnológico",
+          "Director Creativo Internacional"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Qué software se utiliza durante la carrera?",
+        "a": "Aprenderás a dominar las herramientas estándar de la industria, incluyendo Autodesk Maya, ZBrush, Substance Painter, Adobe Creative Cloud, Unreal Engine, Unity y Nuke."
+      },
+      {
+        "q": "¿Qué certificaciones adicionales puedo obtener?",
+        "a": "Los estudiantes pueden complementar su perfil con certificados en Transformación Digital, Liderazgo 4.0 y el Diploma Internacional al cumplir con los requisitos académicos."
+      },
+      {
+        "q": "¿Qué oportunidades de internacionalización ofrece la carrera?",
+        "a": "Contamos con movilidad académica nacional e internacional, clases espejo, proyectos colaborativos globales, conferencias y asignaturas impartidas en inglés."
+      },
+      {
+        "q": "¿Cuáles son las líneas de investigación en Animación y Diseño Digital?",
+        "a": "Nuestros proyectos y trabajos de titulación se orientan en: Creación de videojuegos, Diseño de ambientes y entornos, Animación 2D/3D e ilustración digital, Diseño y producción audiovisual, Efectos especiales y Gestión y emprendimiento digital."
+      },
+      {
+        "q": "¿Qué laboratorios especializados tiene el campus?",
+        "a": "El campus cuenta con un Laboratorio de Captura de Movimiento (Mocap) profesional, iMac Design Lab, Render Farm y un Estudio de Grabación de Audio & Foley."
       }
     ]
   },
+
   "diseno-industrial": {
     "id": "LDI",
     "name": "Diseño Industrial",
@@ -1782,6 +1853,806 @@
           "Brand Manager de Moda",
           "E-commerce Manager Textil",
           "Coordinador de Moda"
+        ]
+      }
+    ]
+  },
+  "administracion-de-empresas-turisticas": {
+    "id": "LAET",
+    "name": "Administración de Empresas Turísticas",
+    "slug": "administracion-de-empresas-turisticas",
+    "tagline": "Lidera la hospitalidad global. Diseña experiencias turísticas.",
+    "description": "Prepárate para dirigir hoteles, cruceros, agencias globales de viajes y proyectos ecoturísticos sustentables en una de las industrias con mayor crecimiento mundial.",
+    "ingreso": "Orientado a personas con facilidad de relaciones públicas, gusto por los idiomas, liderazgo y vocación de servicio al cliente global.",
+    "egreso": "Director de operaciones hoteleras, gerente en agencias de turismo internacional, planeador de destinos turísticos y cruceros.",
+    "experienciaPractica": [
+      {
+        "title": "Taller de Operación Hotelera",
+        "desc": "Simula check-in/check-out y la gestión completa de reservaciones en software PMS utilizado por grandes cadenas hoteleras.",
+        "icon": "🏨",
+        "tag": "Hospitalidad",
+        "features": [
+          "Software hotelero PMS",
+          "Gestión de reservaciones",
+          "Atención al huésped"
+        ]
+      },
+      {
+        "title": "Investigación Gastronómica",
+        "desc": "Conoce los procesos de diseño de menús, costeo de recetas y maridaje de bebidas para centros de consumo premium.",
+        "icon": "🍽️",
+        "tag": "Alimentos & Bebidas",
+        "features": [
+          "Costeo de alimentos",
+          "Maridaje y coctelería",
+          "Diseño de menús"
+        ]
+      },
+      {
+        "title": "Estadías en Hoteles de Playa",
+        "desc": "Convenios con cadenas internacionales en Cancún, Riviera Maya y Acapulco para prácticas inmersivas en temporadas altas.",
+        "icon": "🏝️",
+        "tag": "Estadías Profesionales",
+        "features": [
+          "Rotación de áreas hoteleras",
+          "Prácticas en el extranjero",
+          "Convenios de cadena internacional"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Ecoturismo y Destinos Sustentables",
+        "desc": "Planificación y desarrollo de productos turísticos ecológicos con respeto al medio ambiente.",
+        "icon": "🌿",
+        "badge": "Turismo Verde",
+        "courses": [
+          "Turismo Sustentable",
+          "Ecoturismo",
+          "Geografía Turística",
+          "Desarrollo Local"
+        ],
+        "jobs": [
+          "Consultor de Ecoturismo",
+          "Planeador de Destinos",
+          "Gestor de Parques Ecológicos"
+        ]
+      },
+      {
+        "title": "Dirección de Hospitalidad y Eventos",
+        "desc": "Dirección de banquetes, congresos, convenciones y la operación general de hoteles de lujo.",
+        "icon": "🛎️",
+        "badge": "Hospitality Manager",
+        "courses": [
+          "Dirección Hotelera",
+          "Gestión de Eventos y Congresos",
+          "Inocuidad Alimentaria",
+          "Servicio Premium"
+        ],
+        "jobs": [
+          "Gerente de Alimentos y Bebidas",
+          "Director de Banquetes",
+          "Gerente de Recepción y Reservaciones"
+        ]
+      }
+    ]
+  },
+  "administracion-de-negocios-internacionales": {
+    "id": "LANI",
+    "name": "Administración de Negocios Internacionales",
+    "slug": "administracion-de-negocios-internacionales",
+    "tagline": "Globaliza los negocios. Conquista mercados extranjeros.",
+    "description": "Conviértete en un estratega capaz de internacionalizar empresas, negociar convenios multinacionales y gestionar cadenas de suministro globales.",
+    "ingreso": "Para personas con visión de negocios global, facilidad para idiomas, adaptabilidad intercultural y habilidad de negociación comercial.",
+    "egreso": "Estratega de internacionalización de empresas, director de compras globales, consultor de negocios internacionales y analista comercial.",
+    "experienciaPractica": [
+      {
+        "title": "Mesa de Negociación Internacional",
+        "desc": "Simula rondas de negociación de contratos de compraventa internacional utilizando términos Incoterms de última versión.",
+        "icon": "🤝",
+        "tag": "Negociación",
+        "features": [
+          "Rondas de compraventa simulada",
+          "Aplicación de Incoterms",
+          "Contratos multilingües"
+        ]
+      },
+      {
+        "title": "Mapeo de Rutas de Carga",
+        "desc": "Diseña planes de transporte multimodal (marítimo, terrestre y aéreo) cotizando fletes y aranceles de forma real.",
+        "icon": "🚢",
+        "tag": "Logística Global",
+        "features": [
+          "Transporte marítimo y aéreo",
+          "Costeo de fletes reales",
+          "Planeación de cadena de suministro"
+        ]
+      },
+      {
+        "title": "Estadías en Corporativos Globales",
+        "desc": "Convenios con firmas transnacionales del corredor industrial para laborar en áreas de comercio exterior e importaciones.",
+        "icon": "🏢",
+        "tag": "Prácticas Corporativas",
+        "features": [
+          "Áreas de compras globales",
+          "Logística internacional real",
+          "Vinculación con multinacionales"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Logística y Transporte Internacional",
+        "desc": "Certificación en transporte multimodal, Incoterms, embalaje industrial y seguros internacionales.",
+        "icon": "📦",
+        "badge": "Supply Chain Expert",
+        "courses": [
+          "Logística de Carga",
+          "Incoterms Avanzados",
+          "Seguros de Mercancía",
+          "Tráfico y Distribución"
+        ],
+        "jobs": [
+          "Coordinador de Logística",
+          "Gerente de Tráfico y Aduanas",
+          "Asesor de Compras Internacionales"
+        ]
+      },
+      {
+        "title": "Estrategia e Internacionalización de Empresas",
+        "desc": "Habilidades para fusiones, adquisiciones globales y penetración en mercados de América, Asia y Europa.",
+        "icon": "🌍",
+        "badge": "Global Strategist",
+        "courses": [
+          "Internacionalización de Empresas",
+          "Comercio de América y Asia",
+          "Estrategia Global",
+          "Estudios Interculturales"
+        ],
+        "jobs": [
+          "Director de Expansión Internacional",
+          "Consultor Corporativo",
+          "Desarrollador de Nuevos Negocios"
+        ]
+      }
+    ]
+  },
+  "administracion-y-mercadotecnia": {
+    "id": "LAM",
+    "name": "Administración y Mercadotecnia",
+    "slug": "administracion-y-mercadotecnia",
+    "tagline": "Estrategia administrativa y poder comercial.",
+    "description": "La combinación perfecta entre la optimización operativa y el posicionamiento de mercado. Aprende a dirigir organizaciones impulsando sus ventas al máximo.",
+    "ingreso": "Apto para líderes creativos, organizados, interesados por la administración y el diseño de campañas comerciales exitosas.",
+    "egreso": "Director de marcas comerciales, gerente administrativo, consultor de mercadotecnia, o director comercial corporativo.",
+    "experienciaPractica": [
+      {
+        "title": "Simuladores de Negocios y Finanzas",
+        "desc": "Toma decisiones de dirección de empresas balanceando costos de fabricación con inversión publicitaria digital.",
+        "icon": "📈",
+        "tag": "Simulación Empresarial",
+        "features": [
+          "Decisiones gerenciales simuladas",
+          "Administración de presupuestos",
+          "Métricas comerciales"
+        ]
+      },
+      {
+        "title": "Focus Group y Test de Mercado",
+        "desc": "Organiza pruebas de producto, degustaciones y entrevistas a consumidores en Cámara Gesell para validar aceptación.",
+        "icon": "👥",
+        "tag": "Investigación",
+        "features": [
+          "Sesiones grupales en Cámara Gesell",
+          "Test de degustación y empaque",
+          "Análisis cualitativo"
+        ]
+      },
+      {
+        "title": "Consultoría a PyMEs Locales",
+        "desc": "Desarrolla diagnósticos de organización y planes de mercadotecnia real para microempresas del estado de Morelos.",
+        "icon": "🏢",
+        "tag": "Consultoría Real",
+        "features": [
+          "Diagnóstico administrativo",
+          "Plan de marketing para PyMEs",
+          "Implementación de mejoras"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Dirección Comercial y Fuerza de Ventas",
+        "desc": "Certificación para administrar canales de ventas directos e indirectos e implementar sistemas CRM comerciales.",
+        "icon": "💼",
+        "badge": "Sales Director",
+        "courses": [
+          "Dirección de Ventas",
+          "Sistemas CRM",
+          "Estrategia Comercial",
+          "Negociación Corporativa"
+        ],
+        "jobs": [
+          "Director Comercial",
+          "Gerente de Ventas Regional",
+          "Consultor Comercial CRM"
+        ]
+      },
+      {
+        "title": "Neuromarketing y Psicología del Consumidor",
+        "desc": "Técnicas de análisis psicométrico y biométrico para evaluar el comportamiento de compra ante promociones.",
+        "icon": "🧠",
+        "badge": "Consumer Specialist",
+        "courses": [
+          "Neuromarketing",
+          "Psicología del Consumidor",
+          "Diseño de Empaque y Branding",
+          "Estrategia de Precios"
+        ],
+        "jobs": [
+          "Analista del Consumidor",
+          "Brand Manager",
+          "Consultor de Neuromarketing"
+        ]
+      }
+    ]
+  },
+  "comercio-exterior": {
+    "id": "LCE",
+    "name": "Comercio Exterior",
+    "slug": "comercio-exterior",
+    "tagline": "Opera el comercio mundial. Domina las aduanas.",
+    "description": "Especialízate en la legislación aduanera, clasificación arancelaria y los procesos de importación y exportación de mercancías a nivel global.",
+    "ingreso": "Ideal para personas con interés por la legislación comercial, aduanas, logística de transportes e Incoterms.",
+    "egreso": "Operador aduanal oficial, asesor de importaciones y exportaciones, consultor de cumplimiento arancelario o supervisor aduanero.",
+    "experienciaPractica": [
+      {
+        "title": "Clasificación de Mercancías",
+        "desc": "Aprende la clasificación arancelaria mediante la identificación de fracciones arancelarias en muestras de laboratorio.",
+        "icon": "🔍",
+        "tag": "Aranceles",
+        "features": [
+          "Fracción arancelaria",
+          "Muestras físicas de productos",
+          "LIGIE y regulaciones"
+        ]
+      },
+      {
+        "title": "Simulador de Pedimento y Despacho",
+        "desc": "Usa el software oficial de aduanas para la captura de pedimentos y simula el despacho aduanero y semáforo fiscal.",
+        "icon": "📝",
+        "tag": "Trámite Aduanero",
+        "features": [
+          "Captura de pedimento oficial",
+          "Simulador de semáforo fiscal",
+          "Auditoría de documentos"
+        ]
+      },
+      {
+        "title": "Estadías en Aduanas del País",
+        "desc": "Convenios de prácticas en aduanas interiores, fronterizas y marítimas del país (Veracruz, Laredo, AICM).",
+        "icon": "⚓",
+        "tag": "Prácticas de Aduana",
+        "features": [
+          "Prácticas en aduanas reales",
+          "Visitas a terminales marítimas",
+          "Estadías con agentes aduanales"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Legislación Aduanera y Pedimentos",
+        "desc": "Especialización para laborar en agencias aduanales formulando pedimentos y asegurando cumplimiento legal.",
+        "icon": "⚖️",
+        "badge": "Aduanas Certificado",
+        "courses": [
+          "Ley Aduanera",
+          "Clasificación Arancelaria II",
+          "Reglas de Comercio Exterior",
+          "Pedimentos"
+        ],
+        "jobs": [
+          "Capturista de Pedimentos",
+          "Clasificador Arancelario",
+          "Asesor Jurídico Aduanero"
+        ]
+      },
+      {
+        "title": "Logística Multimodal y Seguros",
+        "desc": "Gestión de contratos de fletes internacionales y coberturas de seguros para mercancías en tránsito.",
+        "icon": "🚢",
+        "badge": "Logística Integral",
+        "courses": [
+          "Fletes Marítimos y Aéreos",
+          "Seguros y Reaseguros",
+          "Logística Multimodal",
+          "Incoterms"
+        ],
+        "jobs": [
+          "Coordinador de Tráfico",
+          "Gerente de Exportaciones",
+          "Consultor de Transporte Multimodal"
+        ]
+      }
+    ]
+  },
+  "economia-y-finanzas": {
+    "id": "LEF",
+    "name": "Economía y Finanzas",
+    "slug": "economia-y-finanzas",
+    "tagline": "Analiza el entorno económico. Multiplica el valor financiero.",
+    "description": "Domina el análisis micro y macroeconómico, los mercados bursátiles, la valuación de portafolios de inversión y las finanzas corporativas avanzadas.",
+    "ingreso": "Para personas con aptitudes lógicas, matemáticas, interés por el comportamiento económico nacional e internacional y la bolsa de valores.",
+    "egreso": "Analista de portafolios de inversión, administrador de riesgos corporativos, banquero de inversión o consultor macroeconómico.",
+    "experienciaPractica": [
+      {
+        "title": "Bolsa y Trading de Valores",
+        "desc": "Simula la compra y venta de acciones, bonos, divisas y derivados financieros en tiempo real con cotizaciones mundiales.",
+        "icon": "💰",
+        "tag": "Trading",
+        "features": [
+          "Simulador de mercado de valores",
+          "Trading en tiempo real",
+          "Análisis fundamental"
+        ]
+      },
+      {
+        "title": "Valuación de Proyectos de Inversión",
+        "desc": "Valúa proyectos corporativos, fusiones y adquisiciones de empresas determinando el retorno financiero (TIR/VPN).",
+        "icon": "📊",
+        "tag": "Finanzas Corporativas",
+        "features": [
+          "Cálculo de TIR y VPN",
+          "Valuación de fusiones",
+          "Análisis de riesgos financieros"
+        ]
+      },
+      {
+        "title": "Prácticas en Bancos y Aseguradoras",
+        "desc": "Convenios con instituciones del sector bancario y financiero para estadías en áreas de riesgo crediticio e inversiones.",
+        "icon": "🏛️",
+        "tag": "Estadías Financieras",
+        "features": [
+          "Área de análisis de crédito",
+          "Administración de riesgos bursátiles",
+          "Vinculación bancaria"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Mercados Financieros e Inversiones",
+        "desc": "Certificación para el análisis de portafolios en bolsa de valores y mercado de divisas.",
+        "icon": "📈",
+        "badge": "Bolsa & Derivados",
+        "courses": [
+          "Mercado de Capitales",
+          "Mercado de Dinero",
+          "Análisis Técnico y Fundamental",
+          "Derivados Financieros"
+        ],
+        "jobs": [
+          "Operador de Mesa de Dinero",
+          "Asesor de Inversión Bursátil",
+          "Analista de Portafolios"
+        ]
+      },
+      {
+        "title": "Finanzas Corporativas y Control de Riesgos",
+        "desc": "Certificación para valuar proyectos, gestionar el capital de trabajo y mitigar riesgos cambiarios.",
+        "icon": "🏢",
+        "badge": "Corporate Finance",
+        "courses": [
+          "Finanzas Corporativas",
+          "Valuación de Empresas",
+          "Administración de Riesgos",
+          "Ingeniería Financiera"
+        ],
+        "jobs": [
+          "Director Financiero (CFO)",
+          "Controller Corporativo",
+          "Consultor de Finanzas"
+        ]
+      }
+    ]
+  },
+  "mercadotecnia-y-publicidad": {
+    "id": "LEMP",
+    "name": "Mercadotecnia y Publicidad",
+    "slug": "mercadotecnia-y-publicidad",
+    "tagline": "Crea la marca. Conquista la mente del consumidor.",
+    "description": "Desarrolla el balance ideal entre la analítica de marketing y la creatividad publicitaria digital. Diseña campañas memorables de alto impacto comercial.",
+    "ingreso": "Orientado a mentes creativas, observadoras, con gusto por el diseño de mensajes de impacto, redes sociales y campañas publicitarias.",
+    "egreso": "Director creativo en agencias de publicidad, estratega digital de marcas, redactor creativo (copywriter) o planificador de medios.",
+    "experienciaPractica": [
+      {
+        "title": "Agencia Publicitaria In-House",
+        "desc": "Diseña campañas integrales de publicidad y redacta textos creativos (copywriting) para productos reales en mercados locales.",
+        "icon": "🎨",
+        "tag": "Creatividad publicitaria",
+        "features": [
+          "Copywriting y conceptualización",
+          "Dirección de arte publicitario",
+          "Campañas BTL y ATL"
+        ]
+      },
+      {
+        "title": "Estudio de Grabación de Anuncios",
+        "desc": "Graba y edita comerciales de radio, televisión e internet utilizando sets acústicos, ciclorama y cabinas profesionales.",
+        "icon": "📺",
+        "tag": "Producción de Spots",
+        "features": [
+          "Set de TV con ciclorama",
+          "Microfonía para comerciales",
+          "Postproducción digital"
+        ]
+      },
+      {
+        "title": "Pauta Digital en Meta y Google Ads",
+        "desc": "Configura y administra campañas de publicidad en Meta Business Suite y Google Ads con presupuestos y segmentaciones reales.",
+        "icon": "📱",
+        "tag": "Publicidad Pagada",
+        "features": [
+          "Google Ads y Meta Ads",
+          "Segmentación de mercados",
+          "Optimización de campañas"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Creatividad Publicitaria y Copywriting",
+        "desc": "Certificación avanzada en diseño de narrativas comerciales y redacción creativa para marcas globales.",
+        "icon": "✍️",
+        "badge": "Creative Copywriter",
+        "courses": [
+          "Copywriting",
+          "Dirección Creativa",
+          "Diseño Gráfico Publicitario",
+          "Spots de TV y Radio"
+        ],
+        "jobs": [
+          "Redactor Creativo de Agencia",
+          "Director de Cuentas Creativas",
+          "Estratega de Storytelling"
+        ]
+      },
+      {
+        "title": "Mercadotecnia Digital y Google Ads",
+        "desc": "Certificación para administrar presupuestos publicitarios digitales y optimizar el retorno de inversión.",
+        "icon": "🎯",
+        "badge": "Digital Publicist",
+        "courses": [
+          "Pauta Digital Google Ads",
+          "Pauta Meta Ads",
+          "Analítica Web",
+          "SEO y SEM"
+        ],
+        "jobs": [
+          "Especialista en Google Ads",
+          "Planner de Medios Digitales",
+          "Growth Marketer"
+        ]
+      }
+    ]
+  },
+  "ingenieria-ambiental": {
+    "id": "IAM",
+    "name": "Ingeniería Ambiental",
+    "slug": "ingenieria-ambiental",
+    "tagline": "Protege el planeta. Diseña un desarrollo sustentable.",
+    "description": "Aprende a resolver problemas ecológicos, diseñar sistemas de tratamiento de agua y aire, y auditar el impacto ambiental en industrias.",
+    "ingreso": "Apto para personas con afinidad por las ciencias naturales (química, biología), matemáticas, interés por el cuidado ecológico y la sustentabilidad.",
+    "egreso": "Consultor y auditor de impacto ambiental, ingeniero de diseño en plantas de tratamiento, o gestor de normatividad ecológica.",
+    "experienciaPractica": [
+      {
+        "title": "Química y Microbiología Ambiental",
+        "desc": "Analiza la calidad del agua, del aire y la toxicología de suelos contaminados en laboratorios con microscopios y espectrómetros.",
+        "icon": "🔬",
+        "tag": "Laboratorio",
+        "features": [
+          "Espectroscopía y colorimetría",
+          "Microbiología del agua residual",
+          "Análisis toxicológico de suelos"
+        ]
+      },
+      {
+        "title": "Tratamiento de Aguas y Remediación",
+        "desc": "Ensambla y prueba reactores biológicos y sistemas de filtración para el saneamiento de aguas residuales industriales y municipales.",
+        "icon": "💧",
+        "tag": "Tratamiento",
+        "features": [
+          "Reactores biológicos simulados",
+          "Diseño de filtros de arena/carbón",
+          "Dosificación química de lodos"
+        ]
+      },
+      {
+        "title": "Auditorías Ambientales a Industrias",
+        "desc": "Visita fábricas del parque industrial midiendo emisiones de chimeneas y gestionando planes de manejo de residuos peligrosos.",
+        "icon": "🏭",
+        "tag": "Auditoría Real",
+        "features": [
+          "Mediciones de emisiones en chimeneas",
+          "Planes de manejo de residuos",
+          "Auditoría en norma ISO 14001"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Auditoría y Gestión Ambiental (ISO 14001)",
+        "desc": "Certificación para diseñar e implementar planes de gestión ambiental en empresas bajo normas oficiales mexicanas y la ISO 14001.",
+        "icon": "🌿",
+        "badge": "Auditor ISO 14001",
+        "courses": [
+          "Normatividad Ambiental",
+          "Auditoría Ecológica",
+          "ISO 14001",
+          "Cédula de Operación Anual (COA)"
+        ],
+        "jobs": [
+          "Auditor Ambiental Corporativo",
+          "Gestor de Trámites Ecológicos",
+          "Gerente de Seguridad e Higiene"
+        ]
+      },
+      {
+        "title": "Tratamiento y Remediación de Recursos",
+        "desc": "Habilidades de ingeniería para la remediación de suelos y tratamiento de agua residual y aire.",
+        "icon": "🏗️",
+        "badge": "Remediation Engineer",
+        "courses": [
+          "Remediación de Suelos",
+          "Diseño de Plantas de Agua",
+          "Control de Emisiones en Aire",
+          "Gestión de Residuos Especiales"
+        ],
+        "jobs": [
+          "Diseñador de Plantas de Tratamiento",
+          "Ingeniero de Saneamiento de Suelos",
+          "Consultor Ambiental Técnico"
+        ]
+      }
+    ]
+  },
+  "ingenieria-civil": {
+    "id": "ICI",
+    "name": "Ingeniería Civil",
+    "slug": "ingenieria-civil",
+    "tagline": "Construye la infraestructura. Modela el entorno del mañana.",
+    "description": "Domina el diseño de estructuras de concreto y acero, el análisis de suelos, la hidráulica y la gerencia de grandes obras civiles.",
+    "ingreso": "Requiere destreza lógico-matemática, interés por la construcción, comprensión espacial y la gestión de obras de infraestructura.",
+    "egreso": "Diseñador de estructuras civiles, gerente de control de obra, analista geotécnico o constructor y contratista de obra pública y privada.",
+    "experienciaPractica": [
+      {
+        "title": "Laboratorio de Suelos e Hidráulica",
+        "desc": "Realiza pruebas de compactación Proctor e investiga la resistencia de cimientos y el comportamiento del agua en canales.",
+        "icon": "🧱",
+        "tag": "Geotecnia",
+        "features": [
+          "Pruebas de compactación Proctor",
+          "Capacidad de carga de suelos",
+          "Flujo hidráulico en canales"
+        ]
+      },
+      {
+        "title": "Taller de Pruebas de Resistencia",
+        "desc": "Ensaya la resistencia a la compresión de cilindros de concreto y tensión de varillas de acero en la prensa hidráulica industrial.",
+        "icon": "🏗️",
+        "tag": "Estructuras",
+        "features": [
+          "Prensa hidráulica industrial",
+          "Pruebas de flexión de concreto",
+          "Tensión y deformación de acero"
+        ]
+      },
+      {
+        "title": "Topografía e Instrumentación",
+        "desc": "Utiliza estaciones totales y niveles de precisión directamente en campo para levantamientos y curvas de nivel.",
+        "icon": "🗺️",
+        "tag": "Campo",
+        "features": [
+          "Estaciones totales ópticas",
+          "Niveles automáticos de precisión",
+          "GPS geodésicos"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Cálculo y Diseño Estructural",
+        "desc": "Certificación para el cálculo y modelado sísmico de estructuras complejas en concreto y acero con software avanzado.",
+        "icon": "📐",
+        "badge": "Structural Analyst",
+        "courses": [
+          "Modelado en SAP2000/ETABS",
+          "Diseño de Concreto Reforzado",
+          "Estructuras de Acero",
+          "Análisis Sísmico"
+        ],
+        "jobs": [
+          "Diseñador Estructural Senior",
+          "Calculista de Cimentaciones",
+          "Consultor Estructural"
+        ]
+      },
+      {
+        "title": "Gerencia de Construcción y Costos",
+        "desc": "Especialización para presupuestar obras en Neodata, planificar calendarios físicos y supervisar la calidad de la obra.",
+        "icon": "💼",
+        "badge": "Construction Project Manager",
+        "courses": [
+          "Costos Unitarios en Neodata",
+          "Gerencia de Construcción",
+          "Supervisión de Obra",
+          "Normatividad de Obra Pública"
+        ],
+        "jobs": [
+          "Gerente de Proyecto de Obra",
+          "Analista de Precios Unitarios",
+          "Director de Supervisión de Obra"
+        ]
+      }
+    ]
+  },
+  "ingenieria-industrial-y-de-sistemas-de-calidad": {
+    "id": "IISCA",
+    "name": "Ingeniería Industrial",
+    "slug": "ingenieria-industrial-y-de-sistemas-de-calidad",
+    "tagline": "Optimiza los procesos. Lidera la excelencia operativa.",
+    "description": "Especialízate en sistemas de producción esbelta (Lean Manufacturing), logística de inventarios, optimización de tiempos y sistemas de calidad internacional.",
+    "ingreso": "Apto para personas analíticas, orientadas a la optimización, la eficiencia, la dirección de personal y el control estadístico de procesos.",
+    "egreso": "Director de planta industrial, gerente de aseguramiento de calidad, consultor de Lean Manufacturing o planificador de compras y logística.",
+    "experienciaPractica": [
+      {
+        "title": "Taller de Ensamble y Lean Manufacturing",
+        "desc": "Simula líneas de ensamble real aplicando metodologías Kanban, 5S y celdas de manufactura para reducir desperdicios.",
+        "icon": "⚙️",
+        "tag": "Lean",
+        "features": [
+          "Celdas de ensamble modular",
+          "Línea de producción simulada",
+          "Aplicación de Kanban y Poka-Yokes"
+        ]
+      },
+      {
+        "title": "Simulación de Plantas en FlexSim",
+        "desc": "Construye réplicas virtuales de almacenes y fábricas en software 3D para identificar cuellos de botella e inventarios excesivos.",
+        "icon": "🖥️",
+        "tag": "Simulación 3D",
+        "features": [
+          "Modelado en FlexSim 3D",
+          "Análisis de cuellos de botella",
+          "Optimización de layouts de planta"
+        ]
+      },
+      {
+        "title": "Auditorías de Calidad en CIVAC",
+        "desc": "Realiza auditorías de control de procesos en empresas manufactureras de CIVAC bajo criterios reales de ISO 9001.",
+        "icon": "🏭",
+        "tag": "Prácticas de Calidad",
+        "features": [
+          "Planes de auditoría ISO 9001",
+          "Control estadístico en sitio",
+          "Diagnósticos de productividad"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Lean Manufacturing y Seis Sigma",
+        "desc": "Metodología Green Belt para la erradicación de defectos y variabilidad en líneas de ensamble y procesos logísticos.",
+        "icon": "🎯",
+        "badge": "Lean Green Belt",
+        "courses": [
+          "Herramientas de Kaizen",
+          "Control Estadístico del Proceso",
+          "Seis Sigma",
+          "Mapeo de Flujo de Valor (VSM)"
+        ],
+        "jobs": [
+          "Líder de Lean Manufacturing",
+          "Ingeniero de Calidad Seis Sigma",
+          "Coordinador de Mejora Continua"
+        ]
+      },
+      {
+        "title": "Gestión de la Producción e ISO 9001",
+        "desc": "Especialización para administrar almacenes, compras y certificar procesos bajo la norma internacional ISO 9001.",
+        "icon": "📄",
+        "badge": "ISO 9001 Lead Auditor",
+        "courses": [
+          "Administración de Inventarios",
+          "Planeación de la Producción",
+          "Logística y Cadena de Suministro",
+          "Auditoría ISO 9001"
+        ],
+        "jobs": [
+          "Gerente de Producción",
+          "Auditor de Calidad ISO",
+          "Planificador de Materiales (Planner)"
+        ]
+      }
+    ]
+  },
+  "ingenieria-mecanica-industrial": {
+    "id": "IMI",
+    "name": "Ingeniería Mecánica Industrial",
+    "slug": "ingenieria-mecanica-industrial",
+    "tagline": "Diseña la potencia mecánica. Controla la fuerza industrial.",
+    "description": "Domina el diseño de mecanismos, sistemas termodinámicos, plantas térmicas, selección de materiales y el mantenimiento de maquinaria pesada.",
+    "ingreso": "Para entusiastas de la física mecánica, termodinámica, diseño de mecanismos, maquinados de precisión y mantenimiento industrial.",
+    "egreso": "Diseñador de maquinaria mecánica, gerente de plantas térmicas o caldera, ingeniero de mantenimiento industrial predictivo.",
+    "experienciaPractica": [
+      {
+        "title": "Taller de Maquinados e Soldadura",
+        "desc": "Tornea, fresa y suelda acero en máquinas herramientas manuales y equipos de soldadura por arco y microalambre.",
+        "icon": "⚙️",
+        "tag": "Taller",
+        "features": [
+          "Tornos y fresadoras manuales",
+          "Equipo de soldadura arco/microalambre",
+          "Metrología de precisión dimensional"
+        ]
+      },
+      {
+        "title": "Fluidos e Intercambiadores Térmicos",
+        "desc": "Mide temperaturas, presiones y pérdidas de carga en canales hidráulicos y reactores de intercambio de calor.",
+        "icon": "🔥",
+        "tag": "Termodinámica",
+        "features": [
+          "Intercambiadores de calor industriales",
+          "Canales de flujo de fluidos",
+          "Calibradores de presión hidráulica"
+        ]
+      },
+      {
+        "title": "Mantenimiento Preventivo y Termografía",
+        "desc": "Realiza pruebas de vibración en motores eléctricos y análisis térmico con cámaras infrarrojas para evitar fallas mecánicas.",
+        "icon": "🔧",
+        "tag": "Mantenimiento",
+        "features": [
+          "Analizadores de vibración digital",
+          "Cámara de termografía infrarroja",
+          "Alineación y balanceo de ejes"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Diseño y Simulación Mecánica CAD",
+        "desc": "Certificación para el modelado en SolidWorks y la simulación por elementos finitos de esfuerzos mecánicos en piezas.",
+        "icon": "📐",
+        "badge": "CAD Mechanical Expert",
+        "courses": [
+          "Modelado SolidWorks",
+          "Análisis de Esfuerzos (FEM)",
+          "Diseño de Elementos de Máquinas",
+          "Dibujo Técnico Industrial"
+        ],
+        "jobs": [
+          "Diseñador Mecánico CAD",
+          "Modelador e Ingeniero de Simulación",
+          "Ingeniero de Moldes e Inyección"
+        ]
+      },
+      {
+        "title": "Sistemas Térmicos e Instalaciones",
+        "desc": "Certificación para diseñar y operar plantas de vapor, calderas, refrigeración industrial y aire comprimido.",
+        "icon": "⚡",
+        "badge": "Thermal Systems Expert",
+        "courses": [
+          "Calderas y Generadores de Vapor",
+          "Sistemas de Refrigeración",
+          "Plantas Hidráulicas",
+          "Mantenimiento Termomecánico"
+        ],
+        "jobs": [
+          "Gerente de Mantenimiento de Planta",
+          "Operador de Centrales Térmicas",
+          "Consultor de Instalaciones de Fluidos"
         ]
       }
     ]

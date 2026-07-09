@@ -1,10 +1,25 @@
 {
   "categories": [
-    { "label": "Todas las materias", "value": "all" },
-    { "label": "🚀 Desarrollo de Software", "value": "desarrollo" },
-    { "label": "📊 Ciencia de Datos", "value": "datos" },
-    { "label": "🛡️ Ciberseguridad", "value": "seguridad" },
-    { "label": "🌐 Formación General", "value": "general" }
+    {
+      "label": "Todas las materias",
+      "value": "all"
+    },
+    {
+      "label": "🚀 Desarrollo de Software",
+      "value": "desarrollo"
+    },
+    {
+      "label": "📊 Ciencia de Datos",
+      "value": "datos"
+    },
+    {
+      "label": "🛡️ Ciberseguridad",
+      "value": "seguridad"
+    },
+    {
+      "label": "🌐 Formación General",
+      "value": "general"
+    }
   ],
   "syllabus": [
     {
@@ -14,23 +29,59 @@
         {
           "title": "Primer Semestre",
           "subjects": [
-            { "name": "Fundamentos de Programación", "tag": "desarrollo" },
-            { "name": "Matemáticas Discretas", "tag": "general" },
-            { "name": "Arquitectura de Computadoras", "tag": "seguridad" },
-            { "name": "Cálculo Diferencial", "tag": "general" },
-            { "name": "Introducción a la Ingeniería en Sistemas", "tag": "general" },
-            { "name": "Lengua Extranjera I", "tag": "general" }
+            {
+              "name": "Fundamentos de Programación",
+              "tag": "desarrollo"
+            },
+            {
+              "name": "Matemáticas Discretas",
+              "tag": "general"
+            },
+            {
+              "name": "Arquitectura de Computadoras",
+              "tag": "seguridad"
+            },
+            {
+              "name": "Cálculo Diferencial",
+              "tag": "general"
+            },
+            {
+              "name": "Introducción a la Ingeniería en Sistemas",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Segundo Semestre",
           "subjects": [
-            { "name": "Programación Orientada a Objetos", "tag": "desarrollo" },
-            { "name": "Estructuras de Datos", "tag": "desarrollo" },
-            { "name": "Cálculo Integral", "tag": "general" },
-            { "name": "Álgebra Lineal", "tag": "datos" },
-            { "name": "Sistemas Operativos", "tag": "seguridad" },
-            { "name": "Lengua Extranjera II", "tag": "general" }
+            {
+              "name": "Programación Orientada a Objetos",
+              "tag": "desarrollo"
+            },
+            {
+              "name": "Estructuras de Datos",
+              "tag": "desarrollo"
+            },
+            {
+              "name": "Cálculo Integral",
+              "tag": "general"
+            },
+            {
+              "name": "Álgebra Lineal",
+              "tag": "datos"
+            },
+            {
+              "name": "Sistemas Operativos",
+              "tag": "seguridad"
+            },
+            {
+              "name": "Lengua Extranjera II",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -42,23 +93,59 @@
         {
           "title": "Tercer Semestre",
           "subjects": [
-            { "name": "Bases de Datos Relacionales", "tag": "datos" },
-            { "name": "Análisis y Diseño de Algoritmos", "tag": "desarrollo" },
-            { "name": "Redes de Computadoras", "tag": "seguridad" },
-            { "name": "Probabilidad y Estadística", "tag": "datos" },
-            { "name": "Desarrollo Web Front-End", "tag": "desarrollo" },
-            { "name": "Lengua Extranjera III", "tag": "general" }
+            {
+              "name": "Bases de Datos Relacionales",
+              "tag": "datos"
+            },
+            {
+              "name": "Análisis y Diseño de Algoritmos",
+              "tag": "desarrollo"
+            },
+            {
+              "name": "Redes de Computadoras",
+              "tag": "seguridad"
+            },
+            {
+              "name": "Probabilidad y Estadística",
+              "tag": "datos"
+            },
+            {
+              "name": "Desarrollo Web Front-End",
+              "tag": "desarrollo"
+            },
+            {
+              "name": "Lengua Extranjera III",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Cuarto Semestre",
           "subjects": [
-            { "name": "Ingeniería de Software", "tag": "desarrollo" },
-            { "name": "Bases de Datos No Relacionales", "tag": "datos" },
-            { "name": "Desarrollo Web Back-End", "tag": "desarrollo" },
-            { "name": "Seguridad Informática Básica", "tag": "seguridad" },
-            { "name": "Métodos Numéricos", "tag": "general" },
-            { "name": "Lengua Extranjera IV", "tag": "general" }
+            {
+              "name": "Ingeniería de Software",
+              "tag": "desarrollo"
+            },
+            {
+              "name": "Bases de Datos No Relacionales",
+              "tag": "datos"
+            },
+            {
+              "name": "Desarrollo Web Back-End",
+              "tag": "desarrollo"
+            },
+            {
+              "name": "Seguridad Informática Básica",
+              "tag": "seguridad"
+            },
+            {
+              "name": "Métodos Numéricos",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera IV",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -70,21 +157,51 @@
         {
           "title": "Quinto Semestre",
           "subjects": [
-            { "name": "Desarrollo de Aplicaciones Móviles", "tag": "desarrollo" },
-            { "name": "Minería de Datos y Aprendizaje Automático", "tag": "datos" },
-            { "name": "Criptografía y Seguridad en Redes", "tag": "seguridad" },
-            { "name": "Computación en la Nube", "tag": "desarrollo" },
-            { "name": "Optativa I", "tag": "general" }
+            {
+              "name": "Desarrollo de Aplicaciones Móviles",
+              "tag": "desarrollo"
+            },
+            {
+              "name": "Minería de Datos y Aprendizaje Automático",
+              "tag": "datos"
+            },
+            {
+              "name": "Criptografía y Seguridad en Redes",
+              "tag": "seguridad"
+            },
+            {
+              "name": "Computación en la Nube",
+              "tag": "desarrollo"
+            },
+            {
+              "name": "Optativa I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Sexto Semestre",
           "subjects": [
-            { "name": "Arquitectura de Software y Microservicios", "tag": "desarrollo" },
-            { "name": "Inteligencia Artificial", "tag": "datos" },
-            { "name": "Hacking Ético y Análisis de Vulnerabilidades", "tag": "seguridad" },
-            { "name": "Big Data y Procesamiento Distribuido", "tag": "datos" },
-            { "name": "Optativa II", "tag": "general" }
+            {
+              "name": "Arquitectura de Software y Microservicios",
+              "tag": "desarrollo"
+            },
+            {
+              "name": "Inteligencia Artificial",
+              "tag": "datos"
+            },
+            {
+              "name": "Hacking Ético y Análisis de Vulnerabilidades",
+              "tag": "seguridad"
+            },
+            {
+              "name": "Big Data y Procesamiento Distribuido",
+              "tag": "datos"
+            },
+            {
+              "name": "Optativa II",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -96,23 +213,56 @@
         {
           "title": "Séptimo Semestre",
           "subjects": [
-            { "name": "Seminario de Titulación I", "tag": "desarrollo" },
-            { "name": "DevOps y Automatización de Despliegue", "tag": "desarrollo" },
-            { "name": "Auditoría y Gobernanza de TI", "tag": "seguridad" },
-            { "name": "Ética Profesional en Tecnología", "tag": "general" },
-            { "name": "Prácticas Profesionales I", "tag": "general" }
+            {
+              "name": "Seminario de Titulación I",
+              "tag": "desarrollo"
+            },
+            {
+              "name": "DevOps y Automatización de Despliegue",
+              "tag": "desarrollo"
+            },
+            {
+              "name": "Auditoría y Gobernanza de TI",
+              "tag": "seguridad"
+            },
+            {
+              "name": "Ética Profesional en Tecnología",
+              "tag": "general"
+            },
+            {
+              "name": "Prácticas Profesionales I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Octavo Semestre",
           "subjects": [
-            { "name": "Seminario de Titulación II", "tag": "desarrollo" },
-            { "name": "Proyecto Integrador de Ingeniería de Software", "tag": "desarrollo" },
-            { "name": "Innovación y Emprendimiento Tecnológico", "tag": "general" },
-            { "name": "Prácticas Profesionales II", "tag": "general" }
+            {
+              "name": "Seminario de Titulación II",
+              "tag": "desarrollo"
+            },
+            {
+              "name": "Proyecto Integrador de Ingeniería de Software",
+              "tag": "desarrollo"
+            },
+            {
+              "name": "Innovación y Emprendimiento Tecnológico",
+              "tag": "general"
+            },
+            {
+              "name": "Prácticas Profesionales II",
+              "tag": "general"
+            }
           ]
         }
       ]
     }
+  ],
+  "optativas": [
+    "Desarrollo de Aplicaciones Móviles (iOS/Android)",
+    "Ciberseguridad y Criptografía Aplicada",
+    "Computación en la Nube (Cloud Computing)",
+    "Inteligencia Artificial y Redes Neuronales"
   ]
 }

@@ -1,10 +1,25 @@
 {
   "categories": [
-    { "label": "Todas las materias", "value": "all" },
-    { "label": "🎥 Modelado y Render 3D", "value": "modelado" },
-    { "label": "🎬 Animación y VFX", "value": "animacion" },
-    { "label": "🎮 Videojuegos e Interactivo", "value": "videojuegos" },
-    { "label": "🌐 Formación General", "value": "general" }
+    {
+      "label": "Todas las materias",
+      "value": "all"
+    },
+    {
+      "label": "🎥 Modelado y Render 3D",
+      "value": "modelado"
+    },
+    {
+      "label": "🎬 Animación y VFX",
+      "value": "animacion"
+    },
+    {
+      "label": "🎮 Videojuegos e Interactivo",
+      "value": "videojuegos"
+    },
+    {
+      "label": "🌐 Formación General",
+      "value": "general"
+    }
   ],
   "syllabus": [
     {
@@ -14,23 +29,59 @@
         {
           "title": "Primer Semestre",
           "subjects": [
-            { "name": "Introducción a la Animación y Diseño Digital", "tag": "animacion" },
-            { "name": "Dibujo de Anatomía y Perspectiva", "tag": "general" },
-            { "name": "Modelado 3D Básico (Hard Surface)", "tag": "modelado" },
-            { "name": "Historia del Cine y la Animación", "tag": "general" },
-            { "name": "Fotografía e Iluminación Digital", "tag": "general" },
-            { "name": "Lengua Extranjera I", "tag": "general" }
+            {
+              "name": "Introducción a la Animación y Diseño Digital",
+              "tag": "animacion"
+            },
+            {
+              "name": "Dibujo de Anatomía y Perspectiva",
+              "tag": "general"
+            },
+            {
+              "name": "Modelado 3D Básico (Hard Surface)",
+              "tag": "modelado"
+            },
+            {
+              "name": "Historia del Cine y la Animación",
+              "tag": "general"
+            },
+            {
+              "name": "Fotografía e Iluminación Digital",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Segundo Semestre",
           "subjects": [
-            { "name": "Principios Básicos de Animación (2D)", "tag": "animacion" },
-            { "name": "Modelado 3D Orgánico y Esculpido", "tag": "modelado" },
-            { "name": "Teoría de la Narrativa y Guionismo", "tag": "general" },
-            { "name": "Diseño de Personajes y Concept Art", "tag": "animacion" },
-            { "name": "Edición y Montaje Digital", "tag": "animacion" },
-            { "name": "Lengua Extranjera II", "tag": "general" }
+            {
+              "name": "Principios Básicos de Animación (2D)",
+              "tag": "animacion"
+            },
+            {
+              "name": "Modelado 3D Orgánico y Esculpido",
+              "tag": "modelado"
+            },
+            {
+              "name": "Teoría de la Narrativa y Guionismo",
+              "tag": "general"
+            },
+            {
+              "name": "Diseño de Personajes y Concept Art",
+              "tag": "animacion"
+            },
+            {
+              "name": "Edición y Montaje Digital",
+              "tag": "animacion"
+            },
+            {
+              "name": "Lengua Extranjera II",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -42,23 +93,59 @@
         {
           "title": "Tercer Semestre",
           "subjects": [
-            { "name": "Animación 3D de Personajes I", "tag": "animacion" },
-            { "name": "Rigging y Skinning de Personajes 3D", "tag": "modelado" },
-            { "name": "Texturizado Digital y Shading", "tag": "modelado" },
-            { "name": "Introducción al Desarrollo de Videojuegos", "tag": "videojuegos" },
-            { "name": "Audio Digital para Medios Interactivos", "tag": "videojuegos" },
-            { "name": "Lengua Extranjera III", "tag": "general" }
+            {
+              "name": "Animación 3D de Personajes I",
+              "tag": "animacion"
+            },
+            {
+              "name": "Rigging y Skinning de Personajes 3D",
+              "tag": "modelado"
+            },
+            {
+              "name": "Texturizado Digital y Shading",
+              "tag": "modelado"
+            },
+            {
+              "name": "Introducción al Desarrollo de Videojuegos",
+              "tag": "videojuegos"
+            },
+            {
+              "name": "Audio Digital para Medios Interactivos",
+              "tag": "videojuegos"
+            },
+            {
+              "name": "Lengua Extranjera III",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Cuarto Semestre",
           "subjects": [
-            { "name": "Animación 3D de Personajes II", "tag": "animacion" },
-            { "name": "Efectos Visuales Básicos (VFX)", "tag": "animacion" },
-            { "name": "Motores de Videojuegos I (Unity)", "tag": "videojuegos" },
-            { "name": "Diseño de Niveles e Interfaces (UI/UX)", "tag": "videojuegos" },
-            { "name": "Iluminación y Render 3D Avanzado", "tag": "modelado" },
-            { "name": "Lengua Extranjera IV", "tag": "general" }
+            {
+              "name": "Animación 3D de Personajes II",
+              "tag": "animacion"
+            },
+            {
+              "name": "Efectos Visuales Básicos (VFX)",
+              "tag": "animacion"
+            },
+            {
+              "name": "Motores de Videojuegos I (Unity)",
+              "tag": "videojuegos"
+            },
+            {
+              "name": "Diseño de Niveles e Interfaces (UI/UX)",
+              "tag": "videojuegos"
+            },
+            {
+              "name": "Iluminación y Render 3D Avanzado",
+              "tag": "modelado"
+            },
+            {
+              "name": "Lengua Extranjera IV",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -70,21 +157,51 @@
         {
           "title": "Quinto Semestre",
           "subjects": [
-            { "name": "Composición Digital y VFX Avanzados", "tag": "animacion" },
-            { "name": "Motores de Videojuegos II (Unreal Engine)", "tag": "videojuegos" },
-            { "name": "Captura de Movimiento (Motion Capture)", "tag": "animacion" },
-            { "name": "Escultura Digital Avanzada (ZBrush)", "tag": "modelado" },
-            { "name": "Optativa I", "tag": "general" }
+            {
+              "name": "Composición Digital y VFX Avanzados",
+              "tag": "animacion"
+            },
+            {
+              "name": "Motores de Videojuegos II (Unreal Engine)",
+              "tag": "videojuegos"
+            },
+            {
+              "name": "Captura de Movimiento (Motion Capture)",
+              "tag": "animacion"
+            },
+            {
+              "name": "Escultura Digital Avanzada (ZBrush)",
+              "tag": "modelado"
+            },
+            {
+              "name": "Optativa I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Sexto Semestre",
           "subjects": [
-            { "name": "Producción de Cortometrajes de Animación", "tag": "animacion" },
-            { "name": "Realidad Virtual y Aumentada (VR/AR)", "tag": "videojuegos" },
-            { "name": "Portafolio y Demo Reel Profesional", "tag": "general" },
-            { "name": "Metodología de la Investigación", "tag": "general" },
-            { "name": "Optativa II", "tag": "general" }
+            {
+              "name": "Producción de Cortometrajes de Animación",
+              "tag": "animacion"
+            },
+            {
+              "name": "Realidad Virtual y Aumentada (VR/AR)",
+              "tag": "videojuegos"
+            },
+            {
+              "name": "Portafolio y Demo Reel Profesional",
+              "tag": "general"
+            },
+            {
+              "name": "Metodología de la Investigación",
+              "tag": "general"
+            },
+            {
+              "name": "Optativa II",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -96,23 +213,56 @@
         {
           "title": "Séptimo Semestre",
           "subjects": [
-            { "name": "Seminario de Titulación I", "tag": "general" },
-            { "name": "Dirección de Arte Digital", "tag": "general" },
-            { "name": "Desarrollo de Videojuegos Avanzado", "tag": "videojuegos" },
-            { "name": "Prácticas Profesionales Integrales", "tag": "general" },
-            { "name": "Optativa III", "tag": "general" }
+            {
+              "name": "Seminario de Titulación I",
+              "tag": "general"
+            },
+            {
+              "name": "Dirección de Arte Digital",
+              "tag": "general"
+            },
+            {
+              "name": "Desarrollo de Videojuegos Avanzado",
+              "tag": "videojuegos"
+            },
+            {
+              "name": "Prácticas Profesionales Integrales",
+              "tag": "general"
+            },
+            {
+              "name": "Optativa III",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Octavo Semestre",
           "subjects": [
-            { "name": "Seminario de Titulación II", "tag": "general" },
-            { "name": "Emprendimiento en la Industria Creativa", "tag": "general" },
-            { "name": "Propiedad Intelectual y Derechos de Autor", "tag": "general" },
-            { "name": "Ética Profesional", "tag": "general" }
+            {
+              "name": "Seminario de Titulación II",
+              "tag": "general"
+            },
+            {
+              "name": "Emprendimiento en la Industria Creativa",
+              "tag": "general"
+            },
+            {
+              "name": "Propiedad Intelectual y Derechos de Autor",
+              "tag": "general"
+            },
+            {
+              "name": "Ética Profesional",
+              "tag": "general"
+            }
           ]
         }
       ]
     }
+  ],
+  "optativas": [
+    "Modelado Orgánico 3D Avanzado",
+    "Efectos Visuales (VFX) y Composición Digital",
+    "Desarrollo de Videojuegos en Unreal Engine",
+    "Animación Stop Motion y Técnicas Tradicionales"
   ]
 }

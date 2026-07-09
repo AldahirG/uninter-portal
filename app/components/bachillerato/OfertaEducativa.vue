@@ -18,7 +18,7 @@ const modalidades = [
       "Asesorías académicas sin costo",
     ],
     href: "/bachillerato/biu-bilingue",
-    image: "/images/hero/licenciaturas.jpg",
+    image: "/images/bachillerato/12.jpg",
   },
   {
     id: "multicultural",
@@ -37,7 +37,7 @@ const modalidades = [
     ],
     href: "https://biu.uninter.edu.mx/biu-multicultural",
     external: true,
-    image: "/images/hero/ejecutivas.jpg",
+    image: "/images/bachillerato/9.jpg",
   },
 ];
 </script>
@@ -51,44 +51,47 @@ const modalidades = [
           <span class="eyebrow-line"></span>
           OFERTA EDUCATIVA
         </div>
-        <h2 class="oferta-title">
-          Elige tu<br /><em>modalidad BIU</em>
-        </h2>
+        <h2 class="oferta-title">Elige tu<br /><em>modalidad BIU</em></h2>
         <p class="oferta-subtitle">
-          Dos rutas de excelencia, un mismo destino: tu éxito académico y personal.
+          Dos rutas de excelencia, un mismo destino: tu éxito académico y
+          personal.
         </p>
       </div>
 
       <!-- Cards -->
       <div class="oferta-grid">
-        <div
-          v-for="m in modalidades"
-          :key="m.id"
-          class="mod-card"
-        >
+        <div v-for="m in modalidades" :key="m.id" class="mod-card">
           <!-- Imagen -->
           <div class="mod-card__img-wrap">
-            <img
-              :src="m.image"
-              :alt="m.titulo"
-              class="mod-card__img"
-            />
-            <div class="mod-card__img-overlay" :style="`background: linear-gradient(to top, ${m.color}ee 0%, ${m.color}44 60%, transparent 100%)`"></div>
-            <span class="mod-card__tag" :style="`background: ${m.color}`">{{ m.tag }}</span>
+            <img :src="m.image" :alt="m.titulo" class="mod-card__img" />
+            <div class="mod-card__img-overlay"></div>
+            <span class="mod-card__tag" :style="`background: ${m.color}`">{{
+              m.tag
+            }}</span>
           </div>
 
           <!-- Contenido -->
           <div class="mod-card__body">
             <div>
-              <h3 class="mod-card__title" :style="`color: ${m.color}`">{{ m.titulo }}</h3>
+              <h3 class="mod-card__title" :style="`color: ${m.color}`">
+                {{ m.titulo }}
+              </h3>
               <p class="mod-card__sub">{{ m.subtitulo }}</p>
               <p class="mod-card__desc">{{ m.desc }}</p>
             </div>
 
             <!-- Características -->
             <ul class="mod-card__features">
-              <li v-for="c in m.caracteristicas" :key="c" class="mod-card__feature">
-                <Check :size="14" class="mod-card__check" :style="`color: ${m.color}`" />
+              <li
+                v-for="c in m.caracteristicas"
+                :key="c"
+                class="mod-card__feature"
+              >
+                <Check
+                  :size="14"
+                  class="mod-card__check"
+                  :style="`color: ${m.color}`"
+                />
                 <span>{{ c }}</span>
               </li>
             </ul>
@@ -146,14 +149,14 @@ const modalidades = [
   font-weight: 800;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #6BAF04;
+  color: #6baf04;
   margin-bottom: 1rem;
 }
 .eyebrow-line {
   display: block;
   width: 24px;
   height: 2px;
-  background: #6BAF04;
+  background: #6baf04;
   flex-shrink: 0;
 }
 
@@ -166,7 +169,10 @@ const modalidades = [
   letter-spacing: -0.02em;
   margin: 0 0 1rem;
 }
-.oferta-title em { font-style: italic; color: #6BAF04; }
+.oferta-title em {
+  font-style: italic;
+  color: #6baf04;
+}
 
 .oferta-subtitle {
   font-size: 1rem;
@@ -189,10 +195,12 @@ const modalidades = [
   background: #fff;
   display: flex;
   flex-direction: column;
-  transition: box-shadow 0.25s, transform 0.25s;
+  transition:
+    box-shadow 0.25s,
+    transform 0.25s;
 }
 .mod-card:hover {
-  box-shadow: 0 20px 50px rgba(74,122,2,0.14);
+  box-shadow: 0 20px 50px rgba(74, 122, 2, 0.14);
   transform: translateY(-4px);
 }
 
@@ -201,7 +209,7 @@ const modalidades = [
   position: relative;
   aspect-ratio: 16/9;
   overflow: hidden;
-  background: #4A7A02;
+  background: #4a7a02;
 }
 .mod-card__img {
   width: 100%;
@@ -209,7 +217,9 @@ const modalidades = [
   object-fit: cover;
   transition: transform 0.5s ease;
 }
-.mod-card:hover .mod-card__img { transform: scale(1.05); }
+.mod-card:hover .mod-card__img {
+  transform: scale(1.05);
+}
 .mod-card__img-overlay {
   position: absolute;
   inset: 0;
@@ -277,7 +287,9 @@ const modalidades = [
   font-size: 0.85rem;
   color: #334155;
 }
-.mod-card__check { flex-shrink: 0; }
+.mod-card__check {
+  flex-shrink: 0;
+}
 
 /* CTA */
 .mod-card__btn {
@@ -291,7 +303,9 @@ const modalidades = [
   font-weight: 700;
   padding: 0.85rem 1.75rem;
   border-radius: 8px;
-  transition: filter 0.2s, transform 0.2s;
+  transition:
+    filter 0.2s,
+    transform 0.2s;
   align-self: flex-start;
 }
 .mod-card__btn:hover {
@@ -301,6 +315,8 @@ const modalidades = [
 
 /* Responsive */
 @media (max-width: 860px) {
-  .oferta-grid { grid-template-columns: 1fr; }
+  .oferta-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

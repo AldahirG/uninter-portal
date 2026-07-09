@@ -2,17 +2,28 @@
 import { Lightbulb, Cpu, Trophy, Quote } from "lucide-vue-next";
 
 const mdctPilares = [
-  { titulo: "Pensamiento crítico", desc: "Desarrolla capacidad de análisis y resolución de problemas reales." },
-  { titulo: "Comunicación digital", desc: "Domina herramientas tecnológicas de comunicación global." },
-  { titulo: "Colaboración virtual", desc: "Trabaja en equipos multiculturales en entornos digitales." },
-  { titulo: "Ciudadanía digital", desc: "Comprende el uso ético y responsable de la tecnología." },
+  {
+    titulo: "Pensamiento crítico",
+    desc: "Desarrolla capacidad de análisis y resolución de problemas reales.",
+  },
+  {
+    titulo: "Comunicación digital",
+    desc: "Domina herramientas tecnológicas de comunicación global.",
+  },
+  {
+    titulo: "Colaboración virtual",
+    desc: "Trabaja en equipos multiculturales en entornos digitales.",
+  },
+  {
+    titulo: "Ciudadanía digital",
+    desc: "Comprende el uso ético y responsable de la tecnología.",
+  },
 ];
 </script>
 
 <template>
   <section class="vida-section">
     <div class="biu-container">
-
       <!-- Encabezado de sección -->
       <div class="vida-header">
         <div class="biu-eyebrow">
@@ -34,8 +45,8 @@ const mdctPilares = [
             culturales, deportivas y de servicio a la comunidad.
           </p>
           <p class="vida-p">
-            Convivirás con estudiantes nacionales y extranjeros, participarás
-            en viajes, congresos, actividades altruistas y equipos deportivos,
+            Convivirás con estudiantes nacionales y extranjeros, participarás en
+            viajes, congresos, actividades altruistas y equipos deportivos,
             construyendo una red de contactos global desde el bachillerato.
           </p>
 
@@ -51,7 +62,7 @@ const mdctPilares = [
 
         <div class="vida-main__img">
           <img
-            src="/images/hero/licenciaturas.jpg"
+            src="/images/bachillerato/10.jpg"
             alt="Vida académica BIU"
             class="vida-img"
           />
@@ -69,7 +80,9 @@ const mdctPilares = [
             <Cpu :size="24" />
           </div>
           <div>
-            <h3 class="mdct-title">Marco de Desarrollo de Competencias Tecnológicas</h3>
+            <h3 class="mdct-title">
+              Marco de Desarrollo de Competencias Tecnológicas
+            </h3>
             <p class="mdct-abbr">MDCT</p>
           </div>
         </div>
@@ -104,7 +117,11 @@ const mdctPilares = [
             acumulado se traduce en beneficios reales: becas, certificaciones
             adicionales y reconocimientos oficiales que enriquecen tu perfil.
           </p>
-          <a href="https://biu.uninter.edu.mx/" target="_blank" class="logro-link">
+          <a
+            href="https://biu.uninter.edu.mx/"
+            target="_blank"
+            class="logro-link"
+          >
             Conoce el sistema →
           </a>
         </div>
@@ -125,7 +142,6 @@ const mdctPilares = [
           </div>
         </div>
       </div>
-
     </div>
   </section>
 </template>
@@ -143,7 +159,9 @@ const mdctPilares = [
 }
 
 /* Header */
-.vida-header { margin-bottom: 3rem; }
+.vida-header {
+  margin-bottom: 3rem;
+}
 
 .biu-eyebrow {
   display: flex;
@@ -153,14 +171,14 @@ const mdctPilares = [
   font-weight: 800;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #6BAF04;
+  color: #6baf04;
   margin-bottom: 1rem;
 }
 .eyebrow-line {
   display: block;
   width: 24px;
   height: 2px;
-  background: #6BAF04;
+  background: #6baf04;
   flex-shrink: 0;
 }
 
@@ -173,7 +191,10 @@ const mdctPilares = [
   letter-spacing: -0.02em;
   margin: 0;
 }
-.vida-title em { font-style: italic; color: #6BAF04; }
+.vida-title em {
+  font-style: italic;
+  color: #6baf04;
+}
 
 /* Layout main */
 .vida-main {
@@ -194,17 +215,20 @@ const mdctPilares = [
 /* Quote */
 .vida-quote {
   background: #f1f8f0;
-  border-left: 4px solid #6BAF04;
+  border-left: 4px solid #6baf04;
   border-radius: 0 12px 12px 0;
   padding: 1.5rem 1.5rem 1.5rem 1.25rem;
   margin: 1.75rem 0 0;
 }
-.vida-quote__icon { color: #6BAF04; margin-bottom: 0.75rem; }
+.vida-quote__icon {
+  color: #6baf04;
+  margin-bottom: 0.75rem;
+}
 .vida-quote__text {
   font-family: var(--font-serif, Georgia, serif);
   font-size: 1.05rem;
   font-style: italic;
-  color: #4A7A02;
+  color: #4a7a02;
   font-weight: 600;
   margin: 0 0 0.5rem;
   line-height: 1.5;
@@ -219,7 +243,9 @@ const mdctPilares = [
 }
 
 /* Imagen */
-.vida-main__img { position: relative; }
+.vida-main__img {
+  position: relative;
+}
 .vida-img {
   width: 100%;
   aspect-ratio: 4/3;
@@ -232,7 +258,7 @@ const mdctPilares = [
   position: absolute;
   bottom: 1rem;
   left: 1rem;
-  background: #4A7A02;
+  background: #4a7a02;
   color: #fff;
   display: flex;
   align-items: center;
@@ -241,7 +267,7 @@ const mdctPilares = [
   font-weight: 700;
   padding: 0.4rem 0.875rem;
   border-radius: 20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 /* MDCT Block */
@@ -262,8 +288,8 @@ const mdctPilares = [
   width: 48px;
   height: 48px;
   border-radius: 12px;
-  background: rgba(168,216,110,0.15);
-  color: #A8D86E;
+  background: rgba(168, 216, 110, 0.15);
+  color: #a8d86e;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -281,14 +307,14 @@ const mdctPilares = [
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.12em;
-  color: #A8D86E;
+  color: #a8d86e;
   margin: 0;
   text-transform: uppercase;
 }
 
 .mdct-desc {
   font-size: 0.9rem;
-  color: rgba(255,255,255,0.65);
+  color: rgba(255, 255, 255, 0.65);
   line-height: 1.7;
   margin: 0 0 2rem;
   max-width: 680px;
@@ -300,8 +326,8 @@ const mdctPilares = [
   gap: 1rem;
 }
 .mdct-card {
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 12px;
   padding: 1.25rem;
   display: flex;
@@ -309,8 +335,14 @@ const mdctPilares = [
   align-items: flex-start;
   transition: background 0.2s;
 }
-.mdct-card:hover { background: rgba(255,255,255,0.1); }
-.mdct-card__icon { color: #A8D86E; flex-shrink: 0; margin-top: 2px; }
+.mdct-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.mdct-card__icon {
+  color: #a8d86e;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
 .mdct-card__title {
   font-size: 0.82rem;
   font-weight: 700;
@@ -319,7 +351,7 @@ const mdctPilares = [
 }
 .mdct-card__desc {
   font-size: 0.75rem;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255, 255, 255, 0.5);
   line-height: 1.5;
   margin: 0;
 }
@@ -339,7 +371,7 @@ const mdctPilares = [
   font-family: var(--font-serif, Georgia, serif);
   font-size: 2rem;
   font-weight: 800;
-  color: #4A7A02;
+  color: #4a7a02;
   margin: 0 0 1rem;
 }
 .logro-desc {
@@ -352,11 +384,14 @@ const mdctPilares = [
 .logro-link {
   font-size: 0.88rem;
   font-weight: 700;
-  color: #6BAF04;
+  color: #6baf04;
   text-decoration: none;
   transition: color 0.2s;
 }
-.logro-link:hover { color: #4A7A02; text-decoration: underline; }
+.logro-link:hover {
+  color: #4a7a02;
+  text-decoration: underline;
+}
 
 /* Círculos decorativos */
 .logro-circles {
@@ -373,8 +408,8 @@ const mdctPilares = [
   justify-content: center;
   border-radius: 50%;
   background: #fff;
-  border: 3px solid #6BAF04;
-  box-shadow: 0 8px 24px rgba(107,175,4,0.15);
+  border: 3px solid #6baf04;
+  box-shadow: 0 8px 24px rgba(107, 175, 4, 0.15);
 }
 .logro-circle--lg {
   width: 110px;
@@ -389,22 +424,52 @@ const mdctPilares = [
   height: 68px;
   z-index: 1;
 }
-.logro-circle--sm:first-of-type { top: 0; right: 0; }
-.logro-circle--offset { bottom: 0; left: 0; }
-.logro-circle__val { font-size: 1.5rem; font-weight: 900; color: #4A7A02; line-height: 1; }
-.logro-circle__lbl { font-size: 0.55rem; font-weight: 700; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em; }
+.logro-circle--sm:first-of-type {
+  top: 0;
+  right: 0;
+}
+.logro-circle--offset {
+  bottom: 0;
+  left: 0;
+}
+.logro-circle__val {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #4a7a02;
+  line-height: 1;
+}
+.logro-circle__lbl {
+  font-size: 0.55rem;
+  font-weight: 700;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
 
 /* Responsive */
 @media (max-width: 1024px) {
-  .mdct-grid { grid-template-columns: repeat(2, 1fr); }
+  .mdct-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media (max-width: 860px) {
-  .vida-main { grid-template-columns: 1fr; gap: 2.5rem; }
-  .logro-block { grid-template-columns: 1fr; }
-  .logro-circles { display: none; }
+  .vida-main {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .logro-block {
+    grid-template-columns: 1fr;
+  }
+  .logro-circles {
+    display: none;
+  }
 }
 @media (max-width: 640px) {
-  .mdct-block { padding: 1.75rem 1.25rem; }
-  .mdct-grid { grid-template-columns: 1fr; }
+  .mdct-block {
+    padding: 1.75rem 1.25rem;
+  }
+  .mdct-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

@@ -1,0 +1,268 @@
+{
+  "categories": [
+    {
+      "label": "Todas las materias",
+      "value": "all"
+    },
+    {
+      "label": "🔬 Ciencias Ambientales",
+      "value": "ciencias"
+    },
+    {
+      "label": "💧 Tratamiento",
+      "value": "tratamiento"
+    },
+    {
+      "label": "🌿 Gestión y Normativa",
+      "value": "gestion"
+    },
+    {
+      "label": "🌐 Formación General",
+      "value": "general"
+    }
+  ],
+  "syllabus": [
+    {
+      "id": "sem-1-2",
+      "tabLabel": "Semestres 1 y 2",
+      "blocks": [
+        {
+          "title": "Primer Semestre",
+          "subjects": [
+            {
+              "name": "Cálculo Diferencial",
+              "tag": "general"
+            },
+            {
+              "name": "Química Inorgánica",
+              "tag": "ciencias"
+            },
+            {
+              "name": "Ecología General y Biodiversidad",
+              "tag": "ciencias"
+            },
+            {
+              "name": "Física Mecánica",
+              "tag": "general"
+            },
+            {
+              "name": "Dibujo e Interpretación de Planos",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera I",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Segundo Semestre",
+          "subjects": [
+            {
+              "name": "Cálculo Integral",
+              "tag": "general"
+            },
+            {
+              "name": "Química Orgánica",
+              "tag": "ciencias"
+            },
+            {
+              "name": "Geología y Edafología",
+              "tag": "ciencias"
+            },
+            {
+              "name": "Termodinámica Básica",
+              "tag": "general"
+            },
+            {
+              "name": "Sistemas de Información Geográfica (SIG)",
+              "tag": "gestion"
+            },
+            {
+              "name": "Lengua Extranjera II",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-3-4",
+      "tabLabel": "Semestres 3 y 4",
+      "blocks": [
+        {
+          "title": "Tercer Semestre",
+          "subjects": [
+            {
+              "name": "Ecuaciones Diferenciales",
+              "tag": "general"
+            },
+            {
+              "name": "Química Ambiental y de Suelos",
+              "tag": "ciencias"
+            },
+            {
+              "name": "Mecánica de Fluidos",
+              "tag": "general"
+            },
+            {
+              "name": "Microbiología Ambiental",
+              "tag": "ciencias"
+            },
+            {
+              "name": "Lengua Extranjera III",
+              "tag": "general"
+            },
+            {
+              "name": "Probabilidad y Estadística",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Cuarto Semestre",
+          "subjects": [
+            {
+              "name": "Química del Agua residual",
+              "tag": "ciencias"
+            },
+            {
+              "name": "Fenómenos de Transporte",
+              "tag": "general"
+            },
+            {
+              "name": "Legislación y Normativa Ambiental",
+              "tag": "gestion"
+            },
+            {
+              "name": "Meteorología y Climatología",
+              "tag": "ciencias"
+            },
+            {
+              "name": "Lengua Extranjera IV",
+              "tag": "general"
+            },
+            {
+              "name": "Métodos Numéricos",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-5-6",
+      "tabLabel": "Semestres 5 y 6",
+      "blocks": [
+        {
+          "title": "Quinto Semestre",
+          "subjects": [
+            {
+              "name": "Diseño de Operaciones Unitarias Ambientales",
+              "tag": "tratamiento"
+            },
+            {
+              "name": "Evaluación del Impacto Ambiental (MIA)",
+              "tag": "gestion"
+            },
+            {
+              "name": "Sistemas de Abastecimiento de Agua Potable",
+              "tag": "tratamiento"
+            },
+            {
+              "name": "Manejo Integral de Residuos Sólidos Urbanos",
+              "tag": "gestion"
+            },
+            {
+              "name": "Optativa I",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Sexto Semestre",
+          "subjects": [
+            {
+              "name": "Diseño de Plantas de Tratamiento de Agua Residual",
+              "tag": "tratamiento"
+            },
+            {
+              "name": "Contaminación y Control de Emisiones en el Aire",
+              "tag": "tratamiento"
+            },
+            {
+              "name": "Remediación y Restauración de Suelos",
+              "tag": "tratamiento"
+            },
+            {
+              "name": "Toxicología Ambiental e Higiene Industrial",
+              "tag": "ciencias"
+            },
+            {
+              "name": "Optativa II",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-7-8",
+      "tabLabel": "Semestres 7 y 8",
+      "blocks": [
+        {
+          "title": "Séptimo Semestre",
+          "subjects": [
+            {
+              "name": "Seminario de Titulación I",
+              "tag": "general"
+            },
+            {
+              "name": "Sistemas de Gestión Ambiental e ISO 14001",
+              "tag": "gestion"
+            },
+            {
+              "name": "Auditorías Ambientales Industriales",
+              "tag": "gestion"
+            },
+            {
+              "name": "Formulación de Proyectos de Inversión Sustentables",
+              "tag": "gestion"
+            },
+            {
+              "name": "Prácticas Profesionales I",
+              "tag": "tratamiento"
+            }
+          ]
+        },
+        {
+          "title": "Octavo Semestre",
+          "subjects": [
+            {
+              "name": "Seminario de Titulación II",
+              "tag": "general"
+            },
+            {
+              "name": "Energías Renovables y Ecoeficiencia",
+              "tag": "tratamiento"
+            },
+            {
+              "name": "Modelación Matemática del Impacto Ambiental",
+              "tag": "gestion"
+            },
+            {
+              "name": "Prácticas Profesionales II",
+              "tag": "tratamiento"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "optativas": [
+    "Energías Renovables y Transición Energética",
+    "Evaluación de Impacto Ambiental Avanzada",
+    "Tratamiento de Aguas Residuales Industriales",
+    "Gestión de Residuos Peligrosos y Economía Circular"
+  ]
+}

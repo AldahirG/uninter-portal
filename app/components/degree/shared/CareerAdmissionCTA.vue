@@ -10,6 +10,14 @@ import {
   GraduationCap,
 } from "lucide-vue-next";
 
+// Redes sociales de la universidad (movidas al final de la calculadora)
+const socials = [
+  { icon: "mdi:facebook",  href: "https://www.facebook.com/uninteredu",            label: "Facebook"  },
+  { icon: "mdi:instagram", href: "https://www.instagram.com/uninter_cuerna",        label: "Instagram" },
+  { icon: "mdi:youtube",   href: "https://www.youtube.com/user/UniversidadUninter", label: "YouTube"   },
+  { icon: "mdi:linkedin",  href: "https://www.linkedin.com/school/universidad-uninter/",  label: "LinkedIn"  },
+];
+
 // ==========================================
 // ESTADO Y NAVEGACIÓN DEL WIZARD
 // ==========================================
@@ -486,6 +494,16 @@ const formatCurrency = (value: number) => {
           </div>
         </div>
       </div>
+
+      <!-- REDES SOCIALES AL FINAL DE LA CALCULADORA -->
+      <div class="admission-socials">
+        <p class="socials-title">Únete a la Comunidad UNINTER</p>
+        <div class="socials-icons">
+          <a v-for="s in socials" :key="s.icon" :href="s.href" target="_blank" class="soc-link" :aria-label="s.label">
+            <Icon :name="s.icon" size="22" />
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -619,11 +637,11 @@ const formatCurrency = (value: number) => {
 ========================================================= */
 .cta-form-side {
   width: 100%;
-  background: rgba(255, 255, 255, 0.05);
-  padding: 2.5rem;
+  background: #ffffff;
+  padding: 3rem 2.5rem;
   border-radius: 24px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
+  border: 1px solid rgba(15, 60, 97, 0.08);
+  box-shadow: 0 20px 45px rgba(15, 60, 97, 0.12);
 }
 
 /* Indicador de pasos */
@@ -638,7 +656,7 @@ const formatCurrency = (value: number) => {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.1);
+  background: #f1f5f9;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -646,16 +664,18 @@ const formatCurrency = (value: number) => {
   font-size: 0.85rem;
   color: #64748b;
   transition: all 0.4s;
+  border: 1px solid #e2e8f0;
 }
 .step.active {
   background: #d84315;
   color: #fff;
-  box-shadow: 0 0 15px rgba(216, 67, 21, 0.5);
+  border-color: #d84315;
+  box-shadow: 0 0 12px rgba(216, 67, 21, 0.35);
 }
 .step-line {
   height: 2px;
   flex: 1;
-  background: rgba(255, 255, 255, 0.1);
+  background: #e2e8f0;
   transition: all 0.4s;
 }
 .step-line.active {
@@ -672,9 +692,9 @@ const formatCurrency = (value: number) => {
 }
 .step-title {
   font-size: 1.3rem;
-  font-weight: 700;
+  font-weight: 800;
   margin: 0 0 1.5rem 0;
-  color: #fff;
+  color: #0f3c61;
   text-align: center;
 }
 .sleek-form {
@@ -691,9 +711,9 @@ const formatCurrency = (value: number) => {
   text-align: left;
 }
 .field-label {
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: #fde68a;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: #475569;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -709,26 +729,25 @@ const formatCurrency = (value: number) => {
 .input-group {
   display: flex;
   align-items: stretch;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 14px;
+  background: #ffffff;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
   overflow: hidden;
   transition: all 0.3s;
 }
 .input-group:focus-within {
-  border-color: #ff7a59;
-  box-shadow: 0 0 0 3px rgba(216, 67, 21, 0.2);
-  background: rgba(255, 255, 255, 0.12);
+  border-color: #1565c0;
+  box-shadow: 0 0 0 3px rgba(21, 101, 192, 0.15);
 }
 .phone-prefix {
   display: flex;
   align-items: center;
   padding: 0 1rem;
-  background: rgba(0, 0, 0, 0.2);
-  color: #94a3b8;
+  background: #f1f5f9;
+  color: #475569;
   font-weight: 600;
   font-size: 0.95rem;
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1.5px solid #cbd5e1;
 }
 .phone-input {
   border: none !important;
@@ -741,29 +760,28 @@ const formatCurrency = (value: number) => {
 
 .glass-input {
   width: 100%;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  padding: 1rem 1.25rem;
-  border-radius: 14px;
-  color: #ffffff;
-  font-size: 0.95rem;
+  background: #ffffff;
+  border: 1.5px solid #cbd5e1;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  color: #1e293b;
+  font-size: 0.92rem;
   font-weight: 500;
   transition: all 0.3s;
   box-sizing: border-box;
 }
 .glass-input:focus {
   outline: none;
-  background: rgba(255, 255, 255, 0.12);
-  border-color: #ff7a59;
-  box-shadow: 0 0 0 3px rgba(216, 67, 21, 0.2);
+  border-color: #1565c0;
+  box-shadow: 0 0 0 3px rgba(21, 101, 192, 0.15);
 }
 .glass-input::placeholder {
   color: #94a3b8;
 }
 .glass-input option {
-  background: #0f3c61;
-  color: #fff;
-} /* Para selects */
+  background: #ffffff;
+  color: #1e293b;
+}
 
 /* Radio Modernos */
 .radio-group-modern {
@@ -777,51 +795,50 @@ const formatCurrency = (value: number) => {
   justify-content: center;
   gap: 8px;
   padding: 0.8rem;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 12px;
+  background: #f8fafc;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #cbd5e1;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #475569;
 }
 .radio-label input {
   display: none;
 }
 .radio-label.selected {
-  background: rgba(21, 101, 192, 0.4);
-  border-color: #3b82f6;
-  color: #fff;
-  box-shadow: inset 0 0 0 1px #3b82f6;
+  background: rgba(21, 101, 192, 0.08);
+  border-color: #1565c0;
+  color: #1565c0;
 }
 
 /* Slider de Promedio */
 .slider-container {
-  background: rgba(0, 0, 0, 0.2);
+  background: #f8fafc;
   padding: 1.25rem;
-  border-radius: 14px;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
 }
 .slider-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #cbd5e1;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #475569;
 }
 .slider-value {
   font-size: 1.4rem;
   font-weight: 800;
-  color: #fde68a;
+  color: #1565c0;
 }
 .styled-slider {
   width: 100%;
   -webkit-appearance: none;
   height: 6px;
-  background: rgba(255, 255, 255, 0.2);
+  background: #cbd5e1;
   border-radius: 5px;
   outline: none;
 }
@@ -831,10 +848,10 @@ const formatCurrency = (value: number) => {
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  background: #d84315;
+  background: #1565c0;
   cursor: pointer;
   transition: transform 0.2s;
-  box-shadow: 0 0 10px rgba(216, 67, 21, 0.6);
+  box-shadow: 0 0 10px rgba(21, 101, 192, 0.4);
 }
 .styled-slider::-webkit-slider-thumb:hover {
   transform: scale(1.2);
@@ -844,7 +861,7 @@ const formatCurrency = (value: number) => {
   justify-content: space-between;
   margin-top: 0.5rem;
   font-size: 0.75rem;
-  color: #64748b;
+  color: #94a3b8;
   font-weight: 700;
 }
 
@@ -855,18 +872,18 @@ const formatCurrency = (value: number) => {
   margin-top: 0.5rem;
 }
 .btn-back {
-  padding: 1rem 1.5rem;
+  padding: 0.8rem 1.5rem;
   background: transparent;
-  color: #cbd5e1;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 12px;
+  color: #475569;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 700;
   transition: all 0.3s;
 }
 .btn-back:hover {
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  background: #f1f5f9;
+  color: #0f3c61;
 }
 
 .btn-cta-submit {
@@ -876,28 +893,28 @@ const formatCurrency = (value: number) => {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background-color: #d84315;
+  background-color: #1565c0;
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 0.92rem;
   font-weight: 700;
-  padding: 1rem;
-  border-radius: 12px;
+  padding: 0.85rem;
+  border-radius: 8px;
   border: none;
   cursor: pointer;
-  box-shadow: 0 10px 25px rgba(216, 67, 21, 0.35);
+  box-shadow: 0 8px 20px rgba(21, 101, 192, 0.25);
   transition: all 0.3s;
   overflow: hidden;
 }
 .btn-cta-submit:disabled {
-  background-color: #475569;
+  background-color: #94a3b8;
   box-shadow: none;
   cursor: not-allowed;
   opacity: 0.7;
 }
 .btn-cta-submit:not(:disabled):hover {
-  background-color: #e64a19;
+  background-color: #0f3c61;
   transform: translateY(-2px);
-  box-shadow: 0 15px 30px rgba(216, 67, 21, 0.5);
+  box-shadow: 0 12px 25px rgba(15, 60, 97, 0.45);
 }
 .btn-cta-submit .submit-arrow {
   transition: transform 0.3s;
@@ -914,47 +931,48 @@ const formatCurrency = (value: number) => {
 }
 .results-badge {
   display: inline-block;
-  background: rgba(16, 185, 129, 0.15);
+  background: rgba(16, 185, 129, 0.1);
   color: #10b981;
   padding: 0.4rem 1rem;
   border-radius: 50px;
   font-size: 0.85rem;
   font-weight: 800;
   text-transform: uppercase;
-  border: 1px solid rgba(16, 185, 129, 0.3);
+  border: 1px solid rgba(16, 185, 129, 0.2);
   margin-bottom: 1rem;
 }
 .results-title {
   font-size: 1.4rem;
   font-weight: 800;
   margin: 0 0 2rem 0;
+  color: #0f3c61;
 }
 
 .results-card {
-  background: rgba(0, 0, 0, 0.25);
+  background: #f8fafc;
   border-radius: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid #e2e8f0;
   text-align: left;
   margin-bottom: 2rem;
   overflow: hidden;
 }
 .rc-header {
-  background: rgba(255, 255, 255, 0.05);
+  background: #f1f5f9;
   padding: 1rem 1.5rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid #e2e8f0;
   display: flex;
   flex-direction: column;
 }
 .rc-header span {
   font-size: 0.8rem;
-  color: #94a3b8;
+  color: #64748b;
   text-transform: uppercase;
   font-weight: 800;
   letter-spacing: 0.05em;
 }
 .rc-header strong {
   font-size: 1.1rem;
-  color: #fff;
+  color: #0f3c61;
 }
 
 .rc-body {
@@ -968,15 +986,15 @@ const formatCurrency = (value: number) => {
   justify-content: space-between;
   align-items: center;
   font-size: 0.95rem;
-  color: #cbd5e1;
+  color: #475569;
 }
 .strikethrough {
   text-decoration: line-through;
-  color: #64748b;
+  color: #94a3b8;
   font-weight: 600;
 }
 .highlight-row span {
-  color: #fde68a;
+  color: #d84315;
   font-weight: 600;
 }
 .discount-badge {
@@ -988,12 +1006,12 @@ const formatCurrency = (value: number) => {
 }
 .rc-divider {
   height: 1px;
-  background: rgba(255, 255, 255, 0.1);
+  background: #e2e8f0;
   margin: 0.5rem 0;
 }
 .final-row {
   font-size: 1.1rem;
-  color: #fff;
+  color: #0f3c61;
   font-weight: 700;
   align-items: flex-end;
 }
@@ -1029,16 +1047,16 @@ const formatCurrency = (value: number) => {
 
 .upsell-text {
   font-size: 0.85rem;
-  color: #94a3b8;
+  color: #64748b;
   line-height: 1.5;
 }
 .upsell-text a {
-  color: #3b82f6;
+  color: #1565c0;
   text-decoration: underline;
   transition: color 0.3s;
 }
 .upsell-text a:hover {
-  color: #60a5fa;
+  color: #0f3c61;
 }
 
 /* Transiciones de Vue */
@@ -1083,5 +1101,53 @@ const formatCurrency = (value: number) => {
     flex-direction: column;
     gap: 1.25rem;
   }
+}
+
+/* =========================================================
+   REDES SOCIALES ESTILO DIPLOMADOS AL FINAL
+========================================================= */
+.admission-socials {
+  margin-top: 4rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+.socials-title {
+  font-size: 0.85rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #64748b;
+  margin: 0;
+}
+.socials-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+}
+.soc-link {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  color: #64748b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(15, 60, 97, 0.04);
+  transition: background 0.3s,
+              color 0.3s,
+              border-color 0.3s,
+              transform 0.2s;
+}
+.soc-link:hover {
+  background: #1565c0;
+  border-color: #1565c0;
+  color: #ffffff;
+  transform: scale(1.1);
 }
 </style>

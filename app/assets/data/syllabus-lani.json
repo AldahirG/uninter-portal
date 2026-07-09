@@ -1,0 +1,268 @@
+{
+  "categories": [
+    {
+      "label": "Todas las materias",
+      "value": "all"
+    },
+    {
+      "label": "💼 Negocios y Finanzas",
+      "value": "negocios"
+    },
+    {
+      "label": "🚢 Logística y Comercio",
+      "value": "logistica"
+    },
+    {
+      "label": "🌍 Estrategia Global",
+      "value": "estrategia"
+    },
+    {
+      "label": "🌐 Formación General",
+      "value": "general"
+    }
+  ],
+  "syllabus": [
+    {
+      "id": "sem-1-2",
+      "tabLabel": "Semestres 1 y 2",
+      "blocks": [
+        {
+          "title": "Primer Semestre",
+          "subjects": [
+            {
+              "name": "Introducción a los Negocios Globales",
+              "tag": "estrategia"
+            },
+            {
+              "name": "Fundamentos de Administración",
+              "tag": "general"
+            },
+            {
+              "name": "Contabilidad Financiera",
+              "tag": "negocios"
+            },
+            {
+              "name": "Microeconomía",
+              "tag": "negocios"
+            },
+            {
+              "name": "Matemáticas para Negocios",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera I",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Segundo Semestre",
+          "subjects": [
+            {
+              "name": "Estructura del Comercio Mundial",
+              "tag": "logistica"
+            },
+            {
+              "name": "Contabilidad de Costos",
+              "tag": "negocios"
+            },
+            {
+              "name": "Macroeconomía",
+              "tag": "negocios"
+            },
+            {
+              "name": "Derecho Corporativo Internacional",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera II",
+              "tag": "general"
+            },
+            {
+              "name": "Estadística para Negocios",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-3-4",
+      "tabLabel": "Semestres 3 y 4",
+      "blocks": [
+        {
+          "title": "Tercer Semestre",
+          "subjects": [
+            {
+              "name": "Administración de Compras e Incoterms",
+              "tag": "logistica"
+            },
+            {
+              "name": "Finanzas Corporativas Internacionales",
+              "tag": "negocios"
+            },
+            {
+              "name": "Mercadotecnia Internacional",
+              "tag": "estrategia"
+            },
+            {
+              "name": "Comportamiento y Adaptabilidad Intercultural",
+              "tag": "estrategia"
+            },
+            {
+              "name": "Lengua Extranjera III",
+              "tag": "general"
+            },
+            {
+              "name": "Estadística Inferencial",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Cuarto Semestre",
+          "subjects": [
+            {
+              "name": "Operación Aduanera y Regulación",
+              "tag": "logistica"
+            },
+            {
+              "name": "Administración Financiera de Divisas",
+              "tag": "negocios"
+            },
+            {
+              "name": "Logística y Canales de Distribución Global",
+              "tag": "logistica"
+            },
+            {
+              "name": "Derecho Laboral y Tratados Comerciales",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera IV",
+              "tag": "general"
+            },
+            {
+              "name": "Sistemas de Información Gerencial",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-5-6",
+      "tabLabel": "Semestres 5 y 6",
+      "blocks": [
+        {
+          "title": "Quinto Semestre",
+          "subjects": [
+            {
+              "name": "Estrategias de Internacionalización de Empresas",
+              "tag": "estrategia"
+            },
+            {
+              "name": "Tráfico y Logística del Transporte Multimodal",
+              "tag": "logistica"
+            },
+            {
+              "name": "Financiamiento del Comercio Exterior",
+              "tag": "negocios"
+            },
+            {
+              "name": "Planeación Estratégica Internacional",
+              "tag": "estrategia"
+            },
+            {
+              "name": "Optativa I",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Sexto Semestre",
+          "subjects": [
+            {
+              "name": "Fusiones, Adquisiciones y Alianzas Globales",
+              "tag": "estrategia"
+            },
+            {
+              "name": "Gestión de la Cadena de Suministro (Supply Chain)",
+              "tag": "logistica"
+            },
+            {
+              "name": "Negociación Comercial Intercultural",
+              "tag": "estrategia"
+            },
+            {
+              "name": "Formulación y Evaluación de Proyectos de Inversión",
+              "tag": "negocios"
+            },
+            {
+              "name": "Optativa II",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-7-8",
+      "tabLabel": "Semestres 7 y 8",
+      "blocks": [
+        {
+          "title": "Séptimo Semestre",
+          "subjects": [
+            {
+              "name": "Seminario de Titulación I",
+              "tag": "general"
+            },
+            {
+              "name": "Consultoría de Negocios Internacionales",
+              "tag": "estrategia"
+            },
+            {
+              "name": "Auditoría de Operaciones de Comercio Exterior",
+              "tag": "logistica"
+            },
+            {
+              "name": "Ética en los Negocios Globales",
+              "tag": "general"
+            },
+            {
+              "name": "Prácticas Profesionales I",
+              "tag": "estrategia"
+            }
+          ]
+        },
+        {
+          "title": "Octavo Semestre",
+          "subjects": [
+            {
+              "name": "Seminario de Titulación II",
+              "tag": "general"
+            },
+            {
+              "name": "Simulador de Negocios Globales",
+              "tag": "negocios"
+            },
+            {
+              "name": "Liderazgo y Emprendimiento Global",
+              "tag": "estrategia"
+            },
+            {
+              "name": "Prácticas Profesionales II",
+              "tag": "estrategia"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "optativas": [
+    "Logística Internacional y Canales de Distribución",
+    "Negociación Internacional y Tratados Comerciales",
+    "Derecho Aduanero y Operación de Carga",
+    "Finanzas Internacionales y Cobertura de Riesgos"
+  ]
+}

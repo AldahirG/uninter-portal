@@ -1,10 +1,25 @@
 {
   "categories": [
-    { "label": "Todas las materias", "value": "all" },
-    { "label": "📐 Modelado CAD y Concepto", "value": "diseno" },
-    { "label": "🔧 Procesos y Materiales", "value": "procesos" },
-    { "label": "⚡ Fabricación y Prototipos", "value": "prototipos" },
-    { "label": "🌐 Formación General", "value": "general" }
+    {
+      "label": "Todas las materias",
+      "value": "all"
+    },
+    {
+      "label": "📐 Modelado CAD y Concepto",
+      "value": "diseno"
+    },
+    {
+      "label": "🔧 Procesos y Materiales",
+      "value": "procesos"
+    },
+    {
+      "label": "⚡ Fabricación y Prototipos",
+      "value": "prototipos"
+    },
+    {
+      "label": "🌐 Formación General",
+      "value": "general"
+    }
   ],
   "syllabus": [
     {
@@ -14,23 +29,59 @@
         {
           "title": "Primer Semestre",
           "subjects": [
-            { "name": "Introducción al Diseño Industrial", "tag": "diseno" },
-            { "name": "Geometría Descriptiva y Dibujo Técnico", "tag": "general" },
-            { "name": "Fundamentos de Forma y Color", "tag": "diseno" },
-            { "name": "Historia del Diseño Industrial", "tag": "general" },
-            { "name": "Taller de Expresión y Bocetaje (Sketching)", "tag": "diseno" },
-            { "name": "Lengua Extranjera I", "tag": "general" }
+            {
+              "name": "Introducción al Diseño Industrial",
+              "tag": "diseno"
+            },
+            {
+              "name": "Geometría Descriptiva y Dibujo Técnico",
+              "tag": "general"
+            },
+            {
+              "name": "Fundamentos de Forma y Color",
+              "tag": "diseno"
+            },
+            {
+              "name": "Historia del Diseño Industrial",
+              "tag": "general"
+            },
+            {
+              "name": "Taller de Expresión y Bocetaje (Sketching)",
+              "tag": "diseno"
+            },
+            {
+              "name": "Lengua Extranjera I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Segundo Semestre",
           "subjects": [
-            { "name": "Metodología del Diseño de Productos", "tag": "diseno" },
-            { "name": "Modelado CAD Básico (Rhinoceros)", "tag": "diseno" },
-            { "name": "Taller de Modelos y Prototipos de Espuma", "tag": "prototipos" },
-            { "name": "Propiedades de los Materiales I (Maderas)", "tag": "procesos" },
-            { "name": "Ergonomía Física e Interacción", "tag": "general" },
-            { "name": "Lengua Extranjera II", "tag": "general" }
+            {
+              "name": "Metodología del Diseño de Productos",
+              "tag": "diseno"
+            },
+            {
+              "name": "Modelado CAD Básico (Rhinoceros)",
+              "tag": "diseno"
+            },
+            {
+              "name": "Taller de Modelos y Prototipos de Espuma",
+              "tag": "prototipos"
+            },
+            {
+              "name": "Propiedades de los Materiales I (Maderas)",
+              "tag": "procesos"
+            },
+            {
+              "name": "Ergonomía Física e Interacción",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera II",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -42,23 +93,59 @@
         {
           "title": "Tercer Semestre",
           "subjects": [
-            { "name": "Diseño de Producto I (Electrodomésticos)", "tag": "diseno" },
-            { "name": "Modelado CAD Avanzado (SolidWorks)", "tag": "diseno" },
-            { "name": "Propiedades de los Materiales II (Plásticos)", "tag": "procesos" },
-            { "name": "Taller de Maquinado de Metales y Plásticos", "tag": "prototipos" },
-            { "name": "Procesos Industriales de Manufactura I", "tag": "procesos" },
-            { "name": "Lengua Extranjera III", "tag": "general" }
+            {
+              "name": "Diseño de Producto I (Electrodomésticos)",
+              "tag": "diseno"
+            },
+            {
+              "name": "Modelado CAD Avanzado (SolidWorks)",
+              "tag": "diseno"
+            },
+            {
+              "name": "Propiedades de los Materiales II (Plásticos)",
+              "tag": "procesos"
+            },
+            {
+              "name": "Taller de Maquinado de Metales y Plásticos",
+              "tag": "prototipos"
+            },
+            {
+              "name": "Procesos Industriales de Manufactura I",
+              "tag": "procesos"
+            },
+            {
+              "name": "Lengua Extranjera III",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Cuarto Semestre",
           "subjects": [
-            { "name": "Diseño de Producto II (Mobiliario)", "tag": "diseno" },
-            { "name": "Procesos Industriales de Manufactura II", "tag": "procesos" },
-            { "name": "Taller de Moldes y Resinas", "tag": "prototipos" },
-            { "name": "CAD/CAM y Simulación CNC", "tag": "prototipos" },
-            { "name": "Diseño de Envase y Embalaje", "tag": "diseno" },
-            { "name": "Lengua Extranjera IV", "tag": "general" }
+            {
+              "name": "Diseño de Producto II (Mobiliario)",
+              "tag": "diseno"
+            },
+            {
+              "name": "Procesos Industriales de Manufactura II",
+              "tag": "procesos"
+            },
+            {
+              "name": "Taller de Moldes y Resinas",
+              "tag": "prototipos"
+            },
+            {
+              "name": "CAD/CAM y Simulación CNC",
+              "tag": "prototipos"
+            },
+            {
+              "name": "Diseño de Envase y Embalaje",
+              "tag": "diseno"
+            },
+            {
+              "name": "Lengua Extranjera IV",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -70,21 +157,51 @@
         {
           "title": "Quinto Semestre",
           "subjects": [
-            { "name": "Diseño de Producto III (Sustentable)", "tag": "diseno" },
-            { "name": "Sistemas de Empaque e Ingeniería", "tag": "procesos" },
-            { "name": "Taller de Fabricación Digital e Impresión 3D", "tag": "prototipos" },
-            { "name": "Costos y Presupuestos de Producción", "tag": "general" },
-            { "name": "Optativa I", "tag": "general" }
+            {
+              "name": "Diseño de Producto III (Sustentable)",
+              "tag": "diseno"
+            },
+            {
+              "name": "Sistemas de Empaque e Ingeniería",
+              "tag": "procesos"
+            },
+            {
+              "name": "Taller de Fabricación Digital e Impresión 3D",
+              "tag": "prototipos"
+            },
+            {
+              "name": "Costos y Presupuestos de Producción",
+              "tag": "general"
+            },
+            {
+              "name": "Optativa I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Sexto Semestre",
           "subjects": [
-            { "name": "Diseño de Sistemas y Servicios Complejos", "tag": "diseno" },
-            { "name": "Diseño de Exhibidores Comerciales (POP)", "tag": "diseno" },
-            { "name": "Portafolio y Fotografía de Producto", "tag": "general" },
-            { "name": "Metodología de la Investigación", "tag": "general" },
-            { "name": "Optativa II", "tag": "general" }
+            {
+              "name": "Diseño de Sistemas y Servicios Complejos",
+              "tag": "diseno"
+            },
+            {
+              "name": "Diseño de Exhibidores Comerciales (POP)",
+              "tag": "diseno"
+            },
+            {
+              "name": "Portafolio y Fotografía de Producto",
+              "tag": "general"
+            },
+            {
+              "name": "Metodología de la Investigación",
+              "tag": "general"
+            },
+            {
+              "name": "Optativa II",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -96,23 +213,56 @@
         {
           "title": "Séptimo Semestre",
           "subjects": [
-            { "name": "Seminario de Titulación I", "tag": "general" },
-            { "name": "Ecodiseño y Análisis del Ciclo de Vida", "tag": "diseno" },
-            { "name": "Gestión del Diseño y Patentes", "tag": "general" },
-            { "name": "Prácticas Profesionales en Manufactura", "tag": "prototipos" },
-            { "name": "Optativa III", "tag": "general" }
+            {
+              "name": "Seminario de Titulación I",
+              "tag": "general"
+            },
+            {
+              "name": "Ecodiseño y Análisis del Ciclo de Vida",
+              "tag": "diseno"
+            },
+            {
+              "name": "Gestión del Diseño y Patentes",
+              "tag": "general"
+            },
+            {
+              "name": "Prácticas Profesionales en Manufactura",
+              "tag": "prototipos"
+            },
+            {
+              "name": "Optativa III",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Octavo Semestre",
           "subjects": [
-            { "name": "Seminario de Titulación II", "tag": "general" },
-            { "name": "Emprendimiento de Prototipos de Negocio", "tag": "general" },
-            { "name": "Ética Profesional", "tag": "general" },
-            { "name": "Administración de Proyectos Industriales", "tag": "general" }
+            {
+              "name": "Seminario de Titulación II",
+              "tag": "general"
+            },
+            {
+              "name": "Emprendimiento de Prototipos de Negocio",
+              "tag": "general"
+            },
+            {
+              "name": "Ética Profesional",
+              "tag": "general"
+            },
+            {
+              "name": "Administración de Proyectos Industriales",
+              "tag": "general"
+            }
           ]
         }
       ]
     }
+  ],
+  "optativas": [
+    "Diseño de Mobiliario y Ergonomía Aplicada",
+    "Diseño de Empaque, Embalaje e Identidad de Producto",
+    "Modelado 3D Paramétrico con SolidWorks",
+    "Diseño de Automóviles y Transporte Aéreo/Terrestre"
   ]
 }

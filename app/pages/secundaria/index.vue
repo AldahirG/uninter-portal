@@ -21,7 +21,6 @@ useHead({
     <HeroBanner />
     <Welcome />
     <OfertaEducativa />
-    <PhotoStrip />
     <VidaAcademica />
     <VidaEstudiantil />
     <FormRegister />

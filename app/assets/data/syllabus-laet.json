@@ -1,0 +1,268 @@
+{
+  "categories": [
+    {
+      "label": "Todas las materias",
+      "value": "all"
+    },
+    {
+      "label": "🏨 Hospitalidad",
+      "value": "hospitalidad"
+    },
+    {
+      "label": "✈️ Operaciones",
+      "value": "operaciones"
+    },
+    {
+      "label": "🍽️ Alimentos y Bebidas",
+      "value": "alimentos"
+    },
+    {
+      "label": "🌐 Formación General",
+      "value": "general"
+    }
+  ],
+  "syllabus": [
+    {
+      "id": "sem-1-2",
+      "tabLabel": "Semestres 1 y 2",
+      "blocks": [
+        {
+          "title": "Primer Semestre",
+          "subjects": [
+            {
+              "name": "Introducción al Turismo y la Hospitalidad",
+              "tag": "hospitalidad"
+            },
+            {
+              "name": "Fundamentos de Administración",
+              "tag": "general"
+            },
+            {
+              "name": "Contabilidad Turística",
+              "tag": "operaciones"
+            },
+            {
+              "name": "Geografía Turística Nacional e Internacional",
+              "tag": "operaciones"
+            },
+            {
+              "name": "Lengua Extranjera I",
+              "tag": "general"
+            },
+            {
+              "name": "Taller de Comunicación Turística",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Segundo Semestre",
+          "subjects": [
+            {
+              "name": "Administración del Tiempo Libre y Recreación",
+              "tag": "hospitalidad"
+            },
+            {
+              "name": "Introducción a la Gastronomía",
+              "tag": "alimentos"
+            },
+            {
+              "name": "Contabilidad de Costos Turísticos",
+              "tag": "operaciones"
+            },
+            {
+              "name": "Derecho Legislativo Turístico",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera II",
+              "tag": "general"
+            },
+            {
+              "name": "Estadística para Negocios Turísticos",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-3-4",
+      "tabLabel": "Semestres 3 y 4",
+      "blocks": [
+        {
+          "title": "Tercer Semestre",
+          "subjects": [
+            {
+              "name": "Operación de Recepción y Reservaciones",
+              "tag": "hospitalidad"
+            },
+            {
+              "name": "Higiene y Seguridad en Alimentos",
+              "tag": "alimentos"
+            },
+            {
+              "name": "Mercadotecnia de Servicios Turísticos",
+              "tag": "operaciones"
+            },
+            {
+              "name": "Administración de Recursos Humanos",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera III",
+              "tag": "general"
+            },
+            {
+              "name": "Sistemas Informativos Hoteleros I",
+              "tag": "hospitalidad"
+            }
+          ]
+        },
+        {
+          "title": "Cuarto Semestre",
+          "subjects": [
+            {
+              "name": "Operación de Ama de Llaves y Mantenimiento",
+              "tag": "hospitalidad"
+            },
+            {
+              "name": "Nutrición y Composición de Menús",
+              "tag": "alimentos"
+            },
+            {
+              "name": "Planeación y Diseño de Circuitos Turísticos",
+              "tag": "operaciones"
+            },
+            {
+              "name": "Comportamiento del Consumidor Turístico",
+              "tag": "operaciones"
+            },
+            {
+              "name": "Lengua Extranjera IV",
+              "tag": "general"
+            },
+            {
+              "name": "Sistemas Informativos Hoteleros II (PMS)",
+              "tag": "hospitalidad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-5-6",
+      "tabLabel": "Semestres 5 y 6",
+      "blocks": [
+        {
+          "title": "Quinto Semestre",
+          "subjects": [
+            {
+              "name": "Administración de Banquetes y Eventos",
+              "tag": "alimentos"
+            },
+            {
+              "name": "Dirección Hotelería de Cadenas Globales",
+              "tag": "hospitalidad"
+            },
+            {
+              "name": "Turismo Sustentable y Ecoturismo",
+              "tag": "operaciones"
+            },
+            {
+              "name": "Finanzas Aplicadas a Empresas Turísticas",
+              "tag": "operaciones"
+            },
+            {
+              "name": "Optativa I",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Sexto Semestre",
+          "subjects": [
+            {
+              "name": "Control de Costos de Alimentos y Bebidas",
+              "tag": "alimentos"
+            },
+            {
+              "name": "Organización de Congresos y Convenciones",
+              "tag": "hospitalidad"
+            },
+            {
+              "name": "Patrimonio Cultural y Gastronómico",
+              "tag": "alimentos"
+            },
+            {
+              "name": "Mercadotecnia Digital y CRM Turístico",
+              "tag": "operaciones"
+            },
+            {
+              "name": "Optativa II",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-7-8",
+      "tabLabel": "Semestres 7 y 8",
+      "blocks": [
+        {
+          "title": "Séptimo Semestre",
+          "subjects": [
+            {
+              "name": "Seminario de Titulación I",
+              "tag": "general"
+            },
+            {
+              "name": "Formulación de Proyectos Turísticos",
+              "tag": "operaciones"
+            },
+            {
+              "name": "Calidad en el Servicio Turístico",
+              "tag": "hospitalidad"
+            },
+            {
+              "name": "Ética Profesional en la Hospitalidad",
+              "tag": "general"
+            },
+            {
+              "name": "Prácticas Profesionales I",
+              "tag": "hospitalidad"
+            }
+          ]
+        },
+        {
+          "title": "Octavo Semestre",
+          "subjects": [
+            {
+              "name": "Seminario de Titulación II",
+              "tag": "general"
+            },
+            {
+              "name": "Administración Estratégica en Turismo",
+              "tag": "operaciones"
+            },
+            {
+              "name": "Simulador de Toma de Decisiones Hoteleras",
+              "tag": "hospitalidad"
+            },
+            {
+              "name": "Prácticas Profesionales II",
+              "tag": "hospitalidad"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "optativas": [
+    "Gestión de Eventos y Convenciones de Negocios",
+    "Turismo de Aventura y Ecoturismo en Morelos",
+    "Dirección de Alimentos y Bebidas",
+    "Marketing Digital Turístico y Hospitalidad"
+  ]
+}

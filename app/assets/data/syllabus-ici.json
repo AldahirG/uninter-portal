@@ -1,0 +1,268 @@
+{
+  "categories": [
+    {
+      "label": "Todas las materias",
+      "value": "all"
+    },
+    {
+      "label": "🏗️ Estructuras",
+      "value": "estructuras"
+    },
+    {
+      "label": "🧱 Geotecnia e Hidráulica",
+      "value": "geotecnia"
+    },
+    {
+      "label": "🛣️ Vías e Infraestructura",
+      "value": "vias"
+    },
+    {
+      "label": "🌐 Formación General",
+      "value": "general"
+    }
+  ],
+  "syllabus": [
+    {
+      "id": "sem-1-2",
+      "tabLabel": "Semestres 1 y 2",
+      "blocks": [
+        {
+          "title": "Primer Semestre",
+          "subjects": [
+            {
+              "name": "Cálculo Diferencial e Integral",
+              "tag": "general"
+            },
+            {
+              "name": "Álgebra Lineal",
+              "tag": "general"
+            },
+            {
+              "name": "Física General",
+              "tag": "general"
+            },
+            {
+              "name": "Dibujo en Ingeniería Civil CAD",
+              "tag": "estructuras"
+            },
+            {
+              "name": "Química Básica para Ingenieros",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera I",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Segundo Semestre",
+          "subjects": [
+            {
+              "name": "Cálculo Vectorial",
+              "tag": "general"
+            },
+            {
+              "name": "Estática",
+              "tag": "estructuras"
+            },
+            {
+              "name": "Geología Aplicada a Ingeniería Civil",
+              "tag": "geotecnia"
+            },
+            {
+              "name": "Topografía y Geomatización",
+              "tag": "vias"
+            },
+            {
+              "name": "Lengua Extranjera II",
+              "tag": "general"
+            },
+            {
+              "name": "Algoritmos y Programación Básica",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-3-4",
+      "tabLabel": "Semestres 3 y 4",
+      "blocks": [
+        {
+          "title": "Tercer Semestre",
+          "subjects": [
+            {
+              "name": "Ecuaciones Diferenciales",
+              "tag": "general"
+            },
+            {
+              "name": "Cinemática y Dinámica",
+              "tag": "general"
+            },
+            {
+              "name": "Mecánica de Materiales I",
+              "tag": "estructuras"
+            },
+            {
+              "name": "Topografía Aplicada e Instrumentación",
+              "tag": "vias"
+            },
+            {
+              "name": "Lengua Extranjera III",
+              "tag": "general"
+            },
+            {
+              "name": "Probabilidad y Estadística",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Cuarto Semestre",
+          "subjects": [
+            {
+              "name": "Mecánica de Materiales II",
+              "tag": "estructuras"
+            },
+            {
+              "name": "Hidráulica de Canales y Tuberías",
+              "tag": "geotecnia"
+            },
+            {
+              "name": "Suelos I: Propiedades Físicas",
+              "tag": "geotecnia"
+            },
+            {
+              "name": "Tecnología y Resistencia del Concreto",
+              "tag": "estructuras"
+            },
+            {
+              "name": "Lengua Extranjera IV",
+              "tag": "general"
+            },
+            {
+              "name": "Métodos Numéricos en Ingeniería",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-5-6",
+      "tabLabel": "Semestres 5 y 6",
+      "blocks": [
+        {
+          "title": "Quinto Semestre",
+          "subjects": [
+            {
+              "name": "Análisis Estructural Clásico",
+              "tag": "estructuras"
+            },
+            {
+              "name": "Hidrología Superficial",
+              "tag": "geotecnia"
+            },
+            {
+              "name": "Suelos II: Capacidad de Carga",
+              "tag": "geotecnia"
+            },
+            {
+              "name": "Diseño Geométrico de Carreteras",
+              "tag": "vias"
+            },
+            {
+              "name": "Optativa I",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Sexto Semestre",
+          "subjects": [
+            {
+              "name": "Análisis Estructural Computarizado (SAP2000)",
+              "tag": "estructuras"
+            },
+            {
+              "name": "Diseño de Estructuras de Concreto Reforzado",
+              "tag": "estructuras"
+            },
+            {
+              "name": "Instalaciones Hidrosanitarias y de Gas",
+              "tag": "geotecnia"
+            },
+            {
+              "name": "Movimiento de Tierras y Pavimentos",
+              "tag": "vias"
+            },
+            {
+              "name": "Optativa II",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-7-8",
+      "tabLabel": "Semestres 7 y 8",
+      "blocks": [
+        {
+          "title": "Séptimo Semestre",
+          "subjects": [
+            {
+              "name": "Seminario de Titulación I",
+              "tag": "general"
+            },
+            {
+              "name": "Diseño de Estructuras de Acero y Conexiones",
+              "tag": "estructuras"
+            },
+            {
+              "name": "Ingeniería de Costos y Precios Unitarios",
+              "tag": "estructuras"
+            },
+            {
+              "name": "Cimentaciones y Muros de Contención",
+              "tag": "geotecnia"
+            },
+            {
+              "name": "Prácticas Profesionales I",
+              "tag": "estructuras"
+            }
+          ]
+        },
+        {
+          "title": "Octavo Semestre",
+          "subjects": [
+            {
+              "name": "Seminario de Titulación II",
+              "tag": "general"
+            },
+            {
+              "name": "Planificación y Control de Obra (Project)",
+              "tag": "estructuras"
+            },
+            {
+              "name": "Obras Hidráulicas y Presas",
+              "tag": "geotecnia"
+            },
+            {
+              "name": "Prácticas Profesionales II",
+              "tag": "estructuras"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "optativas": [
+    "Diseño Estructural Sismorresistente",
+    "Maquinaria y Procedimientos Pesados de Construcción",
+    "Ingeniería de Tránsito y Transporte",
+    "Hidrología Aplicada y Obras Hidráulicas"
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "categories": [
+    {
+      "label": "Todas las materias",
+      "value": "all"
+    },
+    {
+      "label": "👔 Administración",
+      "value": "negocios"
+    },
+    {
+      "label": "📈 Mercadotecnia",
+      "value": "mercadotecnia"
+    },
+    {
+      "label": "💰 Finanzas",
+      "value": "finanzas"
+    },
+    {
+      "label": "🌐 Formación General",
+      "value": "general"
+    }
+  ],
+  "syllabus": [
+    {
+      "id": "sem-1-2",
+      "tabLabel": "Semestres 1 y 2",
+      "blocks": [
+        {
+          "title": "Primer Semestre",
+          "subjects": [
+            {
+              "name": "Fundamentos de Administración",
+              "tag": "negocios"
+            },
+            {
+              "name": "Mercadotecnia Básica",
+              "tag": "mercadotecnia"
+            },
+            {
+              "name": "Contabilidad Financiera",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Microeconomía",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Matemáticas Financieras",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera I",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Segundo Semestre",
+          "subjects": [
+            {
+              "name": "Proceso Administrativo",
+              "tag": "negocios"
+            },
+            {
+              "name": "Comportamiento del Consumidor",
+              "tag": "mercadotecnia"
+            },
+            {
+              "name": "Contabilidad de Costos",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Macroeconomía",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Derecho Empresarial",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera II",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-3-4",
+      "tabLabel": "Semestres 3 y 4",
+      "blocks": [
+        {
+          "title": "Tercer Semestre",
+          "subjects": [
+            {
+              "name": "Administración Financiera I",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Investigación de Mercados Cualitativa",
+              "tag": "mercadotecnia"
+            },
+            {
+              "name": "Estrategias de Precios e Innovación",
+              "tag": "mercadotecnia"
+            },
+            {
+              "name": "Comportamiento Organizacional",
+              "tag": "negocios"
+            },
+            {
+              "name": "Lengua Extranjera III",
+              "tag": "general"
+            },
+            {
+              "name": "Estadística Aplicada",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Cuarto Semestre",
+          "subjects": [
+            {
+              "name": "Administración Financiera II",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Investigación de Mercados Cuantitativa",
+              "tag": "mercadotecnia"
+            },
+            {
+              "name": "Administración y Dirección de Ventas",
+              "tag": "negocios"
+            },
+            {
+              "name": "Gestión del Talento Humano",
+              "tag": "negocios"
+            },
+            {
+              "name": "Lengua Extranjera IV",
+              "tag": "general"
+            },
+            {
+              "name": "Derecho Laboral y Corporativo",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-5-6",
+      "tabLabel": "Semestres 5 y 6",
+      "blocks": [
+        {
+          "title": "Quinto Semestre",
+          "subjects": [
+            {
+              "name": "Neuromarketing y Psicología del Consumo",
+              "tag": "mercadotecnia"
+            },
+            {
+              "name": "Finanzas Corporativas avanzadas",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Planeación Estratégica Organizacional",
+              "tag": "negocios"
+            },
+            {
+              "name": "Branding y Posicionamiento de Marca",
+              "tag": "mercadotecnia"
+            },
+            {
+              "name": "Optativa I",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Sexto Semestre",
+          "subjects": [
+            {
+              "name": "Estrategias de Mercadotecnia Digital y CRM",
+              "tag": "mercadotecnia"
+            },
+            {
+              "name": "Sistemas de Información y Toma de Decisiones",
+              "tag": "negocios"
+            },
+            {
+              "name": "Negociación y Resolución de Conflictos",
+              "tag": "negocios"
+            },
+            {
+              "name": "Dirección Comercial y Fuerza de Ventas",
+              "tag": "negocios"
+            },
+            {
+              "name": "Optativa II",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-7-8",
+      "tabLabel": "Semestres 7 y 8",
+      "blocks": [
+        {
+          "title": "Séptimo Semestre",
+          "subjects": [
+            {
+              "name": "Seminario de Titulación I",
+              "tag": "general"
+            },
+            {
+              "name": "Consultoría y Diagnóstico Organizacional",
+              "tag": "negocios"
+            },
+            {
+              "name": "Evaluación de Proyectos de Inversión",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Ética Empresarial y Gobierno Corporativo",
+              "tag": "general"
+            },
+            {
+              "name": "Prácticas Profesionales I",
+              "tag": "negocios"
+            }
+          ]
+        },
+        {
+          "title": "Octavo Semestre",
+          "subjects": [
+            {
+              "name": "Seminario de Titulación II",
+              "tag": "general"
+            },
+            {
+              "name": "Simulador de Dirección y Mercados (Trading)",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Emprendimiento e Innovación Comercial",
+              "tag": "mercadotecnia"
+            },
+            {
+              "name": "Prácticas Profesionales II",
+              "tag": "negocios"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "optativas": [
+    "Marketing Digital y Redes Sociales",
+    "Neuromarketing y Comportamiento del Consumidor",
+    "Estrategias de Precios e Investigación de Mercados",
+    "Branding y Posicionamiento de Marca"
+  ]
+}

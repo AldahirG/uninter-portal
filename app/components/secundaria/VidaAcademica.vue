@@ -1,11 +1,18 @@
 ﻿<script setup lang="ts">
-import { Quote, Lightbulb, Globe, Music, Dumbbell, FlaskConical } from "lucide-vue-next";
+import {
+  Quote,
+  Lightbulb,
+  Globe,
+  Music,
+  Dumbbell,
+  FlaskConical,
+} from "lucide-vue-next";
 
 const pilares = [
   { icon: FlaskConical, label: "Ciencias y Tecnología" },
-  { icon: Globe,        label: "Internacionalización" },
-  { icon: Music,        label: "Arte y Cultura" },
-  { icon: Dumbbell,     label: "Deporte y Bienestar" },
+  { icon: Globe, label: "Internacionalización" },
+  { icon: Music, label: "Arte y Cultura" },
+  { icon: Dumbbell, label: "Deporte y Bienestar" },
 ];
 </script>
 
@@ -22,30 +29,34 @@ const pilares = [
             <em class="siu-va__accent">experiencias únicas</em>
           </h2>
           <p class="siu-va__text">
-            En SIU te ofrecemos comodidades únicas: intercambio internacional y relación directa con
-            otras culturas a través de la Universidad Internacional, con más de 40 años de experiencia
-            educativa a nivel internacional y amplio reconocimiento mundial.
+            En SIU te ofrecemos comodidades únicas: intercambio internacional y
+            relación directa con otras culturas a través de la Universidad
+            Internacional, con más de 40 años de experiencia educativa a nivel
+            internacional y amplio reconocimiento mundial.
           </p>
           <p class="siu-va__text">
-            La Universidad Internacional, con más de 40 años de experiencia educativa a nivel
-            internacional y amplio reconocimiento mundial, es la respuesta a las necesidades de la
-            comunidad monterense, formando jóvenes con gran sentido de integración y permanencia.
+            La Universidad Internacional, con más de 40 años de experiencia
+            educativa a nivel internacional y amplio reconocimiento mundial, es
+            la respuesta a las necesidades de la comunidad monterense, formando
+            jóvenes con gran sentido de integración y permanencia.
           </p>
           <blockquote class="siu-va__quote">
             <Quote :size="20" class="siu-va__quote-icon" aria-hidden="true" />
-            Alumno en tránsito integral es un proceso, entendiendo y desarrollando sus conocimientos y
-            habilidades propias de su clase y edad, fortaleciendo sus diferencias, cualidades y
-            fortalezas, y contribuyendo con la formación de sus alumnos.
+            Alumno en tránsito integral es un proceso, entendiendo y
+            desarrollando sus conocimientos y habilidades propias de su clase y
+            edad, fortaleciendo sus diferencias, cualidades y fortalezas, y
+            contribuyendo con la formación de sus alumnos.
           </blockquote>
           <p class="siu-va__text siu-va__text--muted">
-            Nuestra SEP cuenta con el Registro de Validez Oficial de Educación: RVOE 27100178
+            Nuestra SEP cuenta con el Registro de Validez Oficial de Educación:
+            RVOE 27100178
           </p>
         </div>
 
         <!-- Imagen derecha -->
         <div class="siu-va__img-wrap">
           <img
-            src="/images/hero/licenciaturas.jpg"
+            src="/images/Secundaria/10.jpg"
             alt="Vida académica SIU"
             class="siu-va__img"
             loading="lazy"
@@ -66,10 +77,10 @@ const pilares = [
             <p class="siu-va__pillars-eyebrow">Modelo Académico</p>
             <h3 class="siu-va__pillars-title">Blended-Flex Learning</h3>
             <p class="siu-va__pillars-desc">
-              UNINTER es la manera conceptualizada es nuestro modelo pedagógico a
-              través del cual formamos alumnos capaces de aprender en cualquier momento,
-              desarrollando tanto el potencial y el activo como un equilibrio de
-              competencias.
+              UNINTER es la manera conceptualizada es nuestro modelo pedagógico
+              a través del cual formamos alumnos capaces de aprender en
+              cualquier momento, desarrollando tanto el potencial y el activo
+              como un equilibrio de competencias.
             </p>
           </div>
           <div class="siu-va__pillars-grid">
@@ -88,8 +99,8 @@ const pilares = [
 
 <style scoped>
 .siu-va {
-  --s: #ECAB00;
-  --sd: #C49000;
+  --s: #ecab00;
+  --sd: #c49000;
   --sbg: #1a1500;
 }
 .siu-container {
@@ -167,7 +178,7 @@ const pilares = [
   position: relative;
   border-radius: 18px;
   overflow: hidden;
-  box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
 }
 .siu-va__img {
   width: 100%;
@@ -184,7 +195,7 @@ const pilares = [
   border-radius: 12px;
   padding: 0.75rem 1.25rem;
   text-align: center;
-  box-shadow: 0 4px 16px rgba(236,171,0,0.35);
+  box-shadow: 0 4px 16px rgba(236, 171, 0, 0.35);
 }
 .badge-num {
   display: block;
@@ -228,7 +239,7 @@ const pilares = [
 }
 .siu-va__pillars-desc {
   font-size: 0.9rem;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255, 255, 255, 0.6);
   line-height: 1.7;
   margin: 0;
 }
@@ -239,8 +250,8 @@ const pilares = [
   gap: 1.25rem;
 }
 .siu-pilar {
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(236,171,0,0.15);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(236, 171, 0, 0.15);
   border-radius: 12px;
   padding: 1.25rem 1rem;
   display: flex;
@@ -248,17 +259,19 @@ const pilares = [
   align-items: center;
   gap: 0.6rem;
   text-align: center;
-  transition: background 0.2s, border-color 0.2s;
+  transition:
+    background 0.2s,
+    border-color 0.2s;
 }
 .siu-pilar:hover {
-  background: rgba(236,171,0,0.08);
+  background: rgba(236, 171, 0, 0.08);
   border-color: var(--s);
 }
 .siu-pilar__icon {
   width: 44px;
   height: 44px;
   border-radius: 10px;
-  background: rgba(236,171,0,0.12);
+  background: rgba(236, 171, 0, 0.12);
   color: var(--s);
   display: flex;
   align-items: center;
@@ -267,11 +280,16 @@ const pilares = [
 .siu-pilar__label {
   font-size: 0.82rem;
   font-weight: 700;
-  color: rgba(255,255,255,0.85);
+  color: rgba(255, 255, 255, 0.85);
 }
 
 @media (max-width: 1024px) {
-  .siu-va__grid { grid-template-columns: 1fr; gap: 2.5rem; }
-  .siu-va__pillars-inner { grid-template-columns: 1fr; }
+  .siu-va__grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .siu-va__pillars-inner {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

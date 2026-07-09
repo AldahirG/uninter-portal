@@ -75,30 +75,30 @@ const DataCard = [
       },
       {
         title: "Administración de Empresas Turísticas (LAET)",
-        href: "https://universidad.uninter.edu.mx/carreras/LAET",
+        href: "/carreras/administracion-de-empresas-turisticas",
         trophy: true,
         brochure: "https://uninter.edu.mx/folletos/laet/",
       },
       {
         title: "Administración de Negocios Internacionales (LANI)",
-        href: "https://universidad.uninter.edu.mx/carreras/LANI",
+        href: "/carreras/administracion-de-negocios-internacionales",
         trophy: true,
         brochure: "https://uninter.edu.mx/folletos/lani/",
       },
       {
         title: "Administracion y Mercadotecnia (LAM)",
-        href: "https://universidad.uninter.edu.mx/carreras/LAM",
+        href: "/carreras/administracion-y-mercadotecnia",
         trophy: true,
         brochure: "https://uninter.edu.mx/folletos/lam/",
       },
       {
         title: "Comercio Exterior (LCE)",
-        href: "https://universidad.uninter.edu.mx/carreras/LCE",
+        href: "/carreras/comercio-exterior",
         brochure: "https://uninter.edu.mx/folletos/lce/",
       },
       {
         title: "Economia y Finanzas (LEF)",
-        href: "https://universidad.uninter.edu.mx/carreras/LEF",
+        href: "/carreras/economia-y-finanzas",
         trophy: true,
         brochure: "https://uninter.edu.mx/folletos/lef/",
       },
@@ -110,7 +110,7 @@ const DataCard = [
       },
       {
         title: "Mercadotecnia y Publicidad (LEMP)",
-        href: "https://universidad.uninter.edu.mx/carreras/LEMP",
+        href: "/carreras/mercadotecnia-y-publicidad",
         trophy: true,
         brochure: "https://uninter.edu.mx/folletos/lemp/",
       },
@@ -156,18 +156,18 @@ const DataCard = [
     bachelors: [
       {
         title: "Ambiental (IAM)",
-        href: "https://universidad.uninter.edu.mx/carreras/IAM",
+        href: "/carreras/ingenieria-ambiental",
         brochure: "https://uninter.edu.mx/folletos/iam/",
       },
       {
         title: "Civil (ICI)",
-        href: "https://universidad.uninter.edu.mx/carreras/ICI",
+        href: "/carreras/ingenieria-civil",
         trophy: true,
         brochure: "https://uninter.edu.mx/folletos/ici/",
       },
       {
         title: "Industrial y de Sistemas de Calidad (IISCA)",
-        href: "https://universidad.uninter.edu.mx/carreras/IISCA",
+        href: "/carreras/ingenieria-industrial-y-de-sistemas-de-calidad",
         brochure: "https://uninter.edu.mx/folletos/iisca/",
       },
       {
@@ -177,7 +177,7 @@ const DataCard = [
       },
       {
         title: "Mecanica Industrial (IMI)",
-        href: "https://universidad.uninter.edu.mx/carreras/IMI",
+        href: "/carreras/ingenieria-mecanica-industrial",
         brochure: "https://uninter.edu.mx/folletos/imi/",
       },
       {
@@ -280,7 +280,18 @@ const closeDrawer = () => {
             <X :size="24" />
           </button>
           
-          <div v-if="activeBachelor" class="oe-drawer-content">
+          <!-- Banner de difusión para Comunicación -->
+          <div v-if="activeBachelor && activeBachelor.href === '/carreras/comunicacion'" class="oe-drawer-banner">
+            <img 
+              src="/images/oferta/ARQHOR.jpg" 
+              alt="Banner promocional" 
+              class="oe-drawer-banner-img"
+            />
+          </div>
+
+          <div v-if="activeBachelor" 
+               class="oe-drawer-content"
+               :class="{ 'has-banner': activeBachelor.href === '/carreras/comunicacion' }">
             <div class="oe-drawer-header">
               <div v-if="activeBachelor.trophy" class="oe-drawer-badge">
                 <Trophy :size="16" /> Programa de Excelencia
@@ -294,6 +305,15 @@ const closeDrawer = () => {
                 `Conoce todos los detalles sobre ${activeBachelor.title}. Descubre el perfil de ingreso, plan de estudios y las oportunidades profesionales que te esperan al estudiar en UNINTER.`
               }}
             </p>
+
+            <!-- Imagen para Arquitectura entre descripción y acciones (sin deformar) -->
+            <div v-if="activeBachelor.href === '/carreras/arquitectura'" class="oe-drawer-mid-media">
+              <img 
+                src="/images/oferta/ARQ.jpg" 
+                alt="Banner de Arquitectura" 
+                class="oe-drawer-mid-img"
+              />
+            </div>
 
             <div class="oe-detail-actions">
               <a
@@ -530,6 +550,7 @@ const closeDrawer = () => {
   color: #64748b;
   cursor: pointer;
   transition: all 0.2s;
+  z-index: 50;
 }
 .oe-drawer-close:hover {
   background: #e2e8f0;
@@ -582,7 +603,7 @@ const closeDrawer = () => {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin-top: auto;
+  margin-top: 2rem;
 }
 
 .oe-btn {
@@ -617,6 +638,40 @@ const closeDrawer = () => {
 }
 .oe-btn--outline:hover {
   background: #f0f6fc;
+}
+
+/* =========================================================
+   BANNER PROMOCIONAL/EVENTOS
+========================================================= */
+.oe-drawer-banner {
+  width: 100%;
+  height: 230px;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 3px solid #e2e8f0;
+}
+.oe-drawer-banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.oe-drawer-content.has-banner {
+  padding-top: 2rem;
+}
+
+.oe-drawer-mid-media {
+  margin: 1.5rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.oe-drawer-mid-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 /* =========================================================

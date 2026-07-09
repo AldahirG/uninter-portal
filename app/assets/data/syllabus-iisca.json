@@ -1,0 +1,268 @@
+{
+  "categories": [
+    {
+      "label": "Todas las materias",
+      "value": "all"
+    },
+    {
+      "label": "⚙️ Producción y Manufactura",
+      "value": "produccion"
+    },
+    {
+      "label": "🎯 Calidad y Mejora",
+      "value": "calidad"
+    },
+    {
+      "label": "📦 Logística e Inventarios",
+      "value": "logistica"
+    },
+    {
+      "label": "🌐 Formación General",
+      "value": "general"
+    }
+  ],
+  "syllabus": [
+    {
+      "id": "sem-1-2",
+      "tabLabel": "Semestres 1 y 2",
+      "blocks": [
+        {
+          "title": "Primer Semestre",
+          "subjects": [
+            {
+              "name": "Cálculo Diferencial",
+              "tag": "general"
+            },
+            {
+              "name": "Álgebra Lineal",
+              "tag": "general"
+            },
+            {
+              "name": "Química Industrial",
+              "tag": "produccion"
+            },
+            {
+              "name": "Introducción a la Ingeniería Industrial",
+              "tag": "produccion"
+            },
+            {
+              "name": "Dibujo Industrial Asistido por Computadora CAD",
+              "tag": "produccion"
+            },
+            {
+              "name": "Lengua Extranjera I",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Segundo Semestre",
+          "subjects": [
+            {
+              "name": "Cálculo Integral",
+              "tag": "general"
+            },
+            {
+              "name": "Física Mecánica",
+              "tag": "general"
+            },
+            {
+              "name": "Estudio del Trabajo y Ergonomía",
+              "tag": "produccion"
+            },
+            {
+              "name": "Fundamentos de Administración y Costos",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera II",
+              "tag": "general"
+            },
+            {
+              "name": "Algoritmos y Programación",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-3-4",
+      "tabLabel": "Semestres 3 y 4",
+      "blocks": [
+        {
+          "title": "Tercer Semestre",
+          "subjects": [
+            {
+              "name": "Cálculo Vectorial",
+              "tag": "general"
+            },
+            {
+              "name": "Estadística Industrial y Probabilidad",
+              "tag": "calidad"
+            },
+            {
+              "name": "Procesos de Manufactura Mecánica",
+              "tag": "produccion"
+            },
+            {
+              "name": "Termodinámica y Máquinas Térmicas",
+              "tag": "produccion"
+            },
+            {
+              "name": "Lengua Extranjera III",
+              "tag": "general"
+            },
+            {
+              "name": "Contabilidad y Análisis Financiero",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Cuarto Semestre",
+          "subjects": [
+            {
+              "name": "Control Estadístico del Proceso",
+              "tag": "calidad"
+            },
+            {
+              "name": "Investigación de Operaciones I",
+              "tag": "logistica"
+            },
+            {
+              "name": "Sistemas de Gestión de Calidad (ISO 9001)",
+              "tag": "calidad"
+            },
+            {
+              "name": "Administración de Inventarios y Almacenes",
+              "tag": "logistica"
+            },
+            {
+              "name": "Lengua Extranjera IV",
+              "tag": "general"
+            },
+            {
+              "name": "Ingeniería Económica",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-5-6",
+      "tabLabel": "Semestres 5 y 6",
+      "blocks": [
+        {
+          "title": "Quinto Semestre",
+          "subjects": [
+            {
+              "name": "Investigación de Operaciones II",
+              "tag": "logistica"
+            },
+            {
+              "name": "Sistemas de Manufactura y Lean Manufacturing",
+              "tag": "produccion"
+            },
+            {
+              "name": "Logística y Administración de la Cadena de Suministro",
+              "tag": "logistica"
+            },
+            {
+              "name": "Metodología Seis Sigma (Six Sigma)",
+              "tag": "calidad"
+            },
+            {
+              "name": "Optativa I",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Sexto Semestre",
+          "subjects": [
+            {
+              "name": "Simulación Dinámica de Plantas (FlexSim)",
+              "tag": "logistica"
+            },
+            {
+              "name": "Planeación y Control de la Producción (MRP)",
+              "tag": "produccion"
+            },
+            {
+              "name": "Higiene, Seguridad Ocupacional e ISO 45001",
+              "tag": "calidad"
+            },
+            {
+              "name": "Diseño de Layout e Instalaciones de Planta",
+              "tag": "produccion"
+            },
+            {
+              "name": "Optativa II",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-7-8",
+      "tabLabel": "Semestres 7 y 8",
+      "blocks": [
+        {
+          "title": "Séptimo Semestre",
+          "subjects": [
+            {
+              "name": "Seminario de Titulación I",
+              "tag": "general"
+            },
+            {
+              "name": "Formulación y Evaluación de Proyectos Industriales",
+              "tag": "general"
+            },
+            {
+              "name": "Auditorías de Calidad y Certificaciones",
+              "tag": "calidad"
+            },
+            {
+              "name": "Gestión Ambiental e ISO 14001",
+              "tag": "calidad"
+            },
+            {
+              "name": "Prácticas Profesionales I",
+              "tag": "produccion"
+            }
+          ]
+        },
+        {
+          "title": "Octavo Semestre",
+          "subjects": [
+            {
+              "name": "Seminario de Titulación II",
+              "tag": "general"
+            },
+            {
+              "name": "Administración Estratégica y Productividad",
+              "tag": "produccion"
+            },
+            {
+              "name": "Simulador de Decisiones Industriales",
+              "tag": "produccion"
+            },
+            {
+              "name": "Prácticas Profesionales II",
+              "tag": "produccion"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "optativas": [
+    "Logística y Cadena de Suministro Global",
+    "Manufactura Esbelta (Lean Manufacturing)",
+    "Seis Sigma y Control Estadístico de Calidad",
+    "Gestión del Mantenimiento Industrial"
+  ]
+}

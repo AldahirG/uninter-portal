@@ -1,10 +1,25 @@
 {
   "categories": [
-    { "label": "Todas las materias", "value": "all" },
-    { "label": "🎨 Diseño Arquitectónico", "value": "diseno" },
-    { "label": "🔧 Tecnología y Construcción", "value": "tecnologia" },
-    { "label": "🏙️ Urbanismo", "value": "urbanismo" },
-    { "label": "🌐 Formación General", "value": "general" }
+    {
+      "label": "Todas las materias",
+      "value": "all"
+    },
+    {
+      "label": "🎨 Diseño Arquitectónico",
+      "value": "diseno"
+    },
+    {
+      "label": "🔧 Tecnología y Construcción",
+      "value": "tecnologia"
+    },
+    {
+      "label": "🏙️ Urbanismo",
+      "value": "urbanismo"
+    },
+    {
+      "label": "🌐 Formación General",
+      "value": "general"
+    }
   ],
   "syllabus": [
     {
@@ -14,23 +29,59 @@
         {
           "title": "Primer Semestre",
           "subjects": [
-            { "name": "Taller de Diseño Arquitectónico I", "tag": "diseno" },
-            { "name": "Geometría Descriptiva", "tag": "tecnologia" },
-            { "name": "Dibujo Arquitectónico a Mano Alzada", "tag": "diseno" },
-            { "name": "Historia de la Arquitectura I (Antigüedad y Medievo)", "tag": "general" },
-            { "name": "Matemáticas Aplicadas a la Arquitectura", "tag": "tecnologia" },
-            { "name": "Lengua Extranjera I", "tag": "general" }
+            {
+              "name": "Taller de Diseño Arquitectónico I",
+              "tag": "diseno"
+            },
+            {
+              "name": "Geometría Descriptiva",
+              "tag": "tecnologia"
+            },
+            {
+              "name": "Dibujo Arquitectónico a Mano Alzada",
+              "tag": "diseno"
+            },
+            {
+              "name": "Historia de la Arquitectura I (Antigüedad y Medievo)",
+              "tag": "general"
+            },
+            {
+              "name": "Matemáticas Aplicadas a la Arquitectura",
+              "tag": "tecnologia"
+            },
+            {
+              "name": "Lengua Extranjera I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Segundo Semestre",
           "subjects": [
-            { "name": "Taller de Diseño Arquitectónico II", "tag": "diseno" },
-            { "name": "Sistemas Estructurales I", "tag": "tecnologia" },
-            { "name": "Dibujo Asistido por Computadora (CAD)", "tag": "tecnologia" },
-            { "name": "Historia de la Arquitectura II (Renacimiento al Barroco)", "tag": "general" },
-            { "name": "Teoría de la Arquitectura", "tag": "diseno" },
-            { "name": "Lengua Extranjera II", "tag": "general" }
+            {
+              "name": "Taller de Diseño Arquitectónico II",
+              "tag": "diseno"
+            },
+            {
+              "name": "Sistemas Estructurales I",
+              "tag": "tecnologia"
+            },
+            {
+              "name": "Dibujo Asistido por Computadora (CAD)",
+              "tag": "tecnologia"
+            },
+            {
+              "name": "Historia de la Arquitectura II (Renacimiento al Barroco)",
+              "tag": "general"
+            },
+            {
+              "name": "Teoría de la Arquitectura",
+              "tag": "diseno"
+            },
+            {
+              "name": "Lengua Extranjera II",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -42,23 +93,59 @@
         {
           "title": "Tercer Semestre",
           "subjects": [
-            { "name": "Taller de Diseño Arquitectónico III", "tag": "diseno" },
-            { "name": "Sistemas Estructurales II", "tag": "tecnologia" },
-            { "name": "Materiales y Procedimientos de Construcción I", "tag": "tecnologia" },
-            { "name": "Introducción al Urbanismo", "tag": "urbanismo" },
-            { "name": "Modelado 3D y Renderizado", "tag": "diseno" },
-            { "name": "Lengua Extranjera III", "tag": "general" }
+            {
+              "name": "Taller de Diseño Arquitectónico III",
+              "tag": "diseno"
+            },
+            {
+              "name": "Sistemas Estructurales II",
+              "tag": "tecnologia"
+            },
+            {
+              "name": "Materiales y Procedimientos de Construcción I",
+              "tag": "tecnologia"
+            },
+            {
+              "name": "Introducción al Urbanismo",
+              "tag": "urbanismo"
+            },
+            {
+              "name": "Modelado 3D y Renderizado",
+              "tag": "diseno"
+            },
+            {
+              "name": "Lengua Extranjera III",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Cuarto Semestre",
           "subjects": [
-            { "name": "Taller de Diseño Arquitectónico IV", "tag": "diseno" },
-            { "name": "Instalaciones Hidráulicas y Sanitarias", "tag": "tecnologia" },
-            { "name": "Materiales y Procedimientos de Construcción II", "tag": "tecnologia" },
-            { "name": "Planeación Urbana y Regional", "tag": "urbanismo" },
-            { "name": "Historia de la Arquitectura Mexicana", "tag": "general" },
-            { "name": "Lengua Extranjera IV", "tag": "general" }
+            {
+              "name": "Taller de Diseño Arquitectónico IV",
+              "tag": "diseno"
+            },
+            {
+              "name": "Instalaciones Hidráulicas y Sanitarias",
+              "tag": "tecnologia"
+            },
+            {
+              "name": "Materiales y Procedimientos de Construcción II",
+              "tag": "tecnologia"
+            },
+            {
+              "name": "Planeación Urbana y Regional",
+              "tag": "urbanismo"
+            },
+            {
+              "name": "Historia de la Arquitectura Mexicana",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera IV",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -70,21 +157,51 @@
         {
           "title": "Quinto Semestre",
           "subjects": [
-            { "name": "Taller de Diseño Arquitectónico V", "tag": "diseno" },
-            { "name": "Instalaciones Eléctricas y Especiales", "tag": "tecnologia" },
-            { "name": "Diseño Urbano y Espacio Público", "tag": "urbanismo" },
-            { "name": "Costos y Presupuestos de Obra", "tag": "tecnologia" },
-            { "name": "Optativa I", "tag": "general" }
+            {
+              "name": "Taller de Diseño Arquitectónico V",
+              "tag": "diseno"
+            },
+            {
+              "name": "Instalaciones Eléctricas y Especiales",
+              "tag": "tecnologia"
+            },
+            {
+              "name": "Diseño Urbano y Espacio Público",
+              "tag": "urbanismo"
+            },
+            {
+              "name": "Costos y Presupuestos de Obra",
+              "tag": "tecnologia"
+            },
+            {
+              "name": "Optativa I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Sexto Semestre",
           "subjects": [
-            { "name": "Taller de Diseño Arquitectónico VI", "tag": "diseno" },
-            { "name": "Administración de Obras", "tag": "tecnologia" },
-            { "name": "Arquitectura Sustentable y Bioclimática", "tag": "urbanismo" },
-            { "name": "Legislación Urbana y de la Construcción", "tag": "urbanismo" },
-            { "name": "Optativa II", "tag": "general" }
+            {
+              "name": "Taller de Diseño Arquitectónico VI",
+              "tag": "diseno"
+            },
+            {
+              "name": "Administración de Obras",
+              "tag": "tecnologia"
+            },
+            {
+              "name": "Arquitectura Sustentable y Bioclimática",
+              "tag": "urbanismo"
+            },
+            {
+              "name": "Legislación Urbana y de la Construcción",
+              "tag": "urbanismo"
+            },
+            {
+              "name": "Optativa II",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -96,23 +213,56 @@
         {
           "title": "Séptimo Semestre",
           "subjects": [
-            { "name": "Seminario de Titulación I", "tag": "diseno" },
-            { "name": "Taller de Diseño Integral", "tag": "diseno" },
-            { "name": "Metodología BIM (Building Information Modeling)", "tag": "tecnologia" },
-            { "name": "Ética y Práctica Profesional del Arquitecto", "tag": "general" },
-            { "name": "Prácticas Profesionales I", "tag": "general" }
+            {
+              "name": "Seminario de Titulación I",
+              "tag": "diseno"
+            },
+            {
+              "name": "Taller de Diseño Integral",
+              "tag": "diseno"
+            },
+            {
+              "name": "Metodología BIM (Building Information Modeling)",
+              "tag": "tecnologia"
+            },
+            {
+              "name": "Ética y Práctica Profesional del Arquitecto",
+              "tag": "general"
+            },
+            {
+              "name": "Prácticas Profesionales I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Octavo Semestre",
           "subjects": [
-            { "name": "Seminario de Titulación II", "tag": "diseno" },
-            { "name": "Proyecto Ejecutivo Arquitectónico", "tag": "diseno" },
-            { "name": "Restauración y Conservación del Patrimonio", "tag": "urbanismo" },
-            { "name": "Prácticas Profesionales II", "tag": "general" }
+            {
+              "name": "Seminario de Titulación II",
+              "tag": "diseno"
+            },
+            {
+              "name": "Proyecto Ejecutivo Arquitectónico",
+              "tag": "diseno"
+            },
+            {
+              "name": "Restauración y Conservación del Patrimonio",
+              "tag": "urbanismo"
+            },
+            {
+              "name": "Prácticas Profesionales II",
+              "tag": "general"
+            }
           ]
         }
       ]
     }
+  ],
+  "optativas": [
+    "Diseño de Interiores y Mobiliario",
+    "Arquitectura del Paisaje y Urbanismo Ecológico",
+    "Domótica y Edificios Inteligentes",
+    "Restauración de Monumentos Históricos"
   ]
 }

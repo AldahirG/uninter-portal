@@ -1,10 +1,25 @@
 {
   "categories": [
-    { "label": "Todas las materias", "value": "all" },
-    { "label": "✨ Branding e Identidad", "value": "branding" },
-    { "label": "💻 Diseño Digital", "value": "digital" },
-    { "label": "🖌️ Ilustración y Arte", "value": "ilustracion" },
-    { "label": "🌐 Formación General", "value": "general" }
+    {
+      "label": "Todas las materias",
+      "value": "all"
+    },
+    {
+      "label": "✨ Branding e Identidad",
+      "value": "branding"
+    },
+    {
+      "label": "💻 Diseño Digital",
+      "value": "digital"
+    },
+    {
+      "label": "🖌️ Ilustración y Arte",
+      "value": "ilustracion"
+    },
+    {
+      "label": "🌐 Formación General",
+      "value": "general"
+    }
   ],
   "syllabus": [
     {
@@ -14,23 +29,59 @@
         {
           "title": "Primer Semestre",
           "subjects": [
-            { "name": "Fundamentos del Diseño Gráfico", "tag": "branding" },
-            { "name": "Dibujo y Expresión Gráfica", "tag": "ilustracion" },
-            { "name": "Teoría del Color y la Forma", "tag": "ilustracion" },
-            { "name": "Historia del Arte y del Diseño", "tag": "general" },
-            { "name": "Herramientas Digitales I (Photoshop)", "tag": "digital" },
-            { "name": "Lengua Extranjera I", "tag": "general" }
+            {
+              "name": "Fundamentos del Diseño Gráfico",
+              "tag": "branding"
+            },
+            {
+              "name": "Dibujo y Expresión Gráfica",
+              "tag": "ilustracion"
+            },
+            {
+              "name": "Teoría del Color y la Forma",
+              "tag": "ilustracion"
+            },
+            {
+              "name": "Historia del Arte y del Diseño",
+              "tag": "general"
+            },
+            {
+              "name": "Herramientas Digitales I (Photoshop)",
+              "tag": "digital"
+            },
+            {
+              "name": "Lengua Extranjera I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Segundo Semestre",
           "subjects": [
-            { "name": "Tipografía y Composición", "tag": "branding" },
-            { "name": "Ilustración Análoga y Digital", "tag": "ilustracion" },
-            { "name": "Herramientas Digitales II (Illustrator e InDesign)", "tag": "digital" },
-            { "name": "Fotografía para Diseño", "tag": "digital" },
-            { "name": "Semiótica y Comunicación Visual", "tag": "general" },
-            { "name": "Lengua Extranjera II", "tag": "general" }
+            {
+              "name": "Tipografía y Composición",
+              "tag": "branding"
+            },
+            {
+              "name": "Ilustración Análoga y Digital",
+              "tag": "ilustracion"
+            },
+            {
+              "name": "Herramientas Digitales II (Illustrator e InDesign)",
+              "tag": "digital"
+            },
+            {
+              "name": "Fotografía para Diseño",
+              "tag": "digital"
+            },
+            {
+              "name": "Semiótica y Comunicación Visual",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera II",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -42,23 +93,59 @@
         {
           "title": "Tercer Semestre",
           "subjects": [
-            { "name": "Diseño de Identidad Corporativa", "tag": "branding" },
-            { "name": "Diseño Editorial", "tag": "branding" },
-            { "name": "Ilustración Vectorial Avanzada", "tag": "ilustracion" },
-            { "name": "Diseño Web y Experiencia de Usuario (UX)", "tag": "digital" },
-            { "name": "Mercadotecnia para Diseñadores", "tag": "general" },
-            { "name": "Lengua Extranjera III", "tag": "general" }
+            {
+              "name": "Diseño de Identidad Corporativa",
+              "tag": "branding"
+            },
+            {
+              "name": "Diseño Editorial",
+              "tag": "branding"
+            },
+            {
+              "name": "Ilustración Vectorial Avanzada",
+              "tag": "ilustracion"
+            },
+            {
+              "name": "Diseño Web y Experiencia de Usuario (UX)",
+              "tag": "digital"
+            },
+            {
+              "name": "Mercadotecnia para Diseñadores",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera III",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Cuarto Semestre",
           "subjects": [
-            { "name": "Diseño de Packaging y Envase", "tag": "branding" },
-            { "name": "Motion Graphics y Animación 2D", "tag": "digital" },
-            { "name": "Técnicas de Ilustración Artística", "tag": "ilustracion" },
-            { "name": "Producción Gráfica e Impresión", "tag": "branding" },
-            { "name": "Taller de Creatividad Publicitaria", "tag": "general" },
-            { "name": "Lengua Extranjera IV", "tag": "general" }
+            {
+              "name": "Diseño de Packaging y Envase",
+              "tag": "branding"
+            },
+            {
+              "name": "Motion Graphics y Animación 2D",
+              "tag": "digital"
+            },
+            {
+              "name": "Técnicas de Ilustración Artística",
+              "tag": "ilustracion"
+            },
+            {
+              "name": "Producción Gráfica e Impresión",
+              "tag": "branding"
+            },
+            {
+              "name": "Taller de Creatividad Publicitaria",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera IV",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -70,21 +157,51 @@
         {
           "title": "Quinto Semestre",
           "subjects": [
-            { "name": "Branding Estratégico", "tag": "branding" },
-            { "name": "Diseño de Interfaces (UI) y Prototipos", "tag": "digital" },
-            { "name": "Ilustración Editorial y Narrativa Visual", "tag": "ilustracion" },
-            { "name": "Modelado 3D para Diseño", "tag": "digital" },
-            { "name": "Optativa I", "tag": "general" }
+            {
+              "name": "Branding Estratégico",
+              "tag": "branding"
+            },
+            {
+              "name": "Diseño de Interfaces (UI) y Prototipos",
+              "tag": "digital"
+            },
+            {
+              "name": "Ilustración Editorial y Narrativa Visual",
+              "tag": "ilustracion"
+            },
+            {
+              "name": "Modelado 3D para Diseño",
+              "tag": "digital"
+            },
+            {
+              "name": "Optativa I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Sexto Semestre",
           "subjects": [
-            { "name": "Diseño de Campañas Publicitarias", "tag": "branding" },
-            { "name": "Diseño para Redes Sociales y Medios Digitales", "tag": "digital" },
-            { "name": "Mural e Ilustración de Gran Formato", "tag": "ilustracion" },
-            { "name": "Gestión de Proyectos de Diseño", "tag": "general" },
-            { "name": "Optativa II", "tag": "general" }
+            {
+              "name": "Diseño de Campañas Publicitarias",
+              "tag": "branding"
+            },
+            {
+              "name": "Diseño para Redes Sociales y Medios Digitales",
+              "tag": "digital"
+            },
+            {
+              "name": "Mural e Ilustración de Gran Formato",
+              "tag": "ilustracion"
+            },
+            {
+              "name": "Gestión de Proyectos de Diseño",
+              "tag": "general"
+            },
+            {
+              "name": "Optativa II",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -96,23 +213,56 @@
         {
           "title": "Séptimo Semestre",
           "subjects": [
-            { "name": "Seminario de Titulación I", "tag": "branding" },
-            { "name": "Portafolio Profesional de Diseño", "tag": "digital" },
-            { "name": "Propiedad Intelectual y Derechos de Autor", "tag": "general" },
-            { "name": "Desarrollo de Emprendedores Creativos", "tag": "general" },
-            { "name": "Prácticas Profesionales I", "tag": "general" }
+            {
+              "name": "Seminario de Titulación I",
+              "tag": "branding"
+            },
+            {
+              "name": "Portafolio Profesional de Diseño",
+              "tag": "digital"
+            },
+            {
+              "name": "Propiedad Intelectual y Derechos de Autor",
+              "tag": "general"
+            },
+            {
+              "name": "Desarrollo de Emprendedores Creativos",
+              "tag": "general"
+            },
+            {
+              "name": "Prácticas Profesionales I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Octavo Semestre",
           "subjects": [
-            { "name": "Seminario de Titulación II", "tag": "branding" },
-            { "name": "Dirección de Arte y Concepto Creativo", "tag": "ilustracion" },
-            { "name": "Tendencias Contemporáneas del Diseño", "tag": "digital" },
-            { "name": "Prácticas Profesionales II", "tag": "general" }
+            {
+              "name": "Seminario de Titulación II",
+              "tag": "branding"
+            },
+            {
+              "name": "Dirección de Arte y Concepto Creativo",
+              "tag": "ilustracion"
+            },
+            {
+              "name": "Tendencias Contemporáneas del Diseño",
+              "tag": "digital"
+            },
+            {
+              "name": "Prácticas Profesionales II",
+              "tag": "general"
+            }
           ]
         }
       ]
     }
+  ],
+  "optativas": [
+    "Diseño de Interfaces de Usuario (UI/UX)",
+    "Branding Corporativo y Diseño de Identidad",
+    "Ilustración Digital y Técnicas de Pintura Digital",
+    "Diseño Editorial Avanzado y Empaques (Packaging)"
   ]
 }

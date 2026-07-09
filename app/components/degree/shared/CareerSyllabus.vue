@@ -23,6 +23,18 @@ import syllabusLADD from "~/assets/data/syllabus-ladd.json";
 import syllabusLDI from "~/assets/data/syllabus-ldi.json";
 import syllabusLDM from "~/assets/data/syllabus-ldm.json";
 
+// Importación de las 10 nuevas carreras (Negocios e Ingenierías)
+import syllabusLAET from "~/assets/data/syllabus-laet.json";
+import syllabusLANI from "~/assets/data/syllabus-lani.json";
+import syllabusLAM from "~/assets/data/syllabus-lam.json";
+import syllabusLCE from "~/assets/data/syllabus-lce.json";
+import syllabusLEF from "~/assets/data/syllabus-lef.json";
+import syllabusLEMP from "~/assets/data/syllabus-lemp.json";
+import syllabusIAM from "~/assets/data/syllabus-iam.json";
+import syllabusICI from "~/assets/data/syllabus-ici.json";
+import syllabusIISCA from "~/assets/data/syllabus-iisca.json";
+import syllabusIMI from "~/assets/data/syllabus-imi.json";
+
 // Mapa de syllabus por ID de carrera
 const syllabusMap: Record<string, any> = {
   LCO: syllabusLCO,
@@ -44,11 +56,22 @@ const syllabusMap: Record<string, any> = {
   LADD: syllabusLADD,
   LDI: syllabusLDI,
   LDM: syllabusLDM,
+  LAET: syllabusLAET,
+  LANI: syllabusLANI,
+  LAM: syllabusLAM,
+  LCE: syllabusLCE,
+  LEF: syllabusLEF,
+  LEMP: syllabusLEMP,
+  IAM: syllabusIAM,
+  ICI: syllabusICI,
+  IISCA: syllabusIISCA,
+  IMI: syllabusIMI,
 };
 
 // Props
 const props = defineProps<{
   careerId: string;
+  syllabusDescription?: string;
 }>();
 
 // Syllabus activo basado en la carrera
@@ -58,15 +81,19 @@ const currentSyllabus = computed(() => {
 
 const categories = computed(() => currentSyllabus.value.categories);
 const syllabusData = computed(() => currentSyllabus.value.syllabus);
+const optativas = computed(() => currentSyllabus.value.optativas || []);
 
 // Estado de la pestaña activa
 const activeTabIndex = ref(0);
 
 // Resetear tab cuando cambia la carrera
-watch(() => props.careerId, () => {
-  activeTabIndex.value = 0;
-  selectedCategory.value = "all";
-});
+watch(
+  () => props.careerId,
+  () => {
+    activeTabIndex.value = 0;
+    selectedCategory.value = "all";
+  },
+);
 
 // Estado del filtro de área de interés
 const selectedCategory = ref("all");
@@ -98,13 +125,15 @@ const isSubjectDimmed = (subject: any) => {
   <section class="career-syllabus-section" id="plan-estudios">
     <div class="uninter-container">
       <div class="syllabus-header animate-header">
-        <span class="eyebrow">Posible</span>
+        <span class="eyebrow">Orden probable</span>
         <h2 class="section-title">
           Plan de <em class="title-accent">Estudios</em>
         </h2>
         <p class="section-desc">
-          Explora las materias que cursarás a lo largo de tu licenciatura. Un
-          programa diseñado para hacerte destacar en el mundo real.
+          {{
+            syllabusDescription ||
+            "Explora las materias que cursarás a lo largo de tu licenciatura. Un programa diseñado para hacerte destacar en el mundo real."
+          }}
         </p>
       </div>
 
@@ -136,6 +165,30 @@ const isSubjectDimmed = (subject: any) => {
               Al concluir el 100% de tus créditos, podrás acceder a nuestras
               múltiples opciones de titulación de excelencia profesional.
             </p>
+          </div>
+
+          <!-- Cuadro de Materias Optativas -->
+          <div
+            v-if="optativas && optativas.length > 0"
+            class="sidebar-info-card optativas-card"
+          >
+            <div class="icon-glow">
+              <BookText :size="28" class="info-icon-blue" />
+            </div>
+            <h4>Materias Optativas</h4>
+            <p class="optativas-subtitle">
+              Especializa tu perfil con asignaturas de vanguardia:
+            </p>
+            <ul class="optativas-list">
+              <li
+                v-for="(op, opIdx) in optativas"
+                :key="'opt-' + opIdx"
+                class="optativa-item"
+              >
+                <span class="optativa-bullet">•</span>
+                <span class="optativa-name">{{ op }}</span>
+              </li>
+            </ul>
           </div>
         </div>
 
@@ -474,6 +527,71 @@ const isSubjectDimmed = (subject: any) => {
   line-height: 1.6;
   position: relative;
   z-index: 1;
+}
+
+/* Cuadro de optativas */
+.optativas-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 2.25rem 2rem;
+  color: #334155;
+  box-shadow: 0 4px 12px rgba(15, 60, 97, 0.03);
+  margin-top: 1rem;
+}
+.optativas-card h4 {
+  color: #0f3c61;
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin: 0 0 0.5rem 0;
+}
+.optativas-subtitle {
+  font-size: 0.82rem;
+  color: #64748b;
+  margin: 0 0 1.2rem 0;
+  padding: 1px 0;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.optativas-card .icon-glow {
+  background: rgba(21, 101, 192, 0.08);
+  border-color: rgba(21, 101, 192, 0.15);
+}
+.info-icon-blue {
+  color: #1565c0;
+}
+.optativas-list {
+  list-style: none;
+  padding: 1rem 0 0 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.optativa-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: #475569;
+  font-weight: 600;
+  transition:
+    transform 0.2s ease,
+    color 0.2s ease;
+}
+.optativa-item:hover {
+  transform: translateX(4px);
+  color: #1565c0;
+}
+.optativa-bullet {
+  color: #1565c0;
+  font-weight: 900;
+  font-size: 1.1rem;
+  line-height: 0.8;
+}
+.optativa-name {
+  flex-grow: 1;
 }
 
 /* =========================================================

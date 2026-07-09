@@ -1,4 +1,4 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 import { ref, onMounted, onUnmounted } from "vue";
 import { Menu, X, ChevronDown, Phone, Mail } from "lucide-vue-next";
 
@@ -68,12 +68,20 @@ const programs: Program[] = [
     label: "Bachillerato",
     slug: "bachillerato",
     color: "#6BAF04",
-    href: "https://biu.uninter.edu.mx/",
+    href: "/bachillerato",
     mega: true,
     megaData: {
       programs: [
-        { label: "BIU Bilingüe",      desc: "Bachillerato Internacional", href: "/bachillerato", icon: "mdi:school-outline" },
-        { label: "BIU Multicultural", desc: "Diversidad e inclusión",     href: "/bachillerato", icon: "mdi:earth"          },
+        { 
+          label: "Inicio Bachillerato", 
+          desc: "Información general y admisiones", 
+          href: "/bachillerato", 
+          icon: "mdi:home-outline",
+          children: [
+            { label: "BIU Bilingüe", desc: "Bachillerato Internacional", href: "/bachillerato/biu-bilingue", icon: "mdi:school-outline" },
+            { label: "BIU Multicultural", desc: "Diversidad e inclusión", href: "/bachillerato/biu-multicultural", icon: "mdi:earth" }
+          ]
+        },
       ],
       tools: [
         { label: "Proceso de Admisión", href: "/bachillerato",                                             icon: "mdi:arrow-right",           cta: true },
@@ -81,9 +89,9 @@ const programs: Program[] = [
       ],
     },
     children: [
-      { label: "BIU UNINTER",     href: "/bachillerato" },
-      { label: "BIU Bilingüe",    href: "/bachillerato" },
-      { label: "BIU Multicultural", href: "/bachillerato" },
+      { label: "Inicio Bachillerato", href: "/bachillerato" },
+      { label: "BIU Bilingüe",    href: "/bachillerato/biu-bilingue", sub: true },
+      { label: "BIU Multicultural", href: "/bachillerato/biu-multicultural", sub: true },
       { label: "Admisiones BIU", href: "/bachillerato" },
     ],
   },
@@ -91,12 +99,20 @@ const programs: Program[] = [
     label: "Secundaria",
     slug: "secundaria",
     color: "#ECAB00",
-    href: "https://siu.uninter.edu.mx/",
+    href: "/secundaria",
     mega: true,
     megaData: {
       programs: [
-        { label: "SIU Bilingüe",      desc: "Secundaria Internacional", href: "/secundaria", icon: "mdi:school-outline" },
-        { label: "SIU Multicultural", desc: "Diversidad e inclusión",   href: "/secundaria", icon: "mdi:earth"          },
+        { 
+          label: "Inicio Secundaria", 
+          desc: "Información general y admisiones", 
+          href: "/secundaria", 
+          icon: "mdi:home-outline",
+          children: [
+            { label: "SIU Bilingüe", desc: "Secundaria Internacional", href: "/secundaria/siu-bilingue", icon: "mdi:school-outline" },
+            { label: "SIU Multicultural", desc: "Diversidad e inclusión", href: "/secundaria/siu-multicultural", icon: "mdi:earth" }
+          ]
+        },
       ],
       tools: [
         { label: "Proceso de Admisión", href: "/secundaria",                                                      icon: "mdi:arrow-right",           cta: true },
@@ -104,9 +120,9 @@ const programs: Program[] = [
       ],
     },
     children: [
-      { label: "SIU UNINTER",     href: "/secundaria" },
-      { label: "SIU Bilingüe",    href: "/secundaria" },
-      { label: "SIU Multicultural", href: "/secundaria" },
+      { label: "Inicio Secundaria", href: "/secundaria" },
+      { label: "SIU Bilingüe",    href: "/secundaria/siu-bilingue", sub: true },
+      { label: "SIU Multicultural", href: "/secundaria/siu-multicultural", sub: true },
       { label: "Admisiones SIU", href: "/secundaria" },
     ],
   },
@@ -114,13 +130,13 @@ const programs: Program[] = [
     label: "Posgrados",
     slug: "posgrados",
     color: "#546E7A",
-    href: "https://posgrados.uninter.edu.mx/",
+    href: "/posgrados",
     mega: true,
     megaData: {
       programs: [
-        { label: "Especialidades",  desc: "Profundización profesional",  href: "/posgrados", icon: "mdi:certificate-outline" },
-        { label: "Maestrías",       desc: "Alto nivel académico",         href: "/posgrados", icon: "mdi:school-outline"      },
-        { label: "Doctorados",      desc: "Investigación de excelencia",  href: "/posgrados", icon: "mdi:flask-outline"       },
+        { label: "Especialidades",  desc: "Profundización profesional",  href: "/posgrados/especialidades", icon: "mdi:certificate-outline" },
+        { label: "Maestrías",       desc: "Alto nivel académico",         href: "/posgrados/maestrias", icon: "mdi:school-outline"      },
+        { label: "Doctorados",      desc: "Investigación de excelencia",  href: "/posgrados/doctorados", icon: "mdi:flask-outline"       },
       ],
       tools: [
         { label: "Proceso de Admisión", href: "/posgrados/admisiones", icon: "mdi:arrow-right", cta: true },
@@ -128,9 +144,11 @@ const programs: Program[] = [
       ],
     },
     children: [
-      { label: "Sitio Web",          href: "/posgrados"                                   },
-      { label: "Folletos Digitales", href: "https://posgrados.uninter.edu.mx/folletos"    },
-      { label: "Admisiones",         href: "/posgrados/admisiones"                        },
+      { label: "Inicio Posgrados",   href: "/posgrados" },
+      { label: "Especialidades",    href: "/posgrados/especialidades", sub: true },
+      { label: "Maestrías",         href: "/posgrados/maestrias",      sub: true },
+      { label: "Doctorados",        href: "/posgrados/doctorados",     sub: true },
+      { label: "Admisiones",        href: "/posgrados/admisiones" },
     ],
   },
   {
@@ -314,18 +332,73 @@ const social = [
                       <div class="nh-mega__col">
                         <p class="nh-mega__heading">Programas</p>
                         <template v-for="mp in prog.megaData.programs" :key="mp.label">
-                          <NuxtLink v-if="mp.href.startsWith('/')" :to="mp.href" class="nh-mega__card">
-                            <div class="nh-mega__card-icon" :style="`background:${prog.color}18; color:${prog.color}`"><Icon :name="mp.icon" size="18" /></div>
-                            <div><p class="nh-mega__card-title">{{ mp.label }}</p><p class="nh-mega__card-desc">{{ mp.desc }}</p></div>
-                          </NuxtLink>
-                          <a v-else-if="mp.external" :href="mp.href" target="_blank" class="nh-mega__card">
-                            <div class="nh-mega__card-icon" :style="`background:${prog.color}18; color:${prog.color}`"><Icon :name="mp.icon" size="18" /></div>
-                            <div><p class="nh-mega__card-title">{{ mp.label }}</p><p class="nh-mega__card-desc">{{ mp.desc }}</p></div>
-                          </a>
-                          <a v-else :href="mp.href" class="nh-mega__card">
-                            <div class="nh-mega__card-icon" :style="`background:${prog.color}18; color:${prog.color}`"><Icon :name="mp.icon" size="18" /></div>
-                            <div><p class="nh-mega__card-title">{{ mp.label }}</p><p class="nh-mega__card-desc">{{ mp.desc }}</p></div>
-                          </a>
+                          <!-- If it has sub-programs (children) -->
+                          <div v-if="mp.children && mp.children.length" class="nh-mega__card-parent-group" :style="`--gc: ${prog.color}; --gc-bg: ${prog.color}12`">
+                            <NuxtLink v-if="mp.href.startsWith('/')" :to="mp.href" class="nh-mega__card nh-mega__card--parent">
+                              <div class="nh-mega__card-icon" :style="`background:${prog.color}18; color:${prog.color}`"><Icon :name="mp.icon" size="18" /></div>
+                              <div>
+                                <p class="nh-mega__card-title">{{ mp.label }}</p>
+                                <p class="nh-mega__card-desc">{{ mp.desc }}</p>
+                              </div>
+                            </NuxtLink>
+                            <a v-else-if="mp.external" :href="mp.href" target="_blank" class="nh-mega__card nh-mega__card--parent">
+                              <div class="nh-mega__card-icon" :style="`background:${prog.color}18; color:${prog.color}`"><Icon :name="mp.icon" size="18" /></div>
+                              <div>
+                                <p class="nh-mega__card-title">{{ mp.label }}</p>
+                                <p class="nh-mega__card-desc">{{ mp.desc }}</p>
+                              </div>
+                            </a>
+                            <a v-else :href="mp.href" class="nh-mega__card nh-mega__card--parent">
+                              <div class="nh-mega__card-icon" :style="`background:${prog.color}18; color:${prog.color}`"><Icon :name="mp.icon" size="18" /></div>
+                              <div>
+                                <p class="nh-mega__card-title">{{ mp.label }}</p>
+                                <p class="nh-mega__card-desc">{{ mp.desc }}</p>
+                              </div>
+                            </a>
+
+                            <!-- Sub-programas que "salen" de la opción principal -->
+                            <div class="nh-mega__sub-list">
+                              <template v-for="sub in mp.children" :key="sub.label">
+                                <NuxtLink v-if="sub.href.startsWith('/')" :to="sub.href" class="nh-mega__card nh-mega__card--sub">
+                                  <div class="nh-mega__card-icon nh-mega__card-icon--sub" :style="`background:${prog.color}18; color:${prog.color}`"><Icon :name="sub.icon" size="16" /></div>
+                                  <div>
+                                    <p class="nh-mega__card-title nh-mega__card-title--sub">{{ sub.label }}</p>
+                                    <p class="nh-mega__card-desc nh-mega__card-desc--sub">{{ sub.desc }}</p>
+                                  </div>
+                                </NuxtLink>
+                                <a v-else-if="sub.external" :href="sub.href" target="_blank" class="nh-mega__card nh-mega__card--sub">
+                                  <div class="nh-mega__card-icon nh-mega__card-icon--sub" :style="`background:${prog.color}18; color:${prog.color}`"><Icon :name="sub.icon" size="16" /></div>
+                                  <div>
+                                    <p class="nh-mega__card-title nh-mega__card-title--sub">{{ sub.label }}</p>
+                                    <p class="nh-mega__card-desc nh-mega__card-desc--sub">{{ sub.desc }}</p>
+                                  </div>
+                                </a>
+                                <a v-else :href="sub.href" class="nh-mega__card nh-mega__card--sub">
+                                  <div class="nh-mega__card-icon nh-mega__card-icon--sub" :style="`background:${prog.color}18; color:${prog.color}`"><Icon :name="sub.icon" size="16" /></div>
+                                  <div>
+                                    <p class="nh-mega__card-title nh-mega__card-title--sub">{{ sub.label }}</p>
+                                    <p class="nh-mega__card-desc nh-mega__card-desc--sub">{{ sub.desc }}</p>
+                                  </div>
+                                </a>
+                              </template>
+                            </div>
+                          </div>
+
+                          <!-- Normal item without children -->
+                          <template v-else>
+                            <NuxtLink v-if="mp.href.startsWith('/')" :to="mp.href" class="nh-mega__card">
+                              <div class="nh-mega__card-icon" :style="`background:${prog.color}18; color:${prog.color}`"><Icon :name="mp.icon" size="18" /></div>
+                              <div><p class="nh-mega__card-title">{{ mp.label }}</p><p class="nh-mega__card-desc">{{ mp.desc }}</p></div>
+                            </NuxtLink>
+                            <a v-else-if="mp.external" :href="mp.href" target="_blank" class="nh-mega__card">
+                              <div class="nh-mega__card-icon" :style="`background:${prog.color}18; color:${prog.color}`"><Icon :name="mp.icon" size="18" /></div>
+                              <div><p class="nh-mega__card-title">{{ mp.label }}</p><p class="nh-mega__card-desc">{{ mp.desc }}</p></div>
+                            </a>
+                            <a v-else :href="mp.href" class="nh-mega__card">
+                              <div class="nh-mega__card-icon" :style="`background:${prog.color}18; color:${prog.color}`"><Icon :name="mp.icon" size="18" /></div>
+                              <div><p class="nh-mega__card-title">{{ mp.label }}</p><p class="nh-mega__card-desc">{{ mp.desc }}</p></div>
+                            </a>
+                          </template>
                         </template>
                       </div>
                       <div class="nh-mega__divider"></div>
@@ -522,6 +595,7 @@ const social = [
                     v-if="c.href.startsWith('/')"
                     :to="c.href"
                     class="nh-mobile__link"
+                    :class="{ 'nh-mobile__link--sub': c.sub }"
                     @click="mobileOpen = false"
                     >{{ c.label }}</NuxtLink
                   >
@@ -530,6 +604,7 @@ const social = [
                     :href="c.href"
                     target="_blank"
                     class="nh-mobile__link"
+                    :class="{ 'nh-mobile__link--sub': c.sub }"
                     @click="mobileOpen = false"
                     >{{ c.label }}</a
                   >
@@ -1323,5 +1398,74 @@ border: 2px solid rgba(255, 255, 255, 0.4);
 .nh-mega__tool-link:hover {
   background: #f8fafc;
   color: var(--txt);
+}
+
+/* Cuadro desplegable para sub-programas (Bachillerato Bilingüe y Multicultural) */
+.nh-mega__card-parent-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.nh-mega__sub-list {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding-left: 1.25rem;
+  border-left: 2px dashed var(--gc-bg, rgba(107, 175, 4, 0.2));
+  margin-left: 1.5rem;
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
+              opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              margin-top 0.3s ease,
+              margin-bottom 0.3s ease,
+              border-left-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Al pasar el cursor por el grupo (padre o hijos), se expande con transición */
+.nh-mega__card-parent-group:hover .nh-mega__sub-list {
+  max-height: 200px;
+  opacity: 1;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+  border-left-color: var(--gc);
+}
+
+.nh-mega__card--sub {
+  padding: 0.375rem 0.5rem !important;
+  background: transparent !important;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.nh-mega__card--sub:hover {
+  background: var(--gc-bg) !important;
+  transform: translateX(4px);
+}
+
+.nh-mega__card-icon--sub {
+  width: 28px !important;
+  height: 28px !important;
+  border-radius: 6px !important;
+  background: var(--gc-bg) !important;
+}
+
+.nh-mega__card-title--sub {
+  font-size: 0.76rem !important;
+}
+
+.nh-mega__card-desc--sub {
+  font-size: 0.64rem !important;
+}
+
+/* Sub-links en menú móvil */
+.nh-mobile__link--sub {
+  padding-left: 1.5rem !important;
+  opacity: 0.85;
+  border-left: 2px dashed rgba(255, 255, 255, 0.2);
+  margin-left: 0.5rem;
 }
 </style>

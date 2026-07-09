@@ -23,7 +23,6 @@ useHead({
     <HeroBanner />
     <Welcome />
     <OfertaEducativa />
-    <PhotoStrip />
     <VidaAcademica />
     <Internacionalizacion />
     <ModeloAcademico />

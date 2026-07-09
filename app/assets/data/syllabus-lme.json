@@ -1,10 +1,25 @@
 {
   "categories": [
-    { "label": "Todas las materias", "value": "all" },
-    { "label": "🎯 Estrategia Comercial", "value": "estrategia" },
-    { "label": "📱 Marketing Digital", "value": "digital" },
-    { "label": "🔍 Investigación de Mercados", "value": "investigacion" },
-    { "label": "🌐 Formación General", "value": "general" }
+    {
+      "label": "Todas las materias",
+      "value": "all"
+    },
+    {
+      "label": "🎯 Estrategia Comercial",
+      "value": "estrategia"
+    },
+    {
+      "label": "📱 Marketing Digital",
+      "value": "digital"
+    },
+    {
+      "label": "🔍 Investigación de Mercados",
+      "value": "investigacion"
+    },
+    {
+      "label": "🌐 Formación General",
+      "value": "general"
+    }
   ],
   "syllabus": [
     {
@@ -14,23 +29,59 @@
         {
           "title": "Primer Semestre",
           "subjects": [
-            { "name": "Fundamentos de Mercadotecnia", "tag": "estrategia" },
-            { "name": "Administración General", "tag": "general" },
-            { "name": "Microeconomía", "tag": "general" },
-            { "name": "Contabilidad Básica", "tag": "general" },
-            { "name": "Taller de Comunicación Oral y Escrita", "tag": "general" },
-            { "name": "Lengua Extranjera I", "tag": "general" }
+            {
+              "name": "Fundamentos de Mercadotecnia",
+              "tag": "estrategia"
+            },
+            {
+              "name": "Administración General",
+              "tag": "general"
+            },
+            {
+              "name": "Microeconomía",
+              "tag": "general"
+            },
+            {
+              "name": "Contabilidad Básica",
+              "tag": "general"
+            },
+            {
+              "name": "Taller de Comunicación Oral y Escrita",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Segundo Semestre",
           "subjects": [
-            { "name": "Comportamiento del Consumidor", "tag": "investigacion" },
-            { "name": "Estadística Descriptiva para Negocios", "tag": "investigacion" },
-            { "name": "Macroeconomía", "tag": "general" },
-            { "name": "Introducción al Marketing Digital", "tag": "digital" },
-            { "name": "Psicología Social Aplicada", "tag": "investigacion" },
-            { "name": "Lengua Extranjera II", "tag": "general" }
+            {
+              "name": "Comportamiento del Consumidor",
+              "tag": "investigacion"
+            },
+            {
+              "name": "Estadística Descriptiva para Negocios",
+              "tag": "investigacion"
+            },
+            {
+              "name": "Macroeconomía",
+              "tag": "general"
+            },
+            {
+              "name": "Introducción al Marketing Digital",
+              "tag": "digital"
+            },
+            {
+              "name": "Psicología Social Aplicada",
+              "tag": "investigacion"
+            },
+            {
+              "name": "Lengua Extranjera II",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -42,23 +93,59 @@
         {
           "title": "Tercer Semestre",
           "subjects": [
-            { "name": "Investigación de Mercados Cuantitativa", "tag": "investigacion" },
-            { "name": "Estrategia de Producto y Marca", "tag": "estrategia" },
-            { "name": "Publicidad y Comunicación Integrada", "tag": "estrategia" },
-            { "name": "Gestión de Redes Sociales", "tag": "digital" },
-            { "name": "Costos y Presupuestos de Marketing", "tag": "general" },
-            { "name": "Lengua Extranjera III", "tag": "general" }
+            {
+              "name": "Investigación de Mercados Cuantitativa",
+              "tag": "investigacion"
+            },
+            {
+              "name": "Estrategia de Producto y Marca",
+              "tag": "estrategia"
+            },
+            {
+              "name": "Publicidad y Comunicación Integrada",
+              "tag": "estrategia"
+            },
+            {
+              "name": "Gestión de Redes Sociales",
+              "tag": "digital"
+            },
+            {
+              "name": "Costos y Presupuestos de Marketing",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera III",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Cuarto Semestre",
           "subjects": [
-            { "name": "Investigación de Mercados Cualitativa", "tag": "investigacion" },
-            { "name": "Estrategia de Precios y Distribución", "tag": "estrategia" },
-            { "name": "SEO, SEM y Analítica Web", "tag": "digital" },
-            { "name": "Ventas y Negociación Comercial", "tag": "estrategia" },
-            { "name": "Derecho Mercantil para Mercadólogos", "tag": "general" },
-            { "name": "Lengua Extranjera IV", "tag": "general" }
+            {
+              "name": "Investigación de Mercados Cualitativa",
+              "tag": "investigacion"
+            },
+            {
+              "name": "Estrategia de Precios y Distribución",
+              "tag": "estrategia"
+            },
+            {
+              "name": "SEO, SEM y Analítica Web",
+              "tag": "digital"
+            },
+            {
+              "name": "Ventas y Negociación Comercial",
+              "tag": "estrategia"
+            },
+            {
+              "name": "Derecho Mercantil para Mercadólogos",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera IV",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -70,21 +157,51 @@
         {
           "title": "Quinto Semestre",
           "subjects": [
-            { "name": "Plan de Mercadotecnia Estratégica", "tag": "estrategia" },
-            { "name": "E-Commerce y Marketplaces", "tag": "digital" },
-            { "name": "Neuromarketing y Experiencia del Cliente", "tag": "investigacion" },
-            { "name": "Marketing de Contenidos y Storytelling", "tag": "digital" },
-            { "name": "Optativa I", "tag": "general" }
+            {
+              "name": "Plan de Mercadotecnia Estratégica",
+              "tag": "estrategia"
+            },
+            {
+              "name": "E-Commerce y Marketplaces",
+              "tag": "digital"
+            },
+            {
+              "name": "Neuromarketing y Experiencia del Cliente",
+              "tag": "investigacion"
+            },
+            {
+              "name": "Marketing de Contenidos y Storytelling",
+              "tag": "digital"
+            },
+            {
+              "name": "Optativa I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Sexto Semestre",
           "subjects": [
-            { "name": "Mercadotecnia Internacional", "tag": "estrategia" },
-            { "name": "Publicidad Programática y Performance", "tag": "digital" },
-            { "name": "Trade Marketing y Punto de Venta", "tag": "estrategia" },
-            { "name": "Analítica de Datos para Marketing", "tag": "investigacion" },
-            { "name": "Optativa II", "tag": "general" }
+            {
+              "name": "Mercadotecnia Internacional",
+              "tag": "estrategia"
+            },
+            {
+              "name": "Publicidad Programática y Performance",
+              "tag": "digital"
+            },
+            {
+              "name": "Trade Marketing y Punto de Venta",
+              "tag": "estrategia"
+            },
+            {
+              "name": "Analítica de Datos para Marketing",
+              "tag": "investigacion"
+            },
+            {
+              "name": "Optativa II",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -96,23 +213,56 @@
         {
           "title": "Séptimo Semestre",
           "subjects": [
-            { "name": "Seminario de Titulación I", "tag": "estrategia" },
-            { "name": "Dirección de Marketing y Liderazgo", "tag": "estrategia" },
-            { "name": "Innovación y Desarrollo de Nuevos Productos", "tag": "investigacion" },
-            { "name": "Ética Publicitaria y Responsabilidad Social", "tag": "general" },
-            { "name": "Prácticas Profesionales I", "tag": "general" }
+            {
+              "name": "Seminario de Titulación I",
+              "tag": "estrategia"
+            },
+            {
+              "name": "Dirección de Marketing y Liderazgo",
+              "tag": "estrategia"
+            },
+            {
+              "name": "Innovación y Desarrollo de Nuevos Productos",
+              "tag": "investigacion"
+            },
+            {
+              "name": "Ética Publicitaria y Responsabilidad Social",
+              "tag": "general"
+            },
+            {
+              "name": "Prácticas Profesionales I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Octavo Semestre",
           "subjects": [
-            { "name": "Seminario de Titulación II", "tag": "estrategia" },
-            { "name": "Simulador de Negocios y Marketing", "tag": "digital" },
-            { "name": "Emprendimiento y Startups de Base Tecnológica", "tag": "general" },
-            { "name": "Prácticas Profesionales II", "tag": "general" }
+            {
+              "name": "Seminario de Titulación II",
+              "tag": "estrategia"
+            },
+            {
+              "name": "Simulador de Negocios y Marketing",
+              "tag": "digital"
+            },
+            {
+              "name": "Emprendimiento y Startups de Base Tecnológica",
+              "tag": "general"
+            },
+            {
+              "name": "Prácticas Profesionales II",
+              "tag": "general"
+            }
           ]
         }
       ]
     }
+  ],
+  "optativas": [
+    "Mercadotecnia de Servicios y Relaciones B2B",
+    "E-Commerce y Estrategias de Venta Online",
+    "Retail Marketing y Visual Merchandising",
+    "Estrategias de Distribución y Trade Marketing"
   ]
 }

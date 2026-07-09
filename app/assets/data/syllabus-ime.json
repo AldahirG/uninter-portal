@@ -1,10 +1,25 @@
 {
   "categories": [
-    { "label": "Todas las materias", "value": "all" },
-    { "label": "⚙️ Mecánica", "value": "mecanica" },
-    { "label": "🔌 Electrónica", "value": "electronica" },
-    { "label": "🖥️ Programación y Control", "value": "programacion" },
-    { "label": "🌐 Formación General", "value": "general" }
+    {
+      "label": "Todas las materias",
+      "value": "all"
+    },
+    {
+      "label": "⚙️ Mecánica",
+      "value": "mecanica"
+    },
+    {
+      "label": "🔌 Electrónica",
+      "value": "electronica"
+    },
+    {
+      "label": "🖥️ Programación y Control",
+      "value": "programacion"
+    },
+    {
+      "label": "🌐 Formación General",
+      "value": "general"
+    }
   ],
   "syllabus": [
     {
@@ -14,23 +29,59 @@
         {
           "title": "Primer Semestre",
           "subjects": [
-            { "name": "Cálculo Diferencial", "tag": "general" },
-            { "name": "Física I (Mecánica Clásica)", "tag": "mecanica" },
-            { "name": "Fundamentos de Programación", "tag": "programacion" },
-            { "name": "Dibujo Mecánico e Industrial", "tag": "mecanica" },
-            { "name": "Álgebra Lineal", "tag": "general" },
-            { "name": "Lengua Extranjera I", "tag": "general" }
+            {
+              "name": "Cálculo Diferencial",
+              "tag": "general"
+            },
+            {
+              "name": "Física I (Mecánica Clásica)",
+              "tag": "mecanica"
+            },
+            {
+              "name": "Fundamentos de Programación",
+              "tag": "programacion"
+            },
+            {
+              "name": "Dibujo Mecánico e Industrial",
+              "tag": "mecanica"
+            },
+            {
+              "name": "Álgebra Lineal",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Segundo Semestre",
           "subjects": [
-            { "name": "Cálculo Integral", "tag": "general" },
-            { "name": "Física II (Electricidad y Magnetismo)", "tag": "electronica" },
-            { "name": "Programación Orientada a Objetos", "tag": "programacion" },
-            { "name": "Estática y Dinámica", "tag": "mecanica" },
-            { "name": "Química para Ingeniería", "tag": "general" },
-            { "name": "Lengua Extranjera II", "tag": "general" }
+            {
+              "name": "Cálculo Integral",
+              "tag": "general"
+            },
+            {
+              "name": "Física II (Electricidad y Magnetismo)",
+              "tag": "electronica"
+            },
+            {
+              "name": "Programación Orientada a Objetos",
+              "tag": "programacion"
+            },
+            {
+              "name": "Estática y Dinámica",
+              "tag": "mecanica"
+            },
+            {
+              "name": "Química para Ingeniería",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera II",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -42,23 +93,59 @@
         {
           "title": "Tercer Semestre",
           "subjects": [
-            { "name": "Ecuaciones Diferenciales", "tag": "general" },
-            { "name": "Circuitos Eléctricos", "tag": "electronica" },
-            { "name": "Resistencia de Materiales", "tag": "mecanica" },
-            { "name": "Mecanismos y Máquinas", "tag": "mecanica" },
-            { "name": "Programación de Microcontroladores", "tag": "programacion" },
-            { "name": "Lengua Extranjera III", "tag": "general" }
+            {
+              "name": "Ecuaciones Diferenciales",
+              "tag": "general"
+            },
+            {
+              "name": "Circuitos Eléctricos",
+              "tag": "electronica"
+            },
+            {
+              "name": "Resistencia de Materiales",
+              "tag": "mecanica"
+            },
+            {
+              "name": "Mecanismos y Máquinas",
+              "tag": "mecanica"
+            },
+            {
+              "name": "Programación de Microcontroladores",
+              "tag": "programacion"
+            },
+            {
+              "name": "Lengua Extranjera III",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Cuarto Semestre",
           "subjects": [
-            { "name": "Electrónica Analógica", "tag": "electronica" },
-            { "name": "Termodinámica Aplicada", "tag": "mecanica" },
-            { "name": "Diseño Asistido por Computadora (CAD/CAM)", "tag": "mecanica" },
-            { "name": "Electrónica Digital", "tag": "electronica" },
-            { "name": "Métodos Numéricos", "tag": "programacion" },
-            { "name": "Lengua Extranjera IV", "tag": "general" }
+            {
+              "name": "Electrónica Analógica",
+              "tag": "electronica"
+            },
+            {
+              "name": "Termodinámica Aplicada",
+              "tag": "mecanica"
+            },
+            {
+              "name": "Diseño Asistido por Computadora (CAD/CAM)",
+              "tag": "mecanica"
+            },
+            {
+              "name": "Electrónica Digital",
+              "tag": "electronica"
+            },
+            {
+              "name": "Métodos Numéricos",
+              "tag": "programacion"
+            },
+            {
+              "name": "Lengua Extranjera IV",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -70,21 +157,51 @@
         {
           "title": "Quinto Semestre",
           "subjects": [
-            { "name": "Sistemas de Control Automático", "tag": "programacion" },
-            { "name": "Instrumentación y Sensores", "tag": "electronica" },
-            { "name": "Diseño de Elementos de Máquinas", "tag": "mecanica" },
-            { "name": "Programación de PLCs y Automatización", "tag": "programacion" },
-            { "name": "Optativa I", "tag": "general" }
+            {
+              "name": "Sistemas de Control Automático",
+              "tag": "programacion"
+            },
+            {
+              "name": "Instrumentación y Sensores",
+              "tag": "electronica"
+            },
+            {
+              "name": "Diseño de Elementos de Máquinas",
+              "tag": "mecanica"
+            },
+            {
+              "name": "Programación de PLCs y Automatización",
+              "tag": "programacion"
+            },
+            {
+              "name": "Optativa I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Sexto Semestre",
           "subjects": [
-            { "name": "Robótica Industrial", "tag": "programacion" },
-            { "name": "Sistemas Neumáticos e Hidráulicos", "tag": "mecanica" },
-            { "name": "Electrónica de Potencia", "tag": "electronica" },
-            { "name": "Manufactura Avanzada y CNC", "tag": "mecanica" },
-            { "name": "Optativa II", "tag": "general" }
+            {
+              "name": "Robótica Industrial",
+              "tag": "programacion"
+            },
+            {
+              "name": "Sistemas Neumáticos e Hidráulicos",
+              "tag": "mecanica"
+            },
+            {
+              "name": "Electrónica de Potencia",
+              "tag": "electronica"
+            },
+            {
+              "name": "Manufactura Avanzada y CNC",
+              "tag": "mecanica"
+            },
+            {
+              "name": "Optativa II",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -96,23 +213,56 @@
         {
           "title": "Séptimo Semestre",
           "subjects": [
-            { "name": "Seminario de Titulación I", "tag": "programacion" },
-            { "name": "Sistemas Embebidos y IoT", "tag": "electronica" },
-            { "name": "Visión Artificial y Procesamiento de Señales", "tag": "programacion" },
-            { "name": "Ética y Legislación en Ingeniería", "tag": "general" },
-            { "name": "Prácticas Profesionales I", "tag": "general" }
+            {
+              "name": "Seminario de Titulación I",
+              "tag": "programacion"
+            },
+            {
+              "name": "Sistemas Embebidos y IoT",
+              "tag": "electronica"
+            },
+            {
+              "name": "Visión Artificial y Procesamiento de Señales",
+              "tag": "programacion"
+            },
+            {
+              "name": "Ética y Legislación en Ingeniería",
+              "tag": "general"
+            },
+            {
+              "name": "Prácticas Profesionales I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Octavo Semestre",
           "subjects": [
-            { "name": "Seminario de Titulación II", "tag": "programacion" },
-            { "name": "Proyecto Integrador de Mecatrónica", "tag": "mecanica" },
-            { "name": "Industria 4.0 y Manufactura Inteligente", "tag": "electronica" },
-            { "name": "Prácticas Profesionales II", "tag": "general" }
+            {
+              "name": "Seminario de Titulación II",
+              "tag": "programacion"
+            },
+            {
+              "name": "Proyecto Integrador de Mecatrónica",
+              "tag": "mecanica"
+            },
+            {
+              "name": "Industria 4.0 y Manufactura Inteligente",
+              "tag": "electronica"
+            },
+            {
+              "name": "Prácticas Profesionales II",
+              "tag": "general"
+            }
           ]
         }
       ]
     }
+  ],
+  "optativas": [
+    "Robótica Industrial y Programación de PLC",
+    "Sistemas Embebidos y Microcontroladores",
+    "Visión Artificial y Machine Learning Aplicado",
+    "Sistemas Hidráulicos y Neumáticos Industriales"
   ]
 }

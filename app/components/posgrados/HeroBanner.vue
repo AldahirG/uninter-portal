@@ -1,4 +1,4 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 import { BookOpen, Award, FlaskConical, GraduationCap } from "lucide-vue-next";
 
 const stats = [
@@ -57,7 +57,7 @@ const stats = [
           <NuxtLink to="/posgrados/admisiones" class="pg-btn pg-btn--primary">
             Proceso de Admisión
           </NuxtLink>
-          <a href="https://posgrados.uninter.edu.mx/" target="_blank" class="pg-btn pg-btn--ghost">
+          <a href="#oferta-posgrados" class="pg-btn pg-btn--ghost">
             Ver programas
           </a>
         </div>

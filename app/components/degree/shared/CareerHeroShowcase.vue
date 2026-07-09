@@ -25,6 +25,7 @@ import {
 // Props dinámicos
 const props = defineProps<{
   data: {
+    slug?: string;
     name: string;
     tagline: string;
     description: string;
@@ -32,6 +33,14 @@ const props = defineProps<{
     egreso: string;
   }
 }>();
+
+// Datos para la barra de estadísticas inferior (estilo diplomados)
+const stats = [
+  { value: "8 Sem.",    label: "Plan Semestral" },
+  { value: "SEP RVOE",  label: "Validez Oficial" },
+  { value: "Presencial",label: "Modalidad" },
+  { value: "Global",    label: "Doble Titulación" },
+];
 
 // Carrusel de imágenes de fondo (podrían ser dinámicas después)
 const backgroundImages = [
@@ -53,7 +62,9 @@ const formatTagline = (tagline: string) => {
   <header class="career-hero-section">
     <!-- FONDO CINEMÁTICO CON ACETERNITY SPOTLIGHT -->
     <div class="hero-bg-wrapper">
+      <!-- Swiper para fondos normales -->
       <Swiper
+        v-if="data?.slug !== 'comunicacion'"
         :modules="[Autoplay, EffectFade]"
         effect="fade"
         :fade-effect="{ crossFade: true }"
@@ -70,9 +81,20 @@ const formatTagline = (tagline: string) => {
           </div>
         </SwiperSlide>
       </Swiper>
+
+      <!-- Fondo de patrón repetido para Comunicación -->
+      <div v-else class="bg-pattern-wrapper">
+        <div class="bg-overlay"></div>
+      </div>
+
       <!-- EFECTO SPOTLIGHT ACETERNITY -->
       <div class="aceternity-spotlight"></div>
     </div>
+
+    <!-- ELEMENTOS DECO ESTILO DIPLOMADOS -->
+    <div class="hero-deco hero-deco--tl" aria-hidden="true"><BookOpen :size="34" /></div>
+    <div class="hero-deco hero-deco--tr" aria-hidden="true"><Award :size="30" /></div>
+    <div class="hero-deco hero-deco--br" aria-hidden="true"><Briefcase :size="28" /></div>
 
     <div class="uninter-container">
       <div class="hero-content-grid">
@@ -163,6 +185,16 @@ const formatTagline = (tagline: string) => {
         </div>
       </div>
     </div>
+
+    <!-- BARRA DE ESTADÍSTICAS ESTILO DIPLOMADOS -->
+    <div class="hero-stats-bar">
+      <div class="uninter-container stats-inner">
+        <div v-for="stat in stats" :key="stat.label" class="hero-stat">
+          <span class="hero-stat__value">{{ stat.value }}</span>
+          <span class="hero-stat__label">{{ stat.label }}</span>
+        </div>
+      </div>
+    </div>
   </header>
 </template>
 
@@ -230,6 +262,15 @@ const formatTagline = (tagline: string) => {
     rgba(15, 60, 97, 0.85) 0%,
     rgba(15, 60, 97, 0.3) 100%
   );
+  z-index: 1;
+}
+
+.bg-pattern-wrapper {
+  position: absolute;
+  inset: 0;
+  background-image: url('/images/background/comunicacion-pattern.jpg');
+  background-repeat: repeat;
+  background-size: 240px;
   z-index: 1;
 }
 
@@ -808,6 +849,97 @@ const formatTagline = (tagline: string) => {
   .ranking-float-badge {
     width: 100%;
     text-align: left;
+  }
+}
+
+/* =========================================================
+   BARRA DE ESTADÍSTICAS ESTILO DIPLOMADOS
+========================================================= */
+.hero-stats-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(15, 60, 97, 0.2);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 15;
+}
+.stats-inner {
+  display: flex;
+  align-items: stretch;
+  padding: 0 !important;
+}
+.hero-stat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem 1.5rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  gap: 0.2rem;
+}
+.hero-stat:last-child {
+  border-right: none;
+}
+.hero-stat__value {
+  font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+  font-weight: 900;
+  color: #fde68a;
+  line-height: 1;
+}
+.hero-stat__label {
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  text-align: center;
+}
+
+/* =========================================================
+   ELEMENTOS DECO ESTILO DIPLOMADOS
+========================================================= */
+.hero-deco {
+  position: absolute;
+  z-index: 5;
+  opacity: 0.12;
+  color: #ffffff;
+  pointer-events: none;
+}
+.hero-deco--tl {
+  top: 14%;
+  left: 5%;
+}
+.hero-deco--tr {
+  top: 10%;
+  right: 8%;
+}
+.hero-deco--br {
+  bottom: 25%;
+  right: 12%;
+}
+
+@media (max-width: 768px) {
+  .stats-inner {
+    flex-wrap: wrap;
+  }
+  .hero-stat {
+    flex: 1 1 50%;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 1rem 0.5rem;
+  }
+  .hero-stat:nth-child(odd) {
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .hero-stat:nth-last-child(-n+2) {
+    border-bottom: none;
+  }
+  .hero-deco {
+    display: none;
   }
 }
 </style>

@@ -1,10 +1,25 @@
 {
   "categories": [
-    { "label": "Todas las materias", "value": "all" },
-    { "label": "📢 Relaciones Públicas", "value": "rp" },
-    { "label": "✍️ Medios y Vocería", "value": "voceria" },
-    { "label": "🎨 Branding y Creatividad", "value": "branding" },
-    { "label": "🌐 Formación General", "value": "general" }
+    {
+      "label": "Todas las materias",
+      "value": "all"
+    },
+    {
+      "label": "📢 Relaciones Públicas",
+      "value": "rp"
+    },
+    {
+      "label": "✍️ Medios y Vocería",
+      "value": "voceria"
+    },
+    {
+      "label": "🎨 Branding y Creatividad",
+      "value": "branding"
+    },
+    {
+      "label": "🌐 Formación General",
+      "value": "general"
+    }
   ],
   "syllabus": [
     {
@@ -14,23 +29,59 @@
         {
           "title": "Primer Semestre",
           "subjects": [
-            { "name": "Introducción a las Relaciones Públicas", "tag": "rp" },
-            { "name": "Teorías de la Comunicación Corporativa", "tag": "voceria" },
-            { "name": "Taller de Expresión Oral y Redacción", "tag": "general" },
-            { "name": "Fotografía e Imagen Digital", "tag": "branding" },
-            { "name": "Fundamentos de Administración", "tag": "general" },
-            { "name": "Lengua Extranjera I", "tag": "general" }
+            {
+              "name": "Introducción a las Relaciones Públicas",
+              "tag": "rp"
+            },
+            {
+              "name": "Teorías de la Comunicación Corporativa",
+              "tag": "voceria"
+            },
+            {
+              "name": "Taller de Expresión Oral y Redacción",
+              "tag": "general"
+            },
+            {
+              "name": "Fotografía e Imagen Digital",
+              "tag": "branding"
+            },
+            {
+              "name": "Fundamentos de Administración",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Segundo Semestre",
           "subjects": [
-            { "name": "Comunicación Escrita y Redacción R.P.", "tag": "rp" },
-            { "name": "Opinión Pública e Imagen Institucional", "tag": "voceria" },
-            { "name": "Mercadotecnia Básica", "tag": "branding" },
-            { "name": "Diseño Gráfico Editorial", "tag": "branding" },
-            { "name": "Herramientas Digitales y Web", "tag": "general" },
-            { "name": "Lengua Extranjera II", "tag": "general" }
+            {
+              "name": "Comunicación Escrita y Redacción R.P.",
+              "tag": "rp"
+            },
+            {
+              "name": "Opinión Pública e Imagen Institucional",
+              "tag": "voceria"
+            },
+            {
+              "name": "Mercadotecnia Básica",
+              "tag": "branding"
+            },
+            {
+              "name": "Diseño Gráfico Editorial",
+              "tag": "branding"
+            },
+            {
+              "name": "Herramientas Digitales y Web",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera II",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -42,23 +93,59 @@
         {
           "title": "Tercer Semestre",
           "subjects": [
-            { "name": "Planificación Estratégica de R.P.", "tag": "rp" },
-            { "name": "Protocolo, Ceremonial y Eventos", "tag": "rp" },
-            { "name": "Géneros Periodísticos y de Opinión", "tag": "voceria" },
-            { "name": "Producción de Audio y Podcasts", "tag": "voceria" },
-            { "name": "Identidad e Imagen Corporativa", "tag": "branding" },
-            { "name": "Lengua Extranjera III", "tag": "general" }
+            {
+              "name": "Planificación Estratégica de R.P.",
+              "tag": "rp"
+            },
+            {
+              "name": "Protocolo, Ceremonial y Eventos",
+              "tag": "rp"
+            },
+            {
+              "name": "Géneros Periodísticos y de Opinión",
+              "tag": "voceria"
+            },
+            {
+              "name": "Producción de Audio y Podcasts",
+              "tag": "voceria"
+            },
+            {
+              "name": "Identidad e Imagen Corporativa",
+              "tag": "branding"
+            },
+            {
+              "name": "Lengua Extranjera III",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Cuarto Semestre",
           "subjects": [
-            { "name": "Vocería y Media Training", "tag": "voceria" },
-            { "name": "Producción de Video y Contenido Digital", "tag": "voceria" },
-            { "name": "Publicidad y Creatividad Estratégica", "tag": "branding" },
-            { "name": "Comunicación Política y Gubernamental", "tag": "voceria" },
-            { "name": "Estadística para Ciencias Sociales", "tag": "general" },
-            { "name": "Lengua Extranjera IV", "tag": "general" }
+            {
+              "name": "Vocería y Media Training",
+              "tag": "voceria"
+            },
+            {
+              "name": "Producción de Video y Contenido Digital",
+              "tag": "voceria"
+            },
+            {
+              "name": "Publicidad y Creatividad Estratégica",
+              "tag": "branding"
+            },
+            {
+              "name": "Comunicación Política y Gubernamental",
+              "tag": "voceria"
+            },
+            {
+              "name": "Estadística para Ciencias Sociales",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera IV",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -70,21 +157,51 @@
         {
           "title": "Quinto Semestre",
           "subjects": [
-            { "name": "Gestión de Crisis y Reputación Online", "tag": "rp" },
-            { "name": "Comunicación Interna y Clima Laboral", "tag": "rp" },
-            { "name": "Marketing Digital y Redes Sociales", "tag": "branding" },
-            { "name": "Legislación y Ética de la Comunicación", "tag": "general" },
-            { "name": "Optativa I", "tag": "general" }
+            {
+              "name": "Gestión de Crisis y Reputación Online",
+              "tag": "rp"
+            },
+            {
+              "name": "Comunicación Interna y Clima Laboral",
+              "tag": "rp"
+            },
+            {
+              "name": "Marketing Digital y Redes Sociales",
+              "tag": "branding"
+            },
+            {
+              "name": "Legislación y Ética de la Comunicación",
+              "tag": "general"
+            },
+            {
+              "name": "Optativa I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Sexto Semestre",
           "subjects": [
-            { "name": "Auditoría de Comunicación y R.P.", "tag": "rp" },
-            { "name": "Relaciones Públicas Internacionales", "tag": "rp" },
-            { "name": "Mercadotecnia de Servicios", "tag": "branding" },
-            { "name": "Metodología de la Investigación", "tag": "general" },
-            { "name": "Optativa II", "tag": "general" }
+            {
+              "name": "Auditoría de Comunicación y R.P.",
+              "tag": "rp"
+            },
+            {
+              "name": "Relaciones Públicas Internacionales",
+              "tag": "rp"
+            },
+            {
+              "name": "Mercadotecnia de Servicios",
+              "tag": "branding"
+            },
+            {
+              "name": "Metodología de la Investigación",
+              "tag": "general"
+            },
+            {
+              "name": "Optativa II",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -96,23 +213,56 @@
         {
           "title": "Séptimo Semestre",
           "subjects": [
-            { "name": "Seminario de Titulación I", "tag": "general" },
-            { "name": "Estrategia Transmedia y Narrativa", "tag": "branding" },
-            { "name": "Lobbying y Asuntos Públicos", "tag": "voceria" },
-            { "name": "Prácticas Profesionales Integrales", "tag": "rp" },
-            { "name": "Optativa III", "tag": "general" }
+            {
+              "name": "Seminario de Titulación I",
+              "tag": "general"
+            },
+            {
+              "name": "Estrategia Transmedia y Narrativa",
+              "tag": "branding"
+            },
+            {
+              "name": "Lobbying y Asuntos Públicos",
+              "tag": "voceria"
+            },
+            {
+              "name": "Prácticas Profesionales Integrales",
+              "tag": "rp"
+            },
+            {
+              "name": "Optativa III",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Octavo Semestre",
           "subjects": [
-            { "name": "Seminario de Titulación II", "tag": "general" },
-            { "name": "Emprendimiento de Agencias de R.P.", "tag": "rp" },
-            { "name": "Responsabilidad Social Corporativa", "tag": "general" },
-            { "name": "Ética Profesional", "tag": "general" }
+            {
+              "name": "Seminario de Titulación II",
+              "tag": "general"
+            },
+            {
+              "name": "Emprendimiento de Agencias de R.P.",
+              "tag": "rp"
+            },
+            {
+              "name": "Responsabilidad Social Corporativa",
+              "tag": "general"
+            },
+            {
+              "name": "Ética Profesional",
+              "tag": "general"
+            }
           ]
         }
       ]
     }
+  ],
+  "optativas": [
+    "Gestión de Crisis e Imagen Corporativa",
+    "Comunicación Política y Gubernamental",
+    "Organización de Eventos Masivos",
+    "Media Training y Vocería"
   ]
 }

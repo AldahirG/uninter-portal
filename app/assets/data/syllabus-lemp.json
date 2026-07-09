@@ -1,0 +1,268 @@
+{
+  "categories": [
+    {
+      "label": "Todas las materias",
+      "value": "all"
+    },
+    {
+      "label": "📈 Mercadotecnia",
+      "value": "mercadotecnia"
+    },
+    {
+      "label": "📢 Publicidad",
+      "value": "publicidad"
+    },
+    {
+      "label": "📱 Medios Digitales",
+      "value": "digital"
+    },
+    {
+      "label": "🌐 Formación General",
+      "value": "general"
+    }
+  ],
+  "syllabus": [
+    {
+      "id": "sem-1-2",
+      "tabLabel": "Semestres 1 y 2",
+      "blocks": [
+        {
+          "title": "Primer Semestre",
+          "subjects": [
+            {
+              "name": "Mercadotecnia Básica",
+              "tag": "mercadotecnia"
+            },
+            {
+              "name": "Introducción a la Publicidad",
+              "tag": "publicidad"
+            },
+            {
+              "name": "Fotografía Digital Publicitaria",
+              "tag": "publicidad"
+            },
+            {
+              "name": "Contabilidad Básica para Negocios",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera I",
+              "tag": "general"
+            },
+            {
+              "name": "Matemáticas para Negocios",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Segundo Semestre",
+          "subjects": [
+            {
+              "name": "Comportamiento del Consumidor",
+              "tag": "mercadotecnia"
+            },
+            {
+              "name": "Diseño Gráfico Publicitario I",
+              "tag": "publicidad"
+            },
+            {
+              "name": "Copywriting y Redacción Creativa",
+              "tag": "publicidad"
+            },
+            {
+              "name": "Introducción a los Medios Digitales",
+              "tag": "digital"
+            },
+            {
+              "name": "Lengua Extranjera II",
+              "tag": "general"
+            },
+            {
+              "name": "Estadística para Mercadotecnia",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-3-4",
+      "tabLabel": "Semestres 3 y 4",
+      "blocks": [
+        {
+          "title": "Tercer Semestre",
+          "subjects": [
+            {
+              "name": "Investigación de Mercados Cualitativa",
+              "tag": "mercadotecnia"
+            },
+            {
+              "name": "Diseño Gráfico Publicitario II",
+              "tag": "publicidad"
+            },
+            {
+              "name": "Planificación y Pauta en Medios Tradicionales",
+              "tag": "publicidad"
+            },
+            {
+              "name": "Administración de Finanzas y Costos",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera III",
+              "tag": "general"
+            },
+            {
+              "name": "Estadística Inferencial",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Cuarto Semestre",
+          "subjects": [
+            {
+              "name": "Investigación de Mercados Cuantitativa",
+              "tag": "mercadotecnia"
+            },
+            {
+              "name": "Producción de Video y Spots Comerciales",
+              "tag": "publicidad"
+            },
+            {
+              "name": "Mercadotecnia y Publicidad Digital",
+              "tag": "digital"
+            },
+            {
+              "name": "Administración de Ventas",
+              "tag": "mercadotecnia"
+            },
+            {
+              "name": "Lengua Extranjera IV",
+              "tag": "general"
+            },
+            {
+              "name": "Derecho de Autor y Leyes Publicitarias",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-5-6",
+      "tabLabel": "Semestres 5 y 6",
+      "blocks": [
+        {
+          "title": "Quinto Semestre",
+          "subjects": [
+            {
+              "name": "Neuromarketing y Biometría",
+              "tag": "mercadotecnia"
+            },
+            {
+              "name": "Dirección Creativa y de Cuentas",
+              "tag": "publicidad"
+            },
+            {
+              "name": "Administración de Campañas Meta y Google Ads",
+              "tag": "digital"
+            },
+            {
+              "name": "Estrategia de Branding y Relaciones Públicas",
+              "tag": "mercadotecnia"
+            },
+            {
+              "name": "Optativa I",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Sexto Semestre",
+          "subjects": [
+            {
+              "name": "Growth Hacking y Analítica Web",
+              "tag": "digital"
+            },
+            {
+              "name": "Publicidad BTL y Campañas de Guerrilla",
+              "tag": "publicidad"
+            },
+            {
+              "name": "Dirección de Arte y Producción Creativa",
+              "tag": "publicidad"
+            },
+            {
+              "name": "Estrategias de Precios e Innovación",
+              "tag": "mercadotecnia"
+            },
+            {
+              "name": "Optativa II",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-7-8",
+      "tabLabel": "Semestres 7 y 8",
+      "blocks": [
+        {
+          "title": "Séptimo Semestre",
+          "subjects": [
+            {
+              "name": "Seminario de Titulación I",
+              "tag": "general"
+            },
+            {
+              "name": "Auditoría de Marcas y Reputación Online",
+              "tag": "digital"
+            },
+            {
+              "name": "Responsabilidad Social en la Publicidad",
+              "tag": "general"
+            },
+            {
+              "name": "Estrategia de Mercadotecnia Social y Política",
+              "tag": "mercadotecnia"
+            },
+            {
+              "name": "Prácticas Profesionales I",
+              "tag": "publicidad"
+            }
+          ]
+        },
+        {
+          "title": "Octavo Semestre",
+          "subjects": [
+            {
+              "name": "Seminario de Titulación II",
+              "tag": "general"
+            },
+            {
+              "name": "Simulador de Dirección Creativa",
+              "tag": "publicidad"
+            },
+            {
+              "name": "Emprendimiento Creativo e Incubación",
+              "tag": "mercadotecnia"
+            },
+            {
+              "name": "Prácticas Profesionales II",
+              "tag": "publicidad"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "optativas": [
+    "Publicidad Digital y Compra de Medios",
+    "Dirección Creativa y Copywriting Publicitario",
+    "Investigación de Mercados Cualitativa y Cuantitativa",
+    "Relaciones Públicas y Gestión de Reputación"
+  ]
+}

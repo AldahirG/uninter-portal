@@ -1,4 +1,4 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 import { Check } from "lucide-vue-next";
 
 const programas = [
@@ -16,8 +16,8 @@ const programas = [
       "Metodología activa e innovadora",
       "Certificaciones internacionales",
     ],
-    imagen: "/images/hero/licenciaturasPresenciales.jpg",
-    href: "https://siu.uninter.edu.mx/",
+    imagen: "/images/Secundaria/14.jpg",
+    href: "/secundaria/siu-multicultural",
   },
   {
     id: "bilingue",
@@ -33,8 +33,8 @@ const programas = [
       "Inmersión lingüística total",
       "Programas de intercambio",
     ],
-    imagen: "/images/hero/ejecutivas.jpg",
-    href: "https://siu.uninter.edu.mx/",
+    imagen: "/images/Secundaria/17.jpg",
+    href: "/secundaria/siu-bilingue",
   },
 ];
 </script>
@@ -45,7 +45,9 @@ const programas = [
       <div class="oferta-header">
         <p class="oferta-eyebrow">Programas SIU</p>
         <h2 class="oferta-title">Oferta Educativa</h2>
-        <p class="oferta-sub">Elige la modalidad que mejor se adapte a tu visión y metas</p>
+        <p class="oferta-sub">
+          Elige la modalidad que mejor se adapte a tu visión y metas
+        </p>
       </div>
 
       <div class="oferta-grid">
@@ -57,7 +59,12 @@ const programas = [
         >
           <!-- Imagen -->
           <div class="prog-card__img-wrap">
-            <img :src="p.imagen" :alt="p.nombre" class="prog-card__img" loading="lazy" />
+            <img
+              :src="p.imagen"
+              :alt="p.nombre"
+              class="prog-card__img"
+              loading="lazy"
+            />
             <div class="prog-card__img-overlay"></div>
             <div class="prog-card__tag">{{ p.sigla }}</div>
           </div>
@@ -74,9 +81,9 @@ const programas = [
               </li>
             </ul>
 
-            <a :href="p.href" target="_blank" class="prog-card__cta">
+            <NuxtLink :to="p.href" class="prog-card__cta">
               A SIU {{ p.sigla.split(" ").pop() }} →
-            </a>
+            </NuxtLink>
           </div>
         </div>
       </div>
@@ -104,7 +111,7 @@ const programas = [
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #ECAB00;
+  color: #ecab00;
   margin: 0 0 0.5rem;
 }
 .oferta-title {
@@ -131,15 +138,18 @@ const programas = [
   background: #fff;
   border-radius: 18px;
   overflow: hidden;
-  border: 2px solid rgba(0,0,0,0.06);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
-  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+  border: 2px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s,
+    border-color 0.3s;
   display: flex;
   flex-direction: column;
 }
 .prog-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 16px 40px rgba(0,0,0,0.12);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
   border-color: var(--pc);
 }
 
@@ -154,12 +164,14 @@ const programas = [
   object-fit: cover;
   transition: transform 0.5s ease;
 }
-.prog-card:hover .prog-card__img { transform: scale(1.05); }
+.prog-card:hover .prog-card__img {
+  transform: scale(1.05);
+}
 
 .prog-card__img-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 50%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 50%);
 }
 
 .prog-card__tag {
@@ -174,7 +186,7 @@ const programas = [
   text-transform: uppercase;
   padding: 0.35rem 0.9rem;
   border-radius: 6px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.25);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
 }
 
 .prog-card__body {
@@ -229,7 +241,9 @@ const programas = [
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   text-decoration: none;
-  transition: background 0.2s, transform 0.2s;
+  transition:
+    background 0.2s,
+    transform 0.2s;
   cursor: pointer;
 }
 .prog-card__cta:hover {
@@ -239,6 +253,8 @@ const programas = [
 }
 
 @media (max-width: 768px) {
-  .oferta-grid { grid-template-columns: 1fr; }
+  .oferta-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

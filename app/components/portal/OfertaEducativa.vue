@@ -9,7 +9,7 @@ const niveles = [
     bg: '#e8f0fd',
     border: '#b5d0f7',
     text: '#0C447C',
-    href: 'https://universidad.uninter.edu.mx/',
+    href: '/LicenciaturasPresenciales',
     desc: '23 licenciaturas · 6 ingenierías',
     icon: 'mdi:school-outline',
     stats: ['Presencial', 'Ejecutiva'],
@@ -21,7 +21,7 @@ const niveles = [
     bg: '#e8f5e9',
     border: '#a5d6a7',
     text: '#1B5E20',
-    href: 'https://biu.uninter.edu.mx/',
+    href: '/bachillerato',
     desc: 'Bachillerato Internacional BIU',
     icon: 'mdi:book-open-outline',
     stats: ['Presencial'],
@@ -33,7 +33,7 @@ const niveles = [
     bg: '#fff3e0',
     border: '#ffcc80',
     text: '#BF360C',
-    href: 'https://siu.uninter.edu.mx/',
+    href: '/secundaria',
     desc: 'Secundaria Internacional SIU',
     icon: 'mdi:pencil-outline',
     stats: ['Presencial'],
@@ -45,7 +45,7 @@ const niveles = [
     bg: '#f3f4f6',
     border: '#d1d5db',
     text: '#37474F',
-    href: 'https://posgrados.uninter.edu.mx/',
+    href: '/posgrados',
     desc: 'Maestrías y especializaciones',
     icon: 'mdi:certificate-outline',
     stats: ['Presencial', 'En línea'],
@@ -57,7 +57,7 @@ const niveles = [
     bg: '#fdf2ee',
     border: '#f0bda7',
     text: '#4E342E',
-    href: 'https://diplomados.uninter.edu.mx/',
+    href: '/diplomados',
     desc: 'Capacitación profesional',
     icon: 'mdi:briefcase-outline',
     stats: ['Presencial'],
@@ -93,32 +93,59 @@ const niveles = [
       </div>
 
       <div class="oe-grid">
-        <a
-          v-for="nivel in niveles"
-          :key="nivel.slug"
-          :href="nivel.href"
-          target="_blank"
-          rel="noopener"
-          class="oe-card"
-          :style="`--c:${nivel.color};--bg:${nivel.bg};--br:${nivel.border};--tx:${nivel.text}`"
-        >
-          <div class="oe-card__top-bar"></div>
+        <template v-for="nivel in niveles" :key="nivel.slug">
+          <!-- NuxtLink for internal pages -->
+          <NuxtLink
+            v-if="nivel.href.startsWith('/')"
+            :to="nivel.href"
+            class="oe-card"
+            :style="`--c:${nivel.color};--bg:${nivel.bg};--br:${nivel.border};--tx:${nivel.text}`"
+          >
+            <div class="oe-card__top-bar"></div>
 
-          <div class="oe-card__icon">
-            <Icon :name="nivel.icon" size="26" />
-          </div>
+            <div class="oe-card__icon">
+              <Icon :name="nivel.icon" size="26" />
+            </div>
 
-          <h3 class="oe-card__title">{{ nivel.label }}</h3>
-          <p class="oe-card__desc">{{ nivel.desc }}</p>
+            <h3 class="oe-card__title">{{ nivel.label }}</h3>
+            <p class="oe-card__desc">{{ nivel.desc }}</p>
 
-          <div class="oe-card__pills">
-            <span v-for="s in nivel.stats" :key="s" class="oe-pill">{{ s }}</span>
-          </div>
+            <div class="oe-card__pills">
+              <span v-for="s in nivel.stats" :key="s" class="oe-pill">{{ s }}</span>
+            </div>
 
-          <div class="oe-card__link">
-            Ir al sitio <ArrowRight :size="13" />
-          </div>
-        </a>
+            <div class="oe-card__link">
+              Conocer más <ArrowRight :size="13" />
+            </div>
+          </NuxtLink>
+
+          <!-- Anchor tag for external pages -->
+          <a
+            v-else
+            :href="nivel.href"
+            target="_blank"
+            rel="noopener"
+            class="oe-card"
+            :style="`--c:${nivel.color};--bg:${nivel.bg};--br:${nivel.border};--tx:${nivel.text}`"
+          >
+            <div class="oe-card__top-bar"></div>
+
+            <div class="oe-card__icon">
+              <Icon :name="nivel.icon" size="26" />
+            </div>
+
+            <h3 class="oe-card__title">{{ nivel.label }}</h3>
+            <p class="oe-card__desc">{{ nivel.desc }}</p>
+
+            <div class="oe-card__pills">
+              <span v-for="s in nivel.stats" :key="s" class="oe-pill">{{ s }}</span>
+            </div>
+
+            <div class="oe-card__link">
+              Ir al sitio <ArrowRight :size="13" />
+            </div>
+          </a>
+        </template>
       </div>
 
     </div>

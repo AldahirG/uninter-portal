@@ -1,10 +1,25 @@
 {
   "categories": [
-    { "label": "Todas las materias", "value": "all" },
-    { "label": "🌐 Geopolítica y Diplomacia", "value": "diplomacia" },
-    { "label": "🏛️ Ciencias Políticas", "value": "politica" },
-    { "label": "⚖️ Derecho y Convenios", "value": "derecho" },
-    { "label": "📊 Formación General", "value": "general" }
+    {
+      "label": "Todas las materias",
+      "value": "all"
+    },
+    {
+      "label": "🌐 Geopolítica y Diplomacia",
+      "value": "diplomacia"
+    },
+    {
+      "label": "🏛️ Ciencias Políticas",
+      "value": "politica"
+    },
+    {
+      "label": "⚖️ Derecho y Convenios",
+      "value": "derecho"
+    },
+    {
+      "label": "📊 Formación General",
+      "value": "general"
+    }
   ],
   "syllabus": [
     {
@@ -14,23 +29,59 @@
         {
           "title": "Primer Semestre",
           "subjects": [
-            { "name": "Introducción a las Relaciones Internacionales", "tag": "diplomacia" },
-            { "name": "Introducción a la Ciencia Política", "tag": "politica" },
-            { "name": "Historia Mundial Contemporánea I", "tag": "general" },
-            { "name": "Derecho Constitucional", "tag": "derecho" },
-            { "name": "Taller de Expresión y Argumentación", "tag": "general" },
-            { "name": "Lengua Extranjera I", "tag": "general" }
+            {
+              "name": "Introducción a las Relaciones Internacionales",
+              "tag": "diplomacia"
+            },
+            {
+              "name": "Introducción a la Ciencia Política",
+              "tag": "politica"
+            },
+            {
+              "name": "Historia Mundial Contemporánea I",
+              "tag": "general"
+            },
+            {
+              "name": "Derecho Constitucional",
+              "tag": "derecho"
+            },
+            {
+              "name": "Taller de Expresión y Argumentación",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Segundo Semestre",
           "subjects": [
-            { "name": "Teorías de las Relaciones Internacionales", "tag": "diplomacia" },
-            { "name": "Sistemas Políticos Contemporáneos", "tag": "politica" },
-            { "name": "Historia Mundial Contemporánea II", "tag": "general" },
-            { "name": "Teoría del Estado", "tag": "politica" },
-            { "name": "Metodología de las Ciencias Sociales", "tag": "general" },
-            { "name": "Lengua Extranjera II", "tag": "general" }
+            {
+              "name": "Teorías de las Relaciones Internacionales",
+              "tag": "diplomacia"
+            },
+            {
+              "name": "Sistemas Políticos Contemporáneos",
+              "tag": "politica"
+            },
+            {
+              "name": "Historia Mundial Contemporánea II",
+              "tag": "general"
+            },
+            {
+              "name": "Teoría del Estado",
+              "tag": "politica"
+            },
+            {
+              "name": "Metodología de las Ciencias Sociales",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera II",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -42,23 +93,59 @@
         {
           "title": "Tercer Semestre",
           "subjects": [
-            { "name": "Geopolítica y Geoestrategia", "tag": "diplomacia" },
-            { "name": "Política Exterior de México I", "tag": "diplomacia" },
-            { "name": "Partidos Políticos y Procesos Electorales", "tag": "politica" },
-            { "name": "Derecho Internacional Público", "tag": "derecho" },
-            { "name": "Economía Política Internacional", "tag": "politica" },
-            { "name": "Lengua Extranjera III", "tag": "general" }
+            {
+              "name": "Geopolítica y Geoestrategia",
+              "tag": "diplomacia"
+            },
+            {
+              "name": "Política Exterior de México I",
+              "tag": "diplomacia"
+            },
+            {
+              "name": "Partidos Políticos y Procesos Electorales",
+              "tag": "politica"
+            },
+            {
+              "name": "Derecho Internacional Público",
+              "tag": "derecho"
+            },
+            {
+              "name": "Economía Política Internacional",
+              "tag": "politica"
+            },
+            {
+              "name": "Lengua Extranjera III",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Cuarto Semestre",
           "subjects": [
-            { "name": "Organismos Internacionales (ONU, OEA)", "tag": "diplomacia" },
-            { "name": "Política Exterior de México II", "tag": "diplomacia" },
-            { "name": "Opinión Pública y Marketing Político", "tag": "politica" },
-            { "name": "Derecho Internacional Privado", "tag": "derecho" },
-            { "name": "Análisis y Diseño de Políticas Públicas", "tag": "politica" },
-            { "name": "Lengua Extranjera IV", "tag": "general" }
+            {
+              "name": "Organismos Internacionales (ONU, OEA)",
+              "tag": "diplomacia"
+            },
+            {
+              "name": "Política Exterior de México II",
+              "tag": "diplomacia"
+            },
+            {
+              "name": "Opinión Pública y Marketing Político",
+              "tag": "politica"
+            },
+            {
+              "name": "Derecho Internacional Privado",
+              "tag": "derecho"
+            },
+            {
+              "name": "Análisis y Diseño de Políticas Públicas",
+              "tag": "politica"
+            },
+            {
+              "name": "Lengua Extranjera IV",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -70,21 +157,51 @@
         {
           "title": "Quinto Semestre",
           "subjects": [
-            { "name": "Seguridad Internacional y Conflictos", "tag": "diplomacia" },
-            { "name": "Gobernabilidad y Transición Política", "tag": "politica" },
-            { "name": "Derechos Humanos y Organismos Multilaterales", "tag": "derecho" },
-            { "name": "Comunicación Política e Imagen Pública", "tag": "politica" },
-            { "name": "Optativa I", "tag": "general" }
+            {
+              "name": "Seguridad Internacional y Conflictos",
+              "tag": "diplomacia"
+            },
+            {
+              "name": "Gobernabilidad y Transición Política",
+              "tag": "politica"
+            },
+            {
+              "name": "Derechos Humanos y Organismos Multilaterales",
+              "tag": "derecho"
+            },
+            {
+              "name": "Comunicación Política e Imagen Pública",
+              "tag": "politica"
+            },
+            {
+              "name": "Optativa I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Sexto Semestre",
           "subjects": [
-            { "name": "Negociación y Mediación Diplomática", "tag": "diplomacia" },
-            { "name": "Sociología Política", "tag": "politica" },
-            { "name": "Cooperación Internacional para el Desarrollo", "tag": "diplomacia" },
-            { "name": "Estadística Aplicada a Ciencias Políticas", "tag": "general" },
-            { "name": "Optativa II", "tag": "general" }
+            {
+              "name": "Negociación y Mediación Diplomática",
+              "tag": "diplomacia"
+            },
+            {
+              "name": "Sociología Política",
+              "tag": "politica"
+            },
+            {
+              "name": "Cooperación Internacional para el Desarrollo",
+              "tag": "diplomacia"
+            },
+            {
+              "name": "Estadística Aplicada a Ciencias Políticas",
+              "tag": "general"
+            },
+            {
+              "name": "Optativa II",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -96,23 +213,56 @@
         {
           "title": "Séptimo Semestre",
           "subjects": [
-            { "name": "Seminario de Titulación I", "tag": "general" },
-            { "name": "Análisis Geopolítico Regional (Asia y Medio Oriente)", "tag": "diplomacia" },
-            { "name": "Gobernanza y Asuntos Públicos", "tag": "politica" },
-            { "name": "Prácticas Profesionales y Servicio Exterior", "tag": "diplomacia" },
-            { "name": "Optativa III", "tag": "general" }
+            {
+              "name": "Seminario de Titulación I",
+              "tag": "general"
+            },
+            {
+              "name": "Análisis Geopolítico Regional (Asia y Medio Oriente)",
+              "tag": "diplomacia"
+            },
+            {
+              "name": "Gobernanza y Asuntos Públicos",
+              "tag": "politica"
+            },
+            {
+              "name": "Prácticas Profesionales y Servicio Exterior",
+              "tag": "diplomacia"
+            },
+            {
+              "name": "Optativa III",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Octavo Semestre",
           "subjects": [
-            { "name": "Seminario de Titulación II", "tag": "general" },
-            { "name": "Prospectiva Política y Escenarios Globales", "tag": "politica" },
-            { "name": "Lobbying y Cabildeo Legislativo", "tag": "politica" },
-            { "name": "Ética y Responsabilidad Pública", "tag": "general" }
+            {
+              "name": "Seminario de Titulación II",
+              "tag": "general"
+            },
+            {
+              "name": "Prospectiva Política y Escenarios Globales",
+              "tag": "politica"
+            },
+            {
+              "name": "Lobbying y Cabildeo Legislativo",
+              "tag": "politica"
+            },
+            {
+              "name": "Ética y Responsabilidad Pública",
+              "tag": "general"
+            }
           ]
         }
       ]
     }
+  ],
+  "optativas": [
+    "Geopolítica y Resolución de Conflictos Internacionales",
+    "Cabildeo y Políticas Públicas Comparadas",
+    "Estudios Regionales (Asia-Pacífico y Medio Oriente)",
+    "Opinión Pública y Campañas Electorales"
   ]
 }

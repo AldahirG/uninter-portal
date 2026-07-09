@@ -1,0 +1,268 @@
+{
+  "categories": [
+    {
+      "label": "Todas las materias",
+      "value": "all"
+    },
+    {
+      "label": "⚖️ Legislación y Aduanas",
+      "value": "aduanas"
+    },
+    {
+      "label": "🚢 Logística y Operaciones",
+      "value": "logistica"
+    },
+    {
+      "label": "🌍 Negocios Internacionales",
+      "value": "negocios"
+    },
+    {
+      "label": "🌐 Formación General",
+      "value": "general"
+    }
+  ],
+  "syllabus": [
+    {
+      "id": "sem-1-2",
+      "tabLabel": "Semestres 1 y 2",
+      "blocks": [
+        {
+          "title": "Primer Semestre",
+          "subjects": [
+            {
+              "name": "Introducción al Comercio Exterior",
+              "tag": "negocios"
+            },
+            {
+              "name": "Derecho Constitucional y Mercantil",
+              "tag": "aduanas"
+            },
+            {
+              "name": "Contabilidad Básica",
+              "tag": "general"
+            },
+            {
+              "name": "Geografía Económica Global",
+              "tag": "negocios"
+            },
+            {
+              "name": "Matemáticas Básicas",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera I",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Segundo Semestre",
+          "subjects": [
+            {
+              "name": "Fundamentos de Derecho Aduanero",
+              "tag": "aduanas"
+            },
+            {
+              "name": "Microeconomía",
+              "tag": "negocios"
+            },
+            {
+              "name": "Contabilidad de Costos e Impuestos",
+              "tag": "general"
+            },
+            {
+              "name": "Teoría del Comercio Internacional",
+              "tag": "negocios"
+            },
+            {
+              "name": "Lengua Extranjera II",
+              "tag": "general"
+            },
+            {
+              "name": "Estadística Básica",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-3-4",
+      "tabLabel": "Semestres 3 y 4",
+      "blocks": [
+        {
+          "title": "Tercer Semestre",
+          "subjects": [
+            {
+              "name": "Clasificación Arancelaria I",
+              "tag": "aduanas"
+            },
+            {
+              "name": "Legislación Aduanera Mexicana",
+              "tag": "aduanas"
+            },
+            {
+              "name": "Logística del Transporte y Distribución",
+              "tag": "logistica"
+            },
+            {
+              "name": "Macroeconomía",
+              "tag": "negocios"
+            },
+            {
+              "name": "Lengua Extranjera III",
+              "tag": "general"
+            },
+            {
+              "name": "Estadística para Comercio Exterior",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Cuarto Semestre",
+          "subjects": [
+            {
+              "name": "Clasificación Arancelaria II",
+              "tag": "aduanas"
+            },
+            {
+              "name": "Incoterms Avanzados y Contratación",
+              "tag": "logistica"
+            },
+            {
+              "name": "Administración del Tráfico e Inventarios",
+              "tag": "logistica"
+            },
+            {
+              "name": "Regulaciones y Restricciones no Arancelarias",
+              "tag": "aduanas"
+            },
+            {
+              "name": "Lengua Extranjera IV",
+              "tag": "general"
+            },
+            {
+              "name": "Derecho Fiscal Mexicano",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-5-6",
+      "tabLabel": "Semestres 5 y 6",
+      "blocks": [
+        {
+          "title": "Quinto Semestre",
+          "subjects": [
+            {
+              "name": "Formulación de Pedimentos Aduanales",
+              "tag": "aduanas"
+            },
+            {
+              "name": "Logística del Transporte Multimodal",
+              "tag": "logistica"
+            },
+            {
+              "name": "Tratados de Libre Comercio de México",
+              "tag": "negocios"
+            },
+            {
+              "name": "Finanzas Internacionales",
+              "tag": "negocios"
+            },
+            {
+              "name": "Optativa I",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Sexto Semestre",
+          "subjects": [
+            {
+              "name": "Auditoría en Comercio Exterior e ISO",
+              "tag": "logistica"
+            },
+            {
+              "name": "Procedimiento Administrativo en Materia Aduanera",
+              "tag": "aduanas"
+            },
+            {
+              "name": "Seguros y Fletes Internacionales",
+              "tag": "logistica"
+            },
+            {
+              "name": "Estrategias de Negociación Internacional",
+              "tag": "negocios"
+            },
+            {
+              "name": "Optativa II",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-7-8",
+      "tabLabel": "Semestres 7 y 8",
+      "blocks": [
+        {
+          "title": "Séptimo Semestre",
+          "subjects": [
+            {
+              "name": "Seminario de Titulación I",
+              "tag": "general"
+            },
+            {
+              "name": "Proyectos de Exportación e Importación",
+              "tag": "negocios"
+            },
+            {
+              "name": "Sistemas de Información Aduanera (VENTANILLA ÚNICA)",
+              "tag": "aduanas"
+            },
+            {
+              "name": "Ética Profesional del Agente Aduanal",
+              "tag": "general"
+            },
+            {
+              "name": "Prácticas Profesionales I",
+              "tag": "aduanas"
+            }
+          ]
+        },
+        {
+          "title": "Octavo Semestre",
+          "subjects": [
+            {
+              "name": "Seminario de Titulación II",
+              "tag": "general"
+            },
+            {
+              "name": "Simulador de Despacho Aduanero",
+              "tag": "aduanas"
+            },
+            {
+              "name": "Emprendimiento e Incubación de Negocios",
+              "tag": "negocios"
+            },
+            {
+              "name": "Prácticas Profesionales II",
+              "tag": "aduanas"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "optativas": [
+    "Legislación Aduanera y Procedimientos de Importación",
+    "Clasificación Arancelaria y Merceología",
+    "Logística y Distribución Física Internacional",
+    "Tratados de Libre Comercio de México"
+  ]
+}

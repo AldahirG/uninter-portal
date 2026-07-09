@@ -1,10 +1,25 @@
 {
   "categories": [
-    { "label": "Todas las materias", "value": "all" },
-    { "label": "🌎 Geopolítica y Diplomacia", "value": "diplomacia" },
-    { "label": "📈 Economía y Comercio", "value": "economia" },
-    { "label": "💵 Finanzas Globales", "value": "finanzas" },
-    { "label": "📊 Formación General", "value": "general" }
+    {
+      "label": "Todas las materias",
+      "value": "all"
+    },
+    {
+      "label": "🌎 Geopolítica y Diplomacia",
+      "value": "diplomacia"
+    },
+    {
+      "label": "📈 Economía y Comercio",
+      "value": "economia"
+    },
+    {
+      "label": "💵 Finanzas Globales",
+      "value": "finanzas"
+    },
+    {
+      "label": "📊 Formación General",
+      "value": "general"
+    }
   ],
   "syllabus": [
     {
@@ -14,23 +29,59 @@
         {
           "title": "Primer Semestre",
           "subjects": [
-            { "name": "Introducción a las Relaciones Internacionales", "tag": "diplomacia" },
-            { "name": "Principios de Microeconomía", "tag": "economia" },
-            { "name": "Matemáticas para Economistas I", "tag": "general" },
-            { "name": "Historia Económica Mundial", "tag": "economia" },
-            { "name": "Taller de Redacción y Oratoria", "tag": "general" },
-            { "name": "Lengua Extranjera I", "tag": "general" }
+            {
+              "name": "Introducción a las Relaciones Internacionales",
+              "tag": "diplomacia"
+            },
+            {
+              "name": "Principios de Microeconomía",
+              "tag": "economia"
+            },
+            {
+              "name": "Matemáticas para Economistas I",
+              "tag": "general"
+            },
+            {
+              "name": "Historia Económica Mundial",
+              "tag": "economia"
+            },
+            {
+              "name": "Taller de Redacción y Oratoria",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Segundo Semestre",
           "subjects": [
-            { "name": "Teorías de las Relaciones Internacionales", "tag": "diplomacia" },
-            { "name": "Principios de Macroeconomía", "tag": "economia" },
-            { "name": "Matemáticas para Economistas II", "tag": "general" },
-            { "name": "Contabilidad General y de Costos", "tag": "general" },
-            { "name": "Estadística y Probabilidad", "tag": "general" },
-            { "name": "Lengua Extranjera II", "tag": "general" }
+            {
+              "name": "Teorías de las Relaciones Internacionales",
+              "tag": "diplomacia"
+            },
+            {
+              "name": "Principios de Macroeconomía",
+              "tag": "economia"
+            },
+            {
+              "name": "Matemáticas para Economistas II",
+              "tag": "general"
+            },
+            {
+              "name": "Contabilidad General y de Costos",
+              "tag": "general"
+            },
+            {
+              "name": "Estadística y Probabilidad",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera II",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -42,23 +93,59 @@
         {
           "title": "Tercer Semestre",
           "subjects": [
-            { "name": "Economía Política Internacional", "tag": "economia" },
-            { "name": "Microeconomía Intermedia", "tag": "economia" },
-            { "name": "Geopolítica Económica", "tag": "diplomacia" },
-            { "name": "Derecho Aduanero y de Comercio Exterior", "tag": "economia" },
-            { "name": "Introducción a las Finanzas Corporativas", "tag": "finanzas" },
-            { "name": "Lengua Extranjera III", "tag": "general" }
+            {
+              "name": "Economía Política Internacional",
+              "tag": "economia"
+            },
+            {
+              "name": "Microeconomía Intermedia",
+              "tag": "economia"
+            },
+            {
+              "name": "Geopolítica Económica",
+              "tag": "diplomacia"
+            },
+            {
+              "name": "Derecho Aduanero y de Comercio Exterior",
+              "tag": "economia"
+            },
+            {
+              "name": "Introducción a las Finanzas Corporativas",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Lengua Extranjera III",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Cuarto Semestre",
           "subjects": [
-            { "name": "Tratados de Libre Comercio (T-MEC y otros)", "tag": "economia" },
-            { "name": "Macroeconomía Intermedia", "tag": "economia" },
-            { "name": "Política Exterior de México y Comercio", "tag": "diplomacia" },
-            { "name": "Logística y Canales de Distribución Global", "tag": "economia" },
-            { "name": "Econometría Básica", "tag": "general" },
-            { "name": "Lengua Extranjera IV", "tag": "general" }
+            {
+              "name": "Tratados de Libre Comercio (T-MEC y otros)",
+              "tag": "economia"
+            },
+            {
+              "name": "Macroeconomía Intermedia",
+              "tag": "economia"
+            },
+            {
+              "name": "Política Exterior de México y Comercio",
+              "tag": "diplomacia"
+            },
+            {
+              "name": "Logística y Canales de Distribución Global",
+              "tag": "economia"
+            },
+            {
+              "name": "Econometría Básica",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera IV",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -70,21 +157,51 @@
         {
           "title": "Quinto Semestre",
           "subjects": [
-            { "name": "Mercado Global de Divisas y Derivados", "tag": "finanzas" },
-            { "name": "Finanzas Internacionales", "tag": "finanzas" },
-            { "name": "Organizaciones Económicas Internacionales", "tag": "diplomacia" },
-            { "name": "Cooperación Económica y Desarrollo", "tag": "diplomacia" },
-            { "name": "Optativa I", "tag": "general" }
+            {
+              "name": "Mercado Global de Divisas y Derivados",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Finanzas Internacionales",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Organizaciones Económicas Internacionales",
+              "tag": "diplomacia"
+            },
+            {
+              "name": "Cooperación Económica y Desarrollo",
+              "tag": "diplomacia"
+            },
+            {
+              "name": "Optativa I",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Sexto Semestre",
           "subjects": [
-            { "name": "Análisis de Riesgo País y Global", "tag": "finanzas" },
-            { "name": "Trámites de Importación y Exportación", "tag": "economia" },
-            { "name": "Negociación Comercial Internacional", "tag": "economia" },
-            { "name": "Metodología de la Investigación", "tag": "general" },
-            { "name": "Optativa II", "tag": "general" }
+            {
+              "name": "Análisis de Riesgo País y Global",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Trámites de Importación y Exportación",
+              "tag": "economia"
+            },
+            {
+              "name": "Negociación Comercial Internacional",
+              "tag": "economia"
+            },
+            {
+              "name": "Metodología de la Investigación",
+              "tag": "general"
+            },
+            {
+              "name": "Optativa II",
+              "tag": "general"
+            }
           ]
         }
       ]
@@ -96,23 +213,56 @@
         {
           "title": "Séptimo Semestre",
           "subjects": [
-            { "name": "Seminario de Titulación I", "tag": "general" },
-            { "name": "Portafolios de Inversión Globales", "tag": "finanzas" },
-            { "name": "Logística Aduanera Avanzada", "tag": "economia" },
-            { "name": "Prácticas Profesionales en Comercio/Finanzas", "tag": "economia" },
-            { "name": "Optativa III", "tag": "general" }
+            {
+              "name": "Seminario de Titulación I",
+              "tag": "general"
+            },
+            {
+              "name": "Portafolios de Inversión Globales",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Logística Aduanera Avanzada",
+              "tag": "economia"
+            },
+            {
+              "name": "Prácticas Profesionales en Comercio/Finanzas",
+              "tag": "economia"
+            },
+            {
+              "name": "Optativa III",
+              "tag": "general"
+            }
           ]
         },
         {
           "title": "Octavo Semestre",
           "subjects": [
-            { "name": "Seminario de Titulación II", "tag": "general" },
-            { "name": "Bloques Económicos y Mercados Emergentes", "tag": "economia" },
-            { "name": "Desarrollo Económico Sustentable", "tag": "economia" },
-            { "name": "Ética en los Negocios Internacionales", "tag": "general" }
+            {
+              "name": "Seminario de Titulación II",
+              "tag": "general"
+            },
+            {
+              "name": "Bloques Económicos y Mercados Emergentes",
+              "tag": "economia"
+            },
+            {
+              "name": "Desarrollo Económico Sustentable",
+              "tag": "economia"
+            },
+            {
+              "name": "Ética en los Negocios Internacionales",
+              "tag": "general"
+            }
           ]
         }
       ]
     }
+  ],
+  "optativas": [
+    "Economía Política Internacional y Comercio Global",
+    "Finanzas Públicas y Organismos Financieros Internacionales",
+    "Estrategias de Inversión Extranjera Directa",
+    "Desarrollo Económico Sustentable Regional"
   ]
 }

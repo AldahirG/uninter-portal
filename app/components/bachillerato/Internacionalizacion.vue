@@ -2,17 +2,29 @@
 import { Plane, Globe, Users, Award } from "lucide-vue-next";
 
 const datos = [
-  { icon: Globe,  value: "130+", label: "Universidades aliadas"     },
-  { icon: Users,  value: "25",   label: "Países representados"      },
-  { icon: Plane,  value: "500+", label: "Convenios internacionales" },
-  { icon: Award,  value: "2",    label: "Certificaciones incluidas" },
+  { icon: Globe, value: "130+", label: "Universidades aliadas" },
+  { icon: Users, value: "25", label: "Países representados" },
+  { icon: Plane, value: "500+", label: "Convenios internacionales" },
+  { icon: Award, value: "2", label: "Certificaciones incluidas" },
 ];
 
 const programas = [
-  { nombre: "AFS Intercultural Programs",       desc: "Intercambio cultural y académico en más de 50 países."        },
-  { nombre: "Canada Options Education",         desc: "Programas de inmersión y estudios en Canadá."                 },
-  { nombre: "Latino Australia Education",       desc: "Oportunidades de estudio y trabajo en Australia."            },
-  { nombre: "Foundation for Academic Exchange", desc: "Red global de movilidad estudiantil universitaria."          },
+  {
+    nombre: "AFS Intercultural Programs",
+    desc: "Intercambio cultural y académico en más de 50 países.",
+  },
+  {
+    nombre: "Canada Options Education",
+    desc: "Programas de inmersión y estudios en Canadá.",
+  },
+  {
+    nombre: "Latino Australia Education",
+    desc: "Oportunidades de estudio y trabajo en Australia.",
+  },
+  {
+    nombre: "Foundation for Academic Exchange",
+    desc: "Red global de movilidad estudiantil universitaria.",
+  },
 ];
 </script>
 
@@ -21,7 +33,7 @@ const programas = [
     <!-- Banner con imagen -->
     <div class="inter-banner">
       <img
-        src="/images/hero/ejecutivas.jpg"
+        src="/images/bachillerato/3.jpg"
         alt="Internacionalización BIU"
         class="inter-banner__img"
       />
@@ -64,11 +76,7 @@ const programas = [
             PROGRAMAS ALIADOS
           </div>
           <div class="inter-programs__grid">
-            <div
-              v-for="p in programas"
-              :key="p.nombre"
-              class="prog-card"
-            >
+            <div v-for="p in programas" :key="p.nombre" class="prog-card">
               <Globe :size="16" class="prog-card__icon" />
               <div>
                 <p class="prog-card__name">{{ p.nombre }}</p>
@@ -121,9 +129,9 @@ const programas = [
   inset: 0;
   background: linear-gradient(
     110deg,
-    rgba(13,31,14,0.9) 0%,
-    rgba(13,31,14,0.72) 55%,
-    rgba(13,31,14,0.35) 100%
+    rgba(13, 31, 14, 0.9) 0%,
+    rgba(13, 31, 14, 0.72) 55%,
+    rgba(13, 31, 14, 0.35) 100%
   );
 }
 .inter-banner__content {
@@ -131,14 +139,16 @@ const programas = [
   z-index: 2;
   width: 100%;
 }
-.inter-banner__inner { max-width: 600px; }
+.inter-banner__inner {
+  max-width: 600px;
+}
 
 .inter-eyebrow {
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #A8D86E;
+  color: #a8d86e;
   margin: 0 0 0.875rem;
 }
 .inter-title {
@@ -150,10 +160,13 @@ const programas = [
   letter-spacing: -0.02em;
   margin: 0 0 1.25rem;
 }
-.inter-title em { font-style: normal; color: #A8D86E; }
+.inter-title em {
+  font-style: normal;
+  color: #a8d86e;
+}
 .inter-desc {
   font-size: 0.96rem;
-  color: rgba(255,255,255,0.68);
+  color: rgba(255, 255, 255, 0.68);
   line-height: 1.65;
   margin: 0;
   max-width: 520px;
@@ -182,10 +195,12 @@ const programas = [
   border-radius: 14px;
   padding: 1.75rem 1rem;
   gap: 0.5rem;
-  transition: box-shadow 0.2s, transform 0.2s;
+  transition:
+    box-shadow 0.2s,
+    transform 0.2s;
 }
 .inter-stat:hover {
-  box-shadow: 0 10px 28px rgba(107,175,4,0.12);
+  box-shadow: 0 10px 28px rgba(107, 175, 4, 0.12);
   transform: translateY(-3px);
 }
 .inter-stat__icon {
@@ -193,7 +208,7 @@ const programas = [
   height: 44px;
   border-radius: 10px;
   background: #e8f5e9;
-  color: #6BAF04;
+  color: #6baf04;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -201,7 +216,7 @@ const programas = [
 .inter-stat__value {
   font-size: clamp(1.6rem, 2.5vw, 2rem);
   font-weight: 900;
-  color: #4A7A02;
+  color: #4a7a02;
   margin: 0;
   font-family: var(--font-serif, Georgia, serif);
   line-height: 1;
@@ -215,7 +230,9 @@ const programas = [
 }
 
 /* Programas */
-.inter-programs { margin-bottom: 2.5rem; }
+.inter-programs {
+  margin-bottom: 2.5rem;
+}
 
 .biu-eyebrow {
   display: flex;
@@ -225,14 +242,14 @@ const programas = [
   font-weight: 800;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #6BAF04;
+  color: #6baf04;
   margin-bottom: 1.5rem;
 }
 .eyebrow-line {
   display: block;
   width: 24px;
   height: 2px;
-  background: #6BAF04;
+  background: #6baf04;
   flex-shrink: 0;
 }
 
@@ -250,17 +267,23 @@ const programas = [
   border: 1px solid #e2e8f0;
   border-radius: 12px;
   padding: 1.25rem 1.5rem;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
 }
 .prog-card:hover {
   border-color: #a5d6a7;
-  box-shadow: 0 6px 20px rgba(107,175,4,0.08);
+  box-shadow: 0 6px 20px rgba(107, 175, 4, 0.08);
 }
-.prog-card__icon { color: #6BAF04; flex-shrink: 0; margin-top: 2px; }
+.prog-card__icon {
+  color: #6baf04;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
 .prog-card__name {
   font-size: 0.88rem;
   font-weight: 700;
-  color: #4A7A02;
+  color: #4a7a02;
   margin: 0 0 0.25rem;
 }
 .prog-card__desc {
@@ -271,23 +294,36 @@ const programas = [
 }
 
 /* CTA link */
-.inter-cta-wrap { text-align: center; }
+.inter-cta-wrap {
+  text-align: center;
+}
 .inter-cta {
   font-size: 0.9rem;
   font-weight: 700;
-  color: #6BAF04;
+  color: #6baf04;
   text-decoration: none;
   transition: color 0.2s;
 }
-.inter-cta:hover { color: #4A7A02; text-decoration: underline; }
+.inter-cta:hover {
+  color: #4a7a02;
+  text-decoration: underline;
+}
 
 /* Responsive */
 @media (max-width: 900px) {
-  .inter-stats { grid-template-columns: repeat(2, 1fr); }
-  .inter-programs__grid { grid-template-columns: 1fr; }
+  .inter-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .inter-programs__grid {
+    grid-template-columns: 1fr;
+  }
 }
 @media (max-width: 560px) {
-  .inter-banner { height: clamp(280px, 50vh, 400px); }
-  .inter-desc { display: none; }
+  .inter-banner {
+    height: clamp(280px, 50vh, 400px);
+  }
+  .inter-desc {
+    display: none;
+  }
 }
 </style>

@@ -12,13 +12,15 @@
     <main v-else>
       <CareerHeroShowcase :data="careerData" />
       <CareerOverview :data="careerData" />
-      <CareerSyllabus :careerId="careerData.id" />
-      
-      <!-- Componente Comparativo dinámico -->
-      <CareerComparison v-if="comparisonData" :data="comparisonData" />
-
+      <CareerSyllabus :careerId="careerData.id" :syllabusDescription="planDescription" />
       <CareerCertifications :certificaciones="careerData.certificaciones" />
-      <CareerResearch :labs="careerData.experienciaPractica" />
+      <CareerResearch
+        :labs="careerData.experienciaPractica"
+        :projectsBlogUrl="careerData.projectsBlogUrl"
+      />
+
+      <CareerFAQ :faq="careerData.faq" />
+
       <CareerAdmissionCTA />
     </main>
 
@@ -36,9 +38,9 @@ import FloatingActions from "~/components/portal/FloatingActions.vue";
 import CareerHeroShowcase from "~/components/degree/shared/CareerHeroShowcase.vue";
 import CareerOverview from "~/components/degree/shared/CareerOverview.vue";
 import CareerSyllabus from "~/components/degree/shared/CareerSyllabus.vue";
-import CareerComparison from "~/components/shared/CareerComparison.vue";
 import CareerCertifications from "~/components/degree/shared/CareerCertifications.vue";
 import CareerResearch from "~/components/degree/shared/CareerResearch.vue";
+import CareerFAQ from "~/components/degree/shared/CareerFAQ.vue";
 import CareerAdmissionCTA from "~/components/degree/shared/CareerAdmissionCTA.vue";
 
 // Data JSONs
@@ -60,6 +62,16 @@ const careerData = computed(() => {
 // Extraer data comparativa si existe (también usa slugs)
 const comparisonData = computed(() => {
   return (comparisonsDB as Record<string, any>)[careerSlug.value] || null;
+});
+
+// Obtener la ventaja del plan de estudios de la comparativa o el local del JSON
+const planDescription = computed(() => {
+  if (careerData.value?.syllabusDescription) return careerData.value.syllabusDescription;
+  if (!comparisonData.value?.comparisonPoints) return "";
+  const pt = comparisonData.value.comparisonPoints.find(
+    (p: any) => p.feature.toLowerCase() === "plan de estudios"
+  );
+  return pt ? pt.uninter : "";
 });
 
 // Configurar metadatos para SEO automáticos

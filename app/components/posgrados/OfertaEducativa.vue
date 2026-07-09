@@ -56,7 +56,7 @@ const ramas = [
 </script>
 
 <template>
-  <section class="pg-ofe">
+  <section id="oferta-posgrados" class="pg-ofe">
     <div class="pg-ofe__watermark" aria-hidden="true"></div>
     <div class="pg-container">
       <div class="pg-ofe__head">

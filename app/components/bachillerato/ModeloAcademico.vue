@@ -1,11 +1,40 @@
 ﻿<script setup lang="ts">
-import { MonitorSmartphone, BookOpenCheck, Microscope, Music4, Dumbbell, ChevronRight } from "lucide-vue-next";
+import {
+  MonitorSmartphone,
+  BookOpenCheck,
+  Microscope,
+  Music4,
+  Dumbbell,
+  ChevronRight,
+} from "lucide-vue-next";
+
+const source = [
+  "/images/bachillerato/6.jpg",
+  "/images/bachillerato/7.jpg",
+  "/images/bachillerato/9.1.jpg",
+];
 
 const actividades = [
-  { icon: Microscope, nombre: "Laboratorios de ciencias", desc: "Química, biología, física y tecnología con equipamiento de vanguardia." },
-  { icon: BookOpenCheck, nombre: "Proyectos transversales", desc: "Problemáticas reales resueltas con enfoque multidisciplinario." },
-  { icon: Music4, nombre: "Arte y cultura", desc: "Talleres de teatro, música, danza y expresión artística." },
-  { icon: Dumbbell, nombre: "Deporte competitivo", desc: "Equipos representativos y activación física diaria." },
+  {
+    icon: Microscope,
+    nombre: "Laboratorios de ciencias",
+    desc: "Química, biología, física y tecnología con equipamiento de vanguardia.",
+  },
+  {
+    icon: BookOpenCheck,
+    nombre: "Proyectos transversales",
+    desc: "Problemáticas reales resueltas con enfoque multidisciplinario.",
+  },
+  {
+    icon: Music4,
+    nombre: "Arte y cultura",
+    desc: "Talleres de teatro, música, danza y expresión artística.",
+  },
+  {
+    icon: Dumbbell,
+    nombre: "Deporte competitivo",
+    desc: "Equipos representativos y activación física diaria.",
+  },
 ];
 
 const modeloPilares = [
@@ -25,6 +54,21 @@ const modeloPilares = [
     color: "#7BC905",
   },
 ];
+
+const currentIndex = ref(0);
+let timer = null;
+
+onMounted(() => {
+  timer = setInterval(() => {
+    currentIndex.value = (currentIndex.value + 1) % source.length;
+  }, 3500);
+});
+
+onUnmounted(() => {
+  if (timer) {
+    clearInterval(timer);
+  }
+});
 </script>
 
 <template>
@@ -33,7 +77,6 @@ const modeloPilares = [
     <div class="actividades-block">
       <div class="biu-container">
         <div class="actividades-layout">
-
           <div class="actividades-text">
             <div class="biu-eyebrow">
               <span class="eyebrow-line"></span>
@@ -44,9 +87,9 @@ const modeloPilares = [
             </h2>
             <p class="actividades-desc">
               En BIU cada día es una oportunidad de descubrir, crear y crecer.
-              Nuestro programa académico integra actividades prácticas, artísticas
-              y deportivas que forman estudiantes completos y preparados para la
-              universidad y la vida.
+              Nuestro programa académico integra actividades prácticas,
+              artísticas y deportivas que forman estudiantes completos y
+              preparados para la universidad y la vida.
             </p>
             <div class="act-list">
               <div v-for="a in actividades" :key="a.nombre" class="act-item">
@@ -61,17 +104,19 @@ const modeloPilares = [
             </div>
           </div>
           <div class="actividades-img-wrap">
-            <img
-              src="/images/hero/talleres.jpg"
-              alt="Actividades académicas BIU"
-              class="actividades-img"
-            />
+            <transition name="fade" mode="out-in">
+              <img
+                :key="source[currentIndex]"
+                :src="source[currentIndex]"
+                alt="Actividades académicas BIU"
+                class="actividades-img"
+              />
+            </transition>
             <div class="act-badge">
               <MonitorSmartphone :size="16" />
               <span>Modelo Blended</span>
             </div>
           </div>
-
         </div>
       </div>
     </div>
@@ -84,9 +129,7 @@ const modeloPilares = [
             <span class="eyebrow-line eyebrow-line--light"></span>
             MODELO EDUCATIVO
           </div>
-          <h2 class="flex-title">
-            Blended / Flex Learning
-          </h2>
+          <h2 class="flex-title">Blended / Flex Learning</h2>
           <p class="flex-subtitle">
             Un modelo educativo innovador que adapta la enseñanza a las
             necesidades y ritmos de cada estudiante.
@@ -94,13 +137,11 @@ const modeloPilares = [
         </div>
 
         <div class="flex-grid">
-          <div
-            v-for="p in modeloPilares"
-            :key="p.titulo"
-            class="flex-card"
-          >
+          <div v-for="p in modeloPilares" :key="p.titulo" class="flex-card">
             <div class="flex-card__bar" :style="`background: ${p.color}`"></div>
-            <h3 class="flex-card__title" :style="`color: ${p.color}`">{{ p.titulo }}</h3>
+            <h3 class="flex-card__title" :style="`color: ${p.color}`">
+              {{ p.titulo }}
+            </h3>
             <p class="flex-card__desc">{{ p.desc }}</p>
           </div>
         </div>
@@ -121,6 +162,17 @@ const modeloPilares = [
 </template>
 
 <style scoped>
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
 .biu-container {
   max-width: 1280px;
   margin: 0 auto;
@@ -148,18 +200,22 @@ const modeloPilares = [
   font-weight: 800;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #6BAF04;
+  color: #6baf04;
   margin-bottom: 1rem;
 }
-.biu-eyebrow--light { color: rgba(255,255,255,0.55); }
+.biu-eyebrow--light {
+  color: rgba(255, 255, 255, 0.55);
+}
 .eyebrow-line {
   display: block;
   width: 24px;
   height: 2px;
-  background: #6BAF04;
+  background: #6baf04;
   flex-shrink: 0;
 }
-.eyebrow-line--light { background: rgba(255,255,255,0.45); }
+.eyebrow-line--light {
+  background: rgba(255, 255, 255, 0.45);
+}
 
 .actividades-title {
   font-family: var(--font-serif, Georgia, serif);
@@ -170,7 +226,10 @@ const modeloPilares = [
   letter-spacing: -0.02em;
   margin: 0 0 1.25rem;
 }
-.actividades-title em { font-style: italic; color: #6BAF04; }
+.actividades-title em {
+  font-style: italic;
+  color: #6baf04;
+}
 
 .actividades-desc {
   font-size: 0.95rem;
@@ -194,7 +253,7 @@ const modeloPilares = [
   height: 42px;
   border-radius: 10px;
   background: #e8f5e9;
-  color: #6BAF04;
+  color: #6baf04;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -203,7 +262,7 @@ const modeloPilares = [
 .act-item__name {
   font-size: 0.9rem;
   font-weight: 700;
-  color: #4A7A02;
+  color: #4a7a02;
   margin: 0 0 0.2rem;
 }
 .act-item__desc {
@@ -229,7 +288,7 @@ const modeloPilares = [
   position: absolute;
   bottom: 1.25rem;
   right: 1.25rem;
-  background: #4A7A02;
+  background: #4a7a02;
   color: #fff;
   display: flex;
   align-items: center;
@@ -238,7 +297,7 @@ const modeloPilares = [
   font-weight: 700;
   padding: 0.45rem 1rem;
   border-radius: 20px;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
 }
 
 /* ── Modelo Flex ─────────────────────────────────────────── */
@@ -263,7 +322,7 @@ const modeloPilares = [
 
 .flex-subtitle {
   font-size: 1rem;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255, 255, 255, 0.6);
   max-width: 540px;
   margin: 0 auto;
   line-height: 1.65;
@@ -277,15 +336,17 @@ const modeloPilares = [
 }
 
 .flex-card {
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 16px;
   padding: 0 1.75rem 2rem;
   overflow: hidden;
-  transition: background 0.2s, transform 0.2s;
+  transition:
+    background 0.2s,
+    transform 0.2s;
 }
 .flex-card:hover {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   transform: translateY(-3px);
 }
 .flex-card__bar {
@@ -301,28 +362,39 @@ const modeloPilares = [
 }
 .flex-card__desc {
   font-size: 0.88rem;
-  color: rgba(255,255,255,0.62);
+  color: rgba(255, 255, 255, 0.62);
   line-height: 1.65;
   margin: 0;
 }
 
-.flex-cta-wrap { text-align: center; }
+.flex-cta-wrap {
+  text-align: center;
+}
 .flex-cta {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
   font-size: 0.88rem;
   font-weight: 700;
-  color: #A8D86E;
+  color: #a8d86e;
   text-decoration: none;
   transition: color 0.2s;
 }
-.flex-cta:hover { color: #a5d6a7; }
+.flex-cta:hover {
+  color: #a5d6a7;
+}
 
 /* Responsive */
 @media (max-width: 900px) {
-  .actividades-layout { grid-template-columns: 1fr; gap: 2.5rem; }
-  .flex-grid { grid-template-columns: 1fr; }
-  .actividades-img { aspect-ratio: 16/9; }
+  .actividades-layout {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .flex-grid {
+    grid-template-columns: 1fr;
+  }
+  .actividades-img {
+    aspect-ratio: 16/9;
+  }
 }
 </style>

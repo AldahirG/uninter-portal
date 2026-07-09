@@ -1,0 +1,268 @@
+{
+  "categories": [
+    {
+      "label": "Todas las materias",
+      "value": "all"
+    },
+    {
+      "label": "💰 Finanzas",
+      "value": "finanzas"
+    },
+    {
+      "label": "📊 Economía",
+      "value": "economia"
+    },
+    {
+      "label": "📈 Análisis Técnico",
+      "value": "analisis"
+    },
+    {
+      "label": "🌐 Formación General",
+      "value": "general"
+    }
+  ],
+  "syllabus": [
+    {
+      "id": "sem-1-2",
+      "tabLabel": "Semestres 1 y 2",
+      "blocks": [
+        {
+          "title": "Primer Semestre",
+          "subjects": [
+            {
+              "name": "Introducción a la Economía",
+              "tag": "economia"
+            },
+            {
+              "name": "Matemáticas I: Cálculo Diferencial",
+              "tag": "analisis"
+            },
+            {
+              "name": "Contabilidad Financiera",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Historia Económica General",
+              "tag": "economia"
+            },
+            {
+              "name": "Lengua Extranjera I",
+              "tag": "general"
+            },
+            {
+              "name": "Taller de Expresión Oral y Escrita",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Segundo Semestre",
+          "subjects": [
+            {
+              "name": "Microeconomía I",
+              "tag": "economia"
+            },
+            {
+              "name": "Matemáticas II: Cálculo Integral",
+              "tag": "analisis"
+            },
+            {
+              "name": "Contabilidad de Costos",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Derecho Corporativo y Fiscal",
+              "tag": "general"
+            },
+            {
+              "name": "Lengua Extranjera II",
+              "tag": "general"
+            },
+            {
+              "name": "Estadística Descriptiva",
+              "tag": "analisis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-3-4",
+      "tabLabel": "Semestres 3 y 4",
+      "blocks": [
+        {
+          "title": "Tercer Semestre",
+          "subjects": [
+            {
+              "name": "Microeconomía II",
+              "tag": "economia"
+            },
+            {
+              "name": "Macroeconomía I",
+              "tag": "economia"
+            },
+            {
+              "name": "Álgebra Lineal para Negocios",
+              "tag": "analisis"
+            },
+            {
+              "name": "Matemáticas Financieras Avanzadas",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Lengua Extranjera III",
+              "tag": "general"
+            },
+            {
+              "name": "Estadística Inferencial",
+              "tag": "analisis"
+            }
+          ]
+        },
+        {
+          "title": "Cuarto Semestre",
+          "subjects": [
+            {
+              "name": "Macroeconomía II",
+              "tag": "economia"
+            },
+            {
+              "name": "Finanzas Corporativas I",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Econometría I",
+              "tag": "analisis"
+            },
+            {
+              "name": "Mercados Financieros e Instrumentos",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Lengua Extranjera IV",
+              "tag": "general"
+            },
+            {
+              "name": "Sistemas de Información Financiera",
+              "tag": "finanzas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-5-6",
+      "tabLabel": "Semestres 5 y 6",
+      "blocks": [
+        {
+          "title": "Quinto Semestre",
+          "subjects": [
+            {
+              "name": "Finanzas Corporativas II y Valuación",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Econometría II y Series de Tiempo",
+              "tag": "analisis"
+            },
+            {
+              "name": "Análisis Técnico y Fundamental Bursátil",
+              "tag": "analisis"
+            },
+            {
+              "name": "Teoría del Crecimiento Económico",
+              "tag": "economia"
+            },
+            {
+              "name": "Optativa I",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Sexto Semestre",
+          "subjects": [
+            {
+              "name": "Administración de Riesgos Financieros",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Valuación de Derivados Financieros",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Política Económica y Monetaria",
+              "tag": "economia"
+            },
+            {
+              "name": "Formulación y Evaluación de Proyectos de Inversión",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Optativa II",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-7-8",
+      "tabLabel": "Semestres 7 y 8",
+      "blocks": [
+        {
+          "title": "Séptimo Semestre",
+          "subjects": [
+            {
+              "name": "Seminario de Titulación I",
+              "tag": "general"
+            },
+            {
+              "name": "Ingeniería Financiera Avanzada",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Economía Internacional y Balanza de Pagos",
+              "tag": "economia"
+            },
+            {
+              "name": "Ética en las Finanzas y Leyes Bursátiles",
+              "tag": "general"
+            },
+            {
+              "name": "Prácticas Profesionales I",
+              "tag": "finanzas"
+            }
+          ]
+        },
+        {
+          "title": "Octavo Semestre",
+          "subjects": [
+            {
+              "name": "Seminario de Titulación II",
+              "tag": "general"
+            },
+            {
+              "name": "Simulador de Trading y Bolsa en Tiempo Real",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Finanzas Públicas e Impuestos",
+              "tag": "economia"
+            },
+            {
+              "name": "Prácticas Profesionales II",
+              "tag": "finanzas"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "optativas": [
+    "Finanzas Corporativas y Estructura de Capital",
+    "Mercados Financieros y Bolsa de Valores",
+    "Econometría Aplicada y Ciencia de Datos Financieros",
+    "Evaluación Social de Proyectos de Inversión"
+  ]
+}

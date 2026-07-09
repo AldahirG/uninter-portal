@@ -1,0 +1,268 @@
+{
+  "categories": [
+    {
+      "label": "Todas las materias",
+      "value": "all"
+    },
+    {
+      "label": "📐 Diseño y Mecanismos",
+      "value": "diseno"
+    },
+    {
+      "label": "🔥 Termodinámica y Fluidos",
+      "value": "termica"
+    },
+    {
+      "label": "🔧 Mantenimiento y Manufactura",
+      "value": "mantenimiento"
+    },
+    {
+      "label": "🌐 Formación General",
+      "value": "general"
+    }
+  ],
+  "syllabus": [
+    {
+      "id": "sem-1-2",
+      "tabLabel": "Semestres 1 y 2",
+      "blocks": [
+        {
+          "title": "Primer Semestre",
+          "subjects": [
+            {
+              "name": "Cálculo Diferencial e Integral",
+              "tag": "general"
+            },
+            {
+              "name": "Álgebra Lineal",
+              "tag": "general"
+            },
+            {
+              "name": "Química de los Materiales",
+              "tag": "diseno"
+            },
+            {
+              "name": "Dibujo Mecánico CAD e Industrial",
+              "tag": "diseno"
+            },
+            {
+              "name": "Introducción a la Mecánica Industrial",
+              "tag": "mantenimiento"
+            },
+            {
+              "name": "Lengua Extranjera I",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Segundo Semestre",
+          "subjects": [
+            {
+              "name": "Cálculo Vectorial",
+              "tag": "general"
+            },
+            {
+              "name": "Estática",
+              "tag": "diseno"
+            },
+            {
+              "name": "Física y Ondas",
+              "tag": "general"
+            },
+            {
+              "name": "Metrología y Normalización Dimensional",
+              "tag": "mantenimiento"
+            },
+            {
+              "name": "Lengua Extranjera II",
+              "tag": "general"
+            },
+            {
+              "name": "Programación Básica en Matlab",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-3-4",
+      "tabLabel": "Semestres 3 y 4",
+      "blocks": [
+        {
+          "title": "Tercer Semestre",
+          "subjects": [
+            {
+              "name": "Ecuaciones Diferenciales",
+              "tag": "general"
+            },
+            {
+              "name": "Cinemática y Dinámica de Mecanismos",
+              "tag": "diseno"
+            },
+            {
+              "name": "Mecánica de Materiales I",
+              "tag": "diseno"
+            },
+            {
+              "name": "Termodinámica Clásica",
+              "tag": "termica"
+            },
+            {
+              "name": "Lengua Extranjera III",
+              "tag": "general"
+            },
+            {
+              "name": "Probabilidad y Estadística",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Cuarto Semestre",
+          "subjects": [
+            {
+              "name": "Mecánica de Materiales II",
+              "tag": "diseno"
+            },
+            {
+              "name": "Mecánica de Fluidos",
+              "tag": "termica"
+            },
+            {
+              "name": "Maquinado Tradicional (Torno/Fresadora)",
+              "tag": "mantenimiento"
+            },
+            {
+              "name": "Transferencia de Calor",
+              "tag": "termica"
+            },
+            {
+              "name": "Lengua Extranjera IV",
+              "tag": "general"
+            },
+            {
+              "name": "Métodos Numéricos en Ingeniería",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-5-6",
+      "tabLabel": "Semestres 5 y 6",
+      "blocks": [
+        {
+          "title": "Quinto Semestre",
+          "subjects": [
+            {
+              "name": "Diseño de Elementos de Máquinas (SolidWorks)",
+              "tag": "diseno"
+            },
+            {
+              "name": "Sistemas Neumáticos e Hidráulicos de Potencia",
+              "tag": "termica"
+            },
+            {
+              "name": "Metalurgia y Ciencia de Materiales",
+              "tag": "diseno"
+            },
+            {
+              "name": "Procesos de Soldadura y Ensamble",
+              "tag": "mantenimiento"
+            },
+            {
+              "name": "Optativa I",
+              "tag": "general"
+            }
+          ]
+        },
+        {
+          "title": "Sexto Semestre",
+          "subjects": [
+            {
+              "name": "Simulación y Análisis por Elementos Finitos (FEM)",
+              "tag": "diseno"
+            },
+            {
+              "name": "Plantas de Generación Térmica y Calderas",
+              "tag": "termica"
+            },
+            {
+              "name": "Administración del Mantenimiento Predictivo",
+              "tag": "mantenimiento"
+            },
+            {
+              "name": "Sistemas de Climatización y Refrigeración",
+              "tag": "termica"
+            },
+            {
+              "name": "Optativa II",
+              "tag": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-7-8",
+      "tabLabel": "Semestres 7 y 8",
+      "blocks": [
+        {
+          "title": "Séptimo Semestre",
+          "subjects": [
+            {
+              "name": "Seminario de Titulación I",
+              "tag": "general"
+            },
+            {
+              "name": "Vibraciones Mecánicas e Instrumentación",
+              "tag": "diseno"
+            },
+            {
+              "name": "Ingeniería de Costos y Mantenimiento",
+              "tag": "mantenimiento"
+            },
+            {
+              "name": "Higiene, Seguridad y Medio Ambiente (ISO)",
+              "tag": "general"
+            },
+            {
+              "name": "Prácticas Profesionales I",
+              "tag": "mantenimiento"
+            }
+          ]
+        },
+        {
+          "title": "Octavo Semestre",
+          "subjects": [
+            {
+              "name": "Seminario de Titulación II",
+              "tag": "general"
+            },
+            {
+              "name": "Automatización y Control Numérico CNC",
+              "tag": "mantenimiento"
+            },
+            {
+              "name": "Formulación de Proyectos Mecánicos Industriales",
+              "tag": "general"
+            },
+            {
+              "name": "Prácticas Profesionales II",
+              "tag": "mantenimiento"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "optativas": [
+    "Diseño de Elementos de Máquinas por CAD/CAE",
+    "Termodinámica Aplicada y Plantas de Vapor",
+    "Metalurgia y Ensayos No Destructivos",
+    "Automatización e Instrumentación Industrial"
+  ]
+}

@@ -2,10 +2,10 @@
 import { BookOpen, FlaskConical, Globe, GraduationCap } from "lucide-vue-next";
 
 const stats = [
-  { value: "2",     label: "Modalidades disponibles" },
-  { value: "3",     label: "Años de duración" },
-  { value: "49+",   label: "Materias en inglés" },
-  { value: "100%",  label: "Enfoque bilingüe" },
+  { value: "2", label: "Modalidades disponibles" },
+  { value: "3", label: "Años de duración" },
+  { value: "49+", label: "Materias en inglés" },
+  { value: "100%", label: "Enfoque bilingüe" },
 ];
 </script>
 
@@ -13,7 +13,7 @@ const stats = [
   <section class="biu-hero">
     <div class="biu-hero__bg">
       <img
-        src="/images/hero/licenciaturasPresenciales.jpg"
+        src="/images/Bachillerato/hero/2.jpg"
         alt="Estudiantes BIU UNINTER"
         class="biu-hero__img"
       />
@@ -36,7 +36,12 @@ const stats = [
       <div class="biu-hero__inner">
         <!-- Eyebrow -->
         <div class="biu-hero__eyebrow">
-          <img src="/images/logo-uninter.png" alt="BIU" class="biu-hero__logo" onerror="this.style.display='none'" />
+          <img
+            src="/images/logo-uninter.png"
+            alt="BIU"
+            class="biu-hero__logo"
+            onerror="this.style.display = 'none'"
+          />
           <span>Bachillerato Internacional UNINTER</span>
         </div>
 
@@ -50,8 +55,8 @@ const stats = [
         </h1>
 
         <p class="biu-hero__desc">
-          Prepárate para el futuro con una formación académica de excelencia
-          en un ambiente internacional. Domina el inglés, desarrolla habilidades
+          Prepárate para el futuro con una formación académica de excelencia en
+          un ambiente internacional. Domina el inglés, desarrolla habilidades
           tecnológicas y conecta con el mundo desde Cuernavaca.
         </p>
 
@@ -85,10 +90,10 @@ const stats = [
 <style scoped>
 /* Variables BIU */
 .biu-hero {
-  --g: #6BAF04;
-  --gd: #4A7A02;
-  --gl: #7BC905;
-  --ga: #A8D86E;
+  --g: #6baf04;
+  --gd: #4a7a02;
+  --gl: #7bc905;
+  --ga: #a8d86e;
 }
 
 .biu-container {
@@ -120,15 +125,24 @@ const stats = [
   animation: kb 14s ease-out forwards;
 }
 @keyframes kb {
-  from { transform: scale(1); }
-  to   { transform: scale(1.06); }
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.06);
+  }
 }
 .biu-hero__overlay {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(115deg, rgba(13,31,14,0.92) 0%, rgba(13,31,14,0.7) 50%, rgba(13,31,14,0.3) 100%),
-    linear-gradient(to top, rgba(13,31,14,0.88) 0%, transparent 55%);
+    linear-gradient(
+      115deg,
+      rgba(13, 31, 14, 0.92) 0%,
+      rgba(13, 31, 14, 0.7) 50%,
+      rgba(13, 31, 14, 0.3) 100%
+    ),
+    linear-gradient(to top, rgba(13, 31, 14, 0.88) 0%, transparent 55%);
 }
 
 /* Elementos decorativos */
@@ -136,11 +150,20 @@ const stats = [
   position: absolute;
   z-index: 2;
   opacity: 0.12;
-  color: #A8D86E;
+  color: #a8d86e;
 }
-.biu-hero__deco--tl { top: 14%; left: 5%; }
-.biu-hero__deco--tr { top: 10%; right: 8%; }
-.biu-hero__deco--br { bottom: 20%; right: 12%; }
+.biu-hero__deco--tl {
+  top: 14%;
+  left: 5%;
+}
+.biu-hero__deco--tr {
+  top: 10%;
+  right: 8%;
+}
+.biu-hero__deco--br {
+  bottom: 20%;
+  right: 12%;
+}
 
 /* Contenido */
 .biu-hero__content {
@@ -179,7 +202,7 @@ const stats = [
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.55);
+  color: rgba(255, 255, 255, 0.55);
   margin: 0 0 1rem;
 }
 
@@ -188,7 +211,7 @@ const stats = [
   display: flex;
   flex-direction: column;
   margin: 0 0 1.5rem;
-  line-height: 1.0;
+  line-height: 1;
 }
 .biu-hero__title-main {
   font-family: var(--font-serif, Georgia, serif);
@@ -196,13 +219,13 @@ const stats = [
   font-weight: 900;
   color: var(--ga);
   letter-spacing: -0.02em;
-  text-shadow: 0 4px 24px rgba(168,216,110,0.25);
+  text-shadow: 0 4px 24px rgba(168, 216, 110, 0.25);
 }
 .biu-hero__title-sub {
   font-family: var(--font-serif, Georgia, serif);
   font-size: clamp(1.2rem, 2.5vw, 1.9rem);
   font-weight: 600;
-  color: rgba(255,255,255,0.9);
+  color: rgba(255, 255, 255, 0.9);
   letter-spacing: 0.05em;
   margin-top: 0.25rem;
 }
@@ -210,7 +233,7 @@ const stats = [
 /* Descripción */
 .biu-hero__desc {
   font-size: clamp(0.9rem, 1.4vw, 1rem);
-  color: rgba(255,255,255,0.68);
+  color: rgba(255, 255, 255, 0.68);
   line-height: 1.65;
   margin: 0 0 2rem;
   max-width: 520px;
@@ -247,11 +270,11 @@ const stats = [
 .biu-btn--ghost {
   background: transparent;
   color: #fff;
-  border: 2px solid rgba(255,255,255,0.4);
+  border: 2px solid rgba(255, 255, 255, 0.4);
 }
 .biu-btn--ghost:hover {
-  border-color: rgba(255,255,255,0.85);
-  background: rgba(255,255,255,0.08);
+  border-color: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.08);
 }
 
 /* Stats strip */
@@ -260,10 +283,10 @@ const stats = [
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255,255,255,0.08);
+  background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-top: 1px solid rgba(255,255,255,0.12);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
   z-index: 4;
 }
 .biu-hero__stats-inner {
@@ -277,10 +300,12 @@ const stats = [
   align-items: center;
   justify-content: center;
   padding: 1rem 1.5rem;
-  border-right: 1px solid rgba(255,255,255,0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
   gap: 0.2rem;
 }
-.biu-stat:last-child { border-right: none; }
+.biu-stat:last-child {
+  border-right: none;
+}
 .biu-stat__value {
   font-size: clamp(1.4rem, 2.5vw, 1.9rem);
   font-weight: 900;
@@ -289,7 +314,7 @@ const stats = [
 }
 .biu-stat__label {
   font-size: 0.65rem;
-  color: rgba(255,255,255,0.55);
+  color: rgba(255, 255, 255, 0.55);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.07em;
@@ -298,19 +323,33 @@ const stats = [
 
 /* Responsive */
 @media (max-width: 768px) {
-  .biu-hero { height: clamp(460px, 70vh, 580px); }
-  .biu-hero__content { padding-bottom: 11rem; }
-  .biu-hero__stats-inner { flex-wrap: wrap; }
+  .biu-hero {
+    height: clamp(460px, 70vh, 580px);
+  }
+  .biu-hero__content {
+    padding-bottom: 11rem;
+  }
+  .biu-hero__stats-inner {
+    flex-wrap: wrap;
+  }
   .biu-stat {
     flex: 1 1 50%;
     border-right: none;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
-  .biu-stat:nth-child(odd) { border-right: 1px solid rgba(255,255,255,0.1); }
-  .biu-stat:nth-last-child(-n+2) { border-bottom: none; }
+  .biu-stat:nth-child(odd) {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .biu-stat:nth-last-child(-n + 2) {
+    border-bottom: none;
+  }
 }
 @media (max-width: 480px) {
-  .biu-hero__ctas { flex-direction: column; }
-  .biu-hero__title-main { font-size: clamp(2.5rem, 12vw, 4rem); }
+  .biu-hero__ctas {
+    flex-direction: column;
+  }
+  .biu-hero__title-main {
+    font-size: clamp(2.5rem, 12vw, 4rem);
+  }
 }
 </style>

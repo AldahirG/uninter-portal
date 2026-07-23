@@ -1,14 +1,18 @@
 <script setup lang="ts">
 import { defineProps } from "vue";
-import { UserCheck, Briefcase, Target } from "lucide-vue-next";
+import { UserCheck, Briefcase, Target, Search } from "lucide-vue-next";
 
 // Props dinámicos
 const props = defineProps<{
   data: {
     name: string;
     description: string;
+    objetivo?: string;
     ingreso: string;
     egreso: string;
+    perfilEgreso?: string;
+    lineasInvestigacion?: string[];
+    ventajasTransversales?: string[];
   }
 }>();
 </script>
@@ -20,11 +24,17 @@ const props = defineProps<{
       <div class="uninter-container">
         <div class="overview-intro animate-header">
           <div>
-            <p class="overview-eyebrow">Panorama General</p>
-            <h2 class="overview-title">Perfil & <em>Mercado Laboral</em></h2>
+            <p class="overview-eyebrow">Acerca del Programa</p>
+            <h2 class="overview-title">
+              <div class="title-top-row">
+                <span>Objetivo</span>
+                <span class="title-small">de la</span>
+              </div>
+              <em>Carrera</em>
+            </h2>
           </div>
           <p class="overview-desc">
-            {{ data?.description }}
+            {{ data?.objetivo || data?.description }}
           </p>
         </div>
       </div>
@@ -32,7 +42,10 @@ const props = defineProps<{
 
     <!-- Bottom: card row layout inspired by Welcome.vue -->
     <div class="overview-cards-wrap">
-      <div class="uninter-container overview-cards stagger-1">
+      <div 
+        class="uninter-container overview-cards stagger-1"
+        :class="{ 'grid-4-cards': data?.lineasInvestigacion && data.lineasInvestigacion.length > 0 }"
+      >
         <!-- Card 1: Perfil de Ingreso -->
         <div class="overview-wcard">
           <div class="overview-wcard__icon">
@@ -49,7 +62,7 @@ const props = defineProps<{
           </div>
           <h3 class="overview-wcard__title">Perfil de Egreso</h3>
           <p class="overview-wcard__desc">
-            Desarrollarás competencias sólidas de liderazgo, dominio técnico, pensamiento crítico y las habilidades necesarias para innovar en tu campo laboral con una perspectiva global.
+            {{ data?.perfilEgreso || 'Desarrollarás competencias sólidas de liderazgo, dominio técnico, pensamiento crítico y las habilidades necesarias para innovar en tu campo laboral con una perspectiva global.' }}
           </p>
         </div>
 
@@ -61,12 +74,77 @@ const props = defineProps<{
           <h3 class="overview-wcard__title">Mercado Laboral</h3>
           <p class="overview-wcard__desc">{{ data?.egreso }}</p>
         </div>
+
+        <!-- Card 4: Líneas de Investigación (Condicional) -->
+        <div v-if="data?.lineasInvestigacion && data.lineasInvestigacion.length > 0" class="overview-wcard">
+          <div class="overview-wcard__icon">
+            <Search :size="24" />
+          </div>
+          <h3 class="overview-wcard__title">Líneas de Investigación</h3>
+          <ul class="overview-wcard__desc overview-list">
+            <li v-for="(linea, idx) in data.lineasInvestigacion" :key="idx">
+              {{ linea }}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección Ventajas Transversales -->
+    <div v-if="data?.ventajasTransversales && data.ventajasTransversales.length > 0" class="advantages-section">
+      <div class="uninter-container">
+        <h3 class="advantages-title">Ventajas UNINTER para tu formación</h3>
+        <div class="advantages-grid">
+          <div v-for="(ventaja, idx) in data.ventajasTransversales" :key="idx" class="advantage-item">
+            <Icon name="mdi:check-circle" size="20" class="advantage-icon" />
+            <span>{{ ventaja }}</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 </template>
 
 <style scoped>
+.advantages-section {
+  background: #ffffff;
+  padding: 4.5rem 0;
+  border-top: 1px solid #e2e8f0;
+}
+.advantages-title {
+  font-family: var(--font-serif, Lora, Georgia, serif);
+  font-size: 1.6rem;
+  font-weight: 850;
+  color: #0f3c61;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.advantages-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.75rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.advantage-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.98rem;
+  color: #475569;
+  font-weight: 600;
+}
+.advantage-icon {
+  color: #1565c0;
+  flex-shrink: 0;
+}
+@media (max-width: 640px) {
+  .advantages-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+}
+
 /* =========================================================
    CONTENEDOR BASE
 ========================================================= */
@@ -115,8 +193,26 @@ const props = defineProps<{
   font-weight: 800;
   color: #0f3c61;
   margin: 0;
-  line-height: 1.15;
+  line-height: 1.1;
   letter-spacing: -0.02em;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-top-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.title-small {
+  font-size: 0.35em;
+  color: inherit;
+  font-family: inherit;
+  text-transform: none;
+  letter-spacing: 0.15em;
+  font-weight: 800;
+  margin-top: 0.5rem;
 }
 
 .overview-title em {
@@ -145,6 +241,10 @@ const props = defineProps<{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.75rem;
+}
+
+.overview-cards.grid-4-cards {
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .overview-wcard {
@@ -194,6 +294,17 @@ const props = defineProps<{
   flex: 1;
 }
 
+.overview-list {
+  padding-left: 1.25rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.overview-list li {
+  list-style-type: disc;
+}
+
 /* =========================================================
    RESPONSIVE
 ========================================================= */
@@ -205,7 +316,7 @@ const props = defineProps<{
   .overview-desc {
     padding-top: 1.2rem;
   }
-  .overview-cards {
+  .overview-cards, .overview-cards.grid-4-cards {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }

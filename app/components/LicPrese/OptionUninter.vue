@@ -53,26 +53,6 @@ const grupos = [
 
 <template>
   <section class="opt-section">
-    <!-- Banner superior -->
-    <div class="opt-banner">
-      <img
-        src="/images/hero/licenciaturasPresenciales.jpg"
-        alt="UNINTER La Mejor Opción"
-        class="opt-banner__img"
-      />
-      <div class="opt-banner__overlay"></div>
-      <div class="opt-banner__content uninter-container">
-        <p class="opt-banner__eyebrow">¿Por qué elegirnos?</p>
-        <h2 class="opt-banner__title">UNINTER <em>la mejor opción</em></h2>
-        <p class="opt-banner__text">
-          En UNINTER se han firmado más de 500 convenios con empresas e
-          instituciones nacionales e internacionales. Todos los alumnos estudian
-          un segundo idioma y tienen acceso a intercambios con organizaciones
-          como AFS, Canada Options Education y Latino Australia Education.
-        </p>
-      </div>
-    </div>
-
     <!-- Grid de razones agrupadas -->
     <div class="opt-reasons">
       <div class="uninter-container">
@@ -171,7 +151,7 @@ const grupos = [
 
 .opt-banner__text {
   font-size: clamp(0.88rem, 1.3vw, 1rem);
-  color: rgba(255,255,255,0.72);
+  color: rgba(255, 255, 255, 0.72);
   line-height: 1.65;
   max-width: 640px;
   margin: 0;
@@ -232,10 +212,12 @@ const grupos = [
   border: 1px solid #e2e8f0;
   border-radius: 16px;
   padding: 2rem 2rem 2.25rem;
-  transition: box-shadow 0.2s, transform 0.2s;
+  transition:
+    box-shadow 0.2s,
+    transform 0.2s;
 }
 .opt-card:hover {
-  box-shadow: 0 12px 32px rgba(15,60,97,0.09);
+  box-shadow: 0 12px 32px rgba(15, 60, 97, 0.09);
   transform: translateY(-3px);
 }
 
@@ -274,11 +256,17 @@ const grupos = [
 
 /* Responsive */
 @media (max-width: 860px) {
-  .opt-grid { grid-template-columns: 1fr; }
+  .opt-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 560px) {
-  .opt-reasons { padding: 3.5rem 0; }
-  .opt-banner__text { display: none; }
+  .opt-reasons {
+    padding: 3.5rem 0;
+  }
+  .opt-banner__text {
+    display: none;
+  }
 }
 </style>

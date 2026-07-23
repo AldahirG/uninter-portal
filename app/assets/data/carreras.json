@@ -105,7 +105,10 @@
           "Consultor de Comunicación Corporativa"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "Comunicación h.webp",
+    "imageVertical": "Comunicación v.webp",
+    "objetivo": "Fórmate como un experto en transmedia, creación de contenido, relaciones públicas y periodismo digital. Prepárate para diseñar estrategias en un ecosistema mediático que evoluciona cada segundo."
   },
   "relaciones-internacionales": {
     "id": "LRI",
@@ -199,7 +202,10 @@
           "Funcionario de Organismos Internacionales"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "relaciones h.webp",
+    "imageVertical": "relaciones v.webp",
+    "objetivo": "Conviértete en un líder global capaz de entender, negociar y resolver conflictos en el escenario político y comercial internacional. El mundo necesita estrategas sin límites."
   },
   "derecho": {
     "id": "LED",
@@ -295,7 +301,10 @@
           "Asesor de Propiedad Intelectual"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "derrcho h.webp",
+    "imageVertical": "derrcho v.webp",
+    "objetivo": "Adquiere el poder de transformar la sociedad mediante la aplicación estratégica de las leyes. Un programa actualizado a las nuevas reformas penales, laborales y corporativas."
   },
   "arquitectura": {
     "id": "ARQ",
@@ -333,11 +342,7 @@
         "desc": "Amplía tu perspectiva profesional cursando un semestre de estudios en universidades reconocidas de Europa, Sudamérica y Medio Oriente.",
         "icon": "✈️",
         "tag": "Movilidad Global",
-        "features": [
-          "España e Italia",
-          "Colombia",
-          "Turquía"
-        ]
+        "features": ["España e Italia", "Colombia", "Turquía"]
       },
       {
         "title": "Expo CIHAC y Vinculación Industrial",
@@ -420,7 +425,10 @@
           "Consultor Técnico de Diseño"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "arquitectura h.webp",
+    "imageVertical": "arquitectura v.webp",
+    "objetivo": "Aprende a fusionar estética, funcionalidad y tecnología sustentable para crear espacios que mejoren la calidad de vida. Tu imaginación es el único límite estructural."
   },
   "diseno-grafico": {
     "id": "LDG",
@@ -515,16 +523,19 @@
           "Diseñador de Empaque"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "gráfico h.webp",
+    "imageVertical": "gráfico v.webp",
+    "objetivo": "Domina la comunicación visual, desde el branding y diseño UI/UX hasta la animación. Transforma conceptos complejos en experiencias visuales memorables y persuasivas."
   },
   "mecatronica": {
     "id": "IME",
     "name": "Mecatrónica",
     "slug": "mecatronica",
     "tagline": "Automatiza el mundo. Crea tecnología inteligente.",
-    "description": "Fusión de mecánica, electrónica y programación. Diseña sistemas robóticos y automatiza la industria 4.0 con tecnología que redefine el futuro de la manufactura y la vida cotidiana.",
-    "ingreso": "Se requiere fuerte aptitud matemática, pensamiento lógico, curiosidad por desarmar y entender cómo funcionan las máquinas y fascinación por la tecnología y la IA.",
-    "egreso": "Liderarás proyectos de robótica industrial, domótica, diseño de sistemas embebidos y optimización de procesos mediante Inteligencia Artificial y automatización.",
+    "description": "La Ingeniería en Mecatrónica te prepara para crear, automatizar y optimizar sistemas tecnológicos innovadores. Combina tus habilidades en robótica, electrónica, mecánica y programación para resolver problemas prácticos de la industria. Prepárate para liderar el diseño mecánico y la mejora continua en procesos productivos, manufactura y control de sistemas a nivel profesional.",
+    "ingreso": "Aspirantes con interés por diseñar, construir y mejorar sistemas tecnológicos; gusto por matemáticas, física, electrónica, mecánica, programación, automatización y resolución de problemas prácticos.",
+    "egreso": "Podrás desempeñarte en áreas de automatización, control, manufactura, mantenimiento, integración de sistemas, diseño mecánico, electrónica, robótica, procesos productivos y soporte técnico. Puestos sugeridos: ingeniero de automatización, auxiliar/jefe de mantenimiento, integrador de sistemas, diseñador mecatrónico, supervisor de producción, analista de procesos técnicos.",
     "experienciaPractica": [
       {
         "title": "Laboratorio de Robótica y Automatización",
@@ -539,7 +550,7 @@
       },
       {
         "title": "Taller de Manufactura CNC",
-        "desc": "Opera tornos y fresadoras CNC, impresoras 3D industriales y equipos de metrología para fabricar piezas de precisión.",
+        "desc": "Opera tornos y fresadoras CNC, impresoras 3D industriales y equipos de metrología para fabricar piezas de precisión. Formación complementada con actividades prácticas en aulas de cómputo y talleres de electrónica, pailería y maderas, empleando Arduino, AutoCAD, SolidWorks y simuladores.",
         "icon": "⚙️",
         "tag": "Manufactura",
         "features": [
@@ -550,7 +561,7 @@
       },
       {
         "title": "Laboratorio de Electrónica y Microcontroladores",
-        "desc": "Diseña circuitos, programa microcontroladores Arduino y ESP32, y desarrolla prototipos de IoT y sistemas embebidos.",
+        "desc": "Diseña circuitos, programa microcontroladores Arduino y ESP32, y desarrolla prototipos de IoT y sistemas embebidos. Formación complementada con actividades prácticas en aulas de cómputo y talleres de electrónica, pailería y maderas, empleando Arduino, AutoCAD, SolidWorks y simuladores.",
         "icon": "🔌",
         "tag": "Electrónica",
         "features": [
@@ -568,6 +579,17 @@
           "Convenios con CIVAC",
           "Proyectos integradores",
           "Certificaciones industriales"
+        ]
+      },
+      {
+        "title": "Vida académica y proyectos",
+        "desc": "Participa activamente en el desarrollo de prototipos, uso de CNC, manufactura, circuitos, control y robótica. Emplea diseño CAD/CAM para realizar proyectos integradores que resuelven problemas reales.",
+        "icon": "🚀",
+        "tag": "Proyectos",
+        "features": [
+          "Diseño CAD/CAM",
+          "Circuitos y robótica",
+          "Proyectos integradores"
         ]
       }
     ],
@@ -610,20 +632,80 @@
           "Gerente de Manufactura"
         ]
       }
-    ]
+    ],
+    "duration": "8 Semestres",
+    "programType": "Ingeniería",
+    "perfilEgreso": "El egresado de mecatrónica podrá participar en el diseño, integración, automatización, control y mejora continua de sistemas y productos mecatrónicos, aplicando sólidos conocimientos científicos e integradores.",
+    "syllabusDescription": "El plan de estudios de Ingeniería Mecatrónica está alineado con el mapa de formación vigente. Resalta áreas formativas estratégicas como: electrónica analógica/digital, control inteligente, manufactura avanzada, automatización industrial, diseño asistido por computadora (CAD/CAM), programación y desarrollo de proyectos prácticos aplicados.",
+    "ventajasTransversales": [
+      "Modalidad presencial",
+      "Docentes con experiencia",
+      "Acompañamiento académico",
+      "Asesorías",
+      "Idiomas",
+      "Ambiente multicultural",
+      "Intercambios"
+    ],
+    "diferenciadores": [
+      {
+        "text": "Formación multidisciplinaria e integradora",
+        "icon": "mdi:cog-outline"
+      },
+      {
+        "text": "Proyectos prácticos, prototipos y desarrollo CAD/CAM",
+        "icon": "mdi:hammer-wrench"
+      },
+      {
+        "text": "Uso de software técnico especializado",
+        "icon": "mdi:laptop-code"
+      },
+      {
+        "text": "Acompañamiento, idiomas y ambiente multicultural",
+        "icon": "mdi:earth"
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Qué diferencia hay entre Mecatrónica y Sistemas?",
+        "a": "Mecatrónica integra mecánica, electrónica y control de maquinaria física. Sistemas Computacionales se centra en software, bases de datos, redes de comunicaciones y algoritmos digitales."
+      },
+      {
+        "q": "¿Necesito saber programar antes de ingresar?",
+        "a": "No es necesario. Las asignaturas de programación inician desde bases conceptuales y algoritmos elementales para enseñarte desde cero."
+      },
+      {
+        "q": "¿Qué proyectos prácticos se realizan durante la carrera?",
+        "a": "Desarrollarás prototipos mecánicos, automatización de sistemas con PLCs, diseño de piezas en SolidWorks/AutoCAD y circuitos mecatrónicos aplicados."
+      },
+      {
+        "q": "¿Qué software técnico aprenderé a utilizar?",
+        "a": "Aprenderás a usar SolidWorks, AutoCAD, simuladores de circuitos electrónicos, IDEs de programación como Arduino y herramientas como Excel y Power BI."
+      },
+      {
+        "q": "¿Dónde podré trabajar al egresar?",
+        "a": "En industrias de manufactura, automotriz, robótica industrial, mantenimiento técnico, empresas integradoras de tecnología o en tu propio emprendimiento."
+      },
+      {
+        "q": "¿La carrera es presencial?",
+        "a": "Sí, es un programa presencial de 4 años, lo cual garantiza que realices prácticas directas en laboratorios y talleres mecánicos y electrónicos."
+      }
+    ],
+    "imageHorizontal": "mecatronica h.webp",
+    "imageVertical": "mecatronica v.webp",
+    "objetivo": "Formar ingenieros altamente capacitados para el diseño, integración y automatización de sistemas y productos mecatrónicos. A través de sólidos conocimientos científicos y tecnológicos, el programa busca que los egresados sean capaces de implementar soluciones de control, optimizar procesos productivos y liderar la innovación en áreas de robótica, manufactura y mantenimiento industrial."
   },
   "sistemas-computacionales": {
     "id": "ISC",
     "name": "Sistemas Computacionales",
     "slug": "sistemas-computacionales",
     "tagline": "Programa el mañana. Lidera la revolución del software.",
-    "description": "Conviértete en un arquitecto de software de alto nivel. Aprende ingeniería de datos, ciberseguridad, desarrollo full-stack y creación de soluciones impulsadas por Inteligencia Artificial.",
-    "ingreso": "Debes tener pasión por la informática, pensamiento algorítmico, resolución de problemas complejos, curiosidad por el código y adaptabilidad tecnológica.",
-    "egreso": "Diseñarás arquitecturas en la nube, sistemas de software robustos, aplicaciones móviles y liderarás la transición digital en las mayores empresas tecnológicas.",
+    "description": "La Ingeniería en Sistemas Computacionales te brinda las herramientas para diseñar, desarrollar y administrar software, bases de datos y redes de alto nivel. Conviértete en un experto capaz de crear aplicaciones web y móviles, gestionar la ciberseguridad o adentrarte en la inteligencia artificial y la ciencia de datos, impulsando la innovación y eficiencia de cualquier organización.",
+    "ingreso": "Aspirantes con interés por la tecnología, programación, redes, datos, aplicaciones digitales, análisis lógico, resolución de problemas y creación de soluciones mediante software.",
+    "egreso": "Podrás desempeñarte en áreas como desarrollo de software, redes, bases de datos, ciberseguridad, soporte, ciencia de datos, aplicaciones móviles/web, videojuegos, inteligencia artificial y gestión de proyectos de TI. Puestos sugeridos: desarrollador de software, administrador de redes, analista de datos, desarrollador web/móvil, especialista junior en ciberseguridad, administrador de bases de datos, QA tester, soporte TI.",
     "experienciaPractica": [
       {
         "title": "Laboratorio de Desarrollo de Software",
-        "desc": "Programa en ambientes de desarrollo profesional con IDEs, control de versiones Git y metodologías ágiles (Scrum, Kanban).",
+        "desc": "Programa en ambientes de desarrollo profesional con IDEs, control de versiones Git y metodologías ágiles (Scrum, Kanban). Prácticas con herramientas de programación, administración de redes, bases de datos, análisis de datos, simulación y desarrollo de aplicaciones reforzadas en aulas de cómputo.",
         "icon": "💻",
         "tag": "Desarrollo",
         "features": [
@@ -634,7 +716,7 @@
       },
       {
         "title": "Laboratorio de Redes y Ciberseguridad",
-        "desc": "Configura redes empresariales, firewalls y realiza pruebas de penetración en un ambiente controlado con equipos Cisco.",
+        "desc": "Configura redes empresariales, firewalls y realiza pruebas de penetración en un ambiente controlado con equipos Cisco. Prácticas con herramientas de programación, administración de redes, bases de datos, análisis de datos, simulación y desarrollo de aplicaciones reforzadas en aulas de cómputo.",
         "icon": "🔒",
         "tag": "Ciberseguridad",
         "features": [
@@ -648,11 +730,7 @@
         "desc": "Trabaja con infraestructura de servidores, virtualización y servicios cloud de AWS, Azure y Google Cloud Platform.",
         "icon": "☁️",
         "tag": "Cloud & DevOps",
-        "features": [
-          "AWS Academy",
-          "Microsoft Azure",
-          "Docker y Kubernetes"
-        ]
+        "features": ["AWS Academy", "Microsoft Azure", "Docker y Kubernetes"]
       },
       {
         "title": "Hackathons y Competencias de Programación",
@@ -664,9 +742,45 @@
           "ACM ICPC",
           "Google Code Jam prep"
         ]
+      },
+      {
+        "title": "Vida académica y proyectos",
+        "desc": "Participa en prácticas de redes, simulación de topologías, desarrollo de software, programación, bases de datos, aplicaciones web/móviles, proyectos de IA y soluciones digitales.",
+        "icon": "🚀",
+        "tag": "Proyectos",
+        "features": [
+          "Simulación de topologías",
+          "Desarrollo de software y apps",
+          "Proyectos de IA"
+        ]
       }
     ],
     "certificaciones": [
+      {
+        "title": "Certificación CISCO y Redes",
+        "desc": "Destaca tu formación con CISCO como elemento fuerte del programa, enfocado en redes, simulación, ciberseguridad e IoT.",
+        "icon": "🔌",
+        "badge": "Cisco Networking",
+        "courses": [
+          "Fundamentos de Redes",
+          "Enrutamiento y Conmutación",
+          "Ciberseguridad básica",
+          "Internet de las Cosas (IoT)"
+        ],
+        "jobs": [
+          "Administrador de Redes",
+          "Especialista en Ciberseguridad",
+          "Ingeniero de Soporte TI"
+        ]
+      },
+      {
+        "title": "Certificación Office STPS",
+        "desc": "Integra Office STPS como certificación transversal para potenciar tus habilidades ofimáticas y productividad.",
+        "icon": "📄",
+        "badge": "Office STPS",
+        "courses": ["Productividad Digital", "Herramientas Colaborativas"],
+        "jobs": ["Consultor de TI", "Gestor de Proyectos"]
+      },
       {
         "title": "Desarrollo Full-Stack y Cloud",
         "desc": "Domina el desarrollo web y móvil completo: frontend con React/Vue, backend con Node.js/Python y despliegue en la nube.",
@@ -705,7 +819,67 @@
           "Ingeniero de IA"
         ]
       }
-    ]
+    ],
+    "duration": "8 Semestres",
+    "programType": "Ingeniería",
+    "perfilEgreso": "El egresado podrá diseñar, desarrollar, implementar y administrar soluciones de software, redes, bases de datos y sistemas computacionales, considerando seguridad, eficiencia, innovación y necesidades organizacionales.",
+    "syllabusDescription": "El plan de estudios de Ingeniería en Sistemas Computacionales resalta áreas críticas demandadas por el sector global: programación, ingeniería de software, arquitectura de redes, bases de datos relacionales y no relacionales, sistemas operativos, desarrollo móvil y web, inteligencia artificial y emprendimiento tecnológico.",
+    "ventajasTransversales": [
+      "Modalidad presencial",
+      "Docentes con experiencia",
+      "Acompañamiento académico",
+      "Asesorías",
+      "Idiomas",
+      "Ambiente multicultural",
+      "Intercambios"
+    ],
+    "diferenciadores": [
+      {
+        "text": "Certificaciones oficiales de Cisco Networking Academy",
+        "icon": "mdi:network-outline"
+      },
+      {
+        "text": "Certificación Office STPS transversal",
+        "icon": "mdi:microsoft-office"
+      },
+      {
+        "text": "Enfoque fuerte en redes, simulación y ciberseguridad",
+        "icon": "mdi:security"
+      },
+      {
+        "text": "Desarrollo práctico de aplicaciones y soluciones de IA",
+        "icon": "mdi:xml"
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Necesito saber programar antes de entrar?",
+        "a": "No, el plan de estudios está diseñado para comenzar desde los fundamentos de la lógica matemática y algoritmos en el primer semestre."
+      },
+      {
+        "q": "¿Qué lenguajes de programación se enseñan?",
+        "a": "Aprenderás lenguajes robustos y de alta demanda como Python, Java, C++, lenguajes de desarrollo web (JavaScript/HTML/CSS) y SQL para bases de datos."
+      },
+      {
+        "q": "¿Qué certificaciones oficiales incluye el programa?",
+        "a": "La carrera incluye la certificación oficial de CISCO integrada en los cursos de redes de computadoras, así como la certificación Office STPS."
+      },
+      {
+        "q": "¿Qué diferencia hay entre ISC y Mecatrónica?",
+        "a": "ISC se especializa en software, redes de datos, ciberseguridad e Inteligencia Artificial. Mecatrónica combina software con electrónica, robótica y maquinaria física."
+      },
+      {
+        "q": "¿Se ve ciberseguridad?",
+        "a": "Sí, el plan de estudios aborda la seguridad en redes de computadoras, ciberseguridad básica, simulación de topologías y configuración segura de infraestructura Cisco."
+      },
+      {
+        "q": "¿Se desarrollan aplicaciones móviles?",
+        "a": "Sí, se incluyen asignaturas especializadas para el desarrollo de aplicaciones para sistemas Android e iOS."
+      }
+    ],
+    "imageHorizontal": "sistemas h.webp",
+    "imageVertical": "sistemas v.webp",
+    "objetivo": "Formar especialistas tecnológicos con visión innovadora, capaces de diseñar, implementar y gestionar soluciones integrales de software, redes y bases de datos. El programa está enfocado en desarrollar el análisis lógico y las habilidades de programación necesarias para resolver problemas complejos, garantizando siempre la seguridad, eficiencia y escalabilidad de los sistemas computacionales en un entorno dinámico."
   },
   "mercadotecnia": {
     "id": "LME",
@@ -800,16 +974,19 @@
           "Consultor de Branding"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "merca h.webp",
+    "imageVertical": "merca v.webp",
+    "objetivo": "Aprende a analizar datos, comprender el comportamiento del consumidor y diseñar estrategias hiper-personalizadas que disparen el crecimiento de cualquier marca en el mundo digital y físico."
   },
   "administracion-de-empresas": {
     "id": "LAE",
     "name": "Administración de Empresas",
     "slug": "administracion-de-empresas",
-    "tagline": "Dirige con visión. Escala negocios globales.",
-    "description": "Adquiere la visión estratégica para gestionar capital humano, finanzas y operaciones. Aprende a crear, innovar y liderar empresas altamente rentables en mercados competitivos.",
-    "ingreso": "Requiere capacidad de liderazgo, interés por los negocios, habilidades numéricas, inteligencia emocional para gestionar equipos y visión emprendedora.",
-    "egreso": "Estarás capacitado para dirigir corporativos transnacionales, optimizar finanzas empresariales, o crear y escalar exitosamente tu propia startup o compañía.",
+    "tagline": "Haz de tu mente tu empoderamiento empresarial",
+    "description": "La Licenciatura en Administración de Empresas te prepara para dirigir, innovar y potenciar la rentabilidad de corporativos a nivel nacional e internacional. Desarrolla habilidades directivas de alto nivel, domina la gestión del talento humano y emprende tus propios proyectos con una visión estratégica. Conviértete en el motor del crecimiento empresarial, optimizando recursos y guiando equipos hacia la competitividad y la sustentabilidad.",
+    "ingreso": "En la Universidad Internacional buscamos estudiantes con la disposición y el potencial para desarrollar habilidades que impulsen la productividad y rentabilidad de las organizaciones en un entorno dinámico, tanto nacional como internacional. El aspirante debe tener capacidad para analizar y sintetizar información, así como para anticipar y gestionar conflictos mediante el uso de métodos y técnicas administrativas. Además, se espera un compromiso con el desarrollo sostenible y la preservación de los valores éticos, sociales y ambientales.",
+    "egreso": "Podrás integrarte con éxito al mercado laboral tanto en el sector público como privado, a nivel nacional e internacional. Estarás preparado para desempeñarte en áreas como mercadotecnia, publicidad, recursos humanos, finanzas, contabilidad, ventas y compras. Asimismo, contarás con las competencias para emprender y gestionar tus propios proyectos, desarrollar planes de negocio y administrar eficientemente empresas de distintos tamaños, desde pequeñas y medianas hasta grandes organizaciones.",
     "experienciaPractica": [
       {
         "title": "Incubadora de Negocios UNINTER",
@@ -849,53 +1026,141 @@
         "desc": "Aprende a operar los sistemas de planificación empresarial más utilizados en corporativos multinacionales del mundo.",
         "icon": "⚡",
         "tag": "Tecnología Empresarial",
+        "features": ["SAP Business One", "Módulos FI/CO/MM", "ERP empresarial"]
+      },
+      {
+        "title": "Competencias Estratégicas y Directivas",
+        "desc": "Estas oportunidades te permitirán desarrollarte como un profesional capaz de destacar en entornos empresariales nacionales e internacionales, con visión global.",
+        "icon": "🧠",
+        "tag": "Estrategia y Dirección",
         "features": [
-          "SAP Business One",
-          "Módulos FI/CO/MM",
-          "ERP empresarial"
+          "Planeación y Toma de decisiones",
+          "Pensamiento crítico",
+          "Liderazgo, Negociación y Comunicación"
+        ]
+      },
+      {
+        "title": "Competencias Financieras y Digitales",
+        "desc": "Aplica tus conocimientos digitales y financieros para optimizar los recursos y la presencia electrónica de las organizaciones.",
+        "icon": "💻",
+        "tag": "Finanzas y Digital",
+        "features": [
+          "Presupuestos y Finanzas",
+          "Evaluación de proyectos",
+          "Negocios electrónicos y Análisis de datos"
         ]
       }
     ],
     "certificaciones": [
       {
-        "title": "Finanzas Corporativas y Banca",
-        "desc": "Domina el análisis financiero, valuación de empresas, gestión de portafolios de inversión y la administración de riesgos bancarios.",
-        "icon": "💰",
-        "badge": "Finanzas Avanzadas",
+        "title": "Mercadotecnia",
+        "desc": "Este certificado le permitirá al egresado plantearse dos preguntas básicas: ¿Qué necesidades tiene el cliente? y ¿Cómo se satisfacen esas necesidades? Involucra estrategias de mercado, ventas, estudios de mercado y posicionamiento para lograr el éxito.",
+        "icon": "📣",
+        "badge": "Marketing",
         "courses": [
-          "Análisis Financiero",
-          "Valuación de Empresas",
-          "Mercados de Capitales",
-          "Administración de Riesgos",
-          "Banca y Productos Financieros"
+          "Mercadotecnia de Servicios",
+          "Investigación de Mercados Avanzada",
+          "Relaciones Públicas",
+          "Promoción de Ventas",
+          "Mercadotecnia Internacional",
+          "Evaluación de Proyectos de Inversión"
         ],
         "jobs": [
-          "Analista Financiero",
-          "Controller Corporativo",
-          "Director de Finanzas (CFO)",
-          "Asesor de Inversiones"
+          "Gerente de Mercadotecnia",
+          "Analista de Mercados",
+          "Ejecutivo de Relaciones Públicas"
         ]
       },
       {
-        "title": "Gestión del Capital Humano",
-        "desc": "Especialízate en la atracción, desarrollo y retención de talento con metodologías modernas de gestión organizacional.",
-        "icon": "👥",
-        "badge": "Talento Humano",
+        "title": "Finanzas y Negocios",
+        "desc": "Este certificado te dará las herramientas, habilidades y visión financiera necesarias para tomar decisiones estratégicas en las funciones contables de una empresa, así como analizar la evolución de los mercados y la situación macroeconómica.",
+        "icon": "📈",
+        "badge": "Finance & Biz",
         "courses": [
-          "Reclutamiento y Selección",
-          "Desarrollo Organizacional",
-          "Compensaciones y Beneficios",
-          "Cultura Empresarial",
-          "Liderazgo y Coaching"
+          "Sistema Financiero Mexicano.",
+          "Finanzas Corporativas",
+          "Seminario Integrador de Finanzas",
+          "Seminario Integrador de la Administración",
+          "Planeación y Desarrollo de empresas multinacionales",
+          "Negocios Internacionales",
+          "Habilidades y Estrategias de Negociación",
+          "Seminario de Investigación"
         ],
         "jobs": [
-          "Director de Recursos Humanos",
-          "Business Partner HR",
-          "Consultor Organizacional",
-          "Headhunter Ejecutivo"
+          "Analista Financiero",
+          "Consultor de Negocios Internacionales",
+          "Asesor Financiero Corporativo"
+        ]
+      },
+      {
+        "title": "Acreditaciones Vigentes",
+        "desc": "La Universidad Internacional (UNINTER) respalda tu formación con certificaciones y acreditaciones reconocidas a nivel nacional e internacional.",
+        "modalDesc": "La Universidad Internacional (UNINTER) respalda tu formación con certificaciones y acreditaciones reconocidas a nivel nacional e internacional, que garantizan la calidad académica, la mejora continua y el cumplimiento de los más altos estándares educativos.\n\nAcreditación 7 (A7) por la Federación de Instituciones Mexicanas Particulares de Educación Superior (FIMPES), lo que la distingue como una de las pocas universidades privadas del país en alcanzar este nivel de excelencia.\n\nCertificada en Gestión de Calidad bajo la norma ISO 9001:2015, que avala la eficiencia y mejora continua de sus procesos académicos y administrativos.\n\nRegistrada en el Registro Nacional de Instituciones y Empresas Científicas y Tecnológicas (RENIECYT), y en cumplimiento con los lineamientos de la Secretaría de Educación del Estado de Morelos.\n\nEstas acreditaciones garantizan que tu formación, los planes de estudio, los procesos de enseñanza-aprendizaje y los servicios que recibes como estudiante se mantengan siempre alineados con los más altos estándares nacionales e internacionales de excelencia educativa.",
+        "icon": "🏅",
+        "badge": "Excelencia Académica",
+        "courses": ["Acreditación 7 FIMPES", "ISO 9001:2015", "RENIECYT"],
+        "jobs": [
+          "Calidad Educativa",
+          "Reconocimiento Nacional",
+          "Respaldo Institucional"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "admin h.webp",
+    "imageVertical": "admin v.webp",
+    "duration": "8 Semestres",
+    "programType": "Licenciatura",
+    "rvoe": "0098P02060/98-12-04",
+    "perfilEgreso": "En la Universidad Internacional, nuestros egresados están preparados para liderar y gestionar organizaciones con visión estratégica, ética y enfoque global. Son profesionistas capaces de incrementar la productividad y rentabilidad empresarial mediante la toma de decisiones fundamentadas, la planeación eficiente de recursos y la implementación de procesos innovadores frente a los cambios del mercado nacional e internacional. Cuentan con habilidades directivas para coordinar equipos, gestionar talento, resolver conflictos y diseñar estrategias organizacionales orientadas al crecimiento sostenible y la competitividad.",
+    "lineasInvestigacion": [
+      "Capital",
+      "Emprendedores",
+      "Recursos Administrativos",
+      "Liderazgo Empresarial",
+      "Desarrollo Organizacional",
+      "Relaciones Humanas"
+    ],
+    "ventajasTransversales": [
+      "Formación con enfoque empresarial y estratégico.",
+      "Certificados de especialización incluidos durante la carrera.",
+      "Dominio de un segundo idioma.",
+      "Movilidad internacional y doble titulación (obtenida en el extranjero).",
+      "Desarrollo de proyectos reales con empresas.",
+      "Formación en liderazgo y emprendimiento.",
+      "Vinculación con el sector empresarial.",
+      "Formación en negocios digitales y comercio electrónico."
+    ],
+    "faq": [
+      {
+        "q": "¿Cuánto dura la carrera?",
+        "a": "8 semestres."
+      },
+      {
+        "q": "¿Necesito saber inglés?",
+        "a": "No, durante la carrera fortalecerás un segundo idioma."
+      },
+      {
+        "q": "¿Puedo estudiar en el extranjero?",
+        "a": "Sí, mediante programas de movilidad y doble titulación (obtenida en el extranjero)."
+      },
+      {
+        "q": "¿Puedo emprender mi propio negocio?",
+        "a": "Sí. El plan de estudios incluye asignaturas de emprendimiento, administración estratégica y desarrollo de proyectos."
+      },
+      {
+        "q": "¿En qué empresas puedo trabajar?",
+        "a": "En organizaciones nacionales e internacionales, empresas privadas, instituciones públicas, consultorías o como emprendedor."
+      },
+      {
+        "q": "¿Qué certificaciones obtengo?",
+        "a": "Podrás cursar certificados de especialización en Mercadotecnia y en Finanzas y Negocios."
+      },
+      {
+        "q": "¿Qué hace diferente a UNINTER?",
+        "a": "Su enfoque internacional, la posibilidad de doble titulación (obtenida en el extranjero), la formación en liderazgo, el dominio de un segundo idioma, la movilidad académica y las certificaciones institucionales de calidad."
+      }
+    ],
+    "objetivo": "Formar profesionales y líderes con visión estratégica, ética y global, capaces de gestionar e incrementar la productividad de cualquier organización. A través del dominio de técnicas administrativas, planeación eficiente de recursos y desarrollo del capital humano, el programa busca que los egresados sean capaces de anticipar soluciones, innovar procesos y emprender negocios exitosos que respondan a las exigencias dinámicas del mercado actual."
   },
   "comunicacion-y-relaciones-publicas": {
     "id": "CORP",
@@ -989,7 +1254,10 @@
           "Coordinador de Branding"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "comunica h.webp",
+    "imageVertical": "comunica v.webp",
+    "objetivo": "Forma tu perfil como estratega de imagen, branding, manejo de crisis y comunicación institucional. Convierte la percepción en el activo más valioso de cualquier organización."
   },
   "relaciones-internacionales-y-ciencias-politicas": {
     "id": "RICP",
@@ -1082,7 +1350,10 @@
           "Gestor de Proyectos Sociales"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "relaciones h.webp",
+    "imageVertical": "relaciones v.webp",
+    "objetivo": "Combina el análisis político nacional con la diplomacia internacional. Prepárate para diseñar políticas públicas y liderar negociaciones en un mundo globalizado."
   },
   "relaciones-internacionales-y-economia": {
     "id": "RIEC",
@@ -1173,7 +1444,10 @@
           "Consultor Económico Internacional"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "relaciones h.webp",
+    "imageVertical": "relaciones v.webp",
+    "objetivo": "Conecta la política exterior con las fuerzas financieras del mercado internacional. Conviértete en un experto en tratados comerciales, finanzas y desarrollo global."
   },
   "ciencias-politicas-y-gestion-publica": {
     "id": "LCP",
@@ -1264,7 +1538,10 @@
           "Estratega de Campañas Electorales"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "politicas h.webp",
+    "imageVertical": "politicas v.webp",
+    "objetivo": "Prepárate para dirigir y reformar instituciones del Estado, planificar el presupuesto público y diseñar soluciones a los problemas sociales más apremiantes."
   },
   "idiomas": {
     "id": "LID",
@@ -1355,7 +1632,10 @@
           "Diseñador de Contenidos Lingüísticos"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "idiomas h.webp",
+    "imageVertical": "idiomas v.webp",
+    "objetivo": "Domina el inglés, francés y otras lenguas desde una perspectiva profesional. Especialízate en traducción, interpretación, docencia y comunicación multicultural de negocios."
   },
   "pedagogia": {
     "id": "LPE",
@@ -1446,7 +1726,10 @@
           "Coordinador de Inclusión en Escuelas"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "pedagogía h.webp",
+    "imageVertical": "pedagogía v.webp",
+    "objetivo": "Aprende a diseñar estrategias educativas innovadoras, planes de estudio en la era digital y consultorías de desarrollo humano en empresas y escuelas."
   },
   "psicologia": {
     "id": "LPS",
@@ -1537,62 +1820,36 @@
           "Gerente de Capital Humano"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "pedagogía h.webp",
+    "imageVertical": "pedagogía v.webp",
+    "objetivo": "Fórmate en las áreas clínica, organizacional y educativa. Desarrolla las competencias de terapia, evaluación psicométrica y consultoría organizacional."
   },
   "animacion-y-diseno-digital": {
     "id": "LADD",
     "name": "Animación y Diseño Digital",
     "slug": "animacion-y-diseno-digital",
     "tagline": "Crea mundos, personajes, historias y experiencias digitales.",
-    "description": "En la Licenciatura en Animación y Diseño Digital aprenderás a convertir tus ideas en proyectos visuales, audiovisuales e interactivos mediante animación 2D y 3D, diseño digital, modelado, videojuegos, efectos especiales, simulación, ilustración, edición y postproducción. Esta carrera está dirigida a quienes desean contar historias, diseñar personajes, crear ambientes digitales, producir contenido audiovisual y desarrollar experiencias para medios digitales.",
-    "ingreso": "Esta carrera es para personas interesadas en crear historias, personajes, animaciones, videojuegos, experiencias digitales y contenidos audiovisuales. Es recomendable contar con sensibilidad artística, pensamiento creativo visual y disposición para aprender software especializado de modelado, animación y postproducción.",
-    "egreso": "Al concluir la licenciatura serás capaz de diseñar, desarrollar y producir proyectos visuales, audiovisuales e interactivos de animación 2D y 3D, videojuegos, simulación y efectos especiales para entretenimiento, educación, publicidad y nuevos medios, liderando y emprendiendo proyectos con visión de futuro.",
+    "description": "La Licenciatura en Animación y Diseño Digital te brinda las herramientas para transformar tu creatividad en proyectos visuales, audiovisuales e interactivos de alto impacto. Domina la animación 2D y 3D, el modelado, los efectos especiales y el desarrollo de videojuegos. Prepárate para contar historias cautivadoras, diseñar personajes memorables y producir experiencias inmersivas para la industria del entretenimiento, la publicidad y los nuevos medios.",
+    "ingreso": "¿Te apasiona contar historias y crear mundos extraordinarios? Este programa es ideal para mentes creativas con sensibilidad artística y gran interés por la tecnología, los videojuegos y los medios audiovisuales. Buscamos aspirantes con imaginación, habilidad espacial y talento para comunicar ideas de forma visual. Si disfrutas el dibujo, el diseño de personajes y tienes la disposición para trabajar en proyectos multidisciplinarios dominando software especializado, aquí encontrarás el espacio perfecto para potenciar tu creatividad y mantenerte siempre a la vanguardia digital.",
+    "egreso": "Tu visión y habilidades te abrirán las puertas en las industrias creativas más dinámicas, desde estudios de animación y productoras audiovisuales, hasta empresas de cine, televisión y plataformas de streaming. Podrás desarrollarte como líder en la industria de los videojuegos, agencias de diseño, publicidad y áreas especializadas en postproducción y efectos visuales. Además, contarás con la capacidad de innovar en el desarrollo de aplicaciones multimedia, tecnología educativa, o brindar consultoría y servicios de creación artístico-tecnológica de manera independiente.",
+    "perfilEgreso": "Al egresar, serás un profesional capaz de diseñar, desarrollar y producir proyectos visuales, audiovisuales e interactivos de alto impacto para múltiples plataformas. Dominarás la animación 2D y 3D, el modelado de personajes y la construcción de escenarios virtuales utilizando herramientas tecnológicas de última generación. Estarás preparado para fusionar narrativa, imagen y sonido en la creación de videojuegos, efectos especiales y experiencias multimedia, ya sea dirigiendo equipos creativos, innovando en corporativos o emprendiendo tu propio estudio de producción.",
     "syllabusDescription": "Nuestro plan de estudios conecta arte, tecnología y narrativa. Te capacita de forma 100% práctica en animación 2D/3D, modelado, videojuegos, postproducción e inteligencia artificial aplicada.",
     "projectsBlogUrl": "https://blogs.uninter.edu.mx/ESCAT/index.php/category/proyectos/",
     "experienciaPractica": [
       {
-        "title": "Laboratorio de Captura de Movimiento (Mocap)",
-        "desc": "Usa trajes y cámaras especiales de motion capture para transferir movimientos reales a tus personajes 3D. Experimenta con tecnologías inmersivas de última generación.",
-        "icon": "🤖",
-        "tag": "Motion Capture",
-        "features": [
-          "Cámaras ópticas infrarrojas",
-          "Trajes Mocap profesionales",
-          "Software de retargeting de movimiento"
-        ]
+        "title": "Estudio de Producción y Animación Digital",
+        "desc": "Desarrolla proyectos integrales de animación 2D y 3D desde cero. A través del trabajo multidisciplinario, dominarás la narrativa audiovisual, el diseño de personajes, los efectos especiales y la postproducción digital, utilizando software especializado para crear contenidos multimedia de nivel profesional.",
+        "icon": "🎬",
+        "tag": "ANIMACIÓN Y VFX",
+        "features": []
       },
       {
-        "title": "iMac Design Lab & Render Farm",
-        "desc": "Utiliza estaciones de diseño iMac de alta gama y nuestra granja de render para procesar proyectos 3D complejos y simulaciones a alta velocidad.",
-        "icon": "🖥️",
-        "tag": "Render Farm",
-        "features": [
-          "Granja de procesamiento de render",
-          "Estaciones iMac gráficas",
-          "Autodesk Maya y Unreal Engine"
-        ]
-      },
-      {
-        "title": "Taller de Modelado y Escultura Digital",
-        "desc": "Aprende esculpido orgánico, texturizado, shaders y renderizado en 3D utilizando tabletas Wacom y el estándar de la industria ZBrush.",
-        "icon": "🎨",
-        "tag": "Escultura 3D",
-        "features": [
-          "Tabletas digitales Wacom",
-          "ZBrush e Substance Painter",
-          "Prototipos orgánicos fotorrealistas"
-        ]
-      },
-      {
-        "title": "Estudio de Grabación de Audio & Foley",
-        "desc": "Crea la atmósfera perfecta para tus producciones mediante el diseño de sonido, banda sonora, Foley y doblaje de voz en un estudio insonorizado.",
-        "icon": "🎙️",
-        "tag": "Efectos de Sonido",
-        "features": [
-          "Estudio insonorizado profesional",
-          "Microfonía para Foley",
-          "Consolas de mezcla digital"
-        ]
+        "title": "Laboratorio de Videojuegos y Medios Interactivos",
+        "desc": "Aplica tu creatividad y visión tecnológica en la creación de videojuegos y ambientes digitales. Desarrolla competencias avanzadas en modelado, rigging, texturizado e inteligencia artificial aplicada, transformando tus ideas en experiencias interactivas y proyectos de emprendimiento con alcance global.",
+        "icon": "🎮",
+        "tag": "GAME DEVELOPMENT",
+        "features": []
       }
     ],
     "certificaciones": [
@@ -1670,9 +1927,28 @@
         "q": "¿Qué laboratorios especializados tiene el campus?",
         "a": "El campus cuenta con un Laboratorio de Captura de Movimiento (Mocap) profesional, iMac Design Lab, Render Farm y un Estudio de Grabación de Audio & Foley."
       }
+    ],
+    "imageHorizontal": "animacion h.webp",
+    "imageVertical": "animacion v.webp",
+    "objetivo": "Formar creadores visuales integrales capaces de fusionar arte, tecnología y narrativa para desarrollar proyectos digitales e interactivos de alto nivel. A través del dominio de herramientas de animación, producción audiovisual, programación y diseño, el programa busca impulsar en los estudiantes la capacidad de generar contenidos innovadores y experiencias multimedia que respondan a las demandas de las industrias creativas, el entretenimiento y la comunicación global, siempre con una sólida visión emprendedora.",
+    "lineasInvestigacion": [
+      "Creación de videojuegos: Desarrollo interactivo, mecánicas y experiencias inmersivas.",
+      "Diseño de ambientes y entornos: Construcción de escenarios virtuales y simulación.",
+      "Animación e ilustración digital: Técnicas especializadas en arte 2D y 3D.",
+      "Diseño y producción audiovisual: Integración estratégica de narrativa, imagen y sonido.",
+      "Efectos especiales: Postproducción y generación de elementos visuales para medios.",
+      "Gestión y emprendimiento digital: Dirección de proyectos, negocios y estudios creativos.",
+      "Producción visual y creativa: Desarrollo integral de contenidos artísticos y tecnológicos."
+    ],
+    "ventajasTransversales": [
+      "Aprenderás a dominar las herramientas digitales más demandadas para ilustración, modelado 3D, animación y efectos especiales.",
+      "Gestionarás producciones completas integrando tecnología, narrativa y arte, desde la idea inicial hasta la postproducción final.",
+      "Diseñarás videojuegos y experiencias interactivas innovadoras aplicando programación, mecánicas de juego e inteligencia artificial avanzada.",
+      "Desarrollarás habilidades de liderazgo para dirigir equipos multidisciplinarios, gestionar estudios creativos o fundar tu propia empresa.",
+      "Aplicarás tu talento estratégico en cine, publicidad, educación, medios de entretenimiento y negocios digitales de vanguardia.",
+      "Impulsarás tu perfil global mediante programas de movilidad académica, dominio de idiomas y un diploma internacional."
     ]
   },
-
   "diseno-industrial": {
     "id": "LDI",
     "name": "Diseño Industrial",
@@ -1762,16 +2038,28 @@
           "Ingeniero de Desarrollo de Producto"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "industrial h.webp",
+    "imageVertical": "industrial v.webp",
+    "objetivo": "Combina estética, funcionalidad, ergonomía y viabilidad productiva. Diseña productos innovadores, empaques inteligentes y mobiliario sustentable para la industria."
   },
   "diseno-de-modas-y-tendencias-internacionales": {
     "id": "LDM",
-    "name": "Diseño de Modas",
+    "name": "Diseño de Modas y Tendencias Internacionales",
     "slug": "diseno-de-modas-y-tendencias-internacionales",
-    "tagline": "Define el estilo. Lidera la moda global.",
-    "description": "Desarrolla colecciones de ropa vanguardistas, domina el patronaje de alta costura, y especialízate en la mercadotecnia de la moda, pasarelas y el retail de lujo.",
-    "ingreso": "Perfecto para apasionados de las tendencias, la confección textil, el dibujo de moda (figurines), la fotografía editorial y el estilismo.",
+    "tagline": "Convierte tu creatividad en colecciones, marcas y proyectos que marquen tendencia",
+    "description": "La Licenciatura en Diseño de Modas y Tendencias Internacionales te impulsa a transformar tu creatividad en marcas innovadoras y colecciones de alto impacto. Desarrolla tu sensibilidad estética y domina las herramientas estratégicas, digitales y de confección para anticipar el futuro de la industria. Prepárate para brillar en el competitivo mundo de la moda, ya sea dirigiendo tu propia firma, coordinando pasarelas internacionales o liderando proyectos de moda sustentable.",
+    "ingreso": "¿Te apasiona la moda y las industrias creativas? Buscamos mentes con sensibilidad estética, imaginación y visión emprendedora. Si disfrutas el trabajo colaborativo, la investigación de tendencias y la experimentación mediante la ilustración, la confección y el uso de herramientas digitales, este programa es para ti. Transforma tus ideas en proyectos reales, marcas innovadoras y propuestas sustentables.",
+    "perfilEgreso": "Al egresar de UNINTER, dominarás las herramientas estratégicas y creativas para destacar en el competitivo mundo de la moda internacional. Serás capaz de investigar, planear e implementar propuestas que marquen o transformen las tendencias globales, desarrollando siempre diseños funcionales, organizados y de alto impacto.",
     "egreso": "Serás un diseñador de moda de renombre, director de tu propia firma, coordinador de desfiles, comprador de moda para tiendas departamentales o editor de revistas de moda.",
+    "lineasInvestigacion": [
+      "Tendencias globales, cultura y comportamiento del consumidor.",
+      "Diseño e innovación de indumentaria, colecciones y accesorios.",
+      "Moda sustentable, economía circular y nuevos materiales.",
+      "Tecnología, diseño digital e innovación aplicada a la moda.",
+      "Branding, marketing y posicionamiento de marcas de moda.",
+      "Emprendimiento, producción y gestión de negocios de moda."
+    ],
     "experienciaPractica": [
       {
         "title": "Taller de Confección Profesional",
@@ -1855,7 +2143,10 @@
           "Coordinador de Moda"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "modas h.webp",
+    "imageVertical": "modas v.webp",
+    "objetivo": "Formar profesionales creativos y estratégicos con una visión global, capaces de innovar y liderar en la industria de la moda. A través del dominio del diseño de indumentaria, la investigación del consumidor y la gestión de negocios, el programa busca que los egresados desarrollen propuestas estéticas, funcionales y sustentables, dotándolos de las herramientas necesarias para posicionar marcas, emprender proyectos y transformar las tendencias en el mercado internacional."
   },
   "administracion-de-empresas-turisticas": {
     "id": "LAET",
@@ -1935,7 +2226,10 @@
           "Gerente de Recepción y Reservaciones"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "admin h.webp",
+    "imageVertical": "admin v.webp",
+    "objetivo": "Prepárate para dirigir hoteles, cruceros, agencias globales de viajes y proyectos ecoturísticos sustentables en una de las industrias con mayor crecimiento mundial."
   },
   "administracion-de-negocios-internacionales": {
     "id": "LANI",
@@ -2015,7 +2309,10 @@
           "Desarrollador de Nuevos Negocios"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "admin h.webp",
+    "imageVertical": "admin v.webp",
+    "objetivo": "Conviértete en un estratega capaz de internacionalizar empresas, negociar convenios multinacionales y gestionar cadenas de suministro globales."
   },
   "administracion-y-mercadotecnia": {
     "id": "LAM",
@@ -2095,7 +2392,10 @@
           "Consultor de Neuromarketing"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "admin h.webp",
+    "imageVertical": "admin v.webp",
+    "objetivo": "La combinación perfecta entre la optimización operativa y el posicionamiento de mercado. Aprende a dirigir organizaciones impulsando sus ventas al máximo."
   },
   "comercio-exterior": {
     "id": "LCE",
@@ -2175,16 +2475,19 @@
           "Consultor de Transporte Multimodal"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "comercio h.webp",
+    "imageVertical": "comercio v.webp",
+    "objetivo": "Especialízate en la legislación aduanera, clasificación arancelaria y los procesos de importación y exportación de mercancías a nivel global."
   },
   "economia-y-finanzas": {
     "id": "LEF",
     "name": "Economía y Finanzas",
     "slug": "economia-y-finanzas",
-    "tagline": "Analiza el entorno económico. Multiplica el valor financiero.",
-    "description": "Domina el análisis micro y macroeconómico, los mercados bursátiles, la valuación de portafolios de inversión y las finanzas corporativas avanzadas.",
-    "ingreso": "Para personas con aptitudes lógicas, matemáticas, interés por el comportamiento económico nacional e internacional y la bolsa de valores.",
-    "egreso": "Analista de portafolios de inversión, administrador de riesgos corporativos, banquero de inversión o consultor macroeconómico.",
+    "tagline": "Haz de tu inversión tu mejor economía",
+    "description": "La Licenciatura en Economía y Finanzas te brinda las herramientas analíticas, matemáticas y tecnológicas para dominar los mercados globales. Aprende a interpretar el comportamiento económico, evaluar alternativas de inversión y anticipar tendencias mundiales. Prepárate para liderar el crecimiento y la estabilidad financiera en corporativos, gobierno u organismos internacionales, siempre con un enfoque ético y sostenible.",
+    "ingreso": "Si te interesa entender cómo funciona la economía y el mundo financiero, esta licenciatura es para ti. Como estudiante de Economía y Finanzas desarrollarás la capacidad de analizar información económica y financiera y expresarla de forma clara mediante herramientas matemáticas y analíticas. Aprenderás a interpretar el comportamiento de los mercados financieros, evaluar alternativas de inversión y anticipar escenarios futuros utilizando modelos econométricos.",
+    "egreso": "Como egresado de Economía y Finanzas podrás desarrollarte en distintos sectores. En el ámbito financiero, podrás trabajar como analista de mercados en bancos, casas de bolsa, afianzadoras, arrendadoras, uniones de crédito, despachos y consultorías. También tendrás oportunidades en el sector público, participando en el diseño y análisis de políticas económicas en dependencias gubernamentales y organismos como el Banco de México. A nivel internacional, podrás colaborar en organismos no gubernamentales, banca transnacional, empresas multinacionales y organismos como el FMI, el Banco Mundial, la OMC o la CEPAL.",
     "experienciaPractica": [
       {
         "title": "Bolsa y Trading de Valores",
@@ -2222,40 +2525,115 @@
     ],
     "certificaciones": [
       {
-        "title": "Mercados Financieros e Inversiones",
-        "desc": "Certificación para el análisis de portafolios en bolsa de valores y mercado de divisas.",
-        "icon": "📈",
-        "badge": "Bolsa & Derivados",
+        "title": "Transformación Digital",
+        "desc": "Con este certificado aprenderás a hacerte dos preguntas clave: ¿cómo está impactando la tecnología a tu entorno profesional? y ¿cómo puedes aprovecharla estratégicamente para generar valor? A partir de ahí, trabajarás con herramientas digitales, análisis de datos, innovación tecnológica y estrategias de automatización que te permitirán optimizar procesos, mejorar la experiencia del cliente y fortalecer la competitividad de cualquier proyecto, empresa u organización.",
+        "icon": "💻",
+        "badge": "Digital Skills",
         "courses": [
-          "Mercado de Capitales",
-          "Mercado de Dinero",
-          "Análisis Técnico y Fundamental",
-          "Derivados Financieros"
+          "Habilidades Digitales",
+          "Pensamiento Creativo",
+          "Pensamiento Digital en los Negocios I",
+          "Pensamiento Digital en los Negocios II",
+          "Blockchain",
+          "Emprendimiento Tecnológico",
+          "Machine Learning",
+          "Comunicación en la Era Digital"
         ],
         "jobs": [
-          "Operador de Mesa de Dinero",
-          "Asesor de Inversión Bursátil",
-          "Analista de Portafolios"
+          "Líder de Transformación Digital",
+          "Analista de Innovación",
+          "Consultor Tecnológico"
         ]
       },
       {
-        "title": "Finanzas Corporativas y Control de Riesgos",
-        "desc": "Certificación para valuar proyectos, gestionar el capital de trabajo y mitigar riesgos cambiarios.",
-        "icon": "🏢",
-        "badge": "Corporate Finance",
+        "title": "Liderazgo 4.0",
+        "desc": "Con este certificado en Liderazgo 4.0 aprenderás a hacerte dos preguntas clave: ¿cómo liderar equipos en entornos digitales y cambiantes? y ¿cómo potenciar el talento a través de la tecnología y la innovación? Desarrollarás habilidades en liderazgo ágil, inteligencia emocional, gestión del cambio, trabajo colaborativo y toma de decisiones basada en datos.",
+        "icon": "👥",
+        "badge": "Management",
         "courses": [
-          "Finanzas Corporativas",
-          "Valuación de Empresas",
-          "Administración de Riesgos",
-          "Ingeniería Financiera"
+          "Habilidades Digitales",
+          "Liderazgo en la Era Digital",
+          "Análisis de Datos",
+          "Machine Learning",
+          "Comunicación en la Era Digital",
+          "Economía Circular",
+          "Humanismo Digital",
+          "Pensamiento Creativo"
         ],
         "jobs": [
-          "Director Financiero (CFO)",
-          "Controller Corporativo",
-          "Consultor de Finanzas"
+          "Director de Equipos Ágiles",
+          "Coordinador de Proyectos Tecnológicos",
+          "Gestor del Cambio Organizacional"
+        ]
+      },
+      {
+        "title": "Acreditaciones Vigentes",
+        "desc": "La Universidad Internacional (UNINTER) respalda tu formación con certificaciones y acreditaciones reconocidas a nivel nacional e internacional.",
+        "modalDesc": "La Universidad Internacional (UNINTER) respalda tu formación con certificaciones y acreditaciones reconocidas a nivel nacional e internacional, que garantizan la calidad académica, la mejora continua y el cumplimiento de los más altos estándares educativos.\n\nAcreditación 7 (A7) por la Federación de Instituciones Mexicanas Particulares de Educación Superior (FIMPES), lo que la distingue como una de las pocas universidades privadas del país en alcanzar este nivel de excelencia.\n\nCertificada en Gestión de Calidad bajo la norma ISO 9001:2015, que avala la eficiencia y mejora continua de sus procesos académicos y administrativos.\n\nRegistrada en el Registro Nacional de Instituciones y Empresas Científicas y Tecnológicas (RENIECYT), y en cumplimiento con los lineamientos de la Secretaría de Educación del Estado de Morelos.\n\nEstas acreditaciones garantizan que tu formación, los planes de estudio, los procesos de enseñanza-aprendizaje y los servicios que recibes como estudiante se mantengan siempre alineados con los más altos estándares nacionales e internacionales de excelencia educativa.",
+        "icon": "🏅",
+        "badge": "Excelencia Académica",
+        "courses": ["Acreditación 7 FIMPES", "ISO 9001:2015", "RENIECYT"],
+        "jobs": [
+          "Calidad Educativa",
+          "Reconocimiento Nacional",
+          "Respaldo Institucional"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "eco h.webp",
+    "imageVertical": "eco v.webp",
+    "duration": "8 Semestres",
+    "programType": "Licenciatura",
+    "rvoe": "2006P02302/2006-05-12",
+    "perfilEgreso": "En la Universidad Internacional te preparamos para comprender, analizar y transformar el entorno económico y financiero con una visión estratégica, ética y global. Aquí aprenderás a interpretar los mercados, evaluar escenarios económicos y tomar decisiones financieras sólidas que generen estabilidad y crecimiento. Desarrollarás habilidades para analizar indicadores macroeconómicos, gestionar inversiones, evaluar proyectos y optimizar recursos. También adquirirás competencias en análisis de datos, uso de herramientas tecnológicas y modelos econométricos que te permitirán anticipar tendencias e identificar oportunidades con un enfoque responsable y comprometido con el desarrollo sostenible.",
+    "lineasInvestigacion": [
+      "Finanzas Corporativas",
+      "Mercados Financieros y Bursátiles",
+      "Economía Aplicada y Análisis Macroeconómico",
+      "Econometría y Análisis de Datos",
+      "Finanzas Públicas y Política Fiscal",
+      "Banca y Sistema Financiero",
+      "Inversión y Gestión de Riesgos",
+      "Economía Internacional y Comercio Exterior",
+      "Planeación Estratégica y Consultoría Financiera"
+    ],
+    "ventajasTransversales": [
+      "Formación integral en economía, finanzas y análisis de datos.",
+      "Enfoque en mercados nacionales e internacionales.",
+      "Certificados de especialización durante la carrera.",
+      "Desarrollo de habilidades en econometría, análisis financiero e inteligencia de negocios.",
+      "Formación en tecnologías emergentes como Blockchain y Machine Learning.",
+      "Oportunidades de movilidad internacional y doble titulación (obtenida en el extranjero).",
+      "Preparación para organismos financieros nacionales e internacionales.",
+      "Desarrollo de habilidades para la toma de decisiones basada en datos."
+    ],
+    "faq": [
+      {
+        "q": "¿Cuánto dura la carrera?",
+        "a": "8 semestres."
+      },
+      {
+        "q": "¿Necesito ser experto en matemáticas?",
+        "a": "No. Durante la carrera desarrollarás progresivamente las habilidades matemáticas y analíticas necesarias."
+      },
+      {
+        "q": "¿Puedo trabajar en bancos?",
+        "a": "Sí. El programa te prepara para desempeñarte en bancos, casas de bolsa, aseguradoras, consultorías y empresas nacionales e internacionales."
+      },
+      {
+        "q": "¿Puedo trabajar en organismos internacionales?",
+        "a": "Sí. Tu formación incluye economía internacional, finanzas globales y dominio de un segundo idioma, lo que fortalece tu perfil para instituciones como el FMI, Banco Mundial, CEPAL y otros organismos internacionales."
+      },
+      {
+        "q": "¿Qué certificaciones puedo obtener?",
+        "a": "Podrás especializarte en Transformación Digital y Liderazgo 4.0, fortaleciendo tu perfil profesional en tecnologías emergentes y liderazgo organizacional."
+      },
+      {
+        "q": "¿Qué diferencia a UNINTER de otras universidades?",
+        "a": "Su enfoque internacional, la doble titulación (obtenida en el extranjero), la formación en tecnologías aplicadas a las finanzas, la movilidad académica, las certificaciones de especialización y una preparación integral para responder a los retos de la economía global."
+      }
+    ],
+    "objetivo": "Formar profesionales altamente analíticos con visión global, capaces de comprender, evaluar y transformar el entorno económico y financiero. A través del dominio de modelos econométricos, análisis de datos y estrategias de inversión, el programa busca que los estudiantes desarrollen la capacidad de anticipar escenarios, optimizar recursos y liderar la toma de decisiones financieras sólidas en los sectores público y privado a nivel nacional e internacional."
   },
   "mercadotecnia-y-publicidad": {
     "id": "LEMP",
@@ -2335,7 +2713,10 @@
           "Growth Marketer"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "merca h.webp",
+    "imageVertical": "merca v.webp",
+    "objetivo": "Desarrolla el balance ideal entre la analítica de marketing y la creatividad publicitaria digital. Diseña campañas memorables de alto impacto comercial."
   },
   "ingenieria-ambiental": {
     "id": "IAM",
@@ -2415,7 +2796,10 @@
           "Consultor Ambiental Técnico"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "ambiental h.webp",
+    "imageVertical": "ambiental v.webp",
+    "objetivo": "Aprende a resolver problemas ecológicos, diseñar sistemas de tratamiento de agua y aire, y auditar el impacto ambiental en industrias."
   },
   "ingenieria-civil": {
     "id": "ICI",
@@ -2495,20 +2879,23 @@
           "Director de Supervisión de Obra"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "civil h.webp",
+    "imageVertical": "civil v.webp",
+    "objetivo": "Domina el diseño de estructuras de concreto y acero, el análisis de suelos, la hidráulica y la gerencia de grandes obras civiles."
   },
   "ingenieria-industrial-y-de-sistemas-de-calidad": {
     "id": "IISCA",
-    "name": "Ingeniería Industrial",
+    "name": "Ingeniería Industrial y de Sistemas de Calidad",
     "slug": "ingenieria-industrial-y-de-sistemas-de-calidad",
     "tagline": "Optimiza los procesos. Lidera la excelencia operativa.",
-    "description": "Especialízate en sistemas de producción esbelta (Lean Manufacturing), logística de inventarios, optimización de tiempos y sistemas de calidad internacional.",
-    "ingreso": "Apto para personas analíticas, orientadas a la optimización, la eficiencia, la dirección de personal y el control estadístico de procesos.",
-    "egreso": "Director de planta industrial, gerente de aseguramiento de calidad, consultor de Lean Manufacturing o planificador de compras y logística.",
+    "description": "La Ingeniería Industrial y de Sistemas de Calidad te prepara para analizar, diseñar y elevar los estándares de cualquier proceso productivo o de servicios. Domina herramientas estratégicas como Lean Manufacturing, control estadístico, logística y análisis de datos. Desarrolla tu capacidad para resolver problemas organizacionales, garantizar la seguridad industrial y tomar decisiones que maximicen los recursos y la calidad de las operaciones.",
+    "ingreso": "Aspirantes con interés por mejorar procesos, resolver problemas organizacionales, optimizar recursos, analizar datos, elevar la calidad, trabajar con equipos multidisciplinarios y participar en contextos productivos o de servicios.",
+    "egreso": "Podrás desempeñarte en áreas como calidad, producción, mejora continua, logística, seguridad industrial, manufactura, operaciones, auditoría, procesos y consultoría. Puestos sugeridos: coordinador de calidad, analista de procesos, auditor de calidad interna, supervisor de producción, analista de mejora continua, coordinador de seguridad industrial, analista de logística, gestor de operaciones.",
     "experienciaPractica": [
       {
         "title": "Taller de Ensamble y Lean Manufacturing",
-        "desc": "Simula líneas de ensamble real aplicando metodologías Kanban, 5S y celdas de manufactura para reducir desperdicios.",
+        "desc": "Simula líneas de ensamble real aplicando metodologías Kanban, 5S y celdas de manufactura para reducir desperdicios. Prácticas integradas de análisis de procesos, reportes técnicos, simulación de líneas de ensamble, mejora continua, control estadístico y toma de decisiones con herramientas digitales.",
         "icon": "⚙️",
         "tag": "Lean",
         "features": [
@@ -2537,6 +2924,17 @@
           "Planes de auditoría ISO 9001",
           "Control estadístico en sitio",
           "Diagnósticos de productividad"
+        ]
+      },
+      {
+        "title": "Vida académica y proyectos",
+        "desc": "Incorpora ejemplos prácticos como KPI, ISO 9001, 5S, metrología, normalización, calidad, mejora continua, optimización de procesos, manufactura y análisis de operaciones.",
+        "icon": "🚀",
+        "tag": "Proyectos",
+        "features": [
+          "KPI e ISO 9001",
+          "Mejora continua y 5S",
+          "Análisis de operaciones"
         ]
       }
     ],
@@ -2575,7 +2973,67 @@
           "Planificador de Materiales (Planner)"
         ]
       }
-    ]
+    ],
+    "duration": "9 Semestres",
+    "programType": "Ingeniería",
+    "perfilEgreso": "El egresado podrá analizar, diseñar, mejorar y controlar procesos productivos y de servicios, aplicando herramientas de calidad, estadística, seguridad, logística, manufactura, mejora continua y gestión de operaciones.",
+    "syllabusDescription": "El plan de estudios de IISCA se actualiza para responder a los estándares industriales. Resalta áreas como: administración de la calidad, diseño de procesos de producción, control estadístico, análisis de riesgos, logística, mantenimiento, simulación de procesos 3D, CAD-CAM y metodologías de mejora continua.",
+    "ventajasTransversales": [
+      "Modalidad presencial",
+      "Docentes con experiencia",
+      "Acompañamiento académico",
+      "Asesorías",
+      "Idiomas",
+      "Ambiente multicultural",
+      "Intercambios"
+    ],
+    "diferenciadores": [
+      {
+        "text": "Enfoque en calidad y mejora continua",
+        "icon": "mdi:trending-up"
+      },
+      {
+        "text": "Análisis de procesos y herramientas estadísticas",
+        "icon": "mdi:chart-bar"
+      },
+      {
+        "text": "Cultura de calidad y seguridad industrial",
+        "icon": "mdi:shield-check"
+      },
+      {
+        "text": "Manufactura, simulación y proyectos integradores",
+        "icon": "mdi:factory"
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Qué diferencia hay entre Ingeniería Industrial e IISCA?",
+        "a": "IISCA cubre toda la base de Ingeniería Industrial y suma una fuerte especialización en sistemas internacionales de gestión de calidad, normas ISO y mejora continua, muy valorada por la industria moderna."
+      },
+      {
+        "q": "¿Solo se trabaja en fábricas?",
+        "a": "No, un egresado de IISCA optimiza procesos en aeropuertos, bancos, logística internacional, desarrollo de software, salud y cualquier empresa de servicios."
+      },
+      {
+        "q": "¿Qué herramientas de calidad se aprenden?",
+        "a": "Dominarás el control estadístico de procesos, metodologías Six Sigma, Lean Manufacturing, 5S, auditoría interna e implementación de la norma de calidad ISO 9001."
+      },
+      {
+        "q": "¿Qué es mejora continua?",
+        "a": "Es una filosofía de trabajo continuo para eliminar desperdicios, optimizar tiempos, reducir costos y elevar la calidad de los productos o servicios."
+      },
+      {
+        "q": "¿Qué herramientas de software se utilizan?",
+        "a": "Aprenderás a usar software técnico e industrial como AutoCAD, SolidWorks, simuladores de procesos en 3D, Excel avanzado y Power BI para análisis de datos."
+      },
+      {
+        "q": "¿Se realizan proyectos reales durante la carrera?",
+        "a": "Sí, a través de proyectos integradores y visitas en empresas locales como las del corredor industrial CIVAC para aplicar control estadístico, metrología e ISO."
+      }
+    ],
+    "imageHorizontal": "calidad h.webp",
+    "imageVertical": "calidad v.webp",
+    "objetivo": "La Ingeniería Industrial y de Sistemas de Calidad en UNINTER es un programa presencial de 4.5 años, orientada a la optimización de procesos productivos y de servicios mediante herramientas de calidad, Lean Manufacturing, logística, seguridad industrial, manufactura avanzada y análisis de datos. La carrera integra actividades aplicadas de análisis de procesos, reportes técnicos, simulación, mejora continua, control estadístico, proyectos integradores y uso de herramientas digitales para la toma de decisiones."
   },
   "ingenieria-mecanica-industrial": {
     "id": "IMI",
@@ -2655,6 +3113,9 @@
           "Consultor de Instalaciones de Fluidos"
         ]
       }
-    ]
+    ],
+    "imageHorizontal": "industrial h.webp",
+    "imageVertical": "industrial v.webp",
+    "objetivo": "Domina el diseño de mecanismos, sistemas termodinámicos, plantas térmicas, selección de materiales y el mantenimiento de maquinaria pesada."
   }
 }

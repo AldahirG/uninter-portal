@@ -51,7 +51,7 @@ const programs: Program[] = [
         { label: "Licenciaturas Ejecutivas",   desc: "Modalidad flexible", href: "https://universidad.uninter.edu.mx/ejecutivas",        icon: "mdi:briefcase-outline", external: true },
       ],
       tools: [
-        { label: "Proceso de Admisión",  href: "https://universidad.uninter.edu.mx/Admisiones",      icon: "mdi:arrow-right",             cta: true, external: true },
+        { label: "Proceso de Admisión",  href: "/admisiones",      icon: "mdi:arrow-right",             cta: true },
         { label: "Test Vocacional",      href: "https://universidad.uninter.edu.mx/test-vocacional", icon: "mdi:clipboard-list-outline",             external: true },
         { label: "Folletos Digitales",   href: "https://universidad.uninter.edu.mx/Folletos-Digitales", icon: "mdi:file-document-outline", external: true },
       ],
@@ -60,7 +60,7 @@ const programs: Program[] = [
       { label: "Licenciaturas Presenciales", href: "/LicenciaturasPresenciales" },
       { label: "Licenciaturas Ejecutivas",   href: "https://universidad.uninter.edu.mx/ejecutivas" },
       { label: "Folletos",                   href: "https://universidad.uninter.edu.mx/Folletos-Digitales" },
-      { label: "Admisiones",                 href: "https://universidad.uninter.edu.mx/Admisiones" },
+      { label: "Admisiones",                 href: "/admisiones" },
       { label: "Test Vocacional",            href: "https://universidad.uninter.edu.mx/test-vocacional" },
     ],
   },
@@ -84,7 +84,7 @@ const programs: Program[] = [
         },
       ],
       tools: [
-        { label: "Proceso de Admisión", href: "/bachillerato",                                             icon: "mdi:arrow-right",           cta: true },
+        { label: "Proceso de Admisión", href: "/bachillerato/admisiones",                                             icon: "mdi:arrow-right",           cta: true },
         { label: "Folletos Digitales",  href: "https://biu.uninter.edu.mx/",                              icon: "mdi:file-document-outline", external: true },
       ],
     },
@@ -92,7 +92,7 @@ const programs: Program[] = [
       { label: "Inicio Bachillerato", href: "/bachillerato" },
       { label: "BIU Bilingüe",    href: "/bachillerato/biu-bilingue", sub: true },
       { label: "BIU Multicultural", href: "/bachillerato/biu-multicultural", sub: true },
-      { label: "Admisiones BIU", href: "/bachillerato" },
+      { label: "Admisiones BIU", href: "/bachillerato/admisiones" },
     ],
   },
   {
@@ -115,7 +115,7 @@ const programs: Program[] = [
         },
       ],
       tools: [
-        { label: "Proceso de Admisión", href: "/secundaria",                                                      icon: "mdi:arrow-right",           cta: true },
+        { label: "Proceso de Admisión", href: "/secundaria/admisiones",                                                      icon: "mdi:arrow-right",           cta: true },
         { label: "Folletos Digitales",  href: "https://uninter.edu.mx/folletos/revistas/siurevista/",             icon: "mdi:file-document-outline", external: true },
       ],
     },
@@ -123,7 +123,7 @@ const programs: Program[] = [
       { label: "Inicio Secundaria", href: "/secundaria" },
       { label: "SIU Bilingüe",    href: "/secundaria/siu-bilingue", sub: true },
       { label: "SIU Multicultural", href: "/secundaria/siu-multicultural", sub: true },
-      { label: "Admisiones SIU", href: "/secundaria" },
+      { label: "Admisiones SIU", href: "/secundaria/admisiones" },
     ],
   },
   {
@@ -160,8 +160,6 @@ const programs: Program[] = [
     megaData: {
       programs: [
         { label: "Diplomados y Cursos",              desc: "Más de 100 programas de actualización", href: "/diplomados", icon: "mdi:book-open-page-variant-outline" },
-        { label: "Certificaciones Internacionales",  desc: "ICPM y certificaciones con valor global", href: "/diplomados", icon: "mdi:certificate-outline" },
-        { label: "Desarrollo Profesional",           desc: "IA, Era Digital, Startup y más",         href: "/diplomados", icon: "mdi:rocket-launch-outline" },
       ],
       tools: [
         { label: "Proceso de Admisión", href: "/diplomados/admisiones", icon: "mdi:arrow-right", cta: true },
@@ -275,13 +273,12 @@ const social = [
               <Icon :name="s.icon" size="13" />
             </a>
           </div>
-          <a
-            href="https://universidad.uninter.edu.mx/Calcula-Tu-Beca"
-            target="_blank"
+          <NuxtLink
+            to="/calcula-tu-beca"
             class="nh-beca"
           >
             Calcula tu Beca
-          </a>
+          </NuxtLink>
         </div>
       </div>
     </div>
@@ -513,9 +510,9 @@ const social = [
             </Transition>
           </li>
         </ul>
-        <a href="https://universidad.uninter.edu.mx/Calcula-Tu-Beca" target="_blank" class="nh-beca nh-beca--mobile">
+        <NuxtLink to="/calcula-tu-beca" class="nh-beca nh-beca--mobile">
           Calcula tu Beca
-        </a>
+        </NuxtLink>
         <button class="nh-hamburger" @click="mobileOpen = !mobileOpen" aria-label="Menú">
           <X v-if="mobileOpen" :size="20" />
           <Menu v-else :size="20" />
@@ -537,19 +534,17 @@ const social = [
     <Transition name="nh-mob">
       <div v-if="mobileOpen" class="nh-mobile">
         <div class="nh-mobile__ctas">
-          <a
-            href="https://universidad.uninter.edu.mx/Calcula-Tu-Beca"
-            target="_blank"
+          <NuxtLink
+            to="/calcula-tu-beca"
             class="nh-mcta nh-mcta--out"
             @click="mobileOpen = false"
-            >Calcula tu Beca</a
+            >Calcula tu Beca</NuxtLink
           >
-          <a
-            href="https://universidad.uninter.edu.mx/Admisiones"
-            target="_blank"
+          <NuxtLink
+            to="/admisiones"
             class="nh-mcta nh-mcta--solid"
             @click="mobileOpen = false"
-            >Admisiones</a
+            >Admisiones</NuxtLink
           >
         </div>
         <div

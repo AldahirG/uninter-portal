@@ -11,7 +11,7 @@ const stats = [
   <section class="banner-section">
     <div class="banner-slide">
       <img
-        src="/images/hero/licenciaturasPresenciales.jpg"
+        src="/images/hero/blur/2.jpg"
         alt="Licenciaturas Presenciales UNINTER"
         class="banner-slide__img"
       />
@@ -24,7 +24,9 @@ const stats = [
           <nav class="banner-crumb" aria-label="Ruta de navegación">
             <a href="/" class="crumb-link">Inicio</a>
             <span class="crumb-sep">›</span>
-            <span class="crumb-link crumb-link--active">Licenciaturas Presenciales</span>
+            <span class="crumb-link crumb-link--active"
+              >Licenciaturas Presenciales</span
+            >
           </nav>
 
           <h1 class="banner-title">
@@ -97,8 +99,12 @@ const stats = [
 }
 
 @keyframes kb-static {
-  from { transform: scale(1); }
-  to   { transform: scale(1.05); }
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
 }
 
 .banner-slide__overlay {
@@ -115,7 +121,11 @@ const stats = [
 .banner-slide__overlay2 {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(7, 20, 42, 0.85) 0%, transparent 55%);
+  background: linear-gradient(
+    to top,
+    rgba(7, 20, 42, 0.85) 0%,
+    transparent 55%
+  );
 }
 
 .banner-content {
@@ -138,13 +148,20 @@ const stats = [
 }
 .crumb-link {
   font-size: 0.72rem;
-  color: rgba(255,255,255,0.55);
+  color: rgba(255, 255, 255, 0.55);
   text-decoration: none;
   transition: color 0.2s;
 }
-.crumb-link:hover { color: rgba(255,255,255,0.85); }
-.crumb-link--active { color: rgba(255,255,255,0.85); }
-.crumb-sep { color: rgba(255,255,255,0.3); font-size: 0.72rem; }
+.crumb-link:hover {
+  color: rgba(255, 255, 255, 0.85);
+}
+.crumb-link--active {
+  color: rgba(255, 255, 255, 0.85);
+}
+.crumb-sep {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 0.72rem;
+}
 
 /* Título */
 .banner-title {
@@ -162,7 +179,7 @@ const stats = [
 
 .banner-subtitle {
   font-size: clamp(0.95rem, 1.5vw, 1.1rem);
-  color: rgba(255,255,255,0.72);
+  color: rgba(255, 255, 255, 0.72);
   line-height: 1.65;
   margin: 0 0 2.25rem;
   max-width: 520px;
@@ -199,11 +216,11 @@ const stats = [
 .banner-btn--ghost {
   background: transparent;
   color: #fff;
-  border: 2px solid rgba(255,255,255,0.45);
+  border: 2px solid rgba(255, 255, 255, 0.45);
 }
 .banner-btn--ghost:hover {
-  border-color: rgba(255,255,255,0.85);
-  background: rgba(255,255,255,0.08);
+  border-color: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.08);
 }
 
 /* Stats strip */
@@ -212,10 +229,10 @@ const stats = [
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-top: 1px solid rgba(255,255,255,0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
   z-index: 3;
 }
 .banner-stats__inner {
@@ -229,10 +246,12 @@ const stats = [
   flex-direction: column;
   align-items: center;
   padding: 1rem 1.5rem;
-  border-right: 1px solid rgba(255,255,255,0.12);
+  border-right: 1px solid rgba(255, 255, 255, 0.12);
   flex: 1;
 }
-.banner-stat:last-child { border-right: none; }
+.banner-stat:last-child {
+  border-right: none;
+}
 .banner-stat__value {
   font-size: clamp(1.4rem, 2.5vw, 1.9rem);
   font-weight: 900;
@@ -241,7 +260,7 @@ const stats = [
 }
 .banner-stat__label {
   font-size: 0.68rem;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255, 255, 255, 0.6);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.07em;
@@ -250,23 +269,39 @@ const stats = [
 
 /* Responsive */
 @media (max-width: 768px) {
-  .banner-section { --h: clamp(420px, 65vh, 560px); }
-  .banner-content { padding-bottom: 11rem; }
-  .banner-stats__inner { flex-wrap: wrap; }
+  .banner-section {
+    --h: clamp(420px, 65vh, 560px);
+  }
+  .banner-content {
+    padding-bottom: 11rem;
+  }
+  .banner-stats__inner {
+    flex-wrap: wrap;
+  }
   .banner-stat {
     flex: 1 1 50%;
     border-right: none;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     padding: 0.75rem 1rem;
   }
   .banner-stat:nth-child(1),
-  .banner-stat:nth-child(2) { border-right: 1px solid rgba(255,255,255,0.1); }
-  .banner-stat:nth-last-child(-n+2) { border-bottom: none; }
+  .banner-stat:nth-child(2) {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .banner-stat:nth-last-child(-n + 2) {
+    border-bottom: none;
+  }
 }
 
 @media (max-width: 480px) {
-  .banner-section { --h: clamp(380px, 60vh, 500px); }
-  .banner-ctas { flex-direction: column; }
-  .banner-btn { justify-content: center; }
+  .banner-section {
+    --h: clamp(380px, 60vh, 500px);
+  }
+  .banner-ctas {
+    flex-direction: column;
+  }
+  .banner-btn {
+    justify-content: center;
+  }
 }
 </style>

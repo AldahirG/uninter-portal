@@ -22,6 +22,8 @@ const socials = [
 // ESTADO Y NAVEGACIÓN DEL WIZARD
 // ==========================================
 const currentStep = ref(1);
+const showNoticeModal = ref(false);
+const wantsExtraScholarship = ref(false);
 
 // ==========================================
 // PASO 1: DATOS DEL LEAD
@@ -71,76 +73,139 @@ const isStep2Valid = computed(() => {
 // Opciones dinámicas
 const carrerasPorNivel: Record<string, string[]> = {
   "Secundaria (SIU)": ["Secundaria Bilingüe", "Secundaria Multicultural"],
-  "Preparatoria (BIU)": ["Bachillerato General", "Bachillerato Bilingüe"],
+  "Bachillerato": ["Bachillerato Bilingüe", "Bachillerato Multicultural"],
   Licenciatura: [
-    "Comunicación",
-    "Arquitectura",
-    "Derecho",
-    "Administración",
-    "Diseño Gráfico",
-    "Ingeniería en Sistemas",
+    "Comunicación (LCO)",
+    "Comunicación y Relaciones Públicas (CORP)",
+    "Relaciones Internacionales (LRI)",
+    "Relaciones Internacionales y Ciencias Políticas (RICP)",
+    "Relaciones Internacionales y Economía (RIEC)",
+    "Ciencias Políticas y Gestión Pública (LCP)",
+    "Derecho (LED)",
+    "Idiomas (LID)",
+    "Pedagogía (LPE)",
+    "Psicología (LPS)",
+    "Administración de Empresas (LAE)",
+    "Administración de Empresas Turísticas (LAET)",
+    "Administración de Negocios Internacionales (LANI)",
+    "Administración y Mercadotecnia (LAM)",
+    "Comercio Exterior (LCE)",
+    "Economía y Finanzas (LEF)",
+    "Mercadotecnia (LME)",
+    "Mercadotecnia y Publicidad (LEMP)",
+    "Arquitectura (ARQ)",
+    "Animación y Diseño Digital (LADD)",
+    "Diseño Gráfico (LDG)",
+    "Diseño Industrial (LDI)",
+    "Diseño de Modas y Tendencias Internacionales (LDM)",
+    "Ingeniería Ambiental (IAM)",
+    "Ingeniería Civil (ICI)",
+    "Ingeniería Industrial y de Sistemas de Calidad (IISCA)",
+    "Ingeniería Mecatrónica (IME)",
+    "Ingeniería Mecánica Industrial (IMI)",
+    "Ingeniería en Sistemas Computacionales (ISC)"
   ],
-  Posgrado: ["Maestría en Mercadotecnia", "Maestría en Educación"],
+  Posgrado: [
+    "Especialidad en Criminalística (ECR)",
+    "Especialidad en Administración de Obra (EAO)",
+    "Especialidad en Marketing Digital (EMD)",
+    "Especialidad en Publicidad (EPU)",
+    "Especialidad en Docencia del Español (EDE)",
+    "Maestría en Administración y Dirección (MAD)",
+    "Maestría en Educación y Docencia (MED)",
+    "Maestría en Gestión de Calidad (MGC)",
+    "Maestría en Lenguas (MLE)",
+    "Doctorado en Administración (DAD)",
+    "Doctorado en Humanidades (DHU)"
+  ]
 };
 
 const goToStep3 = () => {
   if (isStep2Valid.value) {
+    wantsExtraScholarship.value = false; // Reset toggle for new results
     currentStep.value = 3;
+    if (Number(academicData.value.promedio) < 7.0) {
+      showNoticeModal.value = true;
+    }
   }
 };
 
 // ==========================================
 // PASO 3: LÓGICA FINANCIERA Y ALGORITMO
 // ==========================================
-// Matriz extraída del archivo PreciosCarrera.xlsx
-const pricingMatrix: Record<string, number> = {
-  "Secundaria (SIU)": 8556,
-  "Preparatoria (BIU)": 10463,
-  Licenciatura: 10463,
-  Posgrado: 12634,
-};
 
-// Algoritmo de Beca según reglas de negocio
+// Algoritmo de Beca según reglas de negocio (5 en 5, tope 40%, mayor para pública)
 const scholarshipPercentage = computed(() => {
   const prom = Number(academicData.value.promedio);
   const isPublica = academicData.value.tipoEscuela === "Publica";
-  let beca = 25;
+  let beca = 10;
 
-  if (prom < 8.0) {
-    beca = 25; // Tope mínimo
-  } else if (prom >= 8.0 && prom < 9.0) {
-    if (isPublica) {
-      beca = 28 + ((prom - 8.0) / 0.9) * 2; // de 28% a 30%
-    } else {
-      beca = 25 + ((prom - 8.0) / 0.9) * 3; // de 25% a 28%
-    }
-  } else if (prom >= 9.0) {
-    if (isPublica) {
-      beca = 33 + ((prom - 9.0) / 1.0) * 2; // de 33% a 35%
-    } else {
-      beca = 30 + ((prom - 9.0) / 1.0) * 2; // de 30% a 32%
-    }
+  if (prom < 7.0) {
+    beca = 10;
+  } else if (prom >= 7.0 && prom < 7.5) {
+    beca = isPublica ? 15 : 10;
+  } else if (prom >= 7.5 && prom < 8.0) {
+    beca = isPublica ? 20 : 15;
+  } else if (prom >= 8.0 && prom < 8.5) {
+    beca = isPublica ? 25 : 20;
+  } else if (prom >= 8.5 && prom < 9.0) {
+    beca = isPublica ? 30 : 25;
+  } else if (prom >= 9.0 && prom < 9.8) { // Covers 9.0 to 9.7
+    beca = isPublica ? 35 : 30;
+  } else if (prom >= 9.8 && prom < 10.0) { // Covers 9.8 to 9.9
+    beca = isPublica ? 40 : 35;
+  } else { // prom === 10.0
+    beca = 40; // Tope
   }
 
-  // REGLA DE ORO: Limitar estrictamente entre 25% y 35%
-  return Math.round(Math.max(25, Math.min(35, beca)));
+  return beca;
 });
 
-// Cálculos financieros finales
-const basePrice = computed(
-  () => pricingMatrix[academicData.value.nivel] || 10463,
-);
-const discountAmount = computed(
-  () => basePrice.value * (scholarshipPercentage.value / 100),
-);
-const finalPrice = computed(() => basePrice.value - discountAmount.value);
+// Cálculos financieros finales basándose en precios de 100% de las capturas
+const basePrice = computed(() => {
+  const nivel = academicData.value.nivel;
+  const prog = academicData.value.carrera;
+
+  if (nivel === "Secundaria (SIU)") {
+    if (prog && prog.includes("Multicultural")) return 7139;
+    return 5003; // Bilingüe
+  }
+  if (nivel === "Bachillerato") {
+    if (prog && prog.includes("Multicultural")) return 9582;
+    return 7290; // Bilingüe
+  }
+  if (nivel === "Licenciatura") {
+    return 8438;
+  }
+  if (nivel === "Posgrado") {
+    return 7646;
+  }
+  return 8438;
+});
+
+const totalScholarshipPercentage = computed(() => {
+  let pct = scholarshipPercentage.value;
+  if (wantsExtraScholarship.value) {
+    pct += 10;
+  }
+  return Math.min(45, pct); // Cap absoluto de 45%
+});
+
+const discountAmount = computed(() => {
+  return basePrice.value * (totalScholarshipPercentage.value / 100);
+});
+
+const finalPrice = computed(() => {
+  return basePrice.value - discountAmount.value;
+});
 
 // Generador de Enlace WhatsApp
 const whatsappLink = computed(() => {
   const wappNumber = "527774234426"; // Número solicitado con código de México (+52)
+  const extraInfo = wantsExtraScholarship.value ? " (interesado en Beca Cultural/Deportiva)" : "";
   const message = `¡Hola! Soy ${leadData.value.nombres} ${leadData.value.apellidos}.
 Acabo de cotizar la ${academicData.value.nivel} en ${academicData.value.carrera} mediante la web.
-Mi promedio es de ${academicData.value.promedio} y obtuve una beca del *${scholarshipPercentage.value}%*.
+Mi promedio es de ${academicData.value.promedio} y obtuve una beca del *${totalScholarshipPercentage.value}%*${extraInfo}.
 Quiero iniciar mi proceso de inscripción con la mensualidad de *$${finalPrice.value.toLocaleString("es-MX", { minimumFractionDigits: 2 })}*.`;
   return `https://wa.me/${wappNumber}?text=${encodeURIComponent(message)}`;
 });
@@ -299,8 +364,8 @@ const formatCurrency = (value: number) => {
                           <option value="Secundaria (SIU)">
                             Secundaria (SIU)
                           </option>
-                          <option value="Preparatoria (BIU)">
-                            Preparatoria (BIU)
+                          <option value="Bachillerato">
+                            Bachillerato
                           </option>
                           <option value="Licenciatura">Licenciatura</option>
                           <option value="Posgrado">Posgrado</option>
@@ -455,7 +520,7 @@ const formatCurrency = (value: number) => {
                           {{ academicData.promedio.toFixed(1) }})</span
                         >
                         <span class="discount-badge"
-                          >-{{ scholarshipPercentage }}%</span
+                          >-{{ totalScholarshipPercentage }}%</span
                         >
                       </div>
                       <div class="rc-divider"></div>
@@ -468,12 +533,27 @@ const formatCurrency = (value: number) => {
                     </div>
                   </div>
 
+                  <!-- Convocatoria extra de beca cultural/deportiva para todos -->
+                  <div class="extra-scholarship-toggle">
+                    <label class="toggle-label">
+                      <input type="checkbox" v-model="wantsExtraScholarship" class="toggle-checkbox" />
+                      <span class="toggle-slider"></span>
+                      <div class="toggle-info">
+                        <span class="toggle-title">¿Practicas algún deporte o actividad artística?</span>
+                        <span class="toggle-desc">Haz clic aquí para sumar un <strong>+10% de beca</strong> adicional a tu propuesta aplicando a nuestras Becas Culturales y/o Deportivas (Tope máximo de beca: 45%).</span>
+                      </div>
+                    </label>
+                  </div>
+
                   <a :href="whatsappLink" target="_blank" class="btn-whatsapp">
                     <MessageCircle :size="20" />
                     ¡Inicia tu proceso con esta beca!
                   </a>
 
                   <p class="upsell-text">
+                    <span v-if="academicData.promedio < 7.0 && !wantsExtraScholarship" style="color: #d84315; font-weight: 700; display: block; margin-bottom: 0.6rem; line-height: 1.4;">
+                      ¡Nota importante! Tienes 10% de beca base, pero puedes obtener un porcentaje mayor participando en nuestras convocatorias de Becas Culturales y/o Deportivas. ¡Activa la opción de arriba para ver tu propuesta con beca cultural/deportiva!
+                    </span>
                     ¿Tienes un caso especial o buscas un porcentaje mayor?<br />
                     <a :href="whatsappLink" target="_blank"
                       >Contacta a un asesor para una evaluación
@@ -506,6 +586,36 @@ const formatCurrency = (value: number) => {
       </div>
     </div>
   </section>
+
+  <!-- Modal de aviso para promedio < 7.0 -->
+  <Teleport to="body">
+    <Transition name="calc-modal-fade">
+      <div v-if="showNoticeModal" class="calc-modal-overlay" @click="showNoticeModal = false">
+        <div class="calc-modal-card" @click.stop>
+          <button class="calc-modal-close" @click="showNoticeModal = false" aria-label="Cerrar modal">
+            <Icon name="mdi:close" size="20" />
+          </button>
+          <div class="calc-modal-header">
+            <div class="calc-modal-icon">
+              <Icon name="mdi:information" size="28" />
+            </div>
+            <h3 class="calc-modal-title">¡Nota importante!</h3>
+          </div>
+          <p class="calc-modal-text">
+            Tienes 10% de beca base, pero puedes obtener un porcentaje mayor participando en nuestras convocatorias de <strong>Becas Culturales y/o Deportivas</strong>.
+          </p>
+          <div class="calc-modal-actions">
+            <button class="calc-modal-btn" @click="wantsExtraScholarship = true; showNoticeModal = false">
+              ¡Me interesa! (+10% Beca)
+            </button>
+            <button class="calc-modal-btn btn-secondary" @click="showNoticeModal = false">
+              Ver propuesta base (10%)
+            </button>
+          </div>
+        </div>
+      </div>
+    </Transition>
+  </Teleport>
 </template>
 
 <style scoped>
@@ -1149,5 +1259,214 @@ const formatCurrency = (value: number) => {
   border-color: #1565c0;
   color: #ffffff;
   transform: scale(1.1);
+}
+
+/* =========================================================
+   MODAL DE AVISO (PROMEDIO < 7.0)
+========================================================= */
+.calc-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 26, 34, 0.45);
+  backdrop-filter: blur(8px);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.calc-modal-card {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 460px;
+  padding: 2.5rem;
+  box-shadow: 0 25px 50px -12px rgba(15, 60, 97, 0.25);
+  border: 1px solid rgba(15, 60, 97, 0.08);
+  position: relative;
+  text-align: center;
+}
+
+.calc-modal-close {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  background: #f1f5f9;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #64748b;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.calc-modal-close:hover {
+  background: #e2e8f0;
+  color: #0f3c61;
+}
+
+.calc-modal-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.calc-modal-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(216, 67, 21, 0.1);
+  color: #d84315;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calc-modal-title {
+  font-family: var(--font-serif, Lora, Georgia, serif);
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #0f3c61;
+  margin: 0;
+}
+
+.calc-modal-text {
+  font-size: 1rem;
+  color: #475569;
+  line-height: 1.6;
+  margin: 0 0 2rem 0;
+}
+
+.calc-modal-btn {
+  background: #d84315;
+  color: #ffffff;
+  border: none;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.85rem 2.5rem;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 0 4px 15px rgba(216, 67, 21, 0.25);
+  transition: all 0.2s;
+}
+.calc-modal-btn:hover {
+  background: #bf360c;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(216, 67, 21, 0.35);
+}
+
+/* Transiciones */
+.calc-modal-fade-enter-active,
+.calc-modal-fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+.calc-modal-fade-enter-from,
+.calc-modal-fade-leave-to {
+  opacity: 0;
+}
+
+.calc-modal-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.calc-modal-btn.btn-secondary {
+  background: #f1f5f9;
+  color: #475569;
+  box-shadow: none;
+}
+.calc-modal-btn.btn-secondary:hover {
+  background: #e2e8f0;
+  color: #0f3c61;
+}
+
+/* =========================================================
+   TOGGLE DE BECA ADICIONAL (CULTURAL / DEPORTIVA)
+========================================================= */
+.extra-scholarship-toggle {
+  background: rgba(216, 67, 21, 0.04);
+  border: 1px dashed rgba(216, 67, 21, 0.25);
+  border-radius: 16px;
+  padding: 1.25rem;
+  margin: 1.25rem 0;
+  transition: all 0.3s ease;
+}
+.extra-scholarship-toggle:hover {
+  background: rgba(216, 67, 21, 0.08);
+  border-color: rgba(216, 67, 21, 0.45);
+  transform: translateY(-1px);
+}
+
+.toggle-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.toggle-checkbox {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle-slider {
+  position: relative;
+  flex-shrink: 0;
+  width: 50px;
+  height: 26px;
+  background-color: #cbd5e1;
+  border-radius: 34px;
+  transition: .4s;
+  margin-top: 0.15rem;
+}
+.toggle-slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 50%;
+  transition: .4s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.toggle-checkbox:checked + .toggle-slider {
+  background-color: #d84315;
+}
+.toggle-checkbox:checked + .toggle-slider:before {
+  transform: translateX(24px);
+}
+
+.toggle-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.25rem;
+}
+
+.toggle-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #0f3c61;
+}
+
+.toggle-desc {
+  font-size: 0.82rem;
+  color: #475569;
+  line-height: 1.4;
 }
 </style>

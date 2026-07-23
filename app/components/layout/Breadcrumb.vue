@@ -35,6 +35,7 @@ const crumbs = computed(() => {
   let acc = "";
   segs.forEach((s, i) => {
     acc += "/" + s;
+    if (s === "posgrados") return; // Skip intermediate "posgrados" segment
     const label = LABELS[s] ?? slugToTitle(s);
     const href = HREF_OVERRIDES[s] ?? acc;
     list.push({ label, href, current: i === segs.length - 1 });
@@ -48,8 +49,15 @@ const isHome = computed(() => route.path === "/");
 const parentHref = computed(() => {
   const parts = route.path.split("/").filter(Boolean);
   if (parts.length <= 1) return "/";
-  // Si estamos en /carreras/algo, el padre debe ser /LicenciaturasPresenciales
   if (parts[0] === "carreras") return "/LicenciaturasPresenciales";
+  if (parts[0] === "posgrados") {
+    const sub = parts[1] || "";
+    if (sub === "especialidades" || sub === "maestrias" || sub === "doctorados") return "/";
+    if (sub.startsWith("esp-")) return "/posgrados/especialidades";
+    if (sub.startsWith("maes-")) return "/posgrados/maestrias";
+    if (sub.startsWith("doc-")) return "/posgrados/doctorados";
+    return "/";
+  }
   parts.pop();
   return "/" + parts.join("/");
 });

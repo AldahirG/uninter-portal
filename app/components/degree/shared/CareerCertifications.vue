@@ -7,6 +7,7 @@ const props = defineProps<{
   certificaciones: Array<{
     title: string;
     desc: string;
+    modalDesc?: string;
     icon: string;
     badge: string;
     courses: string[];
@@ -94,7 +95,11 @@ const currentCert = computed(() => {
             </div>
           </div>
 
-          <p class="modal-desc">{{ currentCert.desc }}</p>
+          <div class="modal-desc-wrap">
+            <p v-for="(paragraph, pIdx) in (currentCert.modalDesc || currentCert.desc).split('\n')" :key="pIdx" class="modal-desc">
+              {{ paragraph }}
+            </p>
+          </div>
 
           <div class="modal-content-grid">
             <!-- Bloque de Materias -->

@@ -1,6 +1,15 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 import { ref } from "vue";
-import { User, Phone, Mail, BookOpen, Send, RefreshCcw, HandshakeIcon, CheckCircle2 } from "lucide-vue-next";
+import {
+  User,
+  Phone,
+  Mail,
+  BookOpen,
+  Send,
+  RefreshCcw,
+  HandshakeIcon,
+  CheckCircle2,
+} from "lucide-vue-next";
 
 const form = ref({
   nombre: "",
@@ -23,7 +32,13 @@ const enviarRegistro = () => {
 
 const reiniciar = () => {
   submitted.value = false;
-  form.value = { nombre: "", telefono: "", correo: "", programa: "", avisoPrivacidad: false };
+  form.value = {
+    nombre: "",
+    telefono: "",
+    correo: "",
+    programa: "",
+    avisoPrivacidad: false,
+  };
 };
 
 const programas = [
@@ -32,152 +47,38 @@ const programas = [
   "Diseño y Artes",
   "Ingeniería",
 ];
+
+useHead({
+  script: [
+    { src: "https://link.superleads.mx/js/form_embed.js", defer: true }
+  ]
+});
 </script>
 
 <template>
   <section class="reg-section">
     <div class="uninter-container">
       <div class="reg-card">
-
         <!-- Lado formulario -->
         <div class="reg-form-side">
-          <Transition name="fade" mode="out-in">
-            <!-- Estado enviado -->
-            <div v-if="submitted" key="success" class="reg-success">
-              <div class="success-icon-wrap">
-                <CheckCircle2 :size="52" class="success-icon" />
-              </div>
-              <h2 class="success-title">¡Registro enviado!</h2>
-              <p class="success-desc">
-                Gracias, <strong>{{ form.nombre || "aspirante" }}</strong>. Un asesor
-                se pondrá en contacto contigo a la brevedad para guiarte en tu
-                proceso de admisión.
-              </p>
-              <button @click="reiniciar" class="reg-btn reg-btn--outline">
-                <RefreshCcw :size="15" /> Nuevo registro
-              </button>
-            </div>
-
-            <!-- Formulario -->
-            <div v-else key="form">
-              <div class="reg-form-header">
-                <div class="reg-eyebrow">
-                  <HandshakeIcon :size="14" />
-                  <span>¡Únete a la legión!</span>
-                </div>
-                <h2 class="reg-title">¡Bienvenido a UNINTER!</h2>
-                <p class="reg-subtitle">
-                  Completa el formulario y da el primer paso hacia tu
-                  licenciatura presencial.
-                </p>
-              </div>
-
-              <form @submit.prevent="enviarRegistro" class="reg-form">
-                <!-- Nombre -->
-                <div class="reg-field">
-                  <label class="reg-label" for="reg-nombre">Nombre completo</label>
-                  <div class="reg-input-wrap">
-                    <User :size="16" class="reg-icon" />
-                    <input
-                      id="reg-nombre"
-                      type="text"
-                      v-model="form.nombre"
-                      placeholder="Tu nombre completo"
-                      required
-                      class="reg-input"
-                    />
-                  </div>
-                </div>
-
-                <!-- Teléfono -->
-                <div class="reg-field">
-                  <label class="reg-label" for="reg-tel">Teléfono</label>
-                  <div class="reg-input-wrap">
-                    <span class="reg-prefix">MX +52</span>
-                    <input
-                      id="reg-tel"
-                      type="tel"
-                      v-model="form.telefono"
-                      placeholder="10 dígitos"
-                      required
-                      class="reg-input reg-input--prefix"
-                    />
-                  </div>
-                </div>
-
-                <!-- Correo -->
-                <div class="reg-field">
-                  <label class="reg-label" for="reg-email">Correo electrónico</label>
-                  <div class="reg-input-wrap">
-                    <Mail :size="16" class="reg-icon" />
-                    <input
-                      id="reg-email"
-                      type="email"
-                      v-model="form.correo"
-                      placeholder="correo@ejemplo.com"
-                      required
-                      class="reg-input"
-                    />
-                  </div>
-                </div>
-
-                <!-- Programa -->
-                <div class="reg-field">
-                  <label class="reg-label" for="reg-prog">Área de interés</label>
-                  <div class="reg-input-wrap">
-                    <BookOpen :size="16" class="reg-icon" />
-                    <select
-                      id="reg-prog"
-                      v-model="form.programa"
-                      required
-                      class="reg-input reg-select"
-                    >
-                      <option value="" disabled>Selecciona un área</option>
-                      <option v-for="p in programas" :key="p" :value="p">{{ p }}</option>
-                    </select>
-                  </div>
-                </div>
-
-                <!-- Aviso -->
-                <label class="reg-checkbox">
-                  <input type="checkbox" v-model="form.avisoPrivacidad" class="reg-check-input" />
-                  <span class="reg-check-box"></span>
-                  <span class="reg-check-label">
-                    Acepto el tratamiento de mis datos conforme a la
-                    <a href="#" class="reg-link">política de privacidad</a>
-                    de Universidad Internacional.
-                  </span>
-                </label>
-
-                <!-- reCAPTCHA mock -->
-                <div class="reg-captcha">
-                  <label class="captcha-inner">
-                    <input type="checkbox" class="captcha-check" />
-                    <span>No soy un robot</span>
-                  </label>
-                  <div class="captcha-brand">
-                    <img
-                      src="https://www.gstatic.com/recaptcha/api2/logo_48.png"
-                      alt="reCAPTCHA"
-                      width="24"
-                    />
-                    <small>reCAPTCHA</small>
-                  </div>
-                </div>
-
-                <button
-                  type="submit"
-                  :disabled="isSubmitting || !form.avisoPrivacidad"
-                  class="reg-btn"
-                >
-                  <span v-if="!isSubmitting">Enviar registro</span>
-                  <span v-else>Enviando...</span>
-                  <Send v-if="!isSubmitting" :size="15" />
-                  <RefreshCcw v-else :size="15" class="spin" />
-                </button>
-              </form>
-            </div>
-          </Transition>
+          <iframe
+            src="https://link.superleads.mx/widget/form/6rkDqSG2V8BZNsczD2wL"
+            style="width: 100%; height: 560px; border: none; border-radius: 4px; overflow: hidden;"
+            id="inline-6rkDqSG2V8BZNsczD2wL"
+            data-layout="{'id':'INLINE'}"
+            data-trigger-type="alwaysShow"
+            data-trigger-value=""
+            data-activation-type="alwaysActivated"
+            data-activation-value=""
+            data-deactivation-type="neverDeactivate"
+            data-deactivation-value=""
+            data-form-name="FormUniversidad"
+            data-height="844"
+            data-layout-iframe-id="inline-6rkDqSG2V8BZNsczD2wL"
+            data-form-id="6rkDqSG2V8BZNsczD2wL"
+            title="FormUniversidad"
+          >
+          </iframe>
         </div>
 
         <!-- Lado mascota -->
@@ -190,7 +91,6 @@ const programas = [
             />
           </div>
         </div>
-
       </div>
     </div>
   </section>
@@ -215,14 +115,14 @@ const programas = [
   background: #fff;
   border-radius: 24px;
   overflow: hidden;
-  box-shadow: 0 24px 60px rgba(15,60,97,0.12);
+  box-shadow: 0 24px 60px rgba(15, 60, 97, 0.12);
   min-height: 580px;
 }
 
 /* ── Lado formulario ───────────────────────────────────────── */
 .reg-form-side {
   flex: 1.25;
-  padding: 3.5rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -237,8 +137,11 @@ const programas = [
   gap: 0.875rem;
   padding: 2rem 0;
 }
-.success-icon-wrap { }
-.success-icon { color: #10b981; }
+.success-icon-wrap {
+}
+.success-icon {
+  color: #10b981;
+}
 .success-title {
   font-family: var(--font-serif, Georgia, serif);
   font-size: 1.8rem;
@@ -253,7 +156,9 @@ const programas = [
   margin: 0;
   max-width: 340px;
 }
-.success-desc strong { color: #0f3c61; }
+.success-desc strong {
+  color: #0f3c61;
+}
 
 /* Header */
 .reg-eyebrow {
@@ -314,14 +219,19 @@ const programas = [
   border-radius: 10px;
   padding: 0 1rem;
   gap: 0.625rem;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
 }
 .reg-input-wrap:focus-within {
   border-color: #1565c0;
-  box-shadow: 0 0 0 3px rgba(21,101,192,0.1);
+  box-shadow: 0 0 0 3px rgba(21, 101, 192, 0.1);
 }
 
-.reg-icon { color: #94a3b8; flex-shrink: 0; }
+.reg-icon {
+  color: #94a3b8;
+  flex-shrink: 0;
+}
 
 .reg-input {
   width: 100%;
@@ -332,7 +242,9 @@ const programas = [
   font-size: 0.9rem;
   color: #1e293b;
 }
-.reg-input::placeholder { color: #94a3b8; }
+.reg-input::placeholder {
+  color: #94a3b8;
+}
 
 .reg-prefix {
   font-size: 0.82rem;
@@ -343,7 +255,9 @@ const programas = [
   white-space: nowrap;
   flex-shrink: 0;
 }
-.reg-input--prefix { padding-left: 0.5rem; }
+.reg-input--prefix {
+  padding-left: 0.5rem;
+}
 
 .reg-select {
   appearance: none;
@@ -361,7 +275,9 @@ const programas = [
   gap: 0.625rem;
   cursor: pointer;
 }
-.reg-check-input { display: none; }
+.reg-check-input {
+  display: none;
+}
 .reg-check-box {
   width: 18px;
   height: 18px;
@@ -369,7 +285,9 @@ const programas = [
   border-radius: 4px;
   flex-shrink: 0;
   margin-top: 1px;
-  transition: border-color 0.2s, background 0.2s;
+  transition:
+    border-color 0.2s,
+    background 0.2s;
   position: relative;
 }
 .reg-check-input:checked + .reg-check-box {
@@ -393,7 +311,10 @@ const programas = [
   color: #64748b;
   line-height: 1.5;
 }
-.reg-link { color: #1565c0; text-decoration: underline; }
+.reg-link {
+  color: #1565c0;
+  text-decoration: underline;
+}
 
 /* reCAPTCHA */
 .reg-captcha {
@@ -424,7 +345,10 @@ const programas = [
   flex-direction: column;
   align-items: center;
 }
-.captcha-brand small { font-size: 0.5rem; color: #555; }
+.captcha-brand small {
+  font-size: 0.5rem;
+  color: #555;
+}
 
 /* Botón */
 .reg-btn {
@@ -462,13 +386,21 @@ const programas = [
   transform: translateY(-1px);
 }
 
-.spin { animation: spin 1s linear infinite; }
-@keyframes spin { 100% { transform: rotate(360deg); } }
+.spin {
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 /* Animación fade */
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 0.25s ease, transform 0.25s ease;
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease;
 }
 .fade-enter-from,
 .fade-leave-to {
@@ -491,7 +423,11 @@ const programas = [
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 30% 70%, rgba(255,255,255,0.07) 0%, transparent 60%);
+  background: radial-gradient(
+    circle at 30% 70%,
+    rgba(255, 255, 255, 0.07) 0%,
+    transparent 60%
+  );
 }
 
 .mascot-wrap {
@@ -505,7 +441,7 @@ const programas = [
   width: 100%;
   height: auto;
   object-fit: contain;
-  filter: drop-shadow(0 20px 30px rgba(0,0,0,0.35));
+  filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.35));
 }
 
 /* ── Responsive ────────────────────────────────────────────── */
@@ -517,15 +453,23 @@ const programas = [
     padding: 2.5rem 0;
     min-height: 200px;
   }
-  .mascot-wrap { width: 50%; }
+  .mascot-wrap {
+    width: 50%;
+  }
   .reg-form-side {
     padding: 2.5rem 1.75rem;
   }
-  .reg-captcha { max-width: 100%; }
+  .reg-captcha {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 560px) {
-  .reg-section { padding: 3rem 0; }
-  .reg-form-side { padding: 2rem 1.25rem; }
+  .reg-section {
+    padding: 3rem 0;
+  }
+  .reg-form-side {
+    padding: 2rem 1.25rem;
+  }
 }
 </style>

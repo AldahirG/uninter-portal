@@ -5,16 +5,20 @@
       "value": "all"
     },
     {
-      "label": "💰 Finanzas",
+      "label": "💼 Administración",
+      "value": "administracion"
+    },
+    {
+      "label": "💰 Finanzas y Costos",
       "value": "finanzas"
     },
     {
-      "label": "👥 Recursos Humanos",
-      "value": "rrhh"
+      "label": "📣 Mercadotecnia",
+      "value": "mercadotecnia"
     },
     {
-      "label": "📦 Operaciones y Logística",
-      "value": "operaciones"
+      "label": "⚖️ Derecho",
+      "value": "derecho"
     },
     {
       "label": "🌐 Formación General",
@@ -30,23 +34,23 @@
           "title": "Primer Semestre",
           "subjects": [
             {
-              "name": "Fundamentos de Administración",
-              "tag": "general"
-            },
-            {
-              "name": "Contabilidad Financiera",
+              "name": "Contabilidad Básica",
               "tag": "finanzas"
             },
             {
-              "name": "Microeconomía",
+              "name": "Matemáticas básicas",
               "tag": "general"
             },
             {
-              "name": "Matemáticas para Negocios",
-              "tag": "general"
+              "name": "Introducción al Derecho",
+              "tag": "derecho"
             },
             {
-              "name": "Taller de Comunicación Ejecutiva",
+              "name": "Administración Básica",
+              "tag": "administracion"
+            },
+            {
+              "name": "Computación",
               "tag": "general"
             },
             {
@@ -59,23 +63,23 @@
           "title": "Segundo Semestre",
           "subjects": [
             {
-              "name": "Proceso Administrativo",
-              "tag": "operaciones"
-            },
-            {
-              "name": "Contabilidad de Costos",
+              "name": "Microeconomía",
               "tag": "finanzas"
             },
             {
-              "name": "Macroeconomía",
+              "name": "Metodología de la Investigación",
               "tag": "general"
             },
             {
-              "name": "Estadística Descriptiva para Negocios",
+              "name": "Derecho Mercantil",
+              "tag": "derecho"
+            },
+            {
+              "name": "Estadística Descriptiva",
               "tag": "general"
             },
             {
-              "name": "Derecho Empresarial",
+              "name": "Desarrollo Humano y Valores",
               "tag": "general"
             },
             {
@@ -94,24 +98,24 @@
           "title": "Tercer Semestre",
           "subjects": [
             {
-              "name": "Administración Financiera I",
+              "name": "Macroeconomía",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Contabilidad de Costos",
+              "tag": "finanzas"
+            },
+            {
+              "name": "Fundamentos de Administración Financiera",
               "tag": "finanzas"
             },
             {
               "name": "Comportamiento Organizacional",
-              "tag": "rrhh"
-            },
-            {
-              "name": "Administración de la Producción",
-              "tag": "operaciones"
+              "tag": "administracion"
             },
             {
               "name": "Mercadotecnia Básica",
-              "tag": "general"
-            },
-            {
-              "name": "Estadística Inferencial",
-              "tag": "general"
+              "tag": "mercadotecnia"
             },
             {
               "name": "Lengua Extranjera III",
@@ -123,24 +127,24 @@
           "title": "Cuarto Semestre",
           "subjects": [
             {
-              "name": "Administración Financiera II",
+              "name": "Proceso Administrativo",
+              "tag": "administracion"
+            },
+            {
+              "name": "Contabilidad Financiera",
               "tag": "finanzas"
             },
             {
-              "name": "Gestión del Talento Humano",
-              "tag": "rrhh"
+              "name": "Calidad en las Organizaciones",
+              "tag": "administracion"
             },
             {
-              "name": "Cadena de Suministro y Logística",
-              "tag": "operaciones"
+              "name": "Derecho Laboral",
+              "tag": "derecho"
             },
             {
-              "name": "Derecho Laboral y Seguridad Social",
-              "tag": "rrhh"
-            },
-            {
-              "name": "Sistemas de Información Gerencial",
-              "tag": "operaciones"
+              "name": "Economía Internacional",
+              "tag": "finanzas"
             },
             {
               "name": "Lengua Extranjera IV",
@@ -158,23 +162,27 @@
           "title": "Quinto Semestre",
           "subjects": [
             {
-              "name": "Finanzas Corporativas y Valuación",
+              "name": "Liderazgo y Asertividad",
+              "tag": "administracion"
+            },
+            {
+              "name": "Seminario Integrador de la Administración",
+              "tag": "administracion"
+            },
+            {
+              "name": "Presupuestos",
               "tag": "finanzas"
             },
             {
-              "name": "Capacitación y Desarrollo Organizacional",
-              "tag": "rrhh"
-            },
-            {
-              "name": "Administración de la Calidad Total",
-              "tag": "operaciones"
-            },
-            {
-              "name": "Planeación Estratégica",
-              "tag": "operaciones"
+              "name": "Desarrollo Organizacional",
+              "tag": "administracion"
             },
             {
               "name": "Optativa I",
+              "tag": "general"
+            },
+            {
+              "name": "Optativa II",
               "tag": "general"
             }
           ]
@@ -183,23 +191,27 @@
           "title": "Sexto Semestre",
           "subjects": [
             {
-              "name": "Administración Fiscal y Tributaria",
-              "tag": "finanzas"
+              "name": "Negocios Internacionales",
+              "tag": "administracion"
             },
             {
-              "name": "Compensaciones y Nóminas",
-              "tag": "rrhh"
-            },
-            {
-              "name": "Gestión de Proyectos",
-              "tag": "operaciones"
-            },
-            {
-              "name": "Negociación y Toma de Decisiones",
+              "name": "Investigación de Operaciones",
               "tag": "general"
             },
             {
-              "name": "Optativa II",
+              "name": "Derecho Fiscal",
+              "tag": "derecho"
+            },
+            {
+              "name": "Logística Empresarial",
+              "tag": "administracion"
+            },
+            {
+              "name": "Optativa III",
+              "tag": "general"
+            },
+            {
+              "name": "Optativa IV",
               "tag": "general"
             }
           ]
@@ -214,23 +226,27 @@
           "title": "Séptimo Semestre",
           "subjects": [
             {
-              "name": "Seminario de Titulación I",
+              "name": "Negocios Electrónicos",
+              "tag": "administracion"
+            },
+            {
+              "name": "Seminario de Investigación",
               "tag": "general"
             },
             {
-              "name": "Consultoría y Diagnóstico Empresarial",
-              "tag": "operaciones"
-            },
-            {
-              "name": "Análisis e Interpretación de Estados Financieros",
+              "name": "Cultura Financiera",
               "tag": "finanzas"
             },
             {
-              "name": "Ética Empresarial y Gobierno Corporativo",
+              "name": "Consultoría y Auditoría Administrativa",
+              "tag": "administracion"
+            },
+            {
+              "name": "Optativa V",
               "tag": "general"
             },
             {
-              "name": "Prácticas Profesionales I",
+              "name": "Optativa VI",
               "tag": "general"
             }
           ]
@@ -239,30 +255,32 @@
           "title": "Octavo Semestre",
           "subjects": [
             {
-              "name": "Seminario de Titulación II",
+              "name": "Administración de Proyectos",
+              "tag": "administracion"
+            },
+            {
+              "name": "Desarrollo de Emprendedores",
+              "tag": "administracion"
+            },
+            {
+              "name": "Administración de Recursos Humanos",
+              "tag": "administracion"
+            },
+            {
+              "name": "Administración Estratégica",
+              "tag": "administracion"
+            },
+            {
+              "name": "Optativa VII",
               "tag": "general"
             },
             {
-              "name": "Simulador de Negocios",
-              "tag": "finanzas"
-            },
-            {
-              "name": "Emprendimiento e Innovación Empresarial",
-              "tag": "operaciones"
-            },
-            {
-              "name": "Prácticas Profesionales II",
+              "name": "Optativa VIII",
               "tag": "general"
             }
           ]
         }
       ]
     }
-  ],
-  "optativas": [
-    "Desarrollo de Nuevos Negocios (Startups)",
-    "Consultoría y Auditoría Administrativa",
-    "Comportamiento y Cambio Organizacional",
-    "Administración de Empresas Familiares"
   ]
 }

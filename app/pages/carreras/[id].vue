@@ -10,7 +10,11 @@
 
     <!-- Contenido de la Carrera -->
     <main v-else>
-      <CareerHeroShowcase :data="careerData" />
+      <CareerHeroShowcase 
+        :data="careerData" 
+        :duration="careerData?.duration" 
+        :programType="careerData?.programType" 
+      />
       <CareerOverview :data="careerData" />
       <CareerSyllabus :careerId="careerData.id" :syllabusDescription="planDescription" />
       <CareerCertifications :certificaciones="careerData.certificaciones" />

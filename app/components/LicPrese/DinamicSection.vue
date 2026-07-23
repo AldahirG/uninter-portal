@@ -15,14 +15,14 @@ const slides = [
     title: "VIDA UNINTER",
     icon: Globe,
     text: "A través de actividades educativas, sociales, culturales, deportivas y de servicio a la comunidad, podrás adquirir una formación multicultural conviviendo con estudiantes nacionales y extranjeros. Podrás participar en viajes, congresos, conferencias, teatro, actividades altruistas y equipos deportivos, entre muchas otras cosas.",
-    image: "/images/hero/licenciaturas.jpg",
+    image: "/images/heroMobile/8.jpg",
   },
   {
     id: 2,
     title: "INTERNACIONALIZACIÓN Y MOVILIDAD",
     icon: Plane,
     text: "Intercambios con más de 130 Universidades alrededor del Mundo y un Ambiente Multicultural con Alumnos provenientes de 25 Países.",
-    image: "/images/hero/ejecutivas.jpg",
+    image: "/images/heroMobile/12.jpg",
     btn: {
       label: "Conoce más",
       link: "https://universidad.uninter.edu.mx/Internacionalizaci%C3%B3n",
@@ -33,7 +33,7 @@ const slides = [
     title: "ENLACE PROFESIONAL",
     icon: BriefcaseBusiness,
     text: "Convenios con más de 1,500 Empresas Nacionales e Internacionales para tu Desarrollo y Desempeño Profesional durante toda la licenciatura.",
-    image: "/images/hero/talleres.jpg",
+    image: "/images/heroMobile/10.jpg",
     btn: { label: "Ver convenios", link: "#" },
   },
   {
@@ -46,7 +46,7 @@ const slides = [
       { label: "Blog de Filarmónica", href: "#" },
       { label: "Blog de Cheer Dance", href: "#" },
     ],
-    image: "/images/hero/licenciaturasPresenciales.jpg",
+    image: "/images/heroMobile/11.jpg",
   },
 ];
 </script>

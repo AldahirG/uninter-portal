@@ -1,7 +1,42 @@
 <script setup lang="ts">
+import { ref } from "vue";
+import { X, ArrowRight, MessageCircle } from "lucide-vue-next";
 import Navbare from "@/components/navbar/Index.vue";
 import FormRegister from "@/components/posgrados/FormRegister.vue";
 import PortalFooter from "@/components/layout/Footer.vue";
+
+// Estado del Panel Lateral (Drawer)
+const isDrawerOpen = ref(false);
+const activeProgram = ref<any>(null);
+
+// Abrir Drawer
+const openDrawer = (programData: any) => {
+  activeProgram.value = programData;
+  isDrawerOpen.value = true;
+  if (typeof document !== 'undefined') {
+    document.body.style.overflow = "hidden"; // Evita el scroll del fondo
+  }
+};
+
+// Cerrar Drawer
+const closeDrawer = () => {
+  isDrawerOpen.value = false;
+  setTimeout(() => {
+    activeProgram.value = null;
+  }, 400); // Espera a que termine la animación
+  if (typeof document !== 'undefined') {
+    document.body.style.overflow = ""; // Restaura el scroll
+  }
+};
+
+// Scroll suave al formulario de contacto
+const scrollToContacto = () => {
+  closeDrawer();
+  const contactSec = document.getElementById("contacto");
+  if (contactSec) {
+    contactSec.scrollIntoView({ behavior: "smooth" });
+  }
+};
 
 useHead({
   title: "Doctorados | UNINTER",
@@ -19,14 +54,14 @@ const doctorados = [
     area: "Alta Dirección y Negocios",
     icon: "mdi:briefcase-outline",
     programas: [
-      { nombre: "Doctorado en Administración", sigla: "DA", desc: "Formación de investigadores independientes y consultores de alta dirección capaces de generar conocimiento original y de aplicar metodologías científicas para resolver problemas críticos organizacionales." },
+      { nombre: "Doctorado en Administración", sigla: "DA", slug: "doc-administracion", desc: "Formación de investigadores independientes y consultores de alta dirección capaces de generar conocimiento original y de aplicar metodologías científicas para resolver problemas críticos organizacionales." },
     ],
   },
   {
     area: "Investigación Avanzada y Humanidades",
     icon: "mdi:flask-outline",
     programas: [
-      { nombre: "Doctorado en Humanidades", sigla: "DH", desc: "Programa interdisciplinario de investigación centrado en el estudio crítico de la educación, cultura, filosofía y dinámicas sociales contemporáneas." },
+      { nombre: "Doctorado en Humanidades", sigla: "DH", slug: "doc-humanidades", desc: "Programa interdisciplinario de investigación centrado en el estudio crítico de la educación, cultura, filosofía y dinámicas sociales contemporáneas." },
     ],
   },
 ];
@@ -74,28 +109,43 @@ const doctorados = [
     </section>
 
     <!-- LISTADO -->
-    <section id="listado" class="pg-list-sec">
-      <div class="pg-wrap">
-        <div class="pg-sec-header">
-          <p class="pg-eyebrow">Programas Disponibles</p>
-          <h2 class="pg-title">Explora nuestros Doctorados</h2>
-          <p class="pg-body">Nuestros programas doctorales cuentan con un claustro de investigadores distinguidos y líneas de generación de conocimiento altamente vigentes.</p>
+    <section id="listado" class="pg-list-sec oe-section">
+      <div class="pg-wrap uninter-container">
+        <div class="pg-sec-header oe-header">
+          <div>
+            <p class="pg-eyebrow uninter-eyebrow">Programas Disponibles</p>
+            <h2 class="pg-title uninter-section-title">Explora nuestros <em>Doctorados</em></h2>
+            <p class="pg-body">Nuestros programas doctorales cuentan con un claustro de investigadores distinguidos y líneas de generación de conocimiento altamente vigentes.</p>
+          </div>
         </div>
 
-        <div class="pg-cards-grid">
-          <div v-for="area in doctorados" :key="area.area" class="area-card">
-            <div class="area-card__header">
-              <Icon :name="area.icon" size="22" class="area-card__icon" />
-              <h3>{{ area.area }}</h3>
-            </div>
-            <div class="area-card__body">
-              <div v-for="p in area.programas" :key="p.sigla" class="prog-item">
-                <div class="prog-item__meta">
-                  <span class="prog-item__name">{{ p.nombre }}</span>
-                  <span class="prog-item__sigla">{{ p.sigla }}</span>
-                </div>
-                <p class="prog-item__desc">{{ p.desc }}</p>
-              </div>
+        <!-- GRID DE TARJETAS (Unificado) -->
+        <div class="oe-grid">
+          <div
+            v-for="(area, index) in doctorados"
+            :key="index"
+            class="oe-card"
+          >
+            <div class="oe-card__content-wrapper">
+              <h3 class="oe-card__title">
+                {{ area.area }}
+              </h3>
+
+              <!-- LISTA UNIFICADA -->
+              <ul class="oe-card__list">
+                <li
+                  v-for="(p, idx) in area.programas"
+                  :key="'prog-' + idx"
+                >
+                  <button
+                    @click.prevent="openDrawer(p)"
+                    class="oe-card__link"
+                  >
+                    <span class="oe-card__bullet">•</span>
+                    <span class="oe-card__text">{{ p.nombre }} ({{ p.sigla }})</span>
+                  </button>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -103,9 +153,68 @@ const doctorados = [
     </section>
 
     <!-- CONTACTO -->
-    <section id="contacto" class="pg-contact-sec">
-      <FormRegister />
-    </section>
+    <FormRegister id="contacto" />
+
+    <!-- PANEL LATERAL (Side Drawer) CON BLUR -->
+    <Teleport to="body">
+      <div 
+        class="oe-drawer-overlay" 
+        :class="{ 'is-open': isDrawerOpen }"
+        @click="closeDrawer"
+      >
+        <div 
+          class="oe-drawer" 
+          :class="{ 'is-open': isDrawerOpen }"
+          @click.stop
+        >
+          <button class="oe-drawer-close" @click="closeDrawer">
+            <X :size="24" />
+          </button>
+
+          <div v-if="activeProgram" class="oe-drawer-content">
+            <div class="oe-drawer-header">
+              <div class="oe-drawer-badge">
+                {{ activeProgram.sigla }}
+              </div>
+              <h3 class="oe-detail-title">{{ activeProgram.nombre }}</h3>
+            </div>
+            
+            <p class="oe-detail-desc">
+              {{ activeProgram.desc }}
+            </p>
+
+            <div class="oe-detail-actions">
+              <!-- Botón Ver Detalles Completos -->
+              <NuxtLink
+                v-if="activeProgram.slug"
+                :to="`/posgrados/${activeProgram.slug}`"
+                class="oe-btn oe-btn--solid"
+                @click="closeDrawer"
+              >
+                Ver Detalles Completos <ArrowRight :size="16" />
+              </NuxtLink>
+
+              <!-- Botón Solicitar Admisión que hace scroll a #contacto -->
+              <button
+                @click="scrollToContacto"
+                class="oe-btn oe-btn--outline"
+              >
+                Solicitar Admisión
+              </button>
+              
+              <!-- Botón WhatsApp -->
+              <a
+                href="https://wa.link/3ktsjb"
+                target="_blank"
+                class="oe-btn oe-btn--outline"
+              >
+                <MessageCircle :size="16" /> Chat por WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Teleport>
 
     <PortalFooter />
   </div>
@@ -256,87 +365,307 @@ const doctorados = [
   transform: translateY(-2px);
 }
 
-/* Listado Section */
+/* Listado Section & Cards */
 .pg-list-sec {
   padding: 6rem 0;
 }
-.pg-sec-header {
-  margin-bottom: 4rem;
+.oe-section {
+  background: #f4f6f8;
 }
-.pg-cards-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
+
+.uninter-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
 }
-.area-card {
-  background: #ffffff;
-  border: 1px solid rgba(0,0,0,0.06);
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.02);
-}
-.area-card__header {
-  background: #1a262f;
-  color: #ffffff;
-  padding: 1.25rem 2rem;
+
+.oe-header {
   display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-.area-card__icon {
-  color: #78909C;
-}
-.area-card__header h3 {
-  font-size: 1rem;
-  font-weight: 800;
-  margin: 0;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-.area-card__body {
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-.prog-item {
-  border-bottom: 1px solid rgba(0,0,0,0.05);
-  padding-bottom: 1.5rem;
-}
-.prog-item:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
-}
-.prog-item__meta {
-  display: flex;
+  align-items: flex-end;
   justify-content: space-between;
-  align-items: center;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
   gap: 1rem;
-  margin-bottom: 0.75rem;
 }
-.prog-item__name {
-  font-size: 1.15rem;
-  font-weight: 800;
-  color: #1a262f;
-}
-.prog-item__sigla {
-  background: rgba(84, 110, 122, 0.1);
+
+.uninter-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
   color: #546E7A;
-  font-size: 0.7rem;
-  font-weight: 800;
-  padding: 0.25rem 0.6rem;
-  border-radius: 4px;
+  margin-bottom: 0.75rem;
+  display: block;
 }
-.prog-item__desc {
-  font-size: 0.9rem;
-  line-height: 1.6;
-  color: #555;
+
+.uninter-section-title {
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  font-weight: 800;
+  line-height: 1.15;
+  color: #1a262f;
   margin: 0;
 }
 
-/* Contacto */
-.pg-contact-sec {
+.uninter-section-title em {
+  color: #546E7A;
+  font-style: italic;
+}
+
+/* Grid */
+.oe-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+
+/* Tarjeta Unificada */
+.oe-card {
   background: #ffffff;
-  padding: 5rem 0;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+}
+
+.oe-card:hover {
+  box-shadow: 0 15px 30px -5px rgba(84, 110, 122, 0.08);
+  transform: translateY(-4px);
+}
+
+.oe-card__content-wrapper {
+  padding: 2.5rem;
+}
+
+.oe-card__title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #1a262f;
+  margin: 0 0 1.5rem 0;
+  line-height: 1.3;
+  border-bottom: 2px solid #f1f5f9;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+/* Lista */
+.oe-card__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.oe-card__link {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+
+.oe-card__link:hover {
+  background-color: #f8fafc;
+  border-color: #e2e8f0;
+  transform: translateX(6px);
+}
+
+.oe-card__bullet {
+  font-size: 1.2rem;
+  line-height: 0.8;
+  color: #cbd5e1;
+  transition: color 0.2s;
+}
+
+.oe-card__link:hover .oe-card__bullet {
+  color: #546E7A;
+}
+
+.oe-card__text {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+  font-weight: 500;
+  flex-grow: 1;
+}
+
+.oe-card__link:hover .oe-card__text {
+  color: #1a262f;
+}
+
+/* Panel Lateral (Drawer Modal) */
+.oe-drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(26, 38, 47, 0.4);
+  backdrop-filter: blur(8px);
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+.oe-drawer-overlay.is-open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.oe-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  max-width: 500px;
+  height: 100vh;
+  background: #ffffff;
+  box-shadow: -10px 0 40px rgba(0, 0, 0, 0.1);
+  transform: translateX(100%);
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.oe-drawer.is-open {
+  transform: translateX(0);
+}
+
+.oe-drawer-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: #f1f5f9;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #64748b;
+  cursor: pointer;
+  transition: all 0.2s;
+  z-index: 50;
+}
+
+.oe-drawer-close:hover {
+  background: #e2e8f0;
+  color: #1a262f;
+  transform: rotate(90deg);
+}
+
+.oe-drawer-content {
+  padding: 4rem 3rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.oe-drawer-header {
+  margin-bottom: 2rem;
+}
+
+.oe-drawer-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(84, 110, 122, 0.1);
+  color: #546E7A;
+  padding: 0.5rem 1rem;
+  border-radius: 99px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.oe-detail-title {
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a262f;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.oe-detail-desc {
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.7;
+  margin: 0 0 3rem 0;
+}
+
+.oe-detail-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.oe-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s;
+  cursor: pointer;
+  width: 100%;
+}
+
+.oe-btn--solid {
+  background: #546E7A;
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 15px rgba(84, 110, 122, 0.3);
+}
+
+.oe-btn--solid:hover {
+  background: #37474F;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(84, 110, 122, 0.4);
+}
+
+.oe-btn--outline {
+  background: transparent;
+  color: #546E7A;
+  border: 2px solid #546E7A;
+}
+
+.oe-btn--outline:hover {
+  background: rgba(84, 110, 122, 0.05);
+}
+
+
+
+@media (max-width: 900px) {
+  .oe-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .oe-drawer-content {
+    padding: 3rem 1.5rem;
+  }
+  .oe-card__content-wrapper {
+    padding: 1.5rem;
+  }
 }
 </style>

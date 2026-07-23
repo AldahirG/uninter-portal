@@ -23,24 +23,42 @@ import {
 } from "lucide-vue-next";
 
 // Props dinámicos
-const props = defineProps<{
-  data: {
-    slug?: string;
-    name: string;
-    tagline: string;
-    description: string;
-    ingreso: string;
-    egreso: string;
+import { computed } from "vue";
+
+const props = withDefaults(
+  defineProps<{
+    data: {
+      slug?: string;
+      name: string;
+      tagline: string;
+      description: string;
+      ingreso: string;
+      egreso: string;
+      diferenciadores?: Array<string | { text: string; icon?: string }>;
+      imageHorizontal?: string;
+      imageVertical?: string;
+    };
+    programType?: string; // e.g. "Licenciatura", "Especialidad", "Maestría", "Doctorado"
+    duration?: string;    // e.g. "8 Semestres", "2 Semestres", "4 Semestres"
+  }>(),
+  {
+    programType: "Licenciatura",
+    duration: "8 Semestres",
   }
-}>();
+);
 
 // Datos para la barra de estadísticas inferior (estilo diplomados)
-const stats = [
-  { value: "8 Sem.",    label: "Plan Semestral" },
-  { value: "SEP RVOE",  label: "Validez Oficial" },
-  { value: "Presencial",label: "Modalidad" },
-  { value: "Global",    label: "Doble Titulación" },
-];
+const stats = computed(() => {
+  const val = props.duration.toLowerCase().includes("semestre")
+    ? props.duration.replace(/semestres/i, "Sem.").replace(/semestre/i, "Sem.").trim()
+    : props.duration;
+  return [
+    { value: val,         label: "Plan Semestral" },
+    { value: "SEP RVOE",  label: "Validez Oficial" },
+    { value: "Presencial",label: "Modalidad" },
+    { value: "Global",    label: "Doble Titulación" },
+  ];
+});
 
 // Carrusel de imágenes de fondo (podrían ser dinámicas después)
 const backgroundImages = [
@@ -62,9 +80,15 @@ const formatTagline = (tagline: string) => {
   <header class="career-hero-section">
     <!-- FONDO CINEMÁTICO CON ACETERNITY SPOTLIGHT -->
     <div class="hero-bg-wrapper">
-      <!-- Swiper para fondos normales -->
+      <!-- Imagen de cabecera responsiva (Vertical para celular, Horizontal para escritorio) -->
+      <picture v-if="data?.imageHorizontal && data?.imageVertical" class="bg-picture">
+        <source media="(max-width: 768px)" :srcset="encodeURI(`/images/WebVertical/${data.imageVertical}`)" />
+        <img :src="encodeURI(`/images/WebHorizontal/${data.imageHorizontal}`)" :alt="data.name" class="bg-image" />
+      </picture>
+
+      <!-- Swiper para fondos normales (Fallback) -->
       <Swiper
-        v-if="data?.slug !== 'comunicacion'"
+        v-else-if="data?.slug !== 'comunicacion'"
         :modules="[Autoplay, EffectFade]"
         effect="fade"
         :fade-effect="{ crossFade: true }"
@@ -77,15 +101,15 @@ const formatTagline = (tagline: string) => {
         <SwiperSlide v-for="(img, index) in backgroundImages" :key="index">
           <div class="bg-slide">
             <img :src="img" alt="Estudiantes UNINTER" class="bg-image" />
-            <div class="bg-overlay"></div>
           </div>
         </SwiperSlide>
       </Swiper>
 
-      <!-- Fondo de patrón repetido para Comunicación -->
-      <div v-else class="bg-pattern-wrapper">
-        <div class="bg-overlay"></div>
-      </div>
+      <!-- Fondo de patrón repetido para Comunicación (Fallback anterior) -->
+      <div v-else class="bg-pattern-wrapper"></div>
+
+      <!-- Superposición oscura común para contraste de texto -->
+      <div class="bg-overlay"></div>
 
       <!-- EFECTO SPOTLIGHT ACETERNITY -->
       <div class="aceternity-spotlight"></div>
@@ -104,7 +128,7 @@ const formatTagline = (tagline: string) => {
 
           <div class="card-content">
             <div class="card-header">
-              <span class="eyebrow">Licenciatura en</span>
+              <span class="eyebrow">{{ programType }} en</span>
               <h1 class="career-title">{{ data?.name || 'Cargando...' }}</h1>
               <span class="rvoe-badge">RVOE Autorizado Federalmente</span>
             </div>
@@ -118,7 +142,7 @@ const formatTagline = (tagline: string) => {
             <div class="pill-tags">
               <div class="pill">
                 <Clock :size="16" class="pill-icon" />
-                <span>8 Semestres</span>
+                <span>{{ duration }}</span>
               </div>
               <div class="pill">
                 <MapPin :size="16" class="pill-icon" />
@@ -157,18 +181,28 @@ const formatTagline = (tagline: string) => {
           <div class="benefits-glass-card float-entrance stagger-1">
             <h3 class="benefits-title">¿Por qué en UNINTER?</h3>
             <ul class="benefits-list">
-              <li>
-                <div class="icon-box"><MonitorPlay :size="20" /></div>
-                <span>Instalaciones de primer nivel</span>
-              </li>
-              <li>
-                <div class="icon-box"><Briefcase :size="20" /></div>
-                <span>Prácticas profesionales garantizadas</span>
-              </li>
-              <li>
-                <div class="icon-box"><Globe :size="20" /></div>
-                <span>Certificaciones internacionales</span>
-              </li>
+              <template v-if="data?.diferenciadores && data.diferenciadores.length > 0">
+                <li v-for="(dif, idx) in data.diferenciadores" :key="idx">
+                  <div class="icon-box">
+                    <Icon :name="typeof dif === 'object' ? (dif.icon || 'mdi:check-bold') : 'mdi:check-bold'" size="20" />
+                  </div>
+                  <span>{{ typeof dif === 'object' ? dif.text : dif }}</span>
+                </li>
+              </template>
+              <template v-else>
+                <li>
+                  <div class="icon-box"><MonitorPlay :size="20" /></div>
+                  <span>Instalaciones de primer nivel</span>
+                </li>
+                <li>
+                  <div class="icon-box"><Briefcase :size="20" /></div>
+                  <span>Prácticas profesionales garantizadas</span>
+                </li>
+                <li>
+                  <div class="icon-box"><Globe :size="20" /></div>
+                  <span>Certificaciones internacionales</span>
+                </li>
+              </template>
             </ul>
           </div>
 
@@ -220,7 +254,7 @@ const formatTagline = (tagline: string) => {
   max-width: 1350px;
   width: 100%;
   margin: 0 auto;
-  padding: 4rem 1.5rem;
+  padding: 4rem 1.5rem 9rem 1.5rem;
   position: relative;
   z-index: 10;
 }
@@ -229,6 +263,14 @@ const formatTagline = (tagline: string) => {
   position: absolute;
   inset: 0;
   z-index: 1;
+}
+.bg-picture {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: block;
 }
 .bg-swiper,
 .bg-slide {
@@ -817,7 +859,10 @@ const formatTagline = (tagline: string) => {
 @media (max-width: 768px) {
   .career-hero-section {
     min-height: auto;
-    padding: 6rem 0 3rem 0;
+    padding: 6rem 0 0 0;
+  }
+  .uninter-container {
+    padding-bottom: 13rem;
   }
   .card-content {
     padding: 2rem 1.5rem;

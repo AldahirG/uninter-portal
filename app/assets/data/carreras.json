@@ -1955,52 +1955,23 @@
     "slug": "diseno-industrial",
     "tagline": "Transforma conceptos en objetos. Rediseña lo cotidiano.",
     "description": "Combina estética, funcionalidad, ergonomía y viabilidad productiva. Diseña productos innovadores, empaques inteligentes y mobiliario sustentable para la industria.",
-    "ingreso": "Apto para personas creativas con interés por la mecánica, los materiales, la fabricación de objetos, la sustentabilidad y el dibujo técnico.",
-    "egreso": "Liderarás en departamentos de diseño y desarrollo de productos, consultorías de diseño de mobiliario, empaques industriales o gestionando tu propia marca de manufactura.",
+    "ingreso": "¿Te apasiona crear, transformar y mejorar los productos de uso cotidiano? Este programa es ideal para mentes innovadoras con una gran capacidad de observación y análisis. Buscamos aspirantes con sensibilidad hacia las necesidades humanas, interés por la tecnología, los materiales y el dibujo. Si disfrutas el trabajo práctico, valoras la sustentabilidad y tienes espíritu emprendedor, aquí encontrarás el espacio perfecto para potenciar tu creatividad trabajando en equipo.",
+    "egreso": "Tu capacidad creativa te abrirá puertas en áreas de innovación, investigación y desarrollo dentro de las industrias manufactureras, automotrices y de transporte. Podrás desempeñarte en empresas de diseño de mobiliario, envases, embalajes y control de calidad. Además, contarás con las competencias necesarias para ejercer como consultor en estudios de diseño, colaborar en instituciones públicas y centros de investigación, o bien, liderar la creación y comercialización de tu propia marca de productos.",
+    "perfilEgreso": "Al egresar, serás un profesional capaz de investigar y resolver las necesidades de los usuarios y la industria mediante el desarrollo de productos innovadores. Dominarás metodologías tecnológicas para diseñar o rediseñar objetos, seleccionando estratégicamente los materiales y procesos de fabricación. Estarás preparado para liderar proyectos multidisciplinarios, crear modelos o prototipos y aplicar criterios de ergonomía y sustentabilidad, ya sea en procesos de producción o impulsando tus propios emprendimientos.",
     "experienciaPractica": [
       {
-        "title": "Taller de Manufactura de Modelos",
-        "desc": "Corta, lija y tornea madera, plásticos y metales para crear modelos volumétricos y pruebas funcionales.",
-        "icon": "🔨",
-        "tag": "Taller Mecánico",
-        "features": [
-          "Tornos y fresadoras manuales",
-          "Cabina de pintura y acabados",
-          "Herramientas de carpintería"
-        ]
+        "title": "Laboratorio de Modelado y Fabricación",
+        "desc": "Transforma tus ideas en objetos tangibles. A través de la investigación y selección de materiales, desarrollarás modelos y prototipos físicos de productos. Dominarás los procesos de fabricación aplicando estrictos criterios de ergonomía, sustentabilidad y diseño centrado en el usuario para resolver necesidades reales.",
+        "icon": "📐",
+        "tag": "TALLERES Y PROTOTIPADO",
+        "features": []
       },
       {
-        "title": "Laboratorio de Impresión 3D y CNC",
-        "desc": "Materializa tus diseños en computadoras enviándolos directamente a impresoras 3D FDM/Resina y ruteadoras CNC.",
-        "icon": "⚙️",
-        "tag": "Fabricación Digital",
-        "features": [
-          "Impresoras 3D industriales",
-          "Ruteadora CNC de gran formato",
-          "Cortadora láser de alta precisión"
-        ]
-      },
-      {
-        "title": "Taller de Moldes y Resinas",
-        "desc": "Crea moldes de silicón y fibra de vidrio para vaciar resinas y plásticos en producción a baja escala.",
-        "icon": "🧪",
-        "tag": "Moldes y Vaciado",
-        "features": [
-          "Cámaras de vacío de desgasificación",
-          "Resinas de poliuretano y epóxicas",
-          "Moldes de silicón flexibles"
-        ]
-      },
-      {
-        "title": "Laboratorio de Ergonomía e Interacción",
-        "desc": "Prueba tus prototipos físicamente midiendo la antropometría y usabilidad con usuarios para asegurar un uso cómodo.",
-        "icon": "📏",
-        "tag": "Usabilidad",
-        "features": [
-          "Herramientas de medición antropométrica",
-          "Pruebas de esfuerzo y flexión",
-          "Estudios de usabilidad física"
-        ]
+        "title": "Taller de Proyectos Industriales",
+        "desc": "Crea soluciones innovadoras en áreas de alto impacto como el diseño automotriz, mobiliario, envase, embalaje y equipamiento urbano. Integra herramientas de representación digital, ecodiseño y liderazgo para gestionar proyectos multidisciplinarios, desde su conceptualización inicial hasta su viabilidad productiva y comercial.",
+        "icon": "💡",
+        "tag": "DISEÑO ESPECIALIZADO",
+        "features": []
       }
     ],
     "certificaciones": [
@@ -2041,7 +2012,23 @@
     ],
     "imageHorizontal": "industrial h.webp",
     "imageVertical": "industrial v.webp",
-    "objetivo": "Combina estética, funcionalidad, ergonomía y viabilidad productiva. Diseña productos innovadores, empaques inteligentes y mobiliario sustentable para la industria."
+    "objetivo": "Combina estética, funcionalidad, ergonomía y viabilidad productiva. Diseña productos innovadores, empaques inteligentes y mobiliario sustentable para la industria.",
+    "lineasInvestigacion": [
+      "Desarrollo de productos con materiales ecológicos.",
+      "Diseño e innovación de productos.",
+      "Investigación aplicada al desarrollo de productos.",
+      "Sustentabilidad.",
+      "Tecnología y producción.",
+      "Diseño orientado a necesidades sociales."
+    ],
+    "ventajasTransversales": [
+      "Aprenderás de forma totalmente práctica en talleres especializados de cerámica, maderas, plásticos, pailería y materiales fibrosos.",
+      "Desarrollarás productos innovadores desde su conceptualización hasta la creación de prototipos usando herramientas manuales y digitales.",
+      "Dominarás los procesos de fabricación y selección de materiales para garantizar la viabilidad productiva de tus diseños.",
+      "Aplicarás tu talento en sectores como diseño automotriz, mobiliario, transporte, embalaje y equipamiento urbano de alto impacto.",
+      "Diseñarás soluciones centradas en el usuario, aplicando siempre estrictos criterios de ergonomía, innovación y sustentabilidad ambiental.",
+      "Desarrollarás habilidades de liderazgo y administración para emprender proyectos multidisciplinarios con una sólida visión nacional e internacional."
+    ]
   },
   "diseno-de-modas-y-tendencias-internacionales": {
     "id": "LDM",

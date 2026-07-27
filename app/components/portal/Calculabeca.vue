@@ -26,25 +26,21 @@
         </div>
 
         <div class="cb-right">
-          <a
-            href="https://universidad.uninter.edu.mx/Calcula-Tu-Beca"
-            target="_blank"
-            rel="noopener"
+          <NuxtLink
+            to="/calcula-tu-beca"
             class="cb-btn-primary"
           >
             <Icon name="mdi:calculator-variant-outline" size="18" />
             Calcular mi beca ahora
-          </a>
+          </NuxtLink>
           <a
-            href="https://universidad.uninter.edu.mx/Admisiones"
-            target="_blank"
-            rel="noopener"
+            href="#registro"
             class="cb-btn-ghost"
           >
             Solicitar información
           </a>
           <a
-            href="https://wa.me/5217776154241?text=Hola%20vengo%20de%20la%20p%C3%A1gina%20de%20Universidad%2C%20necesito%20m%C3%A1s%20informaci%C3%B3n%20%E2%9C%8C%EF%B8%8F."
+            href="https://wa.link/3ktsjb"
             target="_blank"
             rel="noopener"
             class="cb-whatsapp"

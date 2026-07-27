@@ -33,6 +33,9 @@
     <!-- 10. Acreditaciones y certificaciones -->
     <Acreditaciones />
 
+    <!-- 11. Formulario de Registro (Superleads) -->
+    <FormRegister />
+
     <!-- Footer -->
     <PortalFooter />
 
@@ -53,6 +56,7 @@ import CalculaBeca     from '@/components/portal/Calculabeca.vue'
 import SpanishSchool   from '@/components/portal/Spanishschool.vue'
 import Encuentranos    from '@/components/portal/Encuentranos.vue'
 import Acreditaciones  from '@/components/portal/Acreditaciones.vue'
+import FormRegister    from '@/components/portal/FormRegister.vue'
 import PortalFooter    from '@/components/portal/Footer.vue'
 import FloatingActions from '@/components/portal/FloatingActions.vue'
 

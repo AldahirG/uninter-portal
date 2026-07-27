@@ -4,7 +4,7 @@ const mapsUrl = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.4!2d
 const contactInfo = [
   { icon: 'mdi:map-marker-outline', label: 'Dirección', value: 'San Jerónimo No. 304, Col. San Jerónimo, Cuernavaca, Morelos, México' },
   { icon: 'mdi:phone-outline',      label: 'Teléfonos',  value: '777 357 9000  ·  777 357 9001' },
-  { icon: 'mdi:whatsapp',           label: 'WhatsApp',   value: 'Escríbenos directamente', href: 'https://wa.me/5217776154241?text=Hola%20vengo%20de%20la%20p%C3%A1gina%20de%20Universidad%2C%20necesito%20m%C3%A1s%20informaci%C3%B3n%20%E2%9C%8C%EF%B8%8F.' },
+  { icon: 'mdi:whatsapp',           label: 'WhatsApp',   value: 'WhatsApp', href: 'https://wa.link/3ktsjb' },
   { icon: 'mdi:clock-outline',      label: 'Horario',    value: 'Lunes a viernes 8:00 – 20:00 h' },
 ]
 </script>
@@ -60,7 +60,7 @@ const contactInfo = [
               Abrir en Google Maps
             </a>
             <a
-              href="https://wa.me/5217776154241?text=Hola%20vengo%20de%20la%20p%C3%A1gina%20de%20Universidad%2C%20necesito%20m%C3%A1s%20informaci%C3%B3n%20%E2%9C%8C%EF%B8%8F."
+              href="https://wa.link/3ktsjb"
               target="_blank"
               rel="noopener"
               class="en-btn en-btn--wa"

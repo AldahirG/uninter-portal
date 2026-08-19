@@ -27,7 +27,7 @@ const social = [
   { icon: 'mdi:instagram', href: 'https://www.instagram.com/uninter.mx',        label: 'Instagram' },
   { icon: 'mdi:youtube',   href: 'https://www.youtube.com/@unintermx',          label: 'YouTube' },
   { icon: 'mdi:linkedin',  href: 'https://www.linkedin.com/school/uninter-mx',  label: 'LinkedIn' },
-  { icon: 'mdi:tiktok',    href: 'https://www.tiktok.com/@uninter.mx',          label: 'TikTok' },
+  { icon: 'bi:tiktok',    href: 'https://www.tiktok.com/@uninter.mx',          label: 'TikTok' },
 ]
 </script>
 

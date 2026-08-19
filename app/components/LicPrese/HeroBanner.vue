@@ -1,70 +1,91 @@
 ﻿<script setup lang="ts">
+import {
+  BookOpen,
+  Info,
+  GraduationCap,
+  Award,
+  Users,
+  Globe,
+} from "lucide-vue-next";
 const stats = [
-  { value: "23", label: "Licenciaturas" },
-  { value: "40+", label: "Años de excelencia" },
-  { value: "71,000+", label: "Egresados" },
-  { value: "130+", label: "Universidades aliadas" },
+  { value: "23", label: "Licenciaturas", icon: "GraduationCap" },
+  { value: "40+", label: "Años de excelencia", icon: "Award" },
+  { value: "71,000+", label: "Egresados", icon: "Users" },
+  { value: "130+", label: "Universidades aliadas", icon: "Globe" },
 ];
 </script>
 
 <template>
-  <section class="banner-section">
-    <div class="banner-slide">
-      <img
-        src="/images/hero/blur/2.jpg"
-        alt="Licenciaturas Presenciales UNINTER"
-        class="banner-slide__img"
-      />
-      <div class="banner-slide__overlay"></div>
-      <div class="banner-slide__overlay2"></div>
+  <div class="banner-hero-wrapper">
+    <section class="banner-section">
+      <div class="banner-slide">
+        <img
+          src="/images/hero/blur/2.jpg"
+          alt="Licenciaturas Presenciales UNINTER"
+          class="banner-slide__img"
+        />
+        <div class="banner-slide__overlay"></div>
+        <div class="banner-slide__overlay2"></div>
 
-      <div class="banner-content uninter-container">
-        <div class="banner-inner">
-          <!-- Breadcrumb -->
-          <nav class="banner-crumb" aria-label="Ruta de navegación">
-            <a href="/" class="crumb-link">Inicio</a>
-            <span class="crumb-sep">›</span>
-            <span class="crumb-link crumb-link--active"
-              >Licenciaturas Presenciales</span
-            >
-          </nav>
+        <div class="banner-content uninter-container">
+          <div class="banner-inner">
+            <div class="banner-eyebrow">
+              <img
+                src="/images/hero/LogoLargo.svg"
+                alt="UNINTER"
+                class="banner-logo-full"
+              />
+            </div>
 
-          <h1 class="banner-title">
-            Inicia tu proceso<br />
-            <span class="banner-title__accent">de admisión</span>
-          </h1>
+            <h1 class="banner-title">
+              Inicia tu proceso<br />
+              <span class="banner-title__accent">de admisión</span>
+            </h1>
 
-          <p class="banner-subtitle">
-            Forma parte de una comunidad universitaria multicultural, con más de
-            40 años preparando profesionistas de excelencia.
-          </p>
+            <p class="banner-subtitle">
+              Forma parte de una comunidad universitaria multicultural, con más
+              de 40 años preparando profesionistas de excelencia.
+            </p>
 
-          <div class="banner-ctas">
-            <a
-              href="https://universidad.uninter.edu.mx/Admisiones"
-              target="_blank"
-              class="banner-btn banner-btn--primary"
-            >
-              Iniciar proceso
-            </a>
-            <a href="#oferta-educativa" class="banner-btn banner-btn--ghost">
-              Ver licenciaturas
-            </a>
+            <div class="banner-ctas">
+              <a
+                href="#oferta-educativa"
+                class="banner-btn banner-btn--stacked"
+              >
+                <BookOpen :size="24" />
+                <span>Programas Disponibles</span>
+              </a>
+              <a
+                href="#formulario-registro"
+                class="banner-btn banner-btn--stacked"
+              >
+                <Info :size="24" />
+                <span>Solicita Información</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- Stats strip flotante en la parte inferior -->
-      <div class="banner-stats">
-        <div class="uninter-container banner-stats__inner">
-          <div v-for="stat in stats" :key="stat.label" class="banner-stat">
+    <!-- Stats strip flotante en la parte inferior pero NO sobrepuesto -->
+    <div class="banner-stats-bar">
+      <div class="uninter-container banner-stats__inner">
+        <div v-for="stat in stats" :key="stat.label" class="banner-stat">
+          <div class="banner-stat__icon">
+            <GraduationCap v-if="stat.icon === 'GraduationCap'" size="28" />
+            <Award v-else-if="stat.icon === 'Award'" size="28" />
+            <Users v-else-if="stat.icon === 'Users'" size="28" />
+            <Globe v-else-if="stat.icon === 'Globe'" size="28" />
+          </div>
+          <div class="banner-stat__text">
             <span class="banner-stat__value">{{ stat.value }}</span>
             <span class="banner-stat__label">{{ stat.label }}</span>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <style scoped>
@@ -78,7 +99,7 @@ const stats = [
   --h: clamp(480px, 62vh, 620px);
   position: relative;
   overflow: hidden;
-  background: #0f3c61;
+  background: #003b5c;
 }
 
 .banner-slide {
@@ -111,10 +132,10 @@ const stats = [
   position: absolute;
   inset: 0;
   background: linear-gradient(
-    110deg,
-    rgba(7, 20, 42, 0.93) 0%,
-    rgba(10, 24, 50, 0.72) 50%,
-    rgba(10, 24, 50, 0.25) 100%
+    180deg,
+    rgba(0, 26, 46, 0.4) 0%,
+    rgba(0, 26, 46, 0.1) 50%,
+    rgba(0, 26, 46, 0.1) 100%
   );
 }
 
@@ -122,9 +143,10 @@ const stats = [
   position: absolute;
   inset: 0;
   background: linear-gradient(
-    to top,
-    rgba(7, 20, 42, 0.85) 0%,
-    transparent 55%
+    90deg,
+    rgba(0, 26, 46, 0.4) 0%,
+    rgba(0, 26, 36, 0.1) 50%,
+    rgba(0, 26, 36, 0.1) 100%
   );
 }
 
@@ -132,35 +154,19 @@ const stats = [
   position: relative;
   z-index: 2;
   width: 100%;
-  padding-bottom: 7rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
 }
 
 .banner-inner {
   max-width: 680px;
 }
 
-/* Breadcrumb */
-.banner-crumb {
-  display: flex;
-  align-items: center;
-  gap: 0.375rem;
-  margin-bottom: 1.5rem;
-}
-.crumb-link {
-  font-size: 0.72rem;
-  color: rgba(255, 255, 255, 0.55);
-  text-decoration: none;
-  transition: color 0.2s;
-}
-.crumb-link:hover {
-  color: rgba(255, 255, 255, 0.85);
-}
-.crumb-link--active {
-  color: rgba(255, 255, 255, 0.85);
-}
-.crumb-sep {
-  color: rgba(255, 255, 255, 0.3);
-  font-size: 0.72rem;
+.banner-logo-full {
+  height: 48px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  margin-bottom: 2rem;
 }
 
 /* Título */
@@ -174,7 +180,7 @@ const stats = [
   letter-spacing: -0.02em;
 }
 .banner-title__accent {
-  color: #60a5fa;
+  color: #00b2e3;
 }
 
 .banner-subtitle {
@@ -195,7 +201,6 @@ const stats = [
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.8rem 2rem;
   border-radius: 8px;
   font-size: 0.9rem;
   font-weight: 700;
@@ -203,90 +208,113 @@ const stats = [
   transition: all 0.2s;
   cursor: pointer;
 }
-.banner-btn--primary {
-  background: #1565c0;
-  color: #fff;
-  border: 2px solid #1565c0;
-}
-.banner-btn--primary:hover {
-  background: #0f3c61;
-  border-color: #0f3c61;
-  transform: translateY(-2px);
-}
-.banner-btn--ghost {
+.banner-btn--stacked {
   background: transparent;
   color: #fff;
-  border: 2px solid rgba(255, 255, 255, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  flex-direction: column;
+  padding: 1.25rem 2.5rem;
+  gap: 0.5rem;
+  border-radius: 12px;
 }
-.banner-btn--ghost:hover {
-  border-color: rgba(255, 255, 255, 0.85);
-  background: rgba(255, 255, 255, 0.08);
+.banner-btn--stacked:hover {
+  border-color: #00b2e3;
+  color: #00b2e3;
+  background: rgba(0, 178, 227, 0.1);
+  transform: translateY(-2px);
 }
 
-/* Stats strip */
-.banner-stats {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-  z-index: 3;
+/* Stats strip (Debajo del banner) */
+.banner-stats-bar {
+  background-color: rgba(0, 26, 46, 0.95);
+  background-image: radial-gradient(
+    circle at 50% 50%,
+    rgba(0, 178, 227, 0.15) 0%,
+    transparent 60%
+  );
+  background-attachment: fixed;
+  background-position: center center;
+  backdrop-filter: blur(16px) saturate(150%);
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
+  border-top: 1px solid rgba(0, 178, 227, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  padding: 1.5rem 0;
+  position: relative;
+  z-index: 10;
 }
+
 .banner-stats__inner {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: 0;
+  justify-content: space-between;
+  position: relative;
 }
 .banner-stat {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem 1.5rem;
-  border-right: 1px solid rgba(255, 255, 255, 0.12);
   flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.5rem;
+  border-right: 1px solid rgba(0, 178, 227, 0.3);
+  gap: 1rem;
 }
 .banner-stat:last-child {
   border-right: none;
 }
+.banner-stat__icon {
+  color: #00b2e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-stat__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 .banner-stat__value {
-  font-size: clamp(1.4rem, 2.5vw, 1.9rem);
-  font-weight: 900;
+  font-size: clamp(1.1rem, 1.3vw, 1.4rem);
+  font-weight: 800;
   color: #fff;
-  line-height: 1;
+  line-height: 1.2;
 }
 .banner-stat__label {
-  font-size: 0.68rem;
-  color: rgba(255, 255, 255, 0.6);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  margin-top: 0.25rem;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+  text-align: left;
+  text-transform: none;
+  letter-spacing: normal;
+  margin-top: 0;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
   .banner-section {
-    --h: clamp(420px, 65vh, 560px);
+    --h: auto;
+  }
+  .banner-slide {
+    min-height: clamp(420px, 65vh, 560px);
+    padding-top: 5rem;
   }
   .banner-content {
-    padding-bottom: 11rem;
+    padding-bottom: 3rem;
   }
   .banner-stats__inner {
     flex-wrap: wrap;
+    gap: 1rem 0;
   }
   .banner-stat {
     flex: 1 1 50%;
     border-right: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 0.75rem 1rem;
+    border-bottom: 1px solid rgba(0, 178, 227, 0.2);
+    padding: 1rem 0.5rem;
+    justify-content: center;
   }
-  .banner-stat:nth-child(1),
-  .banner-stat:nth-child(2) {
-    border-right: 1px solid rgba(255, 255, 255, 0.1);
+  .banner-stat:nth-child(odd) {
+    border-right: 1px solid rgba(0, 178, 227, 0.3);
   }
   .banner-stat:nth-last-child(-n + 2) {
     border-bottom: none;
@@ -295,13 +323,26 @@ const stats = [
 
 @media (max-width: 480px) {
   .banner-section {
-    --h: clamp(380px, 60vh, 500px);
+    --h: auto;
+  }
+  .banner-slide {
+    min-height: clamp(380px, 60vh, 500px);
   }
   .banner-ctas {
     flex-direction: column;
   }
   .banner-btn {
     justify-content: center;
+  }
+  .banner-stat {
+    flex: 1 1 100%;
+    border-right: none !important;
+    border-bottom: 1px solid rgba(0, 178, 227, 0.2) !important;
+    padding: 1rem 1.5rem;
+    justify-content: center;
+  }
+  .banner-stat:last-child {
+    border-bottom: none !important;
   }
 }
 </style>

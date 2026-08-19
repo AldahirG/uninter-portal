@@ -1,380 +1,418 @@
 <script setup lang="ts">
-import { ref } from "vue";
-import { FileText, ArrowRight, Trophy, X } from "lucide-vue-next";
+import { ref, computed } from "vue";
+import {
+  FileText,
+  ArrowRight,
+  Trophy,
+  X,
+  BookOpen,
+  Briefcase,
+  Palette,
+  Cpu,
+} from "lucide-vue-next";
 
-// Datos unificados
 const DataCard = [
   {
     title: "LICENCIATURAS EN CIENCIAS SOCIALES Y HUMANIDADES",
+    shortTitle: "Sociales y Humanidades",
+    icon: BookOpen,
     bachelors: [
       {
+        title: "Ciencias Politicas y Gestión Pública (LCP)",
+        href: "https://universidad.uninter.edu.mx/carreras/LCP",
+        brochure: "https://uninter.edu.mx/folletos/lcp/",
+      },
+      {
         title: "Comunicacion (LCO)",
-        href: "/carreras/comunicacion",
+        href: "/Comunicacion",
         trophy: true,
+        medal: true,
         brochure: "https://uninter.edu.mx/folletos/lco/",
       },
       {
         title: "Comunicación y Relaciones Públicas (CORP)",
-        href: "/carreras/comunicacion-y-relaciones-publicas",
+        href: "https://universidad.uninter.edu.mx/carreras/CORP",
         trophy: true,
+        medal: true,
         brochure: "https://uninter.edu.mx/folletos/corp/",
       },
       {
-        title: "Relaciones Internacionales (LRI)",
-        href: "/carreras/relaciones-internacionales",
-        trophy: true,
-        brochure: "https://uninter.edu.mx/folletos/lri/",
-      },
-      {
-        title: "Relaciones Internacionales y Ciencias Politicas (RICP)",
-        href: "/carreras/relaciones-internacionales-y-ciencias-politicas",
-        trophy: true,
-        brochure: "https://uninter.edu.mx/folletos/ricp/",
-      },
-      {
-        title: "Relaciones Internacionales y Economía (RIEC)",
-        href: "/carreras/relaciones-internacionales-y-economia",
-        trophy: true,
-        brochure: "https://uninter.edu.mx/folletos/riec/",
-      },
-      {
-        title: "Ciencias Politicas y Gestión Pública (LCP)",
-        href: "/carreras/ciencias-politicas-y-gestion-publica",
-        brochure: "https://uninter.edu.mx/folletos/lcp/",
-      },
-      {
         title: "Derecho (LED)",
-        href: "/carreras/derecho",
+        href: "https://universidad.uninter.edu.mx/carreras/LED",
         brochure: "https://uninter.edu.mx/folletos/led/",
       },
       {
         title: "Idiomas (LID)",
-        href: "/carreras/idiomas",
+        href: "https://universidad.uninter.edu.mx/carreras/LID",
         brochure: "https://uninter.edu.mx/folletos/lid/",
       },
       {
         title: "Pedagogía (LPE)",
-        href: "/carreras/pedagogia",
+        href: "https://universidad.uninter.edu.mx/carreras/LPE",
         brochure: "https://uninter.edu.mx/folletos/lpe/",
       },
       {
         title: "Psicología (LPS)",
-        href: "/carreras/psicologia",
+        href: "https://universidad.uninter.edu.mx/carreras/LPS",
         brochure: "https://uninter.edu.mx/folletos/lps/",
+      },
+      {
+        title: "Relaciones Internacionales (LRI)",
+        href: "https://universidad.uninter.edu.mx/carreras/LRI",
+        trophy: true,
+        medal: true,
+        brochure: "https://uninter.edu.mx/folletos/lri/",
+      },
+      {
+        title: "Relaciones Internacionales y Ciencias Politicas (RICP)",
+        href: "https://universidad.uninter.edu.mx/carreras/RICP",
+        trophy: true,
+        medal: true,
+        brochure: "https://uninter.edu.mx/folletos/ricp/",
+      },
+      {
+        title: "Relaciones Internacionales y Economía (RIEC)",
+        href: "https://universidad.uninter.edu.mx/carreras/RIEC",
+        trophy: true,
+        medal: true,
+        brochure: "https://uninter.edu.mx/folletos/riec/",
       },
     ],
   },
   {
     title: "LICENCIATURAS EN NEGOCIOS Y ADMINISTRACIÓN",
+    shortTitle: "Negocios y Admin.",
+    icon: Briefcase,
     bachelors: [
       {
         title: "Administración de Empresas (LAE)",
-        href: "/carreras/administracion-de-empresas",
+        href: "https://universidad.uninter.edu.mx/carreras/LAE",
         trophy: true,
+        medal: true,
         brochure: "https://uninter.edu.mx/folletos/lae/",
       },
       {
         title: "Administración de Empresas Turísticas (LAET)",
-        href: "/carreras/administracion-de-empresas-turisticas",
+        href: "https://universidad.uninter.edu.mx/carreras/LAET",
         trophy: true,
+        medal: true,
         brochure: "https://uninter.edu.mx/folletos/laet/",
       },
       {
         title: "Administración de Negocios Internacionales (LANI)",
-        href: "/carreras/administracion-de-negocios-internacionales",
+        href: "https://universidad.uninter.edu.mx/carreras/LANI",
         trophy: true,
+        medal: true,
         brochure: "https://uninter.edu.mx/folletos/lani/",
       },
       {
         title: "Administracion y Mercadotecnia (LAM)",
-        href: "/carreras/administracion-y-mercadotecnia",
+        href: "https://universidad.uninter.edu.mx/carreras/LAM",
         trophy: true,
+        medal: true,
         brochure: "https://uninter.edu.mx/folletos/lam/",
       },
       {
         title: "Comercio Exterior (LCE)",
-        href: "/carreras/comercio-exterior",
+        href: "https://universidad.uninter.edu.mx/carreras/LCE",
         brochure: "https://uninter.edu.mx/folletos/lce/",
       },
       {
         title: "Economia y Finanzas (LEF)",
-        href: "/carreras/economia-y-finanzas",
+        href: "https://universidad.uninter.edu.mx/carreras/LEF",
         trophy: true,
+        medal: true,
         brochure: "https://uninter.edu.mx/folletos/lef/",
       },
       {
         title: "Mercadotecnia (LME)",
-        href: "/carreras/mercadotecnia",
+        href: "https://universidad.uninter.edu.mx/carreras/LME",
         trophy: true,
+        medal: true,
         brochure: "https://uninter.edu.mx/folletos/lme/",
       },
       {
         title: "Mercadotecnia y Publicidad (LEMP)",
-        href: "/carreras/mercadotecnia-y-publicidad",
+        href: "https://universidad.uninter.edu.mx/carreras/LEMP",
         trophy: true,
+        medal: true,
         brochure: "https://uninter.edu.mx/folletos/lemp/",
       },
     ],
   },
   {
     title: "LICENCIATURAS EN DISEÑO Y ARTES",
+    shortTitle: "Diseño y Artes",
+    icon: Palette,
     bachelors: [
       {
         title: "Arquitectura (ARQ)",
-        href: "/carreras/arquitectura",
+        href: "https://universidad.uninter.edu.mx/carreras/ARQ",
         trophy: true,
+        medal: true,
         brochure: "https://uninter.edu.mx/folletos/arq/",
       },
       {
         title: "Animación y Diseño Digital (LADD)",
-        href: "/carreras/animacion-y-diseno-digital",
+        href: "https://universidad.uninter.edu.mx/carreras/LADD",
         trophy: true,
+        medal: true,
         brochure: "https://uninter.edu.mx/folletos/ladd/",
       },
       {
         title: "Diseño Gráfico (LDG)",
-        href: "/carreras/diseno-grafico",
+        href: "https://universidad.uninter.edu.mx/carreras/LDG",
         trophy: true,
+        medal: true,
         brochure: "https://uninter.edu.mx/folletos/ldg/",
       },
       {
         title: "Diseño Industrial (LDI)",
-        href: "/carreras/diseno-industrial",
+        href: "https://universidad.uninter.edu.mx/carreras/LDI",
         trophy: true,
+        medal: true,
         brochure: "https://uninter.edu.mx/folletos/ldi/",
       },
       {
         title: "Diseño de Modas y Tendencias Internacionales (LDM)",
-        href: "/carreras/diseno-de-modas-y-tendencias-internacionales",
+        href: "https://universidad.uninter.edu.mx/carreras/LDM",
         trophy: true,
+        medal: true,
         brochure: "https://uninter.edu.mx/folletos/ldm/",
       },
     ],
   },
   {
     title: "LICENCIATURAS EN INGENIERÍA",
+    shortTitle: "Ingenierías",
+    icon: Cpu,
     bachelors: [
       {
         title: "Ambiental (IAM)",
-        href: "/carreras/ingenieria-ambiental",
+        href: "https://universidad.uninter.edu.mx/carreras/IAM",
         brochure: "https://uninter.edu.mx/folletos/iam/",
       },
       {
         title: "Civil (ICI)",
-        href: "/carreras/ingenieria-civil",
+        href: "https://universidad.uninter.edu.mx/carreras/ICI",
         trophy: true,
+        medal: true,
         brochure: "https://uninter.edu.mx/folletos/ici/",
       },
       {
         title: "Industrial y de Sistemas de Calidad (IISCA)",
-        href: "/carreras/ingenieria-industrial-y-de-sistemas-de-calidad",
+        href: "https://universidad.uninter.edu.mx/carreras/IISCA",
         brochure: "https://uninter.edu.mx/folletos/iisca/",
       },
       {
         title: "Mecatronica (IME)",
-        href: "/carreras/mecatronica",
+        href: "https://universidad.uninter.edu.mx/carreras/IME",
         brochure: "https://uninter.edu.mx/folletos/ime/",
       },
       {
         title: "Mecanica Industrial (IMI)",
-        href: "/carreras/ingenieria-mecanica-industrial",
+        href: "https://universidad.uninter.edu.mx/carreras/IMI",
         brochure: "https://uninter.edu.mx/folletos/imi/",
       },
       {
-        title: "Sistemas Computacionales (ISC)",
-        href: "/carreras/sistemas-computacionales",
+        title: "Sistmas Computacionales (ISC)",
+        href: "https://universidad.uninter.edu.mx/carreras/ISC",
         brochure: "https://uninter.edu.mx/folletos/isc/",
       },
     ],
   },
 ];
 
-// Estado del Panel Lateral (Drawer)
-const isDrawerOpen = ref(false);
-const activeBachelor = ref<any>(null);
+// Procesamos datos dinámicamente para inyectar la URL del ranking
+const processedCategories = computed(() => {
+  return DataCard.map((cat) => ({
+    ...cat,
+    bachelors: cat.bachelors.map((b) => ({
+      ...b,
+      rankingUrl: b.trophy
+        ? "https://www.eluniversal.com.mx/nacion/mejores-universidades-2024/"
+        : null,
+    })),
+  }));
+});
 
-// Abrir Drawer
-const openDrawer = (bachelorData: any) => {
-  activeBachelor.value = bachelorData;
+// ESTADO DEL PANEL LATERAL (DRAWER)
+const isDrawerOpen = ref(false);
+const selectedBachelor = ref<any>(null);
+const selectedCategoryName = ref("");
+
+const openDrawer = (bachelor: any, categoryName: string) => {
+  selectedBachelor.value = bachelor;
+  selectedCategoryName.value = categoryName;
   isDrawerOpen.value = true;
-  if (typeof document !== 'undefined') {
-    document.body.style.overflow = "hidden"; // Evita el scroll del fondo
-  }
+  document.body.style.overflow = "hidden"; // Evita que el fondo haga scroll
 };
 
-// Cerrar Drawer
 const closeDrawer = () => {
   isDrawerOpen.value = false;
   setTimeout(() => {
-    activeBachelor.value = null;
-  }, 400); // Espera a que termine la animación
-  if (typeof document !== 'undefined') {
-    document.body.style.overflow = ""; // Restaura el scroll
-  }
+    selectedBachelor.value = null;
+    selectedCategoryName.value = "";
+  }, 300); // Limpia tras animación
+  document.body.style.overflow = "";
 };
 </script>
 
 <template>
-  <section class="oe-section uninter-section">
-    <div class="uninter-container">
-      <!-- HEADER -->
-      <div class="oe-header">
-        <div>
-          <div class="uninter-eyebrow">PROGRAMAS ACADÉMICOS</div>
-          <h2 class="uninter-section-title">
-            Elige tu<br /><em>licenciatura</em>
-          </h2>
+  <section class="ui-catalog-section">
+    <div class="ui-container">
+      <!-- ENCABEZADO -->
+      <div class="ui-header">
+        <div class="ui-header-text">
+          <div class="ui-eyebrow">OFERTA ACADÉMICA</div>
+          <h2 class="ui-title">Descubre tu <em>Vocación</em></h2>
         </div>
+        <p class="ui-subtitle">
+          Explora nuestras licenciaturas e ingenierías y selecciona un programa
+          para conocer todos los detalles sin salir de esta página.
+        </p>
       </div>
 
-      <!-- GRID DE TARJETAS (Unificado) -->
-      <div class="oe-grid">
+      <!-- CUADRÍCULA DE DIVISIONES (Mostrando todo a la vez) -->
+      <div class="ui-divisions-grid">
         <div
-          v-for="(card, index) in DataCard"
+          v-for="(cat, index) in processedCategories"
           :key="index"
-          class="oe-card"
+          class="ui-division-card"
         >
-          <div class="oe-card__content-wrapper">
-            <h3 class="oe-card__title">
-              {{ card.title }}
-            </h3>
+          <!-- Cabecera de la División -->
+          <div class="division-header">
+            <div class="division-icon">
+              <component :is="cat.icon" :size="24" stroke-width="2.5" />
+            </div>
+            <h3 class="division-title">{{ cat.title }}</h3>
+          </div>
 
-            <!-- LISTA UNIFICADA -->
-            <ul class="oe-card__list">
-              <li
-                v-for="(bachelor, idx) in card.bachelors"
-                :key="'bach-' + idx"
-              >
-                <button
-                  @click.prevent="openDrawer(bachelor)"
-                  class="oe-card__link"
-                >
-                  <span class="oe-card__bullet">•</span>
-                  <span class="oe-card__text">{{ bachelor.title }}</span>
-                  
-                  <!-- Detalle Soberbio (Medalla/Trofeo) para excelencia -->
-                  <div v-if="bachelor.trophy" class="oe-badge-excellence">
-                    <Trophy :size="14" />
-                  </div>
-                </button>
-              </li>
-            </ul>
+          <!-- Lista de Programas como botones limpios -->
+          <div class="division-body">
+            <button
+              v-for="(bachelor, idx) in cat.bachelors"
+              :key="idx"
+              class="ui-bachelor-btn"
+              @click="openDrawer(bachelor, cat.shortTitle)"
+            >
+              <div class="btn-content-left">
+                <span class="bullet-dot">•</span>
+                <span class="bachelor-name">{{ bachelor.title }}</span>
+              </div>
+
+              <div class="btn-content-right">
+                <!-- Insignia de Ranking para destacar sin dividir -->
+                <span v-if="bachelor.trophy" class="badge-shimmer">
+                  <Trophy :size="12" /> Top
+                </span>
+                <ArrowRight :size="16" class="hover-arrow" />
+              </div>
+            </button>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- PANEL LATERAL (Side Drawer) CON BLUR -->
-    <Teleport to="body">
-      <div 
-        class="oe-drawer-overlay" 
-        :class="{ 'is-open': isDrawerOpen }"
-        @click="closeDrawer"
+    <!-- PANEL LATERAL (SIDE DRAWER) -->
+    <Transition name="drawer-fade">
+      <div
+        v-if="isDrawerOpen"
+        class="ui-drawer-overlay"
+        @click.self="closeDrawer"
       >
-        <div 
-          class="oe-drawer" 
-          :class="{ 'is-open': isDrawerOpen }"
-          @click.stop
-        >
-          <button class="oe-drawer-close" @click="closeDrawer">
+        <div class="ui-drawer">
+          <!-- Botón Cerrar -->
+          <button class="drawer-close" @click="closeDrawer">
             <X :size="24" />
           </button>
-          
-          <!-- Banner de difusión para Comunicación -->
-          <div v-if="activeBachelor && activeBachelor.href === '/carreras/comunicacion'" class="oe-drawer-banner">
-            <img 
-              src="/images/oferta/ARQHOR.jpg" 
-              alt="Banner promocional" 
-              class="oe-drawer-banner-img"
-            />
-          </div>
 
-          <div v-if="activeBachelor" 
-               class="oe-drawer-content"
-               :class="{ 'has-banner': activeBachelor.href === '/carreras/comunicacion' }">
-            <div class="oe-drawer-header">
-              <div v-if="activeBachelor.trophy" class="oe-drawer-badge">
-                <Trophy :size="16" /> Programa de Excelencia
-              </div>
-              <h3 class="oe-detail-title">{{ activeBachelor.title }}</h3>
-            </div>
-            
-            <p class="oe-detail-desc">
+          <div class="drawer-content">
+            <div class="drawer-eyebrow">{{ selectedCategoryName }}</div>
+            <h3 class="drawer-title">{{ selectedBachelor?.title }}</h3>
+
+            <p class="drawer-desc">
               {{
-                activeBachelor.description ||
-                `Conoce todos los detalles sobre ${activeBachelor.title}. Descubre el perfil de ingreso, plan de estudios y las oportunidades profesionales que te esperan al estudiar en UNINTER.`
+                selectedBachelor?.description ||
+                `Conoce a profundidad el perfil de ingreso, plan de estudios y las oportunidades profesionales que te esperan al estudiar ${selectedBachelor?.title} en UNINTER.`
               }}
             </p>
 
-            <!-- Imagen para Arquitectura entre descripción y acciones (sin deformar) -->
-            <div v-if="activeBachelor.href === '/carreras/arquitectura'" class="oe-drawer-mid-media">
-              <img 
-                src="/images/oferta/ARQ.jpg" 
-                alt="Banner de Arquitectura" 
-                class="oe-drawer-mid-img"
-              />
+            <!-- BLOQUE ESPECIAL DE RANKING DENTRO DEL PANEL -->
+            <div v-if="selectedBachelor?.trophy" class="drawer-ranking-box">
+              <div class="ranking-box-icon"><Trophy :size="24" /></div>
+              <div class="ranking-box-text">
+                <h5>Programa de Excelencia</h5>
+                <p>
+                  Reconocido a nivel nacional en el Top Ranking de Las Mejores
+                  Universidades.
+                </p>
+              </div>
+              <a
+                :href="selectedBachelor.rankingUrl"
+                target="_blank"
+                class="ranking-box-btn"
+              >
+                Ver Ranking <ArrowRight :size="14" />
+              </a>
             </div>
 
-            <div class="oe-detail-actions">
+            <!-- BOTONES DE ACCIÓN PRINCIPALES -->
+            <div class="drawer-actions">
               <a
-                :href="activeBachelor.brochure"
+                :href="selectedBachelor?.href"
                 target="_blank"
-                class="oe-btn oe-btn--outline"
+                class="drawer-btn drawer-btn--primary"
               >
-                <FileText :size="16" /> Ver Folleto
+                Página Oficial del Programa <ArrowRight :size="16" />
               </a>
-              
-              <!-- TRANSICIÓN INMERSIVA: Uso de NuxtLink para rutas internas -->
-              <NuxtLink
-                v-if="activeBachelor.href.startsWith('/')"
-                :to="activeBachelor.href"
-                class="oe-btn oe-btn--solid"
-                @click="closeDrawer"
-              >
-                Ver Detalles Completos <ArrowRight :size="16" />
-              </NuxtLink>
-              
-              <!-- Enlaces externos para las que aún no migramos -->
               <a
-                v-else
-                :href="activeBachelor.href"
+                :href="selectedBachelor?.brochure"
                 target="_blank"
-                class="oe-btn oe-btn--solid"
+                class="drawer-btn drawer-btn--secondary"
               >
-                Ver Detalles Completos <ArrowRight :size="16" />
+                <FileText :size="16" /> Descargar Folleto
               </a>
             </div>
           </div>
         </div>
       </div>
-    </Teleport>
+    </Transition>
   </section>
 </template>
 
 <style scoped>
-/* Contenedores base */
-.uninter-container {
-  max-width: 1280px;
+/* =========================================================
+   VARIABLES Y CONTENEDOR BASE
+========================================================= */
+.ui-catalog-section {
+  background-color: #f8fafc;
+  padding: 5rem 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+.ui-container {
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
-.uninter-section {
-  padding: 5rem 0;
-}
-.oe-section {
-  background: #f8fafc;
+
+/* =========================================================
+   ENCABEZADO
+========================================================= */
+.ui-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2rem;
+  margin-bottom: 4rem;
+  flex-wrap: wrap;
 }
 
-/* Encabezado Principal */
-.oe-header {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  margin-bottom: 2.5rem;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-.uninter-eyebrow {
+.ui-eyebrow {
   font-size: 0.75rem;
   font-weight: 800;
   letter-spacing: 0.12em;
@@ -382,312 +420,404 @@ const closeDrawer = () => {
   color: #1565c0;
   margin-bottom: 0.5rem;
 }
-.uninter-section-title {
+
+.ui-title {
   font-family: var(--font-serif, Georgia, serif);
   font-size: clamp(2rem, 4vw, 3.2rem);
-  font-weight: 700;
-  line-height: 1.1;
+  font-weight: 800;
   color: #0f3c61;
-  letter-spacing: -0.02em;
   margin: 0;
+  line-height: 1.1;
 }
-.uninter-section-title em {
-  color: #d84315;
+
+.ui-title em {
+  color: #1565c0;
   font-style: italic;
 }
 
-/* Grid */
-.oe-grid {
+.ui-subtitle {
+  font-size: 1.05rem;
+  color: #475569;
+  max-width: 450px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* =========================================================
+   GRID DE DIVISIONES (4 CARTAS PRINCIPALES)
+========================================================= */
+.ui-divisions-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  gap: 2rem;
   align-items: start;
 }
 
-/* =========================================================
-   TARJETA UNIFICADA (Limpia y Blanca)
-========================================================= */
-.oe-card {
+/* LA TARJETA DE CADA DIVISIÓN */
+.ui-division-card {
   background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px -10px rgba(15, 60, 97, 0.08);
   border: 1px solid #e2e8f0;
-  border-radius: 16px;
+  padding: 2.5rem;
   display: flex;
   flex-direction: column;
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-  box-shadow: 0 4px 15px rgba(15, 60, 97, 0.03);
-}
-.oe-card:hover {
-  box-shadow: 0 15px 30px -5px rgba(15, 60, 97, 0.08);
-  transform: translateY(-4px);
+  transition: box-shadow 0.3s ease;
 }
 
-.oe-card__content-wrapper {
-  padding: 2.5rem;
+.ui-division-card:hover {
+  box-shadow: 0 20px 40px -10px rgba(15, 60, 97, 0.12);
 }
 
-.oe-card__title {
+.division-header {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #f1f5f9;
+  padding-bottom: 1.5rem;
+}
+
+.division-icon {
+  width: 56px;
+  height: 56px;
+  background-color: #f0f6fc;
+  color: #1565c0;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.division-title {
   font-size: 1.15rem;
   font-weight: 800;
   color: #0f3c61;
-  margin: 0 0 1.5rem 0;
-  line-height: 1.3;
-  border-bottom: 2px solid #f1f5f9;
-  padding-bottom: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
-}
-
-/* Lista */
-.oe-card__list {
-  list-style: none;
-  padding: 0;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.oe-card__link {
-  width: 100%;
-  text-align: left;
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-  padding: 0.75rem 1rem;
-  border-radius: 8px;
-  cursor: pointer;
-  border: 1px solid transparent;
-  background-color: transparent;
-}
-.oe-card__link:hover {
-  background-color: #f8fafc;
-  border-color: #e2e8f0;
-  transform: translateX(6px);
-}
-
-.oe-card__bullet {
-  font-size: 1.2rem;
-  line-height: 0.8;
-  color: #cbd5e1;
-  transition: color 0.2s;
-}
-.oe-card__link:hover .oe-card__bullet {
-  color: #1565c0;
-}
-
-.oe-card__text {
-  font-size: 0.95rem;
-  color: #334155;
-  line-height: 1.4;
-  font-weight: 500;
-  flex-grow: 1;
-}
-.oe-card__link:hover .oe-card__text {
-  color: #0f3c61;
-}
-
-/* Detalle Soberbio (Medalla/Trofeo) */
-.oe-badge-excellence {
-  color: #eab308;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(234, 179, 8, 0.1);
-  padding: 6px;
-  border-radius: 50%;
+  line-height: 1.3;
 }
 
 /* =========================================================
-   PANEL LATERAL (Drawer Modal con Glassmorphism)
+   BOTONES DE LICENCIATURAS (Dentro de la tarjeta)
 ========================================================= */
-.oe-drawer-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(15, 60, 97, 0.4);
-  backdrop-filter: blur(8px);
-  z-index: 9999;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.4s ease, visibility 0.4s ease;
-}
-.oe-drawer-overlay.is-open {
-  opacity: 1;
-  visibility: visible;
-}
-
-.oe-drawer {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100%;
-  max-width: 500px;
-  height: 100vh;
-  background: #ffffff;
-  box-shadow: -10px 0 40px rgba(0, 0, 0, 0.1);
-  transform: translateX(100%);
-  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+.division-body {
   display: flex;
   flex-direction: column;
-  overflow-y: auto;
+  gap: 0.5rem;
 }
-.oe-drawer.is-open {
+
+.ui-bachelor-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  text-align: left;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  gap: 1rem;
+}
+
+.ui-bachelor-btn:hover {
+  background: #f8fafc;
+  border-color: #cbd5e1;
+  transform: translateX(4px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
+}
+
+.btn-content-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1;
+}
+
+.bullet-dot {
+  color: #94a3b8;
+  font-size: 1.2rem;
+  line-height: 0.8;
+  margin-top: 2px;
+}
+
+.bachelor-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #334155;
+  line-height: 1.4;
+}
+
+.ui-bachelor-btn:hover .bachelor-name {
+  color: #0f3c61;
+}
+
+.btn-content-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+/* Insignia Top Ranking */
+.badge-shimmer {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #fef3c7;
+  color: #d97706;
+  font-size: 0.65rem;
+  font-weight: 800;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid #fde68a;
+}
+
+.hover-arrow {
+  color: #1565c0;
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: all 0.3s;
+}
+
+.ui-bachelor-btn:hover .hover-arrow {
+  opacity: 1;
   transform: translateX(0);
 }
 
-.oe-drawer-close {
+/* =========================================================
+   PANEL LATERAL (SIDE DRAWER)
+========================================================= */
+.ui-drawer-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(15, 60, 97, 0.4);
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ui-drawer {
+  width: 100%;
+  max-width: 480px;
+  background: #ffffff;
+  height: 100%;
+  box-shadow: -10px 0 40px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow-y: auto;
+}
+
+.drawer-close {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
-  background: #f1f5f9;
-  border: none;
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  background: #f1f5f9;
+  border: none;
+  color: #64748b;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #64748b;
   cursor: pointer;
-  transition: all 0.2s;
-  z-index: 50;
+  transition: background 0.2s;
 }
-.oe-drawer-close:hover {
+.drawer-close:hover {
   background: #e2e8f0;
   color: #0f3c61;
-  transform: rotate(90deg);
 }
 
-.oe-drawer-content {
-  padding: 4rem 3rem;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+.drawer-content {
+  padding: 4rem 2.5rem 3rem;
 }
 
-.oe-drawer-header {
-  margin-bottom: 2rem;
-}
-
-.oe-drawer-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  background: #fef9c3;
-  color: #854d0e;
-  padding: 0.5rem 1rem;
-  border-radius: 99px;
-  font-size: 0.8rem;
-  font-weight: 700;
+.drawer-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: #1565c0;
   text-transform: uppercase;
-  margin-bottom: 1.5rem;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.75rem;
 }
 
-.oe-detail-title {
+.drawer-title {
   font-family: var(--font-serif, Georgia, serif);
   font-size: 2rem;
   font-weight: 700;
   color: #0f3c61;
-  margin: 0;
-  line-height: 1.1;
+  line-height: 1.2;
+  margin: 0 0 1.25rem 0;
 }
 
-.oe-detail-desc {
-  font-size: 1.05rem;
+.drawer-desc {
+  font-size: 1rem;
   color: #475569;
-  line-height: 1.7;
-  margin: 0 0 3rem 0;
+  line-height: 1.6;
+  margin-bottom: 2rem;
 }
 
-.oe-detail-actions {
+/* Bloque El Universal dentro del Drawer */
+.drawer-ranking-box {
+  background: linear-gradient(135deg, #fdfbf7, #fef3c7);
+  border: 1px solid #fde68a;
+  border-radius: 16px;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin-top: 2rem;
+  margin-bottom: 2.5rem;
 }
-
-.oe-btn {
+.ranking-box-icon {
+  color: #d97706;
+}
+.ranking-box-text h5 {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #92400e;
+  margin: 0 0 0.25rem 0;
+}
+.ranking-box-text p {
+  font-size: 0.85rem;
+  color: #b45309;
+  margin: 0;
+  line-height: 1.4;
+}
+.ranking-box-btn {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  gap: 10px;
-  font-size: 1rem;
-  font-weight: 700;
-  padding: 1rem 1.5rem;
-  border-radius: 12px;
-  text-decoration: none;
-  transition: all 0.3s;
-  cursor: pointer;
-  width: 100%;
-}
-.oe-btn--solid {
-  background: #d84315;
+  gap: 6px;
+  align-self: flex-start;
+  background: #d97706;
   color: #fff;
-  border: none;
-  box-shadow: 0 4px 15px rgba(216, 67, 21, 0.3);
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s;
 }
-.oe-btn--solid:hover {
-  background: #bf360c;
+.ranking-box-btn:hover {
+  background: #b45309;
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(216, 67, 21, 0.4);
-}
-.oe-btn--outline {
-  background: transparent;
-  color: #1565c0;
-  border: 2px solid #1565c0;
-}
-.oe-btn--outline:hover {
-  background: #f0f6fc;
+  box-shadow: 0 4px 12px rgba(217, 119, 6, 0.3);
 }
 
-/* =========================================================
-   BANNER PROMOCIONAL/EVENTOS
-========================================================= */
-.oe-drawer-banner {
-  width: 100%;
-  height: 230px;
-  overflow: hidden;
-  position: relative;
-  border-bottom: 3px solid #e2e8f0;
-}
-.oe-drawer-banner-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-.oe-drawer-content.has-banner {
-  padding-top: 2rem;
-}
-
-.oe-drawer-mid-media {
-  margin: 1.5rem 0;
-  width: 100%;
+/* Botones del Drawer */
+.drawer-actions {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  gap: 0.75rem;
 }
-.oe-drawer-mid-img {
+
+.drawer-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   width: 100%;
-  height: auto;
+  padding: 1rem;
   border-radius: 12px;
-  border: 1px solid #e2e8f0;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.drawer-btn--primary {
+  background: #1565c0;
+  color: #fff;
+}
+.drawer-btn--primary:hover {
+  background: #0f3c61;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(21, 101, 192, 0.25);
+}
+
+.drawer-btn--secondary {
+  background: #f1f5f9;
+  color: #0f3c61;
+  border: 1px solid #cbd5e1;
+}
+.drawer-btn--secondary:hover {
+  background: #e2e8f0;
+}
+
+/* Animaciones */
+.drawer-fade-enter-active,
+.drawer-fade-leave-active {
+  transition: opacity 0.3s;
+}
+.drawer-fade-enter-from,
+.drawer-fade-leave-to {
+  opacity: 0;
+}
+.drawer-fade-enter-active .ui-drawer {
+  animation: slideIn 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+.drawer-fade-leave-active .ui-drawer {
+  animation: slideOut 0.3s ease-in forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
 }
 
 /* =========================================================
    RESPONSIVE
 ========================================================= */
-@media (max-width: 900px) {
-  .oe-grid {
+@media (max-width: 1024px) {
+  .ui-divisions-grid {
     grid-template-columns: 1fr;
   }
 }
-@media (max-width: 600px) {
-  .oe-drawer-content {
-    padding: 3rem 1.5rem;
+
+@media (max-width: 768px) {
+  .ui-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
   }
-  .oe-card__content-wrapper {
+
+  .ui-division-card {
     padding: 1.5rem;
+  }
+
+  .hover-arrow {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .ui-bachelor-btn {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .btn-content-right {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .ui-drawer {
+    max-width: 100%;
   }
 }
 </style>

@@ -1,0 +1,1107 @@
+{
+  "app.vue": {
+    "mtime": 1782423325.7265725,
+    "ast_hash": "01a562ed6bec491e43a75f70ceceadde",
+    "semantic_hash": "01a562ed6bec491e43a75f70ceceadde"
+  },
+  "assets/data/carreras.json": {
+    "mtime": 1785362598.6720665,
+    "ast_hash": "ad6eb1e0a693a76c0c23bff5b885916c",
+    "semantic_hash": "ad6eb1e0a693a76c0c23bff5b885916c"
+  },
+  "assets/data/comparisons.json": {
+    "mtime": 1782501903.992597,
+    "ast_hash": "cb3c16ad2a32c356aa186fe3accf96c5",
+    "semantic_hash": "cb3c16ad2a32c356aa186fe3accf96c5"
+  },
+  "assets/data/diplomados.json": {
+    "mtime": 1784670041.348829,
+    "ast_hash": "0b5124090f49dc04e386e08e94c3d8f5",
+    "semantic_hash": "0b5124090f49dc04e386e08e94c3d8f5"
+  },
+  "assets/data/posgrados.json": {
+    "mtime": 1784669990.5160017,
+    "ast_hash": "c0dcba0af85502428c44ea58b9d3fd55",
+    "semantic_hash": "c0dcba0af85502428c44ea58b9d3fd55"
+  },
+  "assets/data/syllabus-arq.json": {
+    "mtime": 1783021373.0810463,
+    "ast_hash": "4e6085e35abde091caf5f932f0b3c14b",
+    "semantic_hash": "4e6085e35abde091caf5f932f0b3c14b"
+  },
+  "assets/data/syllabus-corp.json": {
+    "mtime": 1783021373.088167,
+    "ast_hash": "c8a4c11db21ab4d6dd0c5e7017a47fee",
+    "semantic_hash": "c8a4c11db21ab4d6dd0c5e7017a47fee"
+  },
+  "assets/data/syllabus-iam.json": {
+    "mtime": 1783021373.092285,
+    "ast_hash": "59850b7820c05de01df9611685361a2d",
+    "semantic_hash": "59850b7820c05de01df9611685361a2d"
+  },
+  "assets/data/syllabus-ici.json": {
+    "mtime": 1783021373.0944703,
+    "ast_hash": "fbd885c5c325e5db30878582567c1881",
+    "semantic_hash": "fbd885c5c325e5db30878582567c1881"
+  },
+  "assets/data/syllabus-iisca.json": {
+    "mtime": 1783021373.0960567,
+    "ast_hash": "20b11a958ce7913cd51a747c1fff0e2b",
+    "semantic_hash": "20b11a958ce7913cd51a747c1fff0e2b"
+  },
+  "assets/data/syllabus-ime.json": {
+    "mtime": 1783021373.0978296,
+    "ast_hash": "95530baaf8224333592e0efa9d7f22e2",
+    "semantic_hash": "95530baaf8224333592e0efa9d7f22e2"
+  },
+  "assets/data/syllabus-imi.json": {
+    "mtime": 1783021373.0989692,
+    "ast_hash": "e642b4d77016e178d9eb6c033024e086",
+    "semantic_hash": "e642b4d77016e178d9eb6c033024e086"
+  },
+  "assets/data/syllabus-isc.json": {
+    "mtime": 1783021373.100091,
+    "ast_hash": "573f48fdfc8f0fdbf3396be9633c71d9",
+    "semantic_hash": "573f48fdfc8f0fdbf3396be9633c71d9"
+  },
+  "assets/data/syllabus-ladd.json": {
+    "mtime": 1783021373.1018643,
+    "ast_hash": "7165b1dafd188accc743e5b755fadbca",
+    "semantic_hash": "7165b1dafd188accc743e5b755fadbca"
+  },
+  "assets/data/syllabus-lae.json": {
+    "mtime": 1784646961.4367402,
+    "ast_hash": "c4d8fc058c4ab384f3f9f934f81d1844",
+    "semantic_hash": "c4d8fc058c4ab384f3f9f934f81d1844"
+  },
+  "assets/data/syllabus-laet.json": {
+    "mtime": 1783021373.1045992,
+    "ast_hash": "e4c29794c8acae54538c424bed2517d7",
+    "semantic_hash": "e4c29794c8acae54538c424bed2517d7"
+  },
+  "assets/data/syllabus-lam.json": {
+    "mtime": 1783021373.107333,
+    "ast_hash": "fa67c089ce08cefef430dfe99db47f7d",
+    "semantic_hash": "fa67c089ce08cefef430dfe99db47f7d"
+  },
+  "assets/data/syllabus-lani.json": {
+    "mtime": 1783021373.1099164,
+    "ast_hash": "981028c491d4d8e25d54318b0afe96e9",
+    "semantic_hash": "981028c491d4d8e25d54318b0afe96e9"
+  },
+  "assets/data/syllabus-lce.json": {
+    "mtime": 1783021373.1117222,
+    "ast_hash": "ac7b07229ba06debb02cf2d43eb3f047",
+    "semantic_hash": "ac7b07229ba06debb02cf2d43eb3f047"
+  },
+  "assets/data/syllabus-lco.json": {
+    "mtime": 1783021373.1141472,
+    "ast_hash": "0d9949f8397512cc2486bb54e2e87407",
+    "semantic_hash": "0d9949f8397512cc2486bb54e2e87407"
+  },
+  "assets/data/syllabus-lcp.json": {
+    "mtime": 1783021373.1152225,
+    "ast_hash": "c825e0435295ce2d05382ada27700a02",
+    "semantic_hash": "c825e0435295ce2d05382ada27700a02"
+  },
+  "assets/data/syllabus-ldg.json": {
+    "mtime": 1783021373.1173635,
+    "ast_hash": "c77dd8d2bc93a92d54626efd7dc6cd79",
+    "semantic_hash": "c77dd8d2bc93a92d54626efd7dc6cd79"
+  },
+  "assets/data/syllabus-ldi.json": {
+    "mtime": 1783021373.1184278,
+    "ast_hash": "c9ccb8f74cd1846a58f67ba6ce23a39e",
+    "semantic_hash": "c9ccb8f74cd1846a58f67ba6ce23a39e"
+  },
+  "assets/data/syllabus-ldm.json": {
+    "mtime": 1783021373.1194963,
+    "ast_hash": "4d00de137a45b595c90200dd74efd8e3",
+    "semantic_hash": "4d00de137a45b595c90200dd74efd8e3"
+  },
+  "assets/data/syllabus-led.json": {
+    "mtime": 1783021373.120561,
+    "ast_hash": "c0622cbece40e25014ca7a833ee82fe7",
+    "semantic_hash": "c0622cbece40e25014ca7a833ee82fe7"
+  },
+  "assets/data/syllabus-lef.json": {
+    "mtime": 1784646961.4367402,
+    "ast_hash": "19dc9470e268899bc84105f3eba580bb",
+    "semantic_hash": "19dc9470e268899bc84105f3eba580bb"
+  },
+  "assets/data/syllabus-lemp.json": {
+    "mtime": 1783021373.1240375,
+    "ast_hash": "7148d0eadf353391b19a5b38dc1e83b1",
+    "semantic_hash": "7148d0eadf353391b19a5b38dc1e83b1"
+  },
+  "assets/data/syllabus-lid.json": {
+    "mtime": 1783021373.1252778,
+    "ast_hash": "2f791206377bd7315acfb28fa77010c4",
+    "semantic_hash": "2f791206377bd7315acfb28fa77010c4"
+  },
+  "assets/data/syllabus-lme.json": {
+    "mtime": 1783021373.1263413,
+    "ast_hash": "e8fcf4933ea38aa00ea00676edd59a3a",
+    "semantic_hash": "e8fcf4933ea38aa00ea00676edd59a3a"
+  },
+  "assets/data/syllabus-lpe.json": {
+    "mtime": 1783021373.1273966,
+    "ast_hash": "6327e55d587a968b79b9625eb84e6ad2",
+    "semantic_hash": "6327e55d587a968b79b9625eb84e6ad2"
+  },
+  "assets/data/syllabus-lps.json": {
+    "mtime": 1783021373.1289787,
+    "ast_hash": "4baba93cf651a7d72365c916e47dea11",
+    "semantic_hash": "4baba93cf651a7d72365c916e47dea11"
+  },
+  "assets/data/syllabus-lri.json": {
+    "mtime": 1783021373.1300378,
+    "ast_hash": "bb9f041669bc5456c38e29c9c7c62272",
+    "semantic_hash": "bb9f041669bc5456c38e29c9c7c62272"
+  },
+  "assets/data/syllabus-ricp.json": {
+    "mtime": 1783021373.1310942,
+    "ast_hash": "9b4c87e13c539fd59db8d2cf43d17f54",
+    "semantic_hash": "9b4c87e13c539fd59db8d2cf43d17f54"
+  },
+  "assets/data/syllabus-riec.json": {
+    "mtime": 1783021373.132157,
+    "ast_hash": "84e4425a148af79cbddcfd74ff14fc5d",
+    "semantic_hash": "84e4425a148af79cbddcfd74ff14fc5d"
+  },
+  "components/Clients.vue": {
+    "mtime": 1777473623.4131079,
+    "ast_hash": "c6b6f2c40ac7bceb300387159237f30f",
+    "semantic_hash": "c6b6f2c40ac7bceb300387159237f30f"
+  },
+  "components/Contact.vue": {
+    "mtime": 1777473623.414107,
+    "ast_hash": "563caee2f077536185df28aeb43a4870",
+    "semantic_hash": "563caee2f077536185df28aeb43a4870"
+  },
+  "components/Footer.vue": {
+    "mtime": 1777473623.414107,
+    "ast_hash": "ca73db9fc552ca64c7049d7d15a00307",
+    "semantic_hash": "ca73db9fc552ca64c7049d7d15a00307"
+  },
+  "components/Hero.vue": {
+    "mtime": 1777473623.4151075,
+    "ast_hash": "afadf95449a2b116a4295c07ac93c894",
+    "semantic_hash": "afadf95449a2b116a4295c07ac93c894"
+  },
+  "components/LicPrese/CalScholarship.vue": {
+    "mtime": 1781629919.947092,
+    "ast_hash": "40930913b27a65c7394b42b5639db1bc",
+    "semantic_hash": "40930913b27a65c7394b42b5639db1bc"
+  },
+  "components/LicPrese/DinamicSection.vue": {
+    "mtime": 1784316611.8517194,
+    "ast_hash": "37d3d5d0b51a5b190414b844998c4b39",
+    "semantic_hash": "37d3d5d0b51a5b190414b844998c4b39"
+  },
+  "components/LicPrese/EducativeOfert.vue": {
+    "mtime": 1782508299.87255,
+    "ast_hash": "f8c4a7af8b685e37e3b21013b0e3b315",
+    "semantic_hash": "f8c4a7af8b685e37e3b21013b0e3b315"
+  },
+  "components/LicPrese/FormRegister.vue": {
+    "mtime": 1783797048.6361742,
+    "ast_hash": "d78a003e4386db94b979a7a5f50d5fab",
+    "semantic_hash": "d78a003e4386db94b979a7a5f50d5fab"
+  },
+  "components/LicPrese/HeroBanner.vue": {
+    "mtime": 1784312840.4397345,
+    "ast_hash": "18026d44626be149189d3ef1eee41ba2",
+    "semantic_hash": "18026d44626be149189d3ef1eee41ba2"
+  },
+  "components/LicPrese/History.vue": {
+    "mtime": 1781629919.9520898,
+    "ast_hash": "588b592996915d21c4958df5004ea176",
+    "semantic_hash": "588b592996915d21c4958df5004ea176"
+  },
+  "components/LicPrese/OptionUninter.vue": {
+    "mtime": 1784313095.0836694,
+    "ast_hash": "98d0277e6521f15ccefb67cca0bd0b69",
+    "semantic_hash": "98d0277e6521f15ccefb67cca0bd0b69"
+  },
+  "components/LicPrese/SchoolUninter.vue": {
+    "mtime": 1784317141.654363,
+    "ast_hash": "ba70215f745c1f0ee480fd7cd12754e0",
+    "semantic_hash": "ba70215f745c1f0ee480fd7cd12754e0"
+  },
+  "components/Logo.vue": {
+    "mtime": 1777473623.4151075,
+    "ast_hash": "f8437c8c5624fcea92c7f25c67e84b54",
+    "semantic_hash": "f8437c8c5624fcea92c7f25c67e84b54"
+  },
+  "components/OurWork.vue": {
+    "mtime": 1777473623.4161074,
+    "ast_hash": "552eee92992654d8eb1a75ef85b0bd55",
+    "semantic_hash": "552eee92992654d8eb1a75ef85b0bd55"
+  },
+  "components/Services.vue": {
+    "mtime": 1777473623.4161074,
+    "ast_hash": "8f5a0f43ab5b5837f41619112ed92fbd",
+    "semantic_hash": "8f5a0f43ab5b5837f41619112ed92fbd"
+  },
+  "components/Team.vue": {
+    "mtime": 1777473623.4161074,
+    "ast_hash": "4ddd0edead3aa82f42dfd10841351810",
+    "semantic_hash": "4ddd0edead3aa82f42dfd10841351810"
+  },
+  "components/bachillerato/FormRegister.vue": {
+    "mtime": 1783797091.536747,
+    "ast_hash": "14b416d3e073e3f8ae098a0e5ba4b145",
+    "semantic_hash": "14b416d3e073e3f8ae098a0e5ba4b145"
+  },
+  "components/bachillerato/HeroBanner.vue": {
+    "mtime": 1786038842.965719,
+    "ast_hash": "3ee85ffdc1a77a09dbd8070019ebbe3f",
+    "semantic_hash": "3ee85ffdc1a77a09dbd8070019ebbe3f"
+  },
+  "components/bachillerato/Internacionalizacion.vue": {
+    "mtime": 1783451905.94994,
+    "ast_hash": "23650c73c1e8a2f0485b8a828445b774",
+    "semantic_hash": "23650c73c1e8a2f0485b8a828445b774"
+  },
+  "components/bachillerato/ModeloAcademico.vue": {
+    "mtime": 1783452810.916479,
+    "ast_hash": "b5f223d1bbaaf44dc80478398b4525fb",
+    "semantic_hash": "b5f223d1bbaaf44dc80478398b4525fb"
+  },
+  "components/bachillerato/OfertaEducativa.vue": {
+    "mtime": 1783451704.7873447,
+    "ast_hash": "13cc43c3d17ace3b8f448c8928772234",
+    "semantic_hash": "13cc43c3d17ace3b8f448c8928772234"
+  },
+  "components/bachillerato/PhotoStrip.vue": {
+    "mtime": 1781629919.95909,
+    "ast_hash": "5f10c8f0776a730a491b8900851cfc5a",
+    "semantic_hash": "5f10c8f0776a730a491b8900851cfc5a"
+  },
+  "components/bachillerato/VidaAcademica.vue": {
+    "mtime": 1783451801.108732,
+    "ast_hash": "ad566a1c92a1befc04e3057c314fc52e",
+    "semantic_hash": "ad566a1c92a1befc04e3057c314fc52e"
+  },
+  "components/bachillerato/VidaEstudiantil.vue": {
+    "mtime": 1783799428.9955983,
+    "ast_hash": "ef645ac73a4c375307aad82eb45241f1",
+    "semantic_hash": "ef645ac73a4c375307aad82eb45241f1"
+  },
+  "components/bachillerato/Welcome.vue": {
+    "mtime": 1781629919.9620883,
+    "ast_hash": "751ee60c5448fcfd4387e960fa6f372a",
+    "semantic_hash": "751ee60c5448fcfd4387e960fa6f372a"
+  },
+  "components/bachillerato/biu/AreasEspecializacion.vue": {
+    "mtime": 1781629919.9630902,
+    "ast_hash": "b4facaf143921911a17d3d923d53b77b",
+    "semantic_hash": "b4facaf143921911a17d3d923d53b77b"
+  },
+  "components/degree/shared/CareerAdmissionCTA.vue": {
+    "mtime": 1785361077.5042548,
+    "ast_hash": "e068dfeb0ff3b90345e0de3575aefa1e",
+    "semantic_hash": "e068dfeb0ff3b90345e0de3575aefa1e"
+  },
+  "components/degree/shared/CareerCertifications.vue": {
+    "mtime": 1785361041.2969294,
+    "ast_hash": "9282dd51507c1e2691332ffb7e895306",
+    "semantic_hash": "9282dd51507c1e2691332ffb7e895306"
+  },
+  "components/degree/shared/CareerExperience.vue": {
+    "mtime": 1785361010.197121,
+    "ast_hash": "1886f546716fcaae5cd1ae5f1e810601",
+    "semantic_hash": "1886f546716fcaae5cd1ae5f1e810601"
+  },
+  "components/degree/shared/CareerFAQ.vue": {
+    "mtime": 1785346366.0770466,
+    "ast_hash": "3a60df7b939ef4453711b32b6d92f772",
+    "semantic_hash": "3a60df7b939ef4453711b32b6d92f772"
+  },
+  "components/degree/shared/CareerHeroShowcase.vue": {
+    "mtime": 1785361866.492902,
+    "ast_hash": "87b1def17f4a52fdd521839935812200",
+    "semantic_hash": "87b1def17f4a52fdd521839935812200"
+  },
+  "components/degree/shared/CareerOverview.vue": {
+    "mtime": 1785361825.4797668,
+    "ast_hash": "96569b8cef13c75927b59948e4925b8b",
+    "semantic_hash": "96569b8cef13c75927b59948e4925b8b"
+  },
+  "components/degree/shared/CareerPhotoStrip.vue": {
+    "mtime": 1782501933.8746488,
+    "ast_hash": "a4cc2ac22c6bb744627a5ae529917b81",
+    "semantic_hash": "a4cc2ac22c6bb744627a5ae529917b81"
+  },
+  "components/degree/shared/CareerSyllabus.vue": {
+    "mtime": 1785346366.0720482,
+    "ast_hash": "173975db410a71396d96980e10bda3ec",
+    "semantic_hash": "173975db410a71396d96980e10bda3ec"
+  },
+  "components/degree/shared/CareerVidaEstudiantil.vue": {
+    "mtime": 1782501944.763569,
+    "ast_hash": "21114afe18cb1f806066d51c08e63a69",
+    "semantic_hash": "21114afe18cb1f806066d51c08e63a69"
+  },
+  "components/degree/shared/CareerWhyUninter.vue": {
+    "mtime": 1785362425.2066338,
+    "ast_hash": "157e3be825ad19d2b28f6a1e5e2b0d98",
+    "semantic_hash": "157e3be825ad19d2b28f6a1e5e2b0d98"
+  },
+  "components/diplomados/FormRegister.vue": {
+    "mtime": 1783956496.6984248,
+    "ast_hash": "84de0f76b90d9dd9549c1c175fab1737",
+    "semantic_hash": "84de0f76b90d9dd9549c1c175fab1737"
+  },
+  "components/diplomados/HeroBanner.vue": {
+    "mtime": 1781629919.966089,
+    "ast_hash": "3244303f24042c352c9f4f3624388d47",
+    "semantic_hash": "3244303f24042c352c9f4f3624388d47"
+  },
+  "components/diplomados/OfertaEducativa.vue": {
+    "mtime": 1784670530.524346,
+    "ast_hash": "0e242e4fd50c6cdad9818891d1f5084c",
+    "semantic_hash": "0e242e4fd50c6cdad9818891d1f5084c"
+  },
+  "components/diplomados/PhotoStrip.vue": {
+    "mtime": 1781629919.9680877,
+    "ast_hash": "a129c6c45822f4f819e41d7927ac6b1c",
+    "semantic_hash": "a129c6c45822f4f819e41d7927ac6b1c"
+  },
+  "components/diplomados/VidaEstudiantil.vue": {
+    "mtime": 1783797785.501115,
+    "ast_hash": "12533e42b3282913987010c396f771f0",
+    "semantic_hash": "12533e42b3282913987010c396f771f0"
+  },
+  "components/diplomados/VidaUninter.vue": {
+    "mtime": 1783800744.041732,
+    "ast_hash": "d45789c143cae6b9fe859f3b4d5e680d",
+    "semantic_hash": "d45789c143cae6b9fe859f3b4d5e680d"
+  },
+  "components/diplomados/Welcome.vue": {
+    "mtime": 1783800744.0407293,
+    "ast_hash": "5cf2366b7d992a54795ff957bec907fa",
+    "semantic_hash": "5cf2366b7d992a54795ff957bec907fa"
+  },
+  "components/diplomados/admisiones/FormRegister.vue": {
+    "mtime": 1781629919.972089,
+    "ast_hash": "98ec91c52eea9aae117bf4eb5f845d4c",
+    "semantic_hash": "98ec91c52eea9aae117bf4eb5f845d4c"
+  },
+  "components/diplomados/admisiones/HeroBanner.vue": {
+    "mtime": 1781629919.9730887,
+    "ast_hash": "16048bebf03ace8960d915ed889f5748",
+    "semantic_hash": "16048bebf03ace8960d915ed889f5748"
+  },
+  "components/diplomados/admisiones/OfertaEducativa.vue": {
+    "mtime": 1781629919.9730887,
+    "ast_hash": "3ba517fe578f452da4dbabf961d43104",
+    "semantic_hash": "3ba517fe578f452da4dbabf961d43104"
+  },
+  "components/diplomados/admisiones/OptionUninter.vue": {
+    "mtime": 1781629919.9740884,
+    "ast_hash": "dab6c0792c83430deb41f00f54cd5e57",
+    "semantic_hash": "dab6c0792c83430deb41f00f54cd5e57"
+  },
+  "components/diplomados/admisiones/VidaEstudiantil.vue": {
+    "mtime": 1781629919.9750896,
+    "ast_hash": "61dda13c3445d25bd4e8ca3db9538d61",
+    "semantic_hash": "61dda13c3445d25bd4e8ca3db9538d61"
+  },
+  "components/diplomados/admisiones/VidaUninter.vue": {
+    "mtime": 1781629919.9760888,
+    "ast_hash": "4a4ae32dc3dfe4b3801139d1cc65d9fc",
+    "semantic_hash": "4a4ae32dc3dfe4b3801139d1cc65d9fc"
+  },
+  "components/diplomados/admisiones/Welcome.vue": {
+    "mtime": 1781629919.9770908,
+    "ast_hash": "5058a713d73491d7be6ea69c39d65c8d",
+    "semantic_hash": "5058a713d73491d7be6ea69c39d65c8d"
+  },
+  "components/layout/Breadcrumb.vue": {
+    "mtime": 1783716110.263498,
+    "ast_hash": "bdc76dc2e01ea2f292b2dd1c7722f3ed",
+    "semantic_hash": "bdc76dc2e01ea2f292b2dd1c7722f3ed"
+  },
+  "components/layout/FloatingContact.vue": {
+    "mtime": 1783460216.5340695,
+    "ast_hash": "f696333136171adb7db9925247366ffd",
+    "semantic_hash": "f696333136171adb7db9925247366ffd"
+  },
+  "components/layout/Footer.vue": {
+    "mtime": 1781629919.9800932,
+    "ast_hash": "e56db1c096ca57705837d235dc890536",
+    "semantic_hash": "e56db1c096ca57705837d235dc890536"
+  },
+  "components/layout/Header.vue": {
+    "mtime": 1781629919.9840899,
+    "ast_hash": "429f2bcc87896d6732af533cdfc9fc70",
+    "semantic_hash": "429f2bcc87896d6732af533cdfc9fc70"
+  },
+  "components/layout/MainNav.vue": {
+    "mtime": 1777473623.4181073,
+    "ast_hash": "90c7642ccd43a8d92f6e30a1d6a18da4",
+    "semantic_hash": "90c7642ccd43a8d92f6e30a1d6a18da4"
+  },
+  "components/layout/TopNavLevels.vue": {
+    "mtime": 1777473623.4181073,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "components/navbar/Index.vue": {
+    "mtime": 1786137791.8526282,
+    "ast_hash": "47eaa4ea1969ecc3fda12f5ff259cf86",
+    "semantic_hash": "47eaa4ea1969ecc3fda12f5ff259cf86"
+  },
+  "components/navbar/Menu.vue": {
+    "mtime": 1777473623.419107,
+    "ast_hash": "63fd295ac1f25af62d7a4228c0a94778",
+    "semantic_hash": "63fd295ac1f25af62d7a4228c0a94778"
+  },
+  "components/navbar/ProgramNav.vue": {
+    "mtime": 1777473623.419107,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "components/navbar/Sheet.vue": {
+    "mtime": 1777473623.420192,
+    "ast_hash": "66485153de44eac1e32f5406d5e99306",
+    "semantic_hash": "66485153de44eac1e32f5406d5e99306"
+  },
+  "components/portal/Acreditaciones.vue": {
+    "mtime": 1777473623.420192,
+    "ast_hash": "abf3a64eb1b0dbfac5065c105cf8bb06",
+    "semantic_hash": "abf3a64eb1b0dbfac5065c105cf8bb06"
+  },
+  "components/portal/Blogssection.vue": {
+    "mtime": 1783797511.8813899,
+    "ast_hash": "47f5e1fbefc93e164c1e977c8c09eace",
+    "semantic_hash": "47f5e1fbefc93e164c1e977c8c09eace"
+  },
+  "components/portal/CTAContacto.vue": {
+    "mtime": 1777473623.4212172,
+    "ast_hash": "3933464b9a0c15ac3547a112c70cf896",
+    "semantic_hash": "3933464b9a0c15ac3547a112c70cf896"
+  },
+  "components/portal/CTAFinal.vue": {
+    "mtime": 1777473623.4221933,
+    "ast_hash": "38d6282b2ad5cb80bb95f88e7d829f2d",
+    "semantic_hash": "38d6282b2ad5cb80bb95f88e7d829f2d"
+  },
+  "components/portal/Calculabeca.vue": {
+    "mtime": 1784843140.7500088,
+    "ast_hash": "7d2fb32fc4e7b088d91cd7c5d625651f",
+    "semantic_hash": "7d2fb32fc4e7b088d91cd7c5d625651f"
+  },
+  "components/portal/Diferenciadores.vue": {
+    "mtime": 1777473623.4221933,
+    "ast_hash": "47c70abeb56157800bcf57c4bb4eed79",
+    "semantic_hash": "47c70abeb56157800bcf57c4bb4eed79"
+  },
+  "components/portal/Encuentranos.vue": {
+    "mtime": 1784842776.9050407,
+    "ast_hash": "0ea0c72e08f8952664ea13e8148b53fa",
+    "semantic_hash": "0ea0c72e08f8952664ea13e8148b53fa"
+  },
+  "components/portal/FloatingActions.vue": {
+    "mtime": 1782506870.2485287,
+    "ast_hash": "62e7b2c48d64dab47fcc1b82bd95cd98",
+    "semantic_hash": "62e7b2c48d64dab47fcc1b82bd95cd98"
+  },
+  "components/portal/Footer.vue": {
+    "mtime": 1777473623.424193,
+    "ast_hash": "8fbcf335f7cdff2ad200bbdf041632e3",
+    "semantic_hash": "8fbcf335f7cdff2ad200bbdf041632e3"
+  },
+  "components/portal/FormRegister.vue": {
+    "mtime": 1784843146.8633838,
+    "ast_hash": "af42b42d86ee417fae25578ebdde9759",
+    "semantic_hash": "af42b42d86ee417fae25578ebdde9759"
+  },
+  "components/portal/Hero.vue": {
+    "mtime": 1777473623.424193,
+    "ast_hash": "bcb2fc99e959814440cff54696fc5b35",
+    "semantic_hash": "bcb2fc99e959814440cff54696fc5b35"
+  },
+  "components/portal/HeroCarousel.vue": {
+    "mtime": 1783438381.191242,
+    "ast_hash": "cf9b5510b71686d6816f3b1a87323ba8",
+    "semantic_hash": "cf9b5510b71686d6816f3b1a87323ba8"
+  },
+  "components/portal/Historiasexito.vue": {
+    "mtime": 1778694439.654549,
+    "ast_hash": "b86b54fc88e2c83a7a8e8847fa20207e",
+    "semantic_hash": "b86b54fc88e2c83a7a8e8847fa20207e"
+  },
+  "components/portal/Noticiasuninter.vue": {
+    "mtime": 1781623065.7064059,
+    "ast_hash": "f5fda8b25bd56d675b233fc04658d7d1",
+    "semantic_hash": "f5fda8b25bd56d675b233fc04658d7d1"
+  },
+  "components/portal/OfertaEducativa.vue": {
+    "mtime": 1783100416.4919865,
+    "ast_hash": "3c60216232790264edaa4f31dc25fa03",
+    "semantic_hash": "3c60216232790264edaa4f31dc25fa03"
+  },
+  "components/portal/OfertaEjecutivas.vue": {
+    "mtime": 1777473623.4265327,
+    "ast_hash": "192eec9ac57f168c4d33436085cce4eb",
+    "semantic_hash": "192eec9ac57f168c4d33436085cce4eb"
+  },
+  "components/portal/OfertaLicenciaturas.vue": {
+    "mtime": 1777473623.4265327,
+    "ast_hash": "e0f2db8b505a39954521a456fc702f83",
+    "semantic_hash": "e0f2db8b505a39954521a456fc702f83"
+  },
+  "components/portal/QuickAccess.vue": {
+    "mtime": 1777473623.427503,
+    "ast_hash": "17a97737a362bdd523a02204172bc92c",
+    "semantic_hash": "17a97737a362bdd523a02204172bc92c"
+  },
+  "components/portal/SpanishSchoolProp.vue": {
+    "mtime": 1778700130.2614424,
+    "ast_hash": "66cf6c89ebe3c259f0ac8e9de50bb376",
+    "semantic_hash": "66cf6c89ebe3c259f0ac8e9de50bb376"
+  },
+  "components/portal/Spanishschool.vue": {
+    "mtime": 1777473623.427503,
+    "ast_hash": "225db83c7646df48135e5ea1074c4457",
+    "semantic_hash": "225db83c7646df48135e5ea1074c4457"
+  },
+  "components/portal/VidaUniversitaria.vue": {
+    "mtime": 1784325513.351694,
+    "ast_hash": "54903a749a7765e0c92557d79e33d1dd",
+    "semantic_hash": "54903a749a7765e0c92557d79e33d1dd"
+  },
+  "components/posgrados/FormRegister.vue": {
+    "mtime": 1786138534.1521733,
+    "ast_hash": "8a949c4bd14fad3c211a12e913b7cefe",
+    "semantic_hash": "8a949c4bd14fad3c211a12e913b7cefe"
+  },
+  "components/posgrados/HeroBanner.vue": {
+    "mtime": 1786138534.1891692,
+    "ast_hash": "8f97fd70d9dbab50a64f57f93bc9bae2",
+    "semantic_hash": "8f97fd70d9dbab50a64f57f93bc9bae2"
+  },
+  "components/posgrados/OfertaEducativa.vue": {
+    "mtime": 1786138534.22517,
+    "ast_hash": "a865bfc37e28c052f12f9ea518950843",
+    "semantic_hash": "a865bfc37e28c052f12f9ea518950843"
+  },
+  "components/posgrados/OptionUninter.vue": {
+    "mtime": 1786138534.2771719,
+    "ast_hash": "54bacd9465a947ecc8b9bdaed6c5595a",
+    "semantic_hash": "54bacd9465a947ecc8b9bdaed6c5595a"
+  },
+  "components/posgrados/PhotoStrip.vue": {
+    "mtime": 1786138534.292691,
+    "ast_hash": "5246e49cae46de49cd1cf54733e9d0aa",
+    "semantic_hash": "5246e49cae46de49cd1cf54733e9d0aa"
+  },
+  "components/posgrados/VidaEstudiantil.vue": {
+    "mtime": 1786138534.3206894,
+    "ast_hash": "474e01bb46ba7aacd0a8f7d79e433132",
+    "semantic_hash": "474e01bb46ba7aacd0a8f7d79e433132"
+  },
+  "components/posgrados/VidaUninter.vue": {
+    "mtime": 1786138534.34069,
+    "ast_hash": "4f450d00aa12811d5c21b895b5f8b991",
+    "semantic_hash": "4f450d00aa12811d5c21b895b5f8b991"
+  },
+  "components/posgrados/Welcome.vue": {
+    "mtime": 1786138534.3696883,
+    "ast_hash": "473e18b09896ed61d0b1c2a7c272c38c",
+    "semantic_hash": "473e18b09896ed61d0b1c2a7c272c38c"
+  },
+  "components/posgrados/admisiones/FormRegister.vue": {
+    "mtime": 1786138534.3716903,
+    "ast_hash": "8a949c4bd14fad3c211a12e913b7cefe",
+    "semantic_hash": "8a949c4bd14fad3c211a12e913b7cefe"
+  },
+  "components/posgrados/admisiones/HeroBanner.vue": {
+    "mtime": 1786138534.394688,
+    "ast_hash": "88e0a8c957fa722a5e5fa78060b1ab80",
+    "semantic_hash": "88e0a8c957fa722a5e5fa78060b1ab80"
+  },
+  "components/posgrados/admisiones/OfertaEducativa.vue": {
+    "mtime": 1786138534.4156892,
+    "ast_hash": "5a031be96ec2874333bb068b9fc084fc",
+    "semantic_hash": "5a031be96ec2874333bb068b9fc084fc"
+  },
+  "components/posgrados/admisiones/OptionUninter.vue": {
+    "mtime": 1786138534.4346876,
+    "ast_hash": "7c5be2d8811aa0da30f5a735d71d6c96",
+    "semantic_hash": "7c5be2d8811aa0da30f5a735d71d6c96"
+  },
+  "components/posgrados/admisiones/PhotoStrip.vue": {
+    "mtime": 1786138534.4446883,
+    "ast_hash": "14d00d0c97d298d52fa4039c968625a6",
+    "semantic_hash": "14d00d0c97d298d52fa4039c968625a6"
+  },
+  "components/posgrados/admisiones/VidaEstudiantil.vue": {
+    "mtime": 1786138534.4686887,
+    "ast_hash": "48cd0936a918ed723619b39ce25e37af",
+    "semantic_hash": "48cd0936a918ed723619b39ce25e37af"
+  },
+  "components/posgrados/admisiones/VidaUninter.vue": {
+    "mtime": 1786138534.4893632,
+    "ast_hash": "7517d6cc0fc1a37611351801b860f589",
+    "semantic_hash": "7517d6cc0fc1a37611351801b860f589"
+  },
+  "components/posgrados/admisiones/Welcome.vue": {
+    "mtime": 1786138534.5018792,
+    "ast_hash": "127065acbe7a723fc34d59f746608eb0",
+    "semantic_hash": "127065acbe7a723fc34d59f746608eb0"
+  },
+  "components/secundaria/FormRegister.vue": {
+    "mtime": 1783797240.2217004,
+    "ast_hash": "e7130a2e2f081561d457916484fc0f40",
+    "semantic_hash": "e7130a2e2f081561d457916484fc0f40"
+  },
+  "components/secundaria/HeroBanner.vue": {
+    "mtime": 1786049808.236946,
+    "ast_hash": "b9ad241c17c7df03351d93b4d4eb14cb",
+    "semantic_hash": "b9ad241c17c7df03351d93b4d4eb14cb"
+  },
+  "components/secundaria/OfertaEducativa.vue": {
+    "mtime": 1786049999.366142,
+    "ast_hash": "94835ceb77006c6a58688818f122ffbc",
+    "semantic_hash": "94835ceb77006c6a58688818f122ffbc"
+  },
+  "components/secundaria/PhotoStrip.vue": {
+    "mtime": 1781629920.0080874,
+    "ast_hash": "fdd9c88576215164a3a330dd9138f42b",
+    "semantic_hash": "fdd9c88576215164a3a330dd9138f42b"
+  },
+  "components/secundaria/VidaAcademica.vue": {
+    "mtime": 1786049999.3691423,
+    "ast_hash": "8bd1b852d78f39ca9f6d728a144dea13",
+    "semantic_hash": "8bd1b852d78f39ca9f6d728a144dea13"
+  },
+  "components/secundaria/VidaEstudiantil.vue": {
+    "mtime": 1786049808.3233898,
+    "ast_hash": "629ddb2196e51bb50a32309fb625631d",
+    "semantic_hash": "629ddb2196e51bb50a32309fb625631d"
+  },
+  "components/secundaria/Welcome.vue": {
+    "mtime": 1786033738.657309,
+    "ast_hash": "0f6c34f7ac2be98e44c502189c8ffe07",
+    "semantic_hash": "0f6c34f7ac2be98e44c502189c8ffe07"
+  },
+  "components/shared/CareerComparison.vue": {
+    "mtime": 1782423357.958678,
+    "ast_hash": "a3f2992b03590a98e69552c35c1b5b3c",
+    "semantic_hash": "a3f2992b03590a98e69552c35c1b5b3c"
+  },
+  "components/ui/avatar/Avatar.vue": {
+    "mtime": 1777473623.4295018,
+    "ast_hash": "99f1f52f586dba41d7a64f8d7098469d",
+    "semantic_hash": "99f1f52f586dba41d7a64f8d7098469d"
+  },
+  "components/ui/avatar/AvatarFallback.vue": {
+    "mtime": 1777473623.4295018,
+    "ast_hash": "f20d5290d184c02020f73b478099a7f1",
+    "semantic_hash": "f20d5290d184c02020f73b478099a7f1"
+  },
+  "components/ui/avatar/AvatarImage.vue": {
+    "mtime": 1777473623.4305017,
+    "ast_hash": "16be5e7705dda6a360e901d3ca79485e",
+    "semantic_hash": "16be5e7705dda6a360e901d3ca79485e"
+  },
+  "components/ui/avatar/index.ts": {
+    "mtime": 1777473623.4305017,
+    "ast_hash": "a2d8a7d468aeef4af2189667028fdc63",
+    "semantic_hash": "a2d8a7d468aeef4af2189667028fdc63"
+  },
+  "components/ui/badge/Badge.vue": {
+    "mtime": 1777473623.4315014,
+    "ast_hash": "5884ad08174c16eebf717288a0a89119",
+    "semantic_hash": "5884ad08174c16eebf717288a0a89119"
+  },
+  "components/ui/badge/index.ts": {
+    "mtime": 1777473623.4315014,
+    "ast_hash": "83126fb4f8fc378b3793ffe0acd8b3e3",
+    "semantic_hash": "83126fb4f8fc378b3793ffe0acd8b3e3"
+  },
+  "components/ui/button/Button.vue": {
+    "mtime": 1777473623.4325018,
+    "ast_hash": "205ce8393b9a189f2a65174ebfe3e2a4",
+    "semantic_hash": "205ce8393b9a189f2a65174ebfe3e2a4"
+  },
+  "components/ui/button/index.ts": {
+    "mtime": 1777473623.4325018,
+    "ast_hash": "11f6f279582fbd00cb056fe681c8ad08",
+    "semantic_hash": "11f6f279582fbd00cb056fe681c8ad08"
+  },
+  "components/ui/card/Card.vue": {
+    "mtime": 1777473623.4335012,
+    "ast_hash": "320d53827c00be5413aeffa2170e9448",
+    "semantic_hash": "320d53827c00be5413aeffa2170e9448"
+  },
+  "components/ui/card/CardAction.vue": {
+    "mtime": 1777473623.4335012,
+    "ast_hash": "b36eb73beee1dcc241042b605d687561",
+    "semantic_hash": "b36eb73beee1dcc241042b605d687561"
+  },
+  "components/ui/card/CardContent.vue": {
+    "mtime": 1777473623.4335012,
+    "ast_hash": "7f92c38c8a4ad8c9e28c93172868195f",
+    "semantic_hash": "7f92c38c8a4ad8c9e28c93172868195f"
+  },
+  "components/ui/card/CardDescription.vue": {
+    "mtime": 1777473623.4345012,
+    "ast_hash": "9e36416c97118588eb10e5ba2d4e1d36",
+    "semantic_hash": "9e36416c97118588eb10e5ba2d4e1d36"
+  },
+  "components/ui/card/CardFooter.vue": {
+    "mtime": 1777473623.4345012,
+    "ast_hash": "87bb5b7a443f129d344044dd5bcad8c8",
+    "semantic_hash": "87bb5b7a443f129d344044dd5bcad8c8"
+  },
+  "components/ui/card/CardHeader.vue": {
+    "mtime": 1777473623.4355016,
+    "ast_hash": "a08745ec22bada6068b3d0a0f65014fe",
+    "semantic_hash": "a08745ec22bada6068b3d0a0f65014fe"
+  },
+  "components/ui/card/CardTitle.vue": {
+    "mtime": 1777473623.4355016,
+    "ast_hash": "8ea6574fe49092ba6fad6d39e141f7dc",
+    "semantic_hash": "8ea6574fe49092ba6fad6d39e141f7dc"
+  },
+  "components/ui/card/index.ts": {
+    "mtime": 1777473623.4355016,
+    "ast_hash": "5c5d38bb0daa3abbbeaf08369cdaeb4e",
+    "semantic_hash": "5c5d38bb0daa3abbbeaf08369cdaeb4e"
+  },
+  "components/ui/form/FormControl.vue": {
+    "mtime": 1777473623.4365013,
+    "ast_hash": "54caf1248334cc98c61cbd9ee13412c4",
+    "semantic_hash": "54caf1248334cc98c61cbd9ee13412c4"
+  },
+  "components/ui/form/FormDescription.vue": {
+    "mtime": 1777473623.4365013,
+    "ast_hash": "fb4d20a788a859530c957b274ef248fe",
+    "semantic_hash": "fb4d20a788a859530c957b274ef248fe"
+  },
+  "components/ui/form/FormItem.vue": {
+    "mtime": 1777473623.4375012,
+    "ast_hash": "9500e29dea8e5bcefb8f00c712f4bfb5",
+    "semantic_hash": "9500e29dea8e5bcefb8f00c712f4bfb5"
+  },
+  "components/ui/form/FormLabel.vue": {
+    "mtime": 1777473623.4375012,
+    "ast_hash": "bd5a10108f037f95ab653ddaf223c177",
+    "semantic_hash": "bd5a10108f037f95ab653ddaf223c177"
+  },
+  "components/ui/form/FormMessage.vue": {
+    "mtime": 1777473623.4375012,
+    "ast_hash": "6c349af6900800730917187cf6a01cbe",
+    "semantic_hash": "6c349af6900800730917187cf6a01cbe"
+  },
+  "components/ui/form/index.ts": {
+    "mtime": 1777473623.4385016,
+    "ast_hash": "2d6bb442111fed65f3e0de7a80eda1eb",
+    "semantic_hash": "2d6bb442111fed65f3e0de7a80eda1eb"
+  },
+  "components/ui/form/injectionKeys.ts": {
+    "mtime": 1777473623.4385016,
+    "ast_hash": "277a16cdc410d9ab349ec6feb6429371",
+    "semantic_hash": "277a16cdc410d9ab349ec6feb6429371"
+  },
+  "components/ui/form/useFormField.ts": {
+    "mtime": 1777473623.4385016,
+    "ast_hash": "540ba2757b0b386ce4467a5a54ed4a53",
+    "semantic_hash": "540ba2757b0b386ce4467a5a54ed4a53"
+  },
+  "components/ui/input-group/InputGroup.vue": {
+    "mtime": 1777473623.4395015,
+    "ast_hash": "91a638f07f77c73b77bd68da61832f9b",
+    "semantic_hash": "91a638f07f77c73b77bd68da61832f9b"
+  },
+  "components/ui/input-group/InputGroupAddon.vue": {
+    "mtime": 1777473623.4405012,
+    "ast_hash": "7bb29877733298179c619f75ce21be4b",
+    "semantic_hash": "7bb29877733298179c619f75ce21be4b"
+  },
+  "components/ui/input-group/InputGroupButton.vue": {
+    "mtime": 1777473623.4405012,
+    "ast_hash": "6e4d4fb0084146bff7bab4dfffe19339",
+    "semantic_hash": "6e4d4fb0084146bff7bab4dfffe19339"
+  },
+  "components/ui/input-group/InputGroupInput.vue": {
+    "mtime": 1777473623.4405012,
+    "ast_hash": "a507e7b49f8eec720e4c4e0f7f2394bc",
+    "semantic_hash": "a507e7b49f8eec720e4c4e0f7f2394bc"
+  },
+  "components/ui/input-group/InputGroupText.vue": {
+    "mtime": 1777473623.4415016,
+    "ast_hash": "e1449b3132c13bd0f85d0c1a3b5d5ebf",
+    "semantic_hash": "e1449b3132c13bd0f85d0c1a3b5d5ebf"
+  },
+  "components/ui/input-group/InputGroupTextarea.vue": {
+    "mtime": 1777473623.4415016,
+    "ast_hash": "44c90eae093cd5202b8b00a50a1406eb",
+    "semantic_hash": "44c90eae093cd5202b8b00a50a1406eb"
+  },
+  "components/ui/input-group/index.ts": {
+    "mtime": 1777473623.4415016,
+    "ast_hash": "fffe41bed552dd69e9082ac18f8cf5f2",
+    "semantic_hash": "fffe41bed552dd69e9082ac18f8cf5f2"
+  },
+  "components/ui/input/Input.vue": {
+    "mtime": 1777473623.4425013,
+    "ast_hash": "cf51b0f4eef9c51ca1048a3bc4f5c369",
+    "semantic_hash": "cf51b0f4eef9c51ca1048a3bc4f5c369"
+  },
+  "components/ui/input/index.ts": {
+    "mtime": 1777473623.4425013,
+    "ast_hash": "e11571ab769bbc6b8b1153242ba7de7d",
+    "semantic_hash": "e11571ab769bbc6b8b1153242ba7de7d"
+  },
+  "components/ui/label/Label.vue": {
+    "mtime": 1777473623.4435022,
+    "ast_hash": "82e9081b4b05f31d5101e4ae72278741",
+    "semantic_hash": "82e9081b4b05f31d5101e4ae72278741"
+  },
+  "components/ui/label/index.ts": {
+    "mtime": 1777473623.4435022,
+    "ast_hash": "cd431329b065cf7d5e0d490df37efe96",
+    "semantic_hash": "cd431329b065cf7d5e0d490df37efe96"
+  },
+  "components/ui/navigation-menu/NavigationMenu.vue": {
+    "mtime": 1777473623.4445014,
+    "ast_hash": "060f0257c5154021665027056aff8f80",
+    "semantic_hash": "060f0257c5154021665027056aff8f80"
+  },
+  "components/ui/navigation-menu/NavigationMenuContent.vue": {
+    "mtime": 1777473623.445501,
+    "ast_hash": "d4eecada4e5c92169bc7b596aa6f7125",
+    "semantic_hash": "d4eecada4e5c92169bc7b596aa6f7125"
+  },
+  "components/ui/navigation-menu/NavigationMenuIndicator.vue": {
+    "mtime": 1777473623.445501,
+    "ast_hash": "5f356ae365e9629e2a8f80e280061edf",
+    "semantic_hash": "5f356ae365e9629e2a8f80e280061edf"
+  },
+  "components/ui/navigation-menu/NavigationMenuItem.vue": {
+    "mtime": 1777473623.4465861,
+    "ast_hash": "29dcc9f94f08aae5afaf82df6a819b50",
+    "semantic_hash": "29dcc9f94f08aae5afaf82df6a819b50"
+  },
+  "components/ui/navigation-menu/NavigationMenuLink.vue": {
+    "mtime": 1777473623.4465861,
+    "ast_hash": "07e4076747a8c1c9937fa3746fe9baa8",
+    "semantic_hash": "07e4076747a8c1c9937fa3746fe9baa8"
+  },
+  "components/ui/navigation-menu/NavigationMenuList.vue": {
+    "mtime": 1777473623.4475875,
+    "ast_hash": "f8e8eb1608aece8bcb9372c6616bfcfb",
+    "semantic_hash": "f8e8eb1608aece8bcb9372c6616bfcfb"
+  },
+  "components/ui/navigation-menu/NavigationMenuTrigger.vue": {
+    "mtime": 1777473623.4475875,
+    "ast_hash": "60d75440f786faa318b3f30f0956b821",
+    "semantic_hash": "60d75440f786faa318b3f30f0956b821"
+  },
+  "components/ui/navigation-menu/NavigationMenuViewport.vue": {
+    "mtime": 1777473623.4485872,
+    "ast_hash": "afa02279529966301f1b1262314ad7e4",
+    "semantic_hash": "afa02279529966301f1b1262314ad7e4"
+  },
+  "components/ui/navigation-menu/index.ts": {
+    "mtime": 1777473623.4485872,
+    "ast_hash": "343a940f092cfc7c9b087c1d4ec126cc",
+    "semantic_hash": "343a940f092cfc7c9b087c1d4ec126cc"
+  },
+  "components/ui/sheet/Sheet.vue": {
+    "mtime": 1777473623.4498866,
+    "ast_hash": "fbf58cc8f420185fa3dbf8a88109dafa",
+    "semantic_hash": "fbf58cc8f420185fa3dbf8a88109dafa"
+  },
+  "components/ui/sheet/SheetClose.vue": {
+    "mtime": 1777473623.4498866,
+    "ast_hash": "916a37de08856a2e68be344d44e75a46",
+    "semantic_hash": "916a37de08856a2e68be344d44e75a46"
+  },
+  "components/ui/sheet/SheetContent.vue": {
+    "mtime": 1777473623.4508872,
+    "ast_hash": "182ef1f3896a39d06e75739ad2ef93c9",
+    "semantic_hash": "182ef1f3896a39d06e75739ad2ef93c9"
+  },
+  "components/ui/sheet/SheetDescription.vue": {
+    "mtime": 1777473623.4508872,
+    "ast_hash": "d35f229b77bd2be7eabc51732ff28e38",
+    "semantic_hash": "d35f229b77bd2be7eabc51732ff28e38"
+  },
+  "components/ui/sheet/SheetFooter.vue": {
+    "mtime": 1777473623.451887,
+    "ast_hash": "4e4e5fd6ae342e12b0db0dfd63552481",
+    "semantic_hash": "4e4e5fd6ae342e12b0db0dfd63552481"
+  },
+  "components/ui/sheet/SheetHeader.vue": {
+    "mtime": 1777473623.451887,
+    "ast_hash": "31466821c9193416e68e7cc4eb3948bb",
+    "semantic_hash": "31466821c9193416e68e7cc4eb3948bb"
+  },
+  "components/ui/sheet/SheetOverlay.vue": {
+    "mtime": 1777473623.451887,
+    "ast_hash": "0427e39f33e83b30cdec39def7cbe827",
+    "semantic_hash": "0427e39f33e83b30cdec39def7cbe827"
+  },
+  "components/ui/sheet/SheetTitle.vue": {
+    "mtime": 1777473623.452887,
+    "ast_hash": "0052c621339936587ecfad6c3920ce44",
+    "semantic_hash": "0052c621339936587ecfad6c3920ce44"
+  },
+  "components/ui/sheet/SheetTrigger.vue": {
+    "mtime": 1777473623.452887,
+    "ast_hash": "83c51374056c15fe1fb7ee81d6e1b5a1",
+    "semantic_hash": "83c51374056c15fe1fb7ee81d6e1b5a1"
+  },
+  "components/ui/sheet/index.ts": {
+    "mtime": 1777473623.4538863,
+    "ast_hash": "ed651e2572360fbfc498b2f87a2f4c76",
+    "semantic_hash": "ed651e2572360fbfc498b2f87a2f4c76"
+  },
+  "components/ui/textarea/Textarea.vue": {
+    "mtime": 1777473623.4545755,
+    "ast_hash": "51560cf5bd5fe2932a6f64e36f14c7e4",
+    "semantic_hash": "51560cf5bd5fe2932a6f64e36f14c7e4"
+  },
+  "components/ui/textarea/index.ts": {
+    "mtime": 1777473623.4545755,
+    "ast_hash": "6da2d7e4da748bd35353df5527084d89",
+    "semantic_hash": "6da2d7e4da748bd35353df5527084d89"
+  },
+  "composables/useNavigation.ts": {
+    "mtime": 1777473623.455682,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "layouts/default.vue": {
+    "mtime": 1777473623.455682,
+    "ast_hash": "75c00efad8b4b654fa5dd9ba63174c9d",
+    "semantic_hash": "75c00efad8b4b654fa5dd9ba63174c9d"
+  },
+  "lib/utils.ts": {
+    "mtime": 1777473623.4566882,
+    "ast_hash": "9b659b3d92748a2b5571190b04d035a4",
+    "semantic_hash": "9b659b3d92748a2b5571190b04d035a4"
+  },
+  "pages/Comunicacion.vue": {
+    "mtime": 1782245149.747537,
+    "ast_hash": "d032d7035f6b1df6831ce7249b271a7a",
+    "semantic_hash": "d032d7035f6b1df6831ce7249b271a7a"
+  },
+  "pages/LicenciaturasPresenciales.vue": {
+    "mtime": 1784316822.940027,
+    "ast_hash": "d16fa22a2e58c28b280ad3c01dd6e120",
+    "semantic_hash": "d16fa22a2e58c28b280ad3c01dd6e120"
+  },
+  "pages/admisiones.vue": {
+    "mtime": 1784055310.374694,
+    "ast_hash": "080145c38062c31bd88a1ccf707668e2",
+    "semantic_hash": "080145c38062c31bd88a1ccf707668e2"
+  },
+  "pages/bachillerato/admisiones.vue": {
+    "mtime": 1784055318.2851508,
+    "ast_hash": "5229036f81f1053b014e2fe5005cd2c8",
+    "semantic_hash": "5229036f81f1053b014e2fe5005cd2c8"
+  },
+  "pages/bachillerato/biu-bilingue.vue": {
+    "mtime": 1786052057.7563818,
+    "ast_hash": "599c4610fb3b5bdf515f37949c07bdcc",
+    "semantic_hash": "599c4610fb3b5bdf515f37949c07bdcc"
+  },
+  "pages/bachillerato/biu-multicultural.vue": {
+    "mtime": 1786052057.792388,
+    "ast_hash": "cb6aaf99a90879f0d6153007f8527214",
+    "semantic_hash": "cb6aaf99a90879f0d6153007f8527214"
+  },
+  "pages/bachillerato/index.vue": {
+    "mtime": 1783451724.1744108,
+    "ast_hash": "af21a0e8fc1857d828e1ac6e7fd242c0",
+    "semantic_hash": "af21a0e8fc1857d828e1ac6e7fd242c0"
+  },
+  "pages/calcula-tu-beca.vue": {
+    "mtime": 1783967634.1348825,
+    "ast_hash": "b9170a618d5c824bbe43a3d9d4a92d62",
+    "semantic_hash": "b9170a618d5c824bbe43a3d9d4a92d62"
+  },
+  "pages/carreras/[id].vue": {
+    "mtime": 1785362431.1341963,
+    "ast_hash": "d750a6fff55245e3025e2636698c0d3d",
+    "semantic_hash": "d750a6fff55245e3025e2636698c0d3d"
+  },
+  "pages/diplomados/[id].vue": {
+    "mtime": 1783956506.4259763,
+    "ast_hash": "d54abf34f0713f656cedc986ec94b09e",
+    "semantic_hash": "d54abf34f0713f656cedc986ec94b09e"
+  },
+  "pages/diplomados/admisiones.vue": {
+    "mtime": 1784056072.9771292,
+    "ast_hash": "f7eedf2e30fff90de8ad4d91eeb2e6d9",
+    "semantic_hash": "f7eedf2e30fff90de8ad4d91eeb2e6d9"
+  },
+  "pages/diplomados/index.vue": {
+    "mtime": 1783801097.4198272,
+    "ast_hash": "68a041722a5b23ce68f5fae0ab0773fb",
+    "semantic_hash": "68a041722a5b23ce68f5fae0ab0773fb"
+  },
+  "pages/index.vue": {
+    "mtime": 1784842919.7729642,
+    "ast_hash": "8ef58091543516942c91d0d482cd65ea",
+    "semantic_hash": "8ef58091543516942c91d0d482cd65ea"
+  },
+  "pages/posgrados/[id].vue": {
+    "mtime": 1786138534.6109824,
+    "ast_hash": "fd688689b90eb346ebba90d45aa553a8",
+    "semantic_hash": "fd688689b90eb346ebba90d45aa553a8"
+  },
+  "pages/posgrados/admisiones.vue": {
+    "mtime": 1784055283.7395453,
+    "ast_hash": "ac94c466848e820ce2dce616b1ef210c",
+    "semantic_hash": "ac94c466848e820ce2dce616b1ef210c"
+  },
+  "pages/posgrados/doctorados.vue": {
+    "mtime": 1786137568.1261623,
+    "ast_hash": "aa4bf0b59d801bc7694f8cf1337f0068",
+    "semantic_hash": "aa4bf0b59d801bc7694f8cf1337f0068"
+  },
+  "pages/posgrados/especialidades.vue": {
+    "mtime": 1786137568.0704048,
+    "ast_hash": "41fe8e9a9d81eb6fddab8cd0db6c302e",
+    "semantic_hash": "41fe8e9a9d81eb6fddab8cd0db6c302e"
+  },
+  "pages/posgrados/maestrias.vue": {
+    "mtime": 1786137568.1014543,
+    "ast_hash": "dc8aca9dc98ca44995db76500c64430f",
+    "semantic_hash": "dc8aca9dc98ca44995db76500c64430f"
+  },
+  "pages/secundaria/admisiones.vue": {
+    "mtime": 1784055326.1265454,
+    "ast_hash": "8bb9ef698ef263415c6c8c9223c3d401",
+    "semantic_hash": "8bb9ef698ef263415c6c8c9223c3d401"
+  },
+  "pages/secundaria/index.vue": {
+    "mtime": 1783439431.3108573,
+    "ast_hash": "767f071e24d9a298f55da5d6740f80fb",
+    "semantic_hash": "767f071e24d9a298f55da5d6740f80fb"
+  },
+  "pages/secundaria/siu-bilingue.vue": {
+    "mtime": 1786049254.2752614,
+    "ast_hash": "410dbbdda14bc2ee4c776900cc228290",
+    "semantic_hash": "410dbbdda14bc2ee4c776900cc228290"
+  },
+  "pages/secundaria/siu-multicultural.vue": {
+    "mtime": 1786049276.675458,
+    "ast_hash": "318bcf0c2bad96e829db463b31c813c7",
+    "semantic_hash": "318bcf0c2bad96e829db463b31c813c7"
+  },
+  "plugins/ssr-width.ts": {
+    "mtime": 1777473623.457689,
+    "ast_hash": "62cc7d418ed0ee40f28bd899ebec9fa8",
+    "semantic_hash": "62cc7d418ed0ee40f28bd899ebec9fa8"
+  }
+}

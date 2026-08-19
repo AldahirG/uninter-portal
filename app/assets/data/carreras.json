@@ -108,7 +108,84 @@
     ],
     "imageHorizontal": "Comunicación h.webp",
     "imageVertical": "Comunicación v.webp",
-    "objetivo": "Fórmate como un experto en transmedia, creación de contenido, relaciones públicas y periodismo digital. Prepárate para diseñar estrategias en un ecosistema mediático que evoluciona cada segundo."
+    "objetivo": "Fórmate como un experto en transmedia, creación de contenido, relaciones públicas y periodismo digital. Prepárate para diseñar estrategias en un ecosistema mediático que evoluciona cada segundo.",
+    "hero_section": {
+      "headline": "Tu voz tiene el poder de mover al mundo. Haz que te escuchen.",
+      "subheadline": "Conecta. Crea. Lidera el mundo digital[cite: 1]. Prepárate para diseñar estrategias virales en un ecosistema mediático que evoluciona cada segundo[cite: 1].",
+      "tag_marketing": "La carrera para los creadores del mañana."
+    },
+    "el_desafio": "¿No te conformas con consumir contenido, sino que quieres crearlo, dirigirlo y monetizarlo? Si te apasionan las plataformas digitales y producir mensajes que impacten a la sociedad[cite: 1], este es tu escenario. Deja de ser espectador y conviértete en el estratega.",
+    "vision_de_exito": "Imagina dirigir campañas globales. Serás un estratega capaz de producir contenido audiovisual multiplataforma y gestionar la imagen pública de las marcas más influyentes del mundo[cite: 1].",
+    "arsenal_tecnologico": [
+      {
+        "title": "Cabina de Radio Profesional[cite: 1]",
+        "marketing_pitch": "Domina el streaming y broadcasting antes de graduarte.",
+        "features": [
+          "Opera consolas de audio digital de última generación[cite: 1].",
+          "Graba con microfonía Shure Pro estándar de la industria[cite: 1].",
+          "Domina el software de automatización real[cite: 1]."
+        ],
+        "icon": "🎙️"
+      },
+      {
+        "title": "Estudio de Televisión 4K[cite: 1]",
+        "marketing_pitch": "Crea producciones cinematográficas en tu propio campus.",
+        "features": [
+          "Dirige con cámaras profesionales 4K y switchers Blackmagic[cite: 1].",
+          "Crea magia visual en nuestro set con ciclorama verde (Chroma Key)[cite: 1].",
+          "Diseña ambientes con iluminación LED y DMX[cite: 1]."
+        ],
+        "icon": "📺"
+      },
+      {
+        "title": "Isla de Edición Mac[cite: 1]",
+        "marketing_pitch": "Postproducción a la velocidad de tu creatividad.",
+        "features": [
+          "Edita en estaciones Apple iMac de alto rendimiento[cite: 1].",
+          "Domina Adobe Creative Cloud y DaVinci Resolve Studio[cite: 1]."
+        ],
+        "icon": "🎬"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Publicidad y Animación[cite: 1]",
+        "benefit": "Especialízate en narrativas de vanguardia para medios digitales y eleva tu cotización en el mercado[cite: 1].",
+        "top_jobs": [
+          "Director de Arte y Creativo[cite: 1]",
+          "Productor de Contenido Audiovisual[cite: 1]"
+        ]
+      },
+      {
+        "title": "Certificación en Mercadotecnia Estratégica[cite: 1]",
+        "benefit": "Aprende a posicionar marcas globales y domina el branding estratégico[cite: 1].",
+        "top_jobs": [
+          "Brand Manager[cite: 1]",
+          "Estratega de Medios y Campañas[cite: 1]"
+        ]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "El ecosistema mediático no te va a esperar. Da el primer paso hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "relaciones-internacionales": {
     "id": "LRI",
@@ -205,7 +282,69 @@
     ],
     "imageHorizontal": "relaciones h.webp",
     "imageVertical": "relaciones v.webp",
-    "objetivo": "Conviértete en un líder global capaz de entender, negociar y resolver conflictos en el escenario político y comercial internacional. El mundo necesita estrategas sin límites."
+    "objetivo": "Conviértete en un líder global capaz de entender, negociar y resolver conflictos en el escenario político y comercial internacional. El mundo necesita estrategas sin límites.",
+    "hero_section": {
+      "headline": "Tienes el poder de impactar a la sociedad desde Relaciones Internacionales. Hazte escuchar.",
+      "subheadline": "Analiza. Interviene. Lidera el cambio humano. Prepárate para gestionar talento y transformar instituciones a nivel global.",
+      "tag_marketing": "La carrera para los agentes de cambio."
+    },
+    "el_desafio": "¿No te conformas con observar la realidad, sino que deseas cambiarla de raíz? Si te apasiona el análisis social, humano o jurídico para resolver conflictos estructurales, este es tu escenario. Deja de cuestionar y empieza a transformar.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Relaciones Internacionales capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Análisis Jurídico y Psicológico",
+        "marketing_pitch": "Desarrolla tu expertise con casos 100% reales.",
+        "features": [
+          "Cámara de Gesell para prácticas forenses/psicológicas.",
+          "Sala de juicios orales de primer nivel.",
+          "Software especializado de análisis de datos cualitativos."
+        ],
+        "icon": "⚖️"
+      },
+      {
+        "title": "Plataforma de Simulación y Relaciones Internacionales",
+        "marketing_pitch": "Negocia tratados y resuelve crisis en tiempo real.",
+        "features": [
+          "Sala de geopolítica y debates modelo ONU.",
+          "Software de análisis estadístico poblacional.",
+          "Simulación diplomática y de cabildeo."
+        ],
+        "icon": "🌍"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Intervención y Resolución de Conflictos",
+        "benefit": "Aplica estrategias de mediación de alto nivel para organismos internacionales.",
+        "top_jobs": ["Analista Estratégico", "Consultor Gubernamental"]
+      },
+      {
+        "title": "Certificación en Gestión de Talento Humano",
+        "benefit": "Diagnostica y potencia equipos corporativos.",
+        "top_jobs": ["Director de RRHH", "Reclutador Especializado"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Relaciones Internacionales no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "derecho": {
     "id": "LED",
@@ -304,7 +443,69 @@
     ],
     "imageHorizontal": "derrcho h.webp",
     "imageVertical": "derrcho v.webp",
-    "objetivo": "Adquiere el poder de transformar la sociedad mediante la aplicación estratégica de las leyes. Un programa actualizado a las nuevas reformas penales, laborales y corporativas."
+    "objetivo": "Adquiere el poder de transformar la sociedad mediante la aplicación estratégica de las leyes. Un programa actualizado a las nuevas reformas penales, laborales y corporativas.",
+    "hero_section": {
+      "headline": "Tienes el poder de impactar a la sociedad desde Derecho. Hazte escuchar.",
+      "subheadline": "Analiza. Interviene. Lidera el cambio humano. Prepárate para gestionar talento y transformar instituciones a nivel global.",
+      "tag_marketing": "La carrera para los agentes de cambio."
+    },
+    "el_desafio": "¿No te conformas con observar la realidad, sino que deseas cambiarla de raíz? Si te apasiona el análisis social, humano o jurídico para resolver conflictos estructurales, este es tu escenario. Deja de cuestionar y empieza a transformar.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Derecho capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Análisis Jurídico y Psicológico",
+        "marketing_pitch": "Desarrolla tu expertise con casos 100% reales.",
+        "features": [
+          "Cámara de Gesell para prácticas forenses/psicológicas.",
+          "Sala de juicios orales de primer nivel.",
+          "Software especializado de análisis de datos cualitativos."
+        ],
+        "icon": "⚖️"
+      },
+      {
+        "title": "Plataforma de Simulación y Relaciones Internacionales",
+        "marketing_pitch": "Negocia tratados y resuelve crisis en tiempo real.",
+        "features": [
+          "Sala de geopolítica y debates modelo ONU.",
+          "Software de análisis estadístico poblacional.",
+          "Simulación diplomática y de cabildeo."
+        ],
+        "icon": "🌍"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Intervención y Resolución de Conflictos",
+        "benefit": "Aplica estrategias de mediación de alto nivel para organismos internacionales.",
+        "top_jobs": ["Analista Estratégico", "Consultor Gubernamental"]
+      },
+      {
+        "title": "Certificación en Gestión de Talento Humano",
+        "benefit": "Diagnostica y potencia equipos corporativos.",
+        "top_jobs": ["Director de RRHH", "Reclutador Especializado"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Derecho no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "arquitectura": {
     "id": "ARQ",
@@ -428,7 +629,69 @@
     ],
     "imageHorizontal": "arquitectura h.webp",
     "imageVertical": "arquitectura v.webp",
-    "objetivo": "Aprende a fusionar estética, funcionalidad y tecnología sustentable para crear espacios que mejoren la calidad de vida. Tu imaginación es el único límite estructural."
+    "objetivo": "Aprende a fusionar estética, funcionalidad y tecnología sustentable para crear espacios que mejoren la calidad de vida. Tu imaginación es el único límite estructural.",
+    "hero_section": {
+      "headline": "El mundo necesita innovadores en Arquitectura. Haz que tus ideas construyan el futuro.",
+      "subheadline": "Diseña. Optimiza. Lidera el avance tecnológico. Prepárate para desarrollar soluciones en una industria que evoluciona cada segundo.",
+      "tag_marketing": "La carrera para los creadores del mañana."
+    },
+    "el_desafio": "¿No te conformas con consumir tecnología, sino que quieres diseñarla, optimizarla y patentarla? Si te apasiona la innovación aplicada y resolver los retos de ingeniería más complejos, este es tu escenario. Deja de ser espectador y conviértete en el arquitecto del futuro.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Arquitectura capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Manufactura y Robótica Avanzada",
+        "marketing_pitch": "Diseña con hardware de nivel industrial antes de graduarte.",
+        "features": [
+          "Opera simuladores 3D industriales.",
+          "Trabaja con brazos robóticos y automatización.",
+          "Domina software de diseño CAD/CAM."
+        ],
+        "icon": "⚙️"
+      },
+      {
+        "title": "Laboratorio de Cómputo de Alto Rendimiento",
+        "marketing_pitch": "Procesa algoritmos a la velocidad de la industria.",
+        "features": [
+          "Programa en terminales de alta capacidad.",
+          "Implementa redes empresariales Cisco.",
+          "Desarrolla IA y ciencia de datos."
+        ],
+        "icon": "💻"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Gestión de Proyectos Ágiles (Scrum)",
+        "benefit": "Lidera equipos de ingeniería bajo metodologías de Silicon Valley.",
+        "top_jobs": ["Project Manager", "Líder Técnico"]
+      },
+      {
+        "title": "Certificación en Normativas Internacionales de Calidad",
+        "benefit": "Garantiza estándares globales en cualquier proceso industrial.",
+        "top_jobs": ["Director de Calidad", "Consultor Industrial"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Arquitectura no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "diseno-grafico": {
     "id": "LDG",
@@ -526,7 +789,69 @@
     ],
     "imageHorizontal": "gráfico h.webp",
     "imageVertical": "gráfico v.webp",
-    "objetivo": "Domina la comunicación visual, desde el branding y diseño UI/UX hasta la animación. Transforma conceptos complejos en experiencias visuales memorables y persuasivas."
+    "objetivo": "Domina la comunicación visual, desde el branding y diseño UI/UX hasta la animación. Transforma conceptos complejos en experiencias visuales memorables y persuasivas.",
+    "hero_section": {
+      "headline": "Tu visión tiene el poder de transformar el entorno. Da vida a Diseño Gráfico.",
+      "subheadline": "Proyecta. Crea. Lidera la vanguardia creativa. Prepárate para diseñar experiencias únicas en un mundo altamente competitivo.",
+      "tag_marketing": "La carrera para las mentes creativas."
+    },
+    "el_desafio": "¿No te conformas con observar tendencias, sino que quieres dictarlas? Si te apasiona el diseño funcional, la estética y solucionar problemas a través de propuestas gráficas o industriales, este es tu momento. Pasa de la idea al producto estrella.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Diseño Gráfico capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Isla de Renderizado y Postproducción Mac",
+        "marketing_pitch": "Renderiza proyectos complejos a la velocidad de tu creatividad.",
+        "features": [
+          "Estaciones de trabajo Apple de última generación.",
+          "Domina toda la suite Adobe Creative Cloud.",
+          "Imprime en 3D tus prototipos físicos."
+        ],
+        "icon": "🎨"
+      },
+      {
+        "title": "Taller de Modelado de Alta Precisión",
+        "marketing_pitch": "Materializa lo imposible en nuestro taller equipado.",
+        "features": [
+          "Corte láser y prototipado rápido.",
+          "Mesas de dibujo profesional e iluminación óptima.",
+          "Uso de materiales industriales reales."
+        ],
+        "icon": "🏗️"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Metodologías de Design Thinking",
+        "benefit": "Resuelve problemas complejos de usuarios mediante innovación iterativa.",
+        "top_jobs": ["Director Creativo", "Lead UX/UI"]
+      },
+      {
+        "title": "Certificación en Visualización Arquitectónica y 3D",
+        "benefit": "Vende proyectos de millones mediante hiperrealismo.",
+        "top_jobs": ["Artista 3D Senior", "Project Designer"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Diseño Gráfico no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "mecatronica": {
     "id": "IME",
@@ -692,7 +1017,69 @@
     ],
     "imageHorizontal": "mecatronica h.webp",
     "imageVertical": "mecatronica v.webp",
-    "objetivo": "Formar ingenieros altamente capacitados para el diseño, integración y automatización de sistemas y productos mecatrónicos. A través de sólidos conocimientos científicos y tecnológicos, el programa busca que los egresados sean capaces de implementar soluciones de control, optimizar procesos productivos y liderar la innovación en áreas de robótica, manufactura y mantenimiento industrial."
+    "objetivo": "Formar ingenieros altamente capacitados para el diseño, integración y automatización de sistemas y productos mecatrónicos. A través de sólidos conocimientos científicos y tecnológicos, el programa busca que los egresados sean capaces de implementar soluciones de control, optimizar procesos productivos y liderar la innovación en áreas de robótica, manufactura y mantenimiento industrial.",
+    "hero_section": {
+      "headline": "Tienes el poder de impactar a la sociedad desde Mecatrónica. Hazte escuchar.",
+      "subheadline": "Analiza. Interviene. Lidera el cambio humano. Prepárate para gestionar talento y transformar instituciones a nivel global.",
+      "tag_marketing": "La carrera para los agentes de cambio."
+    },
+    "el_desafio": "¿No te conformas con observar la realidad, sino que deseas cambiarla de raíz? Si te apasiona el análisis social, humano o jurídico para resolver conflictos estructurales, este es tu escenario. Deja de cuestionar y empieza a transformar.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Mecatrónica capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Análisis Jurídico y Psicológico",
+        "marketing_pitch": "Desarrolla tu expertise con casos 100% reales.",
+        "features": [
+          "Cámara de Gesell para prácticas forenses/psicológicas.",
+          "Sala de juicios orales de primer nivel.",
+          "Software especializado de análisis de datos cualitativos."
+        ],
+        "icon": "⚖️"
+      },
+      {
+        "title": "Plataforma de Simulación y Relaciones Internacionales",
+        "marketing_pitch": "Negocia tratados y resuelve crisis en tiempo real.",
+        "features": [
+          "Sala de geopolítica y debates modelo ONU.",
+          "Software de análisis estadístico poblacional.",
+          "Simulación diplomática y de cabildeo."
+        ],
+        "icon": "🌍"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Intervención y Resolución de Conflictos",
+        "benefit": "Aplica estrategias de mediación de alto nivel para organismos internacionales.",
+        "top_jobs": ["Analista Estratégico", "Consultor Gubernamental"]
+      },
+      {
+        "title": "Certificación en Gestión de Talento Humano",
+        "benefit": "Diagnostica y potencia equipos corporativos.",
+        "top_jobs": ["Director de RRHH", "Reclutador Especializado"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Mecatrónica no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "sistemas-computacionales": {
     "id": "ISC",
@@ -879,7 +1266,69 @@
     ],
     "imageHorizontal": "sistemas h.webp",
     "imageVertical": "sistemas v.webp",
-    "objetivo": "Formar especialistas tecnológicos con visión innovadora, capaces de diseñar, implementar y gestionar soluciones integrales de software, redes y bases de datos. El programa está enfocado en desarrollar el análisis lógico y las habilidades de programación necesarias para resolver problemas complejos, garantizando siempre la seguridad, eficiencia y escalabilidad de los sistemas computacionales en un entorno dinámico."
+    "objetivo": "Formar especialistas tecnológicos con visión innovadora, capaces de diseñar, implementar y gestionar soluciones integrales de software, redes y bases de datos. El programa está enfocado en desarrollar el análisis lógico y las habilidades de programación necesarias para resolver problemas complejos, garantizando siempre la seguridad, eficiencia y escalabilidad de los sistemas computacionales en un entorno dinámico.",
+    "hero_section": {
+      "headline": "El mundo necesita innovadores en Sistemas Computacionales. Haz que tus ideas construyan el futuro.",
+      "subheadline": "Diseña. Optimiza. Lidera el avance tecnológico. Prepárate para desarrollar soluciones en una industria que evoluciona cada segundo.",
+      "tag_marketing": "La carrera para los creadores del mañana."
+    },
+    "el_desafio": "¿No te conformas con consumir tecnología, sino que quieres diseñarla, optimizarla y patentarla? Si te apasiona la innovación aplicada y resolver los retos de ingeniería más complejos, este es tu escenario. Deja de ser espectador y conviértete en el arquitecto del futuro.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Sistemas Computacionales capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Manufactura y Robótica Avanzada",
+        "marketing_pitch": "Diseña con hardware de nivel industrial antes de graduarte.",
+        "features": [
+          "Opera simuladores 3D industriales.",
+          "Trabaja con brazos robóticos y automatización.",
+          "Domina software de diseño CAD/CAM."
+        ],
+        "icon": "⚙️"
+      },
+      {
+        "title": "Laboratorio de Cómputo de Alto Rendimiento",
+        "marketing_pitch": "Procesa algoritmos a la velocidad de la industria.",
+        "features": [
+          "Programa en terminales de alta capacidad.",
+          "Implementa redes empresariales Cisco.",
+          "Desarrolla IA y ciencia de datos."
+        ],
+        "icon": "💻"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Gestión de Proyectos Ágiles (Scrum)",
+        "benefit": "Lidera equipos de ingeniería bajo metodologías de Silicon Valley.",
+        "top_jobs": ["Project Manager", "Líder Técnico"]
+      },
+      {
+        "title": "Certificación en Normativas Internacionales de Calidad",
+        "benefit": "Garantiza estándares globales en cualquier proceso industrial.",
+        "top_jobs": ["Director de Calidad", "Consultor Industrial"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Sistemas Computacionales no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "mercadotecnia": {
     "id": "LME",
@@ -977,7 +1426,69 @@
     ],
     "imageHorizontal": "merca h.webp",
     "imageVertical": "merca v.webp",
-    "objetivo": "Aprende a analizar datos, comprender el comportamiento del consumidor y diseñar estrategias hiper-personalizadas que disparen el crecimiento de cualquier marca en el mundo digital y físico."
+    "objetivo": "Aprende a analizar datos, comprender el comportamiento del consumidor y diseñar estrategias hiper-personalizadas que disparen el crecimiento de cualquier marca en el mundo digital y físico.",
+    "hero_section": {
+      "headline": "El mercado busca líderes visionarios en Mercadotecnia. Conviértete en uno.",
+      "subheadline": "Estrategia. Rentabilidad. Liderazgo global. Prepárate para dirigir corporativos transnacionales y negocios disruptivos.",
+      "tag_marketing": "La carrera para los líderes del mercado."
+    },
+    "el_desafio": "¿No te conformas con ser empleado, sino que quieres dirigir la compañía? Si te apasionan los negocios, los mercados internacionales y multiplicar la rentabilidad de una empresa, este es tu terreno. Deja las bases y conviértete en el estratega.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Mercadotecnia capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Simuladores de Negocios e Inversión",
+        "marketing_pitch": "Domina la bolsa y los mercados desde el campus.",
+        "features": [
+          "Simuladores bursátiles y financieros en tiempo real.",
+          "Software ERP/CRM estándar de las Fortune 500.",
+          "Salas de junta directiva para pitches reales."
+        ],
+        "icon": "📈"
+      },
+      {
+        "title": "Agencia de Inteligencia de Mercado In-House",
+        "marketing_pitch": "Lanza campañas y productos reales con clientes reales.",
+        "features": [
+          "Herramientas de big data y analítica web.",
+          "Laboratorio de neuromarketing (Eye-tracking).",
+          "Diseño de estrategias de precios."
+        ],
+        "icon": "💼"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Analítica de Negocios (Data Driven)",
+        "benefit": "Toma decisiones corporativas basadas en minería de datos.",
+        "top_jobs": ["Business Intelligence Analyst", "Director de Operaciones"]
+      },
+      {
+        "title": "Certificación en Liderazgo Directivo Internacional",
+        "benefit": "Posiciona tu perfil para C-Level en corporaciones globales.",
+        "top_jobs": ["CEO / Director General", "Gerente Regional"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Mercadotecnia no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "administracion-de-empresas": {
     "id": "LAE",
@@ -1160,7 +1671,69 @@
         "a": "Su enfoque internacional, la posibilidad de doble titulación (obtenida en el extranjero), la formación en liderazgo, el dominio de un segundo idioma, la movilidad académica y las certificaciones institucionales de calidad."
       }
     ],
-    "objetivo": "Formar profesionales y líderes con visión estratégica, ética y global, capaces de gestionar e incrementar la productividad de cualquier organización. A través del dominio de técnicas administrativas, planeación eficiente de recursos y desarrollo del capital humano, el programa busca que los egresados sean capaces de anticipar soluciones, innovar procesos y emprender negocios exitosos que respondan a las exigencias dinámicas del mercado actual."
+    "objetivo": "Formar profesionales y líderes con visión estratégica, ética y global, capaces de gestionar e incrementar la productividad de cualquier organización. A través del dominio de técnicas administrativas, planeación eficiente de recursos y desarrollo del capital humano, el programa busca que los egresados sean capaces de anticipar soluciones, innovar procesos y emprender negocios exitosos que respondan a las exigencias dinámicas del mercado actual.",
+    "hero_section": {
+      "headline": "Tienes el poder de impactar a la sociedad desde Administración de Empresas. Hazte escuchar.",
+      "subheadline": "Analiza. Interviene. Lidera el cambio humano. Prepárate para gestionar talento y transformar instituciones a nivel global.",
+      "tag_marketing": "La carrera para los agentes de cambio."
+    },
+    "el_desafio": "¿No te conformas con observar la realidad, sino que deseas cambiarla de raíz? Si te apasiona el análisis social, humano o jurídico para resolver conflictos estructurales, este es tu escenario. Deja de cuestionar y empieza a transformar.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Administración de Empresas capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Análisis Jurídico y Psicológico",
+        "marketing_pitch": "Desarrolla tu expertise con casos 100% reales.",
+        "features": [
+          "Cámara de Gesell para prácticas forenses/psicológicas.",
+          "Sala de juicios orales de primer nivel.",
+          "Software especializado de análisis de datos cualitativos."
+        ],
+        "icon": "⚖️"
+      },
+      {
+        "title": "Plataforma de Simulación y Relaciones Internacionales",
+        "marketing_pitch": "Negocia tratados y resuelve crisis en tiempo real.",
+        "features": [
+          "Sala de geopolítica y debates modelo ONU.",
+          "Software de análisis estadístico poblacional.",
+          "Simulación diplomática y de cabildeo."
+        ],
+        "icon": "🌍"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Intervención y Resolución de Conflictos",
+        "benefit": "Aplica estrategias de mediación de alto nivel para organismos internacionales.",
+        "top_jobs": ["Analista Estratégico", "Consultor Gubernamental"]
+      },
+      {
+        "title": "Certificación en Gestión de Talento Humano",
+        "benefit": "Diagnostica y potencia equipos corporativos.",
+        "top_jobs": ["Director de RRHH", "Reclutador Especializado"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Administración de Empresas no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "comunicacion-y-relaciones-publicas": {
     "id": "CORP",
@@ -1257,7 +1830,69 @@
     ],
     "imageHorizontal": "comunica h.webp",
     "imageVertical": "comunica v.webp",
-    "objetivo": "Forma tu perfil como estratega de imagen, branding, manejo de crisis y comunicación institucional. Convierte la percepción en el activo más valioso de cualquier organización."
+    "objetivo": "Forma tu perfil como estratega de imagen, branding, manejo de crisis y comunicación institucional. Convierte la percepción en el activo más valioso de cualquier organización.",
+    "hero_section": {
+      "headline": "Tienes el poder de impactar a la sociedad desde Comunicación y Relaciones Públicas. Hazte escuchar.",
+      "subheadline": "Analiza. Interviene. Lidera el cambio humano. Prepárate para gestionar talento y transformar instituciones a nivel global.",
+      "tag_marketing": "La carrera para los agentes de cambio."
+    },
+    "el_desafio": "¿No te conformas con observar la realidad, sino que deseas cambiarla de raíz? Si te apasiona el análisis social, humano o jurídico para resolver conflictos estructurales, este es tu escenario. Deja de cuestionar y empieza a transformar.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Comunicación y Relaciones Públicas capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Análisis Jurídico y Psicológico",
+        "marketing_pitch": "Desarrolla tu expertise con casos 100% reales.",
+        "features": [
+          "Cámara de Gesell para prácticas forenses/psicológicas.",
+          "Sala de juicios orales de primer nivel.",
+          "Software especializado de análisis de datos cualitativos."
+        ],
+        "icon": "⚖️"
+      },
+      {
+        "title": "Plataforma de Simulación y Relaciones Internacionales",
+        "marketing_pitch": "Negocia tratados y resuelve crisis en tiempo real.",
+        "features": [
+          "Sala de geopolítica y debates modelo ONU.",
+          "Software de análisis estadístico poblacional.",
+          "Simulación diplomática y de cabildeo."
+        ],
+        "icon": "🌍"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Intervención y Resolución de Conflictos",
+        "benefit": "Aplica estrategias de mediación de alto nivel para organismos internacionales.",
+        "top_jobs": ["Analista Estratégico", "Consultor Gubernamental"]
+      },
+      {
+        "title": "Certificación en Gestión de Talento Humano",
+        "benefit": "Diagnostica y potencia equipos corporativos.",
+        "top_jobs": ["Director de RRHH", "Reclutador Especializado"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Comunicación y Relaciones Públicas no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "relaciones-internacionales-y-ciencias-politicas": {
     "id": "RICP",
@@ -1353,7 +1988,69 @@
     ],
     "imageHorizontal": "relaciones h.webp",
     "imageVertical": "relaciones v.webp",
-    "objetivo": "Combina el análisis político nacional con la diplomacia internacional. Prepárate para diseñar políticas públicas y liderar negociaciones en un mundo globalizado."
+    "objetivo": "Combina el análisis político nacional con la diplomacia internacional. Prepárate para diseñar políticas públicas y liderar negociaciones en un mundo globalizado.",
+    "hero_section": {
+      "headline": "Tienes el poder de impactar a la sociedad desde Relaciones Internacionales y Ciencias Políticas. Hazte escuchar.",
+      "subheadline": "Analiza. Interviene. Lidera el cambio humano. Prepárate para gestionar talento y transformar instituciones a nivel global.",
+      "tag_marketing": "La carrera para los agentes de cambio."
+    },
+    "el_desafio": "¿No te conformas con observar la realidad, sino que deseas cambiarla de raíz? Si te apasiona el análisis social, humano o jurídico para resolver conflictos estructurales, este es tu escenario. Deja de cuestionar y empieza a transformar.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Relaciones Internacionales y Ciencias Políticas capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Análisis Jurídico y Psicológico",
+        "marketing_pitch": "Desarrolla tu expertise con casos 100% reales.",
+        "features": [
+          "Cámara de Gesell para prácticas forenses/psicológicas.",
+          "Sala de juicios orales de primer nivel.",
+          "Software especializado de análisis de datos cualitativos."
+        ],
+        "icon": "⚖️"
+      },
+      {
+        "title": "Plataforma de Simulación y Relaciones Internacionales",
+        "marketing_pitch": "Negocia tratados y resuelve crisis en tiempo real.",
+        "features": [
+          "Sala de geopolítica y debates modelo ONU.",
+          "Software de análisis estadístico poblacional.",
+          "Simulación diplomática y de cabildeo."
+        ],
+        "icon": "🌍"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Intervención y Resolución de Conflictos",
+        "benefit": "Aplica estrategias de mediación de alto nivel para organismos internacionales.",
+        "top_jobs": ["Analista Estratégico", "Consultor Gubernamental"]
+      },
+      {
+        "title": "Certificación en Gestión de Talento Humano",
+        "benefit": "Diagnostica y potencia equipos corporativos.",
+        "top_jobs": ["Director de RRHH", "Reclutador Especializado"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Relaciones Internacionales y Ciencias Políticas no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "relaciones-internacionales-y-economia": {
     "id": "RIEC",
@@ -1447,7 +2144,69 @@
     ],
     "imageHorizontal": "relaciones h.webp",
     "imageVertical": "relaciones v.webp",
-    "objetivo": "Conecta la política exterior con las fuerzas financieras del mercado internacional. Conviértete en un experto en tratados comerciales, finanzas y desarrollo global."
+    "objetivo": "Conecta la política exterior con las fuerzas financieras del mercado internacional. Conviértete en un experto en tratados comerciales, finanzas y desarrollo global.",
+    "hero_section": {
+      "headline": "Tienes el poder de impactar a la sociedad desde Relaciones Internacionales y Economía. Hazte escuchar.",
+      "subheadline": "Analiza. Interviene. Lidera el cambio humano. Prepárate para gestionar talento y transformar instituciones a nivel global.",
+      "tag_marketing": "La carrera para los agentes de cambio."
+    },
+    "el_desafio": "¿No te conformas con observar la realidad, sino que deseas cambiarla de raíz? Si te apasiona el análisis social, humano o jurídico para resolver conflictos estructurales, este es tu escenario. Deja de cuestionar y empieza a transformar.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Relaciones Internacionales y Economía capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Análisis Jurídico y Psicológico",
+        "marketing_pitch": "Desarrolla tu expertise con casos 100% reales.",
+        "features": [
+          "Cámara de Gesell para prácticas forenses/psicológicas.",
+          "Sala de juicios orales de primer nivel.",
+          "Software especializado de análisis de datos cualitativos."
+        ],
+        "icon": "⚖️"
+      },
+      {
+        "title": "Plataforma de Simulación y Relaciones Internacionales",
+        "marketing_pitch": "Negocia tratados y resuelve crisis en tiempo real.",
+        "features": [
+          "Sala de geopolítica y debates modelo ONU.",
+          "Software de análisis estadístico poblacional.",
+          "Simulación diplomática y de cabildeo."
+        ],
+        "icon": "🌍"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Intervención y Resolución de Conflictos",
+        "benefit": "Aplica estrategias de mediación de alto nivel para organismos internacionales.",
+        "top_jobs": ["Analista Estratégico", "Consultor Gubernamental"]
+      },
+      {
+        "title": "Certificación en Gestión de Talento Humano",
+        "benefit": "Diagnostica y potencia equipos corporativos.",
+        "top_jobs": ["Director de RRHH", "Reclutador Especializado"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Relaciones Internacionales y Economía no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "ciencias-politicas-y-gestion-publica": {
     "id": "LCP",
@@ -1541,7 +2300,69 @@
     ],
     "imageHorizontal": "politicas h.webp",
     "imageVertical": "politicas v.webp",
-    "objetivo": "Prepárate para dirigir y reformar instituciones del Estado, planificar el presupuesto público y diseñar soluciones a los problemas sociales más apremiantes."
+    "objetivo": "Prepárate para dirigir y reformar instituciones del Estado, planificar el presupuesto público y diseñar soluciones a los problemas sociales más apremiantes.",
+    "hero_section": {
+      "headline": "Tienes el poder de impactar a la sociedad desde Ciencias Políticas y Gestión Pública. Hazte escuchar.",
+      "subheadline": "Analiza. Interviene. Lidera el cambio humano. Prepárate para gestionar talento y transformar instituciones a nivel global.",
+      "tag_marketing": "La carrera para los agentes de cambio."
+    },
+    "el_desafio": "¿No te conformas con observar la realidad, sino que deseas cambiarla de raíz? Si te apasiona el análisis social, humano o jurídico para resolver conflictos estructurales, este es tu escenario. Deja de cuestionar y empieza a transformar.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Ciencias Políticas y Gestión Pública capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Análisis Jurídico y Psicológico",
+        "marketing_pitch": "Desarrolla tu expertise con casos 100% reales.",
+        "features": [
+          "Cámara de Gesell para prácticas forenses/psicológicas.",
+          "Sala de juicios orales de primer nivel.",
+          "Software especializado de análisis de datos cualitativos."
+        ],
+        "icon": "⚖️"
+      },
+      {
+        "title": "Plataforma de Simulación y Relaciones Internacionales",
+        "marketing_pitch": "Negocia tratados y resuelve crisis en tiempo real.",
+        "features": [
+          "Sala de geopolítica y debates modelo ONU.",
+          "Software de análisis estadístico poblacional.",
+          "Simulación diplomática y de cabildeo."
+        ],
+        "icon": "🌍"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Intervención y Resolución de Conflictos",
+        "benefit": "Aplica estrategias de mediación de alto nivel para organismos internacionales.",
+        "top_jobs": ["Analista Estratégico", "Consultor Gubernamental"]
+      },
+      {
+        "title": "Certificación en Gestión de Talento Humano",
+        "benefit": "Diagnostica y potencia equipos corporativos.",
+        "top_jobs": ["Director de RRHH", "Reclutador Especializado"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Ciencias Políticas y Gestión Pública no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "idiomas": {
     "id": "LID",
@@ -1635,7 +2456,69 @@
     ],
     "imageHorizontal": "idiomas h.webp",
     "imageVertical": "idiomas v.webp",
-    "objetivo": "Domina el inglés, francés y otras lenguas desde una perspectiva profesional. Especialízate en traducción, interpretación, docencia y comunicación multicultural de negocios."
+    "objetivo": "Domina el inglés, francés y otras lenguas desde una perspectiva profesional. Especialízate en traducción, interpretación, docencia y comunicación multicultural de negocios.",
+    "hero_section": {
+      "headline": "Tienes el poder de impactar a la sociedad desde Idiomas. Hazte escuchar.",
+      "subheadline": "Analiza. Interviene. Lidera el cambio humano. Prepárate para gestionar talento y transformar instituciones a nivel global.",
+      "tag_marketing": "La carrera para los agentes de cambio."
+    },
+    "el_desafio": "¿No te conformas con observar la realidad, sino que deseas cambiarla de raíz? Si te apasiona el análisis social, humano o jurídico para resolver conflictos estructurales, este es tu escenario. Deja de cuestionar y empieza a transformar.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Idiomas capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Análisis Jurídico y Psicológico",
+        "marketing_pitch": "Desarrolla tu expertise con casos 100% reales.",
+        "features": [
+          "Cámara de Gesell para prácticas forenses/psicológicas.",
+          "Sala de juicios orales de primer nivel.",
+          "Software especializado de análisis de datos cualitativos."
+        ],
+        "icon": "⚖️"
+      },
+      {
+        "title": "Plataforma de Simulación y Relaciones Internacionales",
+        "marketing_pitch": "Negocia tratados y resuelve crisis en tiempo real.",
+        "features": [
+          "Sala de geopolítica y debates modelo ONU.",
+          "Software de análisis estadístico poblacional.",
+          "Simulación diplomática y de cabildeo."
+        ],
+        "icon": "🌍"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Intervención y Resolución de Conflictos",
+        "benefit": "Aplica estrategias de mediación de alto nivel para organismos internacionales.",
+        "top_jobs": ["Analista Estratégico", "Consultor Gubernamental"]
+      },
+      {
+        "title": "Certificación en Gestión de Talento Humano",
+        "benefit": "Diagnostica y potencia equipos corporativos.",
+        "top_jobs": ["Director de RRHH", "Reclutador Especializado"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Idiomas no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "pedagogia": {
     "id": "LPE",
@@ -1729,411 +2612,69 @@
     ],
     "imageHorizontal": "pedagogía h.webp",
     "imageVertical": "pedagogía v.webp",
-    "objetivo": "Aprende a diseñar estrategias educativas innovadoras, planes de estudio en la era digital y consultorías de desarrollo humano en empresas y escuelas."
-  },
-  "psicologia": {
-    "id": "LPS",
-    "name": "Psicología",
-    "slug": "psicologia",
-    "tagline": "Comprende la mente. Sana y fortalece la vida humana.",
-    "description": "Fórmate en las áreas clínica, organizacional y educativa. Desarrolla las competencias de terapia, evaluación psicométrica y consultoría organizacional.",
-    "ingreso": "Apto para personas empáticas, con capacidad de escucha activa, ética, inteligencia emocional y gusto por comprender la mente humana.",
-    "egreso": "Terapeuta clínico independiente, director de recursos humanos en empresas globales, o psicólogo educativo en instituciones formativas.",
-    "experienciaPractica": [
+    "objetivo": "Aprende a diseñar estrategias educativas innovadoras, planes de estudio en la era digital y consultorías de desarrollo humano en empresas y escuelas.",
+    "hero_section": {
+      "headline": "Tienes el poder de impactar a la sociedad desde Pedagogía. Hazte escuchar.",
+      "subheadline": "Analiza. Interviene. Lidera el cambio humano. Prepárate para gestionar talento y transformar instituciones a nivel global.",
+      "tag_marketing": "La carrera para los agentes de cambio."
+    },
+    "el_desafio": "¿No te conformas con observar la realidad, sino que deseas cambiarla de raíz? Si te apasiona el análisis social, humano o jurídico para resolver conflictos estructurales, este es tu escenario. Deja de cuestionar y empieza a transformar.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Pedagogía capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
       {
-        "title": "Cámara Gesell UNINTER",
-        "desc": "Practica técnicas de entrevista clínica, terapia familiar, dinámicas grupales y focus groups de mercadotecnia en un set profesional de observación bidireccional.",
-        "icon": "👁️",
-        "tag": "Cámara Gesell",
+        "title": "Centro de Análisis Jurídico y Psicológico",
+        "marketing_pitch": "Desarrolla tu expertise con casos 100% reales.",
         "features": [
-          "Espejo de visión unidireccional",
-          "Sistema de audio y video 4K",
-          "Cabina de observación docente"
-        ]
+          "Cámara de Gesell para prácticas forenses/psicológicas.",
+          "Sala de juicios orales de primer nivel.",
+          "Software especializado de análisis de datos cualitativos."
+        ],
+        "icon": "⚖️"
       },
       {
-        "title": "Gabinete de Pruebas Psicométricas",
-        "desc": "Aplica e interpreta baterías completas de pruebas clínicas, proyectivas, de personalidad y de aptitud laboral.",
-        "icon": "📋",
-        "tag": "Psicometría",
+        "title": "Plataforma de Simulación y Relaciones Internacionales",
+        "marketing_pitch": "Negocia tratados y resuelve crisis en tiempo real.",
         "features": [
-          "Batería de test proyectivos (Rorschach)",
-          "Evaluaciones psicométricas laborales",
-          "Software de interpretación de test"
-        ]
-      },
-      {
-        "title": "Clínicas de Atención Comunitaria",
-        "desc": "Brinda asesoría psicológica y primeros auxilios emocionales supervisados a personas que lo requieran.",
-        "icon": "🧠",
-        "tag": "Apoyo Clínico",
-        "features": [
-          "Atención clínica real supervisada",
-          "Terapia de apoyo",
-          "Talleres de salud mental"
-        ]
-      },
-      {
-        "title": "Consultoría Organizacional (NOM-035)",
-        "desc": "Interviene en empresas aliadas diagnosticando y mitigando factores de riesgo psicosocial de acuerdo con normativas del trabajo.",
-        "icon": "🏢",
-        "tag": "Psicología Laboral",
-        "features": [
-          "Evaluaciones del clima laboral",
-          "Prevención de riesgos psicosociales",
-          "Consultoría en NOM-035"
-        ]
+          "Sala de geopolítica y debates modelo ONU.",
+          "Software de análisis estadístico poblacional.",
+          "Simulación diplomática y de cabildeo."
+        ],
+        "icon": "🌍"
       }
     ],
-    "certificaciones": [
+    "power_skills": [
       {
-        "title": "Psicología Clínica y Terapia de Apoyo",
-        "desc": "Especialización práctica en modelos psicoterapéuticos, entrevista clínica e intervención psicológica inmediata.",
-        "icon": "🛋️",
-        "badge": "Psicoterapia",
-        "courses": [
-          "Entrevista Psicológica I y II",
-          "Psicopatología General",
-          "Primeros Auxilios Psicológicos",
-          "Modelos de Psicoterapia"
-        ],
-        "jobs": [
-          "Psicólogo Clínico Consultor",
-          "Terapeuta en Centros de Salud",
-          "Especialista en Intervención en Crisis"
-        ]
+        "title": "Certificación en Intervención y Resolución de Conflictos",
+        "benefit": "Aplica estrategias de mediación de alto nivel para organismos internacionales.",
+        "top_jobs": ["Analista Estratégico", "Consultor Gubernamental"]
       },
       {
-        "title": "Psicología Organizacional y Reclutamiento",
-        "desc": "Capacidades avanzadas para evaluar y mejorar el bienestar laboral, desarrollo organizacional y reclutamiento por competencias.",
-        "icon": "📊",
-        "badge": "Desarrollo Humano",
-        "courses": [
-          "Evaluación Psicométrica Laboral",
-          "Clima Organizacional y NOM-035",
-          "Atracción del Talento",
-          "Gestión de Recursos Humanos"
-        ],
-        "jobs": [
-          "Coordinador de Reclutamiento",
-          "Especialista en Desarrollo Organizacional",
-          "Gerente de Capital Humano"
-        ]
+        "title": "Certificación en Gestión de Talento Humano",
+        "benefit": "Diagnostica y potencia equipos corporativos.",
+        "top_jobs": ["Director de RRHH", "Reclutador Especializado"]
       }
     ],
-    "imageHorizontal": "pedagogía h.webp",
-    "imageVertical": "pedagogía v.webp",
-    "objetivo": "Fórmate en las áreas clínica, organizacional y educativa. Desarrolla las competencias de terapia, evaluación psicométrica y consultoría organizacional."
-  },
-  "animacion-y-diseno-digital": {
-    "id": "LADD",
-    "name": "Animación y Diseño Digital",
-    "slug": "animacion-y-diseno-digital",
-    "tagline": "Crea mundos, personajes, historias y experiencias digitales.",
-    "description": "La Licenciatura en Animación y Diseño Digital te brinda las herramientas para transformar tu creatividad en proyectos visuales, audiovisuales e interactivos de alto impacto. Domina la animación 2D y 3D, el modelado, los efectos especiales y el desarrollo de videojuegos. Prepárate para contar historias cautivadoras, diseñar personajes memorables y producir experiencias inmersivas para la industria del entretenimiento, la publicidad y los nuevos medios.",
-    "ingreso": "¿Te apasiona contar historias y crear mundos extraordinarios? Este programa es ideal para mentes creativas con sensibilidad artística y gran interés por la tecnología, los videojuegos y los medios audiovisuales. Buscamos aspirantes con imaginación, habilidad espacial y talento para comunicar ideas de forma visual. Si disfrutas el dibujo, el diseño de personajes y tienes la disposición para trabajar en proyectos multidisciplinarios dominando software especializado, aquí encontrarás el espacio perfecto para potenciar tu creatividad y mantenerte siempre a la vanguardia digital.",
-    "egreso": "Tu visión y habilidades te abrirán las puertas en las industrias creativas más dinámicas, desde estudios de animación y productoras audiovisuales, hasta empresas de cine, televisión y plataformas de streaming. Podrás desarrollarte como líder en la industria de los videojuegos, agencias de diseño, publicidad y áreas especializadas en postproducción y efectos visuales. Además, contarás con la capacidad de innovar en el desarrollo de aplicaciones multimedia, tecnología educativa, o brindar consultoría y servicios de creación artístico-tecnológica de manera independiente.",
-    "perfilEgreso": "Al egresar, serás un profesional capaz de diseñar, desarrollar y producir proyectos visuales, audiovisuales e interactivos de alto impacto para múltiples plataformas. Dominarás la animación 2D y 3D, el modelado de personajes y la construcción de escenarios virtuales utilizando herramientas tecnológicas de última generación. Estarás preparado para fusionar narrativa, imagen y sonido en la creación de videojuegos, efectos especiales y experiencias multimedia, ya sea dirigiendo equipos creativos, innovando en corporativos o emprendiendo tu propio estudio de producción.",
-    "syllabusDescription": "Nuestro plan de estudios conecta arte, tecnología y narrativa. Te capacita de forma 100% práctica en animación 2D/3D, modelado, videojuegos, postproducción e inteligencia artificial aplicada.",
-    "projectsBlogUrl": "https://blogs.uninter.edu.mx/ESCAT/index.php/category/proyectos/",
-    "experienciaPractica": [
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Pedagogía no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
       {
-        "title": "Estudio de Producción y Animación Digital",
-        "desc": "Desarrolla proyectos integrales de animación 2D y 3D desde cero. A través del trabajo multidisciplinario, dominarás la narrativa audiovisual, el diseño de personajes, los efectos especiales y la postproducción digital, utilizando software especializado para crear contenidos multimedia de nivel profesional.",
-        "icon": "🎬",
-        "tag": "ANIMACIÓN Y VFX",
-        "features": []
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
       },
       {
-        "title": "Laboratorio de Videojuegos y Medios Interactivos",
-        "desc": "Aplica tu creatividad y visión tecnológica en la creación de videojuegos y ambientes digitales. Desarrolla competencias avanzadas en modelado, rigging, texturizado e inteligencia artificial aplicada, transformando tus ideas en experiencias interactivas y proyectos de emprendimiento con alcance global.",
-        "icon": "🎮",
-        "tag": "GAME DEVELOPMENT",
-        "features": []
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
       }
-    ],
-    "certificaciones": [
-      {
-        "title": "Animación 3D y Efectos Visuales (VFX)",
-        "desc": "Especialización avanzada en modelado orgánico, animación de personajes, rigging, weighting, shaders y postproducción digital.",
-        "icon": "🎬",
-        "badge": "VFX Artist",
-        "courses": [
-          "Modelado 3D Orgánico",
-          "Animación de Personajes",
-          "Iluminación y Texturizado",
-          "Composición Digital con Nuke"
-        ],
-        "jobs": [
-          "Generalista 3D",
-          "Artista de VFX",
-          "Modelador de Personajes",
-          "Compositor Digital"
-        ]
-      },
-      {
-        "title": "Desarrollo de Videojuegos y VR",
-        "desc": "Domina motores gráficos como Unity y Unreal Engine, diseño de niveles, interactividad e inteligencia artificial aplicada a videojuegos.",
-        "icon": "🎮",
-        "badge": "Game Developer",
-        "courses": [
-          "Diseño de Videojuegos",
-          "Motores Gráficos I (Unity)",
-          "Motores Gráficos II (Unreal)",
-          "Interfaces y UX para Juegos"
-        ],
-        "jobs": [
-          "Diseñador de Niveles",
-          "Programador de Gameplay",
-          "Artista Técnico de Videojuegos",
-          "Desarrollador VR"
-        ]
-      },
-      {
-        "title": "Transformación Digital & Liderazgo 4.0",
-        "desc": "Certificaciones orientadas al desarrollo de competencias tecnológicas, liderazgo, gestión y emprendimiento digital en el ámbito internacional.",
-        "icon": "🚀",
-        "badge": "Liderazgo & Movilidad",
-        "courses": [
-          "Transformación Digital",
-          "Liderazgo 4.0",
-          "Clases Espejo & Proyectos Internacionales"
-        ],
-        "jobs": [
-          "Líder de Proyectos Digitales",
-          "Gestor de Emprendimiento Tecnológico",
-          "Director Creativo Internacional"
-        ]
-      }
-    ],
-    "faq": [
-      {
-        "q": "¿Qué software se utiliza durante la carrera?",
-        "a": "Aprenderás a dominar las herramientas estándar de la industria, incluyendo Autodesk Maya, ZBrush, Substance Painter, Adobe Creative Cloud, Unreal Engine, Unity y Nuke."
-      },
-      {
-        "q": "¿Qué certificaciones adicionales puedo obtener?",
-        "a": "Los estudiantes pueden complementar su perfil con certificados en Transformación Digital, Liderazgo 4.0 y el Diploma Internacional al cumplir con los requisitos académicos."
-      },
-      {
-        "q": "¿Qué oportunidades de internacionalización ofrece la carrera?",
-        "a": "Contamos con movilidad académica nacional e internacional, clases espejo, proyectos colaborativos globales, conferencias y asignaturas impartidas en inglés."
-      },
-      {
-        "q": "¿Cuáles son las líneas de investigación en Animación y Diseño Digital?",
-        "a": "Nuestros proyectos y trabajos de titulación se orientan en: Creación de videojuegos, Diseño de ambientes y entornos, Animación 2D/3D e ilustración digital, Diseño y producción audiovisual, Efectos especiales y Gestión y emprendimiento digital."
-      },
-      {
-        "q": "¿Qué laboratorios especializados tiene el campus?",
-        "a": "El campus cuenta con un Laboratorio de Captura de Movimiento (Mocap) profesional, iMac Design Lab, Render Farm y un Estudio de Grabación de Audio & Foley."
-      }
-    ],
-    "imageHorizontal": "animacion h.webp",
-    "imageVertical": "animacion v.webp",
-    "objetivo": "Formar creadores visuales integrales capaces de fusionar arte, tecnología y narrativa para desarrollar proyectos digitales e interactivos de alto nivel. A través del dominio de herramientas de animación, producción audiovisual, programación y diseño, el programa busca impulsar en los estudiantes la capacidad de generar contenidos innovadores y experiencias multimedia que respondan a las demandas de las industrias creativas, el entretenimiento y la comunicación global, siempre con una sólida visión emprendedora.",
-    "lineasInvestigacion": [
-      "Creación de videojuegos: Desarrollo interactivo, mecánicas y experiencias inmersivas.",
-      "Diseño de ambientes y entornos: Construcción de escenarios virtuales y simulación.",
-      "Animación e ilustración digital: Técnicas especializadas en arte 2D y 3D.",
-      "Diseño y producción audiovisual: Integración estratégica de narrativa, imagen y sonido.",
-      "Efectos especiales: Postproducción y generación de elementos visuales para medios.",
-      "Gestión y emprendimiento digital: Dirección de proyectos, negocios y estudios creativos.",
-      "Producción visual y creativa: Desarrollo integral de contenidos artísticos y tecnológicos."
-    ],
-    "ventajasTransversales": [
-      "Aprenderás a dominar las herramientas digitales más demandadas para ilustración, modelado 3D, animación y efectos especiales.",
-      "Gestionarás producciones completas integrando tecnología, narrativa y arte, desde la idea inicial hasta la postproducción final.",
-      "Diseñarás videojuegos y experiencias interactivas innovadoras aplicando programación, mecánicas de juego e inteligencia artificial avanzada.",
-      "Desarrollarás habilidades de liderazgo para dirigir equipos multidisciplinarios, gestionar estudios creativos o fundar tu propia empresa.",
-      "Aplicarás tu talento estratégico en cine, publicidad, educación, medios de entretenimiento y negocios digitales de vanguardia.",
-      "Impulsarás tu perfil global mediante programas de movilidad académica, dominio de idiomas y un diploma internacional."
     ]
-  },
-  "diseno-industrial": {
-    "id": "LDI",
-    "name": "Diseño Industrial",
-    "slug": "diseno-industrial",
-    "tagline": "Transforma conceptos en objetos. Rediseña lo cotidiano.",
-    "description": "Combina estética, funcionalidad, ergonomía y viabilidad productiva. Diseña productos innovadores, empaques inteligentes y mobiliario sustentable para la industria.",
-    "ingreso": "¿Te apasiona crear, transformar y mejorar los productos de uso cotidiano? Este programa es ideal para mentes innovadoras con una gran capacidad de observación y análisis. Buscamos aspirantes con sensibilidad hacia las necesidades humanas, interés por la tecnología, los materiales y el dibujo. Si disfrutas el trabajo práctico, valoras la sustentabilidad y tienes espíritu emprendedor, aquí encontrarás el espacio perfecto para potenciar tu creatividad trabajando en equipo.",
-    "egreso": "Tu capacidad creativa te abrirá puertas en áreas de innovación, investigación y desarrollo dentro de las industrias manufactureras, automotrices y de transporte. Podrás desempeñarte en empresas de diseño de mobiliario, envases, embalajes y control de calidad. Además, contarás con las competencias necesarias para ejercer como consultor en estudios de diseño, colaborar en instituciones públicas y centros de investigación, o bien, liderar la creación y comercialización de tu propia marca de productos.",
-    "perfilEgreso": "Al egresar, serás un profesional capaz de investigar y resolver las necesidades de los usuarios y la industria mediante el desarrollo de productos innovadores. Dominarás metodologías tecnológicas para diseñar o rediseñar objetos, seleccionando estratégicamente los materiales y procesos de fabricación. Estarás preparado para liderar proyectos multidisciplinarios, crear modelos o prototipos y aplicar criterios de ergonomía y sustentabilidad, ya sea en procesos de producción o impulsando tus propios emprendimientos.",
-    "experienciaPractica": [
-      {
-        "title": "Laboratorio de Modelado y Fabricación",
-        "desc": "Transforma tus ideas en objetos tangibles. A través de la investigación y selección de materiales, desarrollarás modelos y prototipos físicos de productos. Dominarás los procesos de fabricación aplicando estrictos criterios de ergonomía, sustentabilidad y diseño centrado en el usuario para resolver necesidades reales.",
-        "icon": "📐",
-        "tag": "TALLERES Y PROTOTIPADO",
-        "features": []
-      },
-      {
-        "title": "Taller de Proyectos Industriales",
-        "desc": "Crea soluciones innovadoras en áreas de alto impacto como el diseño automotriz, mobiliario, envase, embalaje y equipamiento urbano. Integra herramientas de representación digital, ecodiseño y liderazgo para gestionar proyectos multidisciplinarios, desde su conceptualización inicial hasta su viabilidad productiva y comercial.",
-        "icon": "💡",
-        "tag": "DISEÑO ESPECIALIZADO",
-        "features": []
-      }
-    ],
-    "certificaciones": [
-      {
-        "title": "Diseño de Mobiliario y Espacios",
-        "desc": "Especialízate en la creación de muebles y diseño comercial (exhibidores POP) optimizando materiales como madera y metal.",
-        "icon": "🪑",
-        "badge": "Furniture Design",
-        "courses": [
-          "Diseño de Muebles de Madera",
-          "Muebles Metálicos y Plásticos",
-          "Diseño Comercial y POP",
-          "Costos e Industrialización"
-        ],
-        "jobs": [
-          "Diseñador de Mobiliario",
-          "Diseñador de Interiores Comerciales",
-          "Especialista en Visual Merchandising"
-        ]
-      },
-      {
-        "title": "Modelado CAD/CAM y Diseño de Empaque",
-        "desc": "Domina el diseño paramétrico en SolidWorks y la planeación de envase y embalaje para distribución global.",
-        "icon": "📦",
-        "badge": "CAD/CAM Expert",
-        "courses": [
-          "SolidWorks Asociado (CSWA)",
-          "Diseño de Envase y Embalaje",
-          "Manufactura Asistida por Computadora (CAM)",
-          "Ecodiseño"
-        ],
-        "jobs": [
-          "Especialista en SolidWorks CAD",
-          "Diseñador de Empaque y Envase",
-          "Ingeniero de Desarrollo de Producto"
-        ]
-      }
-    ],
-    "imageHorizontal": "industrial h.webp",
-    "imageVertical": "industrial v.webp",
-    "objetivo": "Combina estética, funcionalidad, ergonomía y viabilidad productiva. Diseña productos innovadores, empaques inteligentes y mobiliario sustentable para la industria.",
-    "lineasInvestigacion": [
-      "Desarrollo de productos con materiales ecológicos.",
-      "Diseño e innovación de productos.",
-      "Investigación aplicada al desarrollo de productos.",
-      "Sustentabilidad.",
-      "Tecnología y producción.",
-      "Diseño orientado a necesidades sociales."
-    ],
-    "ventajasTransversales": [
-      "Aprenderás de forma totalmente práctica en talleres especializados de cerámica, maderas, plásticos, pailería y materiales fibrosos.",
-      "Desarrollarás productos innovadores desde su conceptualización hasta la creación de prototipos usando herramientas manuales y digitales.",
-      "Dominarás los procesos de fabricación y selección de materiales para garantizar la viabilidad productiva de tus diseños.",
-      "Aplicarás tu talento en sectores como diseño automotriz, mobiliario, transporte, embalaje y equipamiento urbano de alto impacto.",
-      "Diseñarás soluciones centradas en el usuario, aplicando siempre estrictos criterios de ergonomía, innovación y sustentabilidad ambiental.",
-      "Desarrollarás habilidades de liderazgo y administración para emprender proyectos multidisciplinarios con una sólida visión nacional e internacional."
-    ]
-  },
-  "diseno-de-modas-y-tendencias-internacionales": {
-    "id": "LDM",
-    "name": "Diseño de Modas y Tendencias Internacionales",
-    "slug": "diseno-de-modas-y-tendencias-internacionales",
-    "tagline": "Convierte tu creatividad en colecciones, marcas y proyectos que marquen tendencia",
-    "description": "La Licenciatura en Diseño de Modas y Tendencias Internacionales te impulsa a transformar tu creatividad en marcas innovadoras y colecciones de alto impacto. Desarrolla tu sensibilidad estética y domina las herramientas estratégicas, digitales y de confección para anticipar el futuro de la industria. Prepárate para brillar en el competitivo mundo de la moda, ya sea dirigiendo tu propia firma, coordinando pasarelas internacionales o liderando proyectos de moda sustentable.",
-    "ingreso": "¿Te apasiona la moda y las industrias creativas? Buscamos mentes con sensibilidad estética, imaginación y visión emprendedora. Si disfrutas el trabajo colaborativo, la investigación de tendencias y la experimentación mediante la ilustración, la confección y el uso de herramientas digitales, este programa es para ti. Transforma tus ideas en proyectos reales, marcas innovadoras y propuestas sustentables.",
-    "perfilEgreso": "Al egresar de UNINTER, dominarás las herramientas estratégicas y creativas para destacar en el competitivo mundo de la moda internacional. Serás capaz de investigar, planear e implementar propuestas que marquen o transformen las tendencias globales, desarrollando siempre diseños funcionales, organizados y de alto impacto.",
-    "egreso": "Serás un diseñador de moda de renombre, director de tu propia firma, coordinador de desfiles, comprador de moda para tiendas departamentales o editor de revistas de moda.",
-    "lineasInvestigacion": [
-      "Tendencias globales, cultura y comportamiento del consumidor.",
-      "Diseño e innovación de indumentaria, colecciones y accesorios.",
-      "Moda sustentable, economía circular y nuevos materiales.",
-      "Tecnología, diseño digital e innovación aplicada a la moda.",
-      "Branding, marketing y posicionamiento de marcas de moda.",
-      "Emprendimiento, producción y gestión de negocios de moda."
-    ],
-    "experienciaPractica": [
-      {
-        "title": "Taller de Confección Profesional",
-        "desc": "Utiliza máquinas de coser industriales (rectas, overlocks y collareteras) en mesas de costura de nivel profesional.",
-        "icon": "🧵",
-        "tag": "Costura Industrial",
-        "features": [
-          "Máquinas de coser rectas y overlocks",
-          "Planchas de vapor industriales",
-          "Maniquíes profesionales de drapeado"
-        ]
-      },
-      {
-        "title": "Taller de Patronaje y Graduación",
-        "desc": "Diseña moldes físicos en papel y digitalízalos para escalar tallas de manera automatizada.",
-        "icon": "📐",
-        "tag": "Patronaje",
-        "features": [
-          "Software Gerber Accumark",
-          "Mesas de trazo a escala real",
-          "Graduación y escalado de tallas"
-        ]
-      },
-      {
-        "title": "Estudio de Estilismo y Fotografía Editorial",
-        "desc": "Produce books de fotos profesionales de tus colecciones en el set fotográfico con iluminación de estudio.",
-        "icon": "📸",
-        "tag": "Fotografía de Moda",
-        "features": [
-          "Set de iluminación profesional",
-          "Cicloramas de colores de estudio",
-          "Cámaras profesionales 4K"
-        ]
-      },
-      {
-        "title": "Pasarela Anual UNINTER-MODA",
-        "desc": "Participa activamente organizando el desfile anual donde vistes modelos reales y presentas tu colección ante medios.",
-        "icon": "✨",
-        "tag": "Show en Vivo",
-        "features": [
-          "Organización de pasarelas",
-          "Contacto con modelos y agencias",
-          "Coordinación de iluminación y música"
-        ]
-      }
-    ],
-    "certificaciones": [
-      {
-        "title": "Alta Costura y Confección Textil",
-        "desc": "Técnicas avanzadas de drapeado, costura a mano, sastrería clásica y acabados finos de alta costura.",
-        "icon": "👗",
-        "badge": "Couture Specialist",
-        "courses": [
-          "Patronaje de Alta Costura",
-          "Drapeado y Modelado sobre Maniquí",
-          "Sastrería e Hilado",
-          "Bordados y Acabados de Lujo"
-        ],
-        "jobs": [
-          "Diseñador de Alta Costura",
-          "Sastre Profesional",
-          "Patronista Senior",
-          "Modista de Novias"
-        ]
-      },
-      {
-        "title": "Mercadotecnia de Moda y Retail",
-        "desc": "Gestión del negocio de la moda, planeación de colecciones para e-commerce, retail y marcas de lujo.",
-        "icon": "👠",
-        "badge": "Fashion Business",
-        "courses": [
-          "Mercadotecnia de Moda",
-          "Estilismo Editorial e Imagen",
-          "Comercio Electrónico Textil",
-          "Retail y Gestión de Lujo"
-        ],
-        "jobs": [
-          "Fashion Buyer / Comprador de Moda",
-          "Brand Manager de Moda",
-          "E-commerce Manager Textil",
-          "Coordinador de Moda"
-        ]
-      }
-    ],
-    "imageHorizontal": "modas h.webp",
-    "imageVertical": "modas v.webp",
-    "objetivo": "Formar profesionales creativos y estratégicos con una visión global, capaces de innovar y liderar en la industria de la moda. A través del dominio del diseño de indumentaria, la investigación del consumidor y la gestión de negocios, el programa busca que los egresados desarrollen propuestas estéticas, funcionales y sustentables, dotándolos de las herramientas necesarias para posicionar marcas, emprender proyectos y transformar las tendencias en el mercado internacional."
   },
   "administracion-de-empresas-turisticas": {
     "id": "LAET",
@@ -2216,7 +2757,69 @@
     ],
     "imageHorizontal": "admin h.webp",
     "imageVertical": "admin v.webp",
-    "objetivo": "Prepárate para dirigir hoteles, cruceros, agencias globales de viajes y proyectos ecoturísticos sustentables en una de las industrias con mayor crecimiento mundial."
+    "objetivo": "Prepárate para dirigir hoteles, cruceros, agencias globales de viajes y proyectos ecoturísticos sustentables en una de las industrias con mayor crecimiento mundial.",
+    "hero_section": {
+      "headline": "Tienes el poder de impactar a la sociedad desde Administración de Empresas Turísticas. Hazte escuchar.",
+      "subheadline": "Analiza. Interviene. Lidera el cambio humano. Prepárate para gestionar talento y transformar instituciones a nivel global.",
+      "tag_marketing": "La carrera para los agentes de cambio."
+    },
+    "el_desafio": "¿No te conformas con observar la realidad, sino que deseas cambiarla de raíz? Si te apasiona el análisis social, humano o jurídico para resolver conflictos estructurales, este es tu escenario. Deja de cuestionar y empieza a transformar.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Administración de Empresas Turísticas capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Análisis Jurídico y Psicológico",
+        "marketing_pitch": "Desarrolla tu expertise con casos 100% reales.",
+        "features": [
+          "Cámara de Gesell para prácticas forenses/psicológicas.",
+          "Sala de juicios orales de primer nivel.",
+          "Software especializado de análisis de datos cualitativos."
+        ],
+        "icon": "⚖️"
+      },
+      {
+        "title": "Plataforma de Simulación y Relaciones Internacionales",
+        "marketing_pitch": "Negocia tratados y resuelve crisis en tiempo real.",
+        "features": [
+          "Sala de geopolítica y debates modelo ONU.",
+          "Software de análisis estadístico poblacional.",
+          "Simulación diplomática y de cabildeo."
+        ],
+        "icon": "🌍"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Intervención y Resolución de Conflictos",
+        "benefit": "Aplica estrategias de mediación de alto nivel para organismos internacionales.",
+        "top_jobs": ["Analista Estratégico", "Consultor Gubernamental"]
+      },
+      {
+        "title": "Certificación en Gestión de Talento Humano",
+        "benefit": "Diagnostica y potencia equipos corporativos.",
+        "top_jobs": ["Director de RRHH", "Reclutador Especializado"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Administración de Empresas Turísticas no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "administracion-de-negocios-internacionales": {
     "id": "LANI",
@@ -2299,7 +2902,69 @@
     ],
     "imageHorizontal": "admin h.webp",
     "imageVertical": "admin v.webp",
-    "objetivo": "Conviértete en un estratega capaz de internacionalizar empresas, negociar convenios multinacionales y gestionar cadenas de suministro globales."
+    "objetivo": "Conviértete en un estratega capaz de internacionalizar empresas, negociar convenios multinacionales y gestionar cadenas de suministro globales.",
+    "hero_section": {
+      "headline": "El mercado busca líderes visionarios en Administración de Negocios Internacionales. Conviértete en uno.",
+      "subheadline": "Estrategia. Rentabilidad. Liderazgo global. Prepárate para dirigir corporativos transnacionales y negocios disruptivos.",
+      "tag_marketing": "La carrera para los líderes del mercado."
+    },
+    "el_desafio": "¿No te conformas con ser empleado, sino que quieres dirigir la compañía? Si te apasionan los negocios, los mercados internacionales y multiplicar la rentabilidad de una empresa, este es tu terreno. Deja las bases y conviértete en el estratega.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Administración de Negocios Internacionales capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Simuladores de Negocios e Inversión",
+        "marketing_pitch": "Domina la bolsa y los mercados desde el campus.",
+        "features": [
+          "Simuladores bursátiles y financieros en tiempo real.",
+          "Software ERP/CRM estándar de las Fortune 500.",
+          "Salas de junta directiva para pitches reales."
+        ],
+        "icon": "📈"
+      },
+      {
+        "title": "Agencia de Inteligencia de Mercado In-House",
+        "marketing_pitch": "Lanza campañas y productos reales con clientes reales.",
+        "features": [
+          "Herramientas de big data y analítica web.",
+          "Laboratorio de neuromarketing (Eye-tracking).",
+          "Diseño de estrategias de precios."
+        ],
+        "icon": "💼"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Analítica de Negocios (Data Driven)",
+        "benefit": "Toma decisiones corporativas basadas en minería de datos.",
+        "top_jobs": ["Business Intelligence Analyst", "Director de Operaciones"]
+      },
+      {
+        "title": "Certificación en Liderazgo Directivo Internacional",
+        "benefit": "Posiciona tu perfil para C-Level en corporaciones globales.",
+        "top_jobs": ["CEO / Director General", "Gerente Regional"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Administración de Negocios Internacionales no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "administracion-y-mercadotecnia": {
     "id": "LAM",
@@ -2382,7 +3047,69 @@
     ],
     "imageHorizontal": "admin h.webp",
     "imageVertical": "admin v.webp",
-    "objetivo": "La combinación perfecta entre la optimización operativa y el posicionamiento de mercado. Aprende a dirigir organizaciones impulsando sus ventas al máximo."
+    "objetivo": "La combinación perfecta entre la optimización operativa y el posicionamiento de mercado. Aprende a dirigir organizaciones impulsando sus ventas al máximo.",
+    "hero_section": {
+      "headline": "El mercado busca líderes visionarios en Administración y Mercadotecnia. Conviértete en uno.",
+      "subheadline": "Estrategia. Rentabilidad. Liderazgo global. Prepárate para dirigir corporativos transnacionales y negocios disruptivos.",
+      "tag_marketing": "La carrera para los líderes del mercado."
+    },
+    "el_desafio": "¿No te conformas con ser empleado, sino que quieres dirigir la compañía? Si te apasionan los negocios, los mercados internacionales y multiplicar la rentabilidad de una empresa, este es tu terreno. Deja las bases y conviértete en el estratega.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Administración y Mercadotecnia capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Simuladores de Negocios e Inversión",
+        "marketing_pitch": "Domina la bolsa y los mercados desde el campus.",
+        "features": [
+          "Simuladores bursátiles y financieros en tiempo real.",
+          "Software ERP/CRM estándar de las Fortune 500.",
+          "Salas de junta directiva para pitches reales."
+        ],
+        "icon": "📈"
+      },
+      {
+        "title": "Agencia de Inteligencia de Mercado In-House",
+        "marketing_pitch": "Lanza campañas y productos reales con clientes reales.",
+        "features": [
+          "Herramientas de big data y analítica web.",
+          "Laboratorio de neuromarketing (Eye-tracking).",
+          "Diseño de estrategias de precios."
+        ],
+        "icon": "💼"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Analítica de Negocios (Data Driven)",
+        "benefit": "Toma decisiones corporativas basadas en minería de datos.",
+        "top_jobs": ["Business Intelligence Analyst", "Director de Operaciones"]
+      },
+      {
+        "title": "Certificación en Liderazgo Directivo Internacional",
+        "benefit": "Posiciona tu perfil para C-Level en corporaciones globales.",
+        "top_jobs": ["CEO / Director General", "Gerente Regional"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Administración y Mercadotecnia no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "comercio-exterior": {
     "id": "LCE",
@@ -2465,162 +3192,69 @@
     ],
     "imageHorizontal": "comercio h.webp",
     "imageVertical": "comercio v.webp",
-    "objetivo": "Especialízate en la legislación aduanera, clasificación arancelaria y los procesos de importación y exportación de mercancías a nivel global."
-  },
-  "economia-y-finanzas": {
-    "id": "LEF",
-    "name": "Economía y Finanzas",
-    "slug": "economia-y-finanzas",
-    "tagline": "Haz de tu inversión tu mejor economía",
-    "description": "La Licenciatura en Economía y Finanzas te brinda las herramientas analíticas, matemáticas y tecnológicas para dominar los mercados globales. Aprende a interpretar el comportamiento económico, evaluar alternativas de inversión y anticipar tendencias mundiales. Prepárate para liderar el crecimiento y la estabilidad financiera en corporativos, gobierno u organismos internacionales, siempre con un enfoque ético y sostenible.",
-    "ingreso": "Si te interesa entender cómo funciona la economía y el mundo financiero, esta licenciatura es para ti. Como estudiante de Economía y Finanzas desarrollarás la capacidad de analizar información económica y financiera y expresarla de forma clara mediante herramientas matemáticas y analíticas. Aprenderás a interpretar el comportamiento de los mercados financieros, evaluar alternativas de inversión y anticipar escenarios futuros utilizando modelos econométricos.",
-    "egreso": "Como egresado de Economía y Finanzas podrás desarrollarte en distintos sectores. En el ámbito financiero, podrás trabajar como analista de mercados en bancos, casas de bolsa, afianzadoras, arrendadoras, uniones de crédito, despachos y consultorías. También tendrás oportunidades en el sector público, participando en el diseño y análisis de políticas económicas en dependencias gubernamentales y organismos como el Banco de México. A nivel internacional, podrás colaborar en organismos no gubernamentales, banca transnacional, empresas multinacionales y organismos como el FMI, el Banco Mundial, la OMC o la CEPAL.",
-    "experienciaPractica": [
+    "objetivo": "Especialízate en la legislación aduanera, clasificación arancelaria y los procesos de importación y exportación de mercancías a nivel global.",
+    "hero_section": {
+      "headline": "El mercado busca líderes visionarios en Comercio Exterior. Conviértete en uno.",
+      "subheadline": "Estrategia. Rentabilidad. Liderazgo global. Prepárate para dirigir corporativos transnacionales y negocios disruptivos.",
+      "tag_marketing": "La carrera para los líderes del mercado."
+    },
+    "el_desafio": "¿No te conformas con ser empleado, sino que quieres dirigir la compañía? Si te apasionan los negocios, los mercados internacionales y multiplicar la rentabilidad de una empresa, este es tu terreno. Deja las bases y conviértete en el estratega.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Comercio Exterior capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
       {
-        "title": "Bolsa y Trading de Valores",
-        "desc": "Simula la compra y venta de acciones, bonos, divisas y derivados financieros en tiempo real con cotizaciones mundiales.",
-        "icon": "💰",
-        "tag": "Trading",
+        "title": "Centro de Simuladores de Negocios e Inversión",
+        "marketing_pitch": "Domina la bolsa y los mercados desde el campus.",
         "features": [
-          "Simulador de mercado de valores",
-          "Trading en tiempo real",
-          "Análisis fundamental"
-        ]
-      },
-      {
-        "title": "Valuación de Proyectos de Inversión",
-        "desc": "Valúa proyectos corporativos, fusiones y adquisiciones de empresas determinando el retorno financiero (TIR/VPN).",
-        "icon": "📊",
-        "tag": "Finanzas Corporativas",
-        "features": [
-          "Cálculo de TIR y VPN",
-          "Valuación de fusiones",
-          "Análisis de riesgos financieros"
-        ]
-      },
-      {
-        "title": "Prácticas en Bancos y Aseguradoras",
-        "desc": "Convenios con instituciones del sector bancario y financiero para estadías en áreas de riesgo crediticio e inversiones.",
-        "icon": "🏛️",
-        "tag": "Estadías Financieras",
-        "features": [
-          "Área de análisis de crédito",
-          "Administración de riesgos bursátiles",
-          "Vinculación bancaria"
-        ]
-      }
-    ],
-    "certificaciones": [
-      {
-        "title": "Transformación Digital",
-        "desc": "Con este certificado aprenderás a hacerte dos preguntas clave: ¿cómo está impactando la tecnología a tu entorno profesional? y ¿cómo puedes aprovecharla estratégicamente para generar valor? A partir de ahí, trabajarás con herramientas digitales, análisis de datos, innovación tecnológica y estrategias de automatización que te permitirán optimizar procesos, mejorar la experiencia del cliente y fortalecer la competitividad de cualquier proyecto, empresa u organización.",
-        "icon": "💻",
-        "badge": "Digital Skills",
-        "courses": [
-          "Habilidades Digitales",
-          "Pensamiento Creativo",
-          "Pensamiento Digital en los Negocios I",
-          "Pensamiento Digital en los Negocios II",
-          "Blockchain",
-          "Emprendimiento Tecnológico",
-          "Machine Learning",
-          "Comunicación en la Era Digital"
+          "Simuladores bursátiles y financieros en tiempo real.",
+          "Software ERP/CRM estándar de las Fortune 500.",
+          "Salas de junta directiva para pitches reales."
         ],
-        "jobs": [
-          "Líder de Transformación Digital",
-          "Analista de Innovación",
-          "Consultor Tecnológico"
-        ]
+        "icon": "📈"
       },
       {
-        "title": "Liderazgo 4.0",
-        "desc": "Con este certificado en Liderazgo 4.0 aprenderás a hacerte dos preguntas clave: ¿cómo liderar equipos en entornos digitales y cambiantes? y ¿cómo potenciar el talento a través de la tecnología y la innovación? Desarrollarás habilidades en liderazgo ágil, inteligencia emocional, gestión del cambio, trabajo colaborativo y toma de decisiones basada en datos.",
-        "icon": "👥",
-        "badge": "Management",
-        "courses": [
-          "Habilidades Digitales",
-          "Liderazgo en la Era Digital",
-          "Análisis de Datos",
-          "Machine Learning",
-          "Comunicación en la Era Digital",
-          "Economía Circular",
-          "Humanismo Digital",
-          "Pensamiento Creativo"
+        "title": "Agencia de Inteligencia de Mercado In-House",
+        "marketing_pitch": "Lanza campañas y productos reales con clientes reales.",
+        "features": [
+          "Herramientas de big data y analítica web.",
+          "Laboratorio de neuromarketing (Eye-tracking).",
+          "Diseño de estrategias de precios."
         ],
-        "jobs": [
-          "Director de Equipos Ágiles",
-          "Coordinador de Proyectos Tecnológicos",
-          "Gestor del Cambio Organizacional"
-        ]
-      },
-      {
-        "title": "Acreditaciones Vigentes",
-        "desc": "La Universidad Internacional (UNINTER) respalda tu formación con certificaciones y acreditaciones reconocidas a nivel nacional e internacional.",
-        "modalDesc": "La Universidad Internacional (UNINTER) respalda tu formación con certificaciones y acreditaciones reconocidas a nivel nacional e internacional, que garantizan la calidad académica, la mejora continua y el cumplimiento de los más altos estándares educativos.\n\nAcreditación 7 (A7) por la Federación de Instituciones Mexicanas Particulares de Educación Superior (FIMPES), lo que la distingue como una de las pocas universidades privadas del país en alcanzar este nivel de excelencia.\n\nCertificada en Gestión de Calidad bajo la norma ISO 9001:2015, que avala la eficiencia y mejora continua de sus procesos académicos y administrativos.\n\nRegistrada en el Registro Nacional de Instituciones y Empresas Científicas y Tecnológicas (RENIECYT), y en cumplimiento con los lineamientos de la Secretaría de Educación del Estado de Morelos.\n\nEstas acreditaciones garantizan que tu formación, los planes de estudio, los procesos de enseñanza-aprendizaje y los servicios que recibes como estudiante se mantengan siempre alineados con los más altos estándares nacionales e internacionales de excelencia educativa.",
-        "icon": "🏅",
-        "badge": "Excelencia Académica",
-        "courses": ["Acreditación 7 FIMPES", "ISO 9001:2015", "RENIECYT"],
-        "jobs": [
-          "Calidad Educativa",
-          "Reconocimiento Nacional",
-          "Respaldo Institucional"
-        ]
+        "icon": "💼"
       }
     ],
-    "imageHorizontal": "eco h.webp",
-    "imageVertical": "eco v.webp",
-    "duration": "8 Semestres",
-    "programType": "Licenciatura",
-    "rvoe": "2006P02302/2006-05-12",
-    "perfilEgreso": "En la Universidad Internacional te preparamos para comprender, analizar y transformar el entorno económico y financiero con una visión estratégica, ética y global. Aquí aprenderás a interpretar los mercados, evaluar escenarios económicos y tomar decisiones financieras sólidas que generen estabilidad y crecimiento. Desarrollarás habilidades para analizar indicadores macroeconómicos, gestionar inversiones, evaluar proyectos y optimizar recursos. También adquirirás competencias en análisis de datos, uso de herramientas tecnológicas y modelos econométricos que te permitirán anticipar tendencias e identificar oportunidades con un enfoque responsable y comprometido con el desarrollo sostenible.",
-    "lineasInvestigacion": [
-      "Finanzas Corporativas",
-      "Mercados Financieros y Bursátiles",
-      "Economía Aplicada y Análisis Macroeconómico",
-      "Econometría y Análisis de Datos",
-      "Finanzas Públicas y Política Fiscal",
-      "Banca y Sistema Financiero",
-      "Inversión y Gestión de Riesgos",
-      "Economía Internacional y Comercio Exterior",
-      "Planeación Estratégica y Consultoría Financiera"
-    ],
-    "ventajasTransversales": [
-      "Formación integral en economía, finanzas y análisis de datos.",
-      "Enfoque en mercados nacionales e internacionales.",
-      "Certificados de especialización durante la carrera.",
-      "Desarrollo de habilidades en econometría, análisis financiero e inteligencia de negocios.",
-      "Formación en tecnologías emergentes como Blockchain y Machine Learning.",
-      "Oportunidades de movilidad internacional y doble titulación (obtenida en el extranjero).",
-      "Preparación para organismos financieros nacionales e internacionales.",
-      "Desarrollo de habilidades para la toma de decisiones basada en datos."
-    ],
-    "faq": [
+    "power_skills": [
       {
-        "q": "¿Cuánto dura la carrera?",
-        "a": "8 semestres."
+        "title": "Certificación en Analítica de Negocios (Data Driven)",
+        "benefit": "Toma decisiones corporativas basadas en minería de datos.",
+        "top_jobs": ["Business Intelligence Analyst", "Director de Operaciones"]
       },
       {
-        "q": "¿Necesito ser experto en matemáticas?",
-        "a": "No. Durante la carrera desarrollarás progresivamente las habilidades matemáticas y analíticas necesarias."
-      },
-      {
-        "q": "¿Puedo trabajar en bancos?",
-        "a": "Sí. El programa te prepara para desempeñarte en bancos, casas de bolsa, aseguradoras, consultorías y empresas nacionales e internacionales."
-      },
-      {
-        "q": "¿Puedo trabajar en organismos internacionales?",
-        "a": "Sí. Tu formación incluye economía internacional, finanzas globales y dominio de un segundo idioma, lo que fortalece tu perfil para instituciones como el FMI, Banco Mundial, CEPAL y otros organismos internacionales."
-      },
-      {
-        "q": "¿Qué certificaciones puedo obtener?",
-        "a": "Podrás especializarte en Transformación Digital y Liderazgo 4.0, fortaleciendo tu perfil profesional en tecnologías emergentes y liderazgo organizacional."
-      },
-      {
-        "q": "¿Qué diferencia a UNINTER de otras universidades?",
-        "a": "Su enfoque internacional, la doble titulación (obtenida en el extranjero), la formación en tecnologías aplicadas a las finanzas, la movilidad académica, las certificaciones de especialización y una preparación integral para responder a los retos de la economía global."
+        "title": "Certificación en Liderazgo Directivo Internacional",
+        "benefit": "Posiciona tu perfil para C-Level en corporaciones globales.",
+        "top_jobs": ["CEO / Director General", "Gerente Regional"]
       }
     ],
-    "objetivo": "Formar profesionales altamente analíticos con visión global, capaces de comprender, evaluar y transformar el entorno económico y financiero. A través del dominio de modelos econométricos, análisis de datos y estrategias de inversión, el programa busca que los estudiantes desarrollen la capacidad de anticipar escenarios, optimizar recursos y liderar la toma de decisiones financieras sólidas en los sectores público y privado a nivel nacional e internacional."
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Comercio Exterior no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "mercadotecnia-y-publicidad": {
     "id": "LEMP",
@@ -2703,7 +3337,69 @@
     ],
     "imageHorizontal": "merca h.webp",
     "imageVertical": "merca v.webp",
-    "objetivo": "Desarrolla el balance ideal entre la analítica de marketing y la creatividad publicitaria digital. Diseña campañas memorables de alto impacto comercial."
+    "objetivo": "Desarrolla el balance ideal entre la analítica de marketing y la creatividad publicitaria digital. Diseña campañas memorables de alto impacto comercial.",
+    "hero_section": {
+      "headline": "El mercado busca líderes visionarios en Mercadotecnia y Publicidad. Conviértete en uno.",
+      "subheadline": "Estrategia. Rentabilidad. Liderazgo global. Prepárate para dirigir corporativos transnacionales y negocios disruptivos.",
+      "tag_marketing": "La carrera para los líderes del mercado."
+    },
+    "el_desafio": "¿No te conformas con ser empleado, sino que quieres dirigir la compañía? Si te apasionan los negocios, los mercados internacionales y multiplicar la rentabilidad de una empresa, este es tu terreno. Deja las bases y conviértete en el estratega.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Mercadotecnia y Publicidad capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Simuladores de Negocios e Inversión",
+        "marketing_pitch": "Domina la bolsa y los mercados desde el campus.",
+        "features": [
+          "Simuladores bursátiles y financieros en tiempo real.",
+          "Software ERP/CRM estándar de las Fortune 500.",
+          "Salas de junta directiva para pitches reales."
+        ],
+        "icon": "📈"
+      },
+      {
+        "title": "Agencia de Inteligencia de Mercado In-House",
+        "marketing_pitch": "Lanza campañas y productos reales con clientes reales.",
+        "features": [
+          "Herramientas de big data y analítica web.",
+          "Laboratorio de neuromarketing (Eye-tracking).",
+          "Diseño de estrategias de precios."
+        ],
+        "icon": "💼"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Analítica de Negocios (Data Driven)",
+        "benefit": "Toma decisiones corporativas basadas en minería de datos.",
+        "top_jobs": ["Business Intelligence Analyst", "Director de Operaciones"]
+      },
+      {
+        "title": "Certificación en Liderazgo Directivo Internacional",
+        "benefit": "Posiciona tu perfil para C-Level en corporaciones globales.",
+        "top_jobs": ["CEO / Director General", "Gerente Regional"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Mercadotecnia y Publicidad no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "ingenieria-ambiental": {
     "id": "IAM",
@@ -2786,7 +3482,69 @@
     ],
     "imageHorizontal": "ambiental h.webp",
     "imageVertical": "ambiental v.webp",
-    "objetivo": "Aprende a resolver problemas ecológicos, diseñar sistemas de tratamiento de agua y aire, y auditar el impacto ambiental en industrias."
+    "objetivo": "Aprende a resolver problemas ecológicos, diseñar sistemas de tratamiento de agua y aire, y auditar el impacto ambiental en industrias.",
+    "hero_section": {
+      "headline": "El mundo necesita innovadores en Ingeniería Ambiental. Haz que tus ideas construyan el futuro.",
+      "subheadline": "Diseña. Optimiza. Lidera el avance tecnológico. Prepárate para desarrollar soluciones en una industria que evoluciona cada segundo.",
+      "tag_marketing": "La carrera para los creadores del mañana."
+    },
+    "el_desafio": "¿No te conformas con consumir tecnología, sino que quieres diseñarla, optimizarla y patentarla? Si te apasiona la innovación aplicada y resolver los retos de ingeniería más complejos, este es tu escenario. Deja de ser espectador y conviértete en el arquitecto del futuro.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Ingeniería Ambiental capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Manufactura y Robótica Avanzada",
+        "marketing_pitch": "Diseña con hardware de nivel industrial antes de graduarte.",
+        "features": [
+          "Opera simuladores 3D industriales.",
+          "Trabaja con brazos robóticos y automatización.",
+          "Domina software de diseño CAD/CAM."
+        ],
+        "icon": "⚙️"
+      },
+      {
+        "title": "Laboratorio de Cómputo de Alto Rendimiento",
+        "marketing_pitch": "Procesa algoritmos a la velocidad de la industria.",
+        "features": [
+          "Programa en terminales de alta capacidad.",
+          "Implementa redes empresariales Cisco.",
+          "Desarrolla IA y ciencia de datos."
+        ],
+        "icon": "💻"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Gestión de Proyectos Ágiles (Scrum)",
+        "benefit": "Lidera equipos de ingeniería bajo metodologías de Silicon Valley.",
+        "top_jobs": ["Project Manager", "Líder Técnico"]
+      },
+      {
+        "title": "Certificación en Normativas Internacionales de Calidad",
+        "benefit": "Garantiza estándares globales en cualquier proceso industrial.",
+        "top_jobs": ["Director de Calidad", "Consultor Industrial"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Ingeniería Ambiental no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "ingenieria-civil": {
     "id": "ICI",
@@ -2869,7 +3627,69 @@
     ],
     "imageHorizontal": "civil h.webp",
     "imageVertical": "civil v.webp",
-    "objetivo": "Domina el diseño de estructuras de concreto y acero, el análisis de suelos, la hidráulica y la gerencia de grandes obras civiles."
+    "objetivo": "Domina el diseño de estructuras de concreto y acero, el análisis de suelos, la hidráulica y la gerencia de grandes obras civiles.",
+    "hero_section": {
+      "headline": "El mundo necesita innovadores en Ingeniería Civil. Haz que tus ideas construyan el futuro.",
+      "subheadline": "Diseña. Optimiza. Lidera el avance tecnológico. Prepárate para desarrollar soluciones en una industria que evoluciona cada segundo.",
+      "tag_marketing": "La carrera para los creadores del mañana."
+    },
+    "el_desafio": "¿No te conformas con consumir tecnología, sino que quieres diseñarla, optimizarla y patentarla? Si te apasiona la innovación aplicada y resolver los retos de ingeniería más complejos, este es tu escenario. Deja de ser espectador y conviértete en el arquitecto del futuro.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Ingeniería Civil capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Manufactura y Robótica Avanzada",
+        "marketing_pitch": "Diseña con hardware de nivel industrial antes de graduarte.",
+        "features": [
+          "Opera simuladores 3D industriales.",
+          "Trabaja con brazos robóticos y automatización.",
+          "Domina software de diseño CAD/CAM."
+        ],
+        "icon": "⚙️"
+      },
+      {
+        "title": "Laboratorio de Cómputo de Alto Rendimiento",
+        "marketing_pitch": "Procesa algoritmos a la velocidad de la industria.",
+        "features": [
+          "Programa en terminales de alta capacidad.",
+          "Implementa redes empresariales Cisco.",
+          "Desarrolla IA y ciencia de datos."
+        ],
+        "icon": "💻"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Gestión de Proyectos Ágiles (Scrum)",
+        "benefit": "Lidera equipos de ingeniería bajo metodologías de Silicon Valley.",
+        "top_jobs": ["Project Manager", "Líder Técnico"]
+      },
+      {
+        "title": "Certificación en Normativas Internacionales de Calidad",
+        "benefit": "Garantiza estándares globales en cualquier proceso industrial.",
+        "top_jobs": ["Director de Calidad", "Consultor Industrial"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Ingeniería Civil no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "ingenieria-industrial-y-de-sistemas-de-calidad": {
     "id": "IISCA",
@@ -3020,7 +3840,69 @@
     ],
     "imageHorizontal": "calidad h.webp",
     "imageVertical": "calidad v.webp",
-    "objetivo": "La Ingeniería Industrial y de Sistemas de Calidad en UNINTER es un programa presencial de 4.5 años, orientada a la optimización de procesos productivos y de servicios mediante herramientas de calidad, Lean Manufacturing, logística, seguridad industrial, manufactura avanzada y análisis de datos. La carrera integra actividades aplicadas de análisis de procesos, reportes técnicos, simulación, mejora continua, control estadístico, proyectos integradores y uso de herramientas digitales para la toma de decisiones."
+    "objetivo": "La Ingeniería Industrial y de Sistemas de Calidad en UNINTER es un programa presencial de 4.5 años, orientada a la optimización de procesos productivos y de servicios mediante herramientas de calidad, Lean Manufacturing, logística, seguridad industrial, manufactura avanzada y análisis de datos. La carrera integra actividades aplicadas de análisis de procesos, reportes técnicos, simulación, mejora continua, control estadístico, proyectos integradores y uso de herramientas digitales para la toma de decisiones.",
+    "hero_section": {
+      "headline": "El mundo necesita innovadores en Ingeniería Industrial y de Sistemas de Calidad. Haz que tus ideas construyan el futuro.",
+      "subheadline": "Diseña. Optimiza. Lidera el avance tecnológico. Prepárate para desarrollar soluciones en una industria que evoluciona cada segundo.",
+      "tag_marketing": "La carrera para los creadores del mañana."
+    },
+    "el_desafio": "¿No te conformas con consumir tecnología, sino que quieres diseñarla, optimizarla y patentarla? Si te apasiona la innovación aplicada y resolver los retos de ingeniería más complejos, este es tu escenario. Deja de ser espectador y conviértete en el arquitecto del futuro.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Ingeniería Industrial y de Sistemas de Calidad capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Manufactura y Robótica Avanzada",
+        "marketing_pitch": "Diseña con hardware de nivel industrial antes de graduarte.",
+        "features": [
+          "Opera simuladores 3D industriales.",
+          "Trabaja con brazos robóticos y automatización.",
+          "Domina software de diseño CAD/CAM."
+        ],
+        "icon": "⚙️"
+      },
+      {
+        "title": "Laboratorio de Cómputo de Alto Rendimiento",
+        "marketing_pitch": "Procesa algoritmos a la velocidad de la industria.",
+        "features": [
+          "Programa en terminales de alta capacidad.",
+          "Implementa redes empresariales Cisco.",
+          "Desarrolla IA y ciencia de datos."
+        ],
+        "icon": "💻"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Gestión de Proyectos Ágiles (Scrum)",
+        "benefit": "Lidera equipos de ingeniería bajo metodologías de Silicon Valley.",
+        "top_jobs": ["Project Manager", "Líder Técnico"]
+      },
+      {
+        "title": "Certificación en Normativas Internacionales de Calidad",
+        "benefit": "Garantiza estándares globales en cualquier proceso industrial.",
+        "top_jobs": ["Director de Calidad", "Consultor Industrial"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Ingeniería Industrial y de Sistemas de Calidad no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   },
   "ingenieria-mecanica-industrial": {
     "id": "IMI",
@@ -3103,6 +3985,1024 @@
     ],
     "imageHorizontal": "industrial h.webp",
     "imageVertical": "industrial v.webp",
-    "objetivo": "Domina el diseño de mecanismos, sistemas termodinámicos, plantas térmicas, selección de materiales y el mantenimiento de maquinaria pesada."
+    "objetivo": "Domina el diseño de mecanismos, sistemas termodinámicos, plantas térmicas, selección de materiales y el mantenimiento de maquinaria pesada.",
+    "hero_section": {
+      "headline": "El mundo necesita innovadores en Ingeniería Mecánica Industrial. Haz que tus ideas construyan el futuro.",
+      "subheadline": "Diseña. Optimiza. Lidera el avance tecnológico. Prepárate para desarrollar soluciones en una industria que evoluciona cada segundo.",
+      "tag_marketing": "La carrera para los creadores del mañana."
+    },
+    "el_desafio": "¿No te conformas con consumir tecnología, sino que quieres diseñarla, optimizarla y patentarla? Si te apasiona la innovación aplicada y resolver los retos de ingeniería más complejos, este es tu escenario. Deja de ser espectador y conviértete en el arquitecto del futuro.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Ingeniería Mecánica Industrial capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Manufactura y Robótica Avanzada",
+        "marketing_pitch": "Diseña con hardware de nivel industrial antes de graduarte.",
+        "features": [
+          "Opera simuladores 3D industriales.",
+          "Trabaja con brazos robóticos y automatización.",
+          "Domina software de diseño CAD/CAM."
+        ],
+        "icon": "⚙️"
+      },
+      {
+        "title": "Laboratorio de Cómputo de Alto Rendimiento",
+        "marketing_pitch": "Procesa algoritmos a la velocidad de la industria.",
+        "features": [
+          "Programa en terminales de alta capacidad.",
+          "Implementa redes empresariales Cisco.",
+          "Desarrolla IA y ciencia de datos."
+        ],
+        "icon": "💻"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Gestión de Proyectos Ágiles (Scrum)",
+        "benefit": "Lidera equipos de ingeniería bajo metodologías de Silicon Valley.",
+        "top_jobs": ["Project Manager", "Líder Técnico"]
+      },
+      {
+        "title": "Certificación en Normativas Internacionales de Calidad",
+        "benefit": "Garantiza estándares globales en cualquier proceso industrial.",
+        "top_jobs": ["Director de Calidad", "Consultor Industrial"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Ingeniería Mecánica Industrial no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
+  },
+
+  "animacion-y-diseno-digital": {
+    "id": "LADD",
+    "name": "Animación y Diseño Digital",
+    "slug": "animacion-y-diseno-digital",
+    "tagline": "Crea mundos, personajes, historias y experiencias digitales.",
+    "description": "En la Licenciatura en Animación y Diseño Digital aprenderás a convertir tus ideas en proyectos visuales, audiovisuales e interactivos mediante animación 2D y 3D, diseño digital, modelado, videojuegos, efectos especiales, simulación, ilustración, edición y postproducción. Esta carrera está dirigida a quienes desean contar historias, diseñar personajes, crear ambientes digitales, producir contenido audiovisual y desarrollar experiencias para medios digitales, entretenimiento, educación, cultura, publicidad, videojuegos y nuevos medios. Durante tu formación integrarás creatividad, tecnología, narrativa, imagen, sonido, programación, producción visual, emprendimiento y herramientas digitales especializadas para desarrollar proyectos con impacto visual, comunicativo y profesional.",
+    "ingreso": "Esta carrera es para personas interesadas en crear historias, personajes, animaciones, videojuegos, experiencias digitales y contenidos audiovisuales. Es recomendable que el aspirante cuente con: Interés por la animación, el diseño digital, la tecnología y los medios audiovisuales; Sensibilidad hacia el arte, la comunicación visual y la creación de historias; Capacidad para imaginar, representar y comunicar ideas visualmente; Interés por el dibujo, la narrativa, el diseño de personajes y la producción digital; Curiosidad por el uso de software especializado y herramientas tecnológicas; Habilidad para el pensamiento creativo, visual y espacial; Disposición para trabajar en proyectos multidisciplinarios; Interés por los videojuegos, la producción audiovisual, los efectos especiales y los nuevos medios; y Compromiso para actualizarse constantemente en tecnologías digitales.",
+    "egreso": "El egresado podrá desarrollarse en estudios de animación, productoras audiovisuales, industria del cine, video, televisión y streaming, industria de videojuegos, agencias de animación, diseño digital, mercadotecnia y publicidad, áreas de edición, postproducción y efectos especiales, empresas de comunicación digital y nuevos medios, desarrollo de aplicaciones multimedia, proyectos de simulación y ambientes digitales, organizaciones educativas y culturales, desarrollo de software o contenidos educativos, consultoría y servicios independientes de creación artístico-tecnológica, producción de contenidos digitales para marcas, instituciones y plataformas, así como en el emprendimiento de proyectos propios.",
+    "perfilEgreso": "Al concluir la Licenciatura en Animación y Diseño Digital, el egresado será capaz de diseñar, desarrollar y producir proyectos visuales, audiovisuales e interactivos para distintos medios y plataformas. Podrá: Crear proyectos de animación 2D y 3D; Diseñar personajes, escenarios, ambientes digitales y recursos visuales; Aplicar software especializado en animación, simulación, producción, imagen y sonido; Integrar narrativa audiovisual, diseño, sonido, imagen y tecnología; Desarrollar contenidos para entretenimiento, educación, cultura, publicidad, negocios y nuevos medios; Participar en proyectos de videojuegos, simulación y experiencias multimedia; Utilizar herramientas digitales para ilustración, retoque, modelado, texturizado, rendering, animación y postproducción; Planear, organizar y dirigir proyectos creativos y tecnológicos; Emprender proyectos propios en animación, diseño digital, videojuegos o producción audiovisual; y mantener una actitud de experimentación, actualización constante y visión hacia el futuro.",
+    "syllabusDescription": "Nuestro plan de estudios conecta arte, tecnología y narrativa. Te capacita de forma 100% práctica en animación 2D/3D, modelado, videojuegos, postproducción e inteligencia artificial aplicada.",
+    "projectsBlogUrl": "https://blogs.uninter.edu.mx/ESCAT/index.php/category/proyectos/",
+    "experienciaPractica": [
+      {
+        "title": "Estudio de Producción y Animación Digital",
+        "desc": "Desarrolla proyectos integrales de animación 2D y 3D desde cero. A través del trabajo multidisciplinario, dominarás la narrativa audiovisual, el diseño de personajes, los efectos especiales y la postproducción digital, utilizando software especializado para crear contenidos multimedia de nivel profesional.",
+        "icon": "🎬",
+        "tag": "ANIMACIÓN Y VFX",
+        "features": []
+      },
+      {
+        "title": "Laboratorio de Videojuegos y Medios Interactivos",
+        "desc": "Aplica tu creatividad y visión tecnológica en la creación de videojuegos y ambientes digitales. Desarrolla competencias avanzadas en modelado, rigging, texturizado e inteligencia artificial aplicada, transformando tus ideas en experiencias interactivas y proyectos de emprendimiento con alcance global.",
+        "icon": "🎮",
+        "tag": "GAME DEVELOPMENT",
+        "features": []
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Animación 3D y Efectos Visuales (VFX)",
+        "desc": "Especialización avanzada en modelado orgánico, animación de personajes, rigging, weighting, shaders y postproducción digital.",
+        "icon": "🎬",
+        "badge": "VFX Artist",
+        "courses": [
+          "Modelado 3D Orgánico",
+          "Animación de Personajes",
+          "Iluminación y Texturizado",
+          "Composición Digital con Nuke"
+        ],
+        "jobs": [
+          "Generalista 3D",
+          "Artista de VFX",
+          "Modelador de Personajes",
+          "Compositor Digital"
+        ]
+      },
+      {
+        "title": "Desarrollo de Videojuegos y VR",
+        "desc": "Domina motores gráficos como Unity y Unreal Engine, diseño de niveles, interactividad e inteligencia artificial aplicada a videojuegos.",
+        "icon": "🎮",
+        "badge": "Game Developer",
+        "courses": [
+          "Diseño de Videojuegos",
+          "Motores Gráficos I (Unity)",
+          "Motores Gráficos II (Unreal)",
+          "Interfaces y UX para Juegos"
+        ],
+        "jobs": [
+          "Diseñador de Niveles",
+          "Programador de Gameplay",
+          "Artista Técnico de Videojuegos",
+          "Desarrollador VR"
+        ]
+      },
+      {
+        "title": "Transformación Digital & Liderazgo 4.0",
+        "desc": "Certificaciones orientadas al desarrollo de competencias tecnológicas, liderazgo, gestión y emprendimiento digital en el ámbito internacional.",
+        "icon": "🚀",
+        "badge": "Liderazgo & Movilidad",
+        "courses": [
+          "Transformación Digital",
+          "Liderazgo 4.0",
+          "Clases Espejo & Proyectos Internacionales"
+        ],
+        "jobs": [
+          "Líder de Proyectos Digitales",
+          "Gestor de Emprendimiento Tecnológico",
+          "Director Creativo Internacional"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Qué hace un licenciado en Animación y Diseño Digital?",
+        "a": "Crea proyectos visuales, audiovisuales e interactivos mediante animación, diseño digital, modelado, simulación, videojuegos, producción multimedia y herramientas tecnológicas."
+      },
+      {
+        "q": "¿Necesito saber dibujar antes de ingresar?",
+        "a": "No es necesario contar con un nivel profesional. Durante la carrera se desarrollan habilidades de dibujo, bocetaje, representación visual, diseño digital e ilustración."
+      },
+      {
+        "q": "¿La carrera se enfoca solo en animación?",
+        "a": "No. Además de animación 2D y 3D, la carrera integra diseño digital, modelado, videojuegos, efectos especiales, postproducción, narrativa audiovisual, simulación y aplicaciones multimedia."
+      },
+      {
+        "q": "¿Qué tipo de proyectos puedo realizar?",
+        "a": "Podrás desarrollar personajes, animaciones, cortometrajes, ambientes digitales, videojuegos, piezas audiovisuales, efectos especiales, aplicaciones multimedia y proyectos de diseño digital."
+      },
+      {
+        "q": "¿Se aprende animación 2D y 3D?",
+        "a": "Sí. El plan integra formación en diseño y animación 2D, modelado digital, diseño y animación 3D, Rigging, animación de personajes y animación avanzada."
+      },
+      {
+        "q": "¿La carrera incluye videojuegos?",
+        "a": "Sí. La formación incluye desarrollo de videojuegos, desarrollo avanzado de videojuegos e inteligencia artificial aplicada a videojuegos."
+      },
+      {
+        "q": "¿Qué herramientas digitales se utilizan?",
+        "a": "Durante la carrera se trabaja con herramientas digitales para dibujo, ilustración, retoque de imagen, modelado, texturizado, rendering, animación, edición, postproducción, simulación y producción multimedia."
+      },
+      {
+        "q": "¿Se trabaja con sonido y producción audiovisual?",
+        "a": "Sí. La carrera integra lenguaje audiovisual, guionismo, imagen, sonido, edición y postproducción digital."
+      },
+      {
+        "q": "¿Puedo emprender al terminar la carrera?",
+        "a": "Sí. La formación contempla liderazgo, cultura financiera, emprendimiento tecnológico y gestión de proyectos, lo que permite desarrollar proyectos propios en animación, diseño digital, videojuegos o producción audiovisual."
+      },
+      {
+        "q": "¿En qué áreas puedo trabajar?",
+        "a": "En estudios de animación, productoras audiovisuales, agencias digitales, industria del entretenimiento, videojuegos, educación, cultura, publicidad, consultoría, postproducción, efectos especiales o emprendimiento independiente."
+      },
+      {
+        "q": "¿Puedo realizar movilidad académica?",
+        "a": "Sí. Los estudiantes pueden participar en programas de movilidad nacional e internacional, de acuerdo con los requisitos académicos y administrativos vigentes."
+      }
+    ],
+    "imageHorizontal": "animacion h.webp",
+    "imageVertical": "animacion v.webp",
+    "objetivo": "Formar creadores visuales integrales capaces de fusionar arte, tecnología y narrativa para desarrollar proyectos digitales e interactivos de alto nivel. A través del dominio de herramientas de animación, producción audiovisual, programación y diseño, el programa busca impulsar en los estudiantes la capacidad de generar contenidos innovadores y experiencias multimedia que respondan a las demandas de las industrias creativas, el entretenimiento y la comunicación global, siempre con una sólida visión emprendedora.",
+    "lineasInvestigacion": [
+      "Creación de videojuegos.",
+      "Diseño de ambientes y entornos.",
+      "Animación 2D, 3D e ilustración digital.",
+      "Diseño y producción audiovisual.",
+      "Efectos especiales.",
+      "Gestión y emprendimiento digital.",
+      "Producción visual y creativa."
+    ],
+    "ventajasTransversales": [
+      "Formación práctica en animación 2D, animación 3D, diseño digital, modelado, videojuegos y producción audiovisual.",
+      "Desarrollo de proyectos creativos desde la idea inicial hasta la producción final.",
+      "Aprendizaje de herramientas digitales para ilustración, retoque, modelado, texturizado, rendering, animación, edición y postproducción.",
+      "Formación en videojuegos, programación e inteligencia artificial aplicada.",
+      "Desarrollo de personajes, escenarios, ambientes digitales, efectos especiales y experiencias multimedia.",
+      "Integración de arte, tecnología, narrativa, sonido, imagen y comunicación visual.",
+      "Preparación para crear proyectos aplicados al entretenimiento, la educación, la cultura, la publicidad, los negocios y los nuevos medios.",
+      "Formación para emprender proyectos propios en animación, diseño digital, videojuegos, producción audiovisual o contenidos digitales.",
+      "Desarrollo de competencias creativas, tecnológicas y de liderazgo.",
+      "Posibilidad de fortalecer la formación mediante movilidad académica, lenguas extranjeras y Diploma Internacional."
+    ],
+    "hero_section": {
+      "headline": "Tu visión tiene el poder de transformar el entorno. Da vida a Animación y Diseño Digital.",
+      "subheadline": "Proyecta. Crea. Lidera la vanguardia creativa. Prepárate para diseñar experiencias únicas en un mundo altamente competitivo.",
+      "tag_marketing": "La carrera para las mentes creativas."
+    },
+    "el_desafio": "¿No te conformas con observar tendencias, sino que quieres dictarlas? Si te apasiona el diseño funcional, la estética y solucionar problemas a través de propuestas gráficas o industriales, este es tu momento. Pasa de la idea al producto estrella.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Animación y Diseño Digital capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Isla de Renderizado y Postproducción Mac",
+        "marketing_pitch": "Renderiza proyectos complejos a la velocidad de tu creatividad.",
+        "features": [
+          "Estaciones de trabajo Apple de última generación.",
+          "Domina toda la suite Adobe Creative Cloud.",
+          "Imprime en 3D tus prototipos físicos."
+        ],
+        "icon": "🎨"
+      },
+      {
+        "title": "Taller de Modelado de Alta Precisión",
+        "marketing_pitch": "Materializa lo imposible en nuestro taller equipado.",
+        "features": [
+          "Corte láser y prototipado rápido.",
+          "Mesas de dibujo profesional e iluminación óptima.",
+          "Uso de materiales industriales reales."
+        ],
+        "icon": "🏗️"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Metodologías de Design Thinking",
+        "benefit": "Resuelve problemas complejos de usuarios mediante innovación iterativa.",
+        "top_jobs": ["Director Creativo", "Lead UX/UI"]
+      },
+      {
+        "title": "Certificación en Visualización Arquitectónica y 3D",
+        "benefit": "Vende proyectos de millones mediante hiperrealismo.",
+        "top_jobs": ["Artista 3D Senior", "Project Designer"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Animación y Diseño Digital no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
+  },
+  "diseno-industrial": {
+    "id": "LDI",
+    "name": "Diseño Industrial",
+    "slug": "diseno-industrial",
+    "tagline": "Transforma conceptos en objetos. Rediseña lo cotidiano.",
+    "description": "En la Licenciatura en Diseño Industrial aprenderás a transformar ideas en productos funcionales, innovadores, sustentables y viables para su fabricación. A través de proyectos, talleres y herramientas manuales y digitales, desarrollarás propuestas que respondan a necesidades reales de las personas, la industria y la sociedad. La carrera integra creatividad, ergonomía, materiales, procesos de producción, representación, modelado, prototipado, sustentabilidad, administración de proyectos y emprendimiento.",
+    "ingreso": "Esta carrera es para ti si te interesa crear, transformar y mejorar objetos y productos de uso cotidiano. Es recomendable que el aspirante cuente con: Capacidad de observación y análisis; Interés por la creatividad y la innovación; Sensibilidad hacia las necesidades de las personas; Interés por el dibujo, la tecnología y los materiales; Disposición para el trabajo práctico; Capacidad para trabajar en equipo; Interés por la sustentabilidad y el emprendimiento.",
+    "egreso": "El egresado podrá desarrollarse en: Empresas de diseño y desarrollo de productos, industrias manufactureras, áreas de innovación, investigación y desarrollo, departamentos de diseño, producción y calidad, empresas de mobiliario, industria automotriz y de transporte, diseño de envases y embalajes, estudios de diseño y consultoría, centros de investigación, instituciones educativas, organizaciones públicas, ejercicio independiente de la profesión, y creación, producción y comercialización de productos propios.",
+    "perfilEgreso": "Al concluir la Licenciatura en Diseño Industrial, serás capaz de investigar, analizar y evaluar necesidades para desarrollar productos innovadores que respondan a los requerimientos de los usuarios, la industria y la sociedad. Podrás: Aplicar fundamentos teóricos, científicos, tecnológicos y metodológicos; Analizar los requerimientos del usuario y del mercado; Diseñar y rediseñar productos; Seleccionar materiales y procesos de fabricación; Desarrollar modelos, prototipos y propuestas digitales; Aplicar criterios de ergonomía, funcionalidad y sustentabilidad; Participar en procesos de producción e innovación; Administrar proyectos de diseño; Trabajar en equipos multidisciplinarios; Desarrollar proyectos propios y emprendimientos.",
+    "experienciaPractica": [
+      {
+        "title": "Laboratorio de Modelado y Fabricación",
+        "desc": "Transforma tus ideas en objetos tangibles. A través de la investigación y selección de materiales, desarrollarás modelos y prototipos físicos de productos. Dominarás los procesos de fabricación aplicando estrictos criterios de ergonomía, sustentabilidad y diseño centrado en el usuario para resolver necesidades reales.",
+        "icon": "📐",
+        "tag": "TALLERES Y PROTOTIPADO",
+        "features": []
+      },
+      {
+        "title": "Taller de Proyectos Industriales",
+        "desc": "Crea soluciones innovadoras en áreas de alto impacto como el diseño automotriz, mobiliario, envase, embalaje y equipamiento urbano. Integra herramientas de representación digital, ecodiseño y liderazgo para gestionar proyectos multidisciplinarios, desde su conceptualización inicial hasta su viabilidad productiva y comercial.",
+        "icon": "💡",
+        "tag": "DISEÑO ESPECIALIZADO",
+        "features": []
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Diseño de Mobiliario y Espacios",
+        "desc": "Especialízate en la creación de muebles y diseño comercial (exhibidores POP) optimizando materiales como madera y metal.",
+        "icon": "🪑",
+        "badge": "Furniture Design",
+        "courses": [
+          "Diseño de Muebles de Madera",
+          "Muebles Metálicos y Plásticos",
+          "Diseño Comercial y POP",
+          "Costos e Industrialización"
+        ],
+        "jobs": [
+          "Diseñador de Mobiliario",
+          "Diseñador de Interiores Comerciales",
+          "Especialista en Visual Merchandising"
+        ]
+      },
+      {
+        "title": "Modelado CAD/CAM y Diseño de Empaque",
+        "desc": "Domina el diseño paramétrico en SolidWorks y la planeación de envase y embalaje para distribución global.",
+        "icon": "📦",
+        "badge": "CAD/CAM Expert",
+        "courses": [
+          "SolidWorks Asociado (CSWA)",
+          "Diseño de Envase y Embalaje",
+          "Manufactura Asistida por Computadora (CAM)",
+          "Ecodiseño"
+        ],
+        "jobs": [
+          "Especialista en SolidWorks CAD",
+          "Diseñador de Empaque y Envase",
+          "Ingeniero de Desarrollo de Producto"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "¿Qué hace un diseñador industrial?",
+        "a": "Investiga las necesidades de las personas y desarrolla productos funcionales, estéticos, innovadores y viables para su fabricación."
+      },
+      {
+        "q": "¿Necesito saber dibujar antes de ingresar?",
+        "a": "No es necesario contar con un nivel profesional. Durante la carrera se desarrollan habilidades de bocetaje, representación manual, dibujo técnico y herramientas digitales."
+      },
+      {
+        "q": "¿La carrera es artística o técnica?",
+        "a": "Integra ambas áreas. Combina creatividad, estética y comunicación visual con tecnología, ergonomía, materiales, producción y procesos de fabricación."
+      },
+      {
+        "q": "¿Qué tipo de productos puedo diseñar?",
+        "a": "Mobiliario, productos de uso cotidiano, envases, equipamiento urbano, medios de transporte, productos automotrices, objetos sustentables y soluciones para distintos tipos de usuarios."
+      },
+      {
+        "q": "¿Se realizan modelos y prototipos?",
+        "a": "Sí. El desarrollo de modelos y prototipos forma parte del proceso de diseño y permite probar la forma, función, ergonomía, materiales y viabilidad de los productos."
+      },
+      {
+        "q": "¿Qué materiales y herramientas se utilizan?",
+        "a": "Durante la carrera se trabaja con materiales como cerámica, madera, plásticos, metales y materiales fibrosos, mediante talleres especializados que permiten conocer sus propiedades, procesos de transformación y posibilidades de aplicación en el diseño de productos. También se utilizan herramientas manuales y digitales para el bocetaje, dibujo técnico, modelado, representación, fabricación y evaluación de propuestas."
+      },
+      {
+        "q": "¿Se aprende modelado y representación digital?",
+        "a": "Sí. Los estudiantes desarrollan habilidades de representación, visualización, modelado y comunicación digital de proyectos."
+      },
+      {
+        "q": "¿La carrera aborda la sustentabilidad?",
+        "a": "Sí. La formación considera el uso responsable de materiales, el impacto ambiental, el ecodiseño y el desarrollo de productos sustentables."
+      },
+      {
+        "q": "¿Puedo realizar movilidad académica?",
+        "a": "Sí. Los estudiantes pueden participar en programas de movilidad nacional e internacional, de acuerdo con los requisitos académicos y administrativos vigentes."
+      },
+      {
+        "q": "¿Puedo emprender al terminar?",
+        "a": "Sí. La carrera desarrolla competencias relacionadas con innovación, administración de proyectos, liderazgo, cultura financiera y emprendimiento."
+      },
+      {
+        "q": "¿En qué áreas puedo trabajar?",
+        "a": "En desarrollo de productos, manufactura, mobiliario, transporte, automotriz, envase, innovación, investigación, consultoría, docencia o mediante el ejercicio independiente."
+      },
+      {
+        "q": "¿Qué certificaciones puedo obtener?",
+        "a": "Los estudiantes pueden acceder a los certificados de egreso vigentes de la licenciatura y al Diploma Internacional, sujeto al cumplimiento de los requisitos correspondientes."
+      },
+      {
+        "q": "¿Cuáles son las opciones de titulación?",
+        "a": "Las opciones de titulación deberán presentarse conforme a las modalidades institucionales vigentes y a los requisitos establecidos para cada una."
+      }
+    ],
+    "imageHorizontal": "industrial h.webp",
+    "imageVertical": "industrial v.webp",
+    "objetivo": "Diseña productos que conecten creatividad, tecnología y funcionalidad. Aprenderás a transformar ideas en productos funcionales, innovadores, sustentables y viables para su fabricación, respondiendo a necesidades reales de las personas, la industria y la sociedad.",
+    "lineasInvestigacion": [
+      "Desarrollo de productos con materiales ecológicos.",
+      "Diseño e innovación de productos.",
+      "Investigación aplicada al desarrollo de productos.",
+      "Sustentabilidad.",
+      "Tecnología y producción.",
+      "Diseño orientado a necesidades sociales."
+    ],
+    "ventajasTransversales": [
+      "Aprendizaje práctico mediante talleres de cerámica, madera, plásticos, pailería y materiales fibrosos.",
+      "Desarrollo de productos desde la idea inicial hasta la elaboración de modelos y prototipos.",
+      "Uso de herramientas manuales y digitales para representar, modelar y comunicar propuestas de diseño.",
+      "Formación en materiales, procesos de fabricación y viabilidad productiva.",
+      "Proyectos relacionados con producto, mobiliario, transporte, automotriz, envase, embalaje y equipamiento urbano.",
+      "Enfoque en ergonomía, sustentabilidad, innovación y diseño centrado en el usuario.",
+      "Desarrollo de liderazgo, emprendimiento y administración de proyectos.",
+      "Preparación para colaborar en equipos multidisciplinarios.",
+      "Formación con perspectiva nacional e internacional."
+    ],
+    "hero_section": {
+      "headline": "Tu visión tiene el poder de transformar el entorno. Da vida a Diseño Industrial.",
+      "subheadline": "Proyecta. Crea. Lidera la vanguardia creativa. Prepárate para diseñar experiencias únicas en un mundo altamente competitivo.",
+      "tag_marketing": "La carrera para las mentes creativas."
+    },
+    "el_desafio": "¿No te conformas con observar tendencias, sino que quieres dictarlas? Si te apasiona el diseño funcional, la estética y solucionar problemas a través de propuestas gráficas o industriales, este es tu momento. Pasa de la idea al producto estrella.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Diseño Industrial capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Isla de Renderizado y Postproducción Mac",
+        "marketing_pitch": "Renderiza proyectos complejos a la velocidad de tu creatividad.",
+        "features": [
+          "Estaciones de trabajo Apple de última generación.",
+          "Domina toda la suite Adobe Creative Cloud.",
+          "Imprime en 3D tus prototipos físicos."
+        ],
+        "icon": "🎨"
+      },
+      {
+        "title": "Taller de Modelado de Alta Precisión",
+        "marketing_pitch": "Materializa lo imposible en nuestro taller equipado.",
+        "features": [
+          "Corte láser y prototipado rápido.",
+          "Mesas de dibujo profesional e iluminación óptima.",
+          "Uso de materiales industriales reales."
+        ],
+        "icon": "🏗️"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Metodologías de Design Thinking",
+        "benefit": "Resuelve problemas complejos de usuarios mediante innovación iterativa.",
+        "top_jobs": ["Director Creativo", "Lead UX/UI"]
+      },
+      {
+        "title": "Certificación en Visualización Arquitectónica y 3D",
+        "benefit": "Vende proyectos de millones mediante hiperrealismo.",
+        "top_jobs": ["Artista 3D Senior", "Project Designer"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Diseño Industrial no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
+  },
+  "diseno-de-modas-y-tendencias-internacionales": {
+    "id": "LDM",
+    "name": "Diseño de Modas y Tendencias Internacionales",
+    "slug": "diseno-de-modas-y-tendencias-internacionales",
+    "tagline": "Convierte tu creatividad en colecciones, marcas y proyectos que marquen tendencia",
+    "description": "La Licenciatura en Diseño de Modas y Tendencias Internacionales te impulsa a transformar tu creatividad en marcas innovadoras y colecciones de alto impacto. Desarrolla tu sensibilidad estética y domina las herramientas estratégicas, digitales y de confección para anticipar el futuro de la industria. Prepárate para brillar en el competitivo mundo de la moda, ya sea dirigiendo tu propia firma, coordinando pasarelas internacionales o liderando proyectos de moda sustentable.",
+    "ingreso": "¿Te apasiona la moda y quieres convertir tus ideas en proyectos reales? Esta licenciatura es para ti si tienes interés por la moda, el diseño y las tendencias nacionales e internacionales; eres una persona creativa, curiosa y con sensibilidad estética; disfrutas expresar ideas y estás dispuesta a investigar, experimentar y trabajar en equipo. También es ideal si te interesa desarrollar colecciones, utilizar herramientas digitales, crear tu propia marca o emprender proyectos innovadores y sustentables. Esta carrera es ideal para ti si tienes: Interés por el diseño de modas, las tendencias y las industrias creativas; Creatividad, imaginación y sensibilidad estética; Curiosidad por investigar tendencias, estilos de vida y necesidades del mercado; Interés por desarrollar habilidades de ilustración, confección y experimentación con materiales; Disposición para trabajar en equipo y participar en proyectos multidisciplinarios; Iniciativa, visión emprendedora y compromiso con la innovación y la sustentabilidad.",
+    "perfilEgreso": "Al egresar de UNINTER, dominarás las herramientas estratégicas y creativas para destacar en el competitivo mundo de la moda internacional. Serás capaz de investigar, planear e implementar propuestas que marquen o transformen las tendencias globales, desarrollando siempre diseños funcionales, organizados y de alto impacto.",
+    "egreso": "Serás un diseñador de moda de renombre, director de tu propia firma, coordinador de desfiles, comprador de moda para tiendas departamentales o editor de revistas de moda.",
+    "lineasInvestigacion": [
+      "Tendencias globales, cultura y comportamiento del consumidor.",
+      "Diseño e innovación de indumentaria, colecciones y accesorios.",
+      "Moda sustentable, economía circular y nuevos materiales.",
+      "Tecnología, diseño digital e innovación aplicada a la moda.",
+      "Branding, marketing y posicionamiento de marcas de moda.",
+      "Emprendimiento, producción y gestión de negocios de moda."
+    ],
+    "experienciaPractica": [
+      {
+        "title": "Taller de Confección Profesional",
+        "desc": "Utiliza máquinas de coser industriales (rectas, overlocks y collareteras) en mesas de costura de nivel profesional.",
+        "icon": "🧵",
+        "tag": "Costura Industrial",
+        "features": [
+          "Máquinas de coser rectas y overlocks",
+          "Planchas de vapor industriales",
+          "Maniquíes profesionales de drapeado"
+        ]
+      },
+      {
+        "title": "Taller de Patronaje y Graduación",
+        "desc": "Diseña moldes físicos en papel y digitalízalos para escalar tallas de manera automatizada.",
+        "icon": "📐",
+        "tag": "Patronaje",
+        "features": [
+          "Software Gerber Accumark",
+          "Mesas de trazo a scale real",
+          "Graduación y escalado de tallas"
+        ]
+      },
+      {
+        "title": "Estudio de Estilismo y Fotografía Editorial",
+        "desc": "Produce books de fotos profesionales de tus colecciones en el set fotográfico con iluminación de estudio.",
+        "icon": "📸",
+        "tag": "Fotografía de Moda",
+        "features": [
+          "Set de iluminación profesional",
+          "Cicloramas de colores de estudio",
+          "Cámaras profesionales 4K"
+        ]
+      },
+      {
+        "title": "Pasarela Anual UNINTER-MODA",
+        "desc": "Participa activamente organizando el desfile anual donde vistes modelos reales y presentas tu colección ante medios.",
+        "icon": "✨",
+        "tag": "Show en Vivo",
+        "features": [
+          "Organización de pasarelas",
+          "Contacto con modelos y agencias",
+          "Coordinación de iluminación y música"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Alta Costura y Confección Textil",
+        "desc": "Técnicas avanzadas de drapeado, costura a mano, sastrería clásica y acabados finos de alta costura.",
+        "icon": "👗",
+        "badge": "Couture Specialist",
+        "courses": [
+          "Patronaje de Alta Costura",
+          "Drapeado y Modelado sobre Maniquí",
+          "Sastrería e Hilado",
+          "Bordados y Acabados de Lujo"
+        ],
+        "jobs": [
+          "Diseñador de Alta Costura",
+          "Sastre Profesional",
+          "Patronista Senior",
+          "Modista de Novias"
+        ]
+      },
+      {
+        "title": "Mercadotecnia de Moda y Retail",
+        "desc": "Gestión del negocio de la moda, planeación de colecciones para e-commerce, retail y marcas de lujo.",
+        "icon": "👠",
+        "badge": "Fashion Business",
+        "courses": [
+          "Mercadotecnia de Moda",
+          "Estilismo Editorial e Imagen",
+          "Comercio Electrónico Textil",
+          "Retail y Gestión de Lujo"
+        ],
+        "jobs": [
+          "Fashion Buyer / Comprador de Moda",
+          "Brand Manager de Moda",
+          "E-commerce Manager Textil",
+          "Coordinador de Moda"
+        ]
+      }
+    ],
+    "imageHorizontal": "modas h.webp",
+    "imageVertical": "modas v.webp",
+    "objetivo": "Formar profesionales del diseño de modas con visión creativa, estratégica y global, capaces de investigar tendencias internacionales, diseñar y desarrollar colecciones innovadoras, gestionar marcas e impulsar proyectos de emprendimiento. A través de una formación práctica y multidisciplinaria, podrán transformar sus ideas en propuestas sustentables con impacto social, cultural y comercial.",
+    "hero_section": {
+      "headline": "Tu visión tiene el poder de transformar el entorno. Da vida a Diseño de Modas y Tendencias Internacionales.",
+      "subheadline": "Proyecta. Crea. Lidera la vanguardia creativa. Prepárate para diseñar experiencias únicas en un mundo altamente competitivo.",
+      "tag_marketing": "La carrera para las mentes creativas."
+    },
+    "el_desafio": "¿No te conformas con observar tendencias, sino que quieres dictarlas? Si te apasiona el diseño funcional, la estética y solucionar problemas a través de propuestas gráficas o industriales, este es tu momento. Pasa de la idea al producto estrella.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Diseño de Modas y Tendencias Internacionales capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Isla de Renderizado y Postproducción Mac",
+        "marketing_pitch": "Renderiza proyectos complejos a la velocidad de tu creatividad.",
+        "features": [
+          "Estaciones de trabajo Apple de última generación.",
+          "Domina toda la suite Adobe Creative Cloud.",
+          "Imprime en 3D tus prototipos físicos."
+        ],
+        "icon": "🎨"
+      },
+      {
+        "title": "Taller de Modelado de Alta Precisión",
+        "marketing_pitch": "Materializa lo imposible en nuestro taller equipado.",
+        "features": [
+          "Corte láser y prototipado rápido.",
+          "Mesas de dibujo profesional e iluminación óptima.",
+          "Uso de materiales industriales reales."
+        ],
+        "icon": "🏗️"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Metodologías de Design Thinking",
+        "benefit": "Resuelve problemas complejos de usuarios mediante innovación iterativa.",
+        "top_jobs": ["Director Creativo", "Lead UX/UI"]
+      },
+      {
+        "title": "Certificación en Visualización Arquitectónica y 3D",
+        "benefit": "Vende proyectos de millones mediante hiperrealismo.",
+        "top_jobs": ["Artista 3D Senior", "Project Designer"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Diseño de Modas y Tendencias Internacionales no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
+  },
+  "psicologia": {
+    "id": "LPS",
+    "name": "Psicología",
+    "slug": "psicologia",
+    "tagline": "Comprende la mente. Sana y fortalece la vida humana.",
+    "description": "El egresado de la Licenciatura en Psicología será un profesional competente en el análisis, diagnóstico, intervención, evaluación, investigación y prevención de problemáticas psicológicas del ser humano. Contará con los saberes, capacidades y sensibilidad necesarios para el ejercicio profesional en las dimensiones emocional, educativa, cognitiva, social y laboral.",
+    "ingreso": "El aspirante deberá cumplir con la compresión del método científico y del actuar ético, e interés por explicar las causas de los eventos. Se requiere habilidad y manejo del pensamiento abstracto y verbal, expresión escrita y oral, y búsqueda permanente de conocimientos en problemas conductuales. Debe contar con habilidades en el manejo de TIC’s, estudio y trabajo autónomo, afinidad hacia aspectos humanísticos, interés en promover el bienestar psicológico y cualidades para el contacto con poblaciones diversas.",
+    "egreso": "El mercado laboral abarca cuatro áreas. En Psicología Clínica, como psicoterapeuta de forma privada o en instituciones de salud pública o privada. En Psicología Educativa, en equipos de trabajo de atención educativa a todos los perfiles. En Psicología Social, como promotores de la salud mental en comunidades y grupos vulnerables. En Psicología Organizacional, integrándose a Recursos Humanos para atracción de talento, capacitación, evaluación y clima laboral.",
+    "perfilEgreso": "Será competente en el análisis, diagnóstico, intervención, evaluación, investigación y prevención de problemáticas psicológicas. Adquirirá conocimientos con énfasis en las áreas de psicología social, organizacional, educativa y clínica. Aplicará los saberes teóricos y metodológicos para comprender, analizar e intervenir en problemáticas psicológicas individuales y colectivas, contribuyendo al bienestar personal y social desde una perspectiva ética, científica y humanista.",
+    "experienciaPractica": [
+      {
+        "title": "Cámara Gesell UNINTER",
+        "desc": "Practica técnicas de entrevista clínica, terapia familiar, dinámicas grupales y focus groups de mercadotecnia en un set profesional de observación bidireccional.",
+        "icon": "👁️",
+        "tag": "Cámara Gesell",
+        "features": [
+          "Espejo de visión unidireccional",
+          "Sistema de audio y video 4K",
+          "Cabina de observación docente"
+        ]
+      },
+      {
+        "title": "Gabinete de Pruebas Psicométricas",
+        "desc": "Aplica e interpreta baterías completas de pruebas clínicas, proyectivas, de personalidad y de aptitud laboral.",
+        "icon": "📋",
+        "tag": "Psicometría",
+        "features": [
+          "Batería de test proyectivos (Rorschach)",
+          "Evaluaciones psicométricas laborales",
+          "Software de interpretación de test"
+        ]
+      },
+      {
+        "title": "Clínicas de Atención Comunitaria",
+        "desc": "Brinda asesoría psicológica y primeros auxilios emocionales supervisados a personas que lo requieran.",
+        "icon": "🧠",
+        "tag": "Apoyo Clínico",
+        "features": [
+          "Atención clínica real supervisada",
+          "Terapia de apoyo",
+          "Talleres de salud mental"
+        ]
+      },
+      {
+        "title": "Consultoría Organizacional (NOM-035)",
+        "desc": "Interviene en empresas aliadas diagnosticando y mitigando factores de riesgo psicosocial de acuerdo con normativas del trabajo.",
+        "icon": "🏢",
+        "tag": "Psicología Laboral",
+        "features": [
+          "Evaluaciones del clima laboral",
+          "Prevención de riesgos psicosociales",
+          "Consultoría en NOM-035"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Psicología Clínica y Terapia de Apoyo",
+        "desc": "Especialización práctica en modelos psicoterapéuticos, entrevista clínica e intervención psicológica inmediata.",
+        "icon": "🛋️",
+        "badge": "Psicoterapia",
+        "courses": [
+          "Entrevista Psicológica I y II",
+          "Psicopatología General",
+          "Primeros Auxilios Psicológicos",
+          "Modelos de Psicoterapia"
+        ],
+        "jobs": [
+          "Psicólogo Clínico Consultor",
+          "Terapeuta en Centros de Salud",
+          "Especialista en Intervención en Crisis"
+        ]
+      },
+      {
+        "title": "Psicología Organizacional y Reclutamiento",
+        "desc": "Capacidades avanzadas para evaluar y mejorar el bienestar laboral, desarrollo organizacional y reclutamiento por competencias.",
+        "icon": "📊",
+        "badge": "Desarrollo Humano",
+        "courses": [
+          "Evaluación Psicométrica Laboral",
+          "Clima Organizacional y NOM-035",
+          "Atracción del Talento",
+          "Gestión de Recursos Humanos"
+        ],
+        "jobs": [
+          "Coordinador de Reclutamiento",
+          "Especialista en Desarrollo Organizacional",
+          "Gerente de Capital Humano"
+        ]
+      }
+    ],
+    "imageHorizontal": "pedagogía h.webp",
+    "imageVertical": "pedagogía v.webp",
+    "objetivo": "Formar profesionales competentes en el análisis, diagnóstico, intervención, evaluación, investigación y prevención de problemáticas psicológicas del ser humano en las dimensiones emocional, educativa, cognitiva, social y laboral.",
+    "hero_section": {
+      "headline": "Tienes el poder de impactar a la sociedad desde Psicología. Hazte escuchar.",
+      "subheadline": "Analiza. Interviene. Lidera el cambio humano. Prepárate para gestionar talento y transformar instituciones a nivel global.",
+      "tag_marketing": "La carrera para los agentes de cambio."
+    },
+    "el_desafio": "¿No te conformas con observar la realidad, sino que deseas cambiarla de raíz? Si te apasiona el análisis social, humano o jurídico para resolver conflictos estructurales, este es tu escenario. Deja de cuestionar y empieza a transformar.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Psicología capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Análisis Jurídico y Psicológico",
+        "marketing_pitch": "Desarrolla tu expertise con casos 100% reales.",
+        "features": [
+          "Cámara de Gesell para prácticas forenses/psicológicas.",
+          "Sala de juicios orales de primer nivel.",
+          "Software especializado de análisis de datos cualitativos."
+        ],
+        "icon": "⚖️"
+      },
+      {
+        "title": "Plataforma de Simulación y Relaciones Internacionales",
+        "marketing_pitch": "Negocia tratados y resuelve crisis en tiempo real.",
+        "features": [
+          "Sala de geopolítica y debates modelo ONU.",
+          "Software de análisis estadístico poblacional.",
+          "Simulación diplomática y de cabildeo."
+        ],
+        "icon": "🌍"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Intervención y Resolución de Conflictos",
+        "benefit": "Aplica estrategias de mediación de alto nivel para organismos internacionales.",
+        "top_jobs": ["Analista Estratégico", "Consultor Gubernamental"]
+      },
+      {
+        "title": "Certificación en Gestión de Talento Humano",
+        "benefit": "Diagnostica y potencia equipos corporativos.",
+        "top_jobs": ["Director de RRHH", "Reclutador Especializado"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Psicología no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
+  },
+  "economia-y-finanzas": {
+    "id": "LEF",
+    "name": "Economía y Finanzas",
+    "slug": "economia-y-finanzas",
+    "tagline": "Haz de tu inversión tu mejor economía[cite: 2]",
+    "description": "La Licenciatura en Economía y Finanzas te brinda las herramientas analíticas, matemáticas y tecnológicas para dominar los mercados globales. Aprende a interpretar el comportamiento económico, evaluar alternativas de inversión y anticipar tendencias mundiales. Prepárate para liderar el crecimiento y la estabilidad financiera en corporativos, gobierno u organismos internacionales, siempre con un enfoque ético y sostenible.",
+    "ingreso": "Si te interesa entender cómo funciona la economía y el mundo financiero, esta licenciatura es para ti.[cite: 2] Como estudiante de Economía y Finanzas desarrollarás la capacidad de analizar información económica y financiera y expresarla de forma clara mediante herramientas matemáticas y analíticas.[cite: 2] Aprenderás a interpretar el comportamiento de los mercados financieros, evaluar alternativas de inversión y anticipar escenarios futuros utilizando modelos econométricos.[cite: 2] Además, adquirirás las bases para diseñar y aplicar políticas económicas, proponer el uso eficiente de los recursos y realizar investigación con sustento en la teoría económica.[cite: 2] Tu formación te permitirá comprender tanto la economía mexicana como la internacional y aplicar este conocimiento para resolver problemas económicos y financieros en organizaciones públicas y privadas, con una visión crítica, estratégica y orientada a la toma de decisiones.[cite: 2]",
+    "egreso": "Como egresado de Economía y Finanzas podrás desarrollarte en distintos sectores.[cite: 2] En el ámbito financiero, podrás trabajar como analista de mercados en bancos, casas de bolsa, afianzadoras, arrendadoras, uniones de crédito, despachos y consultorías.[cite: 2] También tendrás oportunidades en el sector público, participando en el diseño y análisis de políticas económicas en dependencias gubernamentales y organismos como el Banco de México.[cite: 2] A nivel internacional, podrás integrarte a empresas multinacionales, banca transnacional y organismos como el FMI, el Banco Mundial, la OMC o la CEPAL.[cite: 2] Además, podrás colaborar en organizaciones no gubernamentales, así como desempeñarte en el sector académico a través de la docencia y la investigación.[cite: 2]",
+    "experienciaPractica": [
+      {
+        "title": "Bolsa y Trading de Valores",
+        "desc": "Simula la compra y venta de acciones, bonos, divisas y derivados financieros en tiempo real con cotizaciones mundiales.",
+        "icon": "💰",
+        "tag": "Trading",
+        "features": [
+          "Simulador de mercado de valores",
+          "Trading en tiempo real",
+          "Análisis fundamental"
+        ]
+      },
+      {
+        "title": "Valuación de Proyectos de Inversión",
+        "desc": "Valúa proyectos corporativos, fusiones y adquisiciones de empresas determinando el retorno financiero (TIR/VPN).",
+        "icon": "📊",
+        "tag": "Finanzas Corporativas",
+        "features": [
+          "Cálculo de TIR y VPN",
+          "Valuación de fusiones",
+          "Análisis de riesgos financieros"
+        ]
+      },
+      {
+        "title": "Prácticas en Bancos y Aseguradoras",
+        "desc": "Convenios con instituciones del sector bancario y financiero para estadías en áreas de riesgo crediticio e inversiones.",
+        "icon": "🏛️",
+        "tag": "Estadías Financieras",
+        "features": [
+          "Área de análisis de crédito",
+          "Administración de riesgos bursátiles",
+          "Vinculación bancaria"
+        ]
+      }
+    ],
+    "certificaciones": [
+      {
+        "title": "Transformación Digital",
+        "desc": "Con este certificado aprenderás a hacerte dos preguntas clave: ¿cómo está impactando la tecnología a tu entorno profesional? y ¿cómo puedes aprovecharla estratégicamente para generar valor?[cite: 2] A partir de ahí, trabajarás con herramientas digitales, análisis de datos, innovación tecnológica y estrategias de automatización que te permitirán optimizar procesos, mejorar la experiencia del cliente y fortalecer la competitividad de cualquier proyecto, empresa u organización en un entorno cada vez más digital.[cite: 2]",
+        "icon": "💻",
+        "badge": "Digital Skills",
+        "courses": [
+          "Habilidades Digitales",
+          "Pensamiento Creativo",
+          "Pensamiento Digital en los Negocios I",
+          "Pensamiento Digital en los Negocios II",
+          "Blockchain",
+          "Emprendimiento Tecnológico",
+          "Machine Learning",
+          "Comunicación en la Era Digital"
+        ],
+        "jobs": [
+          "Líder de Transformación Digital",
+          "Analista de Innovación",
+          "Consultor Tecnológico"
+        ]
+      },
+      {
+        "title": "Liderazgo 4.0",
+        "desc": "Con este certificado en Liderazgo 4.0 aprenderás a hacerte dos preguntas clave: ¿cómo liderar equipos en entornos digitales y cambiantes? y ¿cómo potenciar el talento a través de la tecnología y la innovación?[cite: 2] A partir de ahí, desarrollarás habilidades en liderazgo ágil, inteligencia emocional, gestión del cambio, trabajo colaborativo y toma de decisiones basada en datos, que te permitirán dirigir equipos de alto desempeño y adaptarte con éxito a los desafíos de la era digital.[cite: 2]",
+        "icon": "👥",
+        "badge": "Management",
+        "courses": [
+          "Habilidades Digitales",
+          "Liderazgo en la Era Digital",
+          "Análisis de Datos",
+          "Machine Learning",
+          "Comunicación en la Era Digital",
+          "Economía Circular",
+          "Humanismo Digital",
+          "Pensamiento Creativo"
+        ],
+        "jobs": [
+          "Director de Equipos Ágiles",
+          "Coordinador de Proyectos Tecnológicos",
+          "Gestor del Cambio Organizacional"
+        ]
+      },
+      {
+        "title": "Acreditaciones Vigentes",
+        "desc": "La Universidad Internacional (UNINTER) respalda tu formación con certificaciones y acreditaciones reconocidas a nivel nacional e internacional, que garantizan la calidad académica, la mejora continua y el cumplimiento de los más altos estándares educativos.[cite: 2]",
+        "modalDesc": "La Universidad Internacional (UNINTER) respalda tu formación con certificaciones y acreditaciones reconocidas a nivel nacional e internacional, que garantizan la calidad académica, la mejora continua y el cumplimiento de los más altos estándares educativos.[cite: 2]\n\nAcreditación 7 (A7) por la Federación de Instituciones Mexicanas Particulares de Educación Superior (FIMPES), lo que la distingue como una de las pocas universidades privadas del país en alcanzar este nivel de excelencia.[cite: 2]\n\nCertificada en Gestión de Calidad bajo la norma ISO 9001:2015, que avala la eficiencia y mejora continua de sus procesos académicos y administrativos.[cite: 2]\n\nRegistrada en el Registro Nacional de Instituciones y Empresas Científicas y Tecnológicas (RENIECYT), y en cumplimiento con los lineamientos de la Secretaría de Educación del Estado de Morelos.[cite: 2]\n\nEstas acreditaciones garantizan que tu formación, los planes de estudio, los procesos de enseñanza-aprendizaje y los servicios que recibes como estudiante se mantengan siempre alineados con los más altos estándares nacionales e internacionales de excelencia educativa.[cite: 2]",
+        "icon": "🏅",
+        "badge": "Excelencia Académica",
+        "courses": ["Acreditación 7 FIMPES", "ISO 9001:2015", "RENIECYT"],
+        "jobs": [
+          "Calidad Educativa",
+          "Reconocimiento Nacional",
+          "Respaldo Institucional"
+        ]
+      }
+    ],
+    "imageHorizontal": "eco h.webp",
+    "imageVertical": "eco v.webp",
+    "duration": "8 SEMESTRES[cite: 2]",
+    "programType": "Licenciatura",
+    "rvoe": "2006P02302/2006-05-12[cite: 2]",
+    "perfilEgreso": "En la Universidad Internacional te preparamos para comprender, analizar y transformar el entorno económico y financiero con una visión estratégica, ética y global.[cite: 2] Aquí aprenderás a interpretar los mercados, evaluar escenarios económicos y tomar decisiones financieras sólidas que generen estabilidad y crecimiento, tanto en México como en el contexto internacional.[cite: 2] Desarrollarás habilidades para analizar indicadores macroeconómicos, gestionar inversiones, evaluar proyectos y optimizar recursos en organizaciones públicas y privadas.[cite: 2] Además, fortalecerás tu capacidad para diseñar estrategias financieras que impulsen la rentabilidad, minimicen riesgos y respondan de manera efectiva a los cambios del entorno económico.[cite: 2] También adquirirás competencias en análisis de datos, uso de herramientas tecnológicas y modelos econométricos que te permitirán anticipar tendencias, identificar oportunidades y proponer soluciones innovadoras.[cite: 2] El dominio de un segundo idioma ampliará tus oportunidades en mercados globales, instituciones financieras internacionales y proyectos multiculturales.[cite: 2] Todo ello con un enfoque responsable, ético y comprometido con el desarrollo sostenible, la estabilidad económica y el bienestar de la sociedad.[cite: 2]",
+    "lineasInvestigacion": [
+      "Finanzas Corporativas[cite: 2]",
+      "Mercados Financieros y Bursátiles[cite: 2]",
+      "Economía Aplicada y Análisis Macroeconómico[cite: 2]",
+      "Econometría y Análisis de Datos[cite: 2]",
+      "Finanzas Públicas y Política Fiscal[cite: 2]",
+      "Banca y Sistema Financiero[cite: 2]",
+      "Inversión y Gestión de Riesgos[cite: 2]",
+      "Economía Internacional y Comercio Exterior[cite: 2]",
+      "Planeación Estratégica y Consultoría Financiera[cite: 2]"
+    ],
+    "ventajasTransversales": [
+      "Formación integral en economía, finanzas y análisis de datos.[cite: 2]",
+      "Enfoque en mercados nacionales e internacionales.[cite: 2]",
+      "Certificados de especialización durante la carrera.[cite: 2]",
+      "Desarrollo de habilidades en econometría, análisis financiero e inteligencia de negocios.[cite: 2]",
+      "Formación en tecnologías emergentes como Blockchain y Machine Learning.[cite: 2]",
+      "Oportunidades de movilidad internacional y doble titulación.[cite: 2]",
+      "Preparación para organismos financieros nacionales e internacionales.[cite: 2]",
+      "Desarrollo de habilidades para la toma de decisiones basada en datos.[cite: 2]"
+    ],
+    "faq": [
+      {
+        "q": "¿Cuánto dura la carrera?",
+        "a": "8 semestres.[cite: 2]"
+      },
+      {
+        "q": "¿Necesito ser experto en matemáticas?",
+        "a": "No. Durante la carrera desarrollarás progresivamente las habilidades matemáticas y analíticas necesarias.[cite: 2]"
+      },
+      {
+        "q": "¿Puedo trabajar en bancos?",
+        "a": "Sí. El programa te prepara para desempeñarte en bancos, casas de bolsa, aseguradoras, consultorías y empresas nacionales e internacionales.[cite: 2]"
+      },
+      {
+        "q": "¿Puedo trabajar en organismos internacionales?",
+        "a": "Sí. Tu formación incluye economía internacional, finanzas globales y dominio de un segundo idioma, lo que fortalece tu perfil para instituciones como el FMI, Banco Mundial, CEPAL y otros organismos internacionales.[cite: 2]"
+      },
+      {
+        "q": "¿Qué certificaciones puedo obtener?",
+        "a": "Podrás especializarte en Transformación Digital y Liderazgo 4.0, fortaleciendo tu perfil profesional en tecnologías emergentes y liderazgo organizacional.[cite: 2]"
+      },
+      {
+        "q": "¿Qué diferencia a UNINTER de otras universidades?",
+        "a": "Su enfoque internacional, la doble titulación, la formación en tecnologías aplicadas a las finanzas, la movilidad académica, las certificaciones de especialización y una preparación integral para responder a los retos de la economía global.[cite: 2]"
+      }
+    ],
+    "objetivo": "Formar profesionales altamente analíticos con visión global, capaces de comprender, evaluar y transformar el entorno económico y financiero. A través del dominio de modelos econométricos, análisis de datos y estrategias de inversión, el programa busca que los estudiantes desarrollen la capacidad de anticipar escenarios, optimizar recursos y liderar la toma de decisiones financieras sólidas en los sectores público y privado a nivel nacional e internacional.",
+    "hero_section": {
+      "headline": "Tienes el poder de impactar a la sociedad desde Economía y Finanzas. Hazte escuchar.",
+      "subheadline": "Analiza. Interviene. Lidera el cambio humano. Prepárate para gestionar talento y transformar instituciones a nivel global.",
+      "tag_marketing": "La carrera para los agentes de cambio."
+    },
+    "el_desafio": "¿No te conformas con observar la realidad, sino que deseas cambiarla de raíz? Si te apasiona el análisis social, humano o jurídico para resolver conflictos estructurales, este es tu escenario. Deja de cuestionar y empieza a transformar.",
+    "vision_de_exito": "Imagina dirigir proyectos estratégicos. Serás un especialista en Economía y Finanzas capaz de innovar procesos, gestionar recursos al más alto nivel y liderar equipos multidisciplinarios en las mejores organizaciones del mundo.",
+    "arsenal_tecnologico": [
+      {
+        "title": "Centro de Análisis Jurídico y Psicológico",
+        "marketing_pitch": "Desarrolla tu expertise con casos 100% reales.",
+        "features": [
+          "Cámara de Gesell para prácticas forenses/psicológicas.",
+          "Sala de juicios orales de primer nivel.",
+          "Software especializado de análisis de datos cualitativos."
+        ],
+        "icon": "⚖️"
+      },
+      {
+        "title": "Plataforma de Simulación y Relaciones Internacionales",
+        "marketing_pitch": "Negocia tratados y resuelve crisis en tiempo real.",
+        "features": [
+          "Sala de geopolítica y debates modelo ONU.",
+          "Software de análisis estadístico poblacional.",
+          "Simulación diplomática y de cabildeo."
+        ],
+        "icon": "🌍"
+      }
+    ],
+    "power_skills": [
+      {
+        "title": "Certificación en Intervención y Resolución de Conflictos",
+        "benefit": "Aplica estrategias de mediación de alto nivel para organismos internacionales.",
+        "top_jobs": ["Analista Estratégico", "Consultor Gubernamental"]
+      },
+      {
+        "title": "Certificación en Gestión de Talento Humano",
+        "benefit": "Diagnostica y potencia equipos corporativos.",
+        "top_jobs": ["Director de RRHH", "Reclutador Especializado"]
+      }
+    ],
+    "cta": {
+      "texto_boton": "Inicia tu proceso de admisión",
+      "mensaje": "La industria de Economía y Finanzas no va a esperar. Da el primer paso hacia tu éxito corporativo hoy."
+    },
+    "whyUninter": [
+      {
+        "text": "Prácticas en Escenarios Reales",
+        "evidence": "Aplica la teoría inmediatamente en centros de práctica, clínicas o instituciones aliadas de primer nivel.",
+        "icon": "Users"
+      },
+      {
+        "text": "Impacto Social",
+        "evidence": "Desarrolla proyectos de intervención que generan un cambio positivo y tangible en la comunidad.",
+        "icon": "Heart"
+      },
+      {
+        "text": "Formación Integral",
+        "evidence": "Combina el rigor científico con un profundo sentido ético y humano, destacando en cualquier entorno profesional.",
+        "icon": "ShieldCheck"
+      }
+    ]
   }
 }

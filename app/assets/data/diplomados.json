@@ -5,36 +5,17 @@
     "name": "Diplomado en Creatividad y Publicidad",
     "area": "Gerenciales – Publicidad",
     "tagline": "Actualización y especialización en Creatividad y Publicidad",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Creatividad y Publicidad en el mercado actual.",
-    "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Creatividad y Publicidad.",
+    "description": "Formar personas con conocimientos en publicidad capaces de analizar campañas publicitarias y desarrollar habilidades creativas, dentro de un entorno ético y de responsabilidad social, a través del uso de herramientas de mercadotecnia y publicidad en proyectos específicos.",
+    "ingreso": "Personas relacionadas al ámbito o con interés en el área de la Publicidad, Comunicación, Diseño Gráfico o la Mercadotecnia con Conocimiento en las disciplinas básicas de publicidad y mercadotecnia. Con capacidad de análisis, síntesis y sensibilidad hacía las diversas campañas y spots publicitarios.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Creatividad y Publicidad.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Creatividad y Publicidad.",
-    "duracion": "120 Horas",
+    "duracion": "128 hrs.",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Creatividad y Publicidad",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
-      ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
-      ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
-      ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Contenido Temático": [
+        "Promoción y Publicidad",
+        "Seminario de Campañas Publicitarias I",
+        "Seminario, Sociedad y Publicidad",
+        "Taller de Creatividad"
       ]
     }
   },
@@ -44,36 +25,17 @@
     "name": "Diplomado en Mercadotecnia y Publicidad",
     "area": "Gerenciales – Publicidad",
     "tagline": "Actualización y especialización en Mercadotecnia y Publicidad",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Mercadotecnia y Publicidad en el mercado actual.",
-    "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Mercadotecnia y Publicidad.",
+    "description": "Formar personas con conocimientos en publicidad y mercadotecnia básica capaces de analizar y aplicar herramientas creativas, mercadológicas y publicitarias, dentro de un entorno ético y de responsabilidad social a proyectos específicos.",
+    "ingreso": "Capacidad de análisis y e interpretación de estados financieros en organizaciones nacionales e internacionales.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Mercadotecnia y Publicidad.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Mercadotecnia y Publicidad.",
-    "duracion": "120 Horas",
+    "duracion": "128 hrs.",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Mercadotecnia y Publicidad",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
-      ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
-      ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
-      ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Contenido Temático": [
+        "Análisis de Audiencias y Medios de Comunicación",
+        "Motivación de Compra e Investigación de Mercados",
+        "Seminario de Campañas Publicitarias II",
+        "Seminario de Mercadotecnia"
       ]
     }
   },
@@ -83,36 +45,23 @@
     "name": "Diplomado en Estrategias y Experiencias Digitales",
     "area": "Gerenciales – Marketing Digital",
     "tagline": "Actualización y especialización en Estrategias y Experiencias Digitales",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Estrategias y Experiencias Digitales en el mercado actual.",
+    "description": "Diseñar estrategias digitales de alto impacto que integren análisis, creatividad y planeación estratégica para optimizar la experiencia del usuario, fortalecer el posicionamiento de marca y generar ventajas competitivas sostenibles en entornos digitales.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Estrategias y Experiencias Digitales.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Estrategias y Experiencias Digitales.",
-    "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Estrategias y Experiencias Digitales.",
-    "duracion": "120 Horas",
+    "egreso": "Capacidad de análisis, diseño y ejecución de experiencias digitales centradas en el usuario, desarrollo de estrategias avanzadas de marketing en entornos web y móviles, implementación de proyectos de comercio electrónico y aplicaciones funcionales, así como evaluación de métricas y resultados para la optimización continua de campañas digitales.",
+    "duracion": "136 hrs.",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Estrategias y Experiencias Digitales",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
+      "Diseño de Experiencias (UI/UX)": [
+        "Analizar y aplicar los principios del diseño centrado en el usuario para crear experiencias digitales funcionales, accesibles y atractivas que fortalezcan la relación entre las marcas y sus audiencias."
       ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
+      "Implementación de Campañas y Estrategias Digitales": [
+        "Diseñar e implementar campañas digitales integrales mediante el uso de herramientas de análisis, segmentación y automatización, orientadas al cumplimiento de objetivos de marketing medibles y a la optimización del retorno de inversión (ROI)."
       ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
+      "Comercio Electrónico": [
+        "Desarrollar estrategias de venta en línea mediante plataformas de e-commerce, aplicando conceptos de experiencia de compra, gestión de catálogo, seguridad digital y atención al cliente en entornos virtuales."
       ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Mobile Marketing y Diseño de Aplicaciones": [
+        "Diseñar estrategias de marketing enfocadas en dispositivos móviles y desarrollar aplicaciones funcionales que favorezcan la interacción, fidelización y conversión de los usuarios en entornos digitales."
       ]
     }
   },
@@ -122,36 +71,27 @@
     "name": "Diplomado en Inteligencia Artificial Aplicada a los Negocios",
     "area": "Inteligencia Artificial",
     "tagline": "Actualización y especialización en Inteligencia Artificial Aplicada a los Negocios",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Inteligencia Artificial Aplicada a los Negocios en el mercado actual.",
-    "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Inteligencia Artificial Aplicada a los Negocios.",
+    "description": "Proporcionar una formación integral en el uso estratégico de la Inteligencia Artificial (IA), a través del uso de herramientas prácticas y aplicación de conocimientos técnicos con diferentes usos de la IA generativa, aplicables en estrategias de planeación de trabajo y aprendizajes basados en problemas (ABP) y/o aprendizaje orientado a proyectos (AOP), creación de contenido, etc., que permitan la implementación de soluciones innovadoras que generen valor en diversas áreas de los negocios, como finanzas, mercadotecnia, salud, arte, diseño, entre otras, además de optimizar procesos y tomar decisiones informadas en el ámbito empresarial.",
+    "ingreso": "Interés y curiosidad por la innovación tecnológica, especialmente la inteligencia artificial, y su potencial para transformar el mundo de los negocios. Es recomendable que el aspirante tenga un conocimiento previo en tecnología. Capacidad analítica para solucionar problemas. Mentalidad enfocada en la mejora continua, optimización de procesos y toma de decisiones. Habilidades para trabajar en equipo. Interés en la gestión de proyectos, así como un pensamiento crítico. Comprometido con aplicar los conocimientos adquiridos para mejorar los procesos, la competitividad y la sostenibilidad de los negocios. Compromiso con la ética y la responsabilidad social al utilizar la inteligencia artificial.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Inteligencia Artificial Aplicada a los Negocios.",
-    "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Inteligencia Artificial Aplicada a los Negocios.",
-    "duracion": "120 Horas",
+    "egreso": "Aplicar herramientas de IA en la toma de decisiones y optimización de procesos. Diseñar proyectos empresariales con machine learning y big data. Analizar datos para generar estrategias de negocio efectivas. Implementar soluciones de IA en marketing, finanzas y gestión del talento. Actuar con responsabilidad ética y social en el uso de la IA. Identificar tendencias y oportunidades futuras en inteligencia artificial.",
+    "duracion": "1 año (2 semestres)",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Inteligencia Artificial Aplicada a los Negocios",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
+      "Semestre 1": [
+        "Introducción a la Inteligencia Artificial y su Impacto en los Negocios",
+        "Fundamentos de Machine Learning",
+        "Data Science y Preparación de Datos para Inteligencia Artificial",
+        "Inteligencia Artificial en Marketing Digital",
+        "Automatización de Procesos Empresariales con Inteligencia Artificial",
+        "Inteligencia Artificial en Finanzas y Gestión de Riesgos",
+        "Big Data y su Relación con la Inteligencia Artificial"
       ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
-      ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
-      ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Semestre 2": [
+        "Redes Neuronales y Deep Learning",
+        "Ética, Privacidad y Gobernanza de la Inteligencia Artificial",
+        "Implementación de Soluciones de Inteligencia Artificial en Empresas",
+        "Inteligencia Artificial en la Gestión del Talento y Recursos Humanos",
+        "Tendencias Futuras y Oportunidades de la Inteligencia Artificial en los Negocios"
       ]
     }
   },
@@ -161,36 +101,23 @@
     "name": "Diplomado en Administración de la Tecnología en Línea",
     "area": "Innovación Digital",
     "tagline": "Actualización y especialización en Administración de la Tecnología en Línea",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Administración de la Tecnología en Línea en el mercado actual.",
-    "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Administración de la Tecnología en Línea.",
+    "description": "Formar profesionales capaces de administrar y gestionar proyectos tecnológicos de manera estratégica, integrando conocimientos de propiedad intelectual, gestión tecnológica y responsabilidad social, para fortalecer la competitividad y la innovación dentro de las organizaciones.",
+    "ingreso": "Profesionistas de cualquier área que participen o deseen participar en proyectos tecnológicos. Directivos, mandos medios y coordinadores que toman decisiones relacionadas con la implementación de tecnología. Emprendedores y dueños de negocio que buscan optimizar procesos mediante el uso estratégico de la tecnología. Docentes y consultores interesados en la gestión tecnológica y la innovación organizacional.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Administración de la Tecnología en Línea.",
-    "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Administración de la Tecnología en Línea.",
-    "duracion": "120 Horas",
+    "egreso": "Planear y administrar proyectos tecnológicos con enfoque estratégico. Gestionar la tecnología como un recurso clave para la competitividad organizacional. Aplicar principios básicos de propiedad intelectual en entornos digitales y tecnológicos. Integrar criterios de responsabilidad social en la toma de decisiones tecnológicas.",
+    "duracion": "1 semestre",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Administración de la Tecnología en Línea",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
+      "Módulo I": [
+        "Administración de Proyectos Tecnológicos"
       ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
+      "Módulo II": [
+        "Propiedad Intelectual"
       ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
+      "Módulo III": [
+        "Gestión de la Tecnología"
       ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Módulo IV": [
+        "Responsabilidad Social"
       ]
     }
   },
@@ -200,36 +127,23 @@
     "name": "Diplomado en Innovación y Transferencia Tecnológicas",
     "area": "Innovación Digital",
     "tagline": "Actualización y especialización en Innovación y Transferencia Tecnológicas",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Innovación y Transferencia Tecnológicas en el mercado actual.",
-    "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Innovación y Transferencia Tecnológicas.",
+    "description": "Formar profesionales capaces de aplicar modelos estratégicos de innovación, gestionar procesos financieros y de mercadotecnia asociados a tecnología, y liderar procesos de transferencia tecnológica efectiva para maximizar el valor y la competitividad de organizaciones en entornos dinámicos.",
+    "ingreso": "Profesionistas que desean impulsar procesos de innovación dentro de su organización. Líderes, mandos medios o directivos que participan en la toma de decisiones estratégicas relacionadas con mercado, finanzas e innovación. Emprendedores interesados en desarrollar proyectos tecnológicos con enfoque de mercado y escalabilidad. Consultores y asesores que trabajan con innovación, tecnología y transferencia de conocimiento.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Innovación y Transferencia Tecnológicas.",
-    "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Innovación y Transferencia Tecnológicas.",
-    "duracion": "120 Horas",
+    "egreso": "Formular e implementar estrategias financieras alineadas con objetivos tecnológicos y de negocio. Desarrollar planes de mercadotecnia orientados al producto, servicio o innovación tecnológica. Gestionar procesos de innovación y evaluarlos para incrementar valor competitivo. Planear y ejecutar procesos de transferencia tecnológica que conecten investigación, empresa y mercado.",
+    "duracion": "1 semestre",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Innovación y Transferencia Tecnológicas",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
+      "Módulo I": [
+        "Dirección Estratégica Financiera"
       ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
+      "Módulo II": [
+        "Mercadotecnia Estratégica"
       ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
+      "Módulo III": [
+        "Investigación y Administración de la Innovación Tecnológica"
       ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Módulo IV": [
+        "Transferencia Tecnológica"
       ]
     }
   },
@@ -239,36 +153,23 @@
     "name": "Diplomado en Arquitectura, Diseño y Legislación de Redes y Tecnologías Web",
     "area": "Innovación Digital",
     "tagline": "Actualización y especialización en Arquitectura, Diseño y Legislación de Redes y Tecnologías Web",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Arquitectura, Diseño y Legislación de Redes y Tecnologías Web en el mercado actual.",
-    "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Arquitectura, Diseño y Legislación de Redes y Tecnologías Web.",
+    "description": "Desarrollar en los participantes una visión integral de las redes de computadoras y las tecnologías web, combinando arquitectura, diseño y legislación, que les permita crear, evaluar y gestionar soluciones digitales con alto impacto en entornos profesionales y organizacionales.",
+    "ingreso": "Profesionistas del área de tecnologías de la información interesados en redes y tecnologías web. Administradores de sistemas que buscan ampliar sus conocimientos en diseño de interfaces y legislación digital. Desarrolladores web y consultores tecnológicos que desean fortalecer su visión integral y estratégica. Estudiantes con interés en infraestructura de redes, entornos web y regulación de telecomunicaciones. Interés por redes de computadoras, tecnologías web y normatividad digital.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Arquitectura, Diseño y Legislación de Redes y Tecnologías Web.",
-    "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Arquitectura, Diseño y Legislación de Redes y Tecnologías Web.",
-    "duracion": "120 Horas",
+    "egreso": "Comprender y aplicar los principios de arquitectura y funcionamiento de redes de computadoras. Diseñar interfaces web funcionales y orientadas a la experiencia del usuario. Identificar y aplicar la legislación y normatividad vigente en telecomunicaciones y tecnologías digitales. Utilizar tecnologías web actuales para el desarrollo y evaluación de soluciones tecnológicas con estándares de calidad.",
+    "duracion": "1 semestre",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Arquitectura, Diseño y Legislación de Redes y Tecnologías Web",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
+      "Módulo I": [
+        "Arquitectura de Redes de Computadoras"
       ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
+      "Módulo II": [
+        "Diseño de Interfaces Visuales"
       ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
+      "Módulo III": [
+        "Legislación y Normalización de Telecomunicaciones"
       ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Módulo IV": [
+        "Tecnologías y Aplicaciones Web"
       ]
     }
   },
@@ -278,36 +179,23 @@
     "name": "Diplomado en Crear y Contar Historias con Animación Digital",
     "area": "Era Digital",
     "tagline": "Actualización y especialización en Crear y Contar Historias con Animación Digital",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Crear y Contar Historias con Animación Digital en el mercado actual.",
+    "description": "Desarrollar competencias técnicas y creativas en animación digital, que te permitan crear y producir contenidos visuales con una narrativa sólida, original y atractiva para medios digitales, cine, redes sociales, videojuegos o publicidad.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Crear y Contar Historias con Animación Digital.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Crear y Contar Historias con Animación Digital.",
-    "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Crear y Contar Historias con Animación Digital.",
-    "duracion": "120 Horas",
+    "egreso": "Aplicar herramientas de IA en la toma de decisiones y optimización de procesos. Diseñar proyectos empresariales con machine learning y big data. Analizar datos para generar estrategias de negocio efectivas. Implementar soluciones de IA en marketing, finanzas y gestión del talento. Actuar con responsabilidad ética y social en el uso de la IA. Identificar tendencias y oportunidades futuras en inteligencia artificial.",
+    "duracion": "1 semestre",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Crear y Contar Historias con Animación Digital",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
+      "Animación Bidimensional (2D)": [
+        "Animación 2D: personajes, movimientos y escenas en plano bidimensional."
       ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
+      "Animación Tridimensional (3D) I": [
+        "Animación 3D: modelado y animación en entornos tridimensionales."
       ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
+      "Edición y Post-Producción de Video Digital": [
+        "Edición y postproducción: integra efectos visuales, sonido y montaje."
       ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Narrativas Audiovisuales": [
+        "Narrativas audiovisuales: estructura y ritmo para contar historias impactantes."
       ]
     }
   },
@@ -317,36 +205,23 @@
     "name": "Diplomado en Producción Creativa y Posicionamiento Digital",
     "area": "Era Digital",
     "tagline": "Actualización y especialización en Producción Creativa y Posicionamiento Digital",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Producción Creativa y Posicionamiento Digital en el mercado actual.",
-    "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Producción Creativa y Posicionamiento Digital.",
+    "description": "Formar creadores capaces de desarrollar proyectos audiovisuales complejos con animación, efectos visuales y diseño sonoro, combinando sus habilidades con estrategias de marketing digital para potenciar la visibilidad, el alcance y el posicionamiento de sus contenidos en medios y plataformas digitales.",
+    "ingreso": "Personas interesadas en la producción audiovisual, la animación y el marketing digital. Estudiantes, egresados o profesionales de áreas como animación, diseño, comunicación, publicidad, producción multimedia o afines. Creadores de contenido, emprendedores o artistas digitales que deseen frtalecer su presencia en medios digitales. Se recomienda contar con conocimientos básicos en animación o herramientas de diseño.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Producción Creativa y Posicionamiento Digital.",
-    "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Producción Creativa y Posicionamiento Digital.",
-    "duracion": "120 Horas",
+    "egreso": "Producir contenidos audiovisuales complejos con animación 3D, efectos especiales y diseño sonoro. Desarrollar campañas de posicionamiento digital para promocionar tus productos, marcas o servicios creativos. Integrar herramientas profesionales de producción audiovisual con estrategias de marketing digital. Diseñar propuestas visuales innovadoras adaptadas a diferentes medios y plataformas. Presentar un portafolio completo con proyectos listos para el mercado digital.",
+    "duracion": "4 Módulos",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Producción Creativa y Posicionamiento Digital",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
+      "Animación Tridimensional (3D) II": [
+        "Animación 3D avanzada: creación de personajes, movimientos complejos y escenarios digitales."
       ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
+      "Producción y Ensamble de Audio Digital": [
+        "Producción y ensamble de audio digital: diseño sonoro profesional para tus contenidos."
       ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
+      "Animación y Efectos Especiales": [
+        "Efectos especiales: integración de VFX en proyectos audiovisuales."
       ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Marketing Digital": [
+        "Marketing digital: posicionamiento de productos creativos en redes sociales y entornos digitales."
       ]
     }
   },
@@ -356,36 +231,29 @@
     "name": "Diplomado en Psicopedagogía Aplicada",
     "area": "Psicología",
     "tagline": "Actualización y especialización en Psicopedagogía Aplicada",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Psicopedagogía Aplicada en el mercado actual.",
-    "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Psicopedagogía Aplicada.",
+    "description": "La Universidad Internacional ofrece este diplomado dirigido tanto, para alumnos egresados de licenciatura y/o posgrado, en áreas como Psicología, Educación, Pedagogía, como para profesores y profesionistas que trabajen en contextos educativos, clínicos o comunitarios, que busquen fortalecer sus habilidades para el diagnóstico, intervención y acompañamiento de procesos de aprendizaje. El diplomado cuenta con sólidos conocimientos teóricos y prácticos en psicopedagogía, que le permiten comprender y distinguir las principales teorías psicológicas del aprendizaje que, con fines diagnósticos integrará a los principios de la neuroeducación así como estrategias tecnológicas para los procesos del aprendizaje a la vez que, implementará técnicas de evaluación psicoeducativas basadas en diversos modelos de intervención, empleando recursos creativos y sensoriales para potenciar la expresión y el desarrollo artístico de los estudiantes, tomando en consideración su experiencia previa en docencia, la intervención educativa o trabajo con niños, adolescentes o poblaciones con necesidades educativas especiales.",
+    "ingreso": "Egresado de licenciatura y/o posgrado en psicología, educación y pedagogía. Profesionista con interés y/o experiencia en la psicopedagogía.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Psicopedagogía Aplicada.",
-    "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Psicopedagogía Aplicada.",
-    "duracion": "120 Horas",
+    "egreso": "Dominio de estrategias de aprendizaje para generar ambientes de aprendizaje aptos. Comprensión y fortalecimiento de la emoción y la memoria en los procesos de aprendizaje, a través de la creación de ambientes óptimos. Capacidad para incorporar estrategias psicopedagógicas adecuadas a las necesidades educativas especiales. Capacidad para proponer intervenciones psicoeducativias eficientes y éticas. Comprensión e intervención en situaciones educativas conflictivas. Promoción de habilidades artísitcas y plásticas en los infantes.",
+    "duracion": "36 días",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Psicopedagogía Aplicada",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
+      "Módulo I": [
+        "Psicopedagogía aplicada de la Enseñanza (6 días)"
       ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
+      "Módulo II": [
+        "Neuroeducación y estrategias en el aula (6 días)"
       ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
+      "Módulo III": [
+        "Educativa: Enfoques y Aplicaciones (6 días)"
       ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
+      "Módulo IV": [
+        "Diagnóstico y evaluación Psicoeducativa (6 días)"
       ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Módulo V": [
+        "Seminario de la Práctica Profesional Psicopedagógica (6 días)"
+      ],
+      "Módulo VI": [
+        "Psicoexpresión Sensorial (6 días)"
       ]
     }
   },
@@ -395,36 +263,23 @@
     "name": "Diplomado en Doblaje Profesional para Cine, Televisión y Streaming",
     "area": "Doblaje Profesional",
     "tagline": "Actualización y especialización en Doblaje Profesional para Cine, Televisión y Streaming",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Doblaje Profesional para Cine, Televisión y Streaming en el mercado actual.",
-    "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Doblaje Profesional para Cine, Televisión y Streaming.",
+    "description": "Formar profesionales capaces de realizar doblaje de manera integral —desde la interpretación y adaptación de guiones del idioma original al español hasta la locución, sincronía, producción y postproducción— dominando herramientas líderes como Pro Tools y construyendo un reel profesional; todo ello bajo estándares internacionales y con la guía de directores activos en la industria, para facilitar su inserción laboral en casas de doblaje y proyectos de cine, televisión y plataformas de streaming.",
+    "ingreso": "Interés genuino en el doblaje, la actuación y la locución (perfil abierto a cualquier persona interesada). Comunicación oral sólida en español: lectura en voz alta, dicción y buena ortografía. Sensibilidad auditiva para ritmo, entonación y sincronía labial (lip-sync). Disposición para interpretar, improvisar y trabajar en equipo bajo dirección. Disponibilidad de tiempo: viernes por la tarde y sábados por la mañana/mediodía durante un semestre (2 h semanales por módulo). Habilidades digitales básicas y apertura para aprender producción y postproducción con Pro Tools (no se requiere certificación previa). Recomendable para práctica en casa: computadora, conexión estable, audífonos cerrados y micrófono básico. Hábitos de cuidado de la voz y salud vocal básica. Deseable (no obligatorio): comprensión lectora de inglés u otros idiomas para apoyar la adaptación de guiones. Actitudes de disciplina, constancia, puntualidad y respeto a estándares profesionales.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Doblaje Profesional para Cine, Televisión y Streaming.",
-    "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Doblaje Profesional para Cine, Televisión y Streaming.",
-    "duracion": "120 Horas",
+    "egreso": "Profesionales capaces de interpretar y adaptar guiones y locución a partir de materiales audiovisuales, del idioma original al español. Actores que apliquen las técnicas específicas de la actuación para realizar un doblaje profesional, tanto de series de televisión o streaming como de material cinematográfico. Locutores que controlen su voz y la dominen tanto para doblaje, como para locución comercial. Producir su propio material de doblaje, generando un portafolio para poder mostrar al acudir a castings.",
+    "duracion": "1 Semestre",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Doblaje Profesional para Cine, Televisión y Streaming",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
+      "Módulo I": [
+        "Técnicas de Locución para Doblaje"
       ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
+      "Módulo II": [
+        "Producción y Post-Producción de Doblaje"
       ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
+      "Módulo III": [
+        "Técnicas de Actuación e Interpretación para Doblaje"
       ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Módulo IV": [
+        "Técnicas de Doblaje"
       ]
     }
   },
@@ -434,36 +289,17 @@
     "name": "Diplomado en Comercio Exterior y Contratos Internacionales",
     "area": "Gerenciales – Relaciones Mercantiles Internacionales",
     "tagline": "Actualización y especialización en Comercio Exterior y Contratos Internacionales",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Comercio Exterior y Contratos Internacionales en el mercado actual.",
+    "description": "Formar especialistas en Relaciones Mercantiles Internacionales capaces de negociar en términos legales y económicos contratos mercantiles en los ámbitos público y/o privado a escala local, nacional e internacional. Asimismo, capaces de ofrecer soluciones a problemáticas mercantiles, a través de la investigación en áreas jurídicas y corporativas estratégicas haciendo uso de la tecnología educativa para crear mejores ambientes de enseñanza-aprendizaje en sus contextos pedagógicos, para favorecer la apertura de mercados de bienes y servicios comprometidos con la responsabilidad que tienen las empresas en la sociedad y el desarrollo sustentable.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Comercio Exterior y Contratos Internacionales.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Comercio Exterior y Contratos Internacionales.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Comercio Exterior y Contratos Internacionales.",
-    "duracion": "120 Horas",
+    "duracion": "128 hrs.",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Comercio Exterior y Contratos Internacionales",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
-      ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
-      ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
-      ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Contenido Temático": [
+        "Calidades Migratorias",
+        "Contratos Mercantiles",
+        "Legislación del Comercio Exterior",
+        "Propiedad Intelectual"
       ]
     }
   },
@@ -473,36 +309,17 @@
     "name": "Diplomado en Derecho Aduanero y Marco Jurídico de la Competencia Económica",
     "area": "Gerenciales – Relaciones Mercantiles Internacionales",
     "tagline": "Actualización y especialización en Derecho Aduanero y Marco Jurídico de la Competencia Económica",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Derecho Aduanero y Marco Jurídico de la Competencia Económica en el mercado actual.",
+    "description": "Formar especialistas en Relaciones Mercantiles Internacionales capaces de negociar en términos legales y económicos contratos mercantiles en los ámbitos público y/o privado a escala local, nacional e internacional. Asimismo, capaces de ofrecer soluciones a problemáticas mercantiles, a través de la investigación en áreas jurídicas y corporativas estratégicas haciendo uso de la tecnología educativa para crear mejores ambientes de enseñanza-aprendizaje en sus contextos pedagógicos, para favorecer la apertura de mercados de bienes y servicios comprometidos con la responsabilidad que tienen las empresas en la sociedad y el desarrollo sustentable.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Derecho Aduanero y Marco Jurídico de la Competencia Económica.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Derecho Aduanero y Marco Jurídico de la Competencia Económica.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Derecho Aduanero y Marco Jurídico de la Competencia Económica.",
-    "duracion": "120 Horas",
+    "duracion": "128 hrs.",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Derecho Aduanero y Marco Jurídico de la Competencia Económica",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
-      ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
-      ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
-      ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Contenido Temático": [
+        "Legislación Aduanera",
+        "Marco Jurídico de la Competencia Económica",
+        "Responsabilidad Social",
+        "Tratados Comerciales Internacionales"
       ]
     }
   },
@@ -512,36 +329,17 @@
     "name": "Diplomado en Paradigmas en la Enseñanza y Aprendizaje en Innovación Educativa",
     "area": "Gerenciales – Educación en Formación Docente",
     "tagline": "Actualización y especialización en Paradigmas en la Enseñanza y Aprendizaje en Innovación Educativa",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Paradigmas en la Enseñanza y Aprendizaje en Innovación Educativa en el mercado actual.",
+    "description": "Formar profesionistas en el campo de la Educación en Formación Docente capaces de diseñar, implementar, estructurar y fundamentar los principios de planeación y evaluación educativa de los modelos actuales, así como las estrategias innovadoras, para crear situaciones de enseñanza-aprendizaje, a partir de la relación epistemológica y tecnológica, para alcanzar una integración entre los componentes pedagógicos y didácticos en la transformación de la realidad contextual de la práctica docente.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Paradigmas en la Enseñanza y Aprendizaje en Innovación Educativa.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Paradigmas en la Enseñanza y Aprendizaje en Innovación Educativa.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Paradigmas en la Enseñanza y Aprendizaje en Innovación Educativa.",
-    "duracion": "120 Horas",
+    "duracion": "128 hrs.",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Paradigmas en la Enseñanza y Aprendizaje en Innovación Educativa",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
-      ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
-      ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
-      ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Contenido Temático": [
+        "Observación en el Aula",
+        "Psicología Educativa",
+        "Problemas de la Enseñanza en la Educación",
+        "Paradigmas de Aprendizaje e Innovación Educativa"
       ]
     }
   },
@@ -551,36 +349,17 @@
     "name": "Diplomado en Elaboración y Planeación Didáctica basado en el Modelo de Competencias",
     "area": "Gerenciales – Educación en Formación Docente",
     "tagline": "Actualización y especialización en Elaboración y Planeación Didáctica basado en el Modelo de Competencias",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Elaboración y Planeación Didáctica basado en el Modelo de Competencias en el mercado actual.",
+    "description": "Formar profesionistas en el campo de la Educación en Formación Docente capaces de diseñar, implementar, estructurar y fundamentar los principios de planeación y evaluación educativa de los modelos actuales, así como las estrategias innovadoras, para crear situaciones de enseñanza-aprendizaje, a partir de la relación epistemológica y tecnológica, para alcanzar una integración entre los componentes pedagógicos y didácticos en la transformación de la realidad contextual de la práctica docente.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Elaboración y Planeación Didáctica basado en el Modelo de Competencias.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Elaboración y Planeación Didáctica basado en el Modelo de Competencias.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Elaboración y Planeación Didáctica basado en el Modelo de Competencias.",
-    "duracion": "120 Horas",
+    "duracion": "128 hrs.",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Elaboración y Planeación Didáctica basado en el Modelo de Competencias",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
-      ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
-      ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
-      ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Contenido Temático": [
+        "Fundamentación y Planeación Didáctica",
+        "Seminario de Tesis I",
+        "Optativa I",
+        "Optativa II"
       ]
     }
   },
@@ -590,36 +369,17 @@
     "name": "Diplomado en Evaluación de los Diversos Modelos de Gestión Educativo",
     "area": "Gerenciales – Educación en Formación Docente",
     "tagline": "Actualización y especialización en Evaluación de los Diversos Modelos de Gestión Educativo",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Evaluación de los Diversos Modelos de Gestión Educativo en el mercado actual.",
+    "description": "Formar profesionistas en el campo de la Educación en Formación Docente capaces de diseñar, implementar, estructurar y fundamentar los principios de planeación y evaluación educativa de los modelos actuales, así como las estrategias innovadoras, para crear situaciones de enseñanza-aprendizaje, a partir de la relación epistemológica y tecnológica, para alcanzar una integración entre los componentes pedagógicos y didácticos en la transformación de la realidad contextual de la práctica docente.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Evaluación de los Diversos Modelos de Gestión Educativo.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Evaluación de los Diversos Modelos de Gestión Educativo.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Evaluación de los Diversos Modelos de Gestión Educativo.",
-    "duracion": "120 Horas",
+    "duracion": "128 hrs.",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Evaluación de los Diversos Modelos de Gestión Educativo",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
-      ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
-      ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
-      ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Contenido Temático": [
+        "Administración de Instituciones Educativas",
+        "Seminario de Tesis I",
+        "Optativa III",
+        "Optativa IV"
       ]
     }
   },
@@ -629,36 +389,17 @@
     "name": "Diplomado en Metodología y Adquisición de una Segunda Lengua",
     "area": "Gerenciales – Enseñanza del Español como Lengua Extranjera",
     "tagline": "Actualización y especialización en Metodología y Adquisición de una Segunda Lengua",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Metodología y Adquisición de una Segunda Lengua en el mercado actual.",
+    "description": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Metodología y Adquisición de una Segunda Lengua.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Metodología y Adquisición de una Segunda Lengua.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Metodología y Adquisición de una Segunda Lengua.",
-    "duracion": "120 Horas",
+    "duracion": "128 hrs.",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Metodología y Adquisición de una Segunda Lengua",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
-      ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
-      ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
-      ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Contenido Temático": [
+        "Adquisición de una Segunda Lengua / Lengua Extranjera",
+        "Lingüística Histórica del Español",
+        "Metodología de la Enseñanza de Lenguas Extranjeras",
+        "Responsabilidad Social"
       ]
     }
   },
@@ -668,36 +409,17 @@
     "name": "Diplomado en Desarrollo de Destrezas Lingüísticas",
     "area": "Gerenciales – Enseñanza del Español como Lengua Extranjera",
     "tagline": "Actualización y especialización en Desarrollo de Destrezas Lingüísticas",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Desarrollo de Destrezas Lingüísticas en el mercado actual.",
+    "description": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Desarrollo de Destrezas Lingüísticas.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Desarrollo de Destrezas Lingüísticas.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Desarrollo de Destrezas Lingüísticas.",
-    "duracion": "120 Horas",
+    "duracion": "128 hrs.",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Desarrollo de Destrezas Lingüísticas",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
-      ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
-      ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
-      ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Contenido Temático": [
+        "Lenguaje, Sociedad y Cultura",
+        "Metodología de la Investigación en la Adquisición de Lenguas",
+        "Desarrollo de destrezas Lingüísticas",
+        "Métodos Estadísticos Avanzados"
       ]
     }
   },
@@ -707,36 +429,17 @@
     "name": "Diplomado en Análisis del Uso del Español como Segunda Lengua para la Planeación de Metodologías Didácticas",
     "area": "Gerenciales – Enseñanza del Español como Lengua Extranjera",
     "tagline": "Actualización y especialización en Análisis del Uso del Español como Segunda Lengua para la Planeación de Metodologías Didácticas",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Análisis del Uso del Español como Segunda Lengua para la Planeación de Metodologías Didácticas en el mercado actual.",
+    "description": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Análisis del Uso del Español como Segunda Lengua para la Planeación de Metodologías Didácticas.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Análisis del Uso del Español como Segunda Lengua para la Planeación de Metodologías Didácticas.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Análisis del Uso del Español como Segunda Lengua para la Planeación de Metodologías Didácticas.",
-    "duracion": "120 Horas",
+    "duracion": "128 hrs.",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Análisis del Uso del Español como Segunda Lengua para la Planeación de Metodologías Didácticas",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
-      ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
-      ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
-      ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Contenido Temático": [
+        "Seminario de Tesis",
+        "La Pragmática y el Estudio del Español",
+        "Optativa I",
+        "Optativa II"
       ]
     }
   },
@@ -746,36 +449,17 @@
     "name": "Diplomado en Elaboración de Programas de Estudio para Español e Inglés como Segunda Lengua",
     "area": "Gerenciales – Enseñanza del Español como Lengua Extranjera",
     "tagline": "Actualización y especialización en Elaboración de Programas de Estudio para Español e Inglés como Segunda Lengua",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Elaboración de Programas de Estudio para Español e Inglés como Segunda Lengua en el mercado actual.",
+    "description": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Elaboración de Programas de Estudio para Español e Inglés como Segunda Lengua.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Elaboración de Programas de Estudio para Español e Inglés como Segunda Lengua.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Elaboración de Programas de Estudio para Español e Inglés como Segunda Lengua.",
-    "duracion": "120 Horas",
+    "duracion": "128 hrs.",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Elaboración de Programas de Estudio para Español e Inglés como Segunda Lengua",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
-      ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
-      ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
-      ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Contenido Temático": [
+        "Elaboración del Currículum de Lenguas",
+        "Gramática Comparativa del Inglés y del Español",
+        "Optativa III",
+        "Optativa IV"
       ]
     }
   },
@@ -785,36 +469,17 @@
     "name": "Diplomado en Tecnologías de la Información y Comunicación aplicadas a la Pedagogía",
     "area": "Gerenciales – Docencia del Español como Lengua Extranjera",
     "tagline": "Actualización y especialización en Tecnologías de la Información y Comunicación aplicadas a la Pedagogía",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Tecnologías de la Información y Comunicación aplicadas a la Pedagogía en el mercado actual.",
+    "description": "Formar especialistas con un alto dominio de la didáctica aplicada a la enseñanza del español como lengua extranjera, desarrollar conocimientos sólidos sobre sistemas de evaluación e implementación de programas de español haciendo énfasis en la evaluación de materiales, así como de la práctica docente.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Tecnologías de la Información y Comunicación aplicadas a la Pedagogía.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Tecnologías de la Información y Comunicación aplicadas a la Pedagogía.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Tecnologías de la Información y Comunicación aplicadas a la Pedagogía.",
-    "duracion": "120 Horas",
+    "duracion": "128 hrs.",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Tecnologías de la Información y Comunicación aplicadas a la Pedagogía",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
-      ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
-      ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
-      ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Contenido Temático": [
+        "Español para Fines Específicos",
+        "Desarrollo de Destrezas",
+        "Tecnología de la Información y la Comunicación",
+        "Gramática Comparativa del Inglés y del español"
       ]
     }
   },
@@ -824,36 +489,26 @@
     "name": "Diplomado en Diseño de Interiores",
     "area": "Diseño y Arte",
     "tagline": "Actualización y especialización en Diseño de Interiores",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Diseño de Interiores en el mercado actual.",
+    "description": "Generar habilidades metodológicas, técnicas y del pensamiento; a través de la adaptación de entornos, para formar especialistas en la creación y transformación de espacios útiles, funcionales y armónicos.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Diseño de Interiores.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Diseño de Interiores.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Diseño de Interiores.",
-    "duracion": "120 Horas",
+    "duracion": "5 Módulos",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Diseño de Interiores",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
+      "Módulo I": [
+        "Proyección Arquitectónica (36 Horas)"
       ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
+      "Módulo II": [
+        "Teoría del Color (24 Horas)"
       ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
+      "Módulo III": [
+        "Taller Experimental de Mobiliario (24 Horas)"
       ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
+      "Módulo IV": [
+        "Diseño y Morfología del Espacio (36 Horas)"
       ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Módulo V": [
+        "Taller de Diseño Interior y Modelado 3D"
       ]
     }
   },
@@ -863,36 +518,45 @@
     "name": "Diplomado en Fotografía",
     "area": "Diseño y Arte",
     "tagline": "Actualización y especialización en Fotografía",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Fotografía en el mercado actual.",
+    "description": "Desarrollar las habilidades técnicas y comunicativas que se requieren para el correcto manejo de una cámara profesional de 35mm a través de la identificación de sus elementos, uso de materiales y equipo, reconocimiento de características fotográficas, así como del análisis de las condiciones de luz y otros aspectos que construyen una buena imagen, logrando así diversos resultados fotográficos mediante distintos métodos de trabajo y la aplicación de la fotografía en sus distintas áreas de trabajo.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Fotografía.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Fotografía.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Fotografía.",
-    "duracion": "120 Horas",
+    "duracion": "173 hrs.",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Fotografía",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
+      "Módulo 1: Fundamentos y Composición": [
+        "Introducción al diplomado y qué es fotografía",
+        "Historia de la fotografía y principios básicos del laboratorio fotográfico",
+        "Lenguaje de la imagen, regla de tercios y encuadres",
+        "Ángulos, iluminación, sintaxis visual y perspectiva",
+        "Fotógrafos reconocidos mundiales y apreciación estética"
       ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
+      "Módulo 2: La Cámara Fotográfica y Lente": [
+        "La cámara, sus partes y tipos de cámaras",
+        "Diferencias entre la cámara análoga y digital",
+        "Las partes de un lente, longitud focal y tipos",
+        "La sensibilidad de la película y medición de luz",
+        "Enfoque, velocidades de obturación y aberturas de diafragma"
       ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
+      "Módulo 3: Fotografía en Blanco y Negro": [
+        "Escala de grises y contraste",
+        "El uso de los filtros",
+        "Uso del laboratorio para la fotografía análoga"
       ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
+      "Módulo 4: El Color y Temperatura": [
+        "Qué es el color y colores luz",
+        "Psicología, simbología y características del color",
+        "Construcción del color en la fotografía digital",
+        "Temperatura del color y filtros de corrección"
       ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Módulo 5: Luz Artificial": [
+        "El flash",
+        "Fotografía de estudio"
+      ],
+      "Módulo 6: Fotografía Digital y Laboratorio": [
+        "Estructura de la imagen digital y archivos",
+        "Laboratorio digital (Photoshop)",
+        "Fotografía y ética (derechos de autor y propiedad)"
       ]
     }
   },
@@ -902,36 +566,35 @@
     "name": "Diplomado en Diseño de Modas con Enfoque en Desarrollo de Colecciones",
     "area": "Diseño y Arte",
     "tagline": "Actualización y especialización en Diseño de Modas con Enfoque en Desarrollo de Colecciones",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Diseño de Modas con Enfoque en Desarrollo de Colecciones en el mercado actual.",
-    "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Diseño de Modas con Enfoque en Desarrollo de Colecciones.",
+    "description": "Desarrollar habilidades en diseño de modas y creación de colecciones, abarcando todo el proceso productivo, desde el análisis de tendencias internacionales hasta la conceptualización de ideas a través de técnicas de ilustración, corte y confección; para lograr documentar el proceso en un portafolio profesional aplicando estrategias de comunicación efectivas para crear colecciones funcionales que respondan a las necesidades de las personas.",
+    "ingreso": "Pasión por la moda y el diseño. Deseo de dar vida a ideas a través de la interpretación de tendencias. Dominio del proceso creativo. Habilidades en investigación de tendencias. Capacidad de trabajo en equipo. Aptitud para la presentación visual de colecciones. Creatividad y pensamiento innovador. Habilidades de comunicación efectiva.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Diseño de Modas con Enfoque en Desarrollo de Colecciones.",
-    "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Diseño de Modas con Enfoque en Desarrollo de Colecciones.",
-    "duracion": "120 Horas",
+    "egreso": "Diseñar y desarrollar colecciones de moda completas y funcionales. Interpretar tendencias internacionales y aplicarlas en propuestas creativas. Ilustrar figurines con técnicas tradicionales y digitales. Crear patrones a medida y confeccionar prendas con acabados profesionales. Aplicar bordados, estampados y técnicas textiles innovadoras. Desarrollar estrategias de branding y comunicación visual para sus colecciones. Asesorar en imagen personal, estilo y fashion styling. Elaborar un portafolio profesional competitivo para el mercado laboral. Gestionar proyectos de moda desde su conceptualización hasta su presentación final. Emprender su propia marca o integrarse a la industria del diseño con una visión integral.",
+    "duracion": "310 horas",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Diseño de Modas con Enfoque en Desarrollo de Colecciones",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
+      "Módulo 1": [
+        "Contexto y Tendencias Internacionales"
       ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
+      "Módulo 2": [
+        "Dibujo e Ilustración de la Moda"
       ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
+      "Módulo 3": [
+        "Fundamentos y Materiales Textiles"
       ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
+      "Módulo 4": [
+        "Taller de Patronaje a Medida con el Sistema Uninter"
       ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Módulo 5": [
+        "Taller de Métodos de Corte y Confección"
+      ],
+      "Módulo 6": [
+        "Comunicación Visual de Bordados y Estampados"
+      ],
+      "Módulo 7": [
+        "Desarrollo y Presentación de Portafolio Profesional"
+      ],
+      "Módulo 8": [
+        "Proyecto Integral Fashion Showroom"
       ]
     }
   },
@@ -941,36 +604,17 @@
     "name": "Diplomado en Administración de Obra I",
     "area": "Arquitectura y Construcción",
     "tagline": "Actualización y especialización en Administración de Obra I",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Administración de Obra I en el mercado actual.",
+    "description": "Formar especialistas de manera integral, que cuenten con el conocimiento administrativo y técnico suficiente, para desempeñarse de manera competitiva y eficaz en el ámbito de la construcción, con capacidades demostradas para la planeación, programación y control de todos los procesos que demanda un proyecto de edificación.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Administración de Obra I.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Administración de Obra I.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Administración de Obra I.",
-    "duracion": "120 Horas",
+    "duracion": "128 hrs.",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Administración de Obra I",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
-      ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
-      ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
-      ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Contenido Temático": [
+        "Administración de Operaciones en Edificación",
+        "Administración de Proyectos en Edificación",
+        "Costos y presupuestos de Construcción",
+        "Seminario de Administración de Proyectos de Obras en Edificación"
       ]
     }
   },
@@ -980,36 +624,17 @@
     "name": "Diplomado en Administración de Obra II",
     "area": "Arquitectura y Construcción",
     "tagline": "Actualización y especialización en Administración de Obra II",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Administración de Obra II en el mercado actual.",
+    "description": "Formar especialistas de manera integral, que cuenten con el conocimiento administrativo y técnico suficiente, para desempeñarse de manera competitiva y eficaz en el ámbito de la construcción, con capacidades demostradas para la planeación, programación y control de todos los procesos que demanda un proyecto de edificación.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Administración de Obra II.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Administración de Obra II.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Administración de Obra II.",
-    "duracion": "120 Horas",
+    "duracion": "128 hrs.",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Administración de Obra II",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
-      ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
-      ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
-      ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Contenido Temático": [
+        "El Entorno de la Empresa Constructora en México",
+        "Marco Legal de la Construcción",
+        "Proyectos de Inversión en Edificación",
+        "Sistemas de Información Aplicados a la Edificación"
       ]
     }
   },
@@ -1019,36 +644,23 @@
     "name": "Diplomado en Gestión Empresarial",
     "area": "Administrativos",
     "tagline": "Actualización y especialización en Gestión Empresarial",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Gestión Empresarial en el mercado actual.",
+    "description": "UNINTER te ofrece un ambiente multicultural donde podrás interactuar con estudiantes de otras nacionalidades. Por otro lado en sus diplomados encontrarás compañeros y profesores con perfiles académicos que podrán enriquecer tu experiencia.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Gestión Empresarial.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Gestión Empresarial.",
-    "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Gestión Empresarial.",
-    "duracion": "120 Horas",
+    "egreso": "El egresado del Diplomado en Gestión Empresarial estará preparado para asumir roles de responsabilidad en diversas áreas de la empresa, aportando con sus conocimientos y habilidades en la toma de decisiones estratégicas, la optimización de procesos, y la implementación de estrategias que contribuyan al crecimiento y sostenibilidad de la organización en un contexto global.",
+    "duracion": "128 horas",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Gestión Empresarial",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
+      "Matemáticas Administrativas": [
+        "Determinar la optimización de los recursos organizacionales, mediante la interpretación de modelos cuantitativos y el uso de programas computacionales, y así fortalecer la toma de decisiones."
       ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
+      "Enfoque Administrativo Contemporáneo": [
+        "Implementar métodos de la administración moderna, a través de la aplicación del proceso administrativo y del análisis de estrategias de diversificación que permitan la optimización de los recursos, para promover organizaciones competitivas."
       ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
+      "Mercadotecnia": [
+        "Evaluar la pertinencia de las técnicas de operación mercadológicas aplicadas en las empresas e instituciones, a través de la realización de un estudio de mercado, para determinar la factibilidad de incursión de un producto en el mercado nacional o internacional."
       ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Administración Financiera Internacional": [
+        "Analizar las distintas fuentes de financiamiento nacional e internacional, que permita identificar su impacto en el capital del trabajo, a través de la distinción de diversos productos financieros que ofrecen las entidades, para beneficiar la toma de decisiones y disminución de costos financieros."
       ]
     }
   },
@@ -1058,36 +670,23 @@
     "name": "Diplomado en Dirección de Empresas",
     "area": "Administrativos",
     "tagline": "Actualización y especialización en Dirección de Empresas",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Dirección de Empresas en el mercado actual.",
+    "description": "UNINTER te ofrece un ambiente multicultural donde podrás interactuar con estudiantes de otras nacionalidades. Por otro lado en sus diplomados encontrarás compañeros y profesores con perfiles académicos que podrán enriquecer tu experiencia",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Dirección de Empresas.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Dirección de Empresas.",
-    "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Dirección de Empresas.",
-    "duracion": "120 Horas",
+    "egreso": "El egresado del Diplomado en Dirección Empresarial estará preparado para asumir roles de liderazgo y responsabilidad en diversas áreas de la empresa, aportando sus conocimientos y habilidades en la toma de decisiones estratégicas, la creación de planes de negocios internacionales, y la implementación de estrategias de responsabilidad social que contribuyan al crecimiento y sostenibilidad de la organización en un contexto global.",
+    "duracion": "128 hrs.",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Dirección de Empresas",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
+      "Economía": [
+        "Establecer la asignación de los recursos, a través de la evaluación de los indicadores económicos que son aplicados a la administración pública o privada, logrando así una mayor competitividad de la organización en el ámbito global."
       ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
+      "Administración Estratégica": [
+        "Elaborar estrategias dentro de una organización, a través de la aplicación de los elementos del proceso administrativo, para la consecución de los objetivos considerados en la planeación estratégica de las unidades económicas y el fortalecimiento de sus procesos."
       ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
+      "Plan de Negocios Internacionales": [
+        "Analizar la viabilidad y factibilidad de un plan de negocios, mediante la ejecución de las distintas fases que lo componen, considerando los aspectos técnicos de mercado, financieros y legales, para determinar su implementación dentro de un contexto internacional."
       ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Responsabilidad Social": [
+        "Crear indicadores de responsabilidad social, a través del análisis de modelos, herramientas, normas y certificaciones, comprometiendo la transparencia y valores éticos, para generar óptimas condiciones de competitividad en el marco de la responsabilidad que tienen las empresas con la sociedad y el desarrollo sustentable."
       ]
     }
   },
@@ -1097,36 +696,23 @@
     "name": "Diplomado en Marketing Digital Estratégico y Creativo",
     "area": "Gerenciales – Marketing Digital",
     "tagline": "Actualización y especialización en Marketing Digital y Creativo",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Marketing Digital y Creativo en el mercado actual.",
+    "description": "Desarrollarás una visión estratégica y creativa del marketing digital, que te permitirá analizar métricas, diseñar campañas innovadoras, optimizar la presencia de marca en buscadores y redes sociales, así como aplicar principios de diseño y comunicación visual para crear contenidos de alto impacto. Al concluir, contarás con las herramientas necesarias para implementar estrategias integrales que fortalezcan tu posicionamiento digital y generen resultados medibles en entornos altamente competitivos.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Marketing Digital y Creativo.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Marketing Digital y Creativo.",
-    "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Marketing Digital y Creativo.",
-    "duracion": "120 Horas",
+    "egreso": "Capacidad de análisis, diseño, desarrollo y ejecución de campañas efectivas de marketing digital, gestión de la presencia en redes sociales, implementación estrategias de marketing integradas.",
+    "duracion": "136 horas",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Marketing Digital y Creativo",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
+      "Marketing Digital": [
+        "Analizar métricas y tendencias de marketing digital para diseñar estrategias integrales en entornos web 2.0 y 3.0, orientadas a fortalecer la presencia de marca, mejorar el alcance digital y generar contenidos de valor."
       ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
+      "Social Media": [
+        "Generar, medir y planificar contenidos de social media, así como analizar las métricas obtenidas, a través del manejo de herramientas de gestión de elementos y estadísticas, para implementar estrategias comerciales y sociales aplicadas al entorno digital."
       ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
+      "Posicionamiento Web": [
+        "Desarrollar estrategias de optimización en buscadores (SEO/SEM), utilizando herramientas de análisis, investigación de palabras clave y gestión de campañas digitales, con el fin de incrementar la visibilidad y posicionamiento de marcas en entornos digitales."
       ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Diseño Aplicado al Marketing Digital": [
+        "Aplicar principios de diseño gráfico y comunicación visual en el desarrollo de contenidos y campañas digitales, utilizando software especializado y técnicas de creatividad, para mejorar el impacto y la efectividad de las estrategias de marketing."
       ]
     }
   },
@@ -1136,36 +722,17 @@
     "name": "Diplomado en Modelos de Enseñanza y Evaluación de Programas",
     "area": "Gerenciales – Educación en Formación Docente",
     "tagline": "Actualización y especialización en Modelos de Enseñanza y Evaluación de Programas Educativos Siglo XXI",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Modelos de Enseñanza y Evaluación de Programas Educativos Siglo XXI en el mercado actual.",
+    "description": "Formar profesionistas en el campo de la Educación en Formación Docente capaces de diseñar, implementar, estructurar y fundamentar los principios de planeación y evaluación educativa de los modelos actuales, así como las estrategias innovadoras, para crear situaciones de enseñanza-aprendizaje, a partir de la relación epistemológica y tecnológica, para alcanzar una integración entre los componentes pedagógicos y didácticos en la transformación de la realidad contextual de la práctica docente.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Modelos de Enseñanza y Evaluación de Programas Educativos Siglo XXI.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Modelos de Enseñanza y Evaluación de Programas Educativos Siglo XXI.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Modelos de Enseñanza y Evaluación de Programas Educativos Siglo XXI.",
-    "duracion": "120 Horas",
+    "duracion": "128 hrs.",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Modelos de Enseñanza y Evaluación de Programas Educativos Siglo XXI",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
-      ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
-      ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
-      ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Contenido Temático": [
+        "Historia del Pensamiento Metodológico Universal",
+        "Taller de Modelos de Enseñanza del Siglo XXI",
+        "Evaluación de Programas Educativos",
+        "Responsabilidad Social"
       ]
     }
   },
@@ -1175,36 +742,17 @@
     "name": "Diplomado en Estrategias Didácticas y Métodos de Enseñanza",
     "area": "Gerenciales – Docencia del Español como Lengua Extranjera",
     "tagline": "Actualización y especialización en Estrategias Didácticas y Métodos de Enseñanza de una L2",
-    "description": "El programa ofrece una inmersión completa y de alto nivel en las estrategias, herramientas y metodologías aplicadas a la especialización de Estrategias Didácticas y Métodos de Enseñanza de una L2 en el mercado actual.",
+    "description": "Formar especialistas con un alto dominio de la didáctica aplicada a la enseñanza del español como lengua extranjera, desarrollar conocimientos sólidos sobre sistemas de evaluación e implementación de programas de español haciendo énfasis en la evaluación de materiales, así como de la práctica docente.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Estrategias Didácticas y Métodos de Enseñanza de una L2.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Estrategias Didácticas y Métodos de Enseñanza de una L2.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Estrategias Didácticas y Métodos de Enseñanza de una L2.",
-    "duracion": "120 Horas",
+    "duracion": "128 hrs.",
     "plan": {
-      "Módulo I: Fundamentos y Conceptos": [
-        "Introducción a Estrategias Didácticas y Métodos de Enseñanza de una L2",
-        "Principios básicos y normativas vigentes",
-        "Modelos de análisis y diagnóstico inicial"
-      ],
-      "Módulo II: Metodología Aplicada": [
-        "Metodologías de diseño y planeación",
-        "Herramientas tecnológicas e instrumentación",
-        "Análisis crítico y resolución de casos prácticos"
-      ],
-      "Módulo III: Gestión e Implementación": [
-        "Administración y dirección del proceso",
-        "Gobernanza, ética y toma de decisiones",
-        "Taller interactivo de casos de éxito"
-      ],
-      "Módulo IV: Innovación y Tendencias": [
-        "Tendencias globales en el entorno digital",
-        "Estrategias avanzadas de optimización",
-        "Desarrollo e integración de nuevas tecnologías"
-      ],
-      "Módulo V: Proyecto Integrador": [
-        "Diseño y desarrollo de proyecto práctico",
-        "Evaluación, feedback e implementación",
-        "Presentación final y defensa de resultados"
+      "Contenido Temático": [
+        "Adquisición de Lengua",
+        "Métodos de Enseñanza de Lenguas",
+        "La Pragmática y el Estudio del Español",
+        "Sociolingüística"
       ]
     }
   },
@@ -1215,45 +763,19 @@
     "area": "Educación e Investigación",
     "tagline": "Enriquece Tu desarrollo personal",
     "description": "El objetivo de este diplomado está dirigido a la formación de profesionales comprometidos con la narración y preservación del patrimonio cultural, local, regional y nacional, a través de la crónica y el periodismo histórico, promocionando los estudios interculturales, geográficos, históricos y de la antropología, entre otros más.",
-    "ingreso": "Dirigido a interesados en la historia de México e historia universal y regional. Requiere buen dominio de la lengua, destreza en la expresión oral y escrita, aptitudes para la búsqueda de información y análisis de datos, y curiosidad para la investigación.",
+    "ingreso": "Interés general en la historia de México e historia universal y regional. Buen dominio de la lengua y destreza en el manejo del lenguaje y de la expresión oral y escrita. Aptitudes para la búsqueda de información, así como para el análisis de datos. Curiosidad para la investigación. Hábitos de estudio y capacidad de trabajo individual y en equipo. Valores tales como: constancia y puntualidad, honradez y honestidad, tolerancia y respeto, compromiso con la historia de su ciudad y con la sociedad. Tener una actitud de apertura hacia los nuevos conocimientos.",
     "perfilEgreso": "Haber acreditado las asignaturas correspondientes al plan de estudios del diplomado, es decir, cubrir el 100% de los créditos. Tener 8.0 como promedio mínimo del total de cursos del plan de estudios.",
-    "egreso": "Podrás desempeñarte exitosamente en institutos de cultura nacionales y regionales, editoriales, el sector turístico y organismos de preservación del patrimonio histórico-cultural.",
-    "duracion": "140 Horas (7 meses)",
+    "egreso": "Haber acreditado las asignaturas correspondientes al plan de estudios del diplomado, es decir, cubrir el 100% de los créditos. Tener 8.0 como promedio mínimo del total de cursos del plan de estudios y haber obtenido la calificación de 7.0 en un máximo de tres asignaturas.",
+    "duracion": "140 hrs.",
     "plan": {
-      "Módulo I: Origen, Contexto Cultural y Geográfico": [
-        "Introducción a la crónica histórica",
-        "Contexto geográfico y delimitación regional",
-        "Estructura y narrativa de los primeros cronistas"
-      ],
-      "Módulo II: Investigación Hemerográfica y Archivo": [
-        "Búsqueda de información en archivos históricos",
-        "Análisis de fuentes hemerográficas",
-        "Fichas técnicas y catalogación documental"
-      ],
-      "Módulo III: Estudios Interculturales Regionales": [
-        "Identidad e interculturalidad local",
-        "Dinámicas sociales y tradiciones regionales",
-        "La crónica como puente cultural"
-      ],
-      "Módulo IV: La Arquitectura como Testigo de la Crónica": [
-        "Lectura histórica de monumentos y edificios",
-        "El espacio urbano y su representación",
-        "Restauración y memoria en la crónica"
-      ],
-      "Módulo V: Expresión Oral y Redacción de Crónica": [
-        "Redacción de crónicas literarias e históricas",
-        "Técnicas de expresión oral y entrevistas",
-        "Divulgación periodística del pasado"
-      ],
-      "Módulo VI: Preservación del Patrimonio Cultural": [
-        "Políticas públicas de conservación cultural",
-        "Patrimonio tangible e intangible",
-        "Compromiso social con el acervo histórico"
-      ],
-      "Módulo VII: Proyecto de Acreditación como Cronistas": [
-        "Diseño y desarrollo de proyecto final de crónica",
-        "Presentación de crónica inédita con tema libre",
-        "Evaluación por el Consejo de Cronistas"
+      "Contenido Temático": [
+        "Origen, Contexto Cultural y Geográfico (20 Horas)",
+        "Investigación Hemerográfica y Archivo (20 Horas)",
+        "Estudios Interculturales Regionales (20 Horas)",
+        "La Arquitectura como Testigo de la Crónica (20 Horas)",
+        "Expresión Oral y Redacción de Crónica (20 Horas)",
+        "Preservación del Patrimonio Cultural (20 Horas)",
+        "Proyecto de Acreditación como Cronistas (20 Horas)"
       ]
     }
   },
@@ -1263,31 +785,23 @@
     "name": "Diplomado en Gestión Empresarial en Línea",
     "area": "Administrativos",
     "tagline": "Enriquece Tu desarrollo personal",
-    "description": "UNINTER te ofrece un ambiente multicultural donde podrás interactuar con estudiantes de otras nacionalidades. En sus diplomados encontrarás compañeros y profesores con perfiles académicos que podrán enriquecer tu experiencia en la optimización de los recursos organizacionales.",
-    "ingreso": "Dirigido a directivos, gerentes, consultores, profesionales e interesados en el ámbito de la gestión empresarial, la planeación y la administración de unidades de negocio.",
+    "description": "UNINTER te ofrece un ambiente multicultural donde podrás interactuar con estudiantes de otras nacionalidades. Por otro lado en sus diplomados encontrarás compañeros y profesores con perfiles académicos que podrán enriquecer tu experiencia.",
+    "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Gestión Empresarial.",
     "perfilEgreso": "El egresado del Diplomado en Gestión Empresarial estará preparado para asumir roles de responsabilidad en diversas áreas de la empresa, aportando con sus conocimientos y habilidades en la toma de decisiones estratégicas, la optimización de procesos y la competitividad empresarial.",
-    "egreso": "Podrás desempeñarte exitosamente en empresas nacionales e internacionales, instituciones financieras, consultorías, ONGs, startups de tecnología, sector público y en tu propio emprendimiento.",
-    "duracion": "128 Horas",
+    "egreso": "El egresado del Diplomado en Gestión Empresarial estará preparado para asumir roles de responsabilidad en diversas áreas de la empresa, aportando con sus conocimientos y habilidades en la toma de decisiones estratégicas, la optimización de procesos, y la implementación de estrategias que contribuyan al crecimiento y sostenibilidad de la organización en un contexto global.",
+    "duracion": "128 horas",
     "plan": {
-      "Módulo I: Matemáticas Administrativas (32 hrs)": [
-        "Optimización de los recursos organizacionales",
-        "Interpretación de modelos cuantitativos",
-        "Uso de programas computacionales para toma de decisiones"
+      "Matemáticas Administrativas": [
+        "Determinar la optimización de los recursos organizacionales, mediante la interpretación de modelos cuantitativos y el uso de programas computacionales, y así fortalecer la toma de decisiones."
       ],
-      "Módulo II: Enfoque Administrativo Contemporáneo (32 hrs)": [
-        "Métodos de la administración moderna",
-        "Aplicación del proceso administrativo",
-        "Análisis de estrategias de diversificación competitiva"
+      "Enfoque Administrativo Contemporáneo": [
+        "Implementar métodos de la administración moderna, a través de la aplicación del proceso administrativo y del análisis de estrategias de diversificación que permitan la optimización de los recursos, para promover organizaciones competitivas."
       ],
-      "Módulo III: Mercadotecnia (32 hrs)": [
-        "Técnicas de operación mercadológica en las empresas",
-        "Realización de estudios de mercado prácticos",
-        "Determinación de la factibilidad en mercados nacionales e internacionales"
+      "Mercadotecnia": [
+        "Evaluar la pertinencia de las técnicas de operación mercadológicas aplicadas en las empresas e instituciones, a través de la realización de un estudio de mercado, para determinar la factibilidad de incursión de un producto en el mercado nacional o internacional."
       ],
-      "Módulo IV: Administración Financiera Internacional (32 hrs)": [
-        "Fuentes de financiamiento nacional e internacional",
-        "Impacto en el capital de trabajo",
-        "Productos financieros y disminución de costos"
+      "Administración Financiera Internacional": [
+        "Analizar las distintas fuentes de financiamiento nacional e internacional, que permita identificar su impacto en el capital del trabajo, a través de la distinción de diversos productos financieros que ofrecen las entidades, para beneficiar la toma de decisiones y disminución de costos financieros."
       ]
     }
   },
@@ -1297,31 +811,23 @@
     "name": "Diplomado en Dirección de Empresas en Línea",
     "area": "Administrativos",
     "tagline": "Enriquece Tu desarrollo personal",
-    "description": "UNINTER te ofrece un ambiente bilingüe y multicultural. Desarrollarás las competencias directivas necesarias para planificar y estructurar estrategias corporativas internacionales y de responsabilidad social.",
-    "ingreso": "Dirigido a empresarios, directivos, consultores y profesionales que aspiran a posiciones de liderazgo de alto nivel en organizaciones privadas o públicas.",
+    "description": "UNINTER te ofrece un ambiente multicultural donde podrás interactuar con estudiantes de otras nacionalidades. Por otro lado en sus diplomados encontrarás compañeros y profesores con perfiles académicos que podrán enriquecer tu experiencia",
+    "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Dirección de Empresas.",
     "perfilEgreso": "El egresado estará preparado para asumir roles de liderazgo directivo en diversas áreas, aportando en decisiones estratégicas de sustentabilidad, planeación a largo plazo y competitividad global.",
-    "egreso": "Dirección general o intermedia en corporativos multinacionales, consultorías independientes de estrategia, startups globales, organismos públicos y organizaciones sin fines de lucro.",
-    "duracion": "128 Horas",
+    "egreso": "El egresado del Diplomado en Dirección Empresarial estará preparado para asumir roles de liderazgo y responsabilidad en diversas áreas de la empresa, aportando sus conocimientos y habilidades en la toma de decisiones estratégicas, la creación de planes de negocios internacionales, y la implementación de estrategias de responsabilidad social que contribuyan al crecimiento y sostenibilidad de la organización en un contexto global.",
+    "duracion": "128 hrs.",
     "plan": {
-      "Módulo I: Economía (32 hrs)": [
-        "Asignación de recursos y análisis macroeconómico",
-        "Indicadores económicos aplicados a la administración pública y privada",
-        "Evaluación de la competitividad global de la organización"
+      "Economía": [
+        "Establecer la asignación de los recursos, a través de la evaluación de los indicadores económicos que son aplicados a la administración pública o privada, logrando así una mayor competitividad de la organización en el ámbito global."
       ],
-      "Módulo II: Administración Estratégica (32 hrs)": [
-        "Formulación e implementación de estrategias",
-        "Elementos clave del proceso administrativo directivo",
-        "Planeación estratégica corporativa y fortalecimiento de procesos"
+      "Administración Estratégica": [
+        "Elaborar estrategias dentro de una organización, a través de la aplicación de los elementos del proceso administrativo, para la consecución de los objetivos considerados en la planeación estratégica de las unidades económicas y el fortalecimiento de sus procesos."
       ],
-      "Módulo III: Plan de Negocios Internacionales (32 hrs)": [
-        "Viabilidad y factibilidad de planes de negocio",
-        "Aspectos técnicos, de mercado, financieros y legales",
-        "Implementación en entornos multiculturales y globales"
+      "Plan de Negocios Internacionales": [
+        "Analizar la viabilidad y factibilidad de un plan de negocios, mediante la ejecución de las distintas fases que lo componen, considerando los aspectos técnicos de mercado, financieros y legales, para determinar su implementación dentro de un contexto internacional."
       ],
-      "Módulo IV: Responsabilidad Social (32 hrs)": [
-        "Creación de indicadores de responsabilidad social corporativa",
-        "Certificaciones, normas y transparencia ética empresarial",
-        "Estrategias de desarrollo sustentable y relación con la comunidad"
+      "Responsabilidad Social": [
+        "Crear indicadores de responsabilidad social, a través del análisis de modelos, herramientas, normas y certificaciones, comprometiendo la transparencia y valores éticos, para generar óptimas condiciones de competitividad en el marco de la responsabilidad que tienen las empresas con la sociedad y el desarrollo sustentable."
       ]
     }
   },
@@ -1331,31 +837,23 @@
     "name": "Diplomado en Diseño y Desarrollo de Proyectos Académicos de Investigación",
     "area": "Educación e Investigación",
     "tagline": "Enriquece Tu desarrollo personal",
-    "description": "Desarrollar un proyecto de investigación en las diferentes áreas disciplinarias que contemple los elementos teóricos y metodológicos establecidos por la División de Posgrado e Investigación para la obtención del título profesional o de grado.",
+    "description": "Desarrollar un proyecto de investigación en las diferentes áreas disciplinarias que contemplen los elementos teóricos y metodológicos establecidos por la División de Posgrado e Investigación para la obtención del título.",
     "ingreso": "Dirigido a egresados de licenciaturas, especialidades y maestrías de la Universidad Internacional (UNINTER). Requiere capacidad de razonamiento lógico, análisis, síntesis, comprensión de lectura y redacción formal.",
     "perfilEgreso": "Tendrá una base significativa de formación metodológica para la investigación científica, poseerá una actitud crítica y de autocrítica frente a problemas de estudio y estará capacitado para defender su protocolo final.",
-    "egreso": "Investigador o consultor académico, docente en educación media superior y superior, gestor de proyectos científicos y redactor de artículos indexados.",
-    "duracion": "96 Horas",
+    "egreso": "Tendrá una base significativa de formación metodológica. Habrá desarrollado interés por la investigación. Poseerá una actitud crítica y de autocrítica.",
+    "duracion": "96 hrs. (4 Módulos)",
     "plan": {
-      "Módulo I: Evaluación y elaboración del protocolo de investigación (24 hrs)": [
-        "Título del estudio y justificación de la investigación",
-        "Planteamiento del problema e hipótesis",
-        "Objetivo general, objetivos específicos y cronograma de trabajo"
+      "Módulo I": [
+        "Evaluación y elaboración del protocolo de investigación (Título, Justificación, Planteamiento, Objetivos, Metodología, etc.)"
       ],
-      "Módulo II: Desarrollo del proyecto de investigación del capítulo I (24 hrs)": [
-        "Estructura del primer capítulo del estudio",
-        "Fichas técnicas y recopilación de literatura científica",
-        "Selección de instrumentos y recolección de datos"
+      "Módulo II": [
+        "Desarrollo del proyecto de investigación del capítulo I (Introducción, Justificación, Planteamiento, Hipótesis, Objetivos, Instrumentos)"
       ],
-      "Módulo III: Desarrollo del proyecto de investigación del capítulo II (24 hrs)": [
-        "Elaboración del marco de referencia del estudio",
-        "Marco teórico, marco conceptual y estado del arte",
-        "Marco legal y regulatorio según la disciplina"
+      "Módulo III": [
+        "Desarrollo del proyecto de investigación del capítulo II (Marco de referencia, teórico, conceptual y legal)"
       ],
-      "Módulo IV: Desarrollo del proyecto de investigación del capítulo III (24 hrs)": [
-        "Análisis de resultados y discusiones científicas",
-        "Redacción de conclusiones y recomendaciones prácticas",
-        "Referencias bibliográficas bajo normas internacionales (APA, etc.)"
+      "Módulo IV": [
+        "Desarrollo del proyecto de investigación del capítulo III (Resultados, Discusión, Conclusiones, Recomendaciones, Anexos, Referencias)"
       ]
     }
   },
@@ -1365,41 +863,41 @@
     "name": "Diplomado en Inglés",
     "area": "Idiomas",
     "tagline": "Enriquece Tu desarrollo personal",
-    "description": "Desarrollar las cuatro habilidades lingüísticas y comunicativas (lectura, escritura, habla y comprensión auditiva) de los estudiantes con la finalidad de aplicar sus conocimientos en un ambiente profesional, académico o personal para el dominio del idioma inglés.",
-    "ingreso": "Dirigido a público en general y estudiantes de cualquier área que tengan la disposición de aprender el inglés y la ambición de desarrollar una alta competencia comunicativa en una lengua extranjera.",
+    "description": "Desarrollar las cuatro habilidades lingüísticas y comunicativas de los estudiantes con la finalidad de aplicar sus conocimientos en un ambiente profesional, académico o personal para el dominio del idioma inglés como lengua extranjera a través de una práctica dinámica y efectiva.",
+    "ingreso": "Estudiantes que no tienen bases de inglés a estudiantes con base sólida del idioma.",
     "perfilEgreso": "Haber desarrollado fluidez y corrección en el habla, capacidad de escribir textos descriptivos e informales, comprensión de audios en velocidad normal y lectura fluida del idioma en contextos cotidianos.",
-    "egreso": "Podrás desempeñarte con solvencia en establecimientos bilingües, empresas multinacionales, el sector de turismo internacional, restauración o continuar con estudios de posgrado en el extranjero.",
-    "duracion": "480 Horas (12 meses)",
+    "egreso": "Alcanzar desde un nivel intermedio comunicativo (A2-B1) hasta pulir y perfeccionar competencias orales y escritas para un manejo más fluido y preciso mediante talleres especializados centrados en la producción del idioma, vocabulario especializado y uso avanzado de estructuras gramaticales.",
+    "duracion": "400 hrs.",
     "plan": {
-      "Módulos I y II: Inglés Básico I y II": [
-        "Introducción al idioma con enfoque en interacción personal básica",
-        "Saludar, presentarse, deletrear palabras y dar datos personales",
-        "Descripción simple de personas, objetos comunes y espacios físicos"
+      "Módulo I": [
+        "Inglés Básico I (Introducción al idioma con enfoque en interacción personal básica)"
       ],
-      "Módulos III y IV: Inglés Pre-Intermedio I y II": [
-        "Conversación sobre intereses, habilidades y hábitos cotidianos",
-        "Expresar preferencias, gustos, disgustos y deportes favoritos",
-        "Aplicación del inglés en escenarios de viaje, aeropuertos y hoteles"
+      "Módulo II": [
+        "Inglés Básico II (Desarrollo de herramientas lingüísticas para describir personas, objetos y lugares)"
       ],
-      "Módulos V y VI: Inglés Intermedio I y II": [
-        "Narración de hechos en tiempo pasado de forma lógica y cronológica",
-        "Expresar planes a futuro, intenciones y actividades programadas",
-        "Interacción en eventos sociales de baja complejidad"
+      "Módulo III": [
+        "Inglés Pre-Intermedio I (Práctica para expresar lo que se sabe hacer, lo que gusta o disgusta, y actividades diarias)"
       ],
-      "Módulos VII y VIII: Inglés Pre-Avanzado I y II": [
-        "Descripción de pertenencias, ubicación espacial e información de terceros",
-        "Interacción formal sobre entornos urbanos y hábitos culturales",
-        "Discusión de actividades de ocio y recreación avanzada"
+      "Módulo IV": [
+        "Inglés Pre-Intermedio II (Aplicación del idioma en situaciones de la vida diaria y escenarios de viaje)"
       ],
-      "Módulos IX y X: Inglés Avanzado I y II": [
-        "Pedidos en restaurantes y descripción de costumbres gastronómicas",
-        "Uso de condicionales y comparaciones detalladas de personas y vestimenta",
-        "Simulaciones de viajes y resolución de problemas turísticos complejos"
+      "Módulo V": [
+        "Inglés Intermedio I (Introducción a la narración de hechos en tiempo pasado y experiencias personales)"
       ],
-      "Módulos XI y XII: Consolidación y Certificación": [
-        "Planificación de eventos, espectáculos y debates educativos",
-        "Temas globales, cultura, medio ambiente y redacción formal",
-        "Simulaciones de exámenes de certificación internacional"
+      "Módulo VI": [
+        "Inglés Intermedio II (Comunicación para expresar planes, compromisos y actividades programadas)"
+      ],
+      "Módulo VII": [
+        "Inglés Pre-Avanzado I (Ampliación de la capacidad para dar y solicitar información personal)"
+      ],
+      "Módulo VIII": [
+        "Inglés Pre-Avanzado II (Práctica para describir entornos urbanos y actividades comunes, hábitos y preferencias)"
+      ],
+      "Módulo IX": [
+        "Inglés Avanzado I (Interacción en contextos relacionados con la comida, bebida y narración en pasado)"
+      ],
+      "Módulo X": [
+        "Inglés Avanzado II (Desarrollo de la capacidad para describir apariencia de personas y comparar lugares)"
       ]
     }
   },
@@ -1412,28 +910,60 @@
     "description": "Desarrollar las cuatro habilidades lingüísticas y comunicativas de los estudiantes con la finalidad de aplicar sus conocimientos en un ambiente profesional, académico o personal, y proporcionar al alumno habilidades y destrezas para la adquisición y manejo del idioma francés como lengua extranjera a través de una práctica dinámica y efectiva.",
     "ingreso": "Personas interesadas en adquirir competencias profesionales en francés, con motivación por la comunicación internacional y el desarrollo de habilidades prácticas en entornos laborales.",
     "perfilEgreso": "Profesionales capaces de interactuar con seguridad en situaciones cotidianas y de negocio, expresar ideas, opiniones y planes, comprender textos y conversaciones, y aplicar el francés en su especialidad profesional.",
-    "egreso": "Al concluir el diplomado, el estudiante podrá presentar los exámenes oficiales DELF A1 y A2 reconocidos por el Ministerio de Educación de Francia, así como los Diplômes de Français Professionnel (DFP) en Turismo, Restauración o Negocios.",
-    "duracion": "400 Horas",
+    "egreso": "Profesionales capaces de interactuar con seguridad en situaciones cotidianas y de negocio, expresar ideas, opiniones y planes, comprender textos y conversaciones, y aplicar el francés en su especialidad profesional, respaldado por certificaciones internacionales reconocidas.",
+    "duracion": "400 hrs. (10 Bloques)",
     "plan": {
-      "Bloques 1 al 3: Iniciación, Identidad y Rutinas": [
-        "Reconocer y usar expresiones básicas de saludos y presentaciones",
-        "Países, nacionalidades, preposiciones y verbos de identidad",
-        "Descripción de actividades diarias, horarios y verbos pronominales"
+      "Bloque 1 – Iniciación al francés": [
+        "Reconocer y usar expresiones básicas para saludar, presentarse y deletrear palabras.",
+        "El alfabeto, la francofonía, saludos y despedidas, los números (1–20), los días, meses y estaciones.",
+        "El verbo avoir, la edad, il y a, la sala de clase."
       ],
-      "Bloques 4 al 6: Entorno, Pasado y Proyectos futuros": [
-        "Léxico de la casa, animales, preposiciones de ubicación y adjetivos",
-        "Uso del Passé composé con avoir y être para relatos en pasado",
-        "Uso del Futur proche y verbos de deseo o poder para planes a futuro"
+      "Bloque 2 – Identidad y nacionalidad": [
+        "Presentarse formal e informalmente, hablar de origen y nacionalidad, describir personas y profesiones.",
+        "Los números hasta 100, el verbo être, países y nacionalidades, profesiones.",
+        "Artículos definidos e indefinidos, masculino y femenino, preposiciones en / au / aux / du / de."
       ],
-      "Bloques 7 al 9: Opiniones, Salud e Hipótesis": [
-        "Expresar acuerdos, desacuerdos y comparativos lógicos",
-        "Pronombres de objeto, adjetivos de carácter y vocabulario médico",
-        "Contraste entre Imparfait y Passé composé y oraciones condicionales"
+      "Bloque 3 – Vida cotidiana y rutinas": [
+        "Describir actividades diarias, horarios y costumbres personales. Preguntar y responder sobre acciones habituales.",
+        "Verbos regulares terminados en -ER, verbos pronominales, negaciones, pronombres tónicos.",
+        "La hora, momentos del día, adverbios de frecuencia, actividades cotidianas."
       ],
-      "Bloques 10 al 12: Especialidad y Certificación DELF / DFP": [
-        "Redacción de correos y preparación formal DELF A2",
-        "Conversación avanzada y mediación oral de temas de actualidad",
-        "Francés aplicado a los negocios, turismo o gastronomía (DFP)"
+      "Bloque 4 – Entorno y descripción": [
+        "Describir lugares, objetos y personas, expresar ubicación y posesión.",
+        "Léxico de la casa, animales, familia, adjetivos calificativos, posesivos, preposiciones de lugar (sur, sous, devant, derrière, entre)."
+      ],
+      "Bloque 5 – Narrar hechos y experiencias": [
+        "Hablar de experiencias pasadas y acciones terminadas. Comprender la diferencia entre pasado y presente.",
+        "Passé composé con avoir y être, participios pasados, expresiones temporales, verbos reflexivos en pasado, conectores cronológicos."
+      ],
+      "Bloque 6 – Planes y proyectos": [
+        "Expresar intenciones, deseos y acciones futuras. Formular peticiones y expresar gustos.",
+        "Futur proche, vouloir / pouvoir / devoir, venir de + infinitif, expresiones de intención."
+      ],
+      "Bloque 7 – Opiniones y comparaciones": [
+        "Expresar opiniones, acuerdos y desacuerdos. Comparar personas, lugares y objetos.",
+        "Comparativos y superlativos, conectores lógicos, vocabulario de pasatiempos, estudios, trabajo y viajes."
+      ],
+      "Bloque 8 – Relaciones y situaciones cotidianas": [
+        "Hablar de la salud, el trabajo, la vida social y el carácter de las personas.",
+        "Pronombres de objeto directo e indirecto, y / en, adjetivos de carácter y descripción física, léxico de salud y profesiones."
+      ],
+      "Bloque 9 – Contar historias y expresar hipótesis": [
+        "Narrar experiencias completas, formular hipótesis y expresar deseos.",
+        "Imparfait y contraste con passé composé, oraciones condicionales, conectores de causa y consecuencia."
+      ],
+      "Bloque 10 – Consolidación A2": [
+        "Redactar textos breves y coherentes, mantener una conversación simple.",
+        "Redacción de correos y mensajes, descripción de experiencias, simulacros DELF A2."
+      ],
+      "Bloque 11 – Materias de especialidad I": [
+        "Fortalecer la pronunciación, entonación y comprensión auditiva; desarrollar confianza en la expresión oral.",
+        "Conversación y mediación: debates, exposiciones, simulaciones reales.",
+        "Francés para negocios / turismo y restauración (DFP)."
+      ],
+      "Bloque 12 – Materias de especialidad II": [
+        "Aplicar el francés en contextos profesionales y preparar la presentación a certificaciones internacionales.",
+        "Preparación a los exámenes DELF y DFP: estrategias, simulacros, expresión oral y escrita avanzada."
       ]
     }
   },
@@ -1444,30 +974,53 @@
     "area": "Idiomas",
     "tagline": "Enriquece Tu desarrollo personal",
     "description": "Desarrollar en el participante las competencias lingüísticas y comunicativas necesarias para interactuar con fluidez y precisión en contextos internacionales, aplicando el idioma inglés de manera efectiva en situaciones de comunicación empresarial, negociación, correspondencia, presentaciones y redacción profesional.",
-    "ingreso": "Estudiantes de licenciatura o posgrado en áreas de negocios, turismo o afines, profesionales que deseen mejorar su comunicación en inglés empresarial y personas con nivel intermedio (B1) de inglés.",
+    "ingreso": "Estudiantes de licenciatura o posgrado en áreas de negocios, comercio, administración, turismo, derecho o afines. Profesionales que deseen mejorar su comunicación en inglés dentro de entornos empresariales o corporativos. Personas con nivel intermedio de inglés (B1) comprobable o equivalente.",
     "perfilEgreso": "El egresado será capaz de redactar correos, informes, cartas y contratos formales; participar activamente en reuniones, llamadas y negociaciones; y realizar presentaciones persuasivas en inglés.",
-    "egreso": "Ejecutivo bilingüe en corporativos internacionales, consultor de negocios internacionales, administrador en el sector turístico de alto nivel y asistente ejecutivo internacional.",
-    "duracion": "400 Horas",
+    "egreso": "Comunicarse con fluidez y corrección en inglés en contextos laborales y académicos internacionales. Redactar correos, informes, cartas y documentos empresariales con estructura, vocabulario y tono formal adecuados. Participar activamente en reuniones, llamadas, negociaciones y presentaciones en inglés con seguridad y profesionalismo. Emplear terminología técnica relacionada con los negocios, el derecho comercial y la comunicación corporativa.",
+    "duracion": "400 hrs. (12 Unidades)",
     "plan": {
-      "Unidades 1 al 3: Cultura, Experiencias y Relatos": [
-        "Presente simple/continuo, verbos de estado y preguntas indirectas",
-        "Presente perfecto vs Pasado simple para experiencias de vida",
-        "Pasado continuo y conectores narrativos de historias"
+      "Unidad 1: Cultura e identidad": [
+        "Uso del presente simple y continuo, verbos de estado, preguntas directas e indirectas.",
+        "Vocabulario: sentimientos, identidad y expresiones culturales."
       ],
-      "Unidades 4 al 6: Empleo, Bienestar y Negocios Básicos": [
-        "Futuro, predicciones, empleo y condiciones laborales",
-        "Verbos modales, primer condicional y estilo de vida",
-        "Presentación de empresas, etiquetas telefónicas y correos formales"
+      "Unidad 2: El arte de la interpretación": [
+        "Presente perfecto (already, just, yet) y pasado simple.",
+        "Vocabulario: estilos musicales, emociones, descripciones de espectáculos."
       ],
-      "Unidades 7 al 9: Correspondencia, Teléfono y Finanzas": [
-        "E-mail English: solicitudes, quejas y seguimiento formal",
-        "Telephone English: citas, quejas y reservaciones profesionales",
-        "Informes ejecutivos, balances comerciales y currículum profesional"
+      "Unidad 3: Experiencias y relatos": [
+        "Pasado simple, continuo y perfecto.",
+        "Vocabulario: adverbios terminados en -ly, conectores narrativos."
       ],
-      "Unidades 10 al 12: Negocios Internacionales, Leyes y Presentaciones": [
-        "Inglés legal internacional: contratos, acuerdos y responsabilidades",
-        "Estrategias de negociación, compensaciones y simulacros de conflictos",
-        "Estructura de presentaciones persuasivas con apoyos visuales y proyecto final"
+      "Unidad 4: Oportunidades y desarrollo profesional": [
+        "Futuro (will, going to, present continuous), predicciones.",
+        "Vocabulario: empleo, educación, condiciones laborales."
+      ],
+      "Unidad 5: Bienestar y hábitos saludables": [
+        "Verbos modales y primer condicional.",
+        "Vocabulario: estilo de vida saludable, alimentación, hábitos."
+      ],
+      "Unidad 6: Comunicación empresarial esencial": [
+        "Presentaciones profesionales, descripciones de empresas y funciones laborales, etiqueta telefónica y redacción de correos formales."
+      ],
+      "Unidad 7: Inglés para correos electrónicos (E-mail English)": [
+        "Redacción de correos claros y formales para solicitudes, quejas, confirmaciones y seguimiento."
+      ],
+      "Unidad 8: Inglés telefónico (Telephone English)": [
+        "Atención y realización de llamadas, concertación de citas, manejo de reclamos y reservaciones."
+      ],
+      "Unidad 9: Reportes y correspondencia empresarial": [
+        "Redacción de informes, cartas de presentación y currículums en inglés.",
+        "Vocabulario: lenguaje financiero, estadístico y corporativo."
+      ],
+      "Unidad 10: Inglés legal internacional": [
+        "Términos y expresiones del derecho y los negocios internacionales.",
+        "Vocabulario: contratos, acuerdos, compensaciones, responsabilidades."
+      ],
+      "Unidad 11: Negociaciones internacionales": [
+        "Estrategias de negociación y persuasión; acuerdos laborales, compensaciones y reembolsos."
+      ],
+      "Unidad 12: Presentaciones profesionales": [
+        "Estructura de presentaciones efectivas, manejo de apoyos visuales, lenguaje persuasivo y conclusiones ejecutivas."
       ]
     }
   }

@@ -46,7 +46,7 @@
             <a href="https://kids.uninter.edu.mx/" target="_blank" class="ss-card__link">Ver programa →</a>
           </div>
           <div class="ss-card">
-            <div class="ss-card__icon"><Icon name="mdi:home-heart-outline" size="22" /></div>
+            <div class="ss-card__icon"><Icon name="mdi:heart-outline" size="22" /></div>
             <h4 class="ss-card__title">Hospedaje familiar</h4>
             <p class="ss-card__desc">Vive con una familia mexicana para una inmersión total.</p>
           </div>

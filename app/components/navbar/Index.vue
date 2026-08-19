@@ -16,25 +16,11 @@ interface Child {
   label: string;
   href: string;
 }
-interface MegaItem {
-  label: string;
-  desc?: string;
-  href: string;
-  icon: string;
-  external?: boolean;
-  cta?: boolean;
-}
-interface MegaData {
-  programs: MegaItem[];
-  tools: MegaItem[];
-}
 interface Program {
   label: string;
   slug: string;
   color: string;
   href: string;
-  mega?: boolean;
-  megaData?: MegaData;
   children: Child[];
 }
 
@@ -44,132 +30,84 @@ const programs: Program[] = [
     slug: "universidad",
     color: "#1565C0",
     href: "https://universidad.uninter.edu.mx/",
-    mega: true,
-    megaData: {
-      programs: [
-        { label: "Licenciaturas Presenciales", desc: "Campus Cuernavaca",  href: "/LicenciaturasPresenciales",                           icon: "mdi:school-outline"   },
-        { label: "Licenciaturas Ejecutivas",   desc: "Modalidad flexible", href: "https://universidad.uninter.edu.mx/ejecutivas",        icon: "mdi:briefcase-outline", external: true },
-      ],
-      tools: [
-        { label: "Proceso de Admisión",  href: "/admisiones",      icon: "mdi:arrow-right",             cta: true },
-        { label: "Test Vocacional",      href: "https://universidad.uninter.edu.mx/test-vocacional", icon: "mdi:clipboard-list-outline",             external: true },
-        { label: "Folletos Digitales",   href: "https://universidad.uninter.edu.mx/Folletos-Digitales", icon: "mdi:file-document-outline", external: true },
-      ],
-    },
     children: [
-      { label: "Licenciaturas Presenciales", href: "/LicenciaturasPresenciales" },
-      { label: "Licenciaturas Ejecutivas",   href: "https://universidad.uninter.edu.mx/ejecutivas" },
-      { label: "Folletos",                   href: "https://universidad.uninter.edu.mx/Folletos-Digitales" },
-      { label: "Admisiones",                 href: "/admisiones" },
-      { label: "Test Vocacional",            href: "https://universidad.uninter.edu.mx/test-vocacional" },
+      {
+        label: "Licenciaturas Presenciales",
+        href: "/LicenciaturasPresenciales",
+      },
+      {
+        label: "Licenciaturas Ejecutivas",
+        href: "https://universidad.uninter.edu.mx/ejecutivas",
+      },
+      {
+        label: "Folletos",
+        href: "https://universidad.uninter.edu.mx/Folletos-Digitales",
+      },
+      {
+        label: "Admisiones",
+        href: "https://universidad.uninter.edu.mx/Admisiones",
+      },
+      {
+        label: "Test Vocacional",
+        href: "https://universidad.uninter.edu.mx/test-vocacional",
+      },
+      {
+        label: "Calcula tu Beca",
+        href: "https://universidad.uninter.edu.mx/Calcula-Tu-Beca",
+      },
     ],
   },
   {
     label: "Bachillerato",
     slug: "bachillerato",
-    color: "#6BAF04",
-    href: "/bachillerato",
-    mega: true,
-    megaData: {
-      programs: [
-        { 
-          label: "Inicio Bachillerato", 
-          desc: "Información general y admisiones", 
-          href: "/bachillerato", 
-          icon: "mdi:home-outline",
-          children: [
-            { label: "BIU Bilingüe", desc: "Bachillerato Internacional", href: "/bachillerato/biu-bilingue", icon: "mdi:school-outline" },
-            { label: "BIU Multicultural", desc: "Diversidad e inclusión", href: "/bachillerato/biu-multicultural", icon: "mdi:earth" }
-          ]
-        },
-      ],
-      tools: [
-        { label: "Proceso de Admisión", href: "/bachillerato/admisiones",                                             icon: "mdi:arrow-right",           cta: true },
-        { label: "Folletos Digitales",  href: "https://biu.uninter.edu.mx/",                              icon: "mdi:file-document-outline", external: true },
-      ],
-    },
+    color: "#2E7D32",
+    href: "https://biu.uninter.edu.mx/",
     children: [
-      { label: "Inicio Bachillerato", href: "/bachillerato" },
-      { label: "BIU Bilingüe",    href: "/bachillerato/biu-bilingue", sub: true },
-      { label: "BIU Multicultural", href: "/bachillerato/biu-multicultural", sub: true },
-      { label: "Admisiones BIU", href: "/bachillerato/admisiones" },
+      { label: "Sitio Web", href: "https://biu.uninter.edu.mx/" },
+      { label: "Folleto", href: "https://biu.uninter.edu.mx/" },
     ],
   },
   {
     label: "Secundaria",
     slug: "secundaria",
-    color: "#ECAB00",
-    href: "/secundaria",
-    mega: true,
-    megaData: {
-      programs: [
-        { 
-          label: "Inicio Secundaria", 
-          desc: "Información general y admisiones", 
-          href: "/secundaria", 
-          icon: "mdi:home-outline",
-          children: [
-            { label: "SIU Bilingüe", desc: "Secundaria Internacional", href: "/secundaria/siu-bilingue", icon: "mdi:school-outline" },
-            { label: "SIU Multicultural", desc: "Diversidad e inclusión", href: "/secundaria/siu-multicultural", icon: "mdi:earth" }
-          ]
-        },
-      ],
-      tools: [
-        { label: "Proceso de Admisión", href: "/secundaria/admisiones",                                                      icon: "mdi:arrow-right",           cta: true },
-        { label: "Folletos Digitales",  href: "https://uninter.edu.mx/folletos/revistas/siurevista/",             icon: "mdi:file-document-outline", external: true },
-      ],
-    },
+    color: "#E65100",
+    href: "https://siu.uninter.edu.mx/",
     children: [
-      { label: "Inicio Secundaria", href: "/secundaria" },
-      { label: "SIU Bilingüe",    href: "/secundaria/siu-bilingue", sub: true },
-      { label: "SIU Multicultural", href: "/secundaria/siu-multicultural", sub: true },
-      { label: "Admisiones SIU", href: "/secundaria/admisiones" },
+      { label: "Sitio Web", href: "https://siu.uninter.edu.mx/" },
+      {
+        label: "Folleto",
+        href: "https://uninter.edu.mx/folletos/revistas/siurevista/",
+      },
     ],
   },
   {
     label: "Posgrados",
     slug: "posgrados",
     color: "#546E7A",
-    href: "/posgrados",
-    mega: true,
-    megaData: {
-      programs: [
-        { label: "Especialidades",  desc: "Profundización profesional",  href: "/posgrados/especialidades", icon: "mdi:certificate-outline" },
-        { label: "Maestrías",       desc: "Alto nivel académico",         href: "/posgrados/maestrias", icon: "mdi:school-outline"      },
-        { label: "Doctorados",      desc: "Investigación de excelencia",  href: "/posgrados/doctorados", icon: "mdi:flask-outline"       },
-      ],
-      tools: [
-        { label: "Proceso de Admisión", href: "/posgrados/admisiones", icon: "mdi:arrow-right", cta: true },
-        { label: "Folletos Digitales",  href: "/posgrados",            icon: "mdi:file-document-outline"  },
-      ],
-    },
+    href: "https://posgrados.uninter.edu.mx/",
     children: [
-      { label: "Inicio Posgrados",   href: "/posgrados" },
-      { label: "Especialidades",    href: "/posgrados/especialidades", sub: true },
-      { label: "Maestrías",         href: "/posgrados/maestrias",      sub: true },
-      { label: "Doctorados",        href: "/posgrados/doctorados",     sub: true },
-      { label: "Admisiones",        href: "/posgrados/admisiones" },
+      { label: "Sitio Web", href: "https://posgrados.uninter.edu.mx/" },
+      {
+        label: "Admisiones",
+        href: "https://posgrados.uninter.edu.mx/Admisiones",
+      },
     ],
   },
   {
     label: "Diplomados",
     slug: "diplomados",
     color: "#6D4C41",
-    href: "/diplomados",
-    mega: true,
-    megaData: {
-      programs: [
-        { label: "Diplomados y Cursos",              desc: "Más de 100 programas de actualización", href: "/diplomados", icon: "mdi:book-open-page-variant-outline" },
-      ],
-      tools: [
-        { label: "Proceso de Admisión", href: "/diplomados/admisiones", icon: "mdi:arrow-right", cta: true },
-        { label: "Folletos Digitales",  href: "https://diplomados.uninter.edu.mx/folletos-Digitales", icon: "mdi:file-document-outline", external: true },
-      ],
-    },
+    href: "https://diplomados.uninter.edu.mx/",
     children: [
-      { label: "Sitio Web",          href: "/diplomados" },
-      { label: "Admisiones",         href: "/diplomados/admisiones" },
-      { label: "Folletos Digitales", href: "https://diplomados.uninter.edu.mx/folletos-Digitales" },
+      { label: "Sitio Web", href: "https://diplomados.uninter.edu.mx/" },
+      {
+        label: "Folletos",
+        href: "https://diplomados.uninter.edu.mx/folletos-Digitales",
+      },
+      {
+        label: "Admisiones",
+        href: "https://diplomados.uninter.edu.mx/admisiones",
+      },
     ],
   },
   {
@@ -248,7 +186,7 @@ const social = [
   { icon: "mdi:instagram", href: "https://www.instagram.com/uninter_cuerna" },
   { icon: "mdi:youtube",   href: "https://www.youtube.com/user/UniversidadUninter" },
   { icon: "mdi:linkedin",  href: "https://www.linkedin.com/in/egresados-uninter/" },
-  { icon: "mdi:tiktok",    href: "https://www.tiktok.com/@uninter_cuerna" },
+  { icon: "bi:tiktok",    href: "https://www.tiktok.com/@uninter_cuerna" },
 ];
 </script>
 
@@ -273,12 +211,13 @@ const social = [
               <Icon :name="s.icon" size="13" />
             </a>
           </div>
-          <NuxtLink
-            to="/calcula-tu-beca"
+          <a
+            href="https://universidad.uninter.edu.mx/Calcula-Tu-Beca"
+            target="_blank"
             class="nh-beca"
           >
             Calcula tu Beca
-          </NuxtLink>
+          </a>
         </div>
       </div>
     </div>
@@ -315,139 +254,28 @@ const social = [
             <Transition name="nh-dd">
               <div
                 v-if="prog.children.length && activeDropdown === prog.slug"
-                :class="prog.mega ? 'nh-dropdown nh-dropdown--mega' : 'nh-dropdown'"
+                class="nh-dropdown"
               >
-                <!-- Mega-menu genérico (Universidad, Bachillerato, Secundaria, Posgrados…) -->
-                <!-- Lógica de links: href.startsWith('/') → NuxtLink misma pestaña
-                                      external:true         → <a target="_blank">
-                                      else                  → <a> misma pestaña -->
-                <template v-if="prog.mega && prog.megaData">
-                  <div class="nh-dd__bar" :style="`background:${prog.color}`"></div>
-                  <div :class="['nh-mega__body', { 'nh-mega__body--solo': !prog.megaData.programs.length }]">
-                    <!-- Columna programas (solo si hay) -->
-                    <template v-if="prog.megaData.programs.length">
-                      <div class="nh-mega__col">
-                        <p class="nh-mega__heading">Programas</p>
-                        <template v-for="mp in prog.megaData.programs" :key="mp.label">
-                          <!-- If it has sub-programs (children) -->
-                          <div v-if="mp.children && mp.children.length" class="nh-mega__card-parent-group" :style="`--gc: ${prog.color}; --gc-bg: ${prog.color}12`">
-                            <NuxtLink v-if="mp.href.startsWith('/')" :to="mp.href" class="nh-mega__card nh-mega__card--parent">
-                              <div class="nh-mega__card-icon" :style="`background:${prog.color}18; color:${prog.color}`"><Icon :name="mp.icon" size="18" /></div>
-                              <div>
-                                <p class="nh-mega__card-title">{{ mp.label }}</p>
-                                <p class="nh-mega__card-desc">{{ mp.desc }}</p>
-                              </div>
-                            </NuxtLink>
-                            <a v-else-if="mp.external" :href="mp.href" target="_blank" class="nh-mega__card nh-mega__card--parent">
-                              <div class="nh-mega__card-icon" :style="`background:${prog.color}18; color:${prog.color}`"><Icon :name="mp.icon" size="18" /></div>
-                              <div>
-                                <p class="nh-mega__card-title">{{ mp.label }}</p>
-                                <p class="nh-mega__card-desc">{{ mp.desc }}</p>
-                              </div>
-                            </a>
-                            <a v-else :href="mp.href" class="nh-mega__card nh-mega__card--parent">
-                              <div class="nh-mega__card-icon" :style="`background:${prog.color}18; color:${prog.color}`"><Icon :name="mp.icon" size="18" /></div>
-                              <div>
-                                <p class="nh-mega__card-title">{{ mp.label }}</p>
-                                <p class="nh-mega__card-desc">{{ mp.desc }}</p>
-                              </div>
-                            </a>
-
-                            <!-- Sub-programas que "salen" de la opción principal -->
-                            <div class="nh-mega__sub-list">
-                              <template v-for="sub in mp.children" :key="sub.label">
-                                <NuxtLink v-if="sub.href.startsWith('/')" :to="sub.href" class="nh-mega__card nh-mega__card--sub">
-                                  <div class="nh-mega__card-icon nh-mega__card-icon--sub" :style="`background:${prog.color}18; color:${prog.color}`"><Icon :name="sub.icon" size="16" /></div>
-                                  <div>
-                                    <p class="nh-mega__card-title nh-mega__card-title--sub">{{ sub.label }}</p>
-                                    <p class="nh-mega__card-desc nh-mega__card-desc--sub">{{ sub.desc }}</p>
-                                  </div>
-                                </NuxtLink>
-                                <a v-else-if="sub.external" :href="sub.href" target="_blank" class="nh-mega__card nh-mega__card--sub">
-                                  <div class="nh-mega__card-icon nh-mega__card-icon--sub" :style="`background:${prog.color}18; color:${prog.color}`"><Icon :name="sub.icon" size="16" /></div>
-                                  <div>
-                                    <p class="nh-mega__card-title nh-mega__card-title--sub">{{ sub.label }}</p>
-                                    <p class="nh-mega__card-desc nh-mega__card-desc--sub">{{ sub.desc }}</p>
-                                  </div>
-                                </a>
-                                <a v-else :href="sub.href" class="nh-mega__card nh-mega__card--sub">
-                                  <div class="nh-mega__card-icon nh-mega__card-icon--sub" :style="`background:${prog.color}18; color:${prog.color}`"><Icon :name="sub.icon" size="16" /></div>
-                                  <div>
-                                    <p class="nh-mega__card-title nh-mega__card-title--sub">{{ sub.label }}</p>
-                                    <p class="nh-mega__card-desc nh-mega__card-desc--sub">{{ sub.desc }}</p>
-                                  </div>
-                                </a>
-                              </template>
-                            </div>
-                          </div>
-
-                          <!-- Normal item without children -->
-                          <template v-else>
-                            <NuxtLink v-if="mp.href.startsWith('/')" :to="mp.href" class="nh-mega__card">
-                              <div class="nh-mega__card-icon" :style="`background:${prog.color}18; color:${prog.color}`"><Icon :name="mp.icon" size="18" /></div>
-                              <div><p class="nh-mega__card-title">{{ mp.label }}</p><p class="nh-mega__card-desc">{{ mp.desc }}</p></div>
-                            </NuxtLink>
-                            <a v-else-if="mp.external" :href="mp.href" target="_blank" class="nh-mega__card">
-                              <div class="nh-mega__card-icon" :style="`background:${prog.color}18; color:${prog.color}`"><Icon :name="mp.icon" size="18" /></div>
-                              <div><p class="nh-mega__card-title">{{ mp.label }}</p><p class="nh-mega__card-desc">{{ mp.desc }}</p></div>
-                            </a>
-                            <a v-else :href="mp.href" class="nh-mega__card">
-                              <div class="nh-mega__card-icon" :style="`background:${prog.color}18; color:${prog.color}`"><Icon :name="mp.icon" size="18" /></div>
-                              <div><p class="nh-mega__card-title">{{ mp.label }}</p><p class="nh-mega__card-desc">{{ mp.desc }}</p></div>
-                            </a>
-                          </template>
-                        </template>
-                      </div>
-                      <div class="nh-mega__divider"></div>
-                    </template>
-                    <!-- Columna herramientas -->
-                    <div class="nh-mega__col nh-mega__col--right">
-                      <p class="nh-mega__heading">Herramientas</p>
-                      <template v-for="tool in prog.megaData.tools" :key="tool.label">
-                        <!-- CTA -->
-                        <template v-if="tool.cta">
-                          <NuxtLink v-if="tool.href.startsWith('/')" :to="tool.href" class="nh-mega__cta" :style="`background:${prog.color}`">
-                            {{ tool.label }} <Icon :name="tool.icon" size="14" />
-                          </NuxtLink>
-                          <a v-else-if="tool.external" :href="tool.href" target="_blank" class="nh-mega__cta" :style="`background:${prog.color}`">
-                            {{ tool.label }} <Icon :name="tool.icon" size="14" />
-                          </a>
-                          <a v-else :href="tool.href" class="nh-mega__cta" :style="`background:${prog.color}`">
-                            {{ tool.label }} <Icon :name="tool.icon" size="14" />
-                          </a>
-                        </template>
-                        <!-- Link normal -->
-                        <template v-else>
-                          <NuxtLink v-if="tool.href.startsWith('/')" :to="tool.href" class="nh-mega__tool-link">
-                            <Icon :name="tool.icon" size="15" /> {{ tool.label }}
-                          </NuxtLink>
-                          <a v-else-if="tool.external" :href="tool.href" target="_blank" class="nh-mega__tool-link">
-                            <Icon :name="tool.icon" size="15" /> {{ tool.label }}
-                          </a>
-                          <a v-else :href="tool.href" class="nh-mega__tool-link">
-                            <Icon :name="tool.icon" size="15" /> {{ tool.label }}
-                          </a>
-                        </template>
-                      </template>
-                    </div>
-                  </div>
-                </template>
-
-                <!-- Dropdown genérico -->
-                <template v-else>
-                  <div class="nh-dd__bar" :style="`background:${prog.color}`"></div>
-                  <a :href="prog.href" target="_blank" class="nh-dd__head">
-                    <span class="nh-dd__dot" :style="`background:${prog.color}`"></span>
-                    {{ prog.label }}
-                    <Icon name="mdi:open-in-new" size="10" class="nh-dd__ext" />
-                  </a>
-                  <div class="nh-dd__sep"></div>
-                  <ul class="nh-dd__list">
-                    <li v-for="c in prog.children" :key="c.label">
-                      <a :href="c.href" target="_blank" class="nh-dd__link">{{ c.label }}</a>
-                    </li>
-                  </ul>
-                </template>
+                <div
+                  class="nh-dd__bar"
+                  :style="`background:${prog.color}`"
+                ></div>
+                <a :href="prog.href" target="_blank" class="nh-dd__head">
+                  <span
+                    class="nh-dd__dot"
+                    :style="`background:${prog.color}`"
+                  ></span>
+                  {{ prog.label }}
+                  <Icon name="mdi:open-in-new" size="10" class="nh-dd__ext" />
+                </a>
+                <div class="nh-dd__sep"></div>
+                <ul class="nh-dd__list">
+                  <li v-for="c in prog.children" :key="c.label">
+                    <a :href="c.href" target="_blank" class="nh-dd__link">{{
+                      c.label
+                    }}</a>
+                  </li>
+                </ul>
               </div>
             </Transition>
           </li>
@@ -510,9 +338,9 @@ const social = [
             </Transition>
           </li>
         </ul>
-        <NuxtLink to="/calcula-tu-beca" class="nh-beca nh-beca--mobile">
+        <a href="https://universidad.uninter.edu.mx/Calcula-Tu-Beca" target="_blank" class="nh-beca nh-beca--mobile">
           Calcula tu Beca
-        </NuxtLink>
+        </a>
         <button class="nh-hamburger" @click="mobileOpen = !mobileOpen" aria-label="Menú">
           <X v-if="mobileOpen" :size="20" />
           <Menu v-else :size="20" />
@@ -534,17 +362,19 @@ const social = [
     <Transition name="nh-mob">
       <div v-if="mobileOpen" class="nh-mobile">
         <div class="nh-mobile__ctas">
-          <NuxtLink
-            to="/calcula-tu-beca"
+          <a
+            href="https://universidad.uninter.edu.mx/Calcula-Tu-Beca"
+            target="_blank"
             class="nh-mcta nh-mcta--out"
             @click="mobileOpen = false"
-            >Calcula tu Beca</NuxtLink
+            >Calcula tu Beca</a
           >
-          <NuxtLink
-            to="/admisiones"
+          <a
+            href="https://universidad.uninter.edu.mx/Admisiones"
+            target="_blank"
             class="nh-mcta nh-mcta--solid"
             @click="mobileOpen = false"
-            >Admisiones</NuxtLink
+            >Admisiones</a
           >
         </div>
         <div
@@ -586,20 +416,10 @@ const social = [
                 class="nh-mobile__children"
               >
                 <li v-for="c in prog.children" :key="c.label">
-                  <NuxtLink
-                    v-if="c.href.startsWith('/')"
-                    :to="c.href"
-                    class="nh-mobile__link"
-                    :class="{ 'nh-mobile__link--sub': c.sub }"
-                    @click="mobileOpen = false"
-                    >{{ c.label }}</NuxtLink
-                  >
                   <a
-                    v-else
                     :href="c.href"
                     target="_blank"
                     class="nh-mobile__link"
-                    :class="{ 'nh-mobile__link--sub': c.sub }"
                     @click="mobileOpen = false"
                     >{{ c.label }}</a
                   >
@@ -636,7 +456,7 @@ const social = [
   --med-w: 148px;
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 100;
   width: 100%;
   isolation: isolate;
   transition: box-shadow 0.3s;
@@ -1276,191 +1096,9 @@ border: 2px solid rgba(255, 255, 255, 0.4);
     height: 38px;
   }
   /* Rescatado de HEAD para el botón de Beca */
-  .nh-beca--mobile {
-    font-size: 0.6rem;
-    padding: 0.18rem 0.5rem;
+  .nh-beca--mobile { 
+    font-size: 0.6rem; 
+    padding: 0.18rem 0.5rem; 
   }
-}
-
-/* ── MEGA-MENU (Universidad) ─────────────────────────────── */
-.nh-dropdown--mega {
-  min-width: 420px;
-  left: 0;
-  transform: none;
-}
-.nh-mega__body {
-  display: flex;
-  gap: 0;
-  padding: 1rem 0;
-}
-/* Solo herramientas — sin columna programas */
-.nh-mega__body--solo {
-  padding: 1rem 0;
-}
-.nh-mega__body--solo .nh-mega__col--right {
-  padding: 0 1rem;
-  width: 100%;
-}
-.nh-mega__col {
-  flex: 1;
-  padding: 0 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.375rem;
-}
-.nh-mega__col--right {
-  padding-left: 1rem;
-}
-.nh-mega__divider {
-  width: 1px;
-  background: var(--bd);
-  margin: 0.25rem 0;
-  flex-shrink: 0;
-}
-.nh-mega__heading {
-  font-size: 0.6rem;
-  font-weight: 800;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--mut);
-  margin: 0 0 0.5rem;
-  padding-bottom: 0.375rem;
-  border-bottom: 1px solid var(--bd);
-}
-.nh-mega__card {
-  display: flex;
-  align-items: center;
-  gap: 0.625rem;
-  padding: 0.5rem 0.5rem;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: background 0.15s;
-  cursor: pointer;
-}
-.nh-mega__card:hover {
-  background: #f8fafc;
-}
-.nh-mega__card-icon {
-  width: 36px;
-  height: 36px;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-.nh-mega__card-title {
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: var(--txt);
-  margin: 0;
-  line-height: 1.2;
-}
-.nh-mega__card-desc {
-  font-size: 0.68rem;
-  color: var(--mut);
-  margin: 0.1rem 0 0;
-}
-.nh-mega__cta {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.375rem;
-  padding: 0.5rem 0.75rem;
-  border-radius: 6px;
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: #fff;
-  text-decoration: none;
-  transition: filter 0.15s;
-  margin-bottom: 0.25rem;
-}
-.nh-mega__cta:hover {
-  filter: brightness(1.12);
-}
-.nh-mega__tool-link {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.38rem 0.5rem;
-  border-radius: 5px;
-  font-size: 0.78rem;
-  color: var(--mut);
-  text-decoration: none;
-  transition: background 0.15s, color 0.15s;
-  cursor: pointer;
-}
-.nh-mega__tool-link:hover {
-  background: #f8fafc;
-  color: var(--txt);
-}
-
-/* Cuadro desplegable para sub-programas (Bachillerato Bilingüe y Multicultural) */
-.nh-mega__card-parent-group {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-}
-
-.nh-mega__sub-list {
-  max-height: 0;
-  opacity: 0;
-  overflow: hidden;
-  padding-left: 1.25rem;
-  border-left: 2px dashed var(--gc-bg, rgba(107, 175, 4, 0.2));
-  margin-left: 1.5rem;
-  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
-              opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-              margin-top 0.3s ease,
-              margin-bottom 0.3s ease,
-              border-left-color 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  gap: 0.15rem;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-/* Al pasar el cursor por el grupo (padre o hijos), se expande con transición */
-.nh-mega__card-parent-group:hover .nh-mega__sub-list {
-  max-height: 200px;
-  opacity: 1;
-  margin-top: 0.25rem;
-  margin-bottom: 0.5rem;
-  border-left-color: var(--gc);
-}
-
-.nh-mega__card--sub {
-  padding: 0.375rem 0.5rem !important;
-  background: transparent !important;
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
-}
-
-.nh-mega__card--sub:hover {
-  background: var(--gc-bg) !important;
-  transform: translateX(4px);
-}
-
-.nh-mega__card-icon--sub {
-  width: 28px !important;
-  height: 28px !important;
-  border-radius: 6px !important;
-  background: var(--gc-bg) !important;
-}
-
-.nh-mega__card-title--sub {
-  font-size: 0.76rem !important;
-}
-
-.nh-mega__card-desc--sub {
-  font-size: 0.64rem !important;
-}
-
-/* Sub-links en menú móvil */
-.nh-mobile__link--sub {
-  padding-left: 1.5rem !important;
-  opacity: 0.85;
-  border-left: 2px dashed rgba(255, 255, 255, 0.2);
-  margin-left: 0.5rem;
 }
 </style>

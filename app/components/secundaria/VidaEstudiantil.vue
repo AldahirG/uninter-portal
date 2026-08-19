@@ -51,7 +51,7 @@ const redes = [
   {
     nombre: "TikTok",
     href: "https://www.tiktok.com/@uninter_cuerna",
-    icon: "mdi:tiktok",
+    icon: "bi:tiktok",
   },
 ];
 </script>

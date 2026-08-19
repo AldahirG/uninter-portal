@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from "vue";
-import { CheckCircle2, ShieldAlert, Award } from "lucide-vue-next";
+import { CheckCircle2, XCircle, ShieldAlert, Award } from "lucide-vue-next";
 
 // Interfaz de los datos que recibirá el componente
 export interface Competitor {
@@ -11,7 +11,7 @@ export interface Competitor {
 export interface ComparisonPoint {
   feature: string;
   uninter: string;
-  competitors: string[]; // Texto de desventaja o característica genérica
+  competitors: string[]; // Texto de desventaja o característica para cada competidor
 }
 
 export interface ComparisonData {
@@ -23,6 +23,11 @@ export interface ComparisonData {
 const props = defineProps<{
   data: ComparisonData;
 }>();
+
+// Helpers visuales
+const getCompetitorClass = (index: number) => {
+  return `competitor-col-${index + 1}`;
+};
 </script>
 
 <template>
@@ -35,55 +40,83 @@ const props = defineProps<{
           <em class="title-accent">{{ data.careerName }}</em> en UNINTER?
         </h2>
         <p class="section-desc">
-          Descubre los factores clave que hacen de nuestro programa educativo la mejor elección para tu futuro profesional.
+          Compara nuestro programa educativo frente a otras opciones y descubre
+          el verdadero valor de nuestra excelencia académica.
         </p>
       </div>
 
-      <!-- Grid de Ventajas Únicas (Diseño Bento/Cards) -->
-      <div class="advantages-grid">
-        <div 
-          v-for="(point, pIndex) in data.comparisonPoints" 
-          :key="'point-' + pIndex"
-          class="advantage-card interactive-lift"
-        >
-          <!-- Encabezado de la Tarjeta (Factor de decisión) -->
-          <div class="card-header">
-            <div class="feature-badge">
-              <Award :size="14" class="badge-icon" />
-              <span>{{ point.feature }}</span>
+      <!-- Contenedor Principal de la Tabla -->
+      <div class="comparison-table-wrapper">
+        <div class="comparison-table">
+          <!-- CABECERAS (ENCABEZADOS DE COLUMNAS) -->
+          <div class="table-row table-head">
+            <div class="table-cell feature-cell">
+              <span>Factor de Decisión</span>
+            </div>
+
+            <!-- Columna Estrella: UNINTER -->
+            <div class="table-cell uninter-cell uninter-head">
+              <div class="brand-badge">La Mejor Opción</div>
+
+              <h3>UNINTER</h3>
+              <span class="program-name">{{ data.careerName }}</span>
+            </div>
+
+            <!-- Columnas Competidores -->
+            <div
+              v-for="(comp, i) in data.competitors"
+              :key="'head-comp-' + i"
+              class="table-cell competitor-cell competitor-head"
+              :class="getCompetitorClass(i)"
+            >
+              <h3>{{ comp.university }}</h3>
+              <span class="program-name">{{ comp.programName }}</span>
             </div>
           </div>
 
-          <!-- Cuerpo de la Tarjeta -->
-          <div class="card-body">
-            <!-- Bloque de Ventaja UNINTER -->
-            <div class="uninter-advantage-block">
-              <div class="check-icon-wrap">
-                <CheckCircle2 :size="20" class="check-icon" />
-              </div>
-              <div class="advantage-text">
-                <h4>La Ventaja UNINTER</h4>
-                <p>{{ point.uninter }}</p>
-              </div>
+          <!-- CUERPO DE LA TABLA (FILAS DE COMPARACIÓN) -->
+          <div
+            v-for="(point, pIndex) in data.comparisonPoints"
+            :key="'point-' + pIndex"
+            class="table-row body-row"
+          >
+            <!-- Título de la Característica -->
+            <div class="table-cell feature-cell">
+              <strong>{{ point.feature }}</strong>
             </div>
 
-            <!-- Bloque de Contraste Genérico (Otras alternativas) -->
-            <div 
-              v-if="point.competitors && point.competitors.length" 
-              class="contrast-block"
+            <!-- Beneficio UNINTER -->
+            <div class="table-cell uninter-cell uninter-body">
+              <CheckCircle2 :size="20" class="icon-positive" />
+              <span>{{ point.uninter }}</span>
+            </div>
+
+            <!-- Deficiencias Competidores -->
+            <div
+              v-for="(compText, cIndex) in point.competitors"
+              :key="'body-comp-' + pIndex + '-' + cIndex"
+              class="table-cell competitor-cell competitor-body"
+              :class="getCompetitorClass(cIndex)"
             >
-              <div class="contrast-header">
-                <ShieldAlert :size="15" class="alert-icon" />
-                <span>Otras alternativas en el mercado:</span>
-              </div>
-              <ul class="contrast-list">
-                <li 
-                  v-for="(compText, cIndex) in point.competitors" 
-                  :key="cIndex"
-                >
-                  {{ compText }}
-                </li>
-              </ul>
+              <ShieldAlert :size="16" class="icon-warning" />
+              <span>{{ compText }}</span>
+            </div>
+          </div>
+
+          <!-- FILA FINAL (CALL TO ACTION) -->
+          <div class="table-row footer-row">
+            <div class="table-cell feature-cell"></div>
+            <div class="table-cell uninter-cell uninter-footer">
+              <a href="#beca" class="btn-enroll">
+                <Award :size="18" /> Quiero esta ventaja
+              </a>
+            </div>
+            <div
+              v-for="(comp, cIndex) in data.competitors"
+              :key="'foot-comp-' + cIndex"
+              class="table-cell competitor-cell competitor-footer"
+            >
+              <span class="faded-text">Opción limitada</span>
             </div>
           </div>
         </div>
@@ -93,9 +126,12 @@ const props = defineProps<{
 </template>
 
 <style scoped>
+/* =========================================================
+   CONTENEDOR BASE Y TEXTOS
+========================================================= */
 .career-comparison-section {
-  background-color: #f8fafc;
-  padding: 6.5rem 0;
+  background-color: #ffffff;
+  padding: 6rem 0;
   font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
 }
 
@@ -107,31 +143,30 @@ const props = defineProps<{
 
 .comparison-header {
   text-align: center;
-  max-width: 750px;
-  margin: 0 auto 4.5rem auto;
+  max-width: 700px;
+  margin: 0 auto 4rem auto;
 }
 
 .eyebrow {
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   font-weight: 800;
-  letter-spacing: 0.12em;
   text-transform: uppercase;
+  letter-spacing: 0.15em;
   color: #1565c0;
   margin-bottom: 0.75rem;
-  background: rgba(21, 101, 192, 0.08);
-  padding: 0.4rem 1rem;
-  border-radius: 99px;
+  background: #e0f2fe;
+  padding: 0.35rem 0.9rem;
+  border-radius: 20px;
 }
 
 .section-title {
-  font-family: var(--font-serif, Georgia, serif);
-  font-size: clamp(2rem, 3.5vw, 2.8rem);
-  font-weight: 700;
-  line-height: 1.15;
+  font-family: var(--font-serif, Lora, Georgia, serif);
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-weight: 800;
   color: #0f3c61;
-  letter-spacing: -0.02em;
-  margin: 0.5rem 0 1rem 0;
+  margin: 0 0 1rem 0;
+  line-height: 1.15;
 }
 
 .title-accent {
@@ -140,152 +175,213 @@ const props = defineProps<{
 }
 
 .section-desc {
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   color: #64748b;
   line-height: 1.6;
-  margin: 0;
 }
 
-/* GRID DE VENTAJAS */
-.advantages-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-  gap: 2rem;
+/* =========================================================
+   ESTRUCTURA DE LA TABLA (CSS GRID)
+========================================================= */
+.comparison-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  padding-bottom: 2rem; /* Por si hace scroll en móvil */
 }
 
-/* TARJETA INDIVIDUAL */
-.advantage-card {
-  background: #ffffff;
-  border: 1px solid #e2e8f0;
-  border-radius: 20px;
-  padding: 2.2rem;
-  box-shadow: 0 4px 20px rgba(15, 60, 97, 0.02);
+.comparison-table {
   display: flex;
   flex-direction: column;
-  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  min-width: 900px; /* Para obligar scroll en móviles pequeños */
+  background: #f8fafc;
+  border-radius: 24px;
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
 }
 
-.advantage-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 20px 35px -5px rgba(15, 60, 97, 0.08);
-  border-color: #cbd5e1;
+/* GRID de Filas (Asumiendo 1 Factor + UNINTER + N Competidores) */
+.table-row {
+  display: grid;
+  /* Configuración dinámica: Factor (25%), UNINTER (35%), Resto (40% dividido) */
+  grid-template-columns: 1.2fr 1.6fr repeat(auto-fit, minmax(150px, 1fr));
+  align-items: stretch;
 }
 
-.card-header {
-  margin-bottom: 1.5rem;
+.body-row {
+  border-bottom: 1px solid #e2e8f0;
+  transition: background-color 0.3s ease;
+}
+.body-row:hover {
+  background-color: #ffffff;
+}
+.body-row:last-child {
+  border-bottom: none;
 }
 
-.feature-badge {
+.table-cell {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Celda de Características (Izquierda) */
+.feature-cell {
+  background: transparent;
+  color: #0f3c61;
+  font-size: 1.05rem;
+  border-right: 1px solid #e2e8f0;
+}
+
+/* =========================================================
+   COLUMNA UNINTER (ESTRELLA)
+========================================================= */
+.uninter-cell {
+  background: linear-gradient(to bottom, #eff6ff, #ffffff);
+  border-left: 2px solid #3b82f6;
+  border-right: 2px solid #3b82f6;
+  position: relative;
+  box-shadow: 0 10px 30px -10px rgba(59, 130, 246, 0.15);
+  z-index: 2;
+}
+
+/* Headings UNINTER */
+.uninter-head {
+  background: linear-gradient(135deg, #0f3c61, #1565c0);
+  color: #fff;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+  border: none;
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px -5px rgba(15, 60, 97, 0.3);
+}
+
+.brand-badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #d84315;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(216, 67, 21, 0.4);
+  white-space: nowrap;
+}
+
+.uninter-head h3 {
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin: 0 0 0.2rem 0;
+  letter-spacing: -0.02em;
+}
+.uninter-head .program-name {
+  font-size: 0.95rem;
+  color: #93c5fd;
+  font-weight: 600;
+}
+
+/* Cuerpo UNINTER */
+.uninter-body {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #0f3c61;
+}
+
+.icon-positive {
+  color: #10b981;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* Footer UNINTER */
+.uninter-footer {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-bottom: 2px solid #3b82f6;
+  text-align: center;
+  align-items: center;
+}
+
+.btn-enroll {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  background: #f1f5f9;
-  padding: 0.4rem 0.8rem;
-  border-radius: 8px;
-  font-size: 0.8rem;
+  gap: 8px;
+  background: #d84315;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 99px;
   font-weight: 700;
-  color: #334155;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-}
-
-.badge-icon {
-  color: #1565c0;
-}
-
-/* CUERPO Y BLOQUES */
-.card-body {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  height: 100%;
-}
-
-.uninter-advantage-block {
-  display: flex;
-  gap: 12px;
-}
-
-.check-icon-wrap {
-  background: rgba(16, 185, 129, 0.1);
-  color: #10b981;
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-.advantage-text h4 {
   font-size: 0.95rem;
-  font-weight: 800;
-  color: #0f3c61;
-  margin: 0 0 0.25rem 0;
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: all 0.3s;
+  box-shadow: 0 4px 15px rgba(216, 67, 21, 0.3);
+}
+.btn-enroll:hover {
+  background: #bf360c;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(216, 67, 21, 0.4);
 }
 
-.advantage-text p {
-  font-size: 0.95rem;
-  color: #334155;
-  line-height: 1.6;
-  margin: 0;
-}
-
-/* BLOQUE DE CONTRASTE */
-.contrast-block {
-  background: #f8fafc;
-  border: 1px dashed #cbd5e1;
-  border-radius: 12px;
-  padding: 1.25rem;
-  margin-top: auto; /* Empuja el contraste al final del cuerpo de la tarjeta */
-}
-
-.contrast-header {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0.8rem;
-  font-weight: 700;
+/* =========================================================
+   COLUMNAS COMPETIDORES
+========================================================= */
+.competitor-cell {
+  background: transparent;
   color: #64748b;
-  text-transform: uppercase;
-  margin-bottom: 0.5rem;
+  text-align: center;
+  border-right: 1px solid #e2e8f0;
+}
+.competitor-cell:last-child {
+  border-right: none;
 }
 
-.alert-icon {
-  color: #94a3b8;
+.competitor-head {
+  padding: 2.5rem 1rem 1rem 1rem;
 }
-
-.contrast-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+.competitor-head h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #475569;
+  margin: 0 0 0.3rem 0;
 }
-
-.contrast-list li {
+.competitor-head .program-name {
   font-size: 0.85rem;
-  color: #64748b;
-  line-height: 1.4;
-  position: relative;
-  padding-left: 12px;
-}
-
-.contrast-list li::before {
-  content: "•";
-  position: absolute;
-  left: 0;
   color: #94a3b8;
-  font-weight: bold;
 }
 
-@media (max-width: 640px) {
-  .advantage-card {
-    padding: 1.5rem;
-  }
+.competitor-body {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  gap: 8px;
+  font-size: 0.9rem;
+}
+
+.icon-warning {
+  color: #94a3b8;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.footer-row {
+  background: #f1f5f9;
+}
+.faded-text {
+  font-size: 0.8rem;
+  color: #cbd5e1;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 </style>

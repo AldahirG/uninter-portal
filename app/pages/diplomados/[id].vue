@@ -14,40 +14,57 @@
         :data="careerData" 
         programType="Diplomado"
         :duration="careerData.duracion"
+        :modality="programModality"
       />
       
       <CareerOverview :data="careerData" />
       
       <!-- PLAN DE ESTUDIOS NATIVO PARA DIPLOMADOS (MÓDULOS) -->
-      <section class="pg-syllabus-section" id="plan-estudios">
-        <div class="uninter-container">
-          <div class="syllabus-header animate-header">
-            <span class="eyebrow">Estructura curricular</span>
-            <h2 class="section-title">Plan de <em>Estudios</em></h2>
-            <p class="section-desc">
-              Explora los módulos diseñados para brindarte competencias prácticas y aplicadas de inmediato.
-            </p>
+      <!-- Accordion Syllabus Section -->
+    <section id="plan-estudios" class="pg-syllabus-section">
+      <div class="uninter-container">
+        <div class="syllabus-header">
+          <span class="eyebrow">Plan de Estudios</span>
+          <h2 class="section-title">Contenido <em>Temático</em></h2>
+          <p class="section-desc">Estructura del programa diseñada para brindarte los conocimientos prácticos y teóricos necesarios.</p>
+        </div>
+
+        <div class="syllabus-layout">
+          <!-- Accordion List -->
+          <div class="syllabus-list">
+            <details class="syllabus-module" v-for="(subjects, semester) in careerData.plan" :key="semester" open>
+              <summary class="module-header">
+                <span class="module-title">{{ semester }}</span>
+                <span class="module-icon"></span>
+              </summary>
+              <div class="module-content">
+                <ul class="subject-list">
+                  <li v-for="(subject, idx) in subjects" :key="idx">
+                    <span class="subject-bullet"></span>
+                    {{ subject }}
+                  </li>
+                </ul>
+              </div>
+            </details>
           </div>
 
-          <div class="syllabus-grid" :class="'grid-cols-' + Math.min(semestersCount, 3)">
-            <div 
-              v-for="(materias, semestre) in careerData.plan" 
-              :key="semestre"
-              class="semestre-card"
-            >
-              <div class="semestre-header">
-                <h3>{{ semestre }}</h3>
+          <!-- Duration Card -->
+          <div class="syllabus-sidebar">
+            <div class="duration-card">
+              <div class="duration-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
               </div>
-              <ul class="subjects-list">
-                <li v-for="(materia, idx) in materias" :key="idx">
-                  <span class="bullet">•</span>
-                  <span class="subject-name">{{ materia }}</span>
-                </li>
-              </ul>
+              <h3>Duración del Programa</h3>
+              <p class="duration-value">{{ semestersCount }} Módulos</p>
+              <p class="duration-desc">El diplomado está estructurado para completarse a tu propio ritmo dentro del tiempo establecido.</p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
       <!-- Formulario de admisiones -->
       <FormRegister id="contacto" />
@@ -89,6 +106,14 @@ const careerData = computed(() => {
 const semestersCount = computed(() => {
   if (!careerData.value || !careerData.value.plan) return 0;
   return Object.keys(careerData.value.plan).length;
+});
+
+const programModality = computed(() => {
+  if (!careerSlug.value) return 'Híbrido';
+  if (careerSlug.value.includes('-en-linea')) {
+    return 'Híbrido y en Línea';
+  }
+  return 'Híbrido';
 });
 
 // Set page head title dynamically
@@ -145,58 +170,161 @@ useHead(() => {
   margin: 0 auto;
 }
 
-.syllabus-grid {
+/* Syllabus Layout (Accordion + Sidebar) */
+.syllabus-layout {
   display: grid;
-  gap: 1.5rem;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: start;
 }
-.grid-cols-1 { grid-template-columns: 1fr; }
-.grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
-.grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
+@media (min-width: 992px) {
+  .syllabus-layout {
+    grid-template-columns: 1fr 320px;
+    gap: 3rem;
+  }
+}
 
-.semestre-card {
+/* Accordion List */
+.syllabus-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.syllabus-module {
   background: #ffffff;
   border: 1px solid #e2e8f0;
-  border-radius: 16px;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
-  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
 }
-.semestre-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 30px rgba(109, 76, 65, 0.08);
+.syllabus-module[open] {
+  border-color: #cbd5e1;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.05);
 }
-.semestre-header {
-  background: var(--p);
+.module-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 1.25rem 1.5rem;
-  color: #ffffff;
-}
-.semestre-header h3 {
-  margin: 0;
-  font-size: 1.1rem;
+  background: #ffffff;
+  cursor: pointer;
+  user-select: none;
   font-weight: 700;
+  color: #1e293b;
+  font-size: 1.1rem;
+  transition: background 0.2s;
+  list-style: none; /* Hide default arrow */
 }
-.subjects-list {
-  list-style: none;
+.module-header::-webkit-details-marker {
+  display: none;
+}
+.module-header:hover {
+  background: #f8fafc;
+}
+.syllabus-module[open] .module-header {
+  border-bottom: 1px solid #e2e8f0;
+  background: #f8fafc;
+  color: var(--p);
+}
+.module-icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.module-icon::before, .module-icon::after {
+  content: '';
+  position: absolute;
+  background: currentColor;
+  border-radius: 2px;
+  transition: transform 0.3s ease;
+}
+.module-icon::before {
+  top: 9px;
+  left: 2px;
+  width: 16px;
+  height: 2px;
+}
+.module-icon::after {
+  top: 2px;
+  left: 9px;
+  width: 2px;
+  height: 16px;
+}
+.syllabus-module[open] .module-icon::after {
+  transform: rotate(90deg);
+  opacity: 0;
+}
+
+.module-content {
   padding: 1.5rem;
+  background: #ffffff;
+}
+.subject-list {
+  list-style: none;
+  padding: 0;
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.875rem;
+  gap: 0.75rem;
 }
-.subjects-list li {
+.subject-list li {
   display: flex;
   align-items: flex-start;
-  gap: 0.5rem;
-}
-.subjects-list .bullet {
-  color: var(--p);
-  font-weight: 900;
-  flex-shrink: 0;
-}
-.subjects-list .subject-name {
-  font-size: 0.92rem;
-  color: #334155;
+  gap: 0.75rem;
+  font-size: 0.95rem;
+  color: #475569;
   line-height: 1.4;
+}
+.subject-bullet {
+  flex-shrink: 0;
+  width: 6px;
+  height: 6px;
+  background: #f59e0b;
+  border-radius: 50%;
+  margin-top: 0.45rem;
+}
+
+/* Sidebar Duration Card */
+.duration-card {
+  background: var(--p);
+  color: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(109, 76, 65, 0.2);
+  position: sticky;
+  top: 6rem;
+}
+.duration-icon {
+  width: 48px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.25rem;
+}
+.duration-card h3 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  opacity: 0.9;
+  margin: 0 0 0.5rem;
+}
+.duration-value {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #fde68a;
+  margin: 0 0 1rem;
+  font-family: var(--font-serif, Georgia, serif);
+}
+.duration-desc {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  line-height: 1.5;
+  margin: 0;
 }
 
 /* Error / Not Found */

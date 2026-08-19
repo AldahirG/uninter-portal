@@ -43,4 +43,10 @@ export default defineNuxtConfig({
       collections: ["lucide", "mdi"],
     }
   },
+
+  nitro: {
+    prerender: {
+      failOnError: false,
+    }
+  }
 })

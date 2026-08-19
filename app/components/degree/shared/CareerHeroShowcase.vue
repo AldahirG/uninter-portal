@@ -40,10 +40,12 @@ const props = withDefaults(
     };
     programType?: string; // e.g. "Licenciatura", "Especialidad", "Maestría", "Doctorado"
     duration?: string;    // e.g. "8 Semestres", "2 Semestres", "4 Semestres"
+    modality?: string;
   }>(),
   {
     programType: "Licenciatura",
     duration: "8 Semestres",
+    modality: "Presencial",
   }
 );
 
@@ -146,7 +148,7 @@ const formatTagline = (tagline: string) => {
               </div>
               <div class="pill">
                 <MapPin :size="16" class="pill-icon" />
-                <span>Presencial</span>
+                <span>{{ modality }}</span>
               </div>
             </div>
 

@@ -1,597 +1,837 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 import { ref } from "vue";
 import {
-  ChevronRight,
   User,
   Mail,
   Phone,
+  Calculator,
   CheckCircle2,
   RefreshCcw,
-  Award,
+  Sparkles,
+  GraduationCap,
   BookOpen,
-  Globe,
-  Clock,
-  Check,
+  Briefcase,
+  Award,
+  ArrowRight,
+  ShieldCheck,
 } from "lucide-vue-next";
 
+// Estados de la calculadora
 const step = ref(1);
+const isCalculating = ref(false);
 
 const form = ref({
-  nivel: "Licenciatura",
+  nivel: "Licenciatura", // Por defecto para evitar clicks extra
   nombre: "",
-  paterno: "",
-  materno: "",
+  apellidos: "",
   correo: "",
   telefono: "",
+  avisoPrivacidad: false,
 });
 
+// Opciones visuales para reemplazar el viejo <select>
+const niveles = [
+  { id: "Secundaria Bilingüe", icon: BookOpen, label: "Secundaria" },
+  { id: "Bachillerato", icon: GraduationCap, label: "Bachillerato" },
+  { id: "Licenciatura", icon: Briefcase, label: "Licenciatura" },
+  { id: "Posgrado", icon: Award, label: "Posgrado" },
+];
+
 const simularBeca = () => {
-  step.value = 2;
+  // Efecto de "procesamiento de datos" para dar realismo a la herramienta
+  isCalculating.value = true;
+  setTimeout(() => {
+    isCalculating.value = false;
+    step.value = 2;
+  }, 1800);
 };
 
 const reiniciar = () => {
-  form.value.nombre = "";
-  form.value.paterno = "";
-  form.value.materno = "";
-  form.value.correo = "";
-  form.value.telefono = "";
+  form.value = {
+    nivel: "Licenciatura",
+    nombre: "",
+    apellidos: "",
+    correo: "",
+    telefono: "",
+    avisoPrivacidad: false,
+  };
   step.value = 1;
 };
-
-const highlights = [
-  { icon: Award, value: "Hasta 60%", label: "de beca disponible" },
-  { icon: BookOpen, value: "23", label: "licenciaturas presenciales" },
-  { icon: Globe, value: "71,000+", label: "egresados en México y el mundo" },
-  { icon: Clock, value: "4 años", label: "duración promedio" },
-];
-
-const benefits = [
-  "Colegiatura mensual con descuento garantizado",
-  "Acceso a instalaciones de clase mundial",
-  "Movilidad e intercambio internacional",
-  "Bolsa de trabajo Enlace Profesional UNINTER",
-  "Talleres deportivos y culturales incluidos",
-];
 </script>
 
 <template>
-  <section class="beca-section">
-    <div class="beca-container">
-
-      <!-- Columna izquierda: información -->
-      <div class="beca-info">
-        <p class="beca-eyebrow">Apoyo económico</p>
-        <h2 class="beca-title">Calcula tu<br /><em>porcentaje de beca</em></h2>
-        <p class="beca-desc">
-          En UNINTER creemos que el talento no debe tener límites económicos.
-          Completa el formulario y descubre de inmediato qué porcentaje de beca
-          puedes obtener para iniciar tu licenciatura presencial.
-        </p>
-
-        <!-- Métricas destacadas -->
-        <div class="beca-highlights">
-          <div v-for="h in highlights" :key="h.label" class="beca-hl">
-            <div class="beca-hl__icon">
-              <component :is="h.icon" :size="20" />
+  <section class="calc-premium-section">
+    <div class="calc-container">
+      <!-- CONTENEDOR PRINCIPAL DIVIDIDO -->
+      <div class="calc-wrapper">
+        <!-- PANEL IZQUIERDO: PROPUESTA DE VALOR -->
+        <div class="calc-info-panel">
+          <div class="info-content">
+            <div class="badge-trust">
+              <ShieldCheck :size="16" class="text-gold" /> Herramienta Oficial
             </div>
-            <div>
-              <p class="beca-hl__value">{{ h.value }}</p>
-              <p class="beca-hl__label">{{ h.label }}</p>
-            </div>
-          </div>
-        </div>
+            <h2 class="info-title">
+              Descubre cuánto puedes ahorrar en tu <em>futuro.</em>
+            </h2>
+            <p class="info-desc">
+              Utiliza nuestra calculadora inteligente y obtén un estimado
+              inmediato de tu porcentaje de beca.
+              <strong>Sin costo, sin compromiso y en menos de 1 minuto.</strong>
+            </p>
 
-        <!-- Lista de beneficios -->
-        <div class="beca-benefits">
-          <p class="beca-benefits__heading">Beneficios incluidos con tu beca</p>
-          <ul class="beca-benefits__list">
-            <li v-for="b in benefits" :key="b" class="beca-benefits__item">
-              <Check :size="14" class="beca-benefits__check" />
-              {{ b }}
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Columna derecha: formulario / resultado -->
-      <div class="beca-form-wrap">
-        <div class="beca-form-card">
-          <div class="beca-form-card__header">
-            <img src="/images/logo-uninter.png" alt="UNINTER" class="beca-form-logo" />
-            <p class="beca-form-card__title">Descubre tu beca</p>
+            <ul class="info-benefits">
+              <li>
+                <CheckCircle2 :size="20" class="benefit-icon" /> Resultados
+                inmediatos
+              </li>
+              <li>
+                <CheckCircle2 :size="20" class="benefit-icon" /> Becas por
+                mérito académico y deportivo
+              </li>
+              <li>
+                <CheckCircle2 :size="20" class="benefit-icon" /> Asesoría
+                personalizada tras tu cálculo
+              </li>
+            </ul>
           </div>
 
-          <Transition name="fade" mode="out-in">
-            <!-- PASO 1: Formulario -->
-            <div v-if="step === 1" key="form">
-              <form @submit.prevent="simularBeca" class="beca-form">
-                <div class="beca-field">
-                  <label class="beca-label">Nivel de interés</label>
-                  <div class="beca-input-wrap">
-                    <ChevronRight :size="16" class="beca-icon" />
-                    <select v-model="form.nivel" class="beca-input beca-select">
-                      <option value="Secundaria Bilingüe">Secundaria Bilingüe</option>
-                      <option value="Bachillerato">Bachillerato</option>
-                      <option value="Licenciatura">Licenciatura</option>
-                      <option value="Posgrado">Posgrado</option>
-                    </select>
+          <!-- Elemento decorativo de fondo -->
+          <div class="calc-orb"></div>
+        </div>
+
+        <!-- PANEL DERECHO: LA CALCULADORA -->
+        <div class="calc-tool-panel">
+          <Transition name="slide-fade" mode="out-in">
+            <!-- PASO 1: FORMULARIO INTERACTIVO -->
+            <div v-if="step === 1" class="calc-step">
+              <div class="step-header">
+                <h3>Calculadora de Becas</h3>
+                <p>Completa los datos para realizar tu simulación</p>
+              </div>
+
+              <form @submit.prevent="simularBeca" class="calc-form">
+                <!-- SELECTOR VISUAL DE NIVEL -->
+                <div class="form-group">
+                  <label class="form-label">¿Qué nivel te interesa?</label>
+                  <div class="visual-selector">
+                    <button
+                      v-for="nvl in niveles"
+                      :key="nvl.id"
+                      type="button"
+                      class="selector-card"
+                      :class="{ 'is-selected': form.nivel === nvl.id }"
+                      @click="form.nivel = nvl.id"
+                    >
+                      <component
+                        :is="nvl.icon"
+                        :size="22"
+                        class="selector-icon"
+                      />
+                      <span>{{ nvl.label }}</span>
+                    </button>
                   </div>
                 </div>
 
-                <div class="beca-field">
-                  <label class="beca-label">Datos del aspirante</label>
-                  <div class="beca-grid-3">
-                    <div class="beca-input-wrap">
-                      <User :size="15" class="beca-icon" />
-                      <input type="text" v-model="form.nombre" placeholder="Nombre(s)" class="beca-input" required />
+                <!-- INPUTS PERSONALES -->
+                <div class="form-group">
+                  <label class="form-label">Tus Datos</label>
+
+                  <div class="input-grid">
+                    <div class="input-wrap">
+                      <User :size="18" class="input-icon" />
+                      <input
+                        type="text"
+                        v-model="form.nombre"
+                        placeholder="Nombre(s)"
+                        required
+                        class="premium-input"
+                      />
                     </div>
-                    <div class="beca-input-wrap">
-                      <User :size="15" class="beca-icon" />
-                      <input type="text" v-model="form.paterno" placeholder="Ap. Paterno" class="beca-input" required />
-                    </div>
-                    <div class="beca-input-wrap">
-                      <User :size="15" class="beca-icon" />
-                      <input type="text" v-model="form.materno" placeholder="Ap. Materno" class="beca-input" />
+                    <div class="input-wrap">
+                      <User :size="18" class="input-icon" />
+                      <input
+                        type="text"
+                        v-model="form.apellidos"
+                        placeholder="Apellidos"
+                        required
+                        class="premium-input"
+                      />
                     </div>
                   </div>
-                  <div class="beca-grid-2">
-                    <div class="beca-input-wrap">
-                      <Mail :size="15" class="beca-icon" />
-                      <input type="email" v-model="form.correo" placeholder="Correo electrónico" class="beca-input" required />
+
+                  <div class="input-grid mt-3">
+                    <div class="input-wrap">
+                      <Mail :size="18" class="input-icon" />
+                      <input
+                        type="email"
+                        v-model="form.correo"
+                        placeholder="Correo electrónico"
+                        required
+                        class="premium-input"
+                      />
                     </div>
-                    <div class="beca-input-wrap">
-                      <Phone :size="15" class="beca-icon" />
-                      <input type="tel" v-model="form.telefono" placeholder="Teléfono" class="beca-input" required />
+                    <div class="input-wrap">
+                      <Phone :size="18" class="input-icon" />
+                      <input
+                        type="tel"
+                        v-model="form.telefono"
+                        placeholder="WhatsApp / Teléfono"
+                        required
+                        class="premium-input"
+                      />
                     </div>
                   </div>
                 </div>
 
-                <p class="beca-disclaimer">
-                  Al enviar autorizo el tratamiento de mis datos conforme al
-                  <a href="#">Aviso de Privacidad</a> de Universidad Internacional.
-                </p>
+                <!-- PRIVACIDAD -->
+                <div class="privacy-wrap">
+                  <input
+                    type="checkbox"
+                    id="privacidad"
+                    v-model="form.avisoPrivacidad"
+                    required
+                    class="custom-checkbox"
+                  />
+                  <label for="privacidad">
+                    Acepto el <a href="#">aviso de privacidad</a> para el
+                    cálculo de mi beca.
+                  </label>
+                </div>
 
-                <button type="submit" class="beca-btn">
-                  Calcular mi beca
+                <!-- BOTÓN INTELIGENTE -->
+                <button
+                  type="submit"
+                  class="submit-btn"
+                  :class="{ 'is-loading': isCalculating }"
+                  :disabled="isCalculating || !form.avisoPrivacidad"
+                >
+                  <span v-if="!isCalculating" class="btn-content">
+                    <Calculator :size="18" /> Calcular mi Beca
+                  </span>
+                  <span v-else class="btn-content">
+                    <RefreshCcw :size="18" class="spin-icon" /> Analizando
+                    perfil...
+                  </span>
                 </button>
               </form>
             </div>
 
-            <!-- PASO 2: Resultado -->
-            <div v-else key="result" class="beca-result">
-              <CheckCircle2 :size="52" class="beca-result__icon" />
-              <h3 class="beca-result__title">
-                ¡Felicidades{{ form.nombre ? ", " + form.nombre : "" }}!
-              </h3>
-              <p class="beca-result__desc">
-                Para el nivel <strong>{{ form.nivel }}</strong> eres candidato a:
-              </p>
-              <div class="beca-badge">
-                <span class="beca-badge__pct">60%</span>
-                <span class="beca-badge__label">de beca</span>
+            <!-- PASO 2: RESULTADO TIPO TICKET/VOUCHER -->
+            <div v-else class="calc-step result-step">
+              <div class="result-header">
+                <div class="success-icon-wrap">
+                  <Sparkles :size="32" class="text-gold" />
+                </div>
+                <h3>¡Cálculo Exitoso, {{ form.nombre }}!</h3>
+                <p>
+                  Basado en tu perfil para <strong>{{ form.nivel }}</strong
+                  >, este es tu estimado:
+                </p>
               </div>
-              <p class="beca-result__footer">
-                Un asesor se pondrá en contacto contigo para confirmar tu beneficio y
-                guiarte en el proceso de admisión.
-              </p>
-              <button @click="reiniciar" class="beca-btn beca-btn--outline">
-                <RefreshCcw :size="14" /> Volver a calcular
-              </button>
+
+              <!-- VOUCHER DE BECA -->
+              <div class="scholarship-voucher">
+                <div class="voucher-left">
+                  <span>Beca Autorizada</span>
+                  <strong>60%</strong>
+                </div>
+                <div class="voucher-right">
+                  <small>Válido para inscripción</small>
+                  <span>Ciclo 2026</span>
+                </div>
+                <div class="voucher-cutouts"></div>
+              </div>
+
+              <div class="result-actions">
+                <p class="next-steps-text">
+                  Un asesor te contactará por WhatsApp para hacer válido este
+                  porcentaje.
+                </p>
+                <a href="#" class="claim-btn">
+                  Reclamar Beca Ahora <ArrowRight :size="18" />
+                </a>
+                <button @click="reiniciar" class="reset-link">
+                  Volver a calcular
+                </button>
+              </div>
             </div>
           </Transition>
         </div>
       </div>
-
     </div>
   </section>
 </template>
 
 <style scoped>
-/* ── Sección ───────────────────────────────────────────────── */
-.beca-section {
-  background: linear-gradient(160deg, #0d2f4f 0%, #0f3c61 55%, #1565c0 100%);
+/* =========================================================
+   CONTENEDOR GLOBAL
+========================================================= */
+.calc-premium-section {
+  background-color: #f1f5f9; /* Gris azulado muy tenue */
   padding: 5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+.calc-container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.calc-wrapper {
+  display: flex;
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 25px 50px -12px rgba(15, 60, 97, 0.15);
+  overflow: hidden;
+  min-height: 600px;
+}
+
+/* =========================================================
+   PANEL IZQUIERDO: PROPUESTA DE VALOR
+========================================================= */
+.calc-info-panel {
+  flex: 0.85;
+  background: linear-gradient(145deg, #0f3c61, #1565c0);
+  color: #ffffff;
+  padding: 4rem 3rem;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   overflow: hidden;
 }
 
-.beca-section::before {
-  content: "";
+.calc-orb {
   position: absolute;
-  inset: 0;
-  background-image: radial-gradient(circle at 20% 80%, rgba(255,255,255,0.04) 0%, transparent 50%),
-                    radial-gradient(circle at 80% 20%, rgba(255,255,255,0.06) 0%, transparent 50%);
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: -100px;
+  left: -100px;
+  border-radius: 50%;
   pointer-events: none;
 }
 
-.beca-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+.info-content {
+  position: relative;
+  z-index: 2;
+}
+
+.badge-trust {
+  display: inline-flex;
   align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.text-gold {
+  color: #fbbf24;
+}
+
+.info-title {
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 0 0 1rem 0;
+}
+.info-title em {
+  color: #93c5fd;
+  font-style: italic;
+}
+
+.info-desc {
+  font-size: 1.05rem;
+  color: #e2e8f0;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+}
+
+.info-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.info-benefits li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.benefit-icon {
+  color: #4ade80;
+  flex-shrink: 0;
+}
+
+/* =========================================================
+   PANEL DERECHO: HERRAMIENTA CALCULADORA
+========================================================= */
+.calc-tool-panel {
+  flex: 1.15;
+  padding: 4rem 3.5rem;
+  background: #ffffff;
   position: relative;
 }
 
-/* ── Columna info ──────────────────────────────────────────── */
-.beca-eyebrow {
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.55);
-  margin: 0 0 0.75rem;
+.calc-step {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
-.beca-title {
-  font-family: var(--font-serif, Georgia, serif);
-  font-size: clamp(2rem, 3.5vw, 2.8rem);
+.step-header {
+  margin-bottom: 2rem;
+}
+.step-header h3 {
+  font-size: 1.8rem;
   font-weight: 800;
-  color: #ffffff;
-  line-height: 1.15;
-  margin: 0 0 1.25rem;
+  color: #0f3c61;
+  margin: 0 0 0.25rem 0;
 }
-
-.beca-title em {
-  font-style: normal;
-  color: #60a5fa;
-}
-
-.beca-desc {
+.step-header p {
   font-size: 0.95rem;
-  color: rgba(255,255,255,0.72);
-  line-height: 1.7;
-  margin: 0 0 2.25rem;
-  max-width: 440px;
+  color: #64748b;
+  margin: 0;
 }
 
-/* Métricas */
-.beca-highlights {
+.calc-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.form-label {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #334155;
+}
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+/* Selector Visual de Tarjetas */
+.visual-selector {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+}
+
+.selector-card {
+  background: #f8fafc;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #64748b;
+}
+
+.selector-card:hover {
+  border-color: #cbd5e1;
+  background: #ffffff;
+  transform: translateY(-2px);
+}
+.selector-card span {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: center;
+}
+.selector-icon {
+  transition: transform 0.2s;
+}
+
+/* Estado Activo del Selector */
+.selector-card.is-selected {
+  background: #eff6ff;
+  border-color: #3b82f6;
+  color: #1e40af;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+}
+.selector-card.is-selected .selector-icon {
+  transform: scale(1.1);
+  color: #3b82f6;
+}
+
+/* Inputs Premium */
+.input-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  margin-bottom: 2.25rem;
 }
-
-.beca-hl {
+.input-wrap {
+  position: relative;
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  background: rgba(255,255,255,0.07);
-  border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 10px;
-  padding: 0.875rem 1rem;
 }
 
-.beca-hl__icon {
-  width: 38px;
-  height: 38px;
-  border-radius: 8px;
-  background: rgba(96,165,250,0.18);
-  color: #60a5fa;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
+.input-icon {
+  position: absolute;
+  left: 1rem;
+  color: #94a3b8;
+  pointer-events: none;
+  transition: color 0.3s;
 }
 
-.beca-hl__value {
-  font-size: 1.05rem;
-  font-weight: 800;
-  color: #fff;
-  margin: 0;
-  line-height: 1.1;
-}
-
-.beca-hl__label {
-  font-size: 0.68rem;
-  color: rgba(255,255,255,0.55);
-  margin: 0.1rem 0 0;
-}
-
-/* Beneficios */
-.beca-benefits__heading {
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.45);
-  margin: 0 0 0.75rem;
-}
-
-.beca-benefits__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.beca-benefits__item {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.85rem;
-  color: rgba(255,255,255,0.78);
-}
-
-.beca-benefits__check {
-  color: #34d399;
-  flex-shrink: 0;
-}
-
-/* ── Tarjeta del formulario ────────────────────────────────── */
-.beca-form-wrap {
-  display: flex;
-  justify-content: center;
-}
-
-.beca-form-card {
-  background: #ffffff;
-  border-radius: 20px;
-  box-shadow: 0 30px 80px rgba(0,0,0,0.3);
-  padding: 2rem 2rem 2.25rem;
+.premium-input {
   width: 100%;
-  max-width: 460px;
-}
-
-.beca-form-card__header {
-  display: flex;
-  align-items: center;
-  gap: 0.875rem;
-  margin-bottom: 1.5rem;
-  padding-bottom: 1.25rem;
-  border-bottom: 1px solid #e2e8f0;
-}
-
-.beca-form-logo {
-  height: 44px;
-  object-fit: contain;
-}
-
-.beca-form-card__title {
-  font-size: 1.15rem;
-  font-weight: 800;
-  color: #0f3c61;
-  margin: 0;
-}
-
-/* Formulario */
-.beca-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1.125rem;
-}
-
-.beca-field {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.beca-label {
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #64748b;
-}
-
-.beca-grid-3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.625rem;
-  margin-bottom: 0.625rem;
-}
-
-.beca-grid-2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0.625rem;
-}
-
-.beca-input-wrap {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
   background: #f8fafc;
   border: 1px solid #e2e8f0;
-  border-radius: 8px;
-  padding: 0 0.75rem;
-  transition: border-color 0.2s, box-shadow 0.2s;
-}
-
-.beca-input-wrap:focus-within {
-  border-color: #1565c0;
-  box-shadow: 0 0 0 3px rgba(21,101,192,0.1);
-}
-
-.beca-icon {
-  color: #94a3b8;
-  flex-shrink: 0;
-}
-
-.beca-input {
-  width: 100%;
-  background: transparent;
-  border: none;
-  outline: none;
-  padding: 0.6rem 0;
-  font-size: 0.82rem;
+  border-radius: 10px;
+  padding: 0.9rem 1rem 0.9rem 2.8rem;
+  font-size: 0.95rem;
   color: #1e293b;
+  transition: all 0.2s;
+  outline: none;
 }
-
-.beca-input::placeholder {
+.premium-input::placeholder {
   color: #94a3b8;
 }
-
-.beca-select {
-  cursor: pointer;
-  appearance: none;
+.premium-input:focus {
+  background: #ffffff;
+  border-color: #1565c0;
+  box-shadow: 0 0 0 4px rgba(21, 101, 192, 0.1);
 }
-
-.beca-disclaimer {
-  font-size: 0.65rem;
-  color: #94a3b8;
-  line-height: 1.5;
-  text-align: center;
-  margin: 0;
-}
-
-.beca-disclaimer a {
+.premium-input:focus + .input-icon,
+.input-wrap:focus-within .input-icon {
   color: #1565c0;
-  text-decoration: none;
 }
 
-.beca-disclaimer a:hover {
+/* Privacidad */
+.privacy-wrap {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+.custom-checkbox {
+  margin-top: 0.2rem;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: #1565c0;
+}
+.privacy-wrap label {
+  font-size: 0.75rem;
+  color: #64748b;
+  line-height: 1.4;
+}
+.privacy-wrap a {
+  color: #1565c0;
   text-decoration: underline;
+  font-weight: 600;
 }
 
-.beca-btn {
-  width: 100%;
-  background: #1565c0;
+/* Botón Inteligente */
+.submit-btn {
+  background: linear-gradient(135deg, #1565c0, #0f3c61);
   color: #fff;
   border: none;
-  border-radius: 8px;
-  padding: 0.8rem 1.5rem;
-  font-size: 0.9rem;
-  font-weight: 700;
+  border-radius: 12px;
+  padding: 1.1rem;
+  margin-top: 0.5rem;
+  font-size: 1.05rem;
+  font-weight: 800;
   cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 20px -5px rgba(21, 101, 192, 0.4);
+}
+.submit-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 25px -5px rgba(21, 101, 192, 0.5);
+  background: linear-gradient(135deg, #1e40af, #0c2e4e);
+}
+.submit-btn:disabled {
+  background: #cbd5e1;
+  box-shadow: none;
+  cursor: not-allowed;
+}
+.btn-content {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
-  transition: background 0.2s, transform 0.15s;
+  gap: 8px;
 }
 
-.beca-btn:hover {
-  background: #0f3c61;
-  transform: translateY(-1px);
+.spin-icon {
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
-.beca-btn--outline {
-  background: transparent;
-  color: #1565c0;
-  border: 1.5px solid #1565c0;
-}
-
-.beca-btn--outline:hover {
-  background: #f0f6fc;
-  transform: translateY(-1px);
-}
-
-/* Resultado */
-.beca-result {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* =========================================================
+   PANTALLA DE RESULTADO (TICKET/VOUCHER)
+========================================================= */
+.result-step {
   text-align: center;
-  gap: 0.75rem;
-  padding: 0.5rem 0;
+  justify-content: center;
+  align-items: center;
 }
 
-.beca-result__icon {
-  color: #10b981;
+.success-icon-wrap {
+  width: 80px;
+  height: 80px;
+  background: #fffbeb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  box-shadow: 0 10px 25px rgba(251, 191, 36, 0.3);
 }
 
-.beca-result__title {
-  font-size: 1.5rem;
+.result-header h3 {
+  font-size: 2.2rem;
   font-weight: 800;
   color: #0f3c61;
-  margin: 0;
+  margin: 0 0 0.5rem 0;
 }
-
-.beca-result__desc {
-  font-size: 0.9rem;
+.result-header p {
+  font-size: 1.1rem;
   color: #475569;
-  margin: 0;
+  margin: 0 0 2rem 0;
 }
 
-.beca-badge {
-  background: linear-gradient(135deg, #1565c0, #0f3c61);
+/* El Voucher Dorado */
+.scholarship-voucher {
+  display: flex;
+  background: linear-gradient(135deg, #0f3c61, #1565c0);
   border-radius: 16px;
-  padding: 1.25rem 2.5rem;
-  box-shadow: 0 10px 30px rgba(21,101,192,0.3);
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 40px -10px rgba(15, 60, 97, 0.3);
+  margin-bottom: 2.5rem;
+  width: 100%;
+  max-width: 450px;
+}
+
+/* Efecto visual de boleto perforado */
+.voucher-cutouts::before,
+.voucher-cutouts::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.voucher-cutouts::before {
+  left: -15px;
+}
+.voucher-cutouts::after {
+  right: -15px;
+}
+
+.voucher-left {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 2px dashed rgba(255, 255, 255, 0.3);
+}
+.voucher-left span {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #fbbf24;
+}
+.voucher-left strong {
+  font-size: 4.5rem;
+  font-weight: 900;
+  line-height: 1;
+  margin-top: 0.2rem;
+}
+
+.voucher-right {
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  min-width: 120px;
+}
+.voucher-right small {
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+.voucher-right span {
+  font-weight: 800;
+  font-size: 1.1rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+}
+
+/* Acciones Finales */
+.result-actions {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 450px;
 }
-
-.beca-badge__pct {
-  font-size: 3.5rem;
-  font-weight: 900;
-  color: #fff;
-  line-height: 1;
-}
-
-.beca-badge__label {
-  font-size: 0.8rem;
-  color: rgba(255,255,255,0.7);
-  font-weight: 600;
-  letter-spacing: 0.06em;
-}
-
-.beca-result__footer {
-  font-size: 0.8rem;
+.next-steps-text {
+  font-size: 0.9rem;
   color: #64748b;
-  line-height: 1.6;
   margin: 0;
 }
 
-/* Animación */
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.25s ease, transform 0.25s ease;
+.claim-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #fbbf24;
+  color: #92400e;
+  font-size: 1.1rem;
+  font-weight: 800;
+  padding: 1.1rem;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.2s;
 }
-.fade-enter-from,
-.fade-leave-to {
+.claim-btn:hover {
+  background: #f59e0b;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(245, 158, 11, 0.3);
+}
+
+.reset-link {
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.2s;
+  margin-top: 0.5rem;
+}
+.reset-link:hover {
+  color: #0f3c61;
+}
+
+/* Animación de Transición */
+.slide-fade-enter-active,
+.slide-fade-leave-active {
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.slide-fade-enter-from {
   opacity: 0;
-  transform: translateY(8px);
+  transform: translateX(30px);
+}
+.slide-fade-leave-to {
+  opacity: 0;
+  transform: translateX(-30px);
 }
 
-/* ── Responsive ────────────────────────────────────────────── */
+/* =========================================================
+   RESPONSIVE
+========================================================= */
 @media (max-width: 900px) {
-  .beca-container {
-    grid-template-columns: 1fr;
-    gap: 2.5rem;
+  .calc-wrapper {
+    flex-direction: column;
+    min-height: auto;
   }
-
-  .beca-title {
-    font-size: 2rem;
+  .calc-info-panel {
+    padding: 3rem 2rem;
+    flex: none;
   }
-
-  .beca-desc {
-    max-width: 100%;
+  .calc-tool-panel {
+    padding: 3rem 2rem;
+    flex: none;
   }
-
-  .beca-form-wrap {
-    width: 100%;
-  }
-
-  .beca-form-card {
-    max-width: 100%;
+  .visual-selector {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 560px) {
-  .beca-section {
-    padding: 3.5rem 0;
+@media (max-width: 600px) {
+  .calc-tool-panel {
+    padding: 2.5rem 1.25rem;
   }
-
-  .beca-highlights {
-    grid-template-columns: 1fr 1fr;
-    gap: 0.625rem;
-  }
-
-  .beca-grid-3 {
+  .input-grid {
     grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .mt-3 {
+    margin-top: 1rem;
+  }
+  .info-title {
+    font-size: 1.8rem;
+  }
+  .step-header h3 {
+    font-size: 1.5rem;
   }
 
-  .beca-grid-2 {
-    grid-template-columns: 1fr;
+  .scholarship-voucher {
+    flex-direction: column;
+    text-align: center;
+  }
+  .voucher-left {
+    border-right: none;
+    border-bottom: 2px dashed rgba(255, 255, 255, 0.3);
+    padding: 1.5rem;
+  }
+  .voucher-right {
+    padding: 1.5rem;
+  }
+  .voucher-cutouts::before {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 2px;
+    border-radius: 0;
+    background: transparent;
+    border-bottom: 2px dashed #fff;
+  }
+  .voucher-cutouts::after {
+    display: none;
   }
 }
 </style>

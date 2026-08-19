@@ -1,4 +1,4 @@
-<script setup lang="ts">
+﻿<script setup lang="ts">
 import { ref } from "vue";
 import {
   User,
@@ -47,12 +47,6 @@ const programas = [
   "Diseño y Artes",
   "Ingeniería",
 ];
-
-useHead({
-  script: [
-    { src: "https://link.superleads.mx/js/form_embed.js", defer: true }
-  ]
-});
 </script>
 
 <template>
@@ -63,7 +57,7 @@ useHead({
         <div class="reg-form-side">
           <iframe
             src="https://link.superleads.mx/widget/form/6rkDqSG2V8BZNsczD2wL"
-            style="width: 100%; height: 560px; border: none; border-radius: 4px; overflow: hidden;"
+            style="width: 100%; height: 100%; border: none; border-radius: 4px"
             id="inline-6rkDqSG2V8BZNsczD2wL"
             data-layout="{'id':'INLINE'}"
             data-trigger-type="alwaysShow"
@@ -122,7 +116,7 @@ useHead({
 /* ── Lado formulario ───────────────────────────────────────── */
 .reg-form-side {
   flex: 1.25;
-  padding: 2rem;
+  padding: 3.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;

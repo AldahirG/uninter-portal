@@ -64,16 +64,18 @@ const stats = [
           más de 40 años de experiencia educativa.
         </p>
 
-        <div class="siu-hero__ctas">
+        <div class="siu-hero__ctas-new">
+          <a href="#oferta-siu" class="siu-btn-card">
+            <div class="btn-icon"><Icon name="lucide:book-open" size="28" /></div>
+            <span>Ver modalidades</span>
+          </a>
           <a
             href="https://siu.uninter.edu.mx/"
             target="_blank"
-            class="siu-btn siu-btn--primary"
+            class="siu-btn-card"
           >
-            Conoce SIU
-          </a>
-          <a href="#oferta-siu" class="siu-btn siu-btn--ghost">
-            Ver modalidades
+            <div class="btn-icon"><Icon name="lucide:info" size="28" /></div>
+            <span>Conoce SIU</span>
           </a>
         </div>
       </div>
@@ -387,4 +389,42 @@ const stats = [
     font-size: clamp(2.5rem, 12vw, 4rem);
   }
 }
+
+.siu-hero__ctas-new {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.siu-btn-card {
+  align-items: center;
+  background: transparent;
+  border: 1px solid hsla(0,0%,100%,.4);
+  border-radius: 12px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: .95rem;
+  font-weight: 600;
+  gap: .5rem;
+  justify-content: center;
+  min-width: 140px;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+  transition: all .3s ease;
+}
+.siu-btn-card:hover {
+  background: #ffce5226;
+  border-color: var(--s);
+  color: var(--s);
+  transform: translateY(-2px);
+}
+.btn-icon {
+  margin-bottom: .1rem;
+}
+@media(max-width:480px){
+  .siu-hero__ctas-new{flex-direction:row;gap:1rem}
+  .siu-btn-card{flex:1;padding:1rem}
+}
+
 </style>

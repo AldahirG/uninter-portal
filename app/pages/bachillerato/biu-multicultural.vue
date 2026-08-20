@@ -102,54 +102,6 @@ const semestres = [
   },
 ];
 
-/* ── Stats count-up on mount ── */
-const statsEl = ref<HTMLElement | null>(null);
-const statsVisible = ref(false);
-
-const stats = [
-  {
-    value: 40,
-    suffix: "+",
-    label: "Años de trayectoria",
-    icon: "mdi:school-outline",
-  },
-  {
-    value: 2,
-    suffix: "",
-    label: "Idiomas certificados",
-    icon: "mdi:translate",
-  },
-  { value: 25, suffix: "+", label: "Países de intercambio", icon: "mdi:earth" },
-  {
-    value: 6,
-    suffix: "",
-    label: "Semestres de formación",
-    icon: "mdi:calendar-month-outline",
-  },
-];
-const animatedStats = ref(stats.map(() => 0));
-
-onMounted(() => {
-  const obs = new IntersectionObserver(
-    ([e]) => {
-      if (e.isIntersecting && !statsVisible.value) {
-        statsVisible.value = true;
-        stats.forEach((s, i) => {
-          let start = 0;
-          const step = Math.ceil(s.value / 40);
-          const timer = setInterval(() => {
-            start = Math.min(start + step, s.value);
-            animatedStats.value[i] = start;
-            if (start >= s.value) clearInterval(timer);
-          }, 35);
-        });
-      }
-    },
-    { threshold: 0.3 },
-  );
-  if (statsEl.value) obs.observe(statsEl.value);
-});
-
 /* ── Quick nav ── */
 const navLinks = [
   { label: "¿Por qué BIU?", href: "#porque" },
@@ -169,137 +121,78 @@ function scrollTo(id: string) {
   <div class="biu-page">
     <Navbare />
 
-    <!-- ══════════════════════════════════════════
-         HERO
-    ══════════════════════════════════════════ -->
+    <!-- HERO -->
+    <div class="biu-hero-wrapper">
     <section class="biu-hero">
       <div class="biu-hero__bg">
-        <img
-          src="/images/bachillerato/hero/4.jpg"
-          alt="BIU Multicultural UNINTER"
-          class="biu-hero__img"
-        />
+        <img src="/images/bachillerato/hero/4.jpg" alt="BIU Multicultural UNINTER" class="biu-hero__img">
         <div class="biu-hero__overlay"></div>
-        <div class="biu-hero__grain" aria-hidden="true"></div>
+        <div class="biu-hero__overlay2"></div>
       </div>
-
-      <div class="biu-hero__inner biu-wrap">
-        <!-- Left -->
-        <div class="biu-hero__content">
-          <div class="biu-hero__badge-row">
-            <span class="biu-hero__badge">BIU MULTICULTURAL</span>
-            <span class="biu-hero__rvoe">RVOE EMSbCH270904</span>
+      
+      <div class="biu-hero__deco biu-hero__deco--tl" aria-hidden="true"><Icon name="lucide:flask-conical" size="32" /></div>
+      <div class="biu-hero__deco biu-hero__deco--tr" aria-hidden="true"><Icon name="lucide:book-open" size="28" /></div>
+      <div class="biu-hero__deco biu-hero__deco--br" aria-hidden="true"><Icon name="lucide:globe" size="26" /></div>
+      
+      <div class="biu-wrap biu-hero__content">
+        <div class="biu-hero__inner">
+          <div class="biu-hero__eyebrow">
+            <img src="/images/hero/logo-blanco.svg" alt="Bachillerato Internacional UNINTER" class="biu-hero__logo-full" onerror="this.style.display = 'none'">
           </div>
-
           <h1 class="biu-hero__title">
-            Bachillerato<br />
-            <em>Multicultural</em>
+            <span class="biu-hero__title-main">BACHILLERATO</span>
+            <span class="biu-hero__title-sub">Multicultural</span>
           </h1>
-
-          <p class="biu-hero__tagline">
-            Inglés avanzado + Francés y Alemán + Intercambios Internacionales +
-            Modelo Blended-Flex Learning
+          <p class="biu-hero__desc">
+            Elige un tercer idioma, prepárate con el modelo Blended-Flex Learning y descubre el mundo en un entorno multicultural.
           </p>
-
-          <div class="biu-hero__ctas">
-            <NuxtLink
-              to="/bachillerato/admisiones"
-              class="biu-hero__cta biu-hero__cta--primary"
-            >
-              <Icon name="mdi:arrow-right-circle-outline" size="20" />
-              Iniciar admisión
-            </NuxtLink>
-            <button
-              class="biu-hero__cta biu-hero__cta--ghost"
-              @click="scrollTo('#plan')"
-            >
-              <Icon name="mdi:book-open-outline" size="18" />
-              Ver plan de estudios
-            </button>
+          <div class="biu-hero__ctas-new">
+            <a href="#admision" @click.prevent="scrollTo('#admision')" class="biu-btn-card">
+              <div class="btn-icon"><Icon name="lucide:info" size="28" /></div>
+              <span>Iniciar admisión</span>
+            </a>
+            <a href="#plan" @click.prevent="scrollTo('#plan')" class="biu-btn-card">
+              <div class="btn-icon"><Icon name="lucide:book-open" size="28" /></div>
+              <span>Ver plan de estudios</span>
+            </a>
           </div>
         </div>
-
-        <!-- Floating stat chips -->
-        <div class="biu-hero__chips">
-          <div class="biu-hero__chip">
-            <Icon name="mdi:translate" size="20" class="biu-hero__chip-icon" />
-            <div>
-              <strong>Nivel B2</strong>
-              <span>Marco Europeo</span>
-            </div>
-          </div>
-          <div class="biu-hero__chip">
-            <Icon
-              name="mdi:certificate-outline"
-              size="20"
-              class="biu-hero__chip-icon"
-            />
-            <div>
-              <strong>TKT Cambridge</strong>
-              <span>Certificación incluida</span>
-            </div>
-          </div>
-          <div class="biu-hero__chip">
-            <Icon name="mdi:earth" size="20" class="biu-hero__chip-icon" />
-            <div>
-              <strong>25+ países</strong>
-              <span>Intercambios</span>
-            </div>
-          </div>
-          <div class="biu-hero__chip">
-            <Icon
-              name="mdi:school-outline"
-              size="20"
-              class="biu-hero__chip-icon"
-            />
-            <div>
-              <strong>40+ años</strong>
-              <span>De experiencia</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Scroll indicator -->
-      <div
-        class="biu-hero__scroll"
-        @click="scrollTo('#quicknav')"
-        title="Desplazar"
-      >
-        <Icon name="mdi:chevron-down" size="22" />
       </div>
     </section>
 
-    <!-- ══════════════════════════════════════════
-         QUICK NAV
-    ══════════════════════════════════════════ -->
-    <nav id="quicknav" class="biu-qnav" aria-label="Navegación de sección">
-      <div class="biu-wrap biu-qnav__inner">
-        <button
-          v-for="link in navLinks"
-          :key="link.href"
-          class="biu-qnav__link"
-          @click="scrollTo(link.href)"
-        >
-          {{ link.label }}
-        </button>
-      </div>
-    </nav>
-
-    <!-- ══════════════════════════════════════════
-         STATS STRIP
-    ══════════════════════════════════════════ -->
-    <div ref="statsEl" class="biu-stats">
-      <div class="biu-wrap biu-stats__grid">
-        <div v-for="(s, i) in stats" :key="s.label" class="biu-stats__item">
-          <div class="biu-stats__icon">
-            <Icon :name="s.icon" size="24" />
+    <div class="biu-hero__stats-bar">
+      <div class="biu-wrap biu-hero__stats-inner">
+        <div class="biu-stat">
+          <div class="biu-stat__icon"><Icon name="mdi:translate" size="28" /></div>
+          <div class="biu-stat__text">
+            <span class="biu-stat__value">Nivel B2</span>
+            <span class="biu-stat__label">Marco Europeo</span>
           </div>
-          <div class="biu-stats__num">{{ animatedStats[i] }}{{ s.suffix }}</div>
-          <div class="biu-stats__label">{{ s.label }}</div>
+        </div>
+        <div class="biu-stat">
+          <div class="biu-stat__icon"><Icon name="mdi:certificate-outline" size="28" /></div>
+          <div class="biu-stat__text">
+            <span class="biu-stat__value">TKT Cambridge</span>
+            <span class="biu-stat__label">Certificación incluida</span>
+          </div>
+        </div>
+        <div class="biu-stat">
+          <div class="biu-stat__icon"><Icon name="mdi:earth" size="28" /></div>
+          <div class="biu-stat__text">
+            <span class="biu-stat__value">25+ países</span>
+            <span class="biu-stat__label">Intercambios</span>
+          </div>
+        </div>
+        <div class="biu-stat">
+          <div class="biu-stat__icon"><Icon name="mdi:school-outline" size="28" /></div>
+          <div class="biu-stat__text">
+            <span class="biu-stat__value">40+ años</span>
+            <span class="biu-stat__label">De experiencia</span>
+          </div>
         </div>
       </div>
     </div>
+  </div>
 
     <!-- ══════════════════════════════════════════
          ¿POR QUÉ MULTICULTURAL?
@@ -805,7 +698,56 @@ function scrollTo(id: string) {
 </template>
 
 <style scoped>
-/* ═══ TOKENS ═══ */
+.biu-hero-wrapper{--g:#bad043;--gl:#7bba4f;--gd:#459c4a;--ga:#bad043}
+.biu-container{margin:0 auto;max-width:1280px;padding:0 1.5rem}
+.biu-hero-wrapper{background-color:#0c2010}
+.biu-hero{align-items:center;background:transparent;display:flex;height:clamp(520px,68vh,680px);overflow:hidden;position:relative}
+.biu-hero__bg{inset:0;position:absolute}
+.biu-hero__img{animation:kb-ee6eb843 14s ease-out forwards;height:100%;-o-object-fit:cover;object-fit:cover;-o-object-position:center top;object-position:center top;width:100%}
+.biu-hero__overlay{background:linear-gradient(180deg,#0c201066,#0c20101a 50%,#0c20101a);inset:0;position:absolute}
+.biu-hero__overlay2{-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);background:linear-gradient(90deg,rgba(12,32,16,.85),rgba(12,32,16,.6) 30%,rgba(12,32,16,.1) 45%,transparent 60%);inset:0;-webkit-mask-image:linear-gradient(90deg,#000,#000 35%,transparent 55%);mask-image:linear-gradient(90deg,#000,#000 35%,transparent 55%);position:absolute}
+.biu-hero__deco{color:#a8d86e;opacity:.12;position:absolute;z-index:2}
+.biu-hero__deco--tl{left:5%;top:14%}
+.biu-hero__deco--tr{right:8%;top:10%}
+.biu-hero__deco--br{bottom:20%;right:12%}
+.biu-hero__content{position:relative;width:100%;z-index:3}
+.biu-hero__inner{max-width:640px}
+.biu-hero__eyebrow{align-items:center;display:flex;margin-bottom:2rem}
+.biu-hero__logo-full{height:48px;-o-object-fit:contain;object-fit:contain}
+.biu-hero__tagline{color:#ffffff8c;font-size:.78rem;font-weight:700;letter-spacing:.18em;margin:0 0 1rem;text-transform:uppercase}
+.biu-hero__title{display:flex;flex-direction:column;line-height:1;margin:0 0 2rem}
+.biu-hero__title-main{color:var(--ga);font-size:clamp(3rem,7vw,5.5rem);font-weight:900;letter-spacing:-.02em;text-shadow:0 4px 24px hsla(87,58%,64%,.25)}
+.biu-hero__title-main,.biu-hero__title-sub{font-family:var(--font-serif,Georgia,serif)}
+.biu-hero__title-sub{color:#ffffffe6;font-size:clamp(1.2rem,2.5vw,1.9rem);font-weight:600;letter-spacing:.05em;margin-top:1rem}
+.biu-hero__desc{color:#ffffffad;font-size:clamp(.9rem,1.4vw,1rem);line-height:1.65;margin:0 0 3rem;max-width:520px}
+.biu-hero__ctas-new{display:flex;flex-wrap:wrap;gap:1.5rem;margin-top:1rem}
+.biu-btn-card{align-items:center;background:transparent;border:1px solid hsla(0,0%,100%,.4);border-radius:12px;color:#fff;display:flex;flex-direction:column;font-size:.95rem;font-weight:600;gap:.5rem;justify-content:center;min-width:140px;padding:1rem 2.5rem;text-decoration:none;transition:all .3s ease}
+.sticker-line--en{background:var(--gl);color:#fff}
+.biu-btn-card:hover{background:#bad04326;border-color:var(--g);color:var(--g);transform:translateY(-2px)}
+.btn-icon{margin-bottom:.1rem}
+.biu-hero__stats-bar{backdrop-filter:blur(16px) saturate(150%);-webkit-backdrop-filter:blur(16px) saturate(150%);background-attachment:fixed;background-color:#0c2010d9;background-image:radial-gradient(circle at 50% 50%,rgba(186,208,67,.15) 0,transparent 60%);background-position:50%;border-bottom:1px solid rgba(0,0,0,.5);border-top:1px solid rgba(186,208,67,.3);box-shadow:0 4px 30px #00000080;padding:1.5rem 0;position:relative}
+.biu-hero__stats-inner{align-items:center;display:flex;justify-content:space-between;position:relative;z-index:2}
+.biu-stat{align-items:center;border-right:1px solid rgba(186,208,67,.3);display:flex;flex:1;flex-direction:row;gap:1rem;justify-content:center;padding:0 1.5rem}
+.biu-stat:last-child{border-right:none}
+.biu-stat__icon{align-items:center;color:var(--g);display:flex;justify-content:center}
+.biu-stat__text{align-items:flex-start;display:flex;flex-direction:column}
+.biu-stat__value{color:#fff;font-size:clamp(1.1rem,1.3vw,1.4rem);font-weight:800;line-height:1.2}
+.biu-stat__label{color:#fffc;font-size:.9rem;font-weight:500;text-align:left}
+@media(max-width:768px){.biu-hero{flex-direction:column;height:auto;min-height:clamp(500px,85vh,800px);padding-top:5rem}
+.biu-hero__content{align-items:center;display:flex;flex:1;padding-bottom:3rem}
+.biu-hero__stats-bar{position:relative;width:100%}
+.biu-hero__stats-inner{flex-wrap:wrap;gap:1rem 0}
+.biu-stat{border-bottom:1px solid hsla(0,0%,100%,.1);border-right:none;flex:1 1 50%;padding:1rem .5rem}
+.biu-stat:nth-child(odd){border-right:1px solid hsla(0,0%,100%,.1)}
+.biu-stat:nth-last-child(-n+2){border-bottom:none}
+@media(max-width:480px){.biu-hero__ctas-new{flex-direction:row;gap:1rem}
+.biu-btn-card{flex:1;padding:1rem}
+.biu-hero__title-main{font-size:clamp(2.5rem,12vw,4rem)}
+.biu-stat{border-bottom:1px solid hsla(0,0%,100%,.1)!important;border-right:none!important;flex:1 1 100%;padding:1rem 1.5rem}
+.biu-stat:last-child{border-bottom:none!important}
+}
+}
+
 .biu-page {
   --g: #6baf04;
   --gd: #4a7a02;
@@ -1812,4 +1754,5 @@ function scrollTo(id: string) {
     grid-template-columns: 1fr;
   }
 }
+
 </style>

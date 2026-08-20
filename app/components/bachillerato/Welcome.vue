@@ -74,7 +74,7 @@ const valores = [
 
 /* Banda oscura */
 .welcome-dark {
-  background: #0d1f0e;
+  background: #fff;
   padding: 4.5rem 0 3.5rem;
 }
 
@@ -98,7 +98,7 @@ const valores = [
   font-family: var(--font-serif, Georgia, serif);
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 800;
-  color: #fff;
+  color: #0d1f0e;
   line-height: 1.12;
   letter-spacing: -0.02em;
   margin: 0;
@@ -110,7 +110,7 @@ const valores = [
 
 .welcome-dark__desc {
   font-size: 1rem;
-  color: rgba(255,255,255,0.65);
+  color: #475569;
   line-height: 1.72;
   margin: 0;
   align-self: center;

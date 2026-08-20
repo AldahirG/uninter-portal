@@ -105,7 +105,7 @@ const valores = [
 .siu-welcome__desc {
   font-size: 0.95rem;
   line-height: 1.75;
-  color: rgba(255,255,255,0.65);
+  color: #475569;
   margin: 0;
   padding-top: 1.6rem;
   border-top: 2px solid var(--s);
@@ -123,7 +123,7 @@ const valores = [
 }
 
 .siu-val-card {
-  background: #2a2a2a;
+  background: #fff;
   border: 1px solid rgba(236,171,0,0.15);
   border-radius: 14px;
   padding: 1.75rem 1.5rem;

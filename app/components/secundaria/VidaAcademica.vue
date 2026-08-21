@@ -133,7 +133,7 @@ const pilares = [
   font-family: var(--font-serif, Georgia, serif);
   font-size: clamp(1.8rem, 3.5vw, 2.6rem);
   font-weight: 800;
-  color: #1a1500;
+  color: #0f3c61;
   margin: 0 0 1.5rem;
   line-height: 1.2;
 }
@@ -156,11 +156,11 @@ const pilares = [
 .siu-va__quote {
   border-left: 3px solid var(--s);
   padding: 1rem 1.25rem;
-  background: #fffbf0;
+  background: #fcf9f2;
   border-radius: 0 10px 10px 0;
   margin: 1.5rem 0;
   font-size: 0.88rem;
-  color: #444;
+  color: #0f3c61;
   line-height: 1.7;
   font-style: italic;
   display: flex;
@@ -191,7 +191,7 @@ const pilares = [
   bottom: 1.5rem;
   right: 1.5rem;
   background: var(--s);
-  color: #1a1500;
+  color: #0f3c61;
   border-radius: 12px;
   padding: 0.75rem 1.25rem;
   text-align: center;

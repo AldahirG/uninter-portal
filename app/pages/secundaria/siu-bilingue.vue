@@ -201,7 +201,7 @@ function scrollTo(id: string) {
       <div class="siu-wrap siu-porque-sec__inner">
         <div class="siu-porque-sec__text">
           <p class="siu-eyebrow">Nuestra propuesta</p>
-          <h2 class="siu-title">¿Por qué elegir<br /><em>SIU Bilingüe</em>?</h2>
+          <h2 class="siu-title" style="color: #0f3c61;">¿Por qué elegir<br /><em style="color: #ffce52; font-style: italic;">SIU Bilingüe</em><span style="color: #0f3c61;">?</span></h2>
           <p class="siu-body">
             Contamos con el programa educativo en SIU Uninter diseñado para
             apoyar, ayudar y obtener los mejores beneficios que los alumnos
@@ -224,9 +224,9 @@ function scrollTo(id: string) {
                 'Formación en valores',
               ]"
               :key="tag"
-              class="siu-pill"
+              class="siu-pill" style="color: #0f3c61;"
             >
-              <Icon name="mdi:check" size="13" /> {{ tag }}
+              <Icon name="mdi:check" size="13" style="color: #0f3c61;" /> {{ tag }}
             </span>
           </div>
         </div>
@@ -266,7 +266,7 @@ function scrollTo(id: string) {
                 <div class="siu-hcard__item-icon">
                   <Icon :name="item.icon" size="16" />
                 </div>
-                <span>{{ item.text }}</span>
+                <span style="color: #0f3c61;">{{ item.text }}</span>
               </li>
             </ul>
             <a
@@ -281,11 +281,61 @@ function scrollTo(id: string) {
       </div>
     </section>
 
-    <!-- PLAN DE ESTUDIOS -->
+    <section id="egreso" class="siu-egreso">
+      <div class="siu-wrap siu-egreso__inner">
+        <div class="siu-egreso__left">
+          <p class="siu-eyebrow">Al terminar el programa</p>
+          <h2 class="siu-title" style="color: #0f3c61;">PERFIL<br /><em style="color: #ffce52; font-style: italic;">DE EGRESO</em></h2>
+          <p class="siu-body">
+            El egresado de la Secundaria Bilingüe SIU cuenta con sólidas bases
+            académicas, habilidades científicas y el dominio fluido del idioma
+            inglés para ingresar con éxito a la preparatoria de su elección.
+          </p>
+        </div>
+        <div class="siu-egreso__right">
+          <div
+            v-for="item in [
+              {
+                icon: 'mdi:comment-text-outline',
+                text: 'Comunica ideas y redacta con fluidez en inglés y español',
+              },
+              {
+                icon: 'mdi:calculator-variant-outline',
+                text: 'Resuelve problemas lógicos y matemáticos estructurados',
+              },
+              {
+                icon: 'mdi:flask-outline',
+                text: 'Aplica el método científico en laboratorios',
+              },
+              {
+                icon: 'mdi:laptop',
+                text: 'Utiliza herramientas tecnológicas de forma ética y responsable',
+              },
+              {
+                icon: 'mdi:account-multiple-outline',
+                text: 'Colabora de forma asertiva en proyectos escolares',
+              },
+              {
+                icon: 'mdi:lightbulb-on-outline',
+                text: 'Desarrolla el pensamiento crítico e innovador',
+              },
+            ]"
+            :key="item.text"
+            class="siu-egreso__item"
+          >
+            <div class="siu-egreso__icon">
+              <Icon :name="item.icon" size="18" />
+            </div>
+            <span style="color: #0f3c61;">{{ item.text }}</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="plan" class="siu-plan">
       <div class="siu-wrap">
         <p class="siu-eyebrow siu-eyebrow--center">Estructura curricular</p>
-        <h2 class="siu-title siu-title--center">PLAN DE ESTUDIOS</h2>
+        <h2 class="siu-title siu-title--center" style="color: #0f3c61;">PLAN DE ESTUDIOS</h2>
         <p class="siu-plan__caption">
           Haz clic en cada semestre para ver las materias
         </p>
@@ -329,58 +379,6 @@ function scrollTo(id: string) {
       </div>
     </section>
 
-    <!-- PERFIL DE EGRESO -->
-    <section id="egreso" class="siu-egreso">
-      <div class="siu-wrap siu-egreso__inner">
-        <div class="siu-egreso__left">
-          <p class="siu-eyebrow">Al terminar el programa</p>
-          <h2 class="siu-title">PERFIL<br /><em>DE EGRESO</em></h2>
-          <p class="siu-body">
-            El egresado de la Secundaria Bilingüe SIU cuenta con sólidas bases
-            académicas, habilidades científicas y el dominio fluido del idioma
-            inglés para ingresar con éxito a la preparatoria de su elección.
-          </p>
-        </div>
-        <div class="siu-egreso__right">
-          <div
-            v-for="item in [
-              {
-                icon: 'mdi:comment-text-outline',
-                text: 'Comunica ideas y redacta con fluidez en inglés y español',
-              },
-              {
-                icon: 'mdi:calculator-variant-outline',
-                text: 'Resuelve problemas lógicos y matemáticos estructurados',
-              },
-              {
-                icon: 'mdi:flask-outline',
-                text: 'Aplica el método científico en laboratorios',
-              },
-              {
-                icon: 'mdi:laptop',
-                text: 'Utiliza herramientas tecnológicas de forma ética y responsable',
-              },
-              {
-                icon: 'mdi:account-multiple-outline',
-                text: 'Colabora de forma asertiva en proyectos escolares',
-              },
-              {
-                icon: 'mdi:lightbulb-on-outline',
-                text: 'Desarrolla el pensamiento crítico e innovador',
-              },
-            ]"
-            :key="item.text"
-            class="siu-egreso__item"
-          >
-            <div class="siu-egreso__icon">
-              <Icon :name="item.icon" size="18" />
-            </div>
-            <span>{{ item.text }}</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- FORMULARIO DE REGISTRO -->
     <section id="admision" class="siu-register-sec">
       <FormRegister />
@@ -391,6 +389,9 @@ function scrollTo(id: string) {
 </template>
 
 <style scoped>
+.siu-egreso__eyebrow { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #ffce52; margin: 0 0 0.75rem; }
+.siu-plan__eyebrow { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #ffce52; text-align: center; margin: 0 0 0.5rem; }
+.siu-porque-sec__eyebrow { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #ffce52; margin: 0 0 0.75rem; }
 /* Variables & Base Styles */
 .siu-page {
   --siu-primary: #ecab00;
@@ -468,9 +469,7 @@ function scrollTo(id: string) {
 }
 
 /* Hero Section */
-.siu-porque-sec {
-  padding: 6rem 0;
-}
+.siu-porque-sec { padding: 6rem 0; background: #ffffff; }
 .siu-porque-sec__inner {
   display: grid;
   grid-template-columns: 1.12fr 0.88fr;
@@ -526,19 +525,22 @@ function scrollTo(id: string) {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--siu-primary);
-  color: var(--siu-dark);
+  background: linear-gradient(135deg, #ffce52 0%, #ffce52 70%, #00b6ec 100%);
+  color: #0f172a;
+  border: 1px solid #ffce52;
   font-weight: 700;
   padding: 0.75rem;
   border-radius: 8px;
   text-decoration: none;
+  transition: opacity 0.2s, transform 0.2s;
+}
+.siu-hcard__cta:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #ffce52 0%, #ffce52 30%, #00b6ec 100%);
 }
 
 /* Plan de estudios */
-.siu-plan {
-  background: #faf9f6;
-  padding: 6.5rem 0;
-}
+.siu-plan { background: #fdfaf4; padding: 6.5rem 0; }
 .siu-plan__caption {
   text-align: center;
   font-size: 0.85rem;
@@ -556,31 +558,9 @@ function scrollTo(id: string) {
   text-align: center;
   cursor: pointer;
 }
-.siu-timeline__num {
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  background: var(--siu-white);
-  border: 2px solid #ddd;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.9rem;
-  font-weight: 700;
-  margin: 0 auto 0.5rem;
-  transition: all 0.3s;
-}
-.siu-timeline__step--active .siu-timeline__num {
-  background: var(--siu-primary);
-  border-color: var(--siu-primary);
-  color: var(--siu-white);
-  box-shadow: 0 4px 12px rgba(236, 171, 0, 0.3);
-}
-.siu-timeline__label {
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: var(--siu-gray);
-}
+.siu-timeline__num { width: 42px; height: 42px; border-radius: 50%; background: #ffffff; border: 2px solid #ddd; color: #0f3c61; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: 700; margin: 0 auto 0.5rem; transition: all 0.3s; }
+.siu-timeline__step--active .siu-timeline__num { background: #ffce52; border-color: #ffce52; color: #ffffff; box-shadow: 0 4px 12px rgba(255, 206, 82, 0.3); }
+.siu-timeline__label { font-size: 0.75rem; font-weight: 700; color: #0f3c61; }
 .siu-timeline__bar {
   position: absolute;
   top: 20px;
@@ -602,22 +582,8 @@ function scrollTo(id: string) {
   padding: 2.5rem;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.02);
 }
-.siu-plan__panel-tag {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: var(--siu-primary);
-  margin-bottom: 0.75rem;
-}
-.siu-plan__panel-sem {
-  font-size: 1.4rem;
-  font-weight: 800;
-  margin-bottom: 1.5rem;
-}
+.siu-plan__panel-tag { display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.72rem; font-weight: 800; letter-spacing: 0.05em; text-transform: uppercase; color: #ffce52; margin-bottom: 0.75rem; }
+.siu-plan__panel-sem { font-size: 1.4rem; font-weight: 800; color: #0f3c61; margin-bottom: 1.5rem; }
 .siu-plan__list {
   list-style: none;
   padding: 0;
@@ -626,20 +592,11 @@ function scrollTo(id: string) {
   grid-template-columns: repeat(2, 1fr);
   gap: 0.75rem;
 }
-.siu-plan__list li {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.9rem;
-}
-.siu-plan__check {
-  color: var(--siu-primary);
-}
+.siu-plan__list li { display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; color: #0f3c61; }
+.siu-plan__check { color: #ffce52; }
 
 /* Egreso */
-.siu-egreso {
-  padding: 6rem 0;
-}
+.siu-egreso { padding: 6rem 0; background: #ffffff; }
 .siu-egreso__inner {
   display: grid;
   grid-template-columns: 0.88fr 1.12fr;
@@ -651,23 +608,8 @@ function scrollTo(id: string) {
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
-.siu-egreso__item {
-  display: flex;
-  gap: 0.75rem;
-  font-size: 0.88rem;
-  line-height: 1.5;
-}
-.siu-egreso__icon {
-  width: 32px;
-  height: 32px;
-  background: var(--siu-light);
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--siu-primary);
-  flex-shrink: 0;
-}
+.siu-egreso__item { display: flex; gap: 0.75rem; font-size: 0.88rem; line-height: 1.5; color: #0f3c61; }
+.siu-egreso__icon { width: 32px; height: 32px; background: #fdfaf4; border-radius: 6px; display: flex; align-items: center; justify-content: center; color: #ffce52; flex-shrink: 0; }
 
 /* Form */
 .siu-register-sec {
@@ -732,7 +674,12 @@ function scrollTo(id: string) {
 .siu-hero__desc{color:#ffffffad;font-size:clamp(.9rem,1.4vw,1rem);line-height:1.65;margin:0 0 3rem;max-width:520px}
 .siu-hero__ctas-new{display:flex;flex-wrap:wrap;gap:1.5rem;margin-top:1rem}
 .siu-btn-card{align-items:center;background:transparent;border:1px solid hsla(0,0%,100%,.4);border-radius:12px;color:#fff;display:flex;flex-direction:column;font-size:.95rem;font-weight:600;gap:.5rem;justify-content:center;min-width:140px;padding:1rem 2.5rem;text-decoration:none;transition:all .3s ease}
-.siu-btn-card:hover{background:#ffce5226;border-color:var(--s);color:var(--s);transform:translateY(-2px)}
+.siu-btn-card:hover {
+  background: rgba(5, 173, 220, 0.15);
+  border-color: #05addc;
+  color: #05addc;
+  transform: translateY(-2px);
+}
 .btn-icon{margin-bottom:.1rem}
 .siu-hero__stats-bar{backdrop-filter:blur(16px) saturate(150%);-webkit-backdrop-filter:blur(16px) saturate(150%);background-attachment:fixed;background-color:#1a1500d9;background-image:radial-gradient(circle at 50% 50%,rgba(255,206,82,.15) 0,transparent 60%);background-position:50%;border-bottom:1px solid rgba(0,0,0,.5);border-top:1px solid rgba(255,206,82,.3);box-shadow:0 4px 30px #00000080;padding:1.5rem 0;position:relative}
 .siu-hero__stats-inner{align-items:center;display:flex;justify-content:space-between;position:relative;z-index:2}

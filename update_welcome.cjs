@@ -1,4 +1,6 @@
-<script setup lang="ts">
+const fs = require('fs');
+
+const content = `<script setup lang="ts">
 import { Globe, Users, Lightbulb, Trophy } from "lucide-vue-next";
 
 const valores = [
@@ -116,7 +118,7 @@ const valores = [
 
 /* Cards - Fondo crema */
 .siu-welcome__cards-wrap {
-  background: #FFFDF5; 
+  background: #fdfaf4;
   padding: 3.5rem 0 5rem;
 }
 .siu-welcome__cards {
@@ -127,32 +129,15 @@ const valores = [
 
 .siu-val-card {
   background: #fff;
+  border: 1px solid rgba(236,171,0,0.15);
   border-radius: 14px;
   padding: 1.75rem 1.5rem;
-  transition: transform 0.25s, box-shadow 0.25s;
-  position: relative;
-  z-index: 1;
-}
-.siu-val-card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 14px;
-  padding: 1px;
-  background: rgba(236,171,0,0.15);
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  pointer-events: none;
-  transition: background 0.3s;
-  z-index: -1;
+  transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
 }
 .siu-val-card:hover {
   transform: translateY(-5px);
+  border-color: var(--s);
   box-shadow: 0 12px 32px rgba(236,171,0,0.12);
-}
-.siu-val-card:hover::before {
-  background: linear-gradient(135deg, #FFCE52 0%, #FFCE52 60%, #00b6ec 100%);
 }
 .siu-val-card__icon {
   width: 46px;
@@ -186,3 +171,7 @@ const valores = [
   .siu-welcome__cards { grid-template-columns: 1fr; }
 }
 </style>
+`;
+
+fs.writeFileSync('app/components/secundaria/Welcome.vue', content);
+console.log('Welcome.vue rewritten');

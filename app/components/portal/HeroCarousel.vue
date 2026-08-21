@@ -1,6 +1,14 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from "vue";
-import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-vue-next";
+import {
+  ArrowRight,
+  ChevronLeft,
+  ChevronRight,
+  GraduationCap,
+  Award,
+  ShieldCheck,
+  FileCheck,
+} from "lucide-vue-next";
 
 const WA_URL =
   "https://wa.me/5217776154241?text=Hola%20vengo%20de%20la%20p%C3%A1gina%20de%20Universidad%2C%20necesito%20m%C3%A1s%20informaci%C3%B3n%20%E2%9C%8C%EF%B8%8F.";
@@ -67,10 +75,10 @@ const slides = [
 ];
 
 const stats = [
-  { value: "4,500+", label: "Egresados" },
-  { value: "30+", label: "Años" },
-  { value: "RVOE", label: "Acreditado SEP" },
-  { value: "ISO", label: "9001:2015" },
+  { value: "4,500+", label: "Egresados", icon: GraduationCap },
+  { value: "30+", label: "Años", icon: Award },
+  { value: "RVOE", label: "Acreditado SEP", icon: ShieldCheck },
+  { value: "ISO", label: "9001:2015", icon: FileCheck },
 ];
 
 function goTo(i: number) {
@@ -104,102 +112,120 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <section class="hero-section">
-    <div class="hero-track">
-      <div
-        v-for="(slide, i) in slides"
-        :key="slide.id"
-        class="hero-slide"
-        :class="{
-          'hero-slide--active': activeIndex === i,
-          'hero-slide--prev': prevIndex === i,
-        }"
-      >
-        <img :src="slide.image" :alt="slide.title" class="hero-slide__img" />
-        <div class="hero-slide__overlay"></div>
-        <div class="hero-slide__overlay2"></div>
+  <div class="hero-wrapper">
+    <section class="hero-section">
+      <div class="hero-track">
+        <div
+          v-for="(slide, i) in slides"
+          :key="slide.id"
+          class="hero-slide"
+          :class="{
+            'hero-slide--active': activeIndex === i,
+            'hero-slide--prev': prevIndex === i,
+          }"
+        >
+          <img :src="slide.image" :alt="slide.title" class="hero-slide__img" />
+          <div class="hero-slide__overlay"></div>
+          <div class="hero-slide__overlay2"></div>
 
-        <div class="hero-content uninter-container">
-          <div class="hero-inner">
-            <div class="hero-eyebrow">
-              <span class="hero-eyebrow__line"></span>
-              {{ slide.eyebrow }}
+          <div class="hero-content uninter-container">
+            <div class="hero-inner">
+              <div class="hero-eyebrow">
+                <span class="hero-eyebrow__line"></span>
+                {{ slide.eyebrow }}
+              </div>
+              <h1 class="hero-title">
+                <span
+                  v-for="(line, li) in slide.title.split('\n')"
+                  :key="li"
+                  class="hero-title__line"
+                >
+                  {{ line }}
+                </span>
+              </h1>
+              <p class="hero-subtitle">{{ slide.subtitle }}</p>
+              <div class="hero-btns">
+                <a
+                  :href="slide.cta.href"
+                  target="_blank"
+                  class="hero-btn-primary"
+                >
+                  {{ slide.cta.label }} <ArrowRight :size="15" />
+                </a>
+                <a :href="slide.ctaGhost.href" class="hero-btn-ghost">
+                  {{ slide.ctaGhost.label }}
+                </a>
+              </div>
             </div>
-            <h1 class="hero-title">
-              <span
-                v-for="(line, li) in slide.title.split('\n')"
-                :key="li"
-                class="hero-title__line"
-              >
-                {{ line }}
-              </span>
-            </h1>
-            <p class="hero-subtitle">{{ slide.subtitle }}</p>
-            <div class="hero-btns">
-              <a
-                :href="slide.cta.href"
-                target="_blank"
-                class="hero-btn-primary"
-              >
-                {{ slide.cta.label }} <ArrowRight :size="15" />
-              </a>
-              <a :href="slide.ctaGhost.href" class="hero-btn-ghost">
-                {{ slide.ctaGhost.label }}
-              </a>
-            </div>
+          </div>
+        </div>
+
+        <!-- Nav buttons -->
+        <button
+          class="hero-nav hero-nav--prev"
+          @click="prev"
+          aria-label="Anterior"
+        >
+          <ChevronLeft :size="18" />
+        </button>
+        <button
+          class="hero-nav hero-nav--next"
+          @click="next"
+          aria-label="Siguiente"
+        >
+          <ChevronRight :size="18" />
+        </button>
+
+        <!-- Progress dots -->
+        <div class="hero-progress uninter-container">
+          <button
+            v-for="(s, i) in slides"
+            :key="s.id"
+            class="hero-dot"
+            :class="{ 'hero-dot--active': activeIndex === i }"
+            @click="goTo(i)"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats band (Mismo estilo que /bachillerato con tema Azul UNINTER) -->
+    <div class="hero-stats-bar">
+      <div class="uninter-container hero-stats-inner">
+        <div v-for="stat in stats" :key="stat.label" class="hero-stat">
+          <div class="hero-stat__icon">
+            <component :is="stat.icon" :size="28" />
+          </div>
+          <div class="hero-stat__text">
+            <span class="hero-stat__value">{{ stat.value }}</span>
+            <span class="hero-stat__label">{{ stat.label }}</span>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- Nav buttons -->
-    <button class="hero-nav hero-nav--prev" @click="prev" aria-label="Anterior">
-      <ChevronLeft :size="18" />
-    </button>
-    <button
-      class="hero-nav hero-nav--next"
-      @click="next"
-      aria-label="Siguiente"
-    >
-      <ChevronRight :size="18" />
-    </button>
-
-    <!-- Progress dots -->
-    <div class="hero-progress uninter-container">
-      <button
-        v-for="(s, i) in slides"
-        :key="s.id"
-        class="hero-dot"
-        :class="{ 'hero-dot--active': activeIndex === i }"
-        @click="goTo(i)"
-      />
-    </div>
-
-    <!-- Stats band -->
-    <div class="hero-band">
-      <div class="uninter-container hero-band__inner">
-        <div v-for="(st, i) in stats" :key="st.label" class="hero-stat">
-          <span class="hero-stat__val">{{ st.value }}</span>
-          <span class="hero-stat__lbl">{{ st.label }}</span>
-          <span v-if="i < stats.length - 1" class="hero-stat__sep"></span>
-        </div>
-      </div>
-    </div>
-  </section>
+  </div>
 </template>
 
 <style scoped>
+.hero-wrapper {
+  --b-accent: #60a5fa;
+  --b-glow: rgba(56, 189, 248, 0.15);
+  --b-border: rgba(96, 165, 250, 0.3);
+  --b-bg: #07192ed9;
+  background-color: #07192e;
+}
+
 .hero-section {
-  --h: clamp(460px, 72vh, 680px);
   position: relative;
   overflow: hidden;
   background: #0f3c61;
 }
 
-/* ── Track: define la altura, todos los slides apilados dentro ── */
+/* ── Track: altura ajustada con min-height: 70vh (70% del tamaño de pantalla) ── */
 .hero-track {
   position: relative;
-  height: var(--h);
+  min-height: 70vh;
+  height: 70vh;
 }
 
 /* Todos los slides absolutos, invisibles por default */
@@ -214,7 +240,7 @@ onUnmounted(() => {
   z-index: 0;
 }
 
-/* Slide saliente: empieza a desvanecerse (z-index menor que activo) */
+/* Slide saliente: empieza a desvanecerse */
 .hero-slide--prev {
   opacity: 0;
   z-index: 1;
@@ -236,7 +262,7 @@ onUnmounted(() => {
   object-fit: cover;
 }
 
-/* Kenburns solo en slide activo — se reinicia cada vez que entra */
+/* Kenburns solo en slide activo */
 .hero-slide--active .hero-slide__img {
   animation: kb 8s ease forwards;
 }
@@ -360,7 +386,7 @@ onUnmounted(() => {
 
 .hero-nav {
   position: absolute;
-  top: calc(var(--h) / 2);
+  top: 50%;
   transform: translateY(-50%);
   z-index: 20;
   width: 40px;
@@ -388,7 +414,7 @@ onUnmounted(() => {
 
 .hero-progress {
   position: absolute;
-  bottom: 60px;
+  bottom: 24px;
   z-index: 20;
   display: flex;
   gap: 6px;
@@ -410,49 +436,81 @@ onUnmounted(() => {
   background: #93c5fd;
 }
 
-.hero-band {
+/* ── Stats Bar: Estructura y comportamiento exactos de /bachillerato con estilo Azul UNINTER ── */
+.hero-stats-bar {
+  backdrop-filter: blur(16px) saturate(150%);
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
+  background-attachment: fixed;
+  background-color: var(--b-bg);
+  background-image: radial-gradient(
+    circle at 50% 50%,
+    var(--b-glow) 0,
+    transparent 60%
+  );
+  background-position: 50%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  border-top: 1px solid var(--b-border);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  padding: 1.5rem 0;
   position: relative;
   z-index: 20;
-  background: #fff;
-  border-top: 3px solid #0f3c61;
 }
-.hero-band__inner {
-  display: flex;
+
+.hero-stats-inner {
   align-items: center;
-  padding: 0.875rem 0;
-  gap: 0;
-  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
 }
+
 .hero-stat {
-  display: flex;
   align-items: center;
-  gap: 1.5rem;
+  border-right: 1px solid var(--b-border);
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0 1.5rem;
 }
-.hero-stat__val {
-  font-family: var(--font-serif, Georgia, serif);
-  font-size: 1.6rem;
-  font-weight: 700;
-  color: #0f3c61;
-  line-height: 1;
+
+.hero-stat:last-child {
+  border-right: none;
 }
-.hero-stat__lbl {
-  font-size: 0.65rem;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  color: #64748b;
-  margin-top: 2px;
-  margin-right: 1.5rem;
+
+.hero-stat__icon {
+  align-items: center;
+  color: var(--b-accent);
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
 }
-.hero-stat__sep {
-  width: 1px;
-  height: 28px;
-  background: #e2e8f0;
-  margin-right: 1.5rem;
+
+.hero-stat__text {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-stat__value {
+  color: #ffffff;
+  font-size: clamp(1.1rem, 1.3vw, 1.4rem);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.hero-stat__label {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: left;
 }
 
 @media (max-width: 768px) {
-  .hero-section {
-    --h: clamp(360px, 65vh, 520px);
+  .hero-track {
+    min-height: 70vh;
+    height: 70vh;
   }
   .hero-nav {
     display: none;
@@ -469,16 +527,32 @@ onUnmounted(() => {
     font-size: 0.78rem;
     padding: 0.6rem 1.1rem;
   }
-  .hero-stat__val {
-    font-size: 1.25rem;
+  .hero-stats-bar {
+    position: relative;
+    width: 100%;
   }
-  .hero-stat__sep {
-    display: none;
+  .hero-stats-inner {
+    flex-wrap: wrap;
+    gap: 1rem 0;
+  }
+  .hero-stat {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: none;
+    flex: 1 1 50%;
+    padding: 1rem 0.5rem;
+  }
+  .hero-stat:nth-child(odd) {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .hero-stat:nth-last-child(-n + 2) {
+    border-bottom: none;
   }
 }
+
 @media (max-width: 480px) {
-  .hero-section {
-    --h: clamp(300px, 60vh, 440px);
+  .hero-track {
+    min-height: 70vh;
+    height: 70vh;
   }
   .hero-subtitle {
     display: none;
@@ -486,10 +560,14 @@ onUnmounted(() => {
   .hero-btn-ghost {
     display: none;
   }
-  .hero-band__inner {
-    gap: 1rem;
-    flex-wrap: wrap;
-    justify-content: center;
+  .hero-stat {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-right: none !important;
+    flex: 1 1 100%;
+    padding: 1rem 1.5rem;
+  }
+  .hero-stat:last-child {
+    border-bottom: none !important;
   }
 }
 </style>

@@ -30,20 +30,14 @@
         "desc": "Espacio ejecutivo acondicionado para el debate de casos de negocio, planeación estratégica y toma de decisiones corporativas.",
         "icon": "💼",
         "tag": "Executive",
-        "features": [
-          "Estudio de casos reales",
-          "Liderazgo simulado"
-        ]
+        "features": ["Estudio de casos reales", "Liderazgo simulado"]
       },
       {
         "title": "Biblioteca Digital y Bases de Datos",
         "desc": "Acceso ilimitado a journals de investigación científica indexados y plataformas de inteligencia financiera global.",
         "icon": "📚",
         "tag": "Research",
-        "features": [
-          "Bases de datos indexadas",
-          "Acceso remoto 24/7"
-        ]
+        "features": ["Bases de datos indexadas", "Acceso remoto 24/7"]
       }
     ],
     "certificaciones": [
@@ -91,7 +85,10 @@
       "Finanzas Internacionales"
     ],
     "power_skills": [],
-    "internationalization": null
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "doc admin.webp",
+    "imageVertical": "doc admin v.webp"
   },
   "doc-humanidades": {
     "id": "HUMANIDADES",
@@ -117,20 +114,14 @@
         "desc": "Instalación para la observación en vivo de prácticas docentes, dinámicas grupales y diagnóstico de problemas pedagógicos.",
         "icon": "👁️",
         "tag": "Pedagogía",
-        "features": [
-          "Observación analítica",
-          "Prácticas de microenseñanza"
-        ]
+        "features": ["Observación analítica", "Prácticas de microenseñanza"]
       },
       {
         "title": "Laboratorio de Recursos y Tecnología Educativa",
         "desc": "Acondicionado para el diseño curricular multimedia, administración de plataformas LMS (Moodle, Canvas) y recursos virtuales.",
         "icon": "🎓",
         "tag": "LMS & Media",
-        "features": [
-          "Diseño instruccional",
-          "Recursos educativos abiertos"
-        ]
+        "features": ["Diseño instruccional", "Recursos educativos abiertos"]
       }
     ],
     "certificaciones": [],
@@ -155,11 +146,7 @@
         "Metodología para el Análisis del Discurso",
         "Optativa II"
       ],
-      "Quinto Semestre": [
-        "Proyecto Doctoral V",
-        "Optativa III",
-        "Optativa IV"
-      ]
+      "Quinto Semestre": ["Proyecto Doctoral V", "Optativa III", "Optativa IV"]
     },
     "perfilEgreso": "El egresado del Doctorado en Humanidades con opción terminal en Educación de la Universidad Internacional estará formado y capacitado para investigar procesos...",
     "mercado_laboral": "Forma investigadores y líderes académicos capaces de analizar, diseñar y dirigir proyectos culturales y educativos con enfoque crítico e interdisciplinario. Sus egresados se integran principalmente en universidades, centros de investigación, organismos culturales y agencias internacionales, desempeñando roles como profesor-investigador, gestor cultural, consultor en políticas educativas y analista de diversidad e interculturalidad.",
@@ -187,7 +174,10 @@
       "Democracia y Gobernanza en Instituciones Educativas"
     ],
     "power_skills": [],
-    "internationalization": null
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "Doc humanidades.webp",
+    "imageVertical": "doc humanidades v.webp"
   },
   "esp-administracion-obra": {
     "id": "OBRA",
@@ -212,20 +202,14 @@
         "desc": "Espacio ejecutivo acondicionado para el debate de casos de negocio, planeación estratégica y toma de decisiones corporativas.",
         "icon": "💼",
         "tag": "Executive",
-        "features": [
-          "Estudio de casos reales",
-          "Liderazgo simulado"
-        ]
+        "features": ["Estudio de casos reales", "Liderazgo simulado"]
       },
       {
         "title": "Biblioteca Digital y Bases de Datos",
         "desc": "Acceso ilimitado a journals de investigación científica indexados y plataformas de inteligencia financiera global.",
         "icon": "📚",
         "tag": "Research",
-        "features": [
-          "Bases de datos indexadas",
-          "Acceso remoto 24/7"
-        ]
+        "features": ["Bases de datos indexadas", "Acceso remoto 24/7"]
       }
     ],
     "certificaciones": [],
@@ -282,7 +266,10 @@
       "Administración de Operaciones en Edificación"
     ],
     "power_skills": [],
-    "internationalization": null
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "EAO copia.webp",
+    "imageVertical": "EAO V.webp"
   },
   "esp-administracion-tecnologia-linea": {
     "id": "EATL",
@@ -310,20 +297,14 @@
         "desc": "Espacio ejecutivo acondicionado para el debate de casos de negocio, planeación estratégica y toma de decisiones corporativas.",
         "icon": "💼",
         "tag": "Executive",
-        "features": [
-          "Estudio de casos reales",
-          "Liderazgo simulado"
-        ]
+        "features": ["Estudio de casos reales", "Liderazgo simulado"]
       },
       {
         "title": "Biblioteca Digital y Bases de Datos",
         "desc": "Acceso ilimitado a journals de investigación científica indexados y plataformas de inteligencia financiera global.",
         "icon": "📚",
         "tag": "Research",
-        "features": [
-          "Bases de datos indexadas",
-          "Acceso remoto 24/7"
-        ]
+        "features": ["Bases de datos indexadas", "Acceso remoto 24/7"]
       }
     ],
     "certificaciones": [],
@@ -364,12 +345,12 @@
       "Aplicación de las TIC's"
     ],
     "areas_enfoque": [],
-    "areas_especializacion": [
-      "Administración",
-      "Tecnología"
-    ],
+    "areas_especializacion": ["Administración", "Tecnología"],
     "power_skills": [],
-    "internationalization": null
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "EATL.webp",
+    "imageVertical": "EATL V.webp"
   },
   "esp-animacion": {
     "id": "ANIMACION",
@@ -395,20 +376,14 @@
         "desc": "Equipos de procesamiento de alto rendimiento y tarjetas de video de última generación para modelado, render y simulaciones.",
         "icon": "🖥️",
         "tag": "Tecnología",
-        "features": [
-          "Estaciones Mac Pro",
-          "Software de vanguardia"
-        ]
+        "features": ["Estaciones Mac Pro", "Software de vanguardia"]
       },
       {
         "title": "Laboratorio de Redes & Virtualización",
         "desc": "Infraestructura física y lógica para prácticas de enrutamiento, ciberseguridad, servicios cloud y administración de servidores.",
         "icon": "🔌",
         "tag": "Networking",
-        "features": [
-          "Servidores virtuales",
-          "Equipamiento Cisco / Juniper"
-        ]
+        "features": ["Servidores virtuales", "Equipamiento Cisco / Juniper"]
       }
     ],
     "certificaciones": [],
@@ -428,10 +403,7 @@
     },
     "perfilEgreso": "El egresado de la Especialidad en Animación y Post-Producción Digital de la Universidad Internacional estará formado y capacitado para diseñar guiones, producir...",
     "mercado_laboral": "Contarás con un amplio campo de acción en agencias de publicidad, departamentos de producción audiovisual, creatividad digital y marketing digital. Tendrás la capacidad de crear efectos visuales de alto impacto, editar contenido multimedia y participar en campañas digitales integrales. Podrás desempeñarte en cargos estratégicos como director creativo, productor digital, coordinador de animación, ingeniero de sonido y especialista en mezcla de audio. Además, estarás preparado para incorporar en sitios web interactivos para medios digitales como periódicos y revistas, integrando animación digital y contenidos optimizados para redes sociales.",
-    "areas_conocimiento": [
-      "Animación Digital",
-      "Post-Producción"
-    ],
+    "areas_conocimiento": ["Animación Digital", "Post-Producción"],
     "lineas_investigacion": [
       "Animación Digital",
       "Post Producción Digital",
@@ -440,12 +412,12 @@
       "Marketing Digital"
     ],
     "areas_enfoque": [],
-    "areas_especializacion": [
-      "Animación Digital",
-      "Post-Producción"
-    ],
+    "areas_especializacion": ["Animación Digital", "Post-Producción"],
     "power_skills": [],
-    "internationalization": null
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "EAPD.webp",
+    "imageVertical": "EAPD V.webp"
   },
   "esp-criminalistica": {
     "id": "EC",
@@ -468,20 +440,14 @@
         "desc": "Instalación de vanguardia para la simulación de audiencias, juicios y debate judicial, fomentando la argumentación jurídica práctica.",
         "icon": "🏛️",
         "tag": "Legal",
-        "features": [
-          "Simulación de juicios",
-          "Grabación de audiencias"
-        ]
+        "features": ["Simulación de juicios", "Grabación de audiencias"]
       },
       {
         "title": "Laboratorio de Criminalística y Dactiloscopía",
         "desc": "Espacio equipado con reactivos y lupas de comparación para análisis periciales de indicios, grafoscopía e investigación criminal.",
         "icon": "🔍",
         "tag": "Peritaje",
-        "features": [
-          "Equipo de dactiloscopía",
-          "Estudios balísticos simulados"
-        ]
+        "features": ["Equipo de dactiloscopía", "Estudios balísticos simulados"]
       }
     ],
     "certificaciones": [],
@@ -530,7 +496,10 @@
     "areas_enfoque": [],
     "areas_especializacion": [],
     "power_skills": [],
-    "internationalization": null
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "EC.webp",
+    "imageVertical": "EC V.webp"
   },
   "esp-docencia-espanol": {
     "id": "ESPANOL",
@@ -548,20 +517,14 @@
         "desc": "Instalación para la observación en vivo de prácticas docentes, dinámicas grupales y diagnóstico de problemas pedagógicos.",
         "icon": "👁️",
         "tag": "Pedagogía",
-        "features": [
-          "Observación analítica",
-          "Prácticas de microenseñanza"
-        ]
+        "features": ["Observación analítica", "Prácticas de microenseñanza"]
       },
       {
         "title": "Laboratorio de Recursos y Tecnología Educativa",
         "desc": "Acondicionado para el diseño curricular multimedia, administración de plataformas LMS (Moodle, Canvas) y recursos virtuales.",
         "icon": "🎓",
         "tag": "LMS & Media",
-        "features": [
-          "Diseño instruccional",
-          "Recursos educativos abiertos"
-        ]
+        "features": ["Diseño instruccional", "Recursos educativos abiertos"]
       }
     ],
     "certificaciones": [],
@@ -603,12 +566,12 @@
       "Procesos de aprendizaje"
     ],
     "areas_enfoque": [],
-    "areas_especializacion": [
-      "Docencia",
-      "Lingüística"
-    ],
+    "areas_especializacion": ["Docencia", "Lingüística"],
     "power_skills": [],
-    "internationalization": null
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "EDELE.webp",
+    "imageVertical": "EDELE V.webp"
   },
   "esp-marketing-digital": {
     "id": "DIGITAL",
@@ -626,20 +589,14 @@
         "desc": "Espacio ejecutivo acondicionado para el debate de casos de negocio, planeación estratégica y toma de decisiones corporativas.",
         "icon": "💼",
         "tag": "Executive",
-        "features": [
-          "Estudio de casos reales",
-          "Liderazgo simulado"
-        ]
+        "features": ["Estudio de casos reales", "Liderazgo simulado"]
       },
       {
         "title": "Biblioteca Digital y Bases de Datos",
         "desc": "Acceso ilimitado a journals de investigación científica indexados y plataformas de inteligencia financiera global.",
         "icon": "📚",
         "tag": "Research",
-        "features": [
-          "Bases de datos indexadas",
-          "Acceso remoto 24/7"
-        ]
+        "features": ["Bases de datos indexadas", "Acceso remoto 24/7"]
       }
     ],
     "certificaciones": [],
@@ -702,7 +659,10 @@
     "areas_enfoque": [],
     "areas_especializacion": [],
     "power_skills": [],
-    "internationalization": null
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "EMD.webp",
+    "imageVertical": "EMD V.webp"
   },
   "esp-publicidad": {
     "id": "PUBLICIDAD",
@@ -720,20 +680,14 @@
         "desc": "Espacio ejecutivo acondicionado para el debate de casos de negocio, planeación estratégica y toma de decisiones corporativas.",
         "icon": "💼",
         "tag": "Executive",
-        "features": [
-          "Estudio de casos reales",
-          "Liderazgo simulado"
-        ]
+        "features": ["Estudio de casos reales", "Liderazgo simulado"]
       },
       {
         "title": "Biblioteca Digital y Bases de Datos",
         "desc": "Acceso ilimitado a journals de investigación científica indexados y plataformas de inteligencia financiera global.",
         "icon": "📚",
         "tag": "Research",
-        "features": [
-          "Bases de datos indexadas",
-          "Acceso remoto 24/7"
-        ]
+        "features": ["Bases de datos indexadas", "Acceso remoto 24/7"]
       }
     ],
     "certificaciones": [],
@@ -775,12 +729,12 @@
       "Mercadotecnia estratégica"
     ],
     "areas_enfoque": [],
-    "areas_especializacion": [
-      "Publicidad",
-      "Mercadotecnia"
-    ],
+    "areas_especializacion": ["Publicidad", "Mercadotecnia"],
     "power_skills": [],
-    "internationalization": null
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "EPU.webp",
+    "imageVertical": "EPU V.webp"
   },
   "esp-relaciones-mercantiles": {
     "id": "MERCANTILES",
@@ -802,20 +756,14 @@
         "desc": "Instalación de vanguardia para la simulación de audiencias, juicios y debate judicial, fomentando la argumentación jurídica práctica.",
         "icon": "🏛️",
         "tag": "Legal",
-        "features": [
-          "Simulación de juicios",
-          "Grabación de audiencias"
-        ]
+        "features": ["Simulación de juicios", "Grabación de audiencias"]
       },
       {
         "title": "Laboratorio de Criminalística y Dactiloscopía",
         "desc": "Espacio equipado con reactivos y lupas de comparación para análisis periciales de indicios, grafoscopía e investigación criminal.",
         "icon": "🔍",
         "tag": "Peritaje",
-        "features": [
-          "Equipo de dactiloscopía",
-          "Estudios balísticos simulados"
-        ]
+        "features": ["Equipo de dactiloscopía", "Estudios balísticos simulados"]
       }
     ],
     "certificaciones": [],
@@ -863,11 +811,14 @@
       "Derecho Internacional"
     ],
     "power_skills": [],
-    "internationalization": null
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "ERMI.webp",
+    "imageVertical": "ERMI V.webp"
   },
   "maes-admin-direc-en-linea": {
     "id": "MADEL",
-    "name": "Maestría en Línea de Administración y Dirección de Empresas",
+    "name": "Maestría en Administración y Dirección de Empresas en Línea",
     "slug": "maes-admin-direc-en-linea",
     "type": "maestria",
     "rvoe": "2019P04269/2019-12-19",
@@ -881,20 +832,14 @@
         "desc": "Espacio ejecutivo acondicionado para el debate de casos de negocio, planeación estratégica y toma de decisiones corporativas.",
         "icon": "💼",
         "tag": "Executive",
-        "features": [
-          "Estudio de casos reales",
-          "Liderazgo simulado"
-        ]
+        "features": ["Estudio de casos reales", "Liderazgo simulado"]
       },
       {
         "title": "Biblioteca Digital y Bases de Datos",
         "desc": "Acceso ilimitado a journals de investigación científica indexados y plataformas de inteligencia financiera global.",
         "icon": "📚",
         "tag": "Research",
-        "features": [
-          "Bases de datos indexadas",
-          "Acceso remoto 24/7"
-        ]
+        "features": ["Bases de datos indexadas", "Acceso remoto 24/7"]
       }
     ],
     "certificaciones": [
@@ -1002,7 +947,8 @@
       "Innovación y Diseño de Modelo de Negocios"
     ],
     "power_skills": [],
-    "internationalization": null
+    "internationalization": null,
+    "formato": "Híbrido-Línea"
   },
   "maes-admin-direc": {
     "id": "DIREC",
@@ -1020,20 +966,14 @@
         "desc": "Espacio ejecutivo acondicionado para el debate de casos de negocio, planeación estratégica y toma de decisiones corporativas.",
         "icon": "💼",
         "tag": "Executive",
-        "features": [
-          "Estudio de casos reales",
-          "Liderazgo simulado"
-        ]
+        "features": ["Estudio de casos reales", "Liderazgo simulado"]
       },
       {
         "title": "Biblioteca Digital y Bases de Datos",
         "desc": "Acceso ilimitado a journals de investigación científica indexados y plataformas de inteligencia financiera global.",
         "icon": "📚",
         "tag": "Research",
-        "features": [
-          "Bases de datos indexadas",
-          "Acceso remoto 24/7"
-        ]
+        "features": ["Bases de datos indexadas", "Acceso remoto 24/7"]
       }
     ],
     "certificaciones": [
@@ -1142,7 +1082,10 @@
     "areas_enfoque": [],
     "areas_especializacion": [],
     "power_skills": [],
-    "internationalization": null
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "MADE.webp",
+    "imageVertical": "MADE V.webp"
   },
   "maes-educacion-docente": {
     "id": "DOCENTE",
@@ -1160,20 +1103,14 @@
         "desc": "Instalación para la observación en vivo de prácticas docentes, dinámicas grupales y diagnóstico de problemas pedagógicos.",
         "icon": "👁️",
         "tag": "Pedagogía",
-        "features": [
-          "Observación analítica",
-          "Prácticas de microenseñanza"
-        ]
+        "features": ["Observación analítica", "Prácticas de microenseñanza"]
       },
       {
         "title": "Laboratorio de Recursos y Tecnología Educativa",
         "desc": "Acondicionado para el diseño curricular multimedia, administración de plataformas LMS (Moodle, Canvas) y recursos virtuales.",
         "icon": "🎓",
         "tag": "LMS & Media",
-        "features": [
-          "Diseño instruccional",
-          "Recursos educativos abiertos"
-        ]
+        "features": ["Diseño instruccional", "Recursos educativos abiertos"]
       }
     ],
     "certificaciones": [],
@@ -1227,7 +1164,8 @@
       "Tecnología Educativa"
     ],
     "power_skills": [],
-    "internationalization": null
+    "internationalization": null,
+    "formato": "Híbrido"
   },
   "maes-gestion-calidad": {
     "id": "CALIDAD",
@@ -1252,20 +1190,14 @@
         "desc": "Espacio ejecutivo acondicionado para el debate de casos de negocio, planeación estratégica y toma de decisiones corporativas.",
         "icon": "💼",
         "tag": "Executive",
-        "features": [
-          "Estudio de casos reales",
-          "Liderazgo simulado"
-        ]
+        "features": ["Estudio de casos reales", "Liderazgo simulado"]
       },
       {
         "title": "Biblioteca Digital y Bases de Datos",
         "desc": "Acceso ilimitado a journals de investigación científica indexados y plataformas de inteligencia financiera global.",
         "icon": "📚",
         "tag": "Research",
-        "features": [
-          "Bases de datos indexadas",
-          "Acceso remoto 24/7"
-        ]
+        "features": ["Bases de datos indexadas", "Acceso remoto 24/7"]
       }
     ],
     "certificaciones": [],
@@ -1327,7 +1259,8 @@
       "Investigación"
     ],
     "power_skills": [],
-    "internationalization": null
+    "internationalization": null,
+    "formato": "Híbrido"
   },
   "maes-lenguas": {
     "id": "LENGUAS",
@@ -1353,20 +1286,14 @@
         "desc": "Instalación para la observación en vivo de prácticas docentes, dinámicas grupales y diagnóstico de problemas pedagógicos.",
         "icon": "👁️",
         "tag": "Pedagogía",
-        "features": [
-          "Observación analítica",
-          "Prácticas de microenseñanza"
-        ]
+        "features": ["Observación analítica", "Prácticas de microenseñanza"]
       },
       {
         "title": "Laboratorio de Recursos y Tecnología Educativa",
         "desc": "Acondicionado para el diseño curricular multimedia, administración de plataformas LMS (Moodle, Canvas) y recursos virtuales.",
         "icon": "🎓",
         "tag": "LMS & Media",
-        "features": [
-          "Diseño instruccional",
-          "Recursos educativos abiertos"
-        ]
+        "features": ["Diseño instruccional", "Recursos educativos abiertos"]
       }
     ],
     "certificaciones": [],
@@ -1418,7 +1345,8 @@
       "Investigación"
     ],
     "power_skills": [],
-    "internationalization": null
+    "internationalization": null,
+    "formato": "Híbrido"
   },
   "maes-redes": {
     "id": "REDES",
@@ -1436,20 +1364,14 @@
         "desc": "Equipos de procesamiento de alto rendimiento y tarjetas de video de última generación para modelado, render y simulaciones.",
         "icon": "🖥️",
         "tag": "Tecnología",
-        "features": [
-          "Estaciones Mac Pro",
-          "Software de vanguardia"
-        ]
+        "features": ["Estaciones Mac Pro", "Software de vanguardia"]
       },
       {
         "title": "Laboratorio de Redes & Virtualización",
         "desc": "Infraestructura física y lógica para prácticas de enrutamiento, ciberseguridad, servicios cloud y administración de servidores.",
         "icon": "🔌",
         "tag": "Networking",
-        "features": [
-          "Servidores virtuales",
-          "Equipamiento Cisco / Juniper"
-        ]
+        "features": ["Servidores virtuales", "Equipamiento Cisco / Juniper"]
       }
     ],
     "certificaciones": [],
@@ -1502,10 +1424,7 @@
       "Tecnologías y Aplicaciones WEB",
       "Programación Orientada a la WEB: Mecanismos de Pago Electrónico y Aspectos de Seguridad"
     ],
-    "lineas_investigacion": [
-      "Redes de Computadoras",
-      "Tecnologías Web"
-    ],
+    "lineas_investigacion": ["Redes de Computadoras", "Tecnologías Web"],
     "areas_enfoque": [],
     "areas_especializacion": [
       "Redes de Computadoras",
@@ -1513,6 +1432,7 @@
       "Tecnologías Web"
     ],
     "power_skills": [],
-    "internationalization": null
+    "internationalization": null,
+    "formato": "Híbrido"
   }
 }

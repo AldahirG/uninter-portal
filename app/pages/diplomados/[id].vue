@@ -10,14 +10,14 @@
 
     <!-- Contenido del Diplomado -->
     <main v-else>
-      <CareerHeroShowcase 
+      <DiplomadoHeroShowcase 
         :data="careerData" 
         programType="Diplomado"
         :duration="careerData.duracion"
         :modality="programModality"
       />
       
-      <CareerOverview :data="careerData" />
+      <DiplomadoOverview :data="careerData" />
       
       <!-- PLAN DE ESTUDIOS NATIVO PARA DIPLOMADOS (MÓDULOS) -->
       <!-- Accordion Syllabus Section -->
@@ -83,8 +83,8 @@ import NavbarIndex from "~/components/navbar/Index.vue";
 import FloatingActions from "~/components/portal/FloatingActions.vue";
 import PortalFooter from "~/components/layout/Footer.vue";
 
-import CareerHeroShowcase from "~/components/degree/shared/CareerHeroShowcase.vue";
-import CareerOverview from "~/components/degree/shared/CareerOverview.vue";
+import DiplomadoHeroShowcase from "~/components/degree/diplomados/DiplomadoHeroShowcase.vue";
+import DiplomadoOverview from "~/components/degree/diplomados/DiplomadoOverview.vue";
 import FormRegister from "~/components/diplomados/FormRegister.vue";
 
 // Data JSON

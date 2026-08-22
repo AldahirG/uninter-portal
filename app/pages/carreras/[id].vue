@@ -18,10 +18,14 @@
       <CareerOverview :data="careerData" />
       <CareerJobMarket :careerOpportunities="careerData?.careerOpportunities" />
       <CareerSyllabus :careerId="careerData.id" :syllabusDescription="planDescription" />
-      <CareerCertifications :certificaciones="careerData.certificaciones" />
+      <CareerProfiles 
+        :admissionProfile="careerData?.admissionProfile" 
+        :graduateProfile="careerData?.graduateProfile" 
+      />
+      <CareerCertifications :certificaciones="careerData?.powerSkills" :careerSlug="careerSlug" />
       <CareerResearch
-        :labs="careerData.experienciaPractica"
-        :projectsBlogUrl="careerData.projectsBlogUrl"
+        :labs="careerData?.techArsenal"
+        :projectsBlogUrl="careerData?.projectsBlogUrl"
       />
 
       <CareerFAQ :faq="careerData.faq" />
@@ -44,6 +48,7 @@ import CareerHeroShowcase from "~/components/degree/shared/CareerHeroShowcase.vu
 import CareerOverview from "~/components/degree/shared/CareerOverview.vue";
 import CareerJobMarket from "~/components/degree/shared/CareerJobMarket.vue";
 import CareerSyllabus from "~/components/degree/shared/CareerSyllabus.vue";
+import CareerProfiles from "~/components/degree/shared/CareerProfiles.vue";
 import CareerCertifications from "~/components/degree/shared/CareerCertifications.vue";
 import CareerResearch from "~/components/degree/shared/CareerResearch.vue";
 import CareerFAQ from "~/components/degree/shared/CareerFAQ.vue";

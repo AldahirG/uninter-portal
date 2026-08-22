@@ -12,7 +12,7 @@ const activeProgram = ref<any>(null);
 const openDrawer = (programData: any) => {
   activeProgram.value = programData;
   isDrawerOpen.value = true;
-  if (typeof document !== 'undefined') {
+  if (typeof document !== "undefined") {
     document.body.style.overflow = "hidden"; // Evita el scroll del fondo
   }
 };
@@ -23,7 +23,7 @@ const closeDrawer = () => {
   setTimeout(() => {
     activeProgram.value = null;
   }, 400); // Espera a que termine la animacin
-  if (typeof document !== 'undefined') {
+  if (typeof document !== "undefined") {
     document.body.style.overflow = ""; // Restaura el scroll
   }
 };
@@ -49,7 +49,62 @@ useHead({
 });
 
 // JSON data extraída de .output
-const data = [{area:"Alta Dirección y Negocios",icon:"mdi:briefcase-outline",programas:[{nombre:"Maestría en Administración y Dirección de Empresas",sigla:"MADE",slug:"maes-admin-direc",desc:"Desarrollo de líderes con visión estratégica, capacidades analíticas y competencias globales para la toma de decisiones empresariales de alto impacto."},{nombre:"Maestría en Administración y Dirección de Empresas (Línea)",sigla:"MADEL",slug:"maes-admin-direc-en-linea",desc:"La versión 100% digital de nuestro programa MADE insignia, diseñado para profesionales activos con flexibilidad total de horarios."},{nombre:"Maestría en Gestión de la Calidad",sigla:"MGC",slug:"maes-gestion-calidad",desc:"Especialización en sistemas de calidad integral, optimización de procesos operativos, auditorías y certificaciones internacionales."}]},{area:"Innovación, Tecnología y Transformación Digital",icon:"mdi:monitor-dashboard",programas:[{nombre:"Maestría en Redes de Computadoras y Tecnologías Web",sigla:"MARET",slug:"maes-redes",desc:"Formación de ingenieros especializados en infraestructura de redes, seguridad informática, computación en la nube y desarrollo web avanzado."}]},{area:"Educación, Docencia y Desarrollo Académico",icon:"mdi:school-outline",programas:[{nombre:"Maestría en Educación en Formación Docente",sigla:"MEFD",slug:"maes-educacion-docente",desc:"Perfeccionamiento pedagógico y diseño curricular adaptado a las nuevas tecnologías y corrientes metodológicas contemporáneas."},{nombre:"Maestría en Enseñanza de Lenguas Extranjeras",sigla:"MEL",slug:"maes-lenguas",desc:"Didáctica y metodologías avanzadas para la enseñanza escolarizada y profesional de idiomas de alta demanda."}]}];
+const data = [
+  {
+    area: "Alta Dirección y Negocios",
+    icon: "mdi:briefcase-outline",
+    programas: [
+      {
+        nombre: "Maestría en Administración y Dirección de Empresas",
+        sigla: "MADE",
+        slug: "maes-admin-direc",
+        desc: "Desarrollo de líderes con visión estratégica, capacidades analíticas y competencias globales para la toma de decisiones empresariales de alto impacto.",
+      },
+      {
+        nombre: "Maestría en Administración y Dirección de Empresas (Línea)",
+        sigla: "MADEL",
+        slug: "maes-admin-direc-en-linea",
+        desc: "La versión 100% digital de nuestro programa MADE insignia, diseñado para profesionales activos con flexibilidad total de horarios.",
+      },
+      {
+        nombre: "Maestría en Gestión de la Calidad",
+        sigla: "MGC",
+        slug: "maes-gestion-calidad",
+        desc: "Especialización en sistemas de calidad integral, optimización de procesos operativos, auditorías y certificaciones internacionales.",
+      },
+    ],
+  },
+  {
+    area: "Innovación, Tecnología y Transformación Digital",
+    icon: "mdi:monitor-dashboard",
+    programas: [
+      {
+        nombre: "Maestría en Redes de Computadoras y Tecnologías Web",
+        sigla: "MARET",
+        slug: "maes-redes",
+        desc: "Formación de ingenieros especializados en infraestructura de redes, seguridad informática, computación en la nube y desarrollo web avanzado.",
+      },
+    ],
+  },
+  {
+    area: "Educación, Docencia y Desarrollo Académico",
+    icon: "mdi:school-outline",
+    programas: [
+      {
+        nombre: "Maestría en Educación en Formación Docente",
+        sigla: "MEFD",
+        slug: "maes-educacion-docente",
+        desc: "Perfeccionamiento pedagógico y diseño curricular adaptado a las nuevas tecnologías y corrientes metodológicas contemporáneas.",
+      },
+      {
+        nombre: "Maestría en Enseñanza de Lenguas Extranjeras",
+        sigla: "MEL",
+        slug: "maes-lenguas",
+        desc: "Didáctica y metodologías avanzadas para la enseñanza escolarizada y profesional de idiomas de alta demanda.",
+      },
+    ],
+  },
+];
 </script>
 
 <template>
@@ -60,27 +115,43 @@ const data = [{area:"Alta Dirección y Negocios",icon:"mdi:briefcase-outline",pr
     <div class="pg-hero-wrapper">
       <section class="pg-hero">
         <div class="pg-hero__bg">
-          <img src="/images/hero/licenciaturasPresenciales.jpg" alt="Especialidades UNINTER" class="pg-hero__img" />
+          <img
+            src="/images/hero/licenciaturasPresenciales.jpg"
+            alt="Especialidades UNINTER"
+            class="pg-hero__img"
+          />
           <div class="pg-hero__overlay"></div>
         </div>
 
-        <div class="pg-hero__deco pg-hero__deco--tl"><Icon name="lucide:globe" size="32" /></div>
-        <div class="pg-hero__deco pg-hero__deco--tr"><Icon name="lucide:book-open" size="28" /></div>
-        <div class="pg-hero__deco pg-hero__deco--br"><Icon name="lucide:flask-conical" size="26" /></div>
+        <div class="pg-hero__deco pg-hero__deco--tl">
+          <Icon name="lucide:globe" size="32" />
+        </div>
+        <div class="pg-hero__deco pg-hero__deco--tr">
+          <Icon name="lucide:book-open" size="28" />
+        </div>
+        <div class="pg-hero__deco pg-hero__deco--br">
+          <Icon name="lucide:flask-conical" size="26" />
+        </div>
 
         <div class="pg-container pg-hero__content">
           <div class="pg-hero__inner">
             <div class="pg-hero__eyebrow">
-              <img src="/images/hero/LogoLargo.svg" alt="Universidad Internacional" class="pg-hero__logo-full" />
+              <img
+                src="/images/hero/logo-blanco.svg"
+                alt="Universidad Internacional"
+                class="pg-hero__logo-full"
+              />
             </div>
-            
+
             <h1 class="pg-hero__title">
               <span class="pg-hero__title-main">MAESTRÍAS</span>
               <span class="pg-hero__title-sub">Liderazgo y Gestión</span>
             </h1>
-            
+
             <p class="pg-hero__desc">
-              Adquiere un perfil estratégico de liderazgo global con especializaciones teóricas y proyectos prácticos aplicados a la industria actual.
+              Adquiere un perfil estratégico de liderazgo global con
+              especializaciones teóricas y proyectos prácticos aplicados a la
+              industria actual.
             </p>
 
             <div class="pg-hero__ctas-new">
@@ -105,35 +176,45 @@ const data = [{area:"Alta Dirección y Negocios",icon:"mdi:briefcase-outline",pr
       <div class="pg-hero__stats-bar">
         <div class="pg-container pg-hero__stats-inner">
           <div class="pg-stat">
-            <div class="pg-stat__icon"><Icon name="lucide:laptop" size="28" /></div>
+            <div class="pg-stat__icon">
+              <Icon name="lucide:laptop" size="28" />
+            </div>
             <div class="pg-stat__text">
               <span class="pg-stat__value">Flexibilidad</span>
               <span class="pg-stat__label">Modalidades de estudio</span>
             </div>
           </div>
           <div class="pg-stat">
-            <div class="pg-stat__icon"><Icon name="lucide:calendar" size="28" /></div>
+            <div class="pg-stat__icon">
+              <Icon name="lucide:calendar" size="28" />
+            </div>
             <div class="pg-stat__text">
               <span class="pg-stat__value">Desde 1 año</span>
               <span class="pg-stat__label">Duración</span>
             </div>
           </div>
           <div class="pg-stat">
-            <div class="pg-stat__icon"><Icon name="lucide:shield-check" size="28" /></div>
+            <div class="pg-stat__icon">
+              <Icon name="lucide:shield-check" size="28" />
+            </div>
             <div class="pg-stat__text">
               <span class="pg-stat__value">RVOE SEP</span>
               <span class="pg-stat__label">Validez Oficial</span>
             </div>
           </div>
           <div class="pg-stat">
-            <div class="pg-stat__icon"><Icon name="lucide:users" size="28" /></div>
+            <div class="pg-stat__icon">
+              <Icon name="lucide:users" size="28" />
+            </div>
             <div class="pg-stat__text">
               <span class="pg-stat__value">Expertos</span>
               <span class="pg-stat__label">Claustro Docente</span>
             </div>
           </div>
           <div class="pg-stat">
-            <div class="pg-stat__icon"><Icon name="lucide:award" size="28" /></div>
+            <div class="pg-stat__icon">
+              <Icon name="lucide:award" size="28" />
+            </div>
             <div class="pg-stat__text">
               <span class="pg-stat__value">40+ Años</span>
               <span class="pg-stat__label">De Experiencia</span>
@@ -149,8 +230,14 @@ const data = [{area:"Alta Dirección y Negocios",icon:"mdi:briefcase-outline",pr
         <div class="pg-sec-header oe-header">
           <div>
             <p class="pg-eyebrow uninter-eyebrow">Programas Disponibles</p>
-            <h2 class="pg-title uninter-section-title">Explora nuestras <em>Maestrías</em></h2>
-            <p class="pg-body">Adquiere un perfil estratégico de liderazgo global con especializaciones teóricas y proyectos prácticos aplicados a la industria actual.</p>
+            <h2 class="pg-title uninter-section-title">
+              Explora nuestras <em>Maestrías</em>
+            </h2>
+            <p class="pg-body">
+              Adquiere un perfil estratégico de liderazgo global con
+              especializaciones teóricas y proyectos prácticos aplicados a la
+              industria actual.
+            </p>
           </div>
         </div>
 
@@ -160,10 +247,18 @@ const data = [{area:"Alta Dirección y Negocios",icon:"mdi:briefcase-outline",pr
             <div class="oe-card__content-wrapper">
               <h3 class="oe-card__title">{{ area.area }}</h3>
               <ul class="oe-card__list">
-                <li v-for="(programa, pIndex) in area.programas" :key="'prog-' + pIndex">
-                  <button @click.prevent="openDrawer(programa)" class="oe-card__link">
+                <li
+                  v-for="(programa, pIndex) in area.programas"
+                  :key="'prog-' + pIndex"
+                >
+                  <button
+                    @click.prevent="openDrawer(programa)"
+                    class="oe-card__link"
+                  >
                     <span class="oe-card__bullet">&bull;</span>
-                    <span class="oe-card__text">{{ programa.nombre }} ({{ programa.sigla }})</span>
+                    <span class="oe-card__text"
+                      >{{ programa.nombre }} ({{ programa.sigla }})</span
+                    >
                   </button>
                 </li>
               </ul>
@@ -185,11 +280,7 @@ const data = [{area:"Alta Dirección y Negocios",icon:"mdi:briefcase-outline",pr
         :class="{ 'is-open': isDrawerOpen }"
         @click="closeDrawer"
       >
-        <div
-          class="oe-drawer"
-          :class="{ 'is-open': isDrawerOpen }"
-          @click.stop
-        >
+        <div class="oe-drawer" :class="{ 'is-open': isDrawerOpen }" @click.stop>
           <button class="oe-drawer-close" @click="closeDrawer">
             <X :size="24" />
           </button>
@@ -199,12 +290,17 @@ const data = [{area:"Alta Dirección y Negocios",icon:"mdi:briefcase-outline",pr
               <div class="oe-drawer-badge">{{ activeProgram.sigla }}</div>
               <h3 class="oe-detail-title">{{ activeProgram.nombre }}</h3>
             </div>
-            
+
             <p class="oe-detail-desc">{{ activeProgram.desc }}</p>
 
             <div class="oe-detail-actions">
               <!-- Solo mostrar el boton de detalles si tiene slug de vista completa -->
-              <NuxtLink v-if="activeProgram.slug" :to="`/posgrados/${activeProgram.slug}`" class="oe-btn oe-btn--solid" @click="closeDrawer">
+              <NuxtLink
+                v-if="activeProgram.slug"
+                :to="`/posgrados/${activeProgram.slug}`"
+                class="oe-btn oe-btn--solid"
+                @click="closeDrawer"
+              >
                 Ver Detalles Completos
                 <ArrowRight :size="16" />
               </NuxtLink>

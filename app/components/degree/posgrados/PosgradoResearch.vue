@@ -68,10 +68,10 @@ const getLabImage = (index: number) => {
         <span class="eyebrow">ARSENAL TECNOLÓGICO</span>
         <h2 class="section-title">
           Tecnología de <br />
-          <span class="highlight-underline">Nivel Profesional</span>
+          <span class="highlight-green">Nivel Profesional</span>
         </h2>
         <p class="section-desc">
-          <mark class="highlight-desc">No te limites a la teoría. Domina las herramientas reales de la industria antes de graduarte y asegura tu ventaja competitiva en el mercado laboral.</mark>
+          No te limites a la teoría. Domina las herramientas reales de la industria antes de graduarte y asegura tu ventaja competitiva en el mercado laboral.
         </p>
       </div>
 
@@ -107,7 +107,7 @@ const getLabImage = (index: number) => {
               <span class="features-title">EQUIPAMIENTO DESTACADO:</span>
               <ul class="features-list">
                 <li v-for="(feat, fIdx) in lab.features" :key="fIdx">
-                  <Check :size="16" class="feat-check color-blue" />
+                  <Check :size="16" class="feat-check color-green" />
                   <span>{{ feat }}</span>
                 </li>
               </ul>
@@ -171,9 +171,9 @@ const getLabImage = (index: number) => {
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  color: #1976d2;
+  color: #8f9a3e;
   margin-bottom: 0.75rem;
-  background: #f0f6fc;
+  background: #f4f5ef;
   padding: 0.35rem 0.9rem;
   border-radius: 20px;
 }
@@ -188,39 +188,15 @@ const getLabImage = (index: number) => {
   line-height: 1.25;
 }
 
-.highlight-underline {
-  color: #1565c0;
-  position: relative;
-  display: inline-block;
-  z-index: 1;
-}
-
-.highlight-underline::after {
-  content: "";
-  position: absolute;
-  bottom: 6px;
-  left: -2%;
-  width: 104%;
-  height: 12px;
-  background-color: #fcebd7; /* Tono durazno / plumón claro */
-  z-index: -1;
-  transform: rotate(-1.5deg);
-  border-radius: 2px;
+.highlight-green {
+  color: #8f9a3e;
 }
 
 .section-desc {
-  margin: 0;
-}
-
-.highlight-desc {
-  background-color: #1565c0;
-  color: #ffffff;
-  padding: 0.3rem 0.6rem;
-  line-height: 1.8;
-  border-radius: 4px;
   font-size: 1.05rem;
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
+  color: #64748b;
+  line-height: 1.6;
+  margin: 0;
 }
 
 /* =========================================================
@@ -228,7 +204,8 @@ const getLabImage = (index: number) => {
 ======================================================== */
 .labs-wrapper.is-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 380px));
+  justify-content: center;
   gap: 2.5rem;
 }
 
@@ -284,8 +261,8 @@ const getLabImage = (index: number) => {
 .lab-vblock:hover,
 .lab-vblock.simulated-hover {
   transform: translateY(-8px);
-  border-color: #1565c0;
-  box-shadow: 0 15px 40px rgba(21, 101, 192, 0.15);
+  border-color: #8f9a3e;
+  box-shadow: 0 15px 40px rgba(143, 154, 62, 0.15);
 }
 
 .lab-vblock__img-wrap {
@@ -368,8 +345,8 @@ const getLabImage = (index: number) => {
   line-height: 1.4;
 }
 
-.feat-check.color-blue {
-  color: #1565c0;
+.feat-check.color-green {
+  color: #8f9a3e;
   flex-shrink: 0;
   margin-top: 2px;
 }

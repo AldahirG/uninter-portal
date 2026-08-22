@@ -12,7 +12,7 @@ const activeProgram = ref<any>(null);
 const openDrawer = (programData: any) => {
   activeProgram.value = programData;
   isDrawerOpen.value = true;
-  if (typeof document !== 'undefined') {
+  if (typeof document !== "undefined") {
     document.body.style.overflow = "hidden"; // Evita el scroll del fondo
   }
 };
@@ -23,7 +23,7 @@ const closeDrawer = () => {
   setTimeout(() => {
     activeProgram.value = null;
   }, 400); // Espera a que termine la animacin
-  if (typeof document !== 'undefined') {
+  if (typeof document !== "undefined") {
     document.body.style.overflow = ""; // Restaura el scroll
   }
 };
@@ -49,7 +49,32 @@ useHead({
 });
 
 // JSON data extraída de .output
-const data = [{area:"Alta Dirección y Negocios",icon:"mdi:briefcase-outline",programas:[{nombre:"Doctorado en Administración",sigla:"DA",slug:"doc-administracion",desc:"Formación de investigadores independientes y consultores de alta dirección capaces de generar conocimiento original y de aplicar metodologías científicas para resolver problemas críticos organizacionales."}]},{area:"Investigación Avanzada y Humanidades",icon:"mdi:flask-outline",programas:[{nombre:"Doctorado en Humanidades",sigla:"DH",slug:"doc-humanidades",desc:"Programa interdisciplinario de investigación centrado en el estudio crítico de la educación, cultura, filosofía y dinámicas sociales contemporáneas."}]}];
+const data = [
+  {
+    area: "Alta Dirección y Negocios",
+    icon: "mdi:briefcase-outline",
+    programas: [
+      {
+        nombre: "Doctorado en Administración",
+        sigla: "DA",
+        slug: "doc-administracion",
+        desc: "Formación de investigadores independientes y consultores de alta dirección capaces de generar conocimiento original y de aplicar metodologías científicas para resolver problemas críticos organizacionales.",
+      },
+    ],
+  },
+  {
+    area: "Investigación Avanzada y Humanidades",
+    icon: "mdi:flask-outline",
+    programas: [
+      {
+        nombre: "Doctorado en Humanidades",
+        sigla: "DH",
+        slug: "doc-humanidades",
+        desc: "Programa interdisciplinario de investigación centrado en el estudio crítico de la educación, cultura, filosofía y dinámicas sociales contemporáneas.",
+      },
+    ],
+  },
+];
 </script>
 
 <template>
@@ -60,27 +85,44 @@ const data = [{area:"Alta Dirección y Negocios",icon:"mdi:briefcase-outline",pr
     <div class="pg-hero-wrapper">
       <section class="pg-hero">
         <div class="pg-hero__bg">
-          <img src="/images/hero/licenciaturasPresenciales.jpg" alt="Especialidades UNINTER" class="pg-hero__img" />
+          <img
+            src="/images/hero/licenciaturasPresenciales.jpg"
+            alt="Especialidades UNINTER"
+            class="pg-hero__img"
+          />
           <div class="pg-hero__overlay"></div>
         </div>
 
-        <div class="pg-hero__deco pg-hero__deco--tl"><Icon name="lucide:globe" size="32" /></div>
-        <div class="pg-hero__deco pg-hero__deco--tr"><Icon name="lucide:book-open" size="28" /></div>
-        <div class="pg-hero__deco pg-hero__deco--br"><Icon name="lucide:flask-conical" size="26" /></div>
+        <div class="pg-hero__deco pg-hero__deco--tl">
+          <Icon name="lucide:globe" size="32" />
+        </div>
+        <div class="pg-hero__deco pg-hero__deco--tr">
+          <Icon name="lucide:book-open" size="28" />
+        </div>
+        <div class="pg-hero__deco pg-hero__deco--br">
+          <Icon name="lucide:flask-conical" size="26" />
+        </div>
 
         <div class="pg-container pg-hero__content">
           <div class="pg-hero__inner">
             <div class="pg-hero__eyebrow">
-              <img src="/images/hero/LogoLargo.svg" alt="Universidad Internacional" class="pg-hero__logo-full" />
+              <img
+                src="/images/hero/logo-blanco.svg"
+                alt="Universidad Internacional"
+                class="pg-hero__logo-full"
+              />
             </div>
-            
+
             <h1 class="pg-hero__title">
               <span class="pg-hero__title-main">DOCTORADOS</span>
-              <span class="pg-hero__title-sub">Investigación de Alto Nivel</span>
+              <span class="pg-hero__title-sub"
+                >Investigación de Alto Nivel</span
+              >
             </h1>
-            
+
             <p class="pg-hero__desc">
-              Programas del más alto nivel académico enfocados en la investigación aplicada y la generación de nuevo conocimiento.
+              Programas del más alto nivel académico enfocados en la
+              investigación aplicada y la generación de nuevo conocimiento.
             </p>
 
             <div class="pg-hero__ctas-new">
@@ -105,35 +147,45 @@ const data = [{area:"Alta Dirección y Negocios",icon:"mdi:briefcase-outline",pr
       <div class="pg-hero__stats-bar">
         <div class="pg-container pg-hero__stats-inner">
           <div class="pg-stat">
-            <div class="pg-stat__icon"><Icon name="lucide:laptop" size="28" /></div>
+            <div class="pg-stat__icon">
+              <Icon name="lucide:laptop" size="28" />
+            </div>
             <div class="pg-stat__text">
               <span class="pg-stat__value">Flexibilidad</span>
               <span class="pg-stat__label">Modalidades de estudio</span>
             </div>
           </div>
           <div class="pg-stat">
-            <div class="pg-stat__icon"><Icon name="lucide:calendar" size="28" /></div>
+            <div class="pg-stat__icon">
+              <Icon name="lucide:calendar" size="28" />
+            </div>
             <div class="pg-stat__text">
               <span class="pg-stat__value">Desde 1 año</span>
               <span class="pg-stat__label">Duración</span>
             </div>
           </div>
           <div class="pg-stat">
-            <div class="pg-stat__icon"><Icon name="lucide:shield-check" size="28" /></div>
+            <div class="pg-stat__icon">
+              <Icon name="lucide:shield-check" size="28" />
+            </div>
             <div class="pg-stat__text">
               <span class="pg-stat__value">RVOE SEP</span>
               <span class="pg-stat__label">Validez Oficial</span>
             </div>
           </div>
           <div class="pg-stat">
-            <div class="pg-stat__icon"><Icon name="lucide:users" size="28" /></div>
+            <div class="pg-stat__icon">
+              <Icon name="lucide:users" size="28" />
+            </div>
             <div class="pg-stat__text">
               <span class="pg-stat__value">Expertos</span>
               <span class="pg-stat__label">Claustro Docente</span>
             </div>
           </div>
           <div class="pg-stat">
-            <div class="pg-stat__icon"><Icon name="lucide:award" size="28" /></div>
+            <div class="pg-stat__icon">
+              <Icon name="lucide:award" size="28" />
+            </div>
             <div class="pg-stat__text">
               <span class="pg-stat__value">40+ Años</span>
               <span class="pg-stat__label">De Experiencia</span>
@@ -149,8 +201,14 @@ const data = [{area:"Alta Dirección y Negocios",icon:"mdi:briefcase-outline",pr
         <div class="pg-sec-header oe-header">
           <div>
             <p class="pg-eyebrow uninter-eyebrow">Programas Disponibles</p>
-            <h2 class="pg-title uninter-section-title">Explora nuestros <em>Doctorados</em></h2>
-            <p class="pg-body">Nuestros programas doctorales cuentan con un claustro de investigadores distinguidos y líneas de generación de conocimiento altamente vigentes.</p>
+            <h2 class="pg-title uninter-section-title">
+              Explora nuestros <em>Doctorados</em>
+            </h2>
+            <p class="pg-body">
+              Nuestros programas doctorales cuentan con un claustro de
+              investigadores distinguidos y líneas de generación de conocimiento
+              altamente vigentes.
+            </p>
           </div>
         </div>
 
@@ -160,10 +218,18 @@ const data = [{area:"Alta Dirección y Negocios",icon:"mdi:briefcase-outline",pr
             <div class="oe-card__content-wrapper">
               <h3 class="oe-card__title">{{ area.area }}</h3>
               <ul class="oe-card__list">
-                <li v-for="(programa, pIndex) in area.programas" :key="'prog-' + pIndex">
-                  <button @click.prevent="openDrawer(programa)" class="oe-card__link">
+                <li
+                  v-for="(programa, pIndex) in area.programas"
+                  :key="'prog-' + pIndex"
+                >
+                  <button
+                    @click.prevent="openDrawer(programa)"
+                    class="oe-card__link"
+                  >
                     <span class="oe-card__bullet">&bull;</span>
-                    <span class="oe-card__text">{{ programa.nombre }} ({{ programa.sigla }})</span>
+                    <span class="oe-card__text"
+                      >{{ programa.nombre }} ({{ programa.sigla }})</span
+                    >
                   </button>
                 </li>
               </ul>
@@ -185,11 +251,7 @@ const data = [{area:"Alta Dirección y Negocios",icon:"mdi:briefcase-outline",pr
         :class="{ 'is-open': isDrawerOpen }"
         @click="closeDrawer"
       >
-        <div
-          class="oe-drawer"
-          :class="{ 'is-open': isDrawerOpen }"
-          @click.stop
-        >
+        <div class="oe-drawer" :class="{ 'is-open': isDrawerOpen }" @click.stop>
           <button class="oe-drawer-close" @click="closeDrawer">
             <X :size="24" />
           </button>
@@ -199,12 +261,17 @@ const data = [{area:"Alta Dirección y Negocios",icon:"mdi:briefcase-outline",pr
               <div class="oe-drawer-badge">{{ activeProgram.sigla }}</div>
               <h3 class="oe-detail-title">{{ activeProgram.nombre }}</h3>
             </div>
-            
+
             <p class="oe-detail-desc">{{ activeProgram.desc }}</p>
 
             <div class="oe-detail-actions">
               <!-- Solo mostrar el boton de detalles si tiene slug de vista completa -->
-              <NuxtLink v-if="activeProgram.slug" :to="`/posgrados/${activeProgram.slug}`" class="oe-btn oe-btn--solid" @click="closeDrawer">
+              <NuxtLink
+                v-if="activeProgram.slug"
+                :to="`/posgrados/${activeProgram.slug}`"
+                class="oe-btn oe-btn--solid"
+                @click="closeDrawer"
+              >
                 Ver Detalles Completos
                 <ArrowRight :size="16" />
               </NuxtLink>

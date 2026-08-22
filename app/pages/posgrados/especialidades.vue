@@ -161,7 +161,7 @@ const especialidades = [
           <div class="pg-hero__inner">
             <div class="pg-hero__eyebrow">
               <img
-                src="/images/hero/LogoLargo.svg"
+                src="/images/hero/logo-blanco.svg"
                 alt="Universidad Internacional"
                 class="pg-hero__logo-full"
               />

@@ -1,153 +1,122 @@
 <script setup lang="ts">
-import { ref, computed, watch, nextTick, onMounted, onUnmounted } from 'vue';
-import { X } from 'lucide-vue-next';
+import { ref, computed, nextTick } from "vue";
+import { X } from "lucide-vue-next";
+
+interface Opportunity {
+  title: string;
+  description: string;
+}
 
 const props = defineProps<{
-  careerPaths?: Array<{ role: string, industry: string, desc?: string }>;
+  careerOpportunities?: Opportunity[];
 }>();
 
-// Datos de prueba para el layout (se usan si no hay careerPaths en el JSON)
-const defaultJobs = [
+const defaultOpportunities: Opportunity[] = [
   {
-    role: "Director(a) de Contenido",
-    industry: "Medios y Entretenimiento",
-    desc: "Lidera la estrategia editorial, coordina equipos creativos y supervisa la producción de contenidos en múltiples plataformas para garantizar la coherencia y el impacto del mensaje."
+    title: "Director(a) de Contenido",
+    description:
+      "Lidera la estrategia editorial, coordina equipos creativos y supervisa la producción de contenidos en múltiples plataformas para garantizar la coherencia y el impacto del mensaje.",
   },
   {
-    role: "Estratega de Comunicación Transmedia",
-    industry: "Agencias Digitales",
-    desc: "Diseña narrativas complejas que se despliegan a través de múltiples canales y formatos, conectando a las audiencias con historias inmersivas y experiencias interactivas."
+    title: "Estratega de Comunicación Transmedia",
+    description:
+      "Diseña narrativas complejas que se despliegan a través de múltiples canales y formatos, conectando a las audiencias con historias inmersivas y experiencias interactivas.",
   },
   {
-    role: "Consultor(a) de Gestión de Crisis y Riesgo Reputacional",
-    industry: "Consultoría Estratégica",
-    desc: "Asesora a corporativos e individuos para prevenir crisis de imagen, diseñando planes de respuesta inmediata y tácticas para proteger la reputación pública."
+    title: "Consultor(a) de Gestión de Crisis y Riesgo Reputacional",
+    description:
+      "Asesora a corporativos e individuos para prevenir crisis de imagen, diseñando planes de respuesta inmediata y tácticas para proteger la reputación pública.",
   },
   {
-    role: "Director(a) de Comunicación Corporativa",
-    industry: "Sector Empresarial",
-    desc: "Gestiona la identidad e imagen corporativa, liderando las relaciones públicas, la comunicación interna y el contacto estratégico con medios y stakeholders."
+    title: "Director(a) de Comunicación Corporativa",
+    description:
+      "Gestiona la identidad e imagen corporativa, liderando las relaciones públicas, la comunicación interna y el contacto estratégico con medios y stakeholders.",
   },
   {
-    role: "UX Writer & Product Content Strategist",
-    industry: "Tecnología y Startups",
-    desc: "Define el tono y la voz de productos digitales, creando microtextos y guías de contenido que mejoran la experiencia de usuario y la usabilidad de interfaces."
+    title: "UX Writer & Product Content Strategist",
+    description:
+      "Define el tono y la voz de productos digitales, creando microtextos y guías de contenido que mejoran la experiencia de usuario y la usabilidad de interfaces.",
   },
   {
-    role: "Periodista de Investigación Multimedia",
-    industry: "Medios Informativos",
-    desc: "Investiga y reporta a profundidad utilizando herramientas digitales avanzadas, visualización de datos y plataformas interactivas para contar historias complejas."
-  }
+    title: "Periodista de Investigación Multimedia",
+    description:
+      "Investiga y reporta a profundidad utilizando herramientas digitales avanzadas, visualización de datos y plataformas interactivas para contar historias complejas.",
+  },
 ];
 
-const jobs = computed(() => {
-  if (props.careerPaths && props.careerPaths.length > 0) {
-    return props.careerPaths;
+const opportunities = computed<Opportunity[]>(() => {
+  if (props.careerOpportunities && props.careerOpportunities.length > 0) {
+    return props.careerOpportunities.slice(0, 6);
   }
-  return defaultJobs;
+  return defaultOpportunities;
 });
 
-const selectedJob = ref<any>(null);
-const pillRefs = ref<HTMLElement[]>([]);
-const listTops = ref<number[]>([]);
-const containerHeight = ref<number | null>(null);
+const selectedJob = ref<Opportunity | null>(null);
 const detailPanelRef = ref<HTMLElement | null>(null);
 const sectionRef = ref<HTMLElement | null>(null);
 
-const calculateTops = () => {
-  let currentTop = 0;
-  const newTops = [];
-  if (pillRefs.value) {
-    for (let i = 0; i < pillRefs.value.length; i++) {
-      newTops.push(currentTop);
-      const el = pillRefs.value[i];
-      if (el) {
-        currentTop += el.offsetHeight + 15; // 15px de separación
-      } else {
-        currentTop += 75; // fallback
-      }
-    }
-  }
-  listTops.value = newTops;
-  containerHeight.value = currentTop;
-};
-
-// Recalcular al cambiar el tamaño de la ventana (responsive wrap)
-const onResize = () => {
-  if (selectedJob.value) {
-    calculateTops();
-  }
-};
-
-onMounted(() => {
-  window.addEventListener('resize', onResize);
-});
-
-onUnmounted(() => {
-  window.removeEventListener('resize', onResize);
-});
-
-const selectJob = async (job: any) => {
+const selectJob = async (job: Opportunity) => {
   selectedJob.value = job;
-  // Esperar al siguiente render para que el contenedor cambie de ancho y los textos se acomoden
   await nextTick();
-  // Un pequeño retraso para asegurar que el navegador aplicó los nuevos anchos de línea
-  setTimeout(() => {
-    calculateTops();
-    
-    // Si estamos en móvil, centramos el panel de detalle en pantalla
-    if (window.innerWidth <= 968 && detailPanelRef.value) {
-      detailPanelRef.value.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
-  }, 50);
+  if (window.innerWidth <= 820 && detailPanelRef.value) {
+    detailPanelRef.value.scrollIntoView({ behavior: "smooth", block: "center" });
+  }
 };
 
 const closeDetail = () => {
   selectedJob.value = null;
-  // Volver a hacer focus en las píldoras si estamos en móvil
-  if (window.innerWidth <= 968 && sectionRef.value) {
-    sectionRef.value.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  if (window.innerWidth <= 820 && sectionRef.value) {
+    sectionRef.value.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 };
 </script>
 
 <template>
-  <section class="career-job-market" ref="sectionRef">
+  <section class="career-job-market" ref="sectionRef" id="campo-laboral">
     <div class="uninter-container">
+      <!-- Encabezado -->
       <div class="job-market-header">
-        <h2 class="section-title">¿En qué puedo <em class="title-accent">trabajar?</em></h2>
+        <h2 class="section-title">
+          ¿En qué puedo <span class="title-accent">trabajar?</span>
+        </h2>
       </div>
 
-      <div class="job-market-content" :class="{ 'is-detailed': selectedJob }">
-        
-        <!-- Píldoras: se mantienen siempre montadas para poder animar sus posiciones suavemente -->
-        <div class="pills-container" :style="selectedJob && containerHeight ? { height: containerHeight + 'px' } : {}">
-          <div 
-            v-for="(job, index) in jobs" 
-            :key="'pill-'+index"
-            ref="pillRefs"
+      <!-- Escenario Unificado: Píldoras persistentes con animación de transición fluida -->
+      <div class="job-market-stage" :class="{ 'is-detailed': selectedJob }">
+        <!-- Contenedor de Píldoras -->
+        <div class="pills-wrapper">
+          <button
+            v-for="(job, index) in opportunities"
+            :key="'pill-' + index"
             class="job-pill"
             :class="[
-              !selectedJob ? 'scatter-pos-' + (index % 6) : 'list-pos',
-              { active: selectedJob && selectedJob.role === job.role }
+              'pill-pos-' + index,
+              { 'is-active': selectedJob?.title === job.title }
             ]"
-            :style="selectedJob ? { top: (listTops[index] !== undefined ? listTops[index] : index * 75) + 'px', left: '0' } : {}"
             @click="selectJob(job)"
           >
-            {{ job.role }}
-          </div>
+            {{ job.title }}
+          </button>
         </div>
 
-        <!-- Panel de detalles -->
-        <Transition name="fade-panel">
-          <div v-if="selectedJob" class="detail-panel-wrapper" ref="detailPanelRef">
-            <div class="detail-panel">
-              <button class="btn-close" @click="closeDetail" aria-label="Cerrar detalle">
-                <X :size="24" stroke-width="2.5" />
+        <!-- Tarjeta de Detalle (Aparece suavemente a la derecha) -->
+        <Transition name="detail-fade">
+          <div
+            v-if="selectedJob"
+            class="detail-card-wrapper"
+            ref="detailPanelRef"
+          >
+            <div class="detail-card">
+              <button
+                class="btn-close"
+                @click="closeDetail"
+                aria-label="Cerrar detalle"
+              >
+                <X :size="20" stroke-width="2.5" />
               </button>
-              <h3 class="detail-title">{{ selectedJob.role }}</h3>
+              <h3 class="detail-title">{{ selectedJob.title }}</h3>
               <p class="detail-desc">
-                {{ selectedJob.desc || selectedJob.industry }}
+                {{ selectedJob.description }}
               </p>
             </div>
           </div>
@@ -159,238 +128,273 @@ const closeDetail = () => {
 
 <style scoped>
 .career-job-market {
-  padding: 5rem 0;
   background-color: #ffffff;
   font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
   overflow: hidden;
+  padding: 5.5rem 0 6.5rem;
+  position: relative;
 }
 
 .uninter-container {
-  max-width: 1100px;
   margin: 0 auto;
+  max-width: 1100px;
   padding: 0 1.5rem;
+  width: 100%;
 }
 
+/* ═══ ENCABEZADO ═══ */
 .job-market-header {
-  text-align: center;
   margin-bottom: 4rem;
+  text-align: center;
 }
 
-.job-market-header h2 {
-  font-family: var(--font-serif, Lora, Georgia, serif);
-  font-size: clamp(2.5rem, 4vw, 3.5rem);
-  font-weight: 800;
+.section-title {
   color: #0f3c61;
-  margin: 0 0 1rem 0;
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: clamp(2.3rem, 4.2vw, 3.2rem);
+  font-weight: 800;
+  letter-spacing: -0.01em;
   line-height: 1.2;
-  letter-spacing: -0.02em;
+  margin: 0;
 }
 
-.job-market-header h2 .title-accent {
-  color: #0099cc;
-  font-style: normal;
-  position: relative;
-  display: inline-block;
+.title-accent {
+  color: #0084d1;
 }
 
-.job-market-header h2 .title-accent::after {
-  content: "";
-  position: absolute;
-  bottom: 8px;
-  left: 0;
-  width: 100%;
-  height: 8px;
-  background-color: rgba(216, 67, 21, 0.15);
-  z-index: -1;
-  transform: rotate(-2deg);
-}
-
-.job-market-content {
-  min-height: 480px;
-  position: relative;
-  display: flex;
+/* ═══ ESCENARIO UNIFICADO (TRANSICIÓN CONTINUA) ═══ */
+.job-market-stage {
   align-items: flex-start;
-  transition: all 0.5s ease;
-}
-
-.pills-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 820px;
+  min-height: 440px;
   position: relative;
+  transition: max-width 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+              gap 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.job-market-stage.is-detailed {
+  gap: 2.25rem;
+  max-width: 880px;
+}
+
+/* ═══ CONTENEDOR DE PÍLDORAS ═══ */
+.pills-wrapper {
+  height: 420px;
+  position: relative;
+  transition: width 0.65s cubic-bezier(0.22, 1, 0.36, 1);
   width: 100%;
-  height: 480px;
-  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1), height 0.5s ease;
 }
 
-.is-detailed .pills-container {
-  width: 45%; /* Se contrae para dejar espacio al panel */
+.is-detailed .pills-wrapper {
+  flex-shrink: 0;
+  width: 320px;
 }
 
-/* --- ESTILOS COMPARTIDOS DE PÍLDORAS (GLASSMORPHISM) --- */
+/* ═══ PÍLDORA (ESTILO GLASSMORPHISM & ANIMACIÓN FLUIDA) ═══ */
 .job-pill {
-  position: absolute; /* Siempre absolutas para poder animar top y left */
-  /* Fondo glassmorphism con un destello azul MUY sutil */
-  background: radial-gradient(circle at 10% 50%, rgba(0, 153, 204, 0.05), rgba(255, 255, 255, 0.4) 80%);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-  border: 1px solid rgba(15, 60, 97, 0.1); /* Borde un "poquito" más visible */
-  border-radius: 99px;
-  padding: 0.8rem 1.8rem;
-  color: #0f3c61; /* Texto oscuro para legibilidad sobre el fondo claro */
-  font-size: 1.05rem;
-  font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
-  font-weight: 600;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  background: radial-gradient(
+    circle at 20% 50%,
+    rgba(0, 132, 209, 0.08) 0%,
+    rgba(255, 255, 255, 0.88) 85%
+  );
+  border: 1px solid rgba(0, 132, 209, 0.2);
+  border-radius: 9999px;
+  box-shadow: 0 8px 24px rgba(0, 132, 209, 0.06),
+    inset 0 1px 3px rgba(255, 255, 255, 0.9);
+  box-sizing: border-box;
+  color: #0f3c61;
   cursor: pointer;
-  /* Animación suave para todas las propiedades, especialmente posición */
-  transition: top 0.6s cubic-bezier(0.25, 1, 0.5, 1), 
-              left 0.6s cubic-bezier(0.25, 1, 0.5, 1),
-              background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 
-    0 8px 20px rgba(0, 0, 0, 0.03), 
-    inset 0 0 10px rgba(255, 255, 255, 0.3);
   display: inline-block;
-  max-width: 90%;
+  font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+  font-size: 0.96rem;
+  font-weight: 700;
+  outline: none;
+  padding: 0.85rem 1.8rem;
+  position: absolute;
+  transition: top 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+              left 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+              width 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+              background 0.3s ease,
+              border-color 0.3s ease,
+              color 0.3s ease,
+              box-shadow 0.3s ease;
+  user-select: none;
+  white-space: nowrap;
   z-index: 2;
 }
 
 .job-pill:hover {
-  background: radial-gradient(circle at 10% 50%, rgba(0, 153, 204, 0.1), rgba(255, 255, 255, 0.6) 80%);
-  transform: translateY(-3px) scale(1.02);
-  box-shadow: 
-    0 12px 25px rgba(0, 153, 204, 0.05),
-    inset 0 0 15px rgba(255, 255, 255, 0.6);
+  background: radial-gradient(
+    circle at 20% 50%,
+    rgba(0, 132, 209, 0.14) 0%,
+    rgba(255, 255, 255, 0.96) 85%
+  );
+  border-color: rgba(0, 132, 209, 0.45);
+  box-shadow: 0 12px 28px rgba(0, 132, 209, 0.14),
+    inset 0 1px 4px rgba(255, 255, 255, 1);
   z-index: 10;
 }
 
-.job-pill.active {
-  background: radial-gradient(circle at 10% 50%, rgba(0, 153, 204, 0.15), rgba(255, 255, 255, 0.8) 80%);
-  border-color: rgba(0, 153, 204, 0.25);
-  transform: scale(1.05);
-  box-shadow: 
-    0 10px 25px rgba(0, 153, 204, 0.1),
-    inset 0 0 20px rgba(255, 255, 255, 0.8);
+.job-pill.is-active {
+  background: #f0f9ff !important;
+  border-color: #0084d1 !important;
+  box-shadow: 0 8px 25px rgba(0, 132, 209, 0.16),
+    inset 0 0 12px rgba(0, 132, 209, 0.06);
+  color: #0084d1 !important;
   z-index: 5;
 }
 
-/* --- ESTADO INICIAL (ESPARCIDAS) --- */
-/* Solo usamos left y top para que la animación hacia left: 0 sea perfecta y no haya saltos con 'right' o 'bottom' */
-.scatter-pos-0 { top: 5%; left: 15%; }
-.scatter-pos-1 { top: 20%; left: 45%; }
-.scatter-pos-2 { top: 40%; left: 25%; }
-.scatter-pos-3 { top: 55%; left: 5%; }
-.scatter-pos-4 { top: 70%; left: 50%; }
-.scatter-pos-5 { top: 85%; left: 30%; }
+/* ═══ ESTADO 1: POSICIONES FLOTANTES DISPERSAS EN EL CENTRO ═══ */
+.pill-pos-0 { top: 4%;  left: 14%; width: auto; }
+.pill-pos-1 { top: 22%; left: 52%; width: auto; }
+.pill-pos-2 { top: 42%; left: 32%; width: auto; }
+.pill-pos-3 { top: 60%; left: 8%;  width: auto; }
+.pill-pos-4 { top: 76%; left: 56%; width: auto; }
+.pill-pos-5 { top: 92%; left: 30%; width: auto; }
 
-/* Animación sutil de flotación */
-@keyframes float {
+/* Animación de flotación libre en estado 1 */
+@keyframes floatCloud {
   0% { transform: translateY(0px); }
   50% { transform: translateY(-8px); }
   100% { transform: translateY(0px); }
 }
 
-/* Aplicar la flotación SOLO cuando no hay una píldora seleccionada, para que al listarse se queden quietas */
-.career-job-market:not(.is-detailed) .job-pill {
-  animation: float 6s ease-in-out infinite;
+.job-market-stage:not(.is-detailed) .job-pill {
+  animation: floatCloud 5s ease-in-out infinite;
 }
 
-.career-job-market:not(.is-detailed) .scatter-pos-1 { animation-delay: 1s; }
-.career-job-market:not(.is-detailed) .scatter-pos-2 { animation-delay: 2s; }
-.career-job-market:not(.is-detailed) .scatter-pos-3 { animation-delay: 0.5s; }
-.career-job-market:not(.is-detailed) .scatter-pos-4 { animation-delay: 1.5s; }
-.career-job-market:not(.is-detailed) .scatter-pos-5 { animation-delay: 2.5s; }
+.job-market-stage:not(.is-detailed) .pill-pos-0 { animation-delay: 0s; }
+.job-market-stage:not(.is-detailed) .pill-pos-1 { animation-delay: 1.2s; }
+.job-market-stage:not(.is-detailed) .pill-pos-2 { animation-delay: 2.4s; }
+.job-market-stage:not(.is-detailed) .pill-pos-3 { animation-delay: 0.6s; }
+.job-market-stage:not(.is-detailed) .pill-pos-4 { animation-delay: 1.8s; }
+.job-market-stage:not(.is-detailed) .pill-pos-5 { animation-delay: 3s; }
 
+/* ═══ ESTADO 2: POSICIONES APILADAS EN COLUMNA + FLOTACIÓN SUAVE ═══ */
+.is-detailed .pill-pos-0 { top: 0px;   left: 0; width: 100%; text-align: center; white-space: normal; }
+.is-detailed .pill-pos-1 { top: 66px;  left: 0; width: 100%; text-align: center; white-space: normal; }
+.is-detailed .pill-pos-2 { top: 132px; left: 0; width: 100%; text-align: center; white-space: normal; }
+.is-detailed .pill-pos-3 { top: 198px; left: 0; width: 100%; text-align: center; white-space: normal; }
+.is-detailed .pill-pos-4 { top: 264px; left: 0; width: 100%; text-align: center; white-space: normal; }
+.is-detailed .pill-pos-5 { top: 330px; left: 0; width: 100%; text-align: center; white-space: normal; }
 
-/* --- PANEL DE DETALLE --- */
-.detail-panel-wrapper {
-  width: 55%;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 1;
+/* Flotación continua incluso estando apiladas */
+@keyframes floatStack {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-4px); }
+  100% { transform: translateY(0px); }
 }
 
-.detail-panel {
-  background-color: rgba(15, 60, 97, 0.02); /* Mismo fondo sutil de la card anterior */
-  border: 1px solid rgba(15, 60, 97, 0.04); /* Mismo borde invisible */
-  border-radius: 16px;
+.is-detailed .job-pill {
+  animation: floatStack 4.5s ease-in-out infinite;
+}
+
+.is-detailed .pill-pos-0 { animation-delay: 0s; }
+.is-detailed .pill-pos-1 { animation-delay: 0.75s; }
+.is-detailed .pill-pos-2 { animation-delay: 1.5s; }
+.is-detailed .pill-pos-3 { animation-delay: 2.25s; }
+.is-detailed .pill-pos-4 { animation-delay: 3s; }
+.is-detailed .pill-pos-5 { animation-delay: 3.75s; }
+
+/* ═══ TARJETA DE DETALLE DERECHA ═══ */
+.detail-card-wrapper {
+  flex: 1;
+  max-width: 500px;
+}
+
+.detail-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 24px;
+  box-shadow: 0 15px 40px rgba(15, 60, 97, 0.08);
   padding: 3rem 2.5rem;
   position: relative;
-  box-shadow: 0 20px 40px rgba(15, 60, 97, 0.08); /* Misma sombra que genera espacio */
   text-align: center;
 }
 
 .btn-close {
-  position: absolute;
-  top: 1.5rem;
-  right: 1.5rem;
-  background: transparent;
+  background: rgba(15, 60, 97, 0.05);
   border: none;
+  border-radius: 50%;
+  color: #475569;
   cursor: pointer;
-  color: #1a1a1a;
-  transition: transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  position: absolute;
+  right: 1.25rem;
+  top: 1.25rem;
+  transition: all 0.2s ease;
+  width: 32px;
 }
+
 .btn-close:hover {
-  transform: scale(1.1);
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+  transform: scale(1.08);
 }
 
 .detail-title {
-  font-family: var(--font-serif, Georgia, serif);
-  font-size: 1.6rem;
-  font-weight: 800;
   color: #0f3c61;
-  margin-bottom: 1.5rem;
-  line-height: 1.4;
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: clamp(1.35rem, 2vw, 1.65rem);
+  font-weight: 800;
+  line-height: 1.35;
+  margin: 0;
 }
 
 .detail-desc {
-  font-size: 1rem;
-  color: #333;
-  line-height: 1.6;
+  color: #334155;
+  font-size: 0.98rem;
+  line-height: 1.7;
+  margin: 1.5rem 0 0;
 }
 
-/* --- TRANSICIONES DE VUE (Para que el panel aparezca suavemente) --- */
-.fade-panel-enter-active,
-.fade-panel-leave-active {
-  transition: opacity 0.5s ease, transform 0.5s ease;
+/* ═══ TRANSICIÓN SUAVE DE LA TARJETA ═══ */
+.detail-fade-enter-active,
+.detail-fade-leave-active {
+  transition: opacity 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
 }
-.fade-panel-enter-from,
-.fade-panel-leave-to {
+
+.detail-fade-enter-from,
+.detail-fade-leave-to {
   opacity: 0;
-  transform: translateX(20px); /* Un leve deslizamiento lateral para aparecer */
+  transform: translateX(30px) scale(0.97);
 }
 
-/* --- RESPONSIVE --- */
-@media (max-width: 968px) {
-  .job-market-content {
+/* ═══ RESPONSIVE ═══ */
+@media (max-width: 820px) {
+  .job-market-header {
+    margin-bottom: 2.5rem;
+  }
+  .job-market-stage {
     flex-direction: column;
+    max-width: 100%;
     min-height: auto;
   }
-  
-  /* Contenedor más alto en móvil cuando están esparcidas para evitar que se encimen */
-  .career-job-market:not(.is-detailed) .pills-container {
-    height: 650px;
+  .pills-wrapper {
+    height: 520px;
+    margin: 0 auto;
+    max-width: 360px;
   }
-  
-  .is-detailed .pills-container {
+  .is-detailed .pills-wrapper {
+    height: 420px;
+    margin-bottom: 1.5rem;
     width: 100%;
-    /* La altura dinámica se encarga de darle el tamaño correcto, ya no hace falta hardcodear */
-    margin-bottom: 2rem;
   }
-  
-  .detail-panel-wrapper {
-    position: relative;
+  .detail-card-wrapper {
+    max-width: 100%;
     width: 100%;
-    margin-top: 1rem;
   }
-  
-  .job-market-header h2 {
-    font-size: 2rem;
+  .detail-card {
+    padding: 2.25rem 1.75rem;
   }
-  
-  /* En móviles, distribuirlas en toda la altura (650px) para que no choquen */
-  .scatter-pos-0 { top: 0%; left: 5%; }
-  .scatter-pos-1 { top: 16%; left: 35%; }
-  .scatter-pos-2 { top: 32%; left: 10%; }
-  .scatter-pos-3 { top: 48%; left: 25%; }
-  .scatter-pos-4 { top: 64%; left: 5%; }
-  .scatter-pos-5 { top: 80%; left: 30%; }
 }
 </style>

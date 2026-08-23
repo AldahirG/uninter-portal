@@ -2,43 +2,79 @@
 import { ArrowRight } from "lucide-vue-next";
 
 const blogs = [
-  { id: 1, titulo: "Blog INTERNACIONALIZACIÓN", siglas: "INTERNACIONALIZACIÓN", color: "#6A1B9A", url: "https://blogs.uninter.edu.mx/congresoInternacionalLatinoamerica/" },
-  { id: 2, titulo: "Blog Difusion Cultural", siglas: "Difusión Cultural", color: "#1565C0", url: "https://blogs.uninter.edu.mx/difusioncultural" },
-  { id: 3, titulo: "Blog Deportes", siglas: "Deportes", color: "#00695C", url: "https://blogs.uninter.edu.mx/deportes/" },
-  { id: 4, titulo: "Blog BIU", siglas: "BIU", color: "#2E7D32", url: "https://blogs.uninter.edu.mx/biu" }
-];
-
-const redes = [
-  { nombre: "Facebook", href: "https://www.facebook.com/uninteredu", icon: "mdi:facebook" },
-  { nombre: "Instagram", href: "https://www.instagram.com/uninter_cuerna", icon: "mdi:instagram" },
-  { nombre: "YouTube", href: "https://www.youtube.com/user/UniversidadUninter", icon: "mdi:youtube" },
-  { nombre: "TikTok", href: "https://www.tiktok.com/@uninter_cuerna", icon: "mdi:tiktok" }
+  {
+    id: 1,
+    titulo: "Internacionalización",
+    siglas: "INTER",
+    color: "#6a1b9a",
+    url: "https://blogs.uninter.edu.mx/congresoInternacionalLatinoamerica/",
+  },
+  {
+    id: 2,
+    titulo: "Difusión Cultural",
+    siglas: "CULTURA",
+    color: "#1565c0",
+    url: "https://blogs.uninter.edu.mx/difusioncultural",
+  },
+  {
+    id: 3,
+    titulo: "Deportes",
+    siglas: "DEPORTES",
+    color: "#00695c",
+    url: "https://blogs.uninter.edu.mx/deportes/",
+  },
+  {
+    id: 4,
+    titulo: "Bachillerato Internacional",
+    siglas: "BIU",
+    color: "#2e7d32",
+    url: "https://blogs.uninter.edu.mx/biu",
+  },
 ];
 </script>
 
 <template>
   <section class="vida-est-section">
-    <div class="biu-container">
-      <div class="vida-est-header">
-        <h2 class="vida-est-title">Conoce la vida estudiantil en BIU</h2>
-        <p class="vida-est-sub">A través de nuestros blogs y redes sociales</p>
-      </div>
-
-      <div class="blogs-grid">
-        <a v-for="t in blogs" :key="t.id" :href="t.url" target="_blank" class="blog-card">
-          <div class="blog-card__thumb" :style="`background: ${t.color}`">
-            <span class="blog-card__initials">{{ t.siglas }}</span>
-          </div>
-          <div class="blog-card__body">
-            <p class="blog-card__titulo">{{ t.titulo }}</p>
-            <span class="blog-card__link">Ingresar <ArrowRight :size="11" /></span>
-          </div>
+    <div class="uninter-container">
+      <!-- ENCABEZADO -->
+      <div class="bl-header">
+        <div class="bl-header__left">
+          <span class="bl-eyebrow">— COMUNIDAD ACADÉMICA</span>
+          <h2 class="bl-title">Blogs BIU</h2>
+        </div>
+        <a
+          href="https://uninter.edu.mx/blogs"
+          target="_blank"
+          rel="noopener"
+          class="bl-btn-all"
+        >
+          Ver todos →
         </a>
       </div>
 
-      <div class="redes-bar">
-        <a v-for="t in redes" :key="t.nombre" :href="t.href" target="_blank" :aria-label="t.nombre" class="red-link">
-          <Icon :name="t.icon" size="28" />
+      <!-- GRID DE TARJETAS (ESTABLE SIN PARPADEO) -->
+      <div class="bl-grid">
+        <a
+          v-for="b in blogs"
+          :key="b.id"
+          :href="b.url"
+          target="_blank"
+          rel="noopener"
+          class="bl-card"
+        >
+          <!-- Banner Superior de Color con Watermark -->
+          <div class="bl-card__thumb" :style="{ backgroundColor: b.color }">
+            <span class="bl-card__watermark" aria-hidden="true">{{ b.siglas }}</span>
+            <span class="bl-card__initials">{{ b.siglas }}</span>
+          </div>
+
+          <!-- Cuerpo de la Tarjeta -->
+          <div class="bl-card__body">
+            <p class="bl-card__nombre">{{ b.titulo }}</p>
+            <span class="bl-card__link">
+              Leer <ArrowRight :size="13" class="bl-card__icon" />
+            </span>
+          </div>
         </a>
       </div>
     </div>
@@ -46,27 +82,192 @@ const redes = [
 </template>
 
 <style scoped>
-.biu-container{margin:0 auto;max-width:1280px;padding:0 1.5rem}
-.vida-est-section{background:#0d1f0e;padding:5.5rem 0;--pl:#a8d86e}
-.vida-est-header{margin-bottom:3rem;text-align:center}
-.vida-est-title{color:#fff;font-family:var(--font-serif,Georgia,serif);font-size:clamp(1.8rem,4vw,2.6rem);font-weight:800;letter-spacing:-.01em;margin:0 0 .5rem}
-.vida-est-sub{color:var(--pl);font-size:.78rem;font-weight:600;letter-spacing:.05em;margin:0;text-transform:uppercase}
-.blogs-grid{display:grid;gap:1rem;grid-template-columns:repeat(4,1fr);margin-bottom:3.5rem}
-.blog-card{background:#ffffff0d;border:1px solid hsla(0,0%,100%,.08);border-radius:12px;display:flex;flex-direction:column;overflow:hidden;text-decoration:none;transition:transform .2s,box-shadow .2s}
-.blog-card:hover{background:#ffffff14;box-shadow:0 12px 32px #00000059;transform:translateY(-4px)}
-.blog-card__thumb{align-items:center;display:flex;height:80px;justify-content:center;position:relative;transition:opacity .2s}
-.blog-card:hover .blog-card__thumb{opacity:.95}
-.blog-card__initials{color:#fff;font-size:1.15rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
-.blog-card__body{display:flex;flex:1;flex-direction:column;gap:.625rem;padding:1rem}
-.blog-card__titulo{color:#ffffffd9;flex:1;font-size:.8rem;font-weight:700;line-height:1.45;margin:0}
-.blog-card:hover .blog-card__titulo{color:#fff}
-.blog-card__link{align-items:center;color:var(--pl);display:flex;font-size:.72rem;font-weight:800;gap:.25rem;letter-spacing:.05em;text-transform:uppercase;transition:transform .2s}
-.blog-card:hover .blog-card__link{color:#fff;transform:translate(2px)}
-.redes-bar{border-top:1px solid hsla(0,0%,100%,.1);gap:1.5rem;padding-top:2.5rem}
-.red-link,.redes-bar{align-items:center;display:flex;justify-content:center}
-.red-link{background:#ffffff12;border-radius:12px;color:#fff9;height:48px;text-decoration:none;transition:background .2s,color .2s,transform .2s;width:48px}
-.red-link:hover{background:#2e7d32;color:#fff;transform:translateY(-3px)}
-@media(max-width:900px){.blogs-grid{grid-template-columns:repeat(2,1fr)}
-@media(max-width:560px){.blogs-grid{gap:.75rem;grid-template-columns:repeat(2,1fr)}
-}}
+.vida-est-section {
+  background-color: #f8fafc;
+  padding: 5rem 0 5.5rem;
+  font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+}
+
+.uninter-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+/* ═══ ENCABEZADO ═══ */
+.bl-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.bl-header__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.bl-eyebrow {
+  color: #0f3c61;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.bl-title {
+  color: #0f3c61;
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: clamp(2.4rem, 4vw, 3.1rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.bl-btn-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1.5px solid #0f3c61;
+  border-radius: 9999px;
+  color: #0f3c61;
+  padding: 0.45rem 1.4rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-decoration: none;
+  background: #ffffff;
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bl-btn-all:hover {
+  background: #0f3c61;
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(15, 60, 97, 0.15);
+}
+
+/* ═══ GRID ═══ */
+.bl-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+}
+
+/* ═══ TARJETA INDIVIDUAL (LIMPIA, SIN PARPADEO) ═══ */
+.bl-card {
+  background: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 16px;
+  overflow: hidden;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+}
+
+.bl-card:hover {
+  border-color: #2e7d32;
+  box-shadow: 0 12px 28px rgba(46, 125, 50, 0.12);
+}
+
+/* Banner Superior */
+.bl-card__thumb {
+  height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  user-select: none;
+}
+
+/* Marca de Agua Transparente en lateral derecho */
+.bl-card__watermark {
+  position: absolute;
+  right: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3.2rem;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.14);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  pointer-events: none;
+  white-space: nowrap;
+  font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+  z-index: 1;
+}
+
+/* Texto Central Blanco Nítido */
+.bl-card__initials {
+  position: relative;
+  z-index: 2;
+  font-size: 1.08rem;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: 0.06em;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+  pointer-events: none;
+}
+
+/* Cuerpo de Tarjeta */
+.bl-card__body {
+  padding: 1.25rem 1.25rem 1.35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  gap: 1rem;
+  background: #ffffff;
+}
+
+.bl-card__nombre {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #0f3c61;
+  line-height: 1.38;
+  margin: 0;
+}
+
+.bl-card__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #0084d1;
+  transition: color 0.2s ease, gap 0.2s ease;
+}
+
+.bl-card:hover .bl-card__link {
+  color: #2e7d32;
+  gap: 0.55rem;
+}
+
+.bl-card__icon {
+  flex-shrink: 0;
+}
+
+/* ═══ RESPONSIVE ═══ */
+@media (max-width: 1024px) {
+  .bl-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .bl-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .bl-card__body {
+    padding: 1rem;
+  }
+}
 </style>

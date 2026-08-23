@@ -2,7 +2,7 @@
   "diplomado-en-creatividad-y-publicidad": {
     "slug": "diplomado-en-creatividad-y-publicidad",
     "sigla": "DEPU1",
-    "name": "Diplomado en Creatividad y Publicidad",
+    "name": "Creatividad y Publicidad",
     "area": "Gerenciales – Publicidad",
     "tagline": "Actualización y especialización en Creatividad y Publicidad",
     "description": "Formar personas con conocimientos en publicidad capaces de analizar campañas publicitarias y desarrollar habilidades creativas, dentro de un entorno ético y de responsabilidad social, a través del uso de herramientas de mercadotecnia y publicidad en proyectos específicos.",
@@ -22,7 +22,7 @@
   "diplomado-en-mercadotecnia-y-publicidad": {
     "slug": "diplomado-en-mercadotecnia-y-publicidad",
     "sigla": "DEPU2",
-    "name": "Diplomado en Mercadotecnia y Publicidad",
+    "name": "Mercadotecnia y Publicidad",
     "area": "Gerenciales – Publicidad",
     "tagline": "Actualización y especialización en Mercadotecnia y Publicidad",
     "description": "Formar personas con conocimientos en publicidad y mercadotecnia básica capaces de analizar y aplicar herramientas creativas, mercadológicas y publicitarias, dentro de un entorno ético y de responsabilidad social a proyectos específicos.",
@@ -42,7 +42,7 @@
   "diplomado-en-estrategias-y-experiencias-digitales": {
     "slug": "diplomado-en-estrategias-y-experiencias-digitales",
     "sigla": "DEED",
-    "name": "Diplomado en Estrategias y Experiencias Digitales",
+    "name": "Estrategias y Experiencias Digitales",
     "area": "Gerenciales – Marketing Digital",
     "tagline": "Actualización y especialización en Estrategias y Experiencias Digitales",
     "description": "Diseñar estrategias digitales de alto impacto que integren análisis, creatividad y planeación estratégica para optimizar la experiencia del usuario, fortalecer el posicionamiento de marca y generar ventajas competitivas sostenibles en entornos digitales.",
@@ -68,7 +68,7 @@
   "diplomado-en-inteligencia-artificial-aplicada-a-los-negocios": {
     "slug": "diplomado-en-inteligencia-artificial-aplicada-a-los-negocios",
     "sigla": "DIAAN",
-    "name": "Diplomado en Inteligencia Artificial Aplicada a los Negocios",
+    "name": "Inteligencia Artificial Aplicada a los Negocios",
     "area": "Inteligencia Artificial",
     "tagline": "Actualización y especialización en Inteligencia Artificial Aplicada a los Negocios",
     "description": "Proporcionar una formación integral en el uso estratégico de la Inteligencia Artificial (IA), a través del uso de herramientas prácticas y aplicación de conocimientos técnicos con diferentes usos de la IA generativa, aplicables en estrategias de planeación de trabajo y aprendizajes basados en problemas (ABP) y/o aprendizaje orientado a proyectos (AOP), creación de contenido, etc., que permitan la implementación de soluciones innovadoras que generen valor en diversas áreas de los negocios, como finanzas, mercadotecnia, salud, arte, diseño, entre otras, además de optimizar procesos y tomar decisiones informadas en el ámbito empresarial.",
@@ -98,7 +98,7 @@
   "diplomado-en-administracion-de-la-tecnologia-en-linea": {
     "slug": "diplomado-en-administracion-de-la-tecnologia-en-linea",
     "sigla": "DATL",
-    "name": "Diplomado en Administración de la Tecnología en Línea",
+    "name": "Administración de la Tecnología en Línea",
     "area": "Innovación Digital",
     "tagline": "Actualización y especialización en Administración de la Tecnología en Línea",
     "description": "Formar profesionales capaces de administrar y gestionar proyectos tecnológicos de manera estratégica, integrando conocimientos de propiedad intelectual, gestión tecnológica y responsabilidad social, para fortalecer la competitividad y la innovación dentro de las organizaciones.",
@@ -124,7 +124,7 @@
   "diplomado-en-innovacion-y-transferencia-tecnologicas": {
     "slug": "diplomado-en-innovacion-y-transferencia-tecnologicas",
     "sigla": "DITL",
-    "name": "Diplomado en Innovación y Transferencia Tecnológicas",
+    "name": "Innovación y Transferencia Tecnológicas",
     "area": "Innovación Digital",
     "tagline": "Actualización y especialización en Innovación y Transferencia Tecnológicas",
     "description": "Formar profesionales capaces de aplicar modelos estratégicos de innovación, gestionar procesos financieros y de mercadotecnia asociados a tecnología, y liderar procesos de transferencia tecnológica efectiva para maximizar el valor y la competitividad de organizaciones en entornos dinámicos.",
@@ -150,7 +150,7 @@
   "diplomado-en-arquitectura-diseno-y-legislacion-de-redes-y-tecnologias-web": {
     "slug": "diplomado-en-arquitectura-diseno-y-legislacion-de-redes-y-tecnologias-web",
     "sigla": "DADLR",
-    "name": "Diplomado en Arquitectura, Diseño y Legislación de Redes y Tecnologías Web",
+    "name": "Arquitectura, Diseño y Legislación de Redes y Tecnologías Web",
     "area": "Innovación Digital",
     "tagline": "Actualización y especialización en Arquitectura, Diseño y Legislación de Redes y Tecnologías Web",
     "description": "Desarrollar en los participantes una visión integral de las redes de computadoras y las tecnologías web, combinando arquitectura, diseño y legislación, que les permita crear, evaluar y gestionar soluciones digitales con alto impacto en entornos profesionales y organizacionales.",
@@ -176,7 +176,7 @@
   "diplomado-en-crear-y-contar-historias-con-animacion-digital": {
     "slug": "diplomado-en-crear-y-contar-historias-con-animacion-digital",
     "sigla": "DCCHA",
-    "name": "Diplomado en Crear y Contar Historias con Animación Digital",
+    "name": "Crear y Contar Historias con Animación Digital",
     "area": "Era Digital",
     "tagline": "Actualización y especialización en Crear y Contar Historias con Animación Digital",
     "description": "Desarrollar competencias técnicas y creativas en animación digital, que te permitan crear y producir contenidos visuales con una narrativa sólida, original y atractiva para medios digitales, cine, redes sociales, videojuegos o publicidad.",
@@ -202,7 +202,7 @@
   "diplomado-en-produccion-creativa-y-posicionamiento-digital": {
     "slug": "diplomado-en-produccion-creativa-y-posicionamiento-digital",
     "sigla": "DPCPD",
-    "name": "Diplomado en Producción Creativa y Posicionamiento Digital",
+    "name": "Producción Creativa y Posicionamiento Digital",
     "area": "Era Digital",
     "tagline": "Actualización y especialización en Producción Creativa y Posicionamiento Digital",
     "description": "Formar creadores capaces de desarrollar proyectos audiovisuales complejos con animación, efectos visuales y diseño sonoro, combinando sus habilidades con estrategias de marketing digital para potenciar la visibilidad, el alcance y el posicionamiento de sus contenidos en medios y plataformas digitales.",
@@ -228,7 +228,7 @@
   "diplomado-en-psicopedagogia-aplicada": {
     "slug": "diplomado-en-psicopedagogia-aplicada",
     "sigla": "DPA",
-    "name": "Diplomado en Psicopedagogía Aplicada",
+    "name": "Psicopedagogía Aplicada",
     "area": "Psicología",
     "tagline": "Actualización y especialización en Psicopedagogía Aplicada",
     "description": "La Universidad Internacional ofrece este diplomado dirigido tanto, para alumnos egresados de licenciatura y/o posgrado, en áreas como Psicología, Educación, Pedagogía, como para profesores y profesionistas que trabajen en contextos educativos, clínicos o comunitarios, que busquen fortalecer sus habilidades para el diagnóstico, intervención y acompañamiento de procesos de aprendizaje. El diplomado cuenta con sólidos conocimientos teóricos y prácticos en psicopedagogía, que le permiten comprender y distinguir las principales teorías psicológicas del aprendizaje que, con fines diagnósticos integrará a los principios de la neuroeducación así como estrategias tecnológicas para los procesos del aprendizaje a la vez que, implementará técnicas de evaluación psicoeducativas basadas en diversos modelos de intervención, empleando recursos creativos y sensoriales para potenciar la expresión y el desarrollo artístico de los estudiantes, tomando en consideración su experiencia previa en docencia, la intervención educativa o trabajo con niños, adolescentes o poblaciones con necesidades educativas especiales.",
@@ -260,7 +260,7 @@
   "diplomado-en-doblaje-profesional-para-cine-television-y-streaming": {
     "slug": "diplomado-en-doblaje-profesional-para-cine-television-y-streaming",
     "sigla": "DDCTS",
-    "name": "Diplomado en Doblaje Profesional para Cine, Televisión y Streaming",
+    "name": "Doblaje Profesional para Cine, Televisión y Streaming",
     "area": "Doblaje Profesional",
     "tagline": "Actualización y especialización en Doblaje Profesional para Cine, Televisión y Streaming",
     "description": "Formar profesionales capaces de realizar doblaje de manera integral —desde la interpretación y adaptación de guiones del idioma original al español hasta la locución, sincronía, producción y postproducción— dominando herramientas líderes como Pro Tools y construyendo un reel profesional; todo ello bajo estándares internacionales y con la guía de directores activos en la industria, para facilitar su inserción laboral en casas de doblaje y proyectos de cine, televisión y plataformas de streaming.",
@@ -286,7 +286,7 @@
   "diplomado-en-comercio-exterior-y-contratos-internacionales": {
     "slug": "diplomado-en-comercio-exterior-y-contratos-internacionales",
     "sigla": "DERMI",
-    "name": "Diplomado en Comercio Exterior y Contratos Internacionales",
+    "name": "Comercio Exterior y Contratos Internacionales",
     "area": "Gerenciales – Relaciones Mercantiles Internacionales",
     "tagline": "Actualización y especialización en Comercio Exterior y Contratos Internacionales",
     "description": "Formar especialistas en Relaciones Mercantiles Internacionales capaces de negociar en términos legales y económicos contratos mercantiles en los ámbitos público y/o privado a escala local, nacional e internacional. Asimismo, capaces de ofrecer soluciones a problemáticas mercantiles, a través de la investigación en áreas jurídicas y corporativas estratégicas haciendo uso de la tecnología educativa para crear mejores ambientes de enseñanza-aprendizaje en sus contextos pedagógicos, para favorecer la apertura de mercados de bienes y servicios comprometidos con la responsabilidad que tienen las empresas en la sociedad y el desarrollo sustentable.",
@@ -306,7 +306,7 @@
   "diplomado-en-derecho-aduanero-y-marco-juridico-de-la-competencia-economica": {
     "slug": "diplomado-en-derecho-aduanero-y-marco-juridico-de-la-competencia-economica",
     "sigla": "DAMCE",
-    "name": "Diplomado en Derecho Aduanero y Marco Jurídico de la Competencia Económica",
+    "name": "Derecho Aduanero y Marco Jurídico de la Competencia Económica",
     "area": "Gerenciales – Relaciones Mercantiles Internacionales",
     "tagline": "Actualización y especialización en Derecho Aduanero y Marco Jurídico de la Competencia Económica",
     "description": "Formar especialistas en Relaciones Mercantiles Internacionales capaces de negociar en términos legales y económicos contratos mercantiles en los ámbitos público y/o privado a escala local, nacional e internacional. Asimismo, capaces de ofrecer soluciones a problemáticas mercantiles, a través de la investigación en áreas jurídicas y corporativas estratégicas haciendo uso de la tecnología educativa para crear mejores ambientes de enseñanza-aprendizaje en sus contextos pedagógicos, para favorecer la apertura de mercados de bienes y servicios comprometidos con la responsabilidad que tienen las empresas en la sociedad y el desarrollo sustentable.",
@@ -326,7 +326,7 @@
   "diplomado-en-paradigmas-en-la-ensenanza-y-aprendizaje-en-innovacion-educativa": {
     "slug": "diplomado-en-paradigmas-en-la-ensenanza-y-aprendizaje-en-innovacion-educativa",
     "sigla": "DPEAI",
-    "name": "Diplomado en Paradigmas en la Enseñanza y Aprendizaje en Innovación Educativa",
+    "name": "Paradigmas en la Enseñanza y Aprendizaje en Innovación Educativa",
     "area": "Gerenciales – Educación en Formación Docente",
     "tagline": "Actualización y especialización en Paradigmas en la Enseñanza y Aprendizaje en Innovación Educativa",
     "description": "Formar profesionistas en el campo de la Educación en Formación Docente capaces de diseñar, implementar, estructurar y fundamentar los principios de planeación y evaluación educativa de los modelos actuales, así como las estrategias innovadoras, para crear situaciones de enseñanza-aprendizaje, a partir de la relación epistemológica y tecnológica, para alcanzar una integración entre los componentes pedagógicos y didácticos en la transformación de la realidad contextual de la práctica docente.",
@@ -346,7 +346,7 @@
   "diplomado-en-elaboracion-y-planeacion-didactica-basado-en-el-modelo-de-competencias": {
     "slug": "diplomado-en-elaboracion-y-planeacion-didactica-basado-en-el-modelo-de-competencias",
     "sigla": "DEPDI",
-    "name": "Diplomado en Elaboración y Planeación Didáctica basado en el Modelo de Competencias",
+    "name": "Elaboración y Planeación Didáctica basado en el Modelo de Competencias",
     "area": "Gerenciales – Educación en Formación Docente",
     "tagline": "Actualización y especialización en Elaboración y Planeación Didáctica basado en el Modelo de Competencias",
     "description": "Formar profesionistas en el campo de la Educación en Formación Docente capaces de diseñar, implementar, estructurar y fundamentar los principios de planeación y evaluación educativa de los modelos actuales, así como las estrategias innovadoras, para crear situaciones de enseñanza-aprendizaje, a partir de la relación epistemológica y tecnológica, para alcanzar una integración entre los componentes pedagógicos y didácticos en la transformación de la realidad contextual de la práctica docente.",
@@ -366,7 +366,7 @@
   "diplomado-en-evaluacion-de-los-diversos-modelos-de-gestion-educativo": {
     "slug": "diplomado-en-evaluacion-de-los-diversos-modelos-de-gestion-educativo",
     "sigla": "DEDMG",
-    "name": "Diplomado en Evaluación de los Diversos Modelos de Gestión Educativo",
+    "name": "Evaluación de los Diversos Modelos de Gestión Educativo",
     "area": "Gerenciales – Educación en Formación Docente",
     "tagline": "Actualización y especialización en Evaluación de los Diversos Modelos de Gestión Educativo",
     "description": "Formar profesionistas en el campo de la Educación en Formación Docente capaces de diseñar, implementar, estructurar y fundamentar los principios de planeación y evaluación educativa de los modelos actuales, así como las estrategias innovadoras, para crear situaciones de enseñanza-aprendizaje, a partir de la relación epistemológica y tecnológica, para alcanzar una integración entre los componentes pedagógicos y didácticos en la transformación de la realidad contextual de la práctica docente.",
@@ -386,7 +386,7 @@
   "diplomado-en-metodologia-y-adquisicion-de-una-segunda-lengua": {
     "slug": "diplomado-en-metodologia-y-adquisicion-de-una-segunda-lengua",
     "sigla": "DMEELE1",
-    "name": "Diplomado en Metodología y Adquisición de una Segunda Lengua",
+    "name": "Metodología y Adquisición de una Segunda Lengua",
     "area": "Gerenciales – Enseñanza del Español como Lengua Extranjera",
     "tagline": "Actualización y especialización en Metodología y Adquisición de una Segunda Lengua",
     "description": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción.",
@@ -406,7 +406,7 @@
   "diplomado-en-desarrollo-de-destrezas-linguisticas": {
     "slug": "diplomado-en-desarrollo-de-destrezas-linguisticas",
     "sigla": "DMEL2",
-    "name": "Diplomado en Desarrollo de Destrezas Lingüísticas",
+    "name": "Desarrollo de Destrezas Lingüísticas",
     "area": "Gerenciales – Enseñanza del Español como Lengua Extranjera",
     "tagline": "Actualización y especialización en Desarrollo de Destrezas Lingüísticas",
     "description": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción.",
@@ -426,7 +426,7 @@
   "diplomado-en-analisis-del-uso-del-espanol-como-segunda-lengua-para-la-planeacion-de-metodologias-didacticas": {
     "slug": "diplomado-en-analisis-del-uso-del-espanol-como-segunda-lengua-para-la-planeacion-de-metodologias-didacticas",
     "sigla": "DMEELE3",
-    "name": "Diplomado en Análisis del Uso del Español como Segunda Lengua para la Planeación de Metodologías Didácticas",
+    "name": "Análisis del Uso del Español como Segunda Lengua para la Planeación de Metodologías Didácticas",
     "area": "Gerenciales – Enseñanza del Español como Lengua Extranjera",
     "tagline": "Actualización y especialización en Análisis del Uso del Español como Segunda Lengua para la Planeación de Metodologías Didácticas",
     "description": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción.",
@@ -446,7 +446,7 @@
   "diplomado-en-elaboracion-de-programas-de-estudio-para-espanol-e-ingles-como-segunda-lengua": {
     "slug": "diplomado-en-elaboracion-de-programas-de-estudio-para-espanol-e-ingles-como-segunda-lengua",
     "sigla": "DMEELE4",
-    "name": "Diplomado en Elaboración de Programas de Estudio para Español e Inglés como Segunda Lengua",
+    "name": "Elaboración de Programas de Estudio para Español e Inglés como Segunda Lengua",
     "area": "Gerenciales – Enseñanza del Español como Lengua Extranjera",
     "tagline": "Actualización y especialización en Elaboración de Programas de Estudio para Español e Inglés como Segunda Lengua",
     "description": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción.",
@@ -466,7 +466,7 @@
   "diplomado-en-tecnologias-de-la-informacion-y-comunicacion-aplicadas-a-la-pedagogia": {
     "slug": "diplomado-en-tecnologias-de-la-informacion-y-comunicacion-aplicadas-a-la-pedagogia",
     "sigla": "DTICAP",
-    "name": "Diplomado en Tecnologías de la Información y Comunicación aplicadas a la Pedagogía",
+    "name": "Tecnologías de la Información y Comunicación aplicadas a la Pedagogía",
     "area": "Gerenciales – Docencia del Español como Lengua Extranjera",
     "tagline": "Actualización y especialización en Tecnologías de la Información y Comunicación aplicadas a la Pedagogía",
     "description": "Formar especialistas con un alto dominio de la didáctica aplicada a la enseñanza del español como lengua extranjera, desarrollar conocimientos sólidos sobre sistemas de evaluación e implementación de programas de español haciendo énfasis en la evaluación de materiales, así como de la práctica docente.",
@@ -486,7 +486,7 @@
   "diplomado-en-diseno-de-interiores": {
     "slug": "diplomado-en-diseno-de-interiores",
     "sigla": "DDI",
-    "name": "Diplomado en Diseño de Interiores",
+    "name": "Diseño de Interiores",
     "area": "Diseño y Arte",
     "tagline": "Actualización y especialización en Diseño de Interiores",
     "description": "Generar habilidades metodológicas, técnicas y del pensamiento; a través de la adaptación de entornos, para formar especialistas en la creación y transformación de espacios útiles, funcionales y armónicos.",
@@ -515,7 +515,7 @@
   "diplomado-en-fotografia": {
     "slug": "diplomado-en-fotografia",
     "sigla": "DIFO",
-    "name": "Diplomado en Fotografía",
+    "name": "Fotografía",
     "area": "Diseño y Arte",
     "tagline": "Actualización y especialización en Fotografía",
     "description": "Desarrollar las habilidades técnicas y comunicativas que se requieren para el correcto manejo de una cámara profesional de 35mm a través de la identificación de sus elementos, uso de materiales y equipo, reconocimiento de características fotográficas, así como del análisis de las condiciones de luz y otros aspectos que construyen una buena imagen, logrando así diversos resultados fotográficos mediante distintos métodos de trabajo y la aplicación de la fotografía en sus distintas áreas de trabajo.",
@@ -563,7 +563,7 @@
   "diplomado-en-diseno-de-modas-con-enfoque-en-desarrollo-de-colecciones": {
     "slug": "diplomado-en-diseno-de-modas-con-enfoque-en-desarrollo-de-colecciones",
     "sigla": "DMEDC",
-    "name": "Diplomado en Diseño de Modas con Enfoque en Desarrollo de Colecciones",
+    "name": "Diseño de Modas con Enfoque en Desarrollo de Colecciones",
     "area": "Diseño y Arte",
     "tagline": "Actualización y especialización en Diseño de Modas con Enfoque en Desarrollo de Colecciones",
     "description": "Desarrollar habilidades en diseño de modas y creación de colecciones, abarcando todo el proceso productivo, desde el análisis de tendencias internacionales hasta la conceptualización de ideas a través de técnicas de ilustración, corte y confección; para lograr documentar el proceso en un portafolio profesional aplicando estrategias de comunicación efectivas para crear colecciones funcionales que respondan a las necesidades de las personas.",
@@ -601,7 +601,7 @@
   "diplomado-en-administracion-de-obra-i": {
     "slug": "diplomado-en-administracion-de-obra-i",
     "sigla": "DAO1",
-    "name": "Diplomado en Administración de Obra I",
+    "name": "Administración de Obra I",
     "area": "Arquitectura y Construcción",
     "tagline": "Actualización y especialización en Administración de Obra I",
     "description": "Formar especialistas de manera integral, que cuenten con el conocimiento administrativo y técnico suficiente, para desempeñarse de manera competitiva y eficaz en el ámbito de la construcción, con capacidades demostradas para la planeación, programación y control de todos los procesos que demanda un proyecto de edificación.",
@@ -621,7 +621,7 @@
   "diplomado-en-administracion-de-obra-ii": {
     "slug": "diplomado-en-administracion-de-obra-ii",
     "sigla": "DAO2",
-    "name": "Diplomado en Administración de Obra II",
+    "name": "Administración de Obra II",
     "area": "Arquitectura y Construcción",
     "tagline": "Actualización y especialización en Administración de Obra II",
     "description": "Formar especialistas de manera integral, que cuenten con el conocimiento administrativo y técnico suficiente, para desempeñarse de manera competitiva y eficaz en el ámbito de la construcción, con capacidades demostradas para la planeación, programación y control de todos los procesos que demanda un proyecto de edificación.",
@@ -641,7 +641,7 @@
   "diplomado-en-gestion-empresarial": {
     "slug": "diplomado-en-gestion-empresarial",
     "sigla": "DGE",
-    "name": "Diplomado en Gestión Empresarial",
+    "name": "Gestión Empresarial",
     "area": "Administrativos",
     "tagline": "Actualización y especialización en Gestión Empresarial",
     "description": "UNINTER te ofrece un ambiente multicultural donde podrás interactuar con estudiantes de otras nacionalidades. Por otro lado en sus diplomados encontrarás compañeros y profesores con perfiles académicos que podrán enriquecer tu experiencia.",
@@ -667,7 +667,7 @@
   "diplomado-en-direccion-de-empresas": {
     "slug": "diplomado-en-direccion-de-empresas",
     "sigla": "DDE",
-    "name": "Diplomado en Dirección de Empresas",
+    "name": "Dirección de Empresas",
     "area": "Administrativos",
     "tagline": "Actualización y especialización en Dirección de Empresas",
     "description": "UNINTER te ofrece un ambiente multicultural donde podrás interactuar con estudiantes de otras nacionalidades. Por otro lado en sus diplomados encontrarás compañeros y profesores con perfiles académicos que podrán enriquecer tu experiencia",
@@ -693,7 +693,7 @@
   "diplomado-en-marketing-digital-estrategico-y-creativo": {
     "slug": "diplomado-en-marketing-digital-estrategico-y-creativo",
     "sigla": "DMDEC",
-    "name": "Diplomado en Marketing Digital Estratégico y Creativo",
+    "name": "Marketing Digital Estratégico y Creativo",
     "area": "Gerenciales – Marketing Digital",
     "tagline": "Actualización y especialización en Marketing Digital y Creativo",
     "description": "Desarrollarás una visión estratégica y creativa del marketing digital, que te permitirá analizar métricas, diseñar campañas innovadoras, optimizar la presencia de marca en buscadores y redes sociales, así como aplicar principios de diseño y comunicación visual para crear contenidos de alto impacto. Al concluir, contarás con las herramientas necesarias para implementar estrategias integrales que fortalezcan tu posicionamiento digital y generen resultados medibles en entornos altamente competitivos.",
@@ -719,7 +719,7 @@
   "diplomado-en-modelos-de-ensenanza-y-evaluacion-de-programas": {
     "slug": "diplomado-en-modelos-de-ensenanza-y-evaluacion-de-programas",
     "sigla": "DMEEP-D",
-    "name": "Diplomado en Modelos de Enseñanza y Evaluación de Programas",
+    "name": "Modelos de Enseñanza y Evaluación de Programas",
     "area": "Gerenciales – Educación en Formación Docente",
     "tagline": "Actualización y especialización en Modelos de Enseñanza y Evaluación de Programas Educativos Siglo XXI",
     "description": "Formar profesionistas en el campo de la Educación en Formación Docente capaces de diseñar, implementar, estructurar y fundamentar los principios de planeación y evaluación educativa de los modelos actuales, así como las estrategias innovadoras, para crear situaciones de enseñanza-aprendizaje, a partir de la relación epistemológica y tecnológica, para alcanzar una integración entre los componentes pedagógicos y didácticos en la transformación de la realidad contextual de la práctica docente.",
@@ -739,7 +739,7 @@
   "diplomado-en-estrategias-didacticas-y-metodos-de-ensenanza": {
     "slug": "diplomado-en-estrategias-didacticas-y-metodos-de-ensenanza",
     "sigla": "DEDME",
-    "name": "Diplomado en Estrategias Didácticas y Métodos de Enseñanza",
+    "name": "Estrategias Didácticas y Métodos de Enseñanza",
     "area": "Gerenciales – Docencia del Español como Lengua Extranjera",
     "tagline": "Actualización y especialización en Estrategias Didácticas y Métodos de Enseñanza de una L2",
     "description": "Formar especialistas con un alto dominio de la didáctica aplicada a la enseñanza del español como lengua extranjera, desarrollar conocimientos sólidos sobre sistemas de evaluación e implementación de programas de español haciendo énfasis en la evaluación de materiales, así como de la práctica docente.",
@@ -759,7 +759,7 @@
   "diplomado-en-formacion-para-cronistas": {
     "slug": "diplomado-en-formacion-para-cronistas",
     "sigla": "DFC",
-    "name": "Diplomado en Formación para Cronistas",
+    "name": "Formación para Cronistas",
     "area": "Educación e Investigación",
     "tagline": "Enriquece Tu desarrollo personal",
     "description": "El objetivo de este diplomado está dirigido a la formación de profesionales comprometidos con la narración y preservación del patrimonio cultural, local, regional y nacional, a través de la crónica y el periodismo histórico, promocionando los estudios interculturales, geográficos, históricos y de la antropología, entre otros más.",
@@ -782,7 +782,7 @@
   "diplomado-en-gestion-empresarial-en-linea": {
     "slug": "diplomado-en-gestion-empresarial-en-linea",
     "sigla": "DGE-L",
-    "name": "Diplomado en Gestión Empresarial en Línea",
+    "name": "Gestión Empresarial en Línea",
     "area": "Administrativos",
     "tagline": "Enriquece Tu desarrollo personal",
     "description": "UNINTER te ofrece un ambiente multicultural donde podrás interactuar con estudiantes de otras nacionalidades. Por otro lado en sus diplomados encontrarás compañeros y profesores con perfiles académicos que podrán enriquecer tu experiencia.",
@@ -808,7 +808,7 @@
   "diplomado-en-direccion-de-empresas-en-linea": {
     "slug": "diplomado-en-direccion-de-empresas-en-linea",
     "sigla": "DDE-L",
-    "name": "Diplomado en Dirección de Empresas en Línea",
+    "name": "Dirección de Empresas en Línea",
     "area": "Administrativos",
     "tagline": "Enriquece Tu desarrollo personal",
     "description": "UNINTER te ofrece un ambiente multicultural donde podrás interactuar con estudiantes de otras nacionalidades. Por otro lado en sus diplomados encontrarás compañeros y profesores con perfiles académicos que podrán enriquecer tu experiencia",
@@ -834,7 +834,7 @@
   "diplomado-en-diseno-y-desarrollo-de-proyectos-academicos-de-investigacion": {
     "slug": "diplomado-en-diseno-y-desarrollo-de-proyectos-academicos-de-investigacion",
     "sigla": "DDPAI",
-    "name": "Diplomado en Diseño y Desarrollo de Proyectos Académicos de Investigación",
+    "name": "Diseño y Desarrollo de Proyectos Académicos de Investigación",
     "area": "Educación e Investigación",
     "tagline": "Enriquece Tu desarrollo personal",
     "description": "Desarrollar un proyecto de investigación en las diferentes áreas disciplinarias que contemplen los elementos teóricos y metodológicos establecidos por la División de Posgrado e Investigación para la obtención del título.",
@@ -860,7 +860,7 @@
   "diplomado-en-ingles": {
     "slug": "diplomado-en-ingles",
     "sigla": "DEI",
-    "name": "Diplomado en Inglés",
+    "name": "Inglés",
     "area": "Idiomas",
     "tagline": "Enriquece Tu desarrollo personal",
     "description": "Desarrollar las cuatro habilidades lingüísticas y comunicativas de los estudiantes con la finalidad de aplicar sus conocimientos en un ambiente profesional, académico o personal para el dominio del idioma inglés como lengua extranjera a través de una práctica dinámica y efectiva.",
@@ -904,7 +904,7 @@
   "diplomado-en-frances": {
     "slug": "diplomado-en-frances",
     "sigla": "DEF",
-    "name": "Diplomado en Francés",
+    "name": "Francés",
     "area": "Idiomas",
     "tagline": "Enriquece Tu desarrollo personal",
     "description": "Desarrollar las cuatro habilidades lingüísticas y comunicativas de los estudiantes con la finalidad de aplicar sus conocimientos en un ambiente profesional, académico o personal, y proporcionar al alumno habilidades y destrezas para la adquisición y manejo del idioma francés como lengua extranjera a través de una práctica dinámica y efectiva.",
@@ -970,7 +970,7 @@
   "diplomado-en-ingles-profesional": {
     "slug": "diplomado-en-ingles-profesional",
     "sigla": "DEIP",
-    "name": "Diplomado en Inglés Profesional",
+    "name": "Inglés Profesional",
     "area": "Idiomas",
     "tagline": "Enriquece Tu desarrollo personal",
     "description": "Desarrollar en el participante las competencias lingüísticas y comunicativas necesarias para interactuar con fluidez y precisión en contextos internacionales, aplicando el idioma inglés de manera efectiva en situaciones de comunicación empresarial, negociación, correspondencia, presentaciones y redacción profesional.",

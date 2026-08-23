@@ -48,17 +48,21 @@ const stats = [
           </p>
 
           <div class="dp-hero__ctas">
-            <NuxtLink to="/diplomados/programas" class="dp-btn dp-btn--ghost">
-              <BookOpen :size="20" class="dp-btn-icon" />
-              Programas Disponibles
+            <NuxtLink to="/diplomados/programas" class="dp-btn-card">
+              <div class="dp-btn-icon">
+                <BookOpen :size="28" :stroke-width="1.8" />
+              </div>
+              <span>Programas Disponibles</span>
             </NuxtLink>
             <a
               href="https://diplomados.uninter.edu.mx/"
               target="_blank"
-              class="dp-btn dp-btn--ghost"
+              class="dp-btn-card"
             >
-              <Info :size="20" class="dp-btn-icon" />
-              Solicita Información
+              <div class="dp-btn-icon">
+                <Info :size="28" :stroke-width="1.8" />
+              </div>
+              <span>Solicita Información</span>
             </a>
           </div>
         </div>
@@ -94,7 +98,7 @@ const stats = [
   --color-orange: #f28b22;
   --color-orange-light: #f5a65b;
   position: relative;
-  height: clamp(520px, 75vh, 700px);
+  height: clamp(520px, 68vh, 680px);
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -188,41 +192,48 @@ const stats = [
   max-width: 600px;
 }
 
+/* ═══ BOTONES CTA TIPO TARJETA ═══ */
 .dp-hero__ctas {
   display: flex;
-  gap: 1rem;
+  gap: 1.25rem;
   flex-wrap: wrap;
 }
-.dp-btn {
-  display: inline-flex;
+
+.dp-btn-card {
   align-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 14px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.95rem;
+  font-weight: 700;
+  gap: 0.65rem;
   justify-content: center;
-  padding: 1rem 2rem;
-  border-radius: 12px;
-  font-size: 1rem;
-  font-weight: 600;
+  min-width: 175px;
+  padding: 1.1rem 1.6rem;
+  text-align: center;
   text-decoration: none;
-  transition: all 0.3s;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   cursor: pointer;
-  gap: 0.75rem;
+}
+
+.dp-btn-card:hover {
+  background: rgba(242, 139, 34, 0.18);
+  border-color: #f28b22;
+  color: #f28b22;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(242, 139, 34, 0.25);
 }
 
 .dp-btn-icon {
-  opacity: 0.9;
-}
-
-.dp-btn--ghost {
-  background: rgba(255, 255, 255, 0.05);
-  color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(4px);
-}
-.dp-btn--ghost:hover {
-  border-color: var(--color-orange);
-  background: rgba(242, 139, 34, 0.15);
-  color: #ffffff;
-  transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(242, 139, 34, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
 }
 
 /* =========================================

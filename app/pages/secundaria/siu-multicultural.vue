@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import Navbare from "@/components/navbar/Index.vue";
-import VidaEstudiantil from "@/components/bachillerato/VidaEstudiantil.vue";
 import Internacionalizacion from "@/components/bachillerato/Internacionalizacion.vue";
 import FormRegister from "@/components/secundaria/FormRegister.vue";
 import PortalFooter from "@/components/portal/Footer.vue";
@@ -434,6 +433,9 @@ function scrollTo(id: string) {
         </div>
       </div>
     </section>
+
+    <!-- INTERNACIONALIZACIÓN -->
+    <Internacionalizacion />
 
     <!-- FORMULARIO DE REGISTRO -->
     <section id="admision" class="siu-register-sec">

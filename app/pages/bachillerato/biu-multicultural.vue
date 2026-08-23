@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import Navbare from "@/components/navbar/Index.vue";
 import AreasEspecializacion from "@/components/bachillerato/biu/AreasEspecializacion.vue";
-import VidaEstudiantil from "@/components/bachillerato/VidaEstudiantil.vue";
 import Internacionalizacion from "@/components/bachillerato/Internacionalizacion.vue";
 import FormRegister from "@/components/bachillerato/FormRegister.vue";
 import PortalFooter from "@/components/portal/Footer.vue";
@@ -724,9 +723,8 @@ function scrollTo(id: string) {
     </section>
 
     <!-- ══════════════════════════════════════════
-         VIDA ESTUDIANTIL / INTERNACIONALIZACIÓN / FORM
+         INTERNACIONALIZACIÓN / FORM
     ══════════════════════════════════════════ -->
-    <VidaEstudiantil />
     <Internacionalizacion />
     <FormRegister />
     <PortalFooter />

@@ -1,4 +1,4 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 import {
   BookOpen,
   Info,
@@ -7,6 +7,7 @@ import {
   Users,
   Globe,
 } from "lucide-vue-next";
+
 const stats = [
   { value: "23", label: "Licenciaturas", icon: "GraduationCap" },
   { value: "40+", label: "Años de excelencia", icon: "Award" },
@@ -19,13 +20,15 @@ const stats = [
   <div class="banner-hero-wrapper">
     <section class="banner-section">
       <div class="banner-slide">
+        <!-- Fotografía de fondo -->
         <img
           src="/images/hero/blur/2.jpg"
           alt="Licenciaturas Presenciales UNINTER"
           class="banner-slide__img"
         />
-        <div class="banner-slide__overlay"></div>
-        <div class="banner-slide__overlay2"></div>
+
+        <!-- Capa de Blur Gradiente Horizontal Transparente (Fades out antes de los alumnos) -->
+        <div class="banner-slide__blur-overlay"></div>
 
         <div class="banner-content uninter-container">
           <div class="banner-inner">
@@ -52,14 +55,14 @@ const stats = [
                 href="#oferta-educativa"
                 class="banner-btn banner-btn--stacked"
               >
-                <BookOpen :size="24" />
+                <BookOpen :size="22" />
                 <span>Programas Disponibles</span>
               </a>
               <a
                 href="#formulario-registro"
                 class="banner-btn banner-btn--stacked"
               >
-                <Info :size="24" />
+                <Info :size="22" />
                 <span>Solicita Información</span>
               </a>
             </div>
@@ -68,7 +71,7 @@ const stats = [
       </div>
     </section>
 
-    <!-- Stats strip flotante en la parte inferior pero NO sobrepuesto -->
+    <!-- Stats strip flotante en la base del banner -->
     <div class="banner-stats-bar">
       <div class="uninter-container banner-stats__inner">
         <div v-for="stat in stats" :key="stat.label" class="banner-stat">
@@ -94,12 +97,14 @@ const stats = [
   max-width: 1280px;
   padding: 0 1.5rem;
 }
+
 .banner-section {
-  --h: clamp(480px, 62vh, 620px);
-  background: #003b5c;
+  --h: clamp(520px, 68vh, 680px);
+  background: #001a2e;
   overflow: hidden;
   position: relative;
 }
+
 .banner-slide {
   align-items: center;
   display: flex;
@@ -107,6 +112,7 @@ const stats = [
   position: relative;
   width: 100%;
 }
+
 .banner-slide__img {
   animation: kb-static-5a0e54da 14s ease-out forwards;
   height: 100%;
@@ -116,83 +122,107 @@ const stats = [
   position: absolute;
   width: 100%;
 }
-.banner-slide__overlay {
-  background: linear-gradient(180deg, #001a2e66, #001a2e1a 50%, #001a2e1a);
-  inset: 0;
+
+/* ═══ CAPA DE BLUR GRADIENTE TRANSPARENTE ═══ */
+.banner-slide__blur-overlay {
   position: absolute;
-}
-.banner-slide__overlay2 {
-  background: linear-gradient(90deg, #001a2e66, #001a241a 50%, #001a241a);
   inset: 0;
-  position: absolute;
+  z-index: 1;
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 26, 46, 0.6) 0%,
+    rgba(0, 26, 46, 0.35) 30%,
+    rgba(0, 26, 46, 0.1) 45%,
+    transparent 58%
+  );
+  -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 35%, transparent 58%);
+  mask-image: linear-gradient(90deg, #000 0%, #000 35%, transparent 58%);
+  pointer-events: none;
 }
+
 .banner-content {
-  padding-bottom: 5rem;
-  padding-top: 3rem;
   position: relative;
   width: 100%;
   z-index: 2;
+  padding-bottom: 2rem;
 }
+
 .banner-inner {
-  max-width: 680px;
+  max-width: 620px;
 }
+
 .banner-logo-full {
   filter: brightness(0) invert(1);
   height: 48px;
-  margin-bottom: 2rem;
+  margin-bottom: 1.75rem;
   -o-object-fit: contain;
   object-fit: contain;
 }
+
 .banner-title {
-  color: #fff;
+  color: #ffffff;
   font-family: var(--font-serif, Georgia, serif);
-  font-size: clamp(2.4rem, 5.5vw, 4.2rem);
+  font-size: clamp(2.4rem, 5vw, 4rem);
   font-weight: 800;
   letter-spacing: -0.02em;
   line-height: 1.06;
   margin: 0 0 1.25rem;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
 }
+
 .banner-title__accent {
   color: #00b2e3;
 }
+
 .banner-subtitle {
-  color: #ffffffb8;
-  font-size: clamp(0.95rem, 1.5vw, 1.1rem);
+  color: rgba(255, 255, 255, 0.9);
+  font-size: clamp(0.95rem, 1.4vw, 1.08rem);
   line-height: 1.65;
-  margin: 0 0 2.25rem;
+  margin: 0 0 2rem;
   max-width: 520px;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
 }
+
 .banner-ctas {
   display: flex;
   flex-wrap: wrap;
   gap: 0.875rem;
 }
+
 .banner-btn {
   align-items: center;
-  border-radius: 8px;
+  border-radius: 12px;
   cursor: pointer;
   display: inline-flex;
   font-size: 0.9rem;
   font-weight: 700;
   justify-content: center;
   text-decoration: none;
-  transition: all 0.2s;
+  transition: all 0.2s ease;
 }
+
 .banner-btn--stacked {
-  background: transparent;
-  border: 1px solid hsla(0, 0%, 100%, 0.4);
-  border-radius: 12px;
-  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  color: #ffffff;
   flex-direction: column;
-  gap: 0.5rem;
-  padding: 1.25rem 2.5rem;
+  gap: 0.45rem;
+  padding: 1.1rem 2rem;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
+
 .banner-btn--stacked:hover {
-  background: #00b2e31a;
+  background: rgba(0, 178, 227, 0.25);
   border-color: #00b2e3;
   color: #00b2e3;
   transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 178, 227, 0.25);
 }
+
+/* ═══ STATS BAR (LIQUID GLASS) ═══ */
 .banner-stats-bar {
   backdrop-filter: blur(16px) saturate(150%);
   -webkit-backdrop-filter: blur(16px) saturate(150%);
@@ -207,16 +237,18 @@ const stats = [
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   border-top: 1px solid rgba(0, 178, 227, 0.3);
   box-shadow: 0 4px 30px #00000080;
-  padding: 1.5rem 0;
+  padding: 1.35rem 0;
   position: relative;
   z-index: 10;
 }
+
 .banner-stats__inner {
   align-items: center;
   display: flex;
   justify-content: space-between;
   position: relative;
 }
+
 .banner-stat {
   align-items: center;
   border-right: 1px solid rgba(0, 178, 227, 0.3);
@@ -227,45 +259,54 @@ const stats = [
   justify-content: center;
   padding: 0 1.5rem;
 }
+
 .banner-stat:last-child {
   border-right: none;
 }
+
 .banner-stat__icon {
   align-items: center;
   color: #00b2e3;
   display: flex;
   justify-content: center;
 }
+
 .banner-stat__text {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
 }
+
 .banner-stat__value {
   color: #fff;
   font-size: clamp(1.1rem, 1.3vw, 1.4rem);
   font-weight: 800;
   line-height: 1.2;
 }
+
 .banner-stat__label {
   color: #fffc;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   font-weight: 500;
   letter-spacing: normal;
   margin-top: 0;
   text-align: left;
   text-transform: none;
 }
+
+/* ═══ RESPONSIVE ═══ */
 @media (max-width: 768px) {
   .banner-section {
     --h: auto;
   }
   .banner-slide {
-    min-height: clamp(420px, 65vh, 560px);
-    padding-top: 5rem;
+    min-height: clamp(440px, 65vh, 580px);
+    padding: 3.5rem 0;
   }
-  .banner-content {
-    padding-bottom: 3rem;
+  .banner-slide__blur-overlay {
+    -webkit-mask-image: none;
+    mask-image: none;
+    background: rgba(0, 26, 46, 0.65);
   }
   .banner-stats__inner {
     flex-wrap: wrap;
@@ -276,7 +317,7 @@ const stats = [
     border-right: none;
     flex: 1 1 50%;
     justify-content: center;
-    padding: 1rem 0.5rem;
+    padding: 0.75rem 0.5rem;
   }
   .banner-stat:nth-child(odd) {
     border-right: 1px solid rgba(0, 178, 227, 0.3);
@@ -284,29 +325,24 @@ const stats = [
   .banner-stat:nth-last-child(-n + 2) {
     border-bottom: none;
   }
-  @media (max-width: 480px) {
-    .banner-section {
-      --h: auto;
-    }
-    .banner-slide {
-      min-height: clamp(380px, 60vh, 500px);
-    }
-    .banner-ctas {
-      flex-direction: column;
-    }
-    .banner-btn,
-    .banner-stat {
-      justify-content: center;
-    }
-    .banner-stat {
-      border-bottom: 1px solid rgba(0, 178, 227, 0.2) !important;
-      border-right: none !important;
-      flex: 1 1 100%;
-      padding: 1rem 1.5rem;
-    }
-    .banner-stat:last-child {
-      border-bottom: none !important;
-    }
+}
+
+@media (max-width: 480px) {
+  .banner-ctas {
+    flex-direction: column;
+  }
+  .banner-btn,
+  .banner-stat {
+    justify-content: center;
+  }
+  .banner-stat {
+    border-bottom: 1px solid rgba(0, 178, 227, 0.2) !important;
+    border-right: none !important;
+    flex: 1 1 100%;
+    padding: 0.85rem 1.5rem;
+  }
+  .banner-stat:last-child {
+    border-bottom: none !important;
   }
 }
 </style>

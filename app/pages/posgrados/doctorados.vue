@@ -349,7 +349,7 @@ const data = [
   text-transform: uppercase;
 }
 .uninter-section-title {
-  color: #0c2010;
+  color: #0f3c61;
   font-family: var(--font-serif, Georgia, serif);
   font-size: clamp(2rem, 5vw, 2.8rem);
   font-weight: 800;
@@ -388,7 +388,7 @@ const data = [
 }
 .oe-card__title {
   border-bottom: 2px solid #f2f5e1;
-  color: #0c2010;
+  color: #0f3c61;
   font-size: 1.1rem;
   font-weight: 800;
   letter-spacing: 0.02em;
@@ -529,7 +529,7 @@ const data = [
   font-family: var(--font-serif, Georgia, serif);
   font-size: 2rem;
   font-weight: 700;
-  color: #1a262f;
+  color: #0f3c61;
   margin: 0;
   line-height: 1.1;
 }

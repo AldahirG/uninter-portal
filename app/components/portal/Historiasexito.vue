@@ -60,6 +60,7 @@ const next = () => {
             Historias de<br /><em>éxito</em>
           </h2>
         </div>
+        <a href="https://uninter.edu.mx" class="uninter-ver-mas">Ver todas →</a>
       </div>
 
       <!-- Desktop: grid -->

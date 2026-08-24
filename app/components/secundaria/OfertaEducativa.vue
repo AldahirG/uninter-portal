@@ -118,7 +118,7 @@ const programas = [
   font-family: var(--font-serif, Georgia, serif);
   font-size: clamp(1.8rem, 4vw, 2.6rem);
   font-weight: 800;
-  color: #1a1500;
+  color: #0f3c61;
   margin: 0 0 0.5rem;
   letter-spacing: -0.01em;
 }
@@ -178,8 +178,9 @@ const programas = [
   position: absolute;
   bottom: 1rem;
   left: 1rem;
-  background: var(--pc);
-  color: #fff;
+  background: #0091d7;
+  border: 1px solid #0091d7;
+  color: #ffffff;
   font-size: 0.7rem;
   font-weight: 800;
   letter-spacing: 0.1em;
@@ -199,7 +200,7 @@ const programas = [
   font-family: var(--font-serif, Georgia, serif);
   font-size: 1.3rem;
   font-weight: 800;
-  color: var(--pc);
+  color: #0f3c61;
   margin: 0 0 0.75rem;
 }
 .prog-card__desc {
@@ -223,10 +224,10 @@ const programas = [
   align-items: center;
   gap: 0.5rem;
   font-size: 0.85rem;
-  color: #444;
+  color: #0f3c61x;
 }
 .feat-icon {
-  color: var(--pc);
+  color: #0091d7;
   flex-shrink: 0;
 }
 
@@ -234,22 +235,20 @@ const programas = [
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: var(--pc);
-  color: #fff;
+  background: linear-gradient(135deg, #ffce52 0%, #ffce52 70%, #00b6ec 100%);
+  color: #0f172a;
+  border: 1px solid #ffce52;
   font-size: 0.9rem;
   font-weight: 700;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   text-decoration: none;
-  transition:
-    background 0.2s,
-    transform 0.2s;
+  transition: opacity 0.2s, transform 0.2s;
   cursor: pointer;
 }
 .prog-card__cta:hover {
-  background: var(--pcl);
-  color: #1a1500;
   transform: translateY(-2px);
+  background: linear-gradient(135deg, #ffce52 0%, #ffce52 30%, #00b6ec 100%);
 }
 
 @media (max-width: 768px) {

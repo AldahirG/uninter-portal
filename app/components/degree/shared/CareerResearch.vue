@@ -1,25 +1,58 @@
 <script setup lang="ts">
-import { defineProps } from "vue";
-import { Check } from "lucide-vue-next";
+import { defineProps, ref, onMounted, onUnmounted } from "vue";
+import { Check, FolderOpen, ArrowRight } from "lucide-vue-next";
 
-// Props dinámicos: recibe los laboratorios/experiencias del JSON
+// Props dinámicos: recibe el techArsenal (o labs) del JSON
 const props = defineProps<{
   labs: Array<{
     title: string;
-    desc: string;
-    icon: string;
-    tag: string;
+    description?: string;
+    desc?: string;
+    image?: string;
     features: string[];
   }>;
   projectsBlogUrl?: string;
 }>();
 
-// Imágenes representativas para los laboratorios
+// Animación de hover simulado secuencial
+const simulatedHoverIndex = ref<number | null>(0);
+let hoverInterval: ReturnType<typeof setInterval>;
+
+const startSimulation = () => {
+  if (hoverInterval) clearInterval(hoverInterval);
+  if (props.labs && props.labs.length > 0) {
+    hoverInterval = setInterval(() => {
+      simulatedHoverIndex.value = simulatedHoverIndex.value !== null
+        ? (simulatedHoverIndex.value < props.labs.length - 1 ? simulatedHoverIndex.value + 1 : 0)
+        : 0;
+    }, 1500);
+  }
+};
+
+const stopSimulation = () => {
+  if (hoverInterval) clearInterval(hoverInterval);
+  simulatedHoverIndex.value = null;
+};
+
+const resumeSimulation = () => {
+  simulatedHoverIndex.value = 0;
+  startSimulation();
+};
+
+onMounted(() => {
+  startSimulation();
+});
+
+onUnmounted(() => {
+  if (hoverInterval) clearInterval(hoverInterval);
+});
+
+// Imágenes representativas para los laboratorios si no cargan las reales
 const labImages = [
-  "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800", // Lab ingeniería / técnico
-  "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=800", // Espacio interactivo
-  "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=800", // Laboratorio cómputo / sistemas
-  "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800", // Sala de juntas / negocios
+  "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800", // Electrónica / Ingeniería
+  "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=800", // Espacio interactivo / Media
+  "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=800", // Cómputo / Edición
+  "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800", // Negocios / Sala
 ];
 
 const getLabImage = (index: number) => {
@@ -28,44 +61,53 @@ const getLabImage = (index: number) => {
 </script>
 
 <template>
-  <section class="career-research-section" id="experiencia">
+  <section class="career-research-section" id="experiencia" v-if="labs && labs.length">
     <div class="uninter-container">
       <!-- Encabezado de la Sección -->
       <div class="research-header animate-header">
-        <span class="eyebrow">Experiencia Práctica</span>
-        <h2 class="section-title">Laboratorios & <em>Proyectos</em></h2>
+        <span class="eyebrow">ARSENAL TECNOLÓGICO</span>
+        <h2 class="section-title">
+          Tecnología de <br />
+          <span class="highlight-underline">Nivel Profesional</span>
+        </h2>
         <p class="section-desc">
-          No te limites a la teoría. En UNINTER aprendes haciendo desde el primer día en instalaciones equipadas con la tecnología que demanda la industria.
+          <mark class="highlight-desc">No te limites a la teoría. Domina las herramientas reales de la industria antes de graduarte y asegura tu ventaja competitiva en el mercado laboral.</mark>
         </p>
       </div>
 
-      <!-- Grid de Laboratorios Estilo VBlock -->
-      <div class="labs-grid stagger-1">
+      <!-- Grid de Laboratorios o Carrusel -->
+      <div 
+        :class="['labs-wrapper', labs.length > 3 ? 'is-carousel' : 'is-grid']" 
+        class="stagger-1"
+        @mouseenter="stopSimulation"
+        @mouseleave="resumeSimulation"
+        @touchstart="stopSimulation"
+        @touchend="resumeSimulation"
+      >
         <div
           v-for="(lab, index) in labs"
           :key="index"
           class="lab-vblock"
+          :class="{ 'simulated-hover': simulatedHoverIndex === index }"
         >
-          <!-- Imagen de Cabecera con Badge -->
+          <!-- Imagen de Cabecera -->
           <div class="lab-vblock__img-wrap">
             <img :src="getLabImage(index)" :alt="lab.title" class="lab-vblock__img" loading="lazy" />
-            <div class="lab-vblock__badge">
-              <span class="lab-vblock__emoji">{{ lab.icon }}</span>
-              <span>{{ lab.tag }}</span>
-            </div>
           </div>
 
           <!-- Contenido Informativo -->
           <div class="lab-vblock__body">
             <h3 class="lab-vblock__title">{{ lab.title }}</h3>
-            <p class="lab-vblock__desc">{{ lab.desc }}</p>
+            <p class="lab-vblock__desc">{{ lab.description || lab.desc }}</p>
             
+            <div class="divider"></div>
+
             <!-- Equipamiento / Características -->
             <div class="lab-vblock__features">
-              <span class="features-title">Equipamiento destacado:</span>
+              <span class="features-title">EQUIPAMIENTO DESTACADO:</span>
               <ul class="features-list">
                 <li v-for="(feat, fIdx) in lab.features" :key="fIdx">
-                  <Check :size="14" class="feat-check" />
+                  <Check :size="16" class="feat-check color-blue" />
                   <span>{{ feat }}</span>
                 </li>
               </ul>
@@ -78,7 +120,7 @@ const getLabImage = (index: number) => {
       <div v-if="projectsBlogUrl" class="projects-blog-cta animate-header">
         <div class="projects-blog-cta__body">
           <div class="projects-blog-cta__icon">
-            <Icon name="mdi:folder-open-outline" size="32" />
+            <FolderOpen :size="32" />
           </div>
           <div class="projects-blog-cta__info">
             <h3 class="projects-blog-cta__title">Proyectos Reales & Evidencias</h3>
@@ -88,7 +130,7 @@ const getLabImage = (index: number) => {
           </div>
         </div>
         <a :href="projectsBlogUrl" target="_blank" rel="noopener" class="projects-blog-cta__btn">
-          Ver Proyectos ESCAT <Icon name="mdi:arrow-right" size="16" />
+          Ver Proyectos ESCAT <ArrowRight :size="16" />
         </a>
       </div>
 
@@ -99,12 +141,13 @@ const getLabImage = (index: number) => {
 <style scoped>
 /* =========================================================
    CONTENEDOR BASE
-========================================================= */
+======================================================== */
 .career-research-section {
-  background-color: #0f3c61;
-  padding: 6.5rem 0;
-  color: #ffffff;
+  background-color: #ffffff;
+  padding: 7rem 0;
+  color: #0f3c61;
   overflow: hidden;
+  font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
 }
 
 .uninter-container {
@@ -115,84 +158,141 @@ const getLabImage = (index: number) => {
 
 /* =========================================================
    ENCABEZADO
-========================================================= */
+======================================================== */
 .research-header {
   text-align: center;
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto 4.5rem auto;
 }
 
 .eyebrow {
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  color: #fde68a;
+  color: #1976d2;
   margin-bottom: 0.75rem;
-  background: rgba(253, 230, 138, 0.1);
+  background: #f0f6fc;
   padding: 0.35rem 0.9rem;
   border-radius: 20px;
-  border: 1px solid rgba(253, 230, 138, 0.2);
 }
 
 .section-title {
   font-family: var(--font-serif, Lora, Georgia, serif);
   font-size: clamp(2.3rem, 4vw, 3.2rem);
-  color: #ffffff;
-  font-weight: 850;
-  margin: 0 0 1rem 0;
+  color: #0f3c61;
+  font-weight: 800;
+  margin: 0 0 1.5rem 0;
   letter-spacing: -0.02em;
+  line-height: 1.25;
 }
 
-.section-title em {
-  color: #fde68a;
-  font-style: italic;
+.highlight-underline {
+  color: #1565c0;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+
+.highlight-underline::after {
+  content: "";
+  position: absolute;
+  bottom: 6px;
+  left: -2%;
+  width: 104%;
+  height: 12px;
+  background-color: #fcebd7; /* Tono durazno / plumón claro */
+  z-index: -1;
+  transform: rotate(-1.5deg);
+  border-radius: 2px;
 }
 
 .section-desc {
-  font-size: 1.02rem;
-  color: #cbd5e1;
-  line-height: 1.65;
   margin: 0;
 }
 
+.highlight-desc {
+  background-color: #1565c0;
+  color: #ffffff;
+  padding: 0.3rem 0.6rem;
+  line-height: 1.8;
+  border-radius: 4px;
+  font-size: 1.05rem;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
 /* =========================================================
-   GRID DE LABORATORIOS (Responsive Auto-Fit)
-========================================================= */
-.labs-grid {
+   GRID Y CARRUSEL
+======================================================== */
+.labs-wrapper.is-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2.5rem;
 }
 
+.labs-wrapper.is-carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 2rem;
+  padding-bottom: 2.5rem; /* space for shadow */
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.labs-wrapper.is-carousel .lab-vblock {
+  min-width: 320px;
+  max-width: 380px;
+  flex: 0 0 auto;
+  scroll-snap-align: center;
+}
+
+/* Scrollbar para el carrusel */
+.labs-wrapper.is-carousel::-webkit-scrollbar {
+  height: 8px;
+}
+.labs-wrapper.is-carousel::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 4px;
+}
+.labs-wrapper.is-carousel::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+.labs-wrapper.is-carousel::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
 /* =========================================================
-   ESTILO CARD VBLOCK (Inspiración VidaUninter)
-========================================================= */
+   ESTILO CARD VBLOCK
+======================================================== */
 .lab-vblock {
   display: flex;
   flex-direction: column;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
   border-radius: 20px;
   overflow: hidden;
-  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1),
-              box-shadow 0.3s,
-              border-color 0.3s;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.4s ease;
 }
 
-.lab-vblock:hover {
-  transform: translateY(-6px);
-  border-color: rgba(253, 230, 138, 0.3);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+/* Efecto Hover Real y Simulado */
+.lab-vblock:hover,
+.lab-vblock.simulated-hover {
+  transform: translateY(-8px);
+  border-color: #1565c0;
+  box-shadow: 0 15px 40px rgba(21, 101, 192, 0.15);
 }
 
 .lab-vblock__img-wrap {
   position: relative;
   width: 100%;
-  aspect-ratio: 16/9;
+  aspect-ratio: 16/10;
   overflow: hidden;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .lab-vblock__img {
@@ -202,74 +302,52 @@ const getLabImage = (index: number) => {
   transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.lab-vblock:hover .lab-vblock__img {
-  transform: scale(1.06);
-}
-
-.lab-vblock__badge {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  background: #1565c0;
-  color: #ffffff;
-  font-size: 0.72rem;
-  font-weight: 800;
-  padding: 0.35rem 0.85rem;
-  border-radius: 50px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.lab-vblock__emoji {
-  font-size: 0.95rem;
-  line-height: 1;
+.lab-vblock:hover .lab-vblock__img,
+.lab-vblock.simulated-hover .lab-vblock__img {
+  transform: scale(1.05);
 }
 
 /* Cuerpo de la Tarjeta */
 .lab-vblock__body {
-  padding: 2.25rem 2rem;
+  padding: 2rem 2rem;
   display: flex;
   flex-direction: column;
-  gap: 1.1rem;
+  gap: 1rem;
   flex: 1;
 }
 
 .lab-vblock__title {
   font-family: var(--font-serif, Lora, Georgia, serif);
-  font-size: 1.4rem;
+  font-size: 1.45rem;
   font-weight: 800;
-  color: #ffffff;
+  color: #0f3c61;
   margin: 0;
-  letter-spacing: -0.01em;
 }
 
 .lab-vblock__desc {
-  font-size: 0.92rem;
-  color: #cbd5e1;
+  font-size: 0.95rem;
+  color: #64748b;
   line-height: 1.6;
   margin: 0;
 }
 
+.divider {
+  height: 1px;
+  background-color: #e2e8f0;
+  margin: 0.5rem 0;
+}
+
 /* Características / Features */
 .lab-vblock__features {
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  padding-top: 1.25rem;
   margin-top: auto;
 }
 
 .features-title {
   display: block;
   font-size: 0.75rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+  font-weight: 700;
   color: #94a3b8;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
 }
 
 .features-list {
@@ -278,78 +356,70 @@ const getLabImage = (index: number) => {
   margin: 0;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 0.65rem;
+  gap: 0.8rem;
 }
 
 .features-list li {
   display: flex;
   align-items: flex-start;
   gap: 10px;
-  font-size: 0.88rem;
-  color: #e2e8f0;
+  font-size: 0.9rem;
+  color: #475569;
   line-height: 1.4;
 }
 
-.feat-check {
-  color: #fde68a;
+.feat-check.color-blue {
+  color: #1565c0;
   flex-shrink: 0;
   margin-top: 2px;
 }
 
 /* =========================================================
    RESPONSIVE
-========================================================= */
+======================================================== */
 @media (max-width: 640px) {
-  .labs-grid {
+  .labs-wrapper.is-grid {
     grid-template-columns: 1fr;
   }
   .lab-vblock__body {
-    padding: 1.75rem 1.5rem;
+    padding: 1.5rem;
   }
 }
 
 /* =========================================================
    ANIMACIONES de Entrada
-========================================================= */
+======================================================== */
 @keyframes fadeUpIn {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
 }
-
 .animate-header {
   animation: fadeUpIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
-
 .stagger-1 {
   animation: fadeUpIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards;
 }
 
 /* =========================================================
-   CTA PROYECTOS ESCAT (Efecto Glassmorphic / Premium)
-   ========================================================= */
+   CTA PROYECTOS ESCAT
+========================================================= */
 .projects-blog-cta {
   margin-top: 4.5rem;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
   border-radius: 20px;
   padding: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s, box-shadow 0.3s;
+  transition: all 0.3s ease;
 }
 
 .projects-blog-cta:hover {
   transform: translateY(-4px);
-  border-color: rgba(253, 230, 138, 0.3);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  border-color: #cbd5e1;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
 }
 
 .projects-blog-cta__body {
@@ -360,8 +430,8 @@ const getLabImage = (index: number) => {
 }
 
 .projects-blog-cta__icon {
-  background: rgba(253, 230, 138, 0.1);
-  color: #fde68a;
+  background: rgba(21, 101, 192, 0.1);
+  color: #1565c0;
   width: 56px;
   height: 56px;
   border-radius: 12px;
@@ -369,7 +439,6 @@ const getLabImage = (index: number) => {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  border: 1px solid rgba(253, 230, 138, 0.2);
 }
 
 .projects-blog-cta__info {
@@ -381,40 +450,38 @@ const getLabImage = (index: number) => {
 .projects-blog-cta__title {
   font-family: var(--font-serif, Lora, Georgia, serif);
   font-size: 1.4rem;
-  font-weight: 850;
-  color: #ffffff;
+  font-weight: 800;
+  color: #0f3c61;
   margin: 0;
 }
 
 .projects-blog-cta__desc {
   font-size: 0.95rem;
-  color: #cbd5e1;
+  color: #64748b;
   line-height: 1.6;
   margin: 0;
 }
 
 .projects-blog-cta__btn {
-  background: #fde68a;
-  color: #0f3c61;
+  background: #0f3c61;
+  color: #ffffff;
   padding: 0.9rem 1.8rem;
   border-radius: 10px;
   font-size: 0.9rem;
-  font-weight: 800;
+  font-weight: 700;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
   gap: 8px;
   white-space: nowrap;
-  transition: background-color 0.2s, transform 0.2s;
-  box-shadow: 0 4px 12px rgba(253, 230, 138, 0.2);
+  transition: all 0.2s;
 }
 
 .projects-blog-cta__btn:hover {
-  background: #fef08a;
+  background: #1565c0;
   transform: translateY(-2px);
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .projects-blog-cta {
     flex-direction: column;

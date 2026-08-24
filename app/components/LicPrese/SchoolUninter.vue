@@ -6,77 +6,81 @@ const blogs = [
     key: "daeya",
     label: "DAEYA",
     nombre: "Atención a Estudiantes UNINTER",
-    color: "#0F3C61",
+    color: "#1e3a5f",
     href: "https://blogs.uninter.edu.mx/daeya/",
   },
   {
     key: "arq",
     label: "ARQ-ICI",
     nombre: "Arquitectura e Ingeniería Civil",
-    color: "#546E7A",
+    color: "#546e7a",
     href: "https://blogs.uninter.edu.mx/arq-ici/",
   },
   {
     key: "siu",
     label: "SIU",
     nombre: "Secundaria Internacional",
-    color: "#E65100",
+    color: "#d9531e",
     href: "https://blogs.uninter.edu.mx/siu/",
   },
   {
     key: "biu",
     label: "BIU",
     nombre: "Bachillerato Internacional",
-    color: "#2E7D32",
+    color: "#2e7d32",
     href: "https://blogs.uninter.edu.mx/biu/",
   },
   {
     key: "escat",
     label: "ESCAT",
     nombre: "Ciencias, Artes y Tecnología",
-    color: "#6A1B9A",
+    color: "#6a1b9a",
     href: "https://blogs.uninter.edu.mx/escat/",
   },
   {
     key: "endecs",
     label: "ENDECS",
     nombre: "Negocios, Derecho y Ciencias Sociales",
-    color: "#1565C0",
+    color: "#1565c0",
     href: "https://blogs.uninter.edu.mx/endecs/",
   },
   {
     key: "ehli",
     label: "EHLI",
     nombre: "Humanidades, Lenguas e Internacional.",
-    color: "#00695C",
+    color: "#00695c",
     href: "https://blogs.uninter.edu.mx/ehli/",
   },
   {
     key: "spanish",
     label: "SS",
     nombre: "Spanish School",
-    color: "#BF360C",
+    color: "#bf360c",
     href: "https://spanishuninter.blog/",
   },
 ];
 </script>
 
 <template>
-  <section class="bl-section uninter-section">
+  <section class="bl-section">
     <div class="uninter-container">
+      <!-- ENCABEZADO -->
       <div class="bl-header">
-        <div>
-          <div class="uninter-eyebrow">Comunidad académica</div>
-          <h2 class="uninter-section-title">Blogs</h2>
+        <div class="bl-header__left">
+          <span class="bl-eyebrow">— COMUNIDAD ACADÉMICA</span>
+          <h2 class="bl-title">Blogs</h2>
         </div>
         <a
           href="https://uninter.edu.mx/blogs"
           target="_blank"
-          class="uninter-ver-mas"
-          >Ver todos →</a
+          rel="noopener"
+          class="bl-btn-all"
         >
+          Ver todos →
+        </a>
       </div>
 
+      <!-- GRID DE TARJETAS -->
       <div class="bl-grid">
         <a
           v-for="b in blogs"
@@ -86,12 +90,18 @@ const blogs = [
           rel="noopener"
           class="bl-card"
         >
-          <div class="bl-card__thumb" :style="`background:${b.color}`">
+          <!-- Banner Superior de Color con Marca de Agua -->
+          <div class="bl-card__thumb" :style="{ backgroundColor: b.color }">
+            <span class="bl-card__watermark" aria-hidden="true">{{ b.label }}</span>
             <span class="bl-card__initials">{{ b.label }}</span>
           </div>
+
+          <!-- Cuerpo de la Tarjeta -->
           <div class="bl-card__body">
             <p class="bl-card__nombre">{{ b.nombre }}</p>
-            <span class="bl-card__link">Leer <ArrowRight :size="11" /></span>
+            <span class="bl-card__link">
+              Leer <ArrowRight :size="13" class="bl-card__icon" />
+            </span>
           </div>
         </a>
       </div>
@@ -101,95 +111,197 @@ const blogs = [
 
 <style scoped>
 .bl-section {
-  background: #f8f9fb;
+  background-color: #f8fafc;
+  padding: 5rem 0 5.5rem;
+  font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
 }
+
+.uninter-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+/* ═══ ENCABEZADO ═══ */
 .bl-header {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1.25rem;
 }
 
-.bl-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 0.875rem;
-}
-
-.bl-card {
-  background: #fff;
-  border: 1px solid #e2e8f0;
-  border-radius: 10px;
-  overflow: hidden;
-  text-decoration: none;
-  transition:
-    transform 0.2s,
-    box-shadow 0.2s;
+.bl-header__left {
   display: flex;
   flex-direction: column;
 }
-.bl-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.09);
+
+.bl-eyebrow {
+  color: #0f3c61;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
 }
 
+.bl-title {
+  color: #0f3c61;
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: clamp(2.4rem, 4vw, 3.1rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.bl-btn-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1.5px solid #0f3c61;
+  border-radius: 9999px;
+  color: #0f3c61;
+  padding: 0.45rem 1.4rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-decoration: none;
+  background: #ffffff;
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bl-btn-all:hover {
+  background: #0f3c61;
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(15, 60, 97, 0.15);
+}
+
+/* ═══ GRID ═══ */
+.bl-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+}
+
+/* ═══ TARJETA INDIVIDUAL (LIMPIA, SIN PARPADEO) ═══ */
+.bl-card {
+  background: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 16px;
+  overflow: hidden;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+}
+
+.bl-card:hover {
+  border-color: #0084d1;
+  box-shadow: 0 12px 28px rgba(15, 60, 97, 0.1);
+}
+
+/* Banner Superior */
 .bl-card__thumb {
-  height: 72px;
+  height: 82px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow: hidden;
+  user-select: none;
 }
 
+/* Marca de Agua Transparente en lateral derecho */
+.bl-card__watermark {
+  position: absolute;
+  right: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3.2rem;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.14);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  pointer-events: none;
+  white-space: nowrap;
+  font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+  z-index: 1;
+}
+
+/* Texto Central Blanco Nítido */
 .bl-card__initials {
-  font-size: 1rem;
+  position: relative;
+  z-index: 2;
+  font-size: 1.08rem;
   font-weight: 800;
-  color: #fff;
+  color: #ffffff;
   letter-spacing: 0.06em;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+  pointer-events: none;
 }
 
+/* Cuerpo de Tarjeta */
 .bl-card__body {
-  padding: 0.875rem;
+  padding: 1.25rem 1.25rem 1.35rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  justify-content: space-between;
   flex: 1;
+  gap: 1rem;
+  background: #ffffff;
 }
 
 .bl-card__nombre {
-  font-size: 0.8rem;
+  font-size: 0.92rem;
   font-weight: 700;
-  color: #1e293b;
-  line-height: 1.4;
+  color: #0f3c61;
+  line-height: 1.38;
   margin: 0;
-  flex: 1;
 }
 
 .bl-card__link {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 0.2rem;
-  font-size: 0.72rem;
+  gap: 0.35rem;
+  font-size: 0.85rem;
   font-weight: 700;
-  color: #0f3c61;
+  color: #0084d1;
+  transition: color 0.2s ease, gap 0.2s ease;
 }
 
-@media (max-width: 900px) {
+.bl-card:hover .bl-card__link {
+  color: #005f96;
+  gap: 0.55rem;
+}
+
+.bl-card__icon {
+  flex-shrink: 0;
+}
+
+/* ═══ RESPONSIVE ═══ */
+@media (max-width: 1024px) {
   .bl-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media (max-width: 640px) {
+
+@media (max-width: 768px) {
   .bl-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .bl-card__body {
+    padding: 1rem;
   }
 }
-@media (max-width: 400px) {
+
+@media (max-width: 480px) {
   .bl-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.625rem;
+    grid-template-columns: 1fr;
   }
 }
 </style>

@@ -1,50 +1,15 @@
 <script setup lang="ts">
-import { CheckCircle2 } from "lucide-vue-next";
-
-const form = reactive({
-  nombre: "",
-  apellido: "",
-  telefono: "",
-  email: "",
-  modalidad: "",
-  privacidad: false,
-});
-
-const submitted = ref(false);
-const loading = ref(false);
-
-async function enviar() {
-  if (!form.privacidad) return;
-  loading.value = true;
-  await new Promise((r) => setTimeout(r, 900));
-  loading.value = false;
-  submitted.value = true;
-}
-
-function reiniciar() {
-  Object.assign(form, {
-    nombre: "",
-    apellido: "",
-    telefono: "",
-    email: "",
-    modalidad: "",
-    privacidad: false,
-  });
-  submitted.value = false;
-}
-
 useHead({
   script: [
-    { src: "https://link.superleads.mx/js/form_embed.js", defer: true }
+    { src: 'https://link.superleads.mx/js/form_embed.js', defer: true }
   ]
-});
+})
 </script>
 
 <template>
-  <section class="reg-section">
+  <section class="reg-section" id="formulario-registro">
     <div class="siu-container">
       <div class="reg-card">
-        <!-- Lado formulario -->
         <div class="reg-form-side">
           <iframe
             src="https://link.superleads.mx/widget/form/FqVQFTMb4bpP98Fi2kVS"
@@ -62,11 +27,8 @@ useHead({
             data-layout-iframe-id="inline-FqVQFTMb4bpP98Fi2kVS"
             data-form-id="FqVQFTMb4bpP98Fi2kVS"
             title="FormSecundaria"
-          >
-          </iframe>
+          ></iframe>
         </div>
-
-        <!-- Lado mascota -->
         <div class="reg-mascot-side">
           <div class="mascot-wrap">
             <img
@@ -82,84 +44,68 @@ useHead({
 </template>
 
 <style scoped>
-/* Colores SIU Secundaria */
-.reg-section {
-  --s: #ecab00;
-  --sd: #c49000;
-  --sbg: #1a1500;
-  background: #f5f0e8;
-  padding: 5rem 0;
-}
-
 .siu-container {
-  max-width: 1100px;
   margin: 0 auto;
+  max-width: 1100px;
   padding: 0 1.5rem;
 }
-
-/* Tarjeta */
+.reg-section {
+  background: #fdfbf2;
+  padding: 5rem 0;
+}
 .reg-card {
-  display: flex;
   background: #fff;
   border-radius: 24px;
+  box-shadow: 0 24px 60px rgba(236, 171, 0, 0.18);
+  display: flex;
+  min-height: 560px;
   overflow: hidden;
-  box-shadow: 0 24px 60px rgba(236, 171, 0, 0.12);
-  min-height: 580px;
 }
-
-/* Lado formulario */
 .reg-form-side {
   flex: 1.25;
-  padding: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 2rem;
 }
-
-/* Lado mascota */
 .reg-mascot-side {
-  flex: 0.75;
-  background: linear-gradient(145deg, var(--s) 0%, var(--sbg) 100%);
-  display: flex;
   align-items: center;
+  background: linear-gradient(145deg, #ecab00, #362400);
+  display: flex;
+  flex: 0.75;
   justify-content: center;
   overflow: hidden;
   position: relative;
 }
-
-.reg-mascot-side::before {
-  content: "";
-  position: absolute;
-  inset: 0;
+.reg-mascot-side:before {
   background: radial-gradient(
     circle at 30% 70%,
-    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.1) 0,
     transparent 60%
   );
+  content: "";
+  inset: 0;
+  position: absolute;
 }
-
 .mascot-wrap {
-  width: 85%;
   max-width: 300px;
   position: relative;
+  width: 85%;
   z-index: 1;
 }
-
 .mascot-img {
-  width: 100%;
+  filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.4));
   height: auto;
   object-fit: contain;
-  filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.35));
+  width: 100%;
 }
-
-/* Responsive */
 @media (max-width: 900px) {
   .reg-card {
     flex-direction: column-reverse;
   }
   .reg-mascot-side {
-    padding: 2.5rem 0;
     min-height: 200px;
+    padding: 2.5rem 0;
   }
   .mascot-wrap {
     width: 50%;
@@ -168,10 +114,12 @@ useHead({
     padding: 2.5rem 1.75rem;
   }
 }
-
 @media (max-width: 560px) {
   .reg-section {
     padding: 3rem 0;
+  }
+  .reg-form-side {
+    padding: 2rem 1.25rem;
   }
 }
 </style>

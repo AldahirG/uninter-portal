@@ -10,13 +10,13 @@
 
     <!-- Contenido del Posgrado -->
     <main v-else>
-      <CareerHeroShowcase 
+      <PosgradoHeroShowcase 
         :data="careerData" 
         :programType="programTypeName"
         :duration="durationText"
       />
       
-      <CareerOverview :data="careerData" />
+      <PosgradoOverview :data="careerData" />
       
       <!-- PLAN DE ESTUDIOS NATIVO PARA POSGRADOS -->
       <section class="pg-syllabus-section" id="plan-estudios">
@@ -49,20 +49,24 @@
         </div>
       </section>
 
-      <CareerCertifications 
+      <PosgradoAreas :data="careerData" />
+      
+      <PosgradoProfiles :data="careerData" />
+
+      <PosgradoCertifications 
         v-if="careerData.certificaciones && careerData.certificaciones.length" 
         :certificaciones="careerData.certificaciones" 
       />
       
-      <CareerResearch
+      <PosgradoResearch
         v-if="careerData.experienciaPractica && careerData.experienciaPractica.length"
         :labs="careerData.experienciaPractica"
         projectsBlogUrl="https://blogs.uninter.edu.mx/ESCAT/index.php/category/proyectos/"
       />
 
-      <CareerFAQ v-if="careerData.faq && careerData.faq.length" :faq="careerData.faq" />
+      <PosgradoFAQ v-if="careerData.faq && careerData.faq.length" :faq="careerData.faq" />
 
-      <CareerAdmissionCTA />
+      <PosgradoAdmissionCTA />
     </main>
 
     <FloatingActions />
@@ -76,12 +80,14 @@ import { useRoute } from "vue-router";
 import NavbarIndex from "~/components/navbar/Index.vue";
 import FloatingActions from "~/components/portal/FloatingActions.vue";
 
-import CareerHeroShowcase from "~/components/degree/shared/CareerHeroShowcase.vue";
-import CareerOverview from "~/components/degree/shared/CareerOverview.vue";
-import CareerCertifications from "~/components/degree/shared/CareerCertifications.vue";
-import CareerResearch from "~/components/degree/shared/CareerResearch.vue";
-import CareerAdmissionCTA from "~/components/degree/shared/CareerAdmissionCTA.vue";
-import CareerFAQ from "~/components/degree/shared/CareerFAQ.vue";
+import PosgradoHeroShowcase from "~/components/degree/posgrados/PosgradoHeroShowcase.vue";
+import PosgradoOverview from "~/components/degree/posgrados/PosgradoOverview.vue";
+import PosgradoAreas from "~/components/degree/posgrados/PosgradoAreas.vue";
+import PosgradoProfiles from "~/components/degree/posgrados/PosgradoProfiles.vue";
+import PosgradoCertifications from "~/components/degree/posgrados/PosgradoCertifications.vue";
+import PosgradoResearch from "~/components/degree/posgrados/PosgradoResearch.vue";
+import PosgradoAdmissionCTA from "~/components/degree/posgrados/PosgradoAdmissionCTA.vue";
+import PosgradoFAQ from "~/components/degree/posgrados/PosgradoFAQ.vue";
 
 // Data JSON
 import posgradosDB from "~/assets/data/posgrados.json";
@@ -143,7 +149,7 @@ useHead(() => ({
   margin-bottom: 1.5rem;
 }
 .btn-return {
-  background: #546E7A;
+  background: #8f9a3e;
   color: white;
   padding: 0.8rem 1.5rem;
   border-radius: 8px;
@@ -178,7 +184,7 @@ useHead(() => ({
   font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: #546E7A;
+  color: #8f9a3e;
   margin-bottom: 0.75rem;
   display: block;
 }
@@ -194,7 +200,7 @@ useHead(() => ({
 
 .syllabus-header .section-title em {
   font-style: italic;
-  color: #546E7A;
+  color: #8f9a3e;
 }
 
 .syllabus-header .section-desc {
@@ -238,8 +244,8 @@ useHead(() => ({
 
 .semestre-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(84, 110, 122, 0.08);
-  border-color: rgba(84, 110, 122, 0.15);
+  box-shadow: 0 20px 40px rgba(143, 154, 62, 0.08);
+  border-color: rgba(143, 154, 62, 0.15);
 }
 
 .semestre-header {
@@ -276,7 +282,7 @@ useHead(() => ({
 }
 
 .subjects-list .bullet {
-  color: #546E7A;
+  color: #8f9a3e;
   font-size: 1.2rem;
   line-height: 0.8;
 }

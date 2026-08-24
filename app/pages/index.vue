@@ -25,16 +25,14 @@
     <CalculaBeca />
 
     <!-- 8. Spanish School -->
-    <SpanishSchool />
+    <!--<SpanishSchool /> -->
+    <SpanishSchoolProp />
 
     <!-- 9. Encuéntranos -->
     <Encuentranos />
 
     <!-- 10. Acreditaciones y certificaciones -->
     <Acreditaciones />
-
-    <!-- 11. Formulario de Registro (Superleads) -->
-    <FormRegister />
 
     <!-- Footer -->
     <PortalFooter />
@@ -45,27 +43,34 @@
 </template>
 
 <script setup lang="ts">
-import Navbare        from '@/components/navbar/Index.vue'
-import HeroCarousel   from '@/components/portal/HeroCarousel.vue'
-import OfertaEducativa from '@/components/portal/OfertaEducativa.vue'
-import HistoriasExito  from '@/components/portal/Historiasexito.vue'
-import NoticiasUninter from '@/components/portal/Noticiasuninter.vue'
-import BlogsSection    from '@/components/portal/Blogssection.vue'
-import VidaUniversitaria from '@/components/portal/VidaUniversitaria.vue'
-import CalculaBeca     from '@/components/portal/Calculabeca.vue'
-import SpanishSchool   from '@/components/portal/Spanishschool.vue'
-import Encuentranos    from '@/components/portal/Encuentranos.vue'
-import Acreditaciones  from '@/components/portal/Acreditaciones.vue'
-import FormRegister    from '@/components/portal/FormRegister.vue'
-import PortalFooter    from '@/components/portal/Footer.vue'
-import FloatingActions from '@/components/portal/FloatingActions.vue'
+import Navbare from "@/components/navbar/Index.vue";
+import HeroCarousel from "@/components/portal/HeroCarousel.vue";
+import OfertaEducativa from "@/components/portal/OfertaEducativa.vue";
+import HistoriasExito from "@/components/portal/Historiasexito.vue";
+import NoticiasUninter from "@/components/portal/Noticiasuninter.vue";
+import BlogsSection from "@/components/portal/Blogssection.vue";
+import VidaUniversitaria from "@/components/portal/VidaUniversitaria.vue";
+import CalculaBeca from "@/components/portal/Calculabeca.vue";
+import SpanishSchool from "@/components/portal/Spanishschool.vue";
+import SpanishSchoolProp from "@/components/portal/SpanishSchoolProp.vue"; // Importa el componente para usar sus props si es necesario
+import Encuentranos from "@/components/portal/Encuentranos.vue";
+import Acreditaciones from "@/components/portal/Acreditaciones.vue";
+import PortalFooter from "@/components/portal/Footer.vue";
+import FloatingActions from "@/components/portal/FloatingActions.vue";
 
 useHead({
-  title: 'UNINTER — Universidad Internacional | Cuernavaca, Morelos',
+  title: "UNINTER — Universidad Internacional | Cuernavaca, Morelos",
   meta: [
-    { name: 'description', content: 'Universidad Internacional UNINTER. Secundaria, Bachillerato, Licenciaturas, Posgrados y más en Cuernavaca, Morelos. +30 años formando profesionales.' },
-    { property: 'og:title', content: 'UNINTER — Universidad Internacional' },
-    { property: 'og:description', content: 'Forma tu futuro en UNINTER. Cuernavaca, Morelos.' },
+    {
+      name: "description",
+      content:
+        "Universidad Internacional UNINTER. Secundaria, Bachillerato, Licenciaturas, Posgrados y más en Cuernavaca, Morelos. +30 años formando profesionales.",
+    },
+    { property: "og:title", content: "UNINTER — Universidad Internacional" },
+    {
+      property: "og:description",
+      content: "Forma tu futuro en UNINTER. Cuernavaca, Morelos.",
+    },
   ],
-})
+});
 </script>

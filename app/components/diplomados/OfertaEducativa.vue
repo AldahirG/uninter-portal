@@ -151,77 +151,75 @@ const tabs = [
   { label: "Educación e Investigación", value: "EducacionInvestigacion" },
   { label: "Idiomas", value: "Idiomas" },
   { label: "Diseño y Construcción", value: "Diseno" },
-  { label: "Psicología y Doblaje", value: "Psicologia" }
+  { label: "Psicología y Doblaje", value: "Psicologia" },
 ];
 
 const programList = computed(() => {
   const list: any[] = [];
-  categorias.forEach(cat => {
-    cat.programas.forEach(p => {
+  categorias.forEach((cat) => {
+    cat.programas.forEach((p) => {
       list.push({
         nombre: p.nombre,
         sigla: p.sigla,
         nuevo: p.nuevo,
         area: cat.area,
         icon: cat.icon,
-        slug: p.nombre.toLowerCase()
+        slug: p.nombre
+          .toLowerCase()
           .normalize("NFD")
           .replace(/[\u0300-\u036f]/g, "")
           .replace(/[^a-z0-9\s-]/g, "")
           .replace(/\s+/g, "-")
-          .replace(/-+/g, "-")
+          .replace(/-+/g, "-"),
       });
     });
   });
 
   if (filter.value === "Todos") return list;
   if (filter.value === "Negocios") {
-    return list.filter(item => 
-      item.area.includes("Publicidad") || 
-      item.area.includes("Marketing") || 
-      item.area.includes("Relaciones Mercantiles")
+    return list.filter(
+      (item) =>
+        item.area.includes("Publicidad") ||
+        item.area.includes("Marketing") ||
+        item.area.includes("Relaciones Mercantiles")
     );
   }
   if (filter.value === "Administrativos") {
-    return list.filter(item => 
-      item.area.includes("Administrativos")
-    );
+    return list.filter((item) => item.area.includes("Administrativos"));
   }
   if (filter.value === "Tecnologia") {
-    return list.filter(item => 
-      item.area.includes("Inteligencia Artificial") || 
-      item.area.includes("Innovación") || 
-      item.area.includes("Era Digital")
+    return list.filter(
+      (item) =>
+        item.area.includes("Inteligencia Artificial") ||
+        item.area.includes("Innovación") ||
+        item.area.includes("Era Digital")
     );
   }
   if (filter.value === "Educacion") {
-    return list.filter(item => 
-      item.area.includes("Español") || 
-      item.area.includes("Docencia")
+    return list.filter(
+      (item) => item.area.includes("Español") || item.area.includes("Docencia")
     );
   }
   if (filter.value === "EducacionInvestigacion") {
-    return list.filter(item => 
+    return list.filter((item) =>
       item.area.includes("Educación e Investigación")
     );
   }
   if (filter.value === "Idiomas") {
-    return list.filter(item => 
-      item.area.includes("Idiomas")
-    );
+    return list.filter((item) => item.area.includes("Idiomas"));
   }
   if (filter.value === "Diseno") {
-    return list.filter(item => 
-      item.area.includes("Diseño") || 
-      item.area.includes("Modas") || 
-      item.area.includes("Arquitectura") || 
-      item.area.includes("Construcción")
+    return list.filter(
+      (item) =>
+        item.area.includes("Diseño") ||
+        item.area.includes("Modas") ||
+        item.area.includes("Arquitectura") ||
+        item.area.includes("Construcción")
     );
   }
   if (filter.value === "Psicologia") {
-    return list.filter(item => 
-      item.area.includes("Psicología") || 
-      item.area.includes("Doblaje")
+    return list.filter(
+      (item) => item.area.includes("Psicología") || item.area.includes("Doblaje")
     );
   }
   return list;
@@ -237,7 +235,7 @@ function openDrawer(p: any) {
     descripcion: details.description || p.nombre,
     ingreso: details.ingreso || "",
     egreso: details.egreso || "",
-    perfilEgreso: details.perfilEgreso || ""
+    perfilEgreso: details.perfilEgreso || "",
   };
   isDrawerOpen.value = true;
 }
@@ -258,14 +256,20 @@ function scrollToContact() {
 <template>
   <section id="oferta" class="dp-ofe">
     <div class="dp-container">
-      <!-- Head -->
+      <!-- Encabezado alineado a la izquierda según la captura -->
       <div class="dp-ofe__head">
-        <div class="dp-ofe__head-icon"><Icon name="mdi:book-open-variant" size="32" /></div>
-        <h2 class="dp-ofe__title">OFERTA EDUCATIVA</h2>
-        <p class="dp-ofe__sub">Explora nuestros cursos y diplomados de alta especialidad</p>
+        <span class="dp-ofe__eyebrow">PROGRAMAS DISPONIBLES</span>
+        <h2 class="dp-ofe__title">
+          Explora nuestros<br />
+          <em class="title-accent">Diplomados</em>
+        </h2>
+        <p class="dp-ofe__sub">
+          Encuentra el programa ideal para especializarte y adquirir ventajas
+          competitivas inmediatas en tu campo profesional.
+        </p>
       </div>
 
-      <!-- Filtros / Tabs -->
+      <!-- Filtros / Píldoras Naranjas -->
       <div class="dp-tabs">
         <button
           v-for="t in tabs"
@@ -286,20 +290,12 @@ function scrollToContact() {
           class="dp-card"
           @click="openDrawer(p)"
         >
-          <div class="dp-card__header">
-            <span class="dp-card__area-badge">
-              <Icon :name="p.icon" size="13" />
-              {{ p.area }}
-            </span>
-            <span v-if="p.nuevo" class="dp-card__new-badge">Nuevo</span>
-          </div>
-
           <h3 class="dp-card__title">{{ p.nombre }}</h3>
 
           <div class="dp-card__footer">
             <span class="dp-card__sigla" v-if="p.sigla">{{ p.sigla }}</span>
             <span class="dp-card__link">
-              Saber más <ArrowRight :size="13" />
+              Saber más <ArrowRight :size="14" />
             </span>
           </div>
         </div>
@@ -313,7 +309,11 @@ function scrollToContact() {
         :class="{ 'is-open': isDrawerOpen }"
         @click="closeDrawer"
       >
-        <div class="oe-drawer" :class="{ 'is-open': isDrawerOpen }" @click.stop>
+        <div
+          class="oe-drawer"
+          :class="{ 'is-open': isDrawerOpen }"
+          @click.stop
+        >
           <button class="oe-drawer-close" @click="closeDrawer">
             <X :size="24" />
           </button>
@@ -341,10 +341,7 @@ function scrollToContact() {
               </NuxtLink>
 
               <!-- Solicitar admisión (hace scroll al formulario) -->
-              <button
-                @click="scrollToContact"
-                class="oe-btn oe-btn--outline"
-              >
+              <button @click="scrollToContact" class="oe-btn oe-btn--outline">
                 <MessageCircle :size="16" /> Solicitar admisión
               </button>
             </div>
@@ -357,121 +354,130 @@ function scrollToContact() {
 
 <style scoped>
 .dp-ofe {
-  --p: #6D4C41; --pd: #4E342E; --pl: #A1887F;
   background: #ffffff;
-  padding: 5.5rem 0;
+  padding: 5rem 0 6.5rem;
 }
 
-.dp-container { max-width: 1280px; margin: 0 auto; padding: 0 1.5rem; }
+.dp-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
 
-.dp-ofe__head { text-align: center; margin-bottom: 3rem; }
-.dp-ofe__head-icon { color: var(--p); margin-bottom: 0.75rem; }
+/* ═══ ENCABEZADO ═══ */
+.dp-ofe__head {
+  text-align: left;
+  margin-bottom: 2.5rem;
+}
+
+.dp-ofe__eyebrow {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #71717a;
+  margin-bottom: 0.75rem;
+}
+
 .dp-ofe__title {
   font-family: var(--font-serif, Georgia, serif);
-  font-size: clamp(1.6rem, 3.5vw, 2.4rem);
-  font-weight: 900; color: #2a1810;
-  letter-spacing: 0.05em; margin: 0 0 0.5rem;
+  font-size: clamp(2.6rem, 4.8vw, 3.8rem);
+  font-weight: 900;
+  color: #0f3c61;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  margin: 0 0 1.25rem;
 }
-.dp-ofe__sub { font-size: 1rem; color: #6d4c41; margin: 0; }
 
-/* Tabs */
+.title-accent {
+  color: #e26a1b;
+  font-style: italic;
+  font-family: var(--font-serif, Georgia, serif);
+}
+
+.dp-ofe__sub {
+  font-size: 1.02rem;
+  color: #52525b;
+  line-height: 1.6;
+  max-width: 620px;
+  margin: 0;
+}
+
+/* ═══ PÍLDORAS DEL FILTRO (NARANJAS) ═══ */
 .dp-tabs {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 3rem;
+  gap: 0.75rem;
+  margin-bottom: 3.5rem;
 }
 
 .dp-tab-btn {
-  background: #f4f2f0;
-  border: 1px solid rgba(109,76,65,0.08);
-  color: #5d514b;
-  padding: 0.6rem 1.25rem;
-  border-radius: 99px;
-  font-size: 0.85rem;
-  font-weight: 700;
+  background: #ffffff;
+  border: 1px solid #fed7aa;
+  color: #292524;
+  padding: 0.65rem 1.4rem;
+  border-radius: 9999px;
+  font-size: 0.9rem;
+  font-weight: 600;
   cursor: pointer;
-  transition: all 0.2s ease;
-}
-.dp-tab-btn:hover {
-  background: #ece9e6;
-  color: var(--p);
-}
-.dp-tab-btn.is-active {
-  background: var(--p);
-  color: #fff;
-  border-color: var(--p);
-  box-shadow: 0 4px 12px rgba(109,76,65,0.2);
+  transition: all 0.25s ease;
+  user-select: none;
 }
 
-/* Grid */
+.dp-tab-btn:hover {
+  border-color: #ea580c;
+  color: #ea580c;
+  background: #fff7ed;
+  transform: translateY(-2px);
+}
+
+.dp-tab-btn.is-active {
+  background: #ea580c;
+  color: #ffffff;
+  border-color: #ea580c;
+  font-weight: 700;
+  box-shadow: 0 4px 14px rgba(234, 88, 12, 0.25);
+  transform: translateY(-1px);
+}
+
+/* ═══ GRID DE TARJETAS ═══ */
 .dp-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.25rem;
+  gap: 1.5rem;
 }
 
-/* Card */
+/* ═══ TARJETA INDIVIDUAL ═══ */
 .dp-card {
-  background: #fbfafa;
-  border: 1px solid rgba(109,76,65,0.12);
-  border-radius: 14px;
-  padding: 1.75rem;
+  background: #ffffff;
+  border: 1px solid #fed7aa;
+  border-radius: 20px;
+  padding: 2.25rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 1.25rem;
+  min-height: 175px;
+  gap: 1.75rem;
   cursor: pointer;
-  transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s, background 0.25s;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .dp-card:hover {
   transform: translateY(-4px);
-  border-color: var(--p);
-  background: #ffffff;
-  box-shadow: 0 12px 36px rgba(109,76,65,0.08);
-}
-
-.dp-card__header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.dp-card__area-badge {
-  font-size: 0.68rem;
-  font-weight: 800;
-  color: var(--p);
-  background: rgba(109,76,65,0.06);
-  padding: 0.3rem 0.75rem;
-  border-radius: 99px;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  text-transform: uppercase;
-}
-
-.dp-card__new-badge {
-  font-size: 0.6rem;
-  font-weight: 950;
-  color: #fff;
-  background: #d87c3a;
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  border-color: #ea580c;
+  box-shadow: 0 14px 35px rgba(234, 88, 12, 0.1);
 }
 
 .dp-card__title {
-  font-family: var(--font-serif, Georgia, serif);
-  font-size: 1.125rem;
+  font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+  font-size: 1.15rem;
   font-weight: 800;
-  color: #2a1810;
-  line-height: 1.35;
+  color: #0f3c61;
+  line-height: 1.38;
   margin: 0;
-  flex: 1;
 }
 
 .dp-card__footer {
@@ -481,25 +487,25 @@ function scrollToContact() {
 }
 
 .dp-card__sigla {
-  font-size: 0.72rem;
-  font-weight: 700;
-  color: #8d7a71;
-  background: #f4f2f0;
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .dp-card__link {
-  font-size: 0.8rem;
-  font-weight: 800;
-  color: var(--p);
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #ea580c;
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  transition: transform 0.2s;
+  transition: transform 0.2s ease;
 }
+
 .dp-card:hover .dp-card__link {
-  transform: translateX(3px);
+  transform: translateX(4px);
 }
 
 /* =========================================================
@@ -508,7 +514,7 @@ function scrollToContact() {
 .oe-drawer-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(42, 24, 16, 0.4);
+  background: rgba(20, 10, 5, 0.45);
   backdrop-filter: blur(8px);
   z-index: 9999;
   opacity: 0;
@@ -545,22 +551,23 @@ function scrollToContact() {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
-  background: #f4f2f0;
-  border: none;
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #6d4c41;
+  color: #ea580c;
   cursor: pointer;
   transition: all 0.2s;
   z-index: 50;
 }
 
 .oe-drawer-close:hover {
-  background: #ece9e6;
+  background: #ea580c;
+  color: #ffffff;
   transform: rotate(90deg);
 }
 
@@ -579,8 +586,9 @@ function scrollToContact() {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: rgba(109, 76, 65, 0.08);
-  color: var(--p);
+  background: #fff7ed;
+  color: #ea580c;
+  border: 1px solid #fed7aa;
   padding: 0.5rem 1rem;
   border-radius: 99px;
   font-size: 0.8rem;
@@ -592,15 +600,15 @@ function scrollToContact() {
 .oe-detail-title {
   font-family: var(--font-serif, Georgia, serif);
   font-size: 2rem;
-  font-weight: 700;
-  color: #2a1810;
+  font-weight: 800;
+  color: #0f3c61;
   margin: 0;
-  line-height: 1.15;
+  line-height: 1.2;
 }
 
 .oe-detail-desc {
   font-size: 1.02rem;
-  color: #5d514b;
+  color: #475569;
   line-height: 1.65;
   margin: 0 0 3rem 0;
 }
@@ -629,35 +637,41 @@ function scrollToContact() {
 }
 
 .oe-btn--solid {
-  background: #8D6E63;
+  background: #ea580c;
   color: #ffffff;
   font-weight: 800;
   border: none;
-  box-shadow: 0 4px 15px rgba(141, 110, 99, 0.3);
+  box-shadow: 0 4px 15px rgba(234, 88, 12, 0.3);
 }
 
 .oe-btn--solid:hover {
-  background: #795548;
+  background: #c2410c;
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(141, 110, 99, 0.4);
+  box-shadow: 0 8px 25px rgba(234, 88, 12, 0.4);
 }
 
 .oe-btn--outline {
   background: transparent;
-  color: var(--p);
-  border: 2px solid var(--p);
+  color: #ea580c;
+  border: 2px solid #ea580c;
 }
 
 .oe-btn--outline:hover {
-  background: rgba(109, 76, 65, 0.05);
+  background: #fff7ed;
 }
 
 /* Responsive */
 @media (max-width: 1024px) {
-  .dp-grid { grid-template-columns: repeat(2, 1fr); }
+  .dp-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media (max-width: 640px) {
-  .dp-grid { grid-template-columns: 1fr; }
-  .oe-drawer-content { padding: 3rem 1.5rem; }
+  .dp-grid {
+    grid-template-columns: 1fr;
+  }
+  .oe-drawer-content {
+    padding: 3rem 1.5rem;
+  }
 }
 </style>

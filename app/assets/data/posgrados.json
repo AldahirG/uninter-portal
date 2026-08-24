@@ -6,45 +6,89 @@
     "type": "doctorado",
     "rvoe": "2010P05008/2010-04-15",
     "tagline": "Posgrado UNINTER de Excelencia Académica.",
-    "description": "Administración Alta Dirección Finanzas Internacionales",
-    "ingreso": "Capacidad de razonamiento, análisis y síntesis, de comprensión de lectura y expresión oral y escrita Comprensión de inglés Responsabilidad, capacidad de trabajo individual y...",
-    "egreso": "Investigador científico, docente de educación superior, asesor de políticas públicas o consultor de alto nivel estratégico.",
+    "description": "Formar investigadores, capaces de generar conocimiento original e innovador en el área de Finanzas, Mercadotecnia, Alta Dirección, Negocios Internacionales y Tecnología, con la finalidad de desarrollar modelos empresariales que promuevan el crecimiento de los diferentes sectores industriales, con una visión de impacto regional, nacional e internacional.",
+    "ingreso": [
+      "Capacidad de razonamiento, análisis y síntesis, de comprensión de lectura y expresión oral y escrita",
+      "Comprensión de inglés",
+      "Responsabilidad, capacidad de trabajo individual y en grupo",
+      "Espíritu crítico y autocrítico",
+      "Base significativa de formación metodológica",
+      "Interés por la Investigación",
+      "Interés por el trabajo académico de difusión y divulgación"
+    ],
+    "egreso": [
+      "Capacidad para generar y transmitir el conocimiento para formar nuevos investigadores en las áreas de conocimiento de finanzas, mercadotecnia, negocios internacionales, alta dirección y tecnología.",
+      "Capacidad de liderazgo intelectual para generar avances en la ciencia de la Administración, con una actitud ética, innovadora, crítica y de compromiso social.",
+      "Capacidad para generar conocimiento a través de la investigación científica, y divulgarlo a través de la docencia y la publicación de sus trabajos.",
+      "Competencia para asesorar organizaciones para lograr su desarrollo y crecimiento.",
+      "Habilidad para liderar grupos de investigación.",
+      "Habilidad para diagnosticar y solucionar problemas en las organizaciones y su entorno."
+    ],
     "experienciaPractica": [
       {
         "title": "Sala de Alta Dirección y Simulación",
         "desc": "Espacio ejecutivo acondicionado para el debate de casos de negocio, planeación estratégica y toma de decisiones corporativas.",
         "icon": "💼",
         "tag": "Executive",
-        "features": [
-          "Estudio de casos reales",
-          "Liderazgo simulado"
-        ]
+        "features": ["Estudio de casos reales", "Liderazgo simulado"]
       },
       {
         "title": "Biblioteca Digital y Bases de Datos",
         "desc": "Acceso ilimitado a journals de investigación científica indexados y plataformas de inteligencia financiera global.",
         "icon": "📚",
         "tag": "Research",
-        "features": [
-          "Bases de datos indexadas",
-          "Acceso remoto 24/7"
-        ]
+        "features": ["Bases de datos indexadas", "Acceso remoto 24/7"]
       }
     ],
-    "certificaciones": [],
+    "certificaciones": [
+      "ISO 9001:2015 (institucional), acreditación FIMPES (institucional)",
+      "Título de Doctorado: Al concluir satisfactoriamente todos los requisitos formales del programa",
+      "Certificado de Estudios o Historial Académico"
+    ],
     "plan": {
-      "Primer semestre": [
+      "Primer Semestre": [
         "Proyecto Doctoral I",
         "Metodología de la Investigación",
         "Estrategia, Productividad y Competitividad"
       ],
-      "Segundo semestre": [
+      "Segundo Semestre": [
         "Proyecto Doctoral II",
         "Seminario de Finanzas Internacionales",
         "Análisis Multivariante"
+      ],
+      "Tercer Semestre": [
+        "Proyecto Doctoral III",
+        "Gestión del Conocimiento",
+        "Optativa"
+      ],
+      "Cuarto Semestre": [
+        "Proyecto Doctoral IV",
+        "Administración Estratégica",
+        "Optativa"
       ]
     },
-    "perfilEgreso": "Capacidad para generar y transmitir el conocimiento para formar nuevos investigadores en las áreas de conocimiento de finanzas, mercadotecnia, negocios internacionales, alta..."
+    "perfilEgreso": "Capacidad para generar y transmitir el conocimiento para formar nuevos investigadores en las áreas de conocimiento de finanzas, mercadotecnia, negocios internacionales, alta...",
+    "mercado_laboral": "Orienta la formación hacia la alta dirección, la innovación empresarial y la consultoría estratégica, preparando profesionales para liderar organizaciones complejas en entornos globales. Los egresados acceden a puestos como director general, consultor senior, director de planeación estratégica o asesor en competitividad, tanto en corporativos, firmas de consultoría, sector financiero y emprendimientos propios. Este perfil es altamente valorado por el sector privado, con sueldos altamente competitivos en cargos ejecutivos y en consultoría internacional.",
+    "areas_conocimiento": "",
+    "lineas_investigacion": [
+      "Planeación Estratégica",
+      "Desarrollo Empresarial",
+      "Admón. de Procesos Educativos",
+      "Admón. de Mercadotecnia",
+      "Admón. de la Tecnología",
+      "Admón. Factor Humano"
+    ],
+    "areas_enfoque": [],
+    "areas_especializacion": [
+      "Administración",
+      "Alta Dirección",
+      "Finanzas Internacionales"
+    ],
+    "power_skills": [],
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "doc admin.webp",
+    "imageVertical": "doc admin v.webp"
   },
   "doc-humanidades": {
     "id": "HUMANIDADES",
@@ -53,45 +97,87 @@
     "type": "doctorado",
     "rvoe": "2019P05023/2019-12-19",
     "tagline": "Posgrado UNINTER de Excelencia Académica.",
-    "description": "Educación, Sociedad y Economía Temas Selectos de Educación y Psicología I Temas Selectos de Educación y Psicología II Seminario de Educación y Tecnología en Ambientes de Aprendizaje Seminario de Educación y Neurociencias Democracia y Gobernanza en Instituciones Educativas",
-    "ingreso": "Vocación de servicio. Conocimientos básicos sobre los principales enfoques teóricos de las humanidades, principalmente en relación con la educación, el lenguaje y la psicología....",
-    "egreso": "Investigador científico, docente de educación superior, asesor de políticas públicas o consultor de alto nivel estratégico.",
+    "description": "Formar investigadores con una sólida formación teórica y metodológica en el campo de las humanidades con énfasis en la interculturalidad, que sean capaces de generar conocimientos causales y prácticos a partir de la aplicación de análisis interdisciplinarios de los fenómenos educativos que se le presenten; a través de lineamientos metodológicos del más alto nivel, ejerciendo el pensamiento crítico y análisis de diversas problemáticas educativas para el desarrollo y fortalecimiento del estado del arte en ámbitos internacionales.",
+    "ingreso": [
+      "Vocación de servicio.",
+      "Conocimientos básicos sobre los principales enfoques teóricos de las humanidades, principalmente en relación con la educación, el lenguaje y la psicología.",
+      "Disposición para trabajar e interactuar con diversidad de personas.",
+      "Disposición a la búsqueda permanente de conocimientos en problemas relacionados con la educación, el lenguaje y la psicología.",
+      "Interés en promover el desarrollo de grupos e individuos desde una perspectiva humanística.",
+      "Habilidad y manejo del pensamiento abstracto y verbal.",
+      "Cualidades personales que permitan el contacto con poblaciones de diversas características."
+    ],
+    "egreso": "El egresado del Doctorado en Humanidades con opción terminal en Educación de la Universidad Internacional estará formado y capacitado para investigar procesos sociales complejos relacionados principalmente con la cultura nacional y regional, las estrategias de conocimientos de punta en la educación y el lenguaje. Sustentado por sus conocimientos teóricos, metodológicos y una perspectiva ética, podrá desarrollar sus funciones con enfoque innovador en el diseño, planeación, implementación y evaluación de planes y programas culturales; así como dirigir equipos de trabajo multidisciplinarios que realicen proyectos de investigación originales y de gran impacto en su entorno.",
     "experienciaPractica": [
       {
         "title": "Cámara Gesell y Observación Didáctica",
         "desc": "Instalación para la observación en vivo de prácticas docentes, dinámicas grupales y diagnóstico de problemas pedagógicos.",
         "icon": "👁️",
         "tag": "Pedagogía",
-        "features": [
-          "Observación analítica",
-          "Prácticas de microenseñanza"
-        ]
+        "features": ["Observación analítica", "Prácticas de microenseñanza"]
       },
       {
         "title": "Laboratorio de Recursos y Tecnología Educativa",
         "desc": "Acondicionado para el diseño curricular multimedia, administración de plataformas LMS (Moodle, Canvas) y recursos virtuales.",
         "icon": "🎓",
         "tag": "LMS & Media",
-        "features": [
-          "Diseño instruccional",
-          "Recursos educativos abiertos"
-        ]
+        "features": ["Diseño instruccional", "Recursos educativos abiertos"]
       }
     ],
     "certificaciones": [],
     "plan": {
-      "Primer semestre": [
+      "Primer Semestre": [
         "Proyecto Doctoral I",
         "Metodología de la Investigación",
         "Sociedad del Conocimiento y Humanidades"
       ],
-      "Segundo semestre": [
+      "Segundo Semestre": [
         "Proyecto Doctoral II",
         "Historia y Cultura",
         "Educación, Sociedad y Economía"
-      ]
+      ],
+      "Tercer Semestre": [
+        "Proyecto Doctoral III",
+        "Metodología para el Análisis del Discurso",
+        "Optativa I"
+      ],
+      "Cuarto Semestre": [
+        "Proyecto Doctoral IV",
+        "Metodología para el Análisis del Discurso",
+        "Optativa II"
+      ],
+      "Quinto Semestre": ["Proyecto Doctoral V", "Optativa III", "Optativa IV"]
     },
-    "perfilEgreso": "El egresado del Doctorado en Humanidades con opción terminal en Educación de la Universidad Internacional estará formado y capacitado para investigar procesos..."
+    "perfilEgreso": "El egresado del Doctorado en Humanidades con opción terminal en Educación de la Universidad Internacional estará formado y capacitado para investigar procesos...",
+    "mercado_laboral": "Forma investigadores y líderes académicos capaces de analizar, diseñar y dirigir proyectos culturales y educativos con enfoque crítico e interdisciplinario. Sus egresados se integran principalmente en universidades, centros de investigación, organismos culturales y agencias internacionales, desempeñando roles como profesor-investigador, gestor cultural, consultor en políticas educativas y analista de diversidad e interculturalidad.",
+    "areas_conocimiento": "",
+    "lineas_investigacion": [
+      "Diseño curricular y desarrollo sostenible",
+      "Multiculturalidad e interculturalidad",
+      "Políticas, gestión e instituciones educativas",
+      "Ciudadanía, ética y política",
+      "Territorio, equidad y tecnología",
+      "Tecnologías y modelos de aprendizaje",
+      "Diseño y evaluación curricular",
+      "Didáctica y comunicación",
+      "Innovación educativa y capacitación docente",
+      "Estudios de educación comparada",
+      "Aprendizaje y evaluación"
+    ],
+    "areas_enfoque": [],
+    "areas_especializacion": [
+      "Educación, Sociedad y Economía",
+      "Temas Selectos de Educación y Psicología I",
+      "Temas Selectos de Educación y Psicología II",
+      "Seminario de Educación y Tecnología en Ambientes de Aprendizaje",
+      "Seminario de Educación y Neurociencias",
+      "Democracia y Gobernanza en Instituciones Educativas"
+    ],
+    "power_skills": [],
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "Doc humanidades.webp",
+    "imageVertical": "doc humanidades v.webp"
   },
   "esp-administracion-obra": {
     "id": "OBRA",
@@ -100,47 +186,90 @@
     "type": "especialidad",
     "rvoe": "2006P03020/2006-07-14",
     "tagline": "Posgrado UNINTER de Excelencia Académica.",
-    "description": "Administración Construcción",
-    "ingreso": "Estudios de licenciatura. Conocer el desarrollo integral de un proyecto ejecutivo en edificación. Conocer todo lo relacionado con la temática en edificación. Contar con...",
-    "egreso": "Consultoría independiente, dirección ejecutiva intermedia en empresas privadas o cargos de especialización técnica en el sector gubernamental.",
+    "description": "Formar especialistas de manera integral, que cuenten con el conocimiento administrativo y técnico suficiente, para desempeñarse de manera competitiva y eficaz en el ámbito de la construcción, con capacidades demostradas para la planeación, programación y control de todos los procesos que demanda un proyecto de edificación.",
+    "ingreso": [
+      "Estudios de licenciatura",
+      "Conocer el desarrollo integral de un proyecto ejecutivo en edificación",
+      "Conocer todo lo relacionado con la temática en edificación",
+      "Contar con los conocimientos y habilidades matemáticas que la disciplina exige",
+      "Conocer los elementos básicos de computación",
+      "Disponer del tiempo para realizar sus estudios, prácticas e investigaciones"
+    ],
+    "egreso": "Como egresado en Administración de Obra resolverás la problemática de construir obras en edificación con un perfil empresarial, y podrás proyectarte como gerente de obras en edificación de alto nivel, contando como principal fortaleza el administrar alcanzando los niveles óptimos en economía y tiempo, y así adaptarte a la dinámica realidad económica para convertirte en un profesional altamente demandado.",
     "experienciaPractica": [
       {
         "title": "Sala de Alta Dirección y Simulación",
         "desc": "Espacio ejecutivo acondicionado para el debate de casos de negocio, planeación estratégica y toma de decisiones corporativas.",
         "icon": "💼",
         "tag": "Executive",
-        "features": [
-          "Estudio de casos reales",
-          "Liderazgo simulado"
-        ]
+        "features": ["Estudio de casos reales", "Liderazgo simulado"]
       },
       {
         "title": "Biblioteca Digital y Bases de Datos",
         "desc": "Acceso ilimitado a journals de investigación científica indexados y plataformas de inteligencia financiera global.",
         "icon": "📚",
         "tag": "Research",
-        "features": [
-          "Bases de datos indexadas",
-          "Acceso remoto 24/7"
-        ]
+        "features": ["Bases de datos indexadas", "Acceso remoto 24/7"]
       }
     ],
     "certificaciones": [],
     "plan": {
-      "Primer semestre": [
+      "Primer Semestre": [
         "El Entorno de la Empresa Constructora en México",
         "Marco Legal de la Construcción",
         "Proyectos de Inversión en Edificación",
         "Sistemas de Información Aplicados a la Edificación"
       ],
-      "Segundo semestre": [
+      "Segundo Semestre": [
         "Administración de Operaciones en Edificación",
         "Administración de Proyectos en Edificación",
         "Costos y presupuestos de Construcción",
         "Seminario de Administración de Proyectos de Obras en Edificación"
       ]
     },
-    "perfilEgreso": "Como egresado en Administración de Obra resolverás la problemática de construir obras en edificación con un perfil empresarial, y podrás proyectarte como..."
+    "perfilEgreso": "Como egresado en Administración de Obra resolverás la problemática de construir obras en edificación con un perfil empresarial, y podrás proyectarte como...",
+    "mercado_laboral": [
+      "Centros de Investigación",
+      "Sector Público",
+      "Docencia"
+    ],
+    "areas_conocimiento": [
+      "Administración",
+      "Construcción",
+      "El Entorno de la Empresa Constructora en México",
+      "Administración de Proyectos en Edificación",
+      "Sistemas de Información Aplicados a la Edificación",
+      "Marco Legal de la Construcción",
+      "Costos y Presupuestos de Construcción",
+      "Proyectos de Inversión en Edificación",
+      "Administración de Operaciones en Edificación"
+    ],
+    "lineas_investigacion": [
+      "Mejoramiento de los procedimientos de construcción",
+      "Búsqueda de nuevos procedimientos de construcción",
+      "Refinamientos administrativos para eficientar procesos",
+      "Utilización óptima de recursos",
+      "Incorporación e innovación tecnológica en el desarrollo de las obras en construcción",
+      "Contribución al crecimiento del producto desde la trinchera de la industria de la construcción",
+      "Administración de obra como satisfactor de necesidades y de requerimientos sociales"
+    ],
+    "areas_enfoque": [],
+    "areas_especializacion": [
+      "Administración",
+      "Construcción",
+      "El Entorno de la Empresa Constructora en México",
+      "Administración de Proyectos en Edificación",
+      "Sistemas de Información Aplicados a la Edificación",
+      "Marco Legal de la Construcción",
+      "Costos y Presupuestos de Construcción",
+      "Proyectos de Inversión en Edificación",
+      "Administración de Operaciones en Edificación"
+    ],
+    "power_skills": [],
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "EAO copia.webp",
+    "imageVertical": "EAO V.webp"
   },
   "esp-administracion-tecnologia-linea": {
     "id": "EATL",
@@ -149,47 +278,79 @@
     "type": "especialidad",
     "rvoe": "2011P02486/2011-07-19",
     "tagline": "Posgrado UNINTER de Excelencia Académica.",
-    "description": "Administración Tecnología",
-    "ingreso": "Capacidad de razonamiento, análisis y síntesis. Capacidad de comprensión de lectura y expresión oral y escrita. Nivel suficiente de comprensión de inglés. Responsabilidad, capacidad...",
-    "egreso": "Consultoría independiente, dirección ejecutiva intermedia en empresas privadas o cargos de especialización técnica en el sector gubernamental.",
+    "description": "Formar especialistas que contribuyan a desarrollar y optimizar las capacidades tecnológicas de las organizaciones y su gente, por medio del diseño, planeación y gestión de los proyectos que le permitan optimizar los recursos.",
+    "ingreso": [
+      "Capacidad de razonamiento, análisis y síntesis",
+      "Capacidad de comprensión de lectura y expresión oral y escrita",
+      "Nivel suficiente de comprensión de inglés",
+      "Responsabilidad, capacidad de trabajo individual y en equipo",
+      "Espíritu crítico y autocrítico",
+      "Una base significativa de formación metodológica",
+      "Interés en la tecnología y su administración",
+      "Capacidad de mantener diálogo sobre características técnicas y de mercado de proyectos tecnológico",
+      "Creativo para planeación y resolución de problemas"
+    ],
+    "egreso": "Aplicarás las herramientas de administración, contando con un conocimiento profundo de los conceptos e instrumentos administrativos de vanguardia. Contribuirás desde la optimización de los recursos, el desarrollo de investigación, aplicación y transferencia de la ciencia y la tecnología. Desarrollarás habilidades de pensamiento crítico estratégico al contar con herramientas de análisis y diagnóstico, para identificar problemas y oportunidades de la organización. Serás un especialista orientado a analizar, diseñar, desarrollar, innovar, integrar, administrar e implementar sistemas para el desarrollo empresarial, utilizando diversas herramientas con sentido de responsabilidad y calidad.",
     "experienciaPractica": [
       {
         "title": "Sala de Alta Dirección y Simulación",
         "desc": "Espacio ejecutivo acondicionado para el debate de casos de negocio, planeación estratégica y toma de decisiones corporativas.",
         "icon": "💼",
         "tag": "Executive",
-        "features": [
-          "Estudio de casos reales",
-          "Liderazgo simulado"
-        ]
+        "features": ["Estudio de casos reales", "Liderazgo simulado"]
       },
       {
         "title": "Biblioteca Digital y Bases de Datos",
         "desc": "Acceso ilimitado a journals de investigación científica indexados y plataformas de inteligencia financiera global.",
         "icon": "📚",
         "tag": "Research",
-        "features": [
-          "Bases de datos indexadas",
-          "Acceso remoto 24/7"
-        ]
+        "features": ["Bases de datos indexadas", "Acceso remoto 24/7"]
       }
     ],
     "certificaciones": [],
     "plan": {
-      "PRIMER SEMESTRE": [
-        "Administración de Proyectos Tecnológicos.",
-        "Propiedad Intelectual.",
-        "Gestión de la Tecnología.",
-        "Responsabilidad Social."
+      "Primer Semestre": [
+        "Administración de Proyectos Tecnológicos",
+        "Propiedad Intelectual",
+        "Gestión de la Tecnología",
+        "Responsabilidad Social"
       ],
-      "SEGUNDO SEMESTRE": [
-        "Dirección Estratégica Financiera.",
-        "Mercadotecnia Estratégica.",
-        "Investigación y Administración de la Innovación Tecnológica.",
-        "Transferencia Tecnológica."
+      "Segundo Semestre": [
+        "Dirección Estratégica Financiera",
+        "Mercadotecnia Estratégica",
+        "Investigación y Administración de la Innovación Tecnológica",
+        "Transferencia Tecnológica"
       ]
     },
-    "perfilEgreso": "Aplicarás las herramientas de administración, contando con un conocimiento profundo de los conceptos e instrumentos administrativos de vanguardia. Contribuirás desde la optimización..."
+    "perfilEgreso": "Aplicarás las herramientas de administración, contando con un conocimiento profundo de los conceptos e instrumentos administrativos de vanguardia. Contribuirás desde la optimización...",
+    "mercado_laboral": "La administración de nuevas tecnologías de proceso y producto, los cuales están dando lugar a nuevos mercados y sectores económicos, que, por consiguiente, están cambiando los patrones de competitividad. Dado que los ciclos de vida de los productos son cada vez más cortos por consumidores con preferencias cambiantes y más complejas, se requieren líderes para acortar los tiempos de desarrollo de los nuevos productos. Administradores de tecnología que consideren los cambios constantes en las estructuras de costos de producción, las justificaciones de las inversiones, y los criterios para priorizar las carteras de proyectos. El control de cambios significativos en las herramientas administrativas. Debido a que el porcentaje del PIB es muy bajo para la I+D+i en México, provoca la necesidad de líderes para coordinar la compra de tecnología extranjera; el desarrollo contra reloj de la capacidad propia de I+D+i; y la vinculación con universidades y centros de investigación para la realización de proyectos conjuntos.",
+    "areas_conocimiento": [
+      "Responsabilidad Social",
+      "Propiedad Intelectual",
+      "Mercadotecnia Estratégica",
+      "Dirección Estratégica Financiera",
+      "Gestión de la Tecnología",
+      "Administración de Proyectos Tecnológicos",
+      "Investigación y Administración de la Innovación Tecnológica",
+      "Transferencia Tecnológica"
+    ],
+    "lineas_investigacion": [
+      "Administración de la tecnología",
+      "Desarrollo e innovación de procesos y productos",
+      "Modelos y mecanismos de transferencia de tecnología y conocimiento",
+      "Administración de proyectos tecnológicos",
+      "Propiedad industrial e intelectual",
+      "Modelos de planeación tecnológica",
+      "Vigilancia e inteligencia tecnológica",
+      "Aplicación de las TIC's"
+    ],
+    "areas_enfoque": [],
+    "areas_especializacion": ["Administración", "Tecnología"],
+    "power_skills": [],
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "EATL.webp",
+    "imageVertical": "EATL V.webp"
   },
   "esp-animacion": {
     "id": "ANIMACION",
@@ -198,34 +359,65 @@
     "type": "especialidad",
     "rvoe": "2007P03023/2007-06-06",
     "tagline": "Posgrado UNINTER de Excelencia Académica.",
-    "description": "Animación Digital Post-Producción",
-    "ingreso": "Capacidad de observación, razonamiento, análisis y síntesis. Disposición para trabajar en equipo. Innovador, comprometido y disciplinado. Interesado en las herramientas audiovisuales. Pasión por el...",
-    "egreso": "Consultoría independiente, dirección ejecutiva intermedia en empresas privadas o cargos de especialización técnica en el sector gubernamental.",
+    "description": "Formar especialistas en la animación y post-producción digitales, con dominio de las herramientas y técnicas de vanguardia. Ser capaz de hacer producciones audiovisuales que incluyan objetos animados en segunda y tercera dimensión, para ser proyectados en los medios de comunicación, tales como televisión, cine, e internet.",
+    "ingreso": [
+      "Capacidad de observación, razonamiento, análisis y síntesis",
+      "Disposición para trabajar en equipo",
+      "Innovador, comprometido y disciplinado",
+      "Interesado en las herramientas audiovisuales",
+      "Pasión por el Arte, la Tecnología, el Diseño y la Animación",
+      "Interés hacia los procesos tecnológicos",
+      "Capacidad de Resolución de Problemas"
+    ],
+    "egreso": "El egresado de la Especialidad en Animación y Post-Producción Digital estará formado y capacitado para diseñar guiones, producir y post producir creativamente materiales audiovisuales patentados que incluyan audio, video con efectos digitales, así como animaciones en segunda y tercera dimensión, que podrán ser mostrados en distintas plataformas considerando los procesos tecnológicos y sociales de la actualidad. Podrá desempeñarse en organizaciones públicas y privadas, medios de comunicación y estudios de animación.",
     "experienciaPractica": [
       {
         "title": "Laboratorio de Cómputo Mac Pro & Workstations",
         "desc": "Equipos de procesamiento de alto rendimiento y tarjetas de video de última generación para modelado, render y simulaciones.",
         "icon": "🖥️",
         "tag": "Tecnología",
-        "features": [
-          "Estaciones Mac Pro",
-          "Software de vanguardia"
-        ]
+        "features": ["Estaciones Mac Pro", "Software de vanguardia"]
       },
       {
         "title": "Laboratorio de Redes & Virtualización",
         "desc": "Infraestructura física y lógica para prácticas de enrutamiento, ciberseguridad, servicios cloud y administración de servidores.",
         "icon": "🔌",
         "tag": "Networking",
-        "features": [
-          "Servidores virtuales",
-          "Equipamiento Cisco / Juniper"
-        ]
+        "features": ["Servidores virtuales", "Equipamiento Cisco / Juniper"]
       }
     ],
     "certificaciones": [],
-    "plan": {},
-    "perfilEgreso": "El egresado de la Especialidad en Animación y Post-Producción Digital de la Universidad Internacional estará formado y capacitado para diseñar guiones, producir..."
+    "plan": {
+      "Primer Ciclo": [
+        "Animación Bidimensional (2D)",
+        "Animación Tridimensional (3D) I",
+        "Edición y Post-Producción de Video Digital",
+        "Narrativas Audiovisuales"
+      ],
+      "Segundo Ciclo": [
+        "Animación Tridimensional (3D) II",
+        "Producción y Ensamble de Audio Digital",
+        "Animación y Efectos Especiales",
+        "Marketing Digital"
+      ]
+    },
+    "perfilEgreso": "El egresado de la Especialidad en Animación y Post-Producción Digital de la Universidad Internacional estará formado y capacitado para diseñar guiones, producir...",
+    "mercado_laboral": "Contarás con un amplio campo de acción en agencias de publicidad, departamentos de producción audiovisual, creatividad digital y marketing digital. Tendrás la capacidad de crear efectos visuales de alto impacto, editar contenido multimedia y participar en campañas digitales integrales. Podrás desempeñarte en cargos estratégicos como director creativo, productor digital, coordinador de animación, ingeniero de sonido y especialista en mezcla de audio. Además, estarás preparado para incorporar en sitios web interactivos para medios digitales como periódicos y revistas, integrando animación digital y contenidos optimizados para redes sociales.",
+    "areas_conocimiento": ["Animación Digital", "Post-Producción"],
+    "lineas_investigacion": [
+      "Animación Digital",
+      "Post Producción Digital",
+      "Efectos Especiales",
+      "Lenguaje Audiovisual",
+      "Marketing Digital"
+    ],
+    "areas_enfoque": [],
+    "areas_especializacion": ["Animación Digital", "Post-Producción"],
+    "power_skills": [],
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "EAPD.webp",
+    "imageVertical": "EAPD V.webp"
   },
   "esp-criminalistica": {
     "id": "EC",
@@ -235,46 +427,79 @@
     "rvoe": "2011P03042/2011-09-06",
     "tagline": "Posgrado UNINTER de Excelencia Académica.",
     "description": "Ser profesional capaz de aplicar los métodos y técnicas de investigación científica para examinar el material sensible significativo que esté relacionado con un presunto hecho delictuoso. Ser experto en el análisis, interpretación, manejo y resolución de diversas cuestiones jurídicas dentro del ámbito penal nacional. Ser especialista en la reconstrucción de los hechos.",
-    "ingreso": "Licenciatura en Derecho, Medicina, Biología, Químico Fármaco Biólogo, Ingeniero Químico o Arquitectura. Profesionistas en áreas afines. Interés en la Investigación. Capacidad para aplicar los...",
-    "egreso": "Consultoría independiente, dirección ejecutiva intermedia en empresas privadas o cargos de especialización técnica en el sector gubernamental.",
+    "ingreso": [
+      "Licenciatura en Derecho, Medicina, Biología, Químico Fármaco Biólogo, Ingeniero Químico o Arquitectura. Profesionistas en áreas afines.",
+      "Interés en la Investigación.",
+      "Capacidad para aplicar los métodos, las técnicas e instrumentos utilizados en el trabajo de investigación criminalística orientada a los diversos casos e interrogantes que plantea el desempeño de sus funciones.",
+      "Capacidad para elaborar informes y dictámenes periciales."
+    ],
+    "egreso": "Será un profesional capaz de interpretar y ejercer juicios con una visión multidisciplinaria acorde a las necesidades laborales que el entorno demande. Será un experto en la investigación y en la aplicación de elementos de la medicina, balística, psicología, hechos de tránsito, grafoscopía para la interpretación de los hechos y generación de juicios objetivos. Tendrá las competencias necesarias para adaptarse a los diferentes escenarios posibles y resolver las problemáticas que se le presenten de manera eficiente. Investigador multidisciplinario capaz de implementar nuevas estrategias de estudio y análisis que le permitirán visualizar de manera ordenada los escenarios que le plantee su entorno laboral. Capacidad de análisis con pensamiento lógico deductivo e inductivo que le concede asumir posturas y tomar decisiones fundamentadas.",
     "experienciaPractica": [
       {
         "title": "Sala de Juicios Orales",
         "desc": "Instalación de vanguardia para la simulación de audiencias, juicios y debate judicial, fomentando la argumentación jurídica práctica.",
         "icon": "🏛️",
         "tag": "Legal",
-        "features": [
-          "Simulación de juicios",
-          "Grabación de audiencias"
-        ]
+        "features": ["Simulación de juicios", "Grabación de audiencias"]
       },
       {
         "title": "Laboratorio de Criminalística y Dactiloscopía",
         "desc": "Espacio equipado con reactivos y lupas de comparación para análisis periciales de indicios, grafoscopía e investigación criminal.",
         "icon": "🔍",
         "tag": "Peritaje",
-        "features": [
-          "Equipo de dactiloscopía",
-          "Estudios balísticos simulados"
-        ]
+        "features": ["Equipo de dactiloscopía", "Estudios balísticos simulados"]
       }
     ],
     "certificaciones": [],
     "plan": {
-      "Primer semestre": [
+      "Primer Semestre": [
         "Criminalística",
         "Criminología",
         "Medicina Forense",
         "Criminalística de Campo"
       ],
-      "Segundo semestre": [
+      "Segundo Semestre": [
         "Grafoscopia",
         "Hechos de Tránsito",
         "Metodología de la Investigación Forense",
         "Bases de Derecho Penal y Procesal Penal"
       ]
     },
-    "perfilEgreso": "Será un profesional capaz de interpretar y ejercer juicios con una visión multidisciplinaria acorde a las necesidades laborales que el entorno demande...."
+    "perfilEgreso": "Será un profesional capaz de interpretar y ejercer juicios con una visión multidisciplinaria acorde a las necesidades laborales que el entorno demande....",
+    "mercado_laboral": [
+      "Dependencias de gobierno (Procuradurías Generales de Justicia, Procuraduría General de la República, Servicios Periciales, SEMEFO)",
+      "Instituciones privadas",
+      "Instituciones de investigación pública",
+      "Investigación independiente",
+      "Docencia",
+      "Instituciones de Seguros"
+    ],
+    "areas_conocimiento": [
+      "Criminalística",
+      "Criminología",
+      "Medicina Forense",
+      "Criminalística de Campo",
+      "Grafoscopía",
+      "Hechos de Tránsito",
+      "Metodología de la Investigación Forense",
+      "Bases de Derecho Penal y Procesal Penal"
+    ],
+    "lineas_investigacion": [
+      "Criminalística de Campo",
+      "Criminología",
+      "Medicina Forense",
+      "Victimología",
+      "Derecho Penal",
+      "Grafoscopía",
+      "Hechos de Tránsito"
+    ],
+    "areas_enfoque": [],
+    "areas_especializacion": [],
+    "power_skills": [],
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "EC.webp",
+    "imageVertical": "EC V.webp"
   },
   "esp-docencia-espanol": {
     "id": "ESPANOL",
@@ -283,47 +508,70 @@
     "type": "especialidad",
     "rvoe": "",
     "tagline": "Posgrado UNINTER de Excelencia Académica.",
-    "description": "Docencia Lingüística",
-    "ingreso": "Interés en la investigación, actitud analítica y profesionalismo en el área.",
-    "egreso": "Consultoría independiente, dirección ejecutiva intermedia en empresas privadas o cargos de especialización técnica en el sector gubernamental.",
+    "description": "Formar especialistas con un alto dominio de la didáctica aplicada a la enseñanza del español como lengua extranjera, desarrollar conocimientos sólidos sobre sistemas de evaluación e implementación de programas de español haciendo énfasis en la evaluación de materiales, así como de la práctica docente.",
+    "ingreso": [],
+    "egreso": "Al terminar el programa el egresado será capaz de implementar la metodología adecuada a la enseñanza del español.",
     "experienciaPractica": [
       {
         "title": "Cámara Gesell y Observación Didáctica",
         "desc": "Instalación para la observación en vivo de prácticas docentes, dinámicas grupales y diagnóstico de problemas pedagógicos.",
         "icon": "👁️",
         "tag": "Pedagogía",
-        "features": [
-          "Observación analítica",
-          "Prácticas de microenseñanza"
-        ]
+        "features": ["Observación analítica", "Prácticas de microenseñanza"]
       },
       {
         "title": "Laboratorio de Recursos y Tecnología Educativa",
         "desc": "Acondicionado para el diseño curricular multimedia, administración de plataformas LMS (Moodle, Canvas) y recursos virtuales.",
         "icon": "🎓",
         "tag": "LMS & Media",
-        "features": [
-          "Diseño instruccional",
-          "Recursos educativos abiertos"
-        ]
+        "features": ["Diseño instruccional", "Recursos educativos abiertos"]
       }
     ],
     "certificaciones": [],
     "plan": {
-      "Primer semestre": [
+      "Primer Semestre": [
         "Adquisición de Lengua",
         "Métodos de Enseñanza de Lenguas",
         "La Pragmática y el Estudio del Español",
         "Sociolingüística"
       ],
-      "Segundo semestre": [
+      "Segundo Semestre": [
         "Español para Fines Específicos",
         "Desarrollo de Destrezas",
         "Tecnología de la Información y la Comunicación",
         "Gramática Comparativa del inglés y del español"
       ]
     },
-    "perfilEgreso": "Al terminar el programa el egresado será capaz de implementar la metodología adecuada a la enseñanza del español."
+    "perfilEgreso": "Al terminar el programa el egresado será capaz de implementar la metodología adecuada a la enseñanza del español.",
+    "mercado_laboral": [
+      "Docentes del español como lengua extranjera",
+      "Formación de instructores del español como lengua extranjera",
+      "Diseño y evaluación de programas de estudio",
+      "Coordinación de centros y departamentos dedicados a la enseñanza del español como lengua extranjera"
+    ],
+    "areas_conocimiento": [
+      "Metodología de la enseñanza de una Lengua Extranjera",
+      "Desarrollo de Destrezas Lingüísticas",
+      "Diseño y Evaluación de Material Didáctico",
+      "Español para Fines específicos",
+      "Estrategias Didácticas y Apoyo Tecnológico",
+      "Adquisición de una Segunda Lengua o Lengua Extranjera",
+      "Gramática Comparativa del Inglés y del Español",
+      "La Pragmática y el estudio del español"
+    ],
+    "lineas_investigacion": [
+      "Lingüística aplicada a la enseñanza de segundas lenguas",
+      "Adquisición de una segunda lengua o lengua extranjera",
+      "Dialectología",
+      "Procesos de aprendizaje"
+    ],
+    "areas_enfoque": [],
+    "areas_especializacion": ["Docencia", "Lingüística"],
+    "power_skills": [],
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "EDELE.webp",
+    "imageVertical": "EDELE V.webp"
   },
   "esp-marketing-digital": {
     "id": "DIGITAL",
@@ -332,40 +580,34 @@
     "type": "especialidad",
     "rvoe": "2019P03095/2019-12-19",
     "tagline": "Enriquece tu desarrollo personal",
-    "description": "En esta especialidad desarrollarás las habilidades necesarias para diseñar, implementar y dirigir estrategias de marketing digital que impulsen marcas y proyectos en entornos competitivos. Aprenderás a usar herramientas tecnológicas, analizar datos, crear contenido innovador y conectar con audiencias de manera efectiva, para posicionarte como un profesional capaz de liderar la transformación digital de cualquier organización.",
-    "ingreso": "Si te apasiona el mundo digital, esta especialidad te permitirá llevar tu perfil profesional al siguiente nivel. Te interesa comprender cómo funcionan las redes sociales, el marketing y el comercio electrónico (e-commerce), y deseas aprender a utilizarlos estratégicamente para posicionar marcas y generar resultados reales. Cuentas con una mentalidad creativa y analítica, gusto por la innovación y la comunicación, y la motivación para aplicar la tecnología en la toma de decisiones.",
-    "egreso": "El entorno digital crece a un ritmo acelerado y las organizaciones buscan especialistas capaces de integrar estrategia, datos y creatividad para destacar en un mercado cada vez más competitivo. Al concluir la Especialidad en Marketing Digital en Uninter, estarás preparado para desempeñarte en distintos sectores y funciones del entorno profesional actual: agencias de publicidad, departamentos de comunicación y consultorías especializadas.",
+    "description": "Desarrollarás las habilidades necesarias para diseñar, implementar y dirigir estrategias de marketing digital que impulsen marcas y proyectos en entornos competitivos. Aprenderás a usar herramientas tecnológicas, analizar datos, crear contenido innovador y conectar con audiencias de manera efectiva, para posicionarte como un profesional capaz de liderar la transformación digital de cualquier organización.",
+    "ingreso": "Desarrollarás las habilidades necesarias para diseñar campañas efectivas, interpretar métricas digitales y liderar proyectos de marketing en entornos competitivos a nivel nacional e internacional.",
+    "egreso": "Serás un profesional capaz de liderar estrategias digitales innovadoras, orientadas a resultados y al fortalecimiento de marcas en un entorno global. Dominarás las principales herramientas y plataformas de marketing digital.",
     "experienciaPractica": [
       {
         "title": "Sala de Alta Dirección y Simulación",
         "desc": "Espacio ejecutivo acondicionado para el debate de casos de negocio, planeación estratégica y toma de decisiones corporativas.",
         "icon": "💼",
         "tag": "Executive",
-        "features": [
-          "Estudio de casos reales",
-          "Liderazgo simulado"
-        ]
+        "features": ["Estudio de casos reales", "Liderazgo simulado"]
       },
       {
         "title": "Biblioteca Digital y Bases de Datos",
         "desc": "Acceso ilimitado a journals de investigación científica indexados y plataformas de inteligencia financiera global.",
         "icon": "📚",
         "tag": "Research",
-        "features": [
-          "Bases de datos indexadas",
-          "Acceso remoto 24/7"
-        ]
+        "features": ["Bases de datos indexadas", "Acceso remoto 24/7"]
       }
     ],
     "certificaciones": [],
     "plan": {
-      "Primer semestre": [
+      "Primer Semestre": [
         "Marketing Digital",
         "Social Media",
         "Posicionamiento Web",
         "Diseño Aplicado al Marketing Digital"
       ],
-      "Segundo semestre": [
+      "Segundo Semestre": [
         "Comercio Electrónico",
         "Mobile Marketing y Diseño de Aplicaciones",
         "Implementación de Campañas y Estrategias Digitales",
@@ -392,7 +634,35 @@
         "q": "¿Cómo obtengo el grado de especialista?",
         "a": "En UNINTER te ofrecemos opciones prácticas y flexibles orientadas al entorno profesional: Plan de Negocios (estructuración de tu propia empresa), Estudio de Caso (resolución de un problema real en tu organización actual) o Tesina (solución a un problema específico del entorno empresarial)."
       }
-    ]
+    ],
+    "mercado_laboral": [
+      "Agencias de publicidad y marketing digital: diseño, implementación y análisis de campañas en medios digitales.",
+      "Departamentos de comunicación, mercadotecnia y ventas: desarrollo de estrategias omnicanal, posicionamiento de marca y gestión de clientes.",
+      "Consultorías especializadas en estrategia y transformación digital.",
+      "Empresas de comercio electrónico, medios digitales y startups tecnológicas.",
+      "Emprendimientos propios."
+    ],
+    "areas_conocimiento": [
+      "Mercadotecnia y Estrategia Digital (40%)",
+      "Tecnología y Analítica de Datos (30%)",
+      "Diseño y Experiencia del Usuario (20%)",
+      "Innovación y Emprendimiento Digital (10%)"
+    ],
+    "lineas_investigacion": [
+      "Campañas Publicitarias en Redes Sociales",
+      "Posicionamiento en Motores de Búsqueda",
+      "Branding Digital",
+      "Posicionamiento en Medios Electrónicos",
+      "Comercio Electrónico",
+      "Experiencias de usuario"
+    ],
+    "areas_enfoque": [],
+    "areas_especializacion": [],
+    "power_skills": [],
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "EMD.webp",
+    "imageVertical": "EMD V.webp"
   },
   "esp-publicidad": {
     "id": "PUBLICIDAD",
@@ -401,47 +671,70 @@
     "type": "especialidad",
     "rvoe": "2010PO03033/2010-04-12",
     "tagline": "Posgrado UNINTER de Excelencia Académica.",
-    "description": "Logra tu especialización, maestría o doctorado y adquiere ventajas competitivas inmediatas en tu campo profesional con UNINTER.",
+    "description": "Formar especialistas en publicidad capaces de analizar y desarrollar campañas publicitarias, fundamentadas y creativas, en un entorno ético y de responsabilidad social, a través de la aplicación de la mercadotecnia y la publicidad en proyectos específicos.",
     "ingreso": "Interés en la investigación, actitud analítica y profesionalismo en el área.",
-    "egreso": "Consultoría independiente, dirección ejecutiva intermedia en empresas privadas o cargos de especialización técnica en el sector gubernamental.",
+    "egreso": "Elaborará estrategias de promoción para servicios y productos. Aplicará la agilidad mental, expondrá ideas, negociará proyectos para presentar presupuestos y campañas publicitarias. Emprenderá, liderará y actuará con responsabilidad y ética.",
     "experienciaPractica": [
       {
         "title": "Sala de Alta Dirección y Simulación",
         "desc": "Espacio ejecutivo acondicionado para el debate de casos de negocio, planeación estratégica y toma de decisiones corporativas.",
         "icon": "💼",
         "tag": "Executive",
-        "features": [
-          "Estudio de casos reales",
-          "Liderazgo simulado"
-        ]
+        "features": ["Estudio de casos reales", "Liderazgo simulado"]
       },
       {
         "title": "Biblioteca Digital y Bases de Datos",
         "desc": "Acceso ilimitado a journals de investigación científica indexados y plataformas de inteligencia financiera global.",
         "icon": "📚",
         "tag": "Research",
-        "features": [
-          "Bases de datos indexadas",
-          "Acceso remoto 24/7"
-        ]
+        "features": ["Bases de datos indexadas", "Acceso remoto 24/7"]
       }
     ],
     "certificaciones": [],
     "plan": {
-      "Primer semestre": [
-        "Promoción y Publicida",
+      "Primer Semestre": [
+        "Promoción y Publicidad",
         "Seminario de Campañas Publicitarias",
-        "Seminario, Sociedad y Publicidad",
+        "Seminario",
+        "Sociedad y Publicidad",
         "Taller de Creatividad"
       ],
-      "Segundo semestre": [
+      "Segundo Semestre": [
         "Análisis de Audiencias y Medios de Comunicación",
         "Motivación de Compra e Investigación de Mercados",
         "Seminario de Campañas Publicitarias I",
         "Seminario de Mercadotecnia"
       ]
     },
-    "perfilEgreso": "La especialidad forma profesionales donde podrá desarrollarse en agencias de publicidad, mercadeo y de medios en áreas creativas, cuentas y mercadotecnia. Será..."
+    "perfilEgreso": "La especialidad forma profesionales donde podrá desarrollarse en agencias de publicidad, mercadeo y de medios en áreas creativas, cuentas y mercadotecnia. Será...",
+    "mercado_laboral": [
+      "Agencias de publicidad, mercadeo y de medios en áreas creativas, cuentas y mercadotecnia.",
+      "Ser crítico de espectáculos, programas artísticos, culturales y periodísticos.",
+      "Puestos directivos, gerenciales y administrativos en empresas, instituciones públicas y privadas."
+    ],
+    "areas_conocimiento": [
+      "Seminario",
+      "Sociedad y Publicidad",
+      "Promoción y Publicidad Global",
+      "Análisis de Audiencia y Medios de Comunicación",
+      "Taller de Creatividad",
+      "Seminario de Campañas Publicitarias I y II"
+    ],
+    "lineas_investigacion": [
+      "Alianzas estratégicas entre agencias de publicidad",
+      "La publicidad en el marco de la globalización",
+      "Estrategias publicitarias",
+      "Estrategias creativas",
+      "Investigación de mercados",
+      "Mercadotecnia estratégica"
+    ],
+    "areas_enfoque": [],
+    "areas_especializacion": ["Publicidad", "Mercadotecnia"],
+    "power_skills": [],
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "EPU.webp",
+    "imageVertical": "EPU V.webp"
   },
   "esp-relaciones-mercantiles": {
     "id": "MERCANTILES",
@@ -450,78 +743,103 @@
     "type": "especialidad",
     "rvoe": "2008P03027/2008-12-04",
     "tagline": "Posgrado UNINTER de Excelencia Académica.",
-    "description": "Administración Derecho Mercantil Derecho Internacional",
+    "description": "Formar especialistas en Relaciones Mercantiles Internacionales capaces de negociar en términos legales y económicos contratos mercantiles en los ámbitos público y/o privado a escala local, nacional e internacional. Capaces de ofrecer soluciones a problemáticas mercantiles, a través de la investigación en áreas jurídicas y corporativas estratégicas haciendo uso de la tecnología educativa para crear mejores ambientes de enseñanza-aprendizaje.",
     "ingreso": "Interés en la investigación, actitud analítica y profesionalismo en el área.",
-    "egreso": "Consultoría independiente, dirección ejecutiva intermedia en empresas privadas o cargos de especialización técnica en el sector gubernamental.",
+    "egreso": [
+      "La especialidad forma profesionales en las disciplinas jurídicas que encuadran el derecho corporativo.",
+      "Tendrás la habilidad para comprender, asesorar, negociar, y solucionar controversias del ámbito corporativo, o desempeñarte como asesor y mediador en negociaciones mercantiles internacionales.",
+      "Serás comprometido con tu entorno bajo condiciones de liderazgo y emprendimiento, considerando la responsabilidad social como un eje sobre el que gira todo profesionista responsable de ejercer su profesión."
+    ],
     "experienciaPractica": [
       {
         "title": "Sala de Juicios Orales",
         "desc": "Instalación de vanguardia para la simulación de audiencias, juicios y debate judicial, fomentando la argumentación jurídica práctica.",
         "icon": "🏛️",
         "tag": "Legal",
-        "features": [
-          "Simulación de juicios",
-          "Grabación de audiencias"
-        ]
+        "features": ["Simulación de juicios", "Grabación de audiencias"]
       },
       {
         "title": "Laboratorio de Criminalística y Dactiloscopía",
         "desc": "Espacio equipado con reactivos y lupas de comparación para análisis periciales de indicios, grafoscopía e investigación criminal.",
         "icon": "🔍",
         "tag": "Peritaje",
-        "features": [
-          "Equipo de dactiloscopía",
-          "Estudios balísticos simulados"
-        ]
+        "features": ["Equipo de dactiloscopía", "Estudios balísticos simulados"]
       }
     ],
     "certificaciones": [],
     "plan": {
-      "Primer semestre": [
+      "Primer Semestre": [
         "Calidades Migratorias",
         "Contratos Mercantiles",
         "Legislación del Comercio Exterior",
         "Propiedad Intelectual"
       ],
-      "Segundo semestre": [
+      "Segundo Semestre": [
         "Legislación Aduanera",
         "Marco Jurídico de la Competencia Económica",
         "Responsabilidad Social",
         "Tratados Comerciales Internacionales"
       ]
     },
-    "perfilEgreso": "La especialidad forma profesionales en las disciplinas jurídicas que encuadran el derecho corporativo. Tendrás la habilidad para comprender, asesorar, negociar, y solucionar..."
+    "perfilEgreso": "La especialidad forma profesionales en las disciplinas jurídicas que encuadran el derecho corporativo. Tendrás la habilidad para comprender, asesorar, negociar, y solucionar...",
+    "mercado_laboral": [
+      "Desarrollo de empresas e instituciones de nivel internacional en dependencias de estado relacionadas con la actividad jurídica legislativa.",
+      "Como diseñador de programas y procedimientos del proceso mercantil internacional.",
+      "Planeador y negociador de compra y venta de productos y servicios en el mercado mundial.",
+      "Empresas privadas y públicas."
+    ],
+    "areas_conocimiento": [
+      "Propiedad Intelectual",
+      "Responsabilidad Social",
+      "Legislación del Comercio Exterior",
+      "Contratos Mercantiles",
+      "Marco Jurídico de Competencia",
+      "Economía",
+      "Legislación Aduanera",
+      "Cualidades Migratorias",
+      "Tratados Comerciales Internacionales"
+    ],
+    "lineas_investigacion": [
+      "Regulación del Comercio Exterior",
+      "Derecho Internacional",
+      "Propiedad Intelectual"
+    ],
+    "areas_enfoque": [],
+    "areas_especializacion": [
+      "Administración",
+      "Derecho Mercantil",
+      "Derecho Internacional"
+    ],
+    "power_skills": [],
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "ERMI.webp",
+    "imageVertical": "ERMI V.webp"
   },
   "maes-admin-direc-en-linea": {
     "id": "MADEL",
-    "name": "Maestría en Línea de Administración y Dirección de Empresas",
+    "name": "Maestría en Administración y Dirección de Empresas en Línea",
     "slug": "maes-admin-direc-en-linea",
     "type": "maestria",
     "rvoe": "2019P04269/2019-12-19",
     "tagline": "Enriquece tu desarrollo personal",
-    "description": "En esta maestría desarrollarás las competencias estratégicas necesarias para liderar organizaciones en un entorno global, dinámico y altamente competitivo.",
-    "ingreso": "Si te apasiona el mundo empresarial y deseas desarrollar una visión estratégica para dirigir proyectos, equipos y organizaciones, esta maestría está diseñada para llevar tu trayectoria profesional al siguiente nivel. Te interesa comprender cómo funcionan las finanzas, los negocios internacionales, la gestión de recursos y la toma de decisiones que transforman a las empresas. Aquí fortalecerás las habilidades necesarias para administrar proyectos, diseñar planes de negocio y liderar procesos con visión global.",
-    "egreso": "Al concluir la Maestría en Administración y Dirección de Empresas, estarás preparado para desenvolverte en distintos sectores clave del entorno empresarial actual: gestión y dirección empresarial, consultoría y capacitación, servicios financieros, comercio y negocios internacionales, o desarrollando tu propio negocio.",
+    "description": "Ser especialista en la toma de decisiones considerando todos los escenarios posibles para el fortalecimiento de la competitividad en el ámbito nacional e internacional; Ser estratega capaz de optimizar los recursos disponibles de las organizaciones nacionales e internacionales; Ser profesional que domine las técnicas y métodos de vanguardia.",
+    "ingreso": "Título de Licenciatura o certificado con la totalidad de créditos, si se cursa como opción de titulación. En ambos casos para Licenciaturas de: Administración de Empresas, Administración de Empresas Turísticas, Administración de Negocios Internacionales, Administración Pública, Administración y Mercadotecnia, Comercio Exterior, Contaduría, Economía y Finanzas, Ingeniería en Inteligencia de Mercados, Ingeniería Industrial y de Sistemas de Calidad, Mercadotecnia, Mercadotecnia y Publicidad, Relaciones Internacionales, Relaciones Internacionales y Ciencias Políticas, Relaciones Internacionales, Economía, Diseño Gráfico, Diseño de Modas y Tendencias Internacionales, Diseño Industrial, Animación y Diseño Digital o áreas afines.",
+    "egreso": "Seleccionará, utilizará y aplicará el conjunto técnicas, procesos y métodos de administración en el ámbito de los negocios internacionales. Establecerá estrategias administrativas, de acuerdo con las necesidades de las organizaciones e instituciones, determinado por el análisis integral en el contexto internacional.",
     "experienciaPractica": [
       {
         "title": "Sala de Alta Dirección y Simulación",
         "desc": "Espacio ejecutivo acondicionado para el debate de casos de negocio, planeación estratégica y toma de decisiones corporativas.",
         "icon": "💼",
         "tag": "Executive",
-        "features": [
-          "Estudio de casos reales",
-          "Liderazgo simulado"
-        ]
+        "features": ["Estudio de casos reales", "Liderazgo simulado"]
       },
       {
         "title": "Biblioteca Digital y Bases de Datos",
         "desc": "Acceso ilimitado a journals de investigación científica indexados y plataformas de inteligencia financiera global.",
         "icon": "📚",
         "tag": "Research",
-        "features": [
-          "Bases de datos indexadas",
-          "Acceso remoto 24/7"
-        ]
+        "features": ["Bases de datos indexadas", "Acceso remoto 24/7"]
       }
     ],
     "certificaciones": [
@@ -541,25 +859,25 @@
       }
     ],
     "plan": {
-      "Primer semestre": [
+      "Primer Semestre": [
         "Matemáticas Administrativas",
         "Enfoque Administrativo Contemporáneo",
         "Mercadotecnia",
         "Administración Financiera Internacional"
       ],
-      "Segundo semestre": [
+      "Segundo Semestre": [
         "Economía",
         "Administración Estratégica",
         "Plan de Negocios Internacionales",
         "Responsabilidad Social de las Organizaciones"
       ],
-      "Tercer semestre": [
+      "Tercer Semestre": [
         "Seminario de Tesis I",
         "Análisis de Mercados Internacionales",
         "Optativa I",
         "Optativa II"
       ],
-      "Cuarto semestre": [
+      "Cuarto Semestre": [
         "Finanzas Internacionales",
         "Seminario de Tesis II",
         "Optativa III",
@@ -594,7 +912,43 @@
         "q": "¿Qué requisitos debo cumplir para acceder a la opción de doble titulación con Estados Unidos?",
         "a": "Al ser estudiante activo de la maestría, puedes optar por este beneficio gracias a los convenios internacionales vigentes de UNINTER. Los requisitos académicos y administrativos específicos (como el nivel de idioma o revalidación de créditos adicionales) se validan directamente con la Dirección de Internacionalización durante tu primer semestre de estudios."
       }
-    ]
+    ],
+    "mercado_laboral": [
+      "Gestión empresarial.",
+      "Capacitación y consultoría estratégica.",
+      "Dirección en organismos públicos, cámaras y asociaciones profesionales y empresariales.",
+      "Desarrollo de negocio y/o corporativo.",
+      "Servicios financieros (banca de inversión, fondos de inversión, seguros, etc.).",
+      "Generador de estrategias de marketing.",
+      "Diseñador de modelos de negocio.",
+      "Docencia en instituciones educativas."
+    ],
+    "areas_conocimiento": [
+      "Gestión",
+      "Finanzas",
+      "Sociales",
+      "Mercadotecnia",
+      "Negocios"
+    ],
+    "lineas_investigacion": [
+      "Micro, pequeñas y medianas empresas (MPyME)",
+      "Entorno económico internacional",
+      "Responsabilidad social empresarial",
+      "Negocios Internacionales",
+      "Organismos y organizaciones internacionales"
+    ],
+    "areas_enfoque": [],
+    "areas_especializacion": [
+      "Gestión del Factor Humano",
+      "Alta Dirección",
+      "Negocios Internacionales",
+      "Finanzas Corporativas",
+      "Especialización en Mercadotecnia",
+      "Innovación y Diseño de Modelo de Negocios"
+    ],
+    "power_skills": [],
+    "internationalization": null,
+    "formato": "Híbrido-Línea"
   },
   "maes-admin-direc": {
     "id": "DIREC",
@@ -603,29 +957,23 @@
     "type": "maestria",
     "rvoe": "2017P04240/2017-08-25",
     "tagline": "Enriquece tu desarrollo personal",
-    "description": "En esta maestría desarrollarás las competencias estratégicas necesarias para liderar organizaciones en un entorno global, dinámico y altamente competitivo.",
+    "description": "Ser especialista en la toma de decisiones considerando todos los escenarios posibles para el fortalecimiento de la competitividad en el ámbito nacional e internacional; Ser estratega capaz de optimizar los recursos disponibles de las organizaciones nacionales e internacionales; Ser profesional que domine las técnicas y métodos de vanguardia empresarial.",
     "ingreso": "Si te apasiona el mundo empresarial y deseas desarrollar una visión estratégica para dirigir proyectos, equipos y organizaciones, esta maestría está diseñada para llevar tu trayectoria profesional al siguiente nivel. Te interesa comprender cómo funcionan las finanzas, los negocios internacionales, la gestión de recursos y la toma de decisiones que transforman a las empresas. Aquí fortalecerás las habilidades necesarias para administrar proyectos, diseñar planes de negocio y liderar procesos con visión global.",
-    "egreso": "Al concluir la Maestría en Administración y Dirección de Empresas, estarás preparado para desenvolverte en distintos sectores clave del entorno empresarial actual: gestión y dirección empresarial, consultoría y capacitación, servicios financieros, comercio y negocios internacionales, o desarrollando tu propio negocio.",
+    "egreso": "Seleccionará, utilizará y aplicará el conjunto técnicas, procesos y métodos de administración en el ámbito de los negocios internacionales. Establecerá estrategias administrativas, de acuerdo con las necesidades de las organizaciones e instituciones, determinado por el análisis integral en el contexto internacional.",
     "experienciaPractica": [
       {
         "title": "Sala de Alta Dirección y Simulación",
         "desc": "Espacio ejecutivo acondicionado para el debate de casos de negocio, planeación estratégica y toma de decisiones corporativas.",
         "icon": "💼",
         "tag": "Executive",
-        "features": [
-          "Estudio de casos reales",
-          "Liderazgo simulado"
-        ]
+        "features": ["Estudio de casos reales", "Liderazgo simulado"]
       },
       {
         "title": "Biblioteca Digital y Bases de Datos",
         "desc": "Acceso ilimitado a journals de investigación científica indexados y plataformas de inteligencia financiera global.",
         "icon": "📚",
         "tag": "Research",
-        "features": [
-          "Bases de datos indexadas",
-          "Acceso remoto 24/7"
-        ]
+        "features": ["Bases de datos indexadas", "Acceso remoto 24/7"]
       }
     ],
     "certificaciones": [
@@ -645,25 +993,25 @@
       }
     ],
     "plan": {
-      "Primer semestre": [
+      "Primer Semestre": [
         "Matemáticas Administrativas",
         "Enfoque Administrativo Contemporáneo",
         "Mercadotecnia",
         "Administración Financiera Internacional"
       ],
-      "Segundo semestre": [
+      "Segundo Semestre": [
         "Economía",
         "Administración Estratégica",
         "Plan de Negocios Internacionales",
-        "Responsabilidad Social de las Organizaciones"
+        "Responsabilidad Social"
       ],
-      "Tercer semestre": [
+      "Tercer Semestre": [
         "Seminario de Tesis I",
         "Análisis de Mercados Internacionales",
         "Optativa I",
         "Optativa II"
       ],
-      "Cuarto semestre": [
+      "Cuarto Semestre": [
         "Finanzas Internacionales",
         "Seminario de Tesis II",
         "Optativa III",
@@ -698,7 +1046,46 @@
         "q": "¿Qué requisitos debo cumplir para acceder a la opción de doble titulación con Estados Unidos?",
         "a": "Al ser estudiante activo de la maestría, puedes optar por este beneficio gracias a los convenios internacionales vigentes de UNINTER. Los requisitos específicos (como nivel de idioma o créditos) se validan directamente con la Dirección de Internacionalización durante el primer semestre."
       }
-    ]
+    ],
+    "mercado_laboral": [
+      "Gestión y dirección empresarial: liderazgo de equipos, toma de decisiones estratégicas y administración de recursos.",
+      "Consultoría y capacitación estratégica: análisis organizacional, desarrollo de proyectos y asesoría a empresas en crecimiento.",
+      "Organismos públicos y privados: dirección administrativa, coordinación de programas y gestión institucional.",
+      "Servicios financieros: análisis de inversiones, banca, fondos de inversión, seguros y evaluación financiera.",
+      "Comercio y negocios internacionales: operaciones globales, logística, expansión de mercados y estrategias internacionales.",
+      "Desarrollo corporativo: creación, implementación y optimización de modelos de negocio.",
+      "Docencia y formación profesional: enseñanza, capacitación ejecutiva y desarrollo de talento humano."
+    ],
+    "areas_conocimiento": [
+      "Gestión y Alta Dirección 35%",
+      "Finanzas y Economía Global 30%",
+      "Negocios Internacionales 20%",
+      "Mercadotecnia y Desarrollo de Negocio 10%",
+      "Ciencias Sociales y Responsabilidad Organizacional 5%"
+    ],
+    "lineas_investigacion": [
+      "Micro, pequeñas y medianas empresas (MPyME)",
+      "Entorno económico internacional",
+      "Responsabilidad social empresarial",
+      "Negocios Internacionales",
+      "Organismos y organizaciones internacionales",
+      "Evaluación financiera internacional",
+      "Diseño y administración de planes de negocios",
+      "Desarrollo sustentable",
+      "Competencias laborales",
+      "El conocimiento y las organizaciones",
+      "Capital humano y recursos humanos",
+      "Finanzas personales",
+      "Alianzas Internacionales",
+      "Gestión de la Calidad"
+    ],
+    "areas_enfoque": [],
+    "areas_especializacion": [],
+    "power_skills": [],
+    "internationalization": null,
+    "formato": "Híbrido",
+    "imageHorizontal": "MADE.webp",
+    "imageVertical": "MADE V.webp"
   },
   "maes-educacion-docente": {
     "id": "DOCENTE",
@@ -707,47 +1094,78 @@
     "type": "maestria",
     "rvoe": "2011P04122/2011-07-01",
     "tagline": "Posgrado UNINTER de Excelencia Académica.",
-    "description": "Pedagogía Investigación y Metodología Tecnología Educativa",
-    "ingreso": "Título de Licenciatura o Certificado con la totalidad de créditos, si se cursa como opción de titulación. En ambos casos para licenciaturas de Educación,...",
-    "egreso": "Alta dirección corporativa, consultor estratégico senior, gestor de proyectos de innovación o líder de docencia y desarrollo organizacional.",
+    "description": "Formar profesionistas en el campo de la Educación en Formación Docente capaces de diseñar, implementar, estructurar y fundamentar los principios de planeación y evaluación educativa de los modelos actuales, así como las estrategias innovadoras, para crear situaciones de enseñanza-aprendizaje, a partir de la relación epistemológica y tecnológica, para alcanzar una integración entre los componentes pedagógicos y didácticos en la transformación de la realidad contextual de la práctica docente.",
+    "ingreso": "Título de Licenciatura o Certificado con la totalidad de créditos, si se cursa como opción de titulación. En ambos casos para licenciaturas de Educación, Pedagogía, Ciencias de la Educación, Enseñanza del Español, Idiomas o áreas afines.",
+    "egreso": "El egresado de la Maestría en Educación en Formación Docente estará formado y será capacitado para impactar en los procesos de enseñanza y aprendizaje en todas sus modalidades escolares, por sus conocimientos teóricos, metodológicos y técnicos, podrá desarrollar sus funciones con enfoque innovador en el diseño, planeación, implementación y evaluación de planes y programas de estudios. También podrá desempeñarse en dependencias educativas y centros escolares, públicos y privados.",
     "experienciaPractica": [
       {
         "title": "Cámara Gesell y Observación Didáctica",
         "desc": "Instalación para la observación en vivo de prácticas docentes, dinámicas grupales y diagnóstico de problemas pedagógicos.",
         "icon": "👁️",
         "tag": "Pedagogía",
-        "features": [
-          "Observación analítica",
-          "Prácticas de microenseñanza"
-        ]
+        "features": ["Observación analítica", "Prácticas de microenseñanza"]
       },
       {
         "title": "Laboratorio de Recursos y Tecnología Educativa",
         "desc": "Acondicionado para el diseño curricular multimedia, administración de plataformas LMS (Moodle, Canvas) y recursos virtuales.",
         "icon": "🎓",
         "tag": "LMS & Media",
-        "features": [
-          "Diseño instruccional",
-          "Recursos educativos abiertos"
-        ]
+        "features": ["Diseño instruccional", "Recursos educativos abiertos"]
       }
     ],
     "certificaciones": [],
     "plan": {
-      "Primer semestre": [
+      "Primer Semestre": [
         "Historia del Pensamiento Metodológico Universal",
         "Taller de Modelos de Enseñanza del Siglo XXI",
         "Evaluación de Programas Educativos",
         "Responsabilidad Social"
       ],
-      "Segundo semestre": [
+      "Segundo Semestre": [
         "Observación en el Aula",
         "Psicología Educativa",
         "Problemas de la Enseñanza en la Educación",
         "Paradigmas de Aprendizaje e Innovación Educativa"
+      ],
+      "Tercer Semestre": [
+        "Fundamentación y Planeación Didáctica",
+        "Seminario de Tesis I",
+        "Optativa I",
+        "Optativa II"
+      ],
+      "Cuarto Semestre": [
+        "Administración de Instituciones Educativas",
+        "Seminario de Tesis II",
+        "Optativa III",
+        "Optativa IV"
       ]
     },
-    "perfilEgreso": "El egresado de la Maestría en Educación en Formación Docente de la Universidad Internacional estará formado y será capacitado para impactar en..."
+    "perfilEgreso": "El egresado de la Maestría en Educación en Formación Docente de la Universidad Internacional estará formado y será capacitado para impactar en...",
+    "mercado_laboral": [
+      "Instituciones Educativas y Centros Escolares Públicos y Privados.",
+      "Centros de Investigación.",
+      "Sistema Educativo Federal, Estatal o Municipal."
+    ],
+    "areas_conocimiento": [
+      "Investigación",
+      "Metodología",
+      "Tecnología Educativa",
+      "Pedagogía"
+    ],
+    "lineas_investigacion": [
+      "Modelos de enseñanza aplicables a programas y asignaturas en instituciones de educación básica, medio superior y superior",
+      "Evaluación de planes y programas docentes en instituciones de educación, medio superior y superior",
+      "Estrategias de enseñanza aplicando Nuevas Tecnologías de Información y Comunicación (NTIC's)"
+    ],
+    "areas_enfoque": [],
+    "areas_especializacion": [
+      "Pedagogía",
+      "Investigación y Metodología",
+      "Tecnología Educativa"
+    ],
+    "power_skills": [],
+    "internationalization": null,
+    "formato": "Híbrido"
   },
   "maes-gestion-calidad": {
     "id": "CALIDAD",
@@ -756,34 +1174,93 @@
     "type": "maestria",
     "rvoe": "2006P04047/29-05-2006",
     "tagline": "Posgrado UNINTER de Excelencia Académica.",
-    "description": "Administración Informática Derecho Economía y Finanzas Investigación",
-    "ingreso": "Capacidad de razonamiento, análisis y síntesis. Capacidad de comprensión de lectura y expresión oral y escrita. Nivel suficiente de comprensión de inglés. Responsabilidad, capacidad...",
-    "egreso": "Alta dirección corporativa, consultor estratégico senior, gestor de proyectos de innovación o líder de docencia y desarrollo organizacional.",
+    "description": "Formar especialistas profesionales en la administración de sistemas de calidad con los conocimientos, habilidades, valores y las competencias técnico-gerenciales necesarias para la selección, aplicación y desarrollo de herramientas de vanguardia, que promuevan el diseño de estrategias en la implantación de modelos de aseguramiento y gestión de la calidad en empresas, tanto públicas como privadas, en un entorno globalizado; y que sean capaces de evaluar y mejorar los procesos productivos, con un enfoque de responsabilidad y compromiso sociales.",
+    "ingreso": [
+      "Capacidad de razonamiento, análisis y síntesis",
+      "Capacidad de comprensión de lectura y expresión oral y escrita",
+      "Nivel suficiente de comprensión de inglés",
+      "Responsabilidad, capacidad de trabajo individual y en equipo",
+      "Espíritu crítico y auto crítico",
+      "Una base significativa de formación metodológica"
+    ],
+    "egreso": "El perfil del egresado de la Maestría en Finanzas Corporativas, se sustenta en tres aspectos profesionales fundamentales: habilidades y destrezas, actitudes y valores, que son representativos de una formación integral para alcanzar un desempeño eficaz en las diferentes funciones y responsabilidades de las organizaciones, privadas, públicas y sociales.",
     "experienciaPractica": [
       {
         "title": "Sala de Alta Dirección y Simulación",
         "desc": "Espacio ejecutivo acondicionado para el debate de casos de negocio, planeación estratégica y toma de decisiones corporativas.",
         "icon": "💼",
         "tag": "Executive",
-        "features": [
-          "Estudio de casos reales",
-          "Liderazgo simulado"
-        ]
+        "features": ["Estudio de casos reales", "Liderazgo simulado"]
       },
       {
         "title": "Biblioteca Digital y Bases de Datos",
         "desc": "Acceso ilimitado a journals de investigación científica indexados y plataformas de inteligencia financiera global.",
         "icon": "📚",
         "tag": "Research",
-        "features": [
-          "Bases de datos indexadas",
-          "Acceso remoto 24/7"
-        ]
+        "features": ["Bases de datos indexadas", "Acceso remoto 24/7"]
       }
     ],
     "certificaciones": [],
-    "plan": {},
-    "perfilEgreso": "El perfil del egresado de la Maestría en Finanzas Corporativas, se sustenta en tres aspectos profesionales fundamentales: habilidades y destrezas, actitudes y..."
+    "plan": {
+      "Modulo I": [
+        "Sistemas de Información",
+        "Sistemas de Administración para la Calidad Total",
+        "Control Estadístico",
+        "Legislación de la Calidad Aplicada"
+      ],
+      "Modulo II": [
+        "Dirección de la Productividad",
+        "Costos de Calidad",
+        "Competencias Laborales",
+        "Responsabilidad Social de las Organizaciones"
+      ],
+      "Modulo III": [
+        "Reingeniería de Procesos",
+        "Gestión de la Calidad y Normas Técnicas",
+        "Laboratorio de Calidad",
+        "Seminario de Investigación"
+      ],
+      "Modulo IV": [
+        "Auditorías de Calidad",
+        "Implantación de Sistemas de Gestión de la Calidad",
+        "Seminario de Titulación",
+        "Optativa"
+      ],
+      "Optativa": [
+        "Función Despliegue de la Calidad",
+        "Estrategias Financieras",
+        "Gestión de la Innovación y Desarrollo Tecnológico"
+      ]
+    },
+    "perfilEgreso": "El perfil del egresado de la Maestría en Finanzas Corporativas, se sustenta en tres aspectos profesionales fundamentales: habilidades y destrezas, actitudes y...",
+    "mercado_laboral": "Empresas Privadas nacionales e internacionales, instituciones Públicas y educativas. Empresas de consultoría: Cámaras y asociaciones empresariales. Organizaciones no gubernamentales.",
+    "areas_conocimiento": [
+      "Administración",
+      "Informática",
+      "Derecho",
+      "Economía y Finanzas",
+      "Investigación"
+    ],
+    "lineas_investigacion": [
+      "MiPyMES",
+      "Evaluación Financiera",
+      "Finanzas Personales",
+      "Afores",
+      "Seguros",
+      "Fondos de inversión",
+      "Convergencia con la normatividad contable Internacional"
+    ],
+    "areas_enfoque": [],
+    "areas_especializacion": [
+      "Administración",
+      "Informática",
+      "Derecho",
+      "Economía y Finanzas",
+      "Investigación"
+    ],
+    "power_skills": [],
+    "internationalization": null,
+    "formato": "Híbrido"
   },
   "maes-lenguas": {
     "id": "LENGUAS",
@@ -792,47 +1269,84 @@
     "type": "maestria",
     "rvoe": "2016P04225/2016-06-25",
     "tagline": "Posgrado UNINTER de Excelencia Académica.",
-    "description": "Implementarás estrategias docentes considerando los diferentes estilos de aprendizaje de los estudiantes. Diseñarás materiales didácticos para ser empleados como apoyo en el proceso enseñanza-aprendizaje. Serás autónomo para diseñar e implementar una investigación científica en el campo de las lenguas.",
+    "description": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción.",
     "ingreso": "Interés en la investigación, actitud analítica y profesionalismo en el área.",
-    "egreso": "Alta dirección corporativa, consultor estratégico senior, gestor de proyectos de innovación o líder de docencia y desarrollo organizacional.",
+    "egreso": [
+      "La maestría forma profesionales capaces de implementar la metodología adecuada a la enseñanza del español y del inglés como lengua extranjera y ocupaciones de traducción.",
+      "Comprenderás y aplicarás los conocimientos adquiridos mediante estrategias de análisis, síntesis y evaluación.",
+      "Formarás juicios de los procesos de adquisición de una lengua extranjera/una segunda lengua para implementar estrategias de enseñanza adecuadas.",
+      "Demostrarás aptitudes de sensibilidad respecto a sus escalas de valores con el objetivo de lograr una comunicación intercultural asertiva.",
+      "Implementarás estrategias docentes considerando los diferentes estilos de aprendizaje de los estudiantes.",
+      "Diseñarás materiales didácticos para ser empleados como apoyo en el proceso enseñanza-aprendizaje.",
+      "Serás autónomo para diseñar e implementar una investigación científica en el campo de las lenguas."
+    ],
     "experienciaPractica": [
       {
         "title": "Cámara Gesell y Observación Didáctica",
         "desc": "Instalación para la observación en vivo de prácticas docentes, dinámicas grupales y diagnóstico de problemas pedagógicos.",
         "icon": "👁️",
         "tag": "Pedagogía",
-        "features": [
-          "Observación analítica",
-          "Prácticas de microenseñanza"
-        ]
+        "features": ["Observación analítica", "Prácticas de microenseñanza"]
       },
       {
         "title": "Laboratorio de Recursos y Tecnología Educativa",
         "desc": "Acondicionado para el diseño curricular multimedia, administración de plataformas LMS (Moodle, Canvas) y recursos virtuales.",
         "icon": "🎓",
         "tag": "LMS & Media",
-        "features": [
-          "Diseño instruccional",
-          "Recursos educativos abiertos"
-        ]
+        "features": ["Diseño instruccional", "Recursos educativos abiertos"]
       }
     ],
     "certificaciones": [],
     "plan": {
-      "Primer semestre": [
+      "Primer Semestre": [
         "Adquisición de una Segunda Lengua / Lengua Extranjera",
         "Lingüística Histórica del Español",
         "Metodología de la Enseñanza de Lenguas Extranjeras",
         "Responsabilidad Social"
       ],
-      "Segundo semestre": [
+      "Segundo Semestre": [
         "Lenguaje, Sociedad y Cultura",
         "Metodología de la Investigación en la Adquisición de Lenguas",
         "Desarrollo de destrezas Lingüísticas",
         "Métodos Estadísticos Avanzados"
+      ],
+      "Tercer Semestre": [
+        "Seminario de Tesis",
+        "La Pragmática y el Estudio del Español",
+        "Optativa I",
+        "Optativa II"
+      ],
+      "Cuarto Semestre": [
+        "Elaboración del Currículum de Lenguas",
+        "Gramática Comparativa del inglés y del español",
+        "Optativa III",
+        "Optativa IV"
       ]
     },
-    "perfilEgreso": "La maestría forma profesionales capaces de implementar la metodología adecuada a la enseñanza del español y del inglés como lengua extranjera y..."
+    "perfilEgreso": "La maestría forma profesionales capaces de implementar la metodología adecuada a la enseñanza del español y del inglés como lengua extranjera y...",
+    "mercado_laboral": "El egresado de la Maestría en la Enseñanza de Lenguas Extranjeras de la Universidad Internacional contará con las herramientas para realizar su trabajo y servicio profesional a la altura de las necesidades del siglo XXI, siendo fundamental la competencia en multiculturalidad. La certificación en idiomas es una llave maestra que abre puertas en el ámbito profesional, académico y de negocios, además de facilitar la posibilidad de vivir en un país extranjero. Actualmente, la demanda global de especialistas en enseñanza de lenguas es creciente; naciones como China, Estados Unidos, Canadá, Alemania y Japón lideran la búsqueda de docentes altamente capacitados en este campo.",
+    "areas_conocimiento": [
+      "Lengua y Cultura",
+      "Literatura y Educación",
+      "Comunicación",
+      "Investigación"
+    ],
+    "lineas_investigacion": [
+      "Problemáticas de La lengua en su entorno",
+      "Metodología y programas para adquirir una lengua",
+      "Transición en la lengua en contexto",
+      "Procesos de traducción e interpretación"
+    ],
+    "areas_enfoque": [],
+    "areas_especializacion": [
+      "Lengua y Cultura",
+      "Literatura y Educación",
+      "Comunicación",
+      "Investigación"
+    ],
+    "power_skills": [],
+    "internationalization": null,
+    "formato": "Híbrido"
   },
   "maes-redes": {
     "id": "REDES",
@@ -841,33 +1355,84 @@
     "type": "maestria",
     "rvoe": "2010P04107 / 2010-04-15",
     "tagline": "Posgrado UNINTER de Excelencia Académica.",
-    "description": "Redes de Computadoras Metodología Tecnologías Web",
-    "ingreso": "Criterio de razonamiento lógico. Interés por la tecnología orientada a la web, así como por las redes de computadoras. Capacidad de observación y análisis....",
-    "egreso": "Alta dirección corporativa, consultor estratégico senior, gestor de proyectos de innovación o líder de docencia y desarrollo organizacional.",
+    "description": "Formar Maestros con las competencias tecnológicas necesarias para la toma de decisiones sobre la infraestructura de las comunicaciones, indispensables para la transmisión de voz, datos e imágenes en tiempo real en un ámbito seguro y confiable, así como también en el área de las tecnologías web.",
+    "ingreso": "Criterio de razonamiento lógico. Interés por la tecnología orientada a la web, así como por las redes de computadoras. Capacidad de observación y análisis. Es deseable también que cuenten con una personalidad dinámica, creativa, con iniciativa y facilidad para el trabajo en equipos multidisciplinarios, capacidad de concentración por largos periodos de tiempo y crítica.",
+    "egreso": "El egresado contará con una formación integral basada en conocimientos y herramientas teóricas y metodológicas, que le posibilitarán tomar decisiones efectivas referidas a temas y problemas contemporáneos de las redes de computadoras y tecnologías web, mostrando su competencia en el análisis y valoración de los diferentes dispositivos de interconexión de redes e integración de sistemas vía web.",
     "experienciaPractica": [
       {
         "title": "Laboratorio de Cómputo Mac Pro & Workstations",
         "desc": "Equipos de procesamiento de alto rendimiento y tarjetas de video de última generación para modelado, render y simulaciones.",
         "icon": "🖥️",
         "tag": "Tecnología",
-        "features": [
-          "Estaciones Mac Pro",
-          "Software de vanguardia"
-        ]
+        "features": ["Estaciones Mac Pro", "Software de vanguardia"]
       },
       {
         "title": "Laboratorio de Redes & Virtualización",
         "desc": "Infraestructura física y lógica para prácticas de enrutamiento, ciberseguridad, servicios cloud y administración de servidores.",
         "icon": "🔌",
         "tag": "Networking",
-        "features": [
-          "Servidores virtuales",
-          "Equipamiento Cisco / Juniper"
-        ]
+        "features": ["Servidores virtuales", "Equipamiento Cisco / Juniper"]
       }
     ],
     "certificaciones": [],
-    "plan": {},
-    "perfilEgreso": "El egresado contará con una formación integral basada en conocimientos y herramientas teóricas y metodológicas, que le posibilitarán tomar decisiones efectivas referidas..."
+    "plan": {
+      "Semestre I": [
+        "Arquitectura de Redes de Computadoras",
+        "Diseño de Interfaces Visuales",
+        "Legislación y Normalización de Telecomunicaciones",
+        "Tecnologías y Aplicaciones Web"
+      ],
+      "Semestre II": [
+        "Estrategias de Negociación",
+        "Mercadotecnia Aplicada a las Nuevas Tecnologías",
+        "Minería Web",
+        "Protocolos de Enrutamiento"
+      ],
+      "Semestre III": [
+        "Negocio y Comercio Electrónico",
+        "Seminario de Investigación",
+        "Optativa",
+        "Optativa"
+      ],
+      "Semestre IV": [
+        "Investigación y Administración de la Innovación Tecnológica",
+        "Seminario de Titulación",
+        "Optativa",
+        "Optativa"
+      ],
+      "Área de Optativas": [
+        "Acceso a la WAN",
+        "Aspectos Físicos de Voz y Datos",
+        "Conmutación y Conexión Inalámbrica de LAN",
+        "Implementación y Administración de Redes Inalámbricas",
+        "Internet y Telefonía Móvil",
+        "Mecanismos de Pago Electrónico y Aspectos de Seguridad",
+        "Objetos Distribuidos y Componentes en la Web",
+        "Programación Orientada a la Web",
+        "Seguridad en Ambientes de Redes"
+      ]
+    },
+    "perfilEgreso": "El egresado contará con una formación integral basada en conocimientos y herramientas teóricas y metodológicas, que le posibilitarán tomar decisiones efectivas referidas...",
+    "mercado_laboral": "Optimización y desempeño de las tecnologías de la información en organizaciones de diversos sectores, arquitectura de red, y administración de ecosistemas web. Optimizará el desempeño de las tecnologías de información en organizaciones, contribuyendo al desarrollo permanente de la investigación y la innovación tecnológica. Será un factor de calidad en el área de la docencia. Actuará como agente de cambios tecnológicos, planteando la reformulación de las relaciones laborales e interrogantes en la integración organizacional y el fortalecimiento de su cultura, visualizando el impacto en el factor humano de las nuevas tecnologías y, por lo tanto, hará necesaria la incorporación de nuevas estrategias en su gestión.",
+    "areas_conocimiento": [
+      "Arquitectura de Redes de Computadora",
+      "Telecomunicaciones",
+      "Implementación y Administración de Redes",
+      "Mercadotecnia Aplicada a las Nuevas Tecnologías",
+      "Investigación y Administración de la Innovación Tecnológica",
+      "Estrategias de Negociación",
+      "Tecnologías y Aplicaciones WEB",
+      "Programación Orientada a la WEB: Mecanismos de Pago Electrónico y Aspectos de Seguridad"
+    ],
+    "lineas_investigacion": ["Redes de Computadoras", "Tecnologías Web"],
+    "areas_enfoque": [],
+    "areas_especializacion": [
+      "Redes de Computadoras",
+      "Metodología",
+      "Tecnologías Web"
+    ],
+    "power_skills": [],
+    "internationalization": null,
+    "formato": "Híbrido"
   }
 }

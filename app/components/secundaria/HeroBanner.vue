@@ -1,149 +1,332 @@
 <script setup lang="ts">
-import { BookOpen, Atom, Languages, GraduationCap } from "lucide-vue-next";
-
-const stats = [
-  { value: "2", label: "Modalidades disponibles" },
-  { value: "3", label: "Años de duración" },
-  { value: "100%", label: "Bilingüe" },
-  { value: "45+", label: "Actividades extracurriculares" },
-];
+import { BookOpen, Atom, Languages } from "lucide-vue-next";
 </script>
 
 <template>
-  <section class="siu-hero">
-    <div class="siu-hero__bg">
-      <img
-        src="/images/Secundaria/hero/16.jpg"
-        alt="Estudiantes SIU UNINTER"
-        class="siu-hero__img"
-      />
-      <div class="siu-hero__overlay"></div>
-    </div>
+  <div class="siu-hero-wrapper">
+    <section class="siu-hero">
+      <div class="siu-hero__bg">
+        <img
+          src="/images/Secundaria/hero/16.jpg"
+          alt="Estudiantes SIU UNINTER"
+          class="siu-hero__img"
+        />
+        <div class="siu-hero__overlay"></div>
+        <div class="siu-hero__overlay2"></div>
+      </div>
 
-    <!-- Elementos decorativos flotantes -->
-    <div class="siu-hero__deco siu-hero__deco--tl" aria-hidden="true">
-      <Atom :size="34" />
-    </div>
-    <div class="siu-hero__deco siu-hero__deco--tr" aria-hidden="true">
-      <BookOpen :size="30" />
-    </div>
-    <div class="siu-hero__deco siu-hero__deco--br" aria-hidden="true">
-      <Languages :size="28" />
-    </div>
+      <!-- Elementos decorativos flotantes -->
+      <div class="siu-hero__deco siu-hero__deco--tl" aria-hidden="true">
+        <Atom :size="34" />
+      </div>
+      <div class="siu-hero__deco siu-hero__deco--tr" aria-hidden="true">
+        <BookOpen :size="30" />
+      </div>
+      <div class="siu-hero__deco siu-hero__deco--br" aria-hidden="true">
+        <Languages :size="28" />
+      </div>
 
-    <!-- Sticker HOLA / HELLO -->
-    <div class="siu-hero__sticker siu-hero__sticker--hola" aria-hidden="true">
-      <span class="sticker-line">HOLA</span>
-      <span class="sticker-arrow">↙</span>
-      <span class="sticker-line sticker-line--en">HELLO</span>
-    </div>
+      <!-- Sticker HOLA / HELLO -->
+      <div class="siu-hero__sticker siu-hero__sticker--hola" aria-hidden="true">
+        <span class="sticker-line">HOLA</span>
+        <span class="sticker-arrow">↙</span>
+        <span class="sticker-line sticker-line--en">HELLO</span>
+      </div>
 
-    <!-- Contenido -->
-    <div class="siu-container siu-hero__content">
-      <div class="siu-hero__inner">
-        <div class="siu-hero__eyebrow">
-          <img
-            src="/images/logo-uninter.png"
-            alt="SIU"
-            class="siu-hero__logo"
-            onerror="this.style.display = 'none'"
-          />
-          <span>Secundaria Internacional UNINTER</span>
-        </div>
+      <!-- Contenido -->
+      <div class="siu-wrap siu-hero__content">
+        <div class="siu-hero__inner">
+          <div class="siu-hero__eyebrow">
+            <img
+              src="/images/hero/logo-blanco.svg"
+              alt="SIU"
+              class="siu-hero__logo-full"
+              onerror="this.style.display = 'none'"
+            />
+          </div>
+          <h1 class="siu-hero__title">
+            <span class="siu-hero__title-main">SECUNDARIA</span>
+            <span class="siu-hero__title-sub"
+              >Bilingüe &amp; Multicultural</span
+            >
+          </h1>
 
-        <p class="siu-hero__tagline">CONOCE LO QUE SIU TIENE PARA TI</p>
+          <p class="siu-hero__desc">
+            Formamos jóvenes con visión global, desarrollo de habilidades
+            culturales, artísticas y deportivas en un entorno internacional con
+            más de 40 años de experiencia educativa.
+          </p>
 
-        <h1 class="siu-hero__title">
-          <span class="siu-hero__title-main">SECUNDARIA</span>
-          <span class="siu-hero__title-sub">Bilingüe &amp; Multicultural</span>
-        </h1>
-
-        <p class="siu-hero__desc">
-          Formamos jóvenes con visión global, desarrollo de habilidades
-          culturales, artísticas y deportivas en un entorno internacional con
-          más de 40 años de experiencia educativa.
-        </p>
-
-        <div class="siu-hero__ctas">
-          <a
-            href="https://siu.uninter.edu.mx/"
-            target="_blank"
-            class="siu-btn siu-btn--primary"
-          >
-            Conoce SIU
-          </a>
-          <a href="#oferta-siu" class="siu-btn siu-btn--ghost">
-            Ver modalidades
-          </a>
+          <div class="siu-hero__ctas-new">
+            <a href="#oferta-siu" class="siu-btn-card">
+              <div class="btn-icon">
+                <Icon name="lucide:book-open" size="28" />
+              </div>
+              <span>Ver modalidades</span>
+            </a>
+            <a
+              href="https://siu.uninter.edu.mx/"
+              target="_blank"
+              class="siu-btn-card"
+            >
+              <div class="btn-icon"><Icon name="lucide:info" size="28" /></div>
+              <span>Conoce SIU</span>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- Stats strip -->
     <div class="siu-hero__stats-bar">
-      <div class="siu-container siu-hero__stats-inner">
-        <div v-for="stat in stats" :key="stat.label" class="siu-stat">
-          <span class="siu-stat__value">{{ stat.value }}</span>
-          <span class="siu-stat__label">{{ stat.label }}</span>
+      <div class="siu-wrap siu-hero__stats-inner">
+        <div class="siu-stat">
+          <div class="siu-stat__icon"><Icon name="mdi:layers" size="28" /></div>
+          <div class="siu-stat__text">
+            <span class="siu-stat__value">Modalidades</span>
+            <span class="siu-stat__label">Disponibles</span>
+          </div>
+        </div>
+        <div class="siu-stat">
+          <div class="siu-stat__icon">
+            <Icon name="mdi:calendar-month-outline" size="28" />
+          </div>
+          <div class="siu-stat__text">
+            <span class="siu-stat__value">Años de</span>
+            <span class="siu-stat__label">Duración</span>
+          </div>
+        </div>
+        <div class="siu-stat">
+          <div class="siu-stat__icon">
+            <Icon name="mdi:translate" size="28" />
+          </div>
+          <div class="siu-stat__text">
+            <span class="siu-stat__value">Enfoque</span>
+            <span class="siu-stat__label">Bilingüe</span>
+          </div>
+        </div>
+        <div class="siu-stat">
+          <div class="siu-stat__icon">
+            <Icon name="mdi:basketball" size="28" />
+          </div>
+          <div class="siu-stat__text">
+            <span class="siu-stat__value">Actividades</span>
+            <span class="siu-stat__label">Extracurriculares</span>
+          </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <style scoped>
-.siu-hero {
-  --s: #ecab00;
-  --sd: #c49000;
-  --sl: #f5c842;
-  --sbg: #1a1500;
-}
-
-.siu-container {
+.siu-wrap {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
 
-.siu-hero {
-  position: relative;
-  height: clamp(520px, 68vh, 680px);
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-  background: var(--sbg);
+.siu-hero-wrapper {
+  --s: #ecab00;
+  --sd: #c49000;
+  --sl: #f5c842;
+  --sbg: #1a1500;
+  --sa: #fceeb5;
+  --s-blue: #00b6ec;
+  --s-blue-dark: #0091d7;
+  background-color: var(--sbg);
 }
-
+.siu-hero {
+  align-items: center;
+  background: transparent;
+  display: flex;
+  height: clamp(520px, 68vh, 680px);
+  overflow: hidden;
+  position: relative;
+}
 .siu-hero__bg {
-  position: absolute;
   inset: 0;
+  position: absolute;
 }
 .siu-hero__img {
-  width: 100%;
+  animation: kb-6f81a179 14s ease-out forwards;
   height: 100%;
+  -o-object-fit: cover;
   object-fit: cover;
+  -o-object-position: center top;
   object-position: center top;
-  animation: kb 14s ease-out forwards;
+  width: 100%;
 }
-@keyframes kb {
+.siu-hero__overlay {
+  background: linear-gradient(180deg, #1a150066, #1a15001a 50%, #1a15001a);
+  inset: 0;
+  position: absolute;
+}
+.siu-hero__overlay2 {
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  background: linear-gradient(
+    90deg,
+    rgba(26, 21, 0, 0.85),
+    rgba(26, 21, 0, 0.6) 30%,
+    rgba(26, 21, 0, 0.1) 45%,
+    transparent 60%
+  );
+  inset: 0;
+  -webkit-mask-image: linear-gradient(90deg, #000, #000 35%, transparent 55%);
+  mask-image: linear-gradient(90deg, #000, #000 35%, transparent 55%);
+  position: absolute;
+}
+.siu-hero__content {
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+.siu-hero__inner {
+  max-width: 640px;
+}
+.siu-hero__eyebrow {
+  align-items: center;
+  display: flex;
+  margin-bottom: 2rem;
+}
+.siu-hero__logo-full {
+  height: 48px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.siu-hero__title {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  margin: 0 0 2rem;
+}
+.siu-hero__title-main {
+  color: var(--s);
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  text-shadow: 0 4px 24px hsla(43, 100%, 66%, 0.25);
+}
+.siu-hero__title-main,
+.siu-hero__title-sub {
+  font-family: var(--font-serif, Georgia, serif);
+}
+.siu-hero__title-sub {
+  color: #ffffffe6;
+  font-size: clamp(1.2rem, 2.5vw, 1.9rem);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  margin-top: 1rem;
+}
+.siu-hero__desc {
+  color: #ffffffad;
+  font-size: clamp(0.9rem, 1.4vw, 1rem);
+  line-height: 1.65;
+  margin: 0 0 3rem;
+  max-width: 520px;
+}
+.siu-hero__ctas-new {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.siu-btn-card {
+  align-items: center;
+  background: transparent;
+  border: 1px solid hsla(0, 0%, 100%, 0.4);
+  border-radius: 12px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.95rem;
+  font-weight: 600;
+  gap: 0.5rem;
+  justify-content: center;
+  min-width: 140px;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.siu-btn-card:hover {
+  background: rgba(5, 173, 220, 0.15);
+  border-color: #05addc;
+  color: #05addc;
+  transform: translateY(-2px);
+}
+.btn-icon {
+  margin-bottom: 0.1rem;
+}
+
+.siu-hero__stats-bar {
+  backdrop-filter: blur(16px) saturate(150%);
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
+  background-attachment: fixed;
+  background-color: #1a1500d9;
+  background-image: radial-gradient(
+    circle at 50% 50%,
+    rgba(255, 206, 82, 0.15) 0,
+    transparent 60%
+  );
+  background-position: 50%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  border-top: 1px solid rgba(255, 206, 82, 0.3);
+  box-shadow: 0 4px 30px #00000080;
+  padding: 1.5rem 0;
+  position: relative;
+}
+.siu-hero__stats-inner {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+}
+.siu-stat {
+  align-items: center;
+  border-right: 1px solid rgba(255, 206, 82, 0.3);
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+.siu-stat:last-child {
+  border-right: none;
+}
+.siu-stat__icon {
+  align-items: center;
+  color: var(--s);
+  display: flex;
+  justify-content: center;
+}
+.siu-stat__text {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.siu-stat__value {
+  color: #fff;
+  font-size: clamp(1.1rem, 1.3vw, 1.4rem);
+  font-weight: 800;
+  line-height: 1.2;
+}
+.siu-stat__label {
+  color: #fffc;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+@keyframes kb-6f81a179 {
   from {
     transform: scale(1);
   }
   to {
     transform: scale(1.06);
   }
-}
-.siu-hero__overlay {
-  position: absolute;
-  inset: 0;
-  background:
-    linear-gradient(
-      115deg,
-      rgba(26, 18, 0, 0.93) 0%,
-      rgba(26, 18, 0, 0.72) 50%,
-      rgba(26, 18, 0, 0.3) 100%
-    ),
-    linear-gradient(to top, rgba(26, 18, 0, 0.9) 0%, transparent 55%);
 }
 
 /* Decorativos */
@@ -193,7 +376,7 @@ const stats = [
   line-height: 1;
 }
 .sticker-line--en {
-  background: var(--s);
+  background: #00a8e8;
   color: #fff;
 }
 .sticker-arrow {
@@ -203,188 +386,63 @@ const stats = [
   line-height: 1;
 }
 
-/* Contenido */
-.siu-hero__content {
-  position: relative;
-  z-index: 3;
-  width: 100%;
-  padding-bottom: 7rem;
-}
-.siu-hero__inner {
-  max-width: 640px;
-}
-
-.siu-hero__eyebrow {
-  display: flex;
-  align-items: center;
-  gap: 0.625rem;
-  margin-bottom: 1rem;
-}
-.siu-hero__logo {
-  height: 32px;
-  object-fit: contain;
-}
-.siu-hero__eyebrow span {
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--sl);
-}
-
-.siu-hero__tagline {
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.5);
-  margin: 0 0 1rem;
-}
-
-.siu-hero__title {
-  display: flex;
-  flex-direction: column;
-  margin: 0 0 1.5rem;
-  line-height: 1;
-}
-.siu-hero__title-main {
-  font-family: var(--font-serif, Georgia, serif);
-  font-size: clamp(3rem, 7vw, 5.5rem);
-  font-weight: 900;
-  color: var(--s);
-  letter-spacing: -0.02em;
-  text-shadow: 0 4px 24px rgba(236, 171, 0, 0.3);
-}
-.siu-hero__title-sub {
-  font-family: var(--font-serif, Georgia, serif);
-  font-size: clamp(1.2rem, 2.5vw, 1.9rem);
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.9);
-  letter-spacing: 0.05em;
-  margin-top: 0.25rem;
-}
-
-.siu-hero__desc {
-  font-size: clamp(0.9rem, 1.4vw, 1rem);
-  color: rgba(255, 255, 255, 0.65);
-  line-height: 1.65;
-  margin: 0 0 2rem;
-  max-width: 520px;
-  text-align: left;
-}
-
-.siu-hero__ctas {
-  display: flex;
-  gap: 0.875rem;
-  flex-wrap: wrap;
-}
-.siu-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.8rem 2rem;
-  border-radius: 8px;
-  font-size: 0.9rem;
-  font-weight: 700;
-  text-decoration: none;
-  transition: all 0.2s;
-  cursor: pointer;
-}
-.siu-btn--primary {
-  background: var(--s);
-  color: #1a1500;
-  border: 2px solid var(--s);
-}
-.siu-btn--primary:hover {
-  background: var(--sd);
-  border-color: var(--sd);
-  transform: translateY(-2px);
-}
-.siu-btn--ghost {
-  background: transparent;
-  color: #fff;
-  border: 2px solid rgba(255, 255, 255, 0.4);
-}
-.siu-btn--ghost:hover {
-  border-color: rgba(255, 255, 255, 0.85);
-  background: rgba(255, 255, 255, 0.08);
-}
-
-/* Stats strip */
-.siu-hero__stats-bar {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(255, 255, 255, 0.07);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
-  z-index: 4;
-}
-.siu-hero__stats-inner {
-  display: flex;
-  align-items: stretch;
-}
-.siu-stat {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem 1.5rem;
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
-  gap: 0.2rem;
-}
-.siu-stat:last-child {
-  border-right: none;
-}
-.siu-stat__value {
-  font-size: clamp(1.4rem, 2.5vw, 1.9rem);
-  font-weight: 900;
-  color: var(--s);
-  line-height: 1;
-}
-.siu-stat__label {
-  font-size: 0.65rem;
-  color: rgba(255, 255, 255, 0.55);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  text-align: center;
-}
-
 @media (max-width: 768px) {
   .siu-hero {
-    height: clamp(460px, 70vh, 580px);
+    flex-direction: column;
+    height: auto;
+    min-height: clamp(500px, 85vh, 800px);
+    padding-top: 5rem;
   }
   .siu-hero__content {
-    padding-bottom: 11rem;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    padding-bottom: 3rem;
   }
-  .siu-hero__sticker--hola {
-    display: none;
+  .siu-hero__stats-bar {
+    position: relative;
+    width: 100%;
   }
   .siu-hero__stats-inner {
     flex-wrap: wrap;
+    gap: 1rem 0;
   }
   .siu-stat {
-    flex: 1 1 50%;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
     border-right: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    flex: 1 1 50%;
+    padding: 1rem 0.5rem;
   }
   .siu-stat:nth-child(odd) {
-    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid hsla(0, 0%, 100%, 0.1);
   }
   .siu-stat:nth-last-child(-n + 2) {
     border-bottom: none;
   }
+  .siu-hero__sticker--hola {
+    display: none;
+  }
 }
 @media (max-width: 480px) {
-  .siu-hero__ctas {
-    flex-direction: column;
+  .siu-hero__ctas-new {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .siu-btn-card {
+    flex: 1;
+    padding: 1rem;
   }
   .siu-hero__title-main {
     font-size: clamp(2.5rem, 12vw, 4rem);
+  }
+  .siu-stat {
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.1) !important;
+    border-right: none !important;
+    flex: 1 1 100%;
+    padding: 1rem 1.5rem;
+  }
+  .siu-stat:last-child {
+    border-bottom: none !important;
   }
 }
 </style>

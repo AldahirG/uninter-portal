@@ -1,4 +1,4 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 import { Globe, Users, Lightbulb, Trophy } from "lucide-vue-next";
 
 const valores = [
@@ -33,7 +33,7 @@ const valores = [
         <div class="siu-welcome__intro">
           <div class="siu-welcome__intro-text">
             <p class="siu-welcome__eyebrow">Bienvenido a</p>
-            <h2 class="siu-welcome__title">Comunidad SIU UNINTER</h2>
+            <h2 class="siu-welcome__title">Comunidad SIU <span class="siu-welcome__title-highlight">UNINTER</span></h2>
           </div>
           <p class="siu-welcome__desc">
             En SIU te ofrecemos comodidades únicas: intercambio internacional y relación directa con otras culturas a través de la
@@ -75,9 +75,9 @@ const valores = [
   padding: 0 1.5rem;
 }
 
-/* Banda superior oscura */
+/* Banda superior clara */
 .siu-welcome__top {
-  background: var(--sbg);
+  background: #ffffff;
   padding: 4.5rem 0 3rem;
 }
 .siu-welcome__intro {
@@ -98,23 +98,26 @@ const valores = [
   font-family: var(--font-serif, Georgia, serif);
   font-size: clamp(1.8rem, 3.5vw, 2.6rem);
   font-weight: 800;
-  color: #fff;
+  color: #0f172a;
   margin: 0;
   line-height: 1.15;
+}
+.siu-welcome__title-highlight {
+  color: #0F3C61;
 }
 .siu-welcome__desc {
   font-size: 0.95rem;
   line-height: 1.75;
-  color: rgba(255,255,255,0.65);
+  color: #475569;
   margin: 0;
   padding-top: 1.6rem;
   border-top: 2px solid var(--s);
 }
 
-/* Cards */
+/* Cards - Fondo crema */
 .siu-welcome__cards-wrap {
-  background: #212121;
-  padding: 3.5rem 0;
+  background: #FFFDF5; 
+  padding: 3.5rem 0 5rem;
 }
 .siu-welcome__cards {
   display: grid;
@@ -123,16 +126,33 @@ const valores = [
 }
 
 .siu-val-card {
-  background: #2a2a2a;
-  border: 1px solid rgba(236,171,0,0.15);
+  background: #fff;
   border-radius: 14px;
   padding: 1.75rem 1.5rem;
-  transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+  transition: transform 0.25s, box-shadow 0.25s;
+  position: relative;
+  z-index: 1;
+}
+.siu-val-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 14px;
+  padding: 1px;
+  background: rgba(236,171,0,0.15);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  transition: background 0.3s;
+  z-index: -1;
 }
 .siu-val-card:hover {
   transform: translateY(-5px);
-  border-color: var(--s);
   box-shadow: 0 12px 32px rgba(236,171,0,0.12);
+}
+.siu-val-card:hover::before {
+  background: linear-gradient(135deg, #FFCE52 0%, #FFCE52 60%, #00b6ec 100%);
 }
 .siu-val-card__icon {
   width: 46px;
@@ -148,12 +168,12 @@ const valores = [
 .siu-val-card__titulo {
   font-size: 1rem;
   font-weight: 700;
-  color: #fff;
+  color: #0f172a;
   margin: 0 0 0.6rem;
 }
 .siu-val-card__desc {
   font-size: 0.85rem;
-  color: rgba(255,255,255,0.55);
+  color: #64748b;
   line-height: 1.6;
   margin: 0;
 }

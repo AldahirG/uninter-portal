@@ -302,58 +302,64 @@ const isSubjectDimmed = (subject: any) => {
    ENCABEZADO
 ========================================================= */
 .syllabus-header {
-  margin-bottom: 4rem;
+  margin-bottom: 4.5rem;
   text-align: center;
-  max-width: 600px;
+  max-width: 740px;
   margin-inline: auto;
 }
 
 .eyebrow {
   display: inline-block;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.15em;
-  color: #1565c0;
-  margin-bottom: 0.75rem;
+  letter-spacing: 0.14em;
+  color: #0084d1;
+  margin-bottom: 1rem;
   background: #e0f2fe;
-  padding: 0.35rem 0.9rem;
-  border-radius: 20px;
+  padding: 0.35rem 1.1rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(0, 132, 209, 0.15);
 }
 
 .section-title {
-  font-family: var(--font-serif, Lora, Georgia, serif);
-  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: clamp(2.4rem, 4.5vw, 3.5rem);
   font-weight: 800;
   color: #0f3c61;
-  margin: 0 0 1rem 0;
-  line-height: 1.1;
-  letter-spacing: -0.02em;
+  margin: 0 0 1.25rem 0;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
 }
 
 .title-accent {
-  color: #d84315;
+  color: #0084d1;
   font-style: italic;
+  font-family: var(--font-serif, Georgia, serif);
+  font-weight: 800;
   position: relative;
   display: inline-block;
 }
+
 .title-accent::after {
   content: "";
   position: absolute;
   bottom: 6px;
-  left: 0;
-  width: 100%;
-  height: 8px;
-  background-color: rgba(216, 67, 21, 0.15);
+  left: -3px;
+  right: -3px;
+  height: 9px;
+  background-color: rgba(254, 205, 211, 0.7);
   z-index: -1;
-  transform: rotate(-2deg);
+  transform: rotate(-1.8deg);
+  border-radius: 3px;
 }
 
 .section-desc {
-  font-size: 1.05rem;
+  font-size: 0.98rem;
   color: #475569;
-  line-height: 1.6;
-  margin: 0;
+  line-height: 1.65;
+  margin: 0 auto;
+  max-width: 680px;
 }
 
 /* =========================================================

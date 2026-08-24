@@ -1,0 +1,1 @@
+import{f as t,_ as n}from"./CeenGvn5.js";const o=t({__name:"FloatingActions",setup(s){return(_,a)=>null}}),e=Object.assign(n(o,[["__scopeId","data-v-46c902ff"]]),{__name:"PortalFloatingActions"});export{e as F};

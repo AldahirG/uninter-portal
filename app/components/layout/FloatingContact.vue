@@ -77,7 +77,7 @@ function closeChat() {
 
     <!-- WhatsApp -->
     <a
-      href="https://wa.link/3ktsjb"
+      href="https://wa.me/527773579000?text=Hola%2C%20quisiera%20informes%20sobre%20UNINTER."
       target="_blank"
       class="fc-fab fc-fab--wa"
       aria-label="WhatsApp"

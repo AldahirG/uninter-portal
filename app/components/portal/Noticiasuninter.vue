@@ -1,73 +1,78 @@
 <script setup lang="ts">
-const WA_URL = 'https://wa.me/5217776154241?text=Hola%20vengo%20de%20la%20p%C3%A1gina%20de%20Universidad%2C%20necesito%20m%C3%A1s%20informaci%C3%B3n%20%E2%9C%8C%EF%B8%8F.'
+const WA_URL =
+  "https://wa.me/5217776154241?text=Hola%20vengo%20de%20la%20p%C3%A1gina%20de%20Universidad%2C%20necesito%20m%C3%A1s%20informaci%C3%B3n%20%E2%9C%8C%EF%B8%8F.";
 
 const noticiaPrincipal = {
-  tag: 'Institucional',
-  titulo: 'UNINTER reafirma certificación ISO 9001:2015 por tercer año consecutivo',
-  resumen: 'La Universidad Internacional mantiene su estándar de calidad internacional, garantizando procesos educativos de excelencia en todos sus programas académicos.',
-  fecha: 'Marzo 2026',
-  imagen: '/images/noticias/diaMujerNews.jpg',
-  href: 'https://uninter.edu.mx/noticias',
-}
+  tag: "Institucional",
+  titulo:
+    "UNINTER reafirma certificación ISO 9001:2015 por tercer año consecutivo",
+  resumen:
+    "La Universidad Internacional mantiene su estándar de calidad internacional, garantizando procesos educativos de excelencia en todos sus programas académicos.",
+  fecha: "Marzo 2026",
+  imagen: "/images/noticias/diaMujerNews.jpg",
+  href: "https://uninter.edu.mx/noticias",
+};
 
 const noticias = [
   {
-    tag: 'Deportes',
-    titulo: 'Leandros clasifican al regional de fútbol americano',
-    fecha: 'Abr 2026',
-    imagen: '/images/noticias/tastesNews.jpg',
-    href: '#',
+    tag: "Deportes",
+    titulo: "Leandros clasifican al regional de fútbol americano",
+    fecha: "Abr 2026",
+    imagen: "/images/noticias/tastesNews.jpg",
+    href: "#",
   },
   {
-    tag: 'Académico',
-    titulo: 'Nuevo Centro de Idiomas abre en campus central',
-    fecha: 'Mar 2026',
-    imagen: '/images/noticias/tastesNews.jpg',
-    href: '#',
+    tag: "Académico",
+    titulo: "Nuevo Centro de Idiomas abre en campus central",
+    fecha: "Mar 2026",
+    imagen: "/images/noticias/tastesNews.jpg",
+    href: "#",
   },
   {
-    tag: 'Eventos',
-    titulo: 'Sesión informativa Licenciaturas Ejecutivas — Abr 10',
-    fecha: 'Abr 2026',
-    imagen: '/images/noticias/tastesNews.jpg',
-    href: '#',
+    tag: "Eventos",
+    titulo: "Sesión informativa Licenciaturas Ejecutivas — Abr 10",
+    fecha: "Abr 2026",
+    imagen: "/images/noticias/tastesNews.jpg",
+    href: "#",
   },
-]
+];
 
 const tagColor: Record<string, string> = {
-  'Institucional': '#0F3C61',
-  'Deportes':      '#2E7D32',
-  'Académico':     '#1565C0',
-  'Eventos':       '#E65100',
-  'Cultura':       '#6A1B9A',
-}
+  Institucional: "#0F3C61",
+  Deportes: "#2E7D32",
+  Académico: "#1565C0",
+  Eventos: "#E65100",
+  Cultura: "#6A1B9A",
+};
 
 // Fallback color por si no hay imagen
 const tagBg: Record<string, string> = {
-  'Institucional': '#e8f0fd',
-  'Deportes':      '#e8f5e9',
-  'Académico':     '#e3f2fd',
-  'Eventos':       '#fff3e0',
-  'Cultura':       '#f3e5f5',
-}
+  Institucional: "#e8f0fd",
+  Deportes: "#e8f5e9",
+  Académico: "#e3f2fd",
+  Eventos: "#fff3e0",
+  Cultura: "#f3e5f5",
+};
 </script>
 
 <template>
   <section class="nn-section uninter-section">
     <div class="uninter-container">
-
       <div class="nn-header">
         <div>
           <div class="uninter-eyebrow">Novedades institucionales</div>
-          <h2 class="uninter-section-title">Noticias<br><em>UNINTER</em></h2>
+          <h2 class="uninter-section-title">Noticias<br /><em>UNINTER</em></h2>
         </div>
-        <a href="https://uninter.edu.mx/noticias" target="_blank" class="uninter-ver-mas">
+        <a
+          href="https://uninter.edu.mx/noticias"
+          target="_blank"
+          class="uninter-ver-mas"
+        >
           Ver todas →
         </a>
       </div>
 
       <div class="nn-layout">
-
         <!-- Noticia principal con imagen -->
         <a :href="noticiaPrincipal.href" target="_blank" class="nn-main">
           <!-- Imagen de fondo -->
@@ -83,7 +88,10 @@ const tagBg: Record<string, string> = {
 
           <!-- Contenido sobre la imagen -->
           <div class="nn-main__content">
-            <span class="nn-tag" :style="`background:${tagColor[noticiaPrincipal.tag]}`">
+            <span
+              class="nn-tag"
+              :style="`background:${tagColor[noticiaPrincipal.tag]}`"
+            >
               {{ noticiaPrincipal.tag }}
             </span>
             <h3 class="nn-main__title">{{ noticiaPrincipal.titulo }}</h3>
@@ -116,7 +124,11 @@ const tagBg: Record<string, string> = {
               />
               <!-- Fallback si no hay imagen -->
               <div class="nn-card__img-fallback">
-                <Icon name="mdi:newspaper-variant-outline" size="28" :style="`color:${tagColor[n.tag]}`" />
+                <Icon
+                  name="mdi:newspaper-variant-outline"
+                  size="28"
+                  :style="`color:${tagColor[n.tag]}`"
+                />
               </div>
             </div>
 
@@ -133,14 +145,15 @@ const tagBg: Record<string, string> = {
             </div>
           </a>
         </div>
-
       </div>
     </div>
   </section>
 </template>
 
 <style scoped>
-.nn-section { background: #fff; }
+.nn-section {
+  background: #fff;
+}
 
 .nn-header {
   display: flex;
@@ -167,10 +180,12 @@ const tagBg: Record<string, string> = {
   flex-direction: column;
   position: relative;
   min-height: 380px;
-  transition: transform .2s;
-  background: #0F3C61;
+  transition: transform 0.2s;
+  background: #0f3c61;
 }
-.nn-main:hover { transform: translateY(-2px); }
+.nn-main:hover {
+  transform: translateY(-2px);
+}
 
 .nn-main__img-wrap {
   position: absolute;
@@ -199,7 +214,7 @@ const tagBg: Record<string, string> = {
   z-index: 2;
   display: flex;
   flex-direction: column;
-  gap: .75rem;
+  gap: 0.75rem;
   padding: 1.75rem;
   margin-top: auto;
 }
@@ -207,11 +222,11 @@ const tagBg: Record<string, string> = {
 .nn-tag {
   display: inline-block;
   color: #fff;
-  font-size: .67rem;
+  font-size: 0.67rem;
   font-weight: 700;
-  letter-spacing: .07em;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
-  padding: .22rem .65rem;
+  padding: 0.22rem 0.65rem;
   border-radius: 4px;
   align-self: flex-start;
 }
@@ -226,8 +241,8 @@ const tagBg: Record<string, string> = {
 }
 
 .nn-main__resumen {
-  font-size: .8rem;
-  color: rgba(255,255,255,.72);
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.72);
   line-height: 1.6;
   margin: 0;
 }
@@ -236,18 +251,25 @@ const tagBg: Record<string, string> = {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: .75rem;
-  border-top: 1px solid rgba(255,255,255,.15);
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-.nn-main__fecha { font-size: .72rem; color: rgba(255,255,255,.5); }
-.nn-main__cta { font-size: .78rem; font-weight: 700; color: #93c5fd; }
+.nn-main__fecha {
+  font-size: 0.72rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.nn-main__cta {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #93c5fd;
+}
 
 /* ── CARDS SECUNDARIAS ─────────────────────────── */
 .nn-list {
   display: flex;
   flex-direction: column;
-  gap: .875rem;
+  gap: 0.875rem;
 }
 
 .nn-card {
@@ -258,10 +280,12 @@ const tagBg: Record<string, string> = {
   text-decoration: none;
   display: grid;
   grid-template-columns: 90px 1fr;
-  transition: box-shadow .2s, transform .2s;
+  transition:
+    box-shadow 0.2s,
+    transform 0.2s;
 }
 .nn-card:hover {
-  box-shadow: 0 6px 20px rgba(0,0,0,.09);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.09);
   transform: translateX(2px);
 }
 
@@ -286,45 +310,60 @@ const tagBg: Record<string, string> = {
   justify-content: center;
 }
 /* Cuando la imagen carga, oculta el fallback */
-.nn-card__img:not([src=""]) + .nn-card__img-fallback { display: none; }
+.nn-card__img:not([src=""]) + .nn-card__img-fallback {
+  display: none;
+}
 
 .nn-card__body {
-  padding: .875rem 1rem;
+  padding: 0.875rem 1rem;
   display: flex;
   flex-direction: column;
-  gap: .35rem;
+  gap: 0.35rem;
   justify-content: center;
 }
 
 .nn-card__tag {
   display: inline-block;
-  font-size: .63rem;
+  font-size: 0.63rem;
   font-weight: 700;
-  letter-spacing: .06em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   border: 1px solid;
-  padding: .14rem .5rem;
+  padding: 0.14rem 0.5rem;
   border-radius: 4px;
   align-self: flex-start;
 }
 .nn-card__title {
-  font-size: .84rem;
+  font-size: 0.84rem;
   font-weight: 700;
   color: #1e293b;
   line-height: 1.4;
   margin: 0;
 }
-.nn-card__fecha { font-size: .7rem; color: #94a3b8; }
+.nn-card__fecha {
+  font-size: 0.7rem;
+  color: #94a3b8;
+}
 
 /* ── RESPONSIVE ────────────────────────────────── */
 @media (max-width: 768px) {
-  .nn-layout { grid-template-columns: 1fr; }
-  .nn-main { min-height: 280px; }
-  .nn-main__title { font-size: 1.05rem; }
+  .nn-layout {
+    grid-template-columns: 1fr;
+  }
+  .nn-main {
+    min-height: 280px;
+  }
+  .nn-main__title {
+    font-size: 1.05rem;
+  }
 }
 
 @media (max-width: 480px) {
-  .nn-card { grid-template-columns: 72px 1fr; }
-  .nn-card__thumb { min-height: 72px; }
+  .nn-card {
+    grid-template-columns: 72px 1fr;
+  }
+  .nn-card__thumb {
+    min-height: 72px;
+  }
 }
 </style>

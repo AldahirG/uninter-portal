@@ -4,99 +4,77 @@ import { ArrowRight } from "lucide-vue-next";
 const blogs = [
   {
     id: 1,
-    titulo: "Blog INTERNACIONALIZACIÓN",
-    siglas: "INTERNACIONALIZACIÓN",
-    color: "#6A1B9A",
+    titulo: "Internacionalización",
+    siglas: "INTER",
+    color: "#6a1b9a",
     url: "https://blogs.uninter.edu.mx/congresoInternacionalLatinoamerica/",
   },
   {
     id: 2,
-    titulo: "Blog Difusion Cultural",
-    siglas: "Difusión Cultural",
-    color: "#1565C0",
+    titulo: "Difusión Cultural",
+    siglas: "CULTURA",
+    color: "#1565c0",
     url: "https://blogs.uninter.edu.mx/difusioncultural",
   },
   {
     id: 3,
-    titulo: "Blog Deportes",
-    siglas: "Deportes",
-    color: "#00695C",
+    titulo: "Deportes",
+    siglas: "DEPORTES",
+    color: "#00695c",
     url: "https://blogs.uninter.edu.mx/deportes/",
   },
   {
     id: 4,
-    titulo: "Blog BIU",
+    titulo: "Bachillerato Internacional",
     siglas: "BIU",
-    color: "#2E7D32",
+    color: "#2e7d32",
     url: "https://blogs.uninter.edu.mx/biu",
-  },
-];
-
-const redes = [
-  {
-    nombre: "Facebook",
-    href: "https://www.facebook.com/uninteredu",
-    icon: "mdi:facebook",
-  },
-  {
-    nombre: "Instagram",
-    href: "https://www.instagram.com/uninter_cuerna",
-    icon: "mdi:instagram",
-  },
-  {
-    nombre: "YouTube",
-    href: "https://www.youtube.com/user/UniversidadUninter",
-    icon: "mdi:youtube",
-  },
-  {
-    nombre: "TikTok",
-    href: "https://www.tiktok.com/@uninter_cuerna",
-    icon: "mdi:tiktok",
   },
 ];
 </script>
 
 <template>
   <section class="vida-est-section">
-    <div class="biu-container">
-      <!-- Header -->
-      <div class="vida-est-header">
-        <h2 class="vida-est-title">Conoce la vida estudiantil en BIU</h2>
-        <p class="vida-est-sub">A través de nuestros blogs y redes sociales</p>
+    <div class="uninter-container">
+      <!-- ENCABEZADO -->
+      <div class="bl-header">
+        <div class="bl-header__left">
+          <span class="bl-eyebrow">— COMUNIDAD ACADÉMICA</span>
+          <h2 class="bl-title">Blogs BIU</h2>
+        </div>
+        <a
+          href="https://uninter.edu.mx/blogs"
+          target="_blank"
+          rel="noopener"
+          class="bl-btn-all"
+        >
+          Ver todos →
+        </a>
       </div>
 
-      <!-- Grid de blogs -->
-      <div class="blogs-grid">
+      <!-- GRID DE TARJETAS (ESTABLE SIN PARPADEO) -->
+      <div class="bl-grid">
         <a
           v-for="b in blogs"
           :key="b.id"
           :href="b.url"
           target="_blank"
-          class="blog-card"
+          rel="noopener"
+          class="bl-card"
         >
-          <div class="blog-card__thumb" :style="'background: ' + b.color">
-            <span class="blog-card__initials">{{ b.siglas }}</span>
+          <!-- Banner Superior de Color con Watermark -->
+          <div class="bl-card__thumb" :style="{ backgroundColor: b.color }">
+            <span class="bl-card__watermark" aria-hidden="true">{{ b.siglas }}</span>
+            <span class="bl-card__initials">{{ b.siglas }}</span>
           </div>
-          <div class="blog-card__body">
-            <p class="blog-card__titulo">{{ b.titulo }}</p>
-            <span class="blog-card__link"
-              >Ingresar <ArrowRight :size="11"
-            /></span>
-          </div>
-        </a>
-      </div>
 
-      <!-- Redes sociales -->
-      <div class="redes-bar">
-        <a
-          v-for="r in redes"
-          :key="r.nombre"
-          :href="r.href"
-          target="_blank"
-          :aria-label="r.nombre"
-          class="red-link"
-        >
-          <Icon :name="r.icon" size="28" />
+          <!-- Cuerpo de la Tarjeta -->
+          <div class="bl-card__body">
+            <p class="bl-card__nombre">{{ b.titulo }}</p>
+            <span class="bl-card__link">
+              Leer <ArrowRight :size="13" class="bl-card__icon" />
+            </span>
+          </div>
         </a>
       </div>
     </div>
@@ -104,162 +82,192 @@ const redes = [
 </template>
 
 <style scoped>
-.biu-container {
-  max-width: 1280px;
+.vida-est-section {
+  background-color: #f8fafc;
+  padding: 5rem 0 5.5rem;
+  font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+}
+
+.uninter-container {
+  max-width: 1240px;
   margin: 0 auto;
   padding: 0 1.5rem;
+  width: 100%;
 }
 
-.vida-est-section {
-  background: #0d1f0e;
-  padding: 5.5rem 0;
-  --pl: #a8d86e;
+/* ═══ ENCABEZADO ═══ */
+.bl-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+  gap: 1.25rem;
 }
 
-/* Header */
-.vida-est-header {
-  text-align: center;
-  margin-bottom: 3rem;
-}
-.vida-est-title {
-  font-family: var(--font-serif, Georgia, serif);
-  font-size: clamp(1.8rem, 4vw, 2.6rem);
-  font-weight: 800;
-  color: #fff;
-  margin: 0 0 0.5rem;
-  letter-spacing: -0.01em;
-}
-.vida-est-sub {
-  font-size: 0.78rem;
-  color: var(--pl);
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  margin: 0;
-}
-
-/* Grid de blogs */
-.blogs-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  margin-bottom: 3.5rem;
-}
-
-.blog-card {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 12px;
-  overflow: hidden;
-  text-decoration: none;
-  transition:
-    transform 0.2s,
-    box-shadow 0.2s;
+.bl-header__left {
   display: flex;
   flex-direction: column;
 }
-.blog-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
-  background: rgba(255, 255, 255, 0.08);
+
+.bl-eyebrow {
+  color: #0f3c61;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
 }
 
-.blog-card__thumb {
-  height: 80px;
+.bl-title {
+  color: #0f3c61;
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: clamp(2.4rem, 4vw, 3.1rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.bl-btn-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1.5px solid #0f3c61;
+  border-radius: 9999px;
+  color: #0f3c61;
+  padding: 0.45rem 1.4rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-decoration: none;
+  background: #ffffff;
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bl-btn-all:hover {
+  background: #0f3c61;
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(15, 60, 97, 0.15);
+}
+
+/* ═══ GRID ═══ */
+.bl-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+}
+
+/* ═══ TARJETA INDIVIDUAL (LIMPIA, SIN PARPADEO) ═══ */
+.bl-card {
+  background: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 16px;
+  overflow: hidden;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+}
+
+.bl-card:hover {
+  border-color: #2e7d32;
+  box-shadow: 0 12px 28px rgba(46, 125, 50, 0.12);
+}
+
+/* Banner Superior */
+.bl-card__thumb {
+  height: 82px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  transition: opacity 0.2s;
-}
-.blog-card:hover .blog-card__thumb {
-  opacity: 0.95;
+  overflow: hidden;
+  user-select: none;
 }
 
-.blog-card__initials {
-  font-size: 1.15rem;
+/* Marca de Agua Transparente en lateral derecho */
+.bl-card__watermark {
+  position: absolute;
+  right: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3.2rem;
   font-weight: 900;
-  color: #fff;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.14);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  pointer-events: none;
+  white-space: nowrap;
+  font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+  z-index: 1;
 }
 
-.blog-card__body {
-  padding: 1rem;
+/* Texto Central Blanco Nítido */
+.bl-card__initials {
+  position: relative;
+  z-index: 2;
+  font-size: 1.08rem;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: 0.06em;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+  pointer-events: none;
+}
+
+/* Cuerpo de Tarjeta */
+.bl-card__body {
+  padding: 1.25rem 1.25rem 1.35rem;
   display: flex;
   flex-direction: column;
-  gap: 0.625rem;
+  justify-content: space-between;
   flex: 1;
+  gap: 1rem;
+  background: #ffffff;
 }
 
-.blog-card__titulo {
-  font-size: 0.8rem;
+.bl-card__nombre {
+  font-size: 0.92rem;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.85);
-  line-height: 1.45;
+  color: #0f3c61;
+  line-height: 1.38;
   margin: 0;
-  flex: 1;
-}
-.blog-card:hover .blog-card__titulo {
-  color: #fff;
 }
 
-.blog-card__link {
-  display: flex;
+.bl-card__link {
+  display: inline-flex;
   align-items: center;
-  gap: 0.25rem;
-  font-size: 0.72rem;
-  font-weight: 800;
-  color: var(--pl);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  transition: transform 0.2s;
-}
-.blog-card:hover .blog-card__link {
-  transform: translateX(2px);
-  color: #fff;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #0084d1;
+  transition: color 0.2s ease, gap 0.2s ease;
 }
 
-/* Redes */
-.redes-bar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.5rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding-top: 2.5rem;
-}
-.red-link {
-  width: 48px;
-  height: 48px;
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.07);
-  color: rgba(255, 255, 255, 0.6);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  transition:
-    background 0.2s,
-    color 0.2s,
-    transform 0.2s;
-}
-.red-link:hover {
-  background: #2e7d32;
-  color: #fff;
-  transform: translateY(-3px);
+.bl-card:hover .bl-card__link {
+  color: #2e7d32;
+  gap: 0.55rem;
 }
 
-/* Responsive */
-@media (max-width: 900px) {
-  .blogs-grid {
+.bl-card__icon {
+  flex-shrink: 0;
+}
+
+/* ═══ RESPONSIVE ═══ */
+@media (max-width: 1024px) {
+  .bl-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 560px) {
-  .blogs-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.75rem;
+
+@media (max-width: 640px) {
+  .bl-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .bl-card__body {
+    padding: 1rem;
   }
 }
 </style>

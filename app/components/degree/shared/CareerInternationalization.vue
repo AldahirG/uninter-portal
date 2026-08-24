@@ -1,21 +1,37 @@
 <script setup lang="ts">
 import { ref, nextTick } from "vue";
-import { Globe, ArrowRight, ExternalLink, X, MapPin } from "lucide-vue-next";
 
 const props = defineProps<{
   data: {
-    title: string;
+    title?: string;
     description: string;
     program_details?: string;
     benefits?: string[];
-    destinations: {
-      country: string;
+    countries: {
+      name: string;
       image: string;
-      activities: string;
+      description: string;
       universities: { name: string; url: string }[];
     }[];
   };
+  careerName?: string;
 }>();
+
+// Mapeo de imágenes desde Unsplash
+const getCountryImage = (filename: string) => {
+  const images: Record<string, string> = {
+    'espana.webp': 'https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=600&q=80',
+    'argentina.webp': 'https://images.unsplash.com/photo-1589909202802-8f4aadce1849?auto=format&fit=crop&w=600&q=80',
+    'francia.webp': 'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80',
+    'italia.webp': 'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=600&q=80',
+    'alemania.webp': 'https://images.unsplash.com/photo-1599946347371-68eb71b16afc?auto=format&fit=crop&w=600&q=80',
+    'estados_unidos.webp': 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=600&q=80',
+    'canada.webp': 'https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=600&q=80',
+    'chile.webp': 'https://images.unsplash.com/photo-1549880338-65ddcdfd017b?auto=format&fit=crop&w=600&q=80',
+    'suiza.webp': 'https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=600&q=80'
+  };
+  return images[filename] || 'https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=600&q=80';
+};
 
 // Estado del Modal de Info (Izquierda)
 const infoModalOpen = ref(false);
@@ -131,15 +147,18 @@ const closeDestination = async () => {
         <!-- LADO IZQUIERDO: Información -->
         <div class="intl-info">
           <div class="intl-eyebrow">
-            <Globe :size="16" class="globe-icon" />
+            <Icon name="mdi:earth" size="16" class="globe-icon" />
             <span>Internacionalización</span>
           </div>
-          <h2 class="intl-title">{{ data.title }}</h2>
+          <h2 class="intl-title">
+            Experiencia Internacional en <br />
+            <span style="color: #0f3c61">{{ careerName || data.title }}</span>
+          </h2>
           <p class="intl-desc">{{ data.description }}</p>
 
           <div class="intl-actions">
             <button class="btn-primary" @click="openInfoModal('details')">
-              Más específico en qué consiste <ArrowRight :size="16" />
+              Más específico en qué consiste <Icon name="mdi:arrow-right" size="16" />
             </button>
             <button class="btn-outline" @click="openInfoModal('benefits')">
               Beneficios
@@ -151,7 +170,7 @@ const closeDestination = async () => {
         <div class="intl-destinations-wrapper" ref="wrapperRef">
           <div class="floating-grid" :class="{ 'has-active': activeDestination !== null }">
             <div 
-              v-for="(dest, index) in data.destinations" 
+              v-for="(dest, index) in data.countries" 
               :key="index"
               class="floating-card"
               :class="[
@@ -161,23 +180,24 @@ const closeDestination = async () => {
               @click="activeDestination === null && selectDestination(index)"
             >
               <!-- IMAGEN Y CAPA BASE -->
-              <img :src="dest.image" :alt="dest.country" class="dest-img" />
+              <div class="dest-fallback" style="position: absolute; inset: 0; background: #e2e8f0;"></div>
+              <img :src="getCountryImage(dest.image)" :alt="dest.name" class="dest-img" onerror="this.style.display='none';" crossorigin="anonymous" />
               <div class="dest-overlay"></div>
               
               <!-- Vista Miniatura -->
               <div class="dest-mini-info" :class="{'fade-out': activeDestination === index}">
-                <MapPin :size="14" />
-                <span>{{ dest.country }}</span>
+                <Icon name="mdi:map-marker" size="14" />
+                <span>{{ dest.name }}</span>
               </div>
 
               <!-- Vista Expandida (Aparece después) -->
               <div class="dest-expanded-info" v-if="activeDestination === index">
                 <button class="close-dest-btn" @click.stop="closeDestination">
-                  <X :size="20" />
+                  <Icon name="mdi:close" size="20" />
                 </button>
                 <div class="dest-expanded-content">
-                  <div class="dest-badge"><MapPin :size="14" /> {{ dest.country }}</div>
-                  <p class="dest-activities">{{ dest.activities }}</p>
+                  <div class="dest-badge"><Icon name="mdi:map-marker" size="14" /> {{ dest.name }}</div>
+                  <p class="dest-activities">{{ dest.description }}</p>
                   
                   <div class="universities-list">
                     <p class="uni-title">Universidades Convenio:</p>
@@ -188,7 +208,7 @@ const closeDestination = async () => {
                       target="_blank" 
                       class="uni-link"
                     >
-                      {{ uni.name }} <ExternalLink :size="12" />
+                      {{ uni.name }} <Icon name="mdi:open-in-new" size="12" />
                     </a>
                   </div>
                 </div>
@@ -201,50 +221,52 @@ const closeDestination = async () => {
     </div>
 
     <!-- MODAL DE INFO (Lado Izquierdo) -->
-    <Teleport to="body">
-      <Transition name="fade">
-        <div v-if="infoModalOpen" class="intl-modal-overlay" @click="closeInfoModal">
-          <div class="intl-modal-content" @click.stop>
-            <button class="modal-close" @click="closeInfoModal">
-              <X :size="20" />
-            </button>
-
-            <div class="modal-tabs">
-              <button 
-                :class="{ active: activeInfoTab === 'details' }" 
-                @click="activeInfoTab = 'details'"
-              >
-                ¿En qué consiste?
+    <ClientOnly>
+      <Teleport to="body">
+        <Transition name="fade">
+          <div v-if="infoModalOpen" class="intl-modal-overlay" @click="closeInfoModal">
+            <div class="intl-modal-content" @click.stop>
+              <button class="modal-close" @click="closeInfoModal">
+                <Icon name="mdi:close" size="20" />
               </button>
-              <button 
-                :class="{ active: activeInfoTab === 'benefits' }" 
-                @click="activeInfoTab = 'benefits'"
-              >
-                Beneficios
-              </button>
-            </div>
 
-            <div class="modal-body">
-              <Transition name="slide-fade" mode="out-in">
-                <div v-if="activeInfoTab === 'details'" key="details">
-                  <h3>Acerca del programa</h3>
-                  <p>{{ data.program_details || 'Información detallada sobre el programa de intercambio no disponible en este momento.' }}</p>
-                </div>
-                <div v-else key="benefits">
-                  <h3>Beneficios del Intercambio</h3>
-                  <ul v-if="data.benefits && data.benefits.length > 0" class="benefits-list">
-                    <li v-for="(ben, i) in data.benefits" :key="i">
-                      <span class="ben-bullet"></span> {{ ben }}
-                    </li>
-                  </ul>
-                  <p v-else>No hay beneficios específicos listados.</p>
-                </div>
-              </Transition>
+              <div class="modal-tabs">
+                <button 
+                  :class="{ active: activeInfoTab === 'details' }" 
+                  @click="activeInfoTab = 'details'"
+                >
+                  ¿En qué consiste?
+                </button>
+                <button 
+                  :class="{ active: activeInfoTab === 'benefits' }" 
+                  @click="activeInfoTab = 'benefits'"
+                >
+                  Beneficios
+                </button>
+              </div>
+
+              <div class="modal-body">
+                <Transition name="slide-fade" mode="out-in">
+                  <div v-if="activeInfoTab === 'details'" key="details">
+                    <h3>Acerca del programa</h3>
+                    <p>{{ data.program_details || 'Información detallada sobre el programa de intercambio no disponible en este momento.' }}</p>
+                  </div>
+                  <div v-else key="benefits">
+                    <h3>Beneficios del Intercambio</h3>
+                    <ul v-if="data.benefits && data.benefits.length > 0" class="benefits-list">
+                      <li v-for="(ben, i) in data.benefits" :key="i">
+                        <span class="ben-bullet"></span> {{ ben }}
+                      </li>
+                    </ul>
+                    <p v-else>No hay beneficios específicos listados.</p>
+                  </div>
+                </Transition>
+              </div>
             </div>
           </div>
-        </div>
-      </Transition>
-    </Teleport>
+        </Transition>
+      </Teleport>
+    </ClientOnly>
   </section>
 </template>
 
@@ -258,7 +280,6 @@ const closeDestination = async () => {
   --p-accent: #0099cc;
   padding: 6rem 0;
   background-color: #f8fafc;
-  overflow: hidden;
   font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
 }
 
@@ -733,7 +754,7 @@ const closeDestination = async () => {
 /* =========================================
    RESPONSIVE
 ========================================= */
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .intl-layout {
     grid-template-columns: 1fr;
     gap: 3rem;

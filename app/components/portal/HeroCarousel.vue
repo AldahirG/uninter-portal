@@ -279,11 +279,15 @@ onUnmounted(() => {
   position: absolute;
   inset: 0;
   background: linear-gradient(
-    105deg,
-    rgba(10, 24, 50, 0.88) 0%,
-    rgba(10, 24, 50, 0.55) 50%,
-    rgba(10, 24, 50, 0.15) 100%
+    90deg,
+    rgba(10, 24, 50, 0.95) 0%,
+    rgba(10, 24, 50, 0.6) 30%,
+    transparent 40%
   );
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  mask-image: linear-gradient(to right, black 30%, transparent 40%);
+  -webkit-mask-image: linear-gradient(to right, black 30%, transparent 40%);
 }
 .hero-slide__overlay2 {
   position: absolute;
@@ -291,7 +295,7 @@ onUnmounted(() => {
   background: linear-gradient(
     to top,
     rgba(10, 24, 50, 0.65) 0%,
-    transparent 55%
+    transparent 40%
   );
 }
 
@@ -351,37 +355,31 @@ onUnmounted(() => {
   gap: 0.75rem;
   flex-wrap: wrap;
 }
-.hero-btn-primary {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  background: #0f3c61;
-  color: #fff;
-  font-size: 0.84rem;
-  font-weight: 700;
-  padding: 0.7rem 1.4rem;
-  border-radius: 6px;
-  text-decoration: none;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  transition: background 0.2s;
-}
-.hero-btn-primary:hover {
-  background: #1a5490;
-}
+.hero-btn-primary,
 .hero-btn-ghost {
   display: inline-flex;
   align-items: center;
-  font-size: 0.84rem;
-  font-weight: 600;
-  padding: 0.7rem 1.4rem;
-  border-radius: 6px;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding: 0.85rem 1.6rem;
+  border-radius: 8px; /* Estilo cuadrado-suave como en la imagen */
   text-decoration: none;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  color: #fff;
-  transition: background 0.2s;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
+
+.hero-btn-primary:hover,
 .hero-btn-ghost:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(11, 37, 69, 0.35); /* Tinte azul marino */
+  border-color: #3b82f6; /* Borde azul marino vibrante para que resalte */
+  color: #60a5fa; /* Texto azul marino/claro para que no se pierda */
+  transform: translateY(-2px);
+  box-shadow: 0 5px 25px rgba(11, 37, 69, 0.5);
 }
 
 .hero-nav {

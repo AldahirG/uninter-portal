@@ -403,7 +403,6 @@ function scrollTo(id: string) {
   font-family: "Inter", sans-serif;
   color: var(--siu-dark);
   background: var(--siu-white);
-  overflow-x: hidden;
 }
 
 .siu-wrap {

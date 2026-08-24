@@ -9,6 +9,9 @@
     <!-- 2. Oferta educativa — acceso a cada nivel -->
     <OfertaEducativa />
 
+    <!-- 2.5 Internacionalización -->
+    <InternacionalizacionSection />
+
     <!-- 3. Historias de éxito -->
     <HistoriasExito />
 
@@ -46,6 +49,7 @@
 import Navbare from "@/components/navbar/Index.vue";
 import HeroCarousel from "@/components/portal/HeroCarousel.vue";
 import OfertaEducativa from "@/components/portal/OfertaEducativa.vue";
+import InternacionalizacionSection from "@/components/portal/InternacionalizacionSection.vue";
 import HistoriasExito from "@/components/portal/Historiasexito.vue";
 import NoticiasUninter from "@/components/portal/Noticiasuninter.vue";
 import BlogsSection from "@/components/portal/Blogssection.vue";

@@ -18,6 +18,11 @@
       <CareerOverview :data="careerData" />
       <CareerJobMarket :careerOpportunities="careerData?.careerOpportunities" />
       <CareerSyllabus :careerId="careerData.id" :syllabusDescription="planDescription" />
+      <CareerInternationalization 
+        v-if="careerData?.internationalization" 
+        :data="careerData.internationalization" 
+        :careerName="careerData.name"
+      />
       <CareerProfiles 
         :admissionProfile="careerData?.admissionProfile" 
         :graduateProfile="careerData?.graduateProfile" 
@@ -48,6 +53,7 @@ import CareerHeroShowcase from "~/components/degree/shared/CareerHeroShowcase.vu
 import CareerOverview from "~/components/degree/shared/CareerOverview.vue";
 import CareerJobMarket from "~/components/degree/shared/CareerJobMarket.vue";
 import CareerSyllabus from "~/components/degree/shared/CareerSyllabus.vue";
+import CareerInternationalization from "~/components/degree/shared/CareerInternationalization.vue";
 import CareerProfiles from "~/components/degree/shared/CareerProfiles.vue";
 import CareerCertifications from "~/components/degree/shared/CareerCertifications.vue";
 import CareerResearch from "~/components/degree/shared/CareerResearch.vue";

@@ -1,0 +1,130 @@
+<template>
+  <section class="intl-section">
+    <div class="uninter-container">
+      
+      <div class="intl-layout">
+        <!-- LADO IZQUIERDO: Información -->
+        <div class="intl-info">
+          <div class="intl-eyebrow">
+            <Icon name="mdi:earth" size="16" class="globe-icon" />
+            <span>Internacionalización</span>
+          </div>
+          <h2 class="intl-title">
+            Experiencia Internacional en <br />
+            <span style="color: #0f3c61">{{ careerName || data.title }}</span>
+          </h2>
+          <p class="intl-desc">{{ data.description }}</p>
+
+          <div class="intl-actions">
+            <button class="btn-primary" @click="openInfoModal('details')">
+              Más específico en qué consiste <Icon name="mdi:arrow-right" size="16" />
+            </button>
+            <button class="btn-outline" @click="openInfoModal('benefits')">
+              Beneficios
+            </button>
+          </div>
+        </div>
+
+        <!-- LADO DERECHO: Tarjetas Flotantes -->
+        <div class="intl-destinations-wrapper" ref="wrapperRef">
+          <div class="floating-grid" :class="{ 'has-active': activeDestination !== null }">
+            <div 
+              v-for="(dest, index) in data.countries" 
+              :key="index"
+              class="floating-card"
+              :class="[
+                `float-anim-${index % 3}`, 
+                { 'is-active': activeDestination === index, 'is-hidden': activeDestination !== null && activeDestination !== index }
+              ]"
+              @click="activeDestination === null && selectDestination(index)"
+            >
+              <!-- IMAGEN Y CAPA BASE -->
+              <div class="dest-fallback" style="position: absolute; inset: 0; background: #e2e8f0;"></div>
+              <img :src="`/images/internacionalizacion/${dest.image}`" :alt="dest.name" class="dest-img" onerror="this.style.display='none';" />
+              <div class="dest-overlay"></div>
+              
+              <!-- Vista Miniatura -->
+              <div class="dest-mini-info" :class="{'fade-out': activeDestination === index}">
+                <Icon name="mdi:map-marker" size="14" />
+                <span>{{ dest.name }}</span>
+              </div>
+
+              <!-- Vista Expandida (Aparece después) -->
+              <div class="dest-expanded-info" v-if="activeDestination === index">
+                <button class="close-dest-btn" @click.stop="closeDestination">
+                  <Icon name="mdi:close" size="20" />
+                </button>
+                <div class="dest-expanded-content">
+                  <div class="dest-badge"><Icon name="mdi:map-marker" size="14" /> {{ dest.name }}</div>
+                  <p class="dest-activities">{{ dest.description }}</p>
+                  
+                  <div class="universities-list">
+                    <p class="uni-title">Universidades Convenio:</p>
+                    <a 
+                      v-for="(uni, uIdx) in dest.universities" 
+                      :key="uIdx" 
+                      :href="uni.url" 
+                      target="_blank" 
+                      class="uni-link"
+                    >
+                      {{ uni.name }} <Icon name="mdi:open-in-new" size="12" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- MODAL DE INFO (Lado Izquierdo) -->
+    <ClientOnly>
+      <Teleport to="body">
+        <Transition name="fade">
+          <div v-if="infoModalOpen" class="intl-modal-overlay" @click="closeInfoModal">
+            <div class="intl-modal-content" @click.stop>
+              <button class="modal-close" @click="closeInfoModal">
+                <Icon name="mdi:close" size="20" />
+              </button>
+
+              <div class="modal-tabs">
+                <button 
+                  :class="{ active: activeInfoTab === 'details' }" 
+                  @click="activeInfoTab = 'details'"
+                >
+                  ¿En qué consiste?
+                </button>
+                <button 
+                  :class="{ active: activeInfoTab === 'benefits' }" 
+                  @click="activeInfoTab = 'benefits'"
+                >
+                  Beneficios
+                </button>
+              </div>
+
+              <div class="modal-body">
+                <Transition name="slide-fade" mode="out-in">
+                  <div v-if="activeInfoTab === 'details'" key="details">
+                    <h3>Acerca del programa</h3>
+                    <p>{{ data.program_details || 'Información detallada sobre el programa de intercambio no disponible en este momento.' }}</p>
+                  </div>
+                  <div v-else key="benefits">
+                    <h3>Beneficios del Intercambio</h3>
+                    <ul v-if="data.benefits && data.benefits.length > 0" class="benefits-list">
+                      <li v-for="(ben, i) in data.benefits" :key="i">
+                        <span class="ben-bullet"></span> {{ ben }}
+                      </li>
+                    </ul>
+                    <p v-else>No hay beneficios específicos listados.</p>
+                  </div>
+                </Transition>
+              </div>
+            </div>
+          </div>
+        </Transition>
+      </Teleport>
+    </ClientOnly>
+  </section>
+</template>

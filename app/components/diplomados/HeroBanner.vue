@@ -205,7 +205,7 @@ const stats = [
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 14px;
+  border-radius: 12px;
   color: #ffffff;
   display: flex;
   flex-direction: column;

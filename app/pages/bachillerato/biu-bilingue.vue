@@ -817,7 +817,7 @@ function scrollTo(id: string) {
 .biu-hero__eyebrow {
   align-items: center;
   display: flex;
-  margin-bottom: -1.5rem;
+  margin-bottom: 2rem;
 }
 .biu-hero__logo-full {
   height: 48px;

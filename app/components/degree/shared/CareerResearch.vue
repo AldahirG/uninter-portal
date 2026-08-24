@@ -228,7 +228,8 @@ const getLabImage = (index: number) => {
 ======================================================== */
 .labs-wrapper.is-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 400px));
+  justify-content: center;
   gap: 2.5rem;
 }
 

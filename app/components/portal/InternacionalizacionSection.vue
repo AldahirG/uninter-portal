@@ -197,8 +197,26 @@ const carouselItems = [...paisesConvenio, ...paisesConvenio]
   max-width: 720px;
 }
 
+.uninter-eyebrow {
+  color: #0f3c61;
+}
+
+.uninter-eyebrow::before {
+  background: #E32F2F;
+  width: 24px;
+}
+
 .globe-icon {
-  color: #1565c0;
+  color: #E32F2F;
+}
+
+.uninter-section-title {
+  color: #0f3c61;
+}
+
+.uninter-section-title em {
+  font-style: italic;
+  color: #E32F2F;
 }
 
 .intl-portal-subtitle {
@@ -208,30 +226,31 @@ const carouselItems = [...paisesConvenio, ...paisesConvenio]
   line-height: 1.6;
 }
 
+/* Botón CTA Principal (Acento 30% Rojo) */
 .intl-cta-btn {
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
-  background-color: #0f3c61;
+  background-color: #E32F2F;
   color: #ffffff;
   font-weight: 700;
   font-size: 0.95rem;
   padding: 0.85rem 1.6rem;
   border-radius: 999px;
   text-decoration: none;
-  box-shadow: 0 4px 14px rgba(15, 60, 97, 0.2);
+  box-shadow: 0 4px 14px rgba(227, 47, 47, 0.25);
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   white-space: nowrap;
 }
 
 .intl-cta-btn:hover {
-  background-color: #1565c0;
+  background-color: #c62828;
   transform: translateY(-2px);
-  box-shadow: 0 8px 22px rgba(21, 101, 192, 0.3);
+  box-shadow: 0 8px 22px rgba(227, 47, 47, 0.35);
   color: #ffffff;
 }
 
-/* Stats */
+/* Stats (70% Azul UNINTER con acentos finos) */
 .intl-stats-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -247,7 +266,7 @@ const carouselItems = [...paisesConvenio, ...paisesConvenio]
   border: 1px solid #e2e8f0;
   border-radius: 16px;
   padding: 1.2rem 1.4rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 4px 12px rgba(15, 60, 97, 0.03);
   transition: transform 0.25s ease, border-color 0.25s ease;
 }
 
@@ -286,13 +305,13 @@ const carouselItems = [...paisesConvenio, ...paisesConvenio]
   font-weight: 600;
 }
 
-/* Footer Banner */
+/* Footer Banner (70% Azul UNINTER base + 30% Botón Rojo) */
 .intl-footer-banner {
   background: #ffffff;
   border: 1px solid #e2e8f0;
   border-radius: 24px;
   padding: 2.5rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 10px 30px rgba(15, 60, 97, 0.04);
   margin-bottom: 3.5rem;
 }
 
@@ -315,7 +334,7 @@ const carouselItems = [...paisesConvenio, ...paisesConvenio]
   width: 40px;
   height: 40px;
   border-radius: 10px;
-  background: #f0f6fc;
+  background: #e6f0f9;
   color: #1565c0;
   display: flex;
   align-items: center;
@@ -369,20 +388,22 @@ const carouselItems = [...paisesConvenio, ...paisesConvenio]
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: #0f3c61;
+  background: #E32F2F;
   color: #ffffff;
   font-weight: 700;
   font-size: 0.88rem;
   padding: 0.75rem 1.4rem;
   border-radius: 999px;
   text-decoration: none;
+  box-shadow: 0 4px 12px rgba(227, 47, 47, 0.25);
   transition: all 0.2s ease;
 }
 
 .intl-banner-btn-primary:hover {
-  background: #1565c0;
+  background: #c62828;
   color: #ffffff;
   transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(227, 47, 47, 0.35);
 }
 
 .intl-banner-btn-secondary {
@@ -464,7 +485,7 @@ const carouselItems = [...paisesConvenio, ...paisesConvenio]
   }
 }
 
-/* Tarjeta individual de País (Solo Visualización) */
+/* Tarjeta individual de País (70% Azul UNINTER en overlay + 30% Rojo en badge) */
 .intl-country-card {
   width: 220px;
   height: 270px;
@@ -472,16 +493,16 @@ const carouselItems = [...paisesConvenio, ...paisesConvenio]
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 24px rgba(15, 60, 97, 0.08);
   border: 1px solid rgba(226, 232, 240, 0.8);
   cursor: default;
-  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease, border-color 0.35s ease;
 }
 
 .intl-country-card:hover {
   transform: translateY(-6px) scale(1.02);
-  box-shadow: 0 16px 36px rgba(15, 60, 97, 0.18);
-  border-color: #93c5fd;
+  box-shadow: 0 16px 36px rgba(15, 60, 97, 0.2);
+  border-color: #E32F2F;
 }
 
 .intl-country-img {
@@ -501,9 +522,9 @@ const carouselItems = [...paisesConvenio, ...paisesConvenio]
   inset: 0;
   background: linear-gradient(
     180deg,
-    rgba(15, 60, 97, 0.25) 0%,
-    rgba(15, 60, 97, 0.1) 40%,
-    rgba(15, 60, 97, 0.85) 100%
+    rgba(15, 60, 97, 0.15) 0%,
+    rgba(15, 60, 97, 0.3) 40%,
+    rgba(15, 60, 97, 0.9) 100%
   );
   pointer-events: none;
 }
@@ -516,9 +537,9 @@ const carouselItems = [...paisesConvenio, ...paisesConvenio]
 }
 
 .intl-country-region {
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(8px);
-  color: #0f3c61;
+  color: #E32F2F;
   font-size: 0.68rem;
   font-weight: 800;
   text-transform: uppercase;

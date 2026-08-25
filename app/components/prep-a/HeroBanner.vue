@@ -27,26 +27,19 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
         <Languages :size="28" />
       </div>
 
-      <!-- Sticker HOLA / HELLO -->
-      <div class="pa-hero__sticker pa-hero__sticker--hola" aria-hidden="true">
-        <span class="sticker-line">HOLA</span>
-        <span class="sticker-arrow">↙</span>
-        <span class="sticker-line sticker-line--en">HELLO</span>
-      </div>
-
       <!-- Contenido -->
       <div class="pa-wrap pa-hero__content">
         <div class="pa-hero__inner">
           <div class="pa-hero__eyebrow">
             <img
-              src="/images/logo-uninter.png"
+              src="/images/hero/logo-blanco.svg"
               alt="UNINTER"
-              class="pa-hero__logo-full logo-white-filter"
-              onerror="this.style.display = 'none'"
+              class="pa-hero__logo-full"
             />
           </div>
           <h1 class="pa-hero__title">
             <span class="pa-hero__title-main">Prepa Abierta</span>
+            <span class="pa-hero__title-sub">Centro de Asesoría.</span>
           </h1>
 
           <p class="pa-hero__desc">
@@ -60,7 +53,7 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
               <div class="btn-icon">
                 <BookOpen :size="28" :stroke-width="1.8" />
               </div>
-              <span>Ver Plan de E</span>
+              <span>Ver Plan de Estudios</span>
             </a>
             <a
               href="https://prepaabierta.uninter.edu.mx/"
@@ -70,7 +63,7 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
               <div class="btn-icon">
                 <Info :size="28" :stroke-width="1.8" />
               </div>
-              <span>Conoce Prep</span>
+              <span>Conoce Prepa Abierta</span>
             </a>
           </div>
         </div>
@@ -80,31 +73,29 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
     <!-- Stats strip -->
     <div class="pa-hero__stats-bar">
       <div class="pa-wrap pa-hero__stats-inner">
-        <div class="pa-stat">
-          <div class="pa-stat__icon"><Icon name="mdi:layers" size="28" /></div>
-          <div class="pa-stat__text">
-            <span class="pa-stat__value">Modalidades</span>
-            <span class="pa-stat__label">Flexibles</span>
-          </div>
-        </div>
+        <!-- 1. 40 Años de Prestigio -->
         <div class="pa-stat">
           <div class="pa-stat__icon">
-            <Icon name="mdi:calendar-month-outline" size="28" />
+            <Icon name="mdi:shield-star-outline" size="28" />
           </div>
           <div class="pa-stat__text">
-            <span class="pa-stat__value">Años de</span>
-            <span class="pa-stat__label">Duración</span>
+            <span class="pa-stat__value">+40 Años</span>
+            <span class="pa-stat__label">de Prestigio</span>
           </div>
         </div>
+
+        <!-- 2. 22 Módulos en el Plan de Estudios -->
         <div class="pa-stat">
           <div class="pa-stat__icon">
-            <Icon name="mdi:translate" size="28" />
+            <Icon name="mdi:book-open-page-variant-outline" size="28" />
           </div>
           <div class="pa-stat__text">
-            <span class="pa-stat__value">Enfoque</span>
-            <span class="pa-stat__label">Bilingüe</span>
+            <span class="pa-stat__value">22 Módulos</span>
+            <span class="pa-stat__label">en el Plan de Estudios</span>
           </div>
         </div>
+
+        <!-- 3. Actividades Extracurriculares -->
         <div class="pa-stat">
           <div class="pa-stat__icon">
             <Icon name="mdi:basketball" size="28" />
@@ -114,6 +105,27 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
             <span class="pa-stat__label">Extracurriculares</span>
           </div>
         </div>
+
+        <!-- 4. Modalidades Flexibles -->
+        <div class="pa-stat">
+          <div class="pa-stat__icon">
+            <Icon name="mdi:clock-fast" size="28" />
+          </div>
+          <div class="pa-stat__text">
+            <span class="pa-stat__value">Modalidades</span>
+            <span class="pa-stat__label">Flexibles</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Leyenda Oficial SEP -->
+    <div class="pa-hero__disclaimer-strip">
+      <div class="pa-wrap pa-hero__disclaimer-inner">
+        <Icon name="mdi:shield-check-outline" size="18" class="pa-disclaimer-icon" />
+        <p class="pa-disclaimer-text">
+          La Inscripción, Acreditación y Certificación son responsabilidad exclusiva de la <strong>Secretaría de Educación Pública</strong>.
+        </p>
       </div>
     </div>
   </div>
@@ -127,9 +139,8 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
 }
 
 .pa-hero-wrapper {
-  --primary-aqua: #53CCBB;
-  --dark-teal: #348A81;
-  --amber-gold: #ffb703; /* Ámbar Dorado para el título */
+  --primary-aqua: #51CAB9;
+  --dark-teal: #358880;
   --bg-dark: #0a1a18;
   background-color: var(--bg-dark);
 }
@@ -175,7 +186,7 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
     90deg,
     rgba(10, 26, 24, 0.9),
     rgba(10, 26, 24, 0.7) 35%,
-    rgba(52, 138, 129, 0.2) 50%,
+    rgba(53, 136, 128, 0.25) 50%,
     transparent 65%
   );
   inset: 0;
@@ -204,7 +215,6 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
   height: 48px;
   object-fit: contain;
 }
-.logo-white-filter { filter: brightness(0) invert(1); }
 
 .pa-hero__title {
   display: flex;
@@ -214,12 +224,22 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
 }
 
 .pa-hero__title-main {
-  color: var(--amber-gold);
+  color: #51CAB9;
   font-family: var(--font-serif, Georgia, serif);
   font-size: clamp(3rem, 7vw, 5.5rem);
   font-weight: 900;
   letter-spacing: -0.02em;
-  text-shadow: 0 4px 24px rgba(255, 183, 3, 0.35); /* Resplandor luminoso dorado */
+  text-shadow: 0 4px 24px rgba(81, 202, 185, 0.4);
+}
+
+.pa-hero__title-sub {
+  color: #ffffff;
+  font-family: var(--font-sans, "Plus Jakarta Sans", sans-serif);
+  font-size: clamp(1.2rem, 2.2vw, 1.85rem);
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  margin-top: 0.35rem;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
 }
 
 .pa-hero__desc {
@@ -260,11 +280,11 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
 }
 
 .pa-btn-card:hover {
-  background: rgba(83, 204, 187, 0.25);
-  border-color: var(--primary-aqua);
-  color: var(--primary-aqua);
+  background: rgba(81, 202, 185, 0.25);
+  border-color: #51CAB9;
+  color: #51CAB9;
   transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(83, 204, 187, 0.35);
+  box-shadow: 0 8px 25px rgba(81, 202, 185, 0.35);
 }
 
 .btn-icon {
@@ -276,11 +296,11 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
 /* ── Elementos Flotantes ── */
 .pa-hero__deco {
   position: absolute;
-  color: var(--amber-gold);
+  color: #51CAB9;
   opacity: 0.6;
   animation: float 6s ease-in-out infinite;
   z-index: 2;
-  filter: drop-shadow(0 0 10px rgba(255, 183, 3, 0.3));
+  filter: drop-shadow(0 0 10px rgba(81, 202, 185, 0.35));
 }
 .pa-hero__deco--tl { top: 15%; left: 45%; animation-delay: 0s; }
 .pa-hero__deco--tr { top: 25%; right: 15%; animation-delay: 2s; }
@@ -291,51 +311,6 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
   50% { transform: translateY(-15px) rotate(5deg); }
 }
 
-/* ── Sticker HOLA / HELLO ── */
-.pa-hero__sticker {
-  position: absolute;
-  top: 18%;
-  right: 10%;
-  transform: rotate(-8deg);
-  background: #fff;
-  border-radius: 8px;
-  padding: 0.5rem 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-  z-index: 3;
-  animation: float-sticker 8s ease-in-out infinite;
-}
-.pa-hero__sticker::before {
-  content: "";
-  position: absolute;
-  inset: -2px;
-  border-radius: 9px;
-  background: linear-gradient(135deg, var(--amber-gold), var(--primary-aqua));
-  z-index: -1;
-}
-.sticker-line {
-  font-weight: 900;
-  font-size: 1.1rem;
-  color: var(--dark-teal);
-  letter-spacing: 0.05em;
-}
-.sticker-arrow {
-  font-size: 1.5rem;
-  color: var(--amber-gold);
-  line-height: 0.5;
-  margin: 0.2rem 0;
-}
-.sticker-line--en {
-  color: var(--primary-aqua);
-}
-
-@keyframes float-sticker {
-  0%, 100% { transform: rotate(-8deg) translateY(0); }
-  50% { transform: rotate(-4deg) translateY(-10px); }
-}
-
 /* ── Barra de Estadísticas (Liquid Glass Bar) ── */
 .pa-hero__stats-bar {
   backdrop-filter: blur(16px) saturate(150%);
@@ -344,15 +319,15 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
   background-color: rgba(10, 26, 24, 0.85); /* Fondo Base Oscuro */
   background-image: radial-gradient(
     circle at 50% 50%,
-    rgba(83, 204, 187, 0.15) 0, /* Destello Radial Central en color claro */
+    rgba(81, 202, 185, 0.18) 0, /* Destello Radial Central */
     transparent 65%
   );
   background-position: 50%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-  border-top: 2px solid rgba(83, 204, 187, 0.3);
+  border-top: 2px solid rgba(81, 202, 185, 0.35);
   box-shadow: 
-    0 -10px 30px rgba(52, 138, 129, 0.2), 
-    inset 0 20px 40px rgba(83, 204, 187, 0.05);
+    0 -10px 30px rgba(53, 136, 128, 0.2), 
+    inset 0 20px 40px rgba(81, 202, 185, 0.05);
   padding: 1.75rem 0;
   position: relative;
   z-index: 10;
@@ -368,7 +343,7 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
 
 .pa-stat {
   align-items: center;
-  border-right: 1px solid rgba(83, 204, 187, 0.25); /* Separadores luminosos */
+  border-right: 1px solid rgba(81, 202, 185, 0.25); /* Separadores luminosos */
   display: flex;
   flex: 1;
   flex-direction: row;
@@ -382,7 +357,7 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
 
 .pa-stat__icon {
   align-items: center;
-  color: var(--primary-aqua);
+  color: #51CAB9;
   display: flex;
   justify-content: center;
 }
@@ -407,17 +382,53 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
   margin-top: 0.2rem;
 }
 
+/* ── Franja de Leyenda Oficial SEP ── */
+.pa-hero__disclaimer-strip {
+  background: #061210;
+  border-top: 1px solid rgba(81, 202, 185, 0.2);
+  padding: 0.75rem 0;
+  position: relative;
+  z-index: 10;
+}
+
+.pa-hero__disclaimer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  text-align: center;
+}
+
+.pa-disclaimer-icon {
+  color: #51CAB9;
+  flex-shrink: 0;
+}
+
+.pa-disclaimer-text {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.82);
+  margin: 0;
+  line-height: 1.45;
+  letter-spacing: 0.01em;
+}
+
+.pa-disclaimer-text strong {
+  color: #51CAB9;
+  font-weight: 700;
+}
+
 @media (max-width: 992px) {
   .pa-hero__stats-inner { flex-wrap: wrap; gap: 1.5rem 0; }
-  .pa-stat { flex: 1 1 50%; border-right: none; border-bottom: 1px solid rgba(83, 204, 187, 0.2); padding-bottom: 1.5rem; }
-  .pa-stat:nth-child(odd) { border-right: 1px solid rgba(83, 204, 187, 0.2); }
+  .pa-stat { flex: 1 1 50%; border-right: none; border-bottom: 1px solid rgba(81, 202, 185, 0.2); padding-bottom: 1.5rem; }
+  .pa-stat:nth-child(odd) { border-right: 1px solid rgba(81, 202, 185, 0.2); }
   .pa-stat:nth-last-child(-n+2) { border-bottom: none; padding-bottom: 0; }
-  .pa-hero__sticker { right: 5%; top: 12%; }
 }
 
 @media (max-width: 640px) {
   .pa-hero__title-main { font-size: 2.8rem; }
-  .pa-stat { flex: 1 1 100%; border-right: none !important; border-bottom: 1px solid rgba(83, 204, 187, 0.2) !important; padding-bottom: 1.25rem !important; }
+  .pa-hero__title-sub { font-size: 1.15rem; }
+  .pa-hero__disclaimer-inner { flex-direction: column; gap: 0.35rem; }
+  .pa-stat { flex: 1 1 100%; border-right: none !important; border-bottom: 1px solid rgba(81, 202, 185, 0.2) !important; padding-bottom: 1.25rem !important; }
   .pa-stat:last-child { border-bottom: none !important; padding-bottom: 0 !important; }
   .pa-hero__deco { display: none; }
 }

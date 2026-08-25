@@ -104,11 +104,23 @@ const programs: Program[] = [
       ],
     },
     children: [
-      { label: "Licenciaturas Presenciales", href: "/LicenciaturasPresenciales" },
-      { label: "Licenciaturas Ejecutivas", href: "https://universidad.uninter.edu.mx/ejecutivas" },
-      { label: "Folletos", href: "https://universidad.uninter.edu.mx/Folletos-Digitales" },
+      {
+        label: "Licenciaturas Presenciales",
+        href: "/LicenciaturasPresenciales",
+      },
+      {
+        label: "Licenciaturas Ejecutivas",
+        href: "https://universidad.uninter.edu.mx/ejecutivas",
+      },
+      {
+        label: "Folletos",
+        href: "https://universidad.uninter.edu.mx/Folletos-Digitales",
+      },
       { label: "Admisiones", href: "/admisiones" },
-      { label: "Test Vocacional", href: "https://universidad.uninter.edu.mx/test-vocacional" },
+      {
+        label: "Test Vocacional",
+        href: "https://universidad.uninter.edu.mx/test-vocacional",
+      },
     ],
   },
   {
@@ -158,7 +170,11 @@ const programs: Program[] = [
     children: [
       { label: "Inicio Bachillerato", href: "/bachillerato" },
       { label: "BIU Bilingüe", href: "/bachillerato/biu-bilingue", sub: true },
-      { label: "BIU Multicultural", href: "/bachillerato/biu-multicultural", sub: true },
+      {
+        label: "BIU Multicultural",
+        href: "/bachillerato/biu-multicultural",
+        sub: true,
+      },
       { label: "Admisiones BIU", href: "/bachillerato/admisiones" },
     ],
   },
@@ -209,7 +225,11 @@ const programs: Program[] = [
     children: [
       { label: "Inicio Secundaria", href: "/secundaria" },
       { label: "SIU Bilingüe", href: "/secundaria/siu-bilingue", sub: true },
-      { label: "SIU Multicultural", href: "/secundaria/siu-multicultural", sub: true },
+      {
+        label: "SIU Multicultural",
+        href: "/secundaria/siu-multicultural",
+        sub: true,
+      },
       { label: "Admisiones SIU", href: "/secundaria/admisiones" },
     ],
   },
@@ -294,15 +314,51 @@ const programs: Program[] = [
     children: [
       { label: "Sitio Web", href: "/diplomados" },
       { label: "Admisiones", href: "/diplomados/admisiones" },
-      { label: "Folletos Digitales", href: "https://diplomados.uninter.edu.mx/folletos-Digitales" },
+      {
+        label: "Folletos Digitales",
+        href: "https://diplomados.uninter.edu.mx/folletos-Digitales",
+      },
     ],
   },
   {
     label: "Prepa Abierta",
     slug: "prepa-abierta",
-    color: "#00695C",
-    href: "https://uninter.edu.mx/prep-a/",
-    children: [],
+    color: "#358880",
+    href: "/Prep-a",
+    mega: true,
+    megaData: {
+      programs: [
+        {
+          label: "Prepa Abierta",
+          desc: "Bachillerato flexible con 40 años de experiencia educativa",
+          href: "/Prep-a",
+          icon: "mdi:school-outline",
+        },
+      ],
+      tools: [
+        {
+          label: "Inscríbete Ahora",
+          href: "/Prep-a#formulario-registro",
+          icon: "mdi:arrow-right",
+          cta: true,
+        },
+        {
+          label: "Sitio Oficial Prep-A",
+          href: "https://prepaabierta.uninter.edu.mx/",
+          icon: "mdi:file-document-outline",
+          external: true,
+        },
+      ],
+    },
+    children: [
+      { label: "Prepa Abierta UNINTER", href: "/Prep-a" },
+      { label: "Plan de Estudios", href: "/Prep-a#oferta-prepaA", sub: true },
+      {
+        label: "Inscripciones y Registro",
+        href: "/Prep-a#formulario-registro",
+      },
+      { label: "Sitio Oficial", href: "https://prepaabierta.uninter.edu.mx/" },
+    ],
   },
   {
     label: "Spanish School",
@@ -311,7 +367,10 @@ const programs: Program[] = [
     href: "https://spanishschool.uninter.edu.mx/",
     children: [
       { label: "Sitio Web", href: "https://spanishschool.uninter.edu.mx/" },
-      { label: "Admissions", href: "https://spanishschool.uninter.edu.mx/Home" },
+      {
+        label: "Admissions",
+        href: "https://spanishschool.uninter.edu.mx/Home",
+      },
     ],
   },
   {
@@ -321,7 +380,10 @@ const programs: Program[] = [
     href: "https://kids.uninter.edu.mx/",
     children: [
       { label: "Spanish", href: "https://kids.uninter.edu.mx/" },
-      { label: "English", href: "https://spanishschool.uninter.edu.mx/Kids-Program" },
+      {
+        label: "English",
+        href: "https://spanishschool.uninter.edu.mx/Kids-Program",
+      },
     ],
   },
   {
@@ -330,10 +392,16 @@ const programs: Program[] = [
     color: "#1A237E",
     href: "https://uninter.edu.mx/sesiones-informativas/",
     children: [
-      { label: "Sesiones Informativas", href: "https://uninter.edu.mx/sesiones-informativas/" },
+      {
+        label: "Sesiones Informativas",
+        href: "https://uninter.edu.mx/sesiones-informativas/",
+      },
       { label: "Eventos", href: "https://uninter.edu.mx/eventos/" },
       { label: "On Demand", href: "https://uninter.edu.mx/ondemand/" },
-      { label: "Calendario Cultural", href: "https://uninter.edu.mx/difusion-cultural/" },
+      {
+        label: "Calendario Cultural",
+        href: "https://uninter.edu.mx/difusion-cultural/",
+      },
     ],
   },
   {
@@ -358,8 +426,14 @@ const rightPrograms = programs.slice(5);
 const social = [
   { icon: "mdi:facebook", href: "https://www.facebook.com/uninteredu" },
   { icon: "mdi:instagram", href: "https://www.instagram.com/uninter_cuerna" },
-  { icon: "mdi:youtube", href: "https://www.youtube.com/user/UniversidadUninter" },
-  { icon: "mdi:linkedin", href: "https://www.linkedin.com/in/egresados-uninter/" },
+  {
+    icon: "mdi:youtube",
+    href: "https://www.youtube.com/user/UniversidadUninter",
+  },
+  {
+    icon: "mdi:linkedin",
+    href: "https://www.linkedin.com/in/egresados-uninter/",
+  },
   { icon: "bi:tiktok", href: "https://www.tiktok.com/@uninter_cuerna" },
 ];
 </script>
@@ -378,7 +452,10 @@ const social = [
             <Phone :size="11" />
             <span>777 357 9001</span>
           </a>
-          <a href="mailto:admisiones@uninter.edu.mx" class="nh-tl nh-tl--hidesm">
+          <a
+            href="mailto:admisiones@uninter.edu.mx"
+            class="nh-tl nh-tl--hidesm"
+          >
             <Mail :size="11" />
             <span>admisiones@uninter.edu.mx</span>
           </a>
@@ -396,10 +473,7 @@ const social = [
               <Icon :name="s.icon" size="13" />
             </a>
           </div>
-          <NuxtLink
-            to="/calcula-tu-beca"
-            class="nh-beca"
-          >
+          <NuxtLink to="/calcula-tu-beca" class="nh-beca">
             Calcula tu Beca
           </NuxtLink>
         </div>
@@ -415,7 +489,9 @@ const social = [
             v-for="prog in leftPrograms"
             :key="prog.slug"
             class="nh-pitem"
-            @mouseenter="prog.children.length ? (activeDropdown = prog.slug) : null"
+            @mouseenter="
+              prog.children.length ? (activeDropdown = prog.slug) : null
+            "
             @mouseleave="activeDropdown = null"
           >
             <a
@@ -427,11 +503,7 @@ const social = [
             >
               {{ prog.label }}
             </a>
-            <button
-              v-else
-              class="nh-pbtn"
-              :style="`background:${prog.color}`"
-            >
+            <button v-else class="nh-pbtn" :style="`background:${prog.color}`">
               {{ prog.label }}
               <ChevronDown
                 :size="9"
@@ -444,7 +516,9 @@ const social = [
             <Transition name="nh-dd">
               <div
                 v-if="prog.children.length && activeDropdown === prog.slug"
-                :class="prog.mega ? 'nh-dropdown nh-dropdown--mega' : 'nh-dropdown'"
+                :class="
+                  prog.mega ? 'nh-dropdown nh-dropdown--mega' : 'nh-dropdown'
+                "
               >
                 <!-- Mega Dropdown Panel -->
                 <template v-if="prog.mega && prog.megaData">
@@ -454,13 +528,21 @@ const social = [
                   ></div>
                   <div
                     class="nh-mega__body"
-                    :class="{ 'nh-mega__body--solo': !prog.megaData.programs.length }"
+                    :class="{
+                      'nh-mega__body--solo': !prog.megaData.programs.length,
+                    }"
                   >
                     <!-- Left Column: Programs -->
-                    <div v-if="prog.megaData.programs.length" class="nh-mega__col">
+                    <div
+                      v-if="prog.megaData.programs.length"
+                      class="nh-mega__col"
+                    >
                       <p class="nh-mega__heading">Programas</p>
 
-                      <template v-for="card in prog.megaData.programs" :key="card.label">
+                      <template
+                        v-for="card in prog.megaData.programs"
+                        :key="card.label"
+                      >
                         <!-- Parent Group with Sub-models (Bachillerato & Secundaria) -->
                         <div
                           v-if="card.children && card.children.length"
@@ -480,7 +562,9 @@ const social = [
                               <Icon :name="card.icon" size="18" />
                             </div>
                             <div>
-                              <p class="nh-mega__card-title">{{ card.label }}</p>
+                              <p class="nh-mega__card-title">
+                                {{ card.label }}
+                              </p>
                               <p class="nh-mega__card-desc">{{ card.desc }}</p>
                             </div>
                           </NuxtLink>
@@ -498,14 +582,19 @@ const social = [
                               <Icon :name="card.icon" size="18" />
                             </div>
                             <div>
-                              <p class="nh-mega__card-title">{{ card.label }}</p>
+                              <p class="nh-mega__card-title">
+                                {{ card.label }}
+                              </p>
                               <p class="nh-mega__card-desc">{{ card.desc }}</p>
                             </div>
                           </a>
 
                           <!-- Sub-models deployed on hover -->
                           <div class="nh-mega__sub-list">
-                            <template v-for="sub in card.children" :key="sub.label">
+                            <template
+                              v-for="sub in card.children"
+                              :key="sub.label"
+                            >
                               <NuxtLink
                                 v-if="sub.href.startsWith('/')"
                                 :to="sub.href"
@@ -519,8 +608,16 @@ const social = [
                                   <Icon :name="sub.icon" size="16" />
                                 </div>
                                 <div>
-                                  <p class="nh-mega__card-title nh-mega__card-title--sub">{{ sub.label }}</p>
-                                  <p class="nh-mega__card-desc nh-mega__card-desc--sub">{{ sub.desc }}</p>
+                                  <p
+                                    class="nh-mega__card-title nh-mega__card-title--sub"
+                                  >
+                                    {{ sub.label }}
+                                  </p>
+                                  <p
+                                    class="nh-mega__card-desc nh-mega__card-desc--sub"
+                                  >
+                                    {{ sub.desc }}
+                                  </p>
                                 </div>
                               </NuxtLink>
                               <a
@@ -537,8 +634,16 @@ const social = [
                                   <Icon :name="sub.icon" size="16" />
                                 </div>
                                 <div>
-                                  <p class="nh-mega__card-title nh-mega__card-title--sub">{{ sub.label }}</p>
-                                  <p class="nh-mega__card-desc nh-mega__card-desc--sub">{{ sub.desc }}</p>
+                                  <p
+                                    class="nh-mega__card-title nh-mega__card-title--sub"
+                                  >
+                                    {{ sub.label }}
+                                  </p>
+                                  <p
+                                    class="nh-mega__card-desc nh-mega__card-desc--sub"
+                                  >
+                                    {{ sub.desc }}
+                                  </p>
                                 </div>
                               </a>
                             </template>
@@ -560,7 +665,9 @@ const social = [
                               <Icon :name="card.icon" size="18" />
                             </div>
                             <div>
-                              <p class="nh-mega__card-title">{{ card.label }}</p>
+                              <p class="nh-mega__card-title">
+                                {{ card.label }}
+                              </p>
                               <p class="nh-mega__card-desc">{{ card.desc }}</p>
                             </div>
                           </NuxtLink>
@@ -578,7 +685,9 @@ const social = [
                               <Icon :name="card.icon" size="18" />
                             </div>
                             <div>
-                              <p class="nh-mega__card-title">{{ card.label }}</p>
+                              <p class="nh-mega__card-title">
+                                {{ card.label }}
+                              </p>
                               <p class="nh-mega__card-desc">{{ card.desc }}</p>
                             </div>
                           </a>
@@ -592,7 +701,10 @@ const social = [
                     <!-- Right Column: Tools -->
                     <div class="nh-mega__col nh-mega__col--right">
                       <p class="nh-mega__heading">Herramientas</p>
-                      <template v-for="tool in prog.megaData.tools" :key="tool.label">
+                      <template
+                        v-for="tool in prog.megaData.tools"
+                        :key="tool.label"
+                      >
                         <!-- CTA Solid Button -->
                         <template v-if="tool.cta">
                           <NuxtLink
@@ -662,7 +774,9 @@ const social = [
                   <div class="nh-dd__sep"></div>
                   <ul class="nh-dd__list">
                     <li v-for="c in prog.children" :key="c.label">
-                      <a :href="c.href" target="_blank" class="nh-dd__link">{{ c.label }}</a>
+                      <a :href="c.href" target="_blank" class="nh-dd__link">{{
+                        c.label
+                      }}</a>
                     </li>
                   </ul>
                 </template>
@@ -680,7 +794,9 @@ const social = [
             v-for="prog in rightPrograms"
             :key="prog.slug"
             class="nh-pitem"
-            @mouseenter="prog.children.length ? (activeDropdown = prog.slug) : null"
+            @mouseenter="
+              prog.children.length ? (activeDropdown = prog.slug) : null
+            "
             @mouseleave="activeDropdown = null"
           >
             <a
@@ -692,11 +808,7 @@ const social = [
             >
               {{ prog.label }}
             </a>
-            <button
-              v-else
-              class="nh-pbtn"
-              :style="`background:${prog.color}`"
-            >
+            <button v-else class="nh-pbtn" :style="`background:${prog.color}`">
               {{ prog.label }}
               <ChevronDown
                 :size="9"
@@ -707,36 +819,160 @@ const social = [
             <Transition name="nh-dd">
               <div
                 v-if="prog.children.length && activeDropdown === prog.slug"
-                class="nh-dropdown"
+                :class="
+                  prog.mega ? 'nh-dropdown nh-dropdown--mega' : 'nh-dropdown'
+                "
               >
-                <div
-                  class="nh-dd__bar"
-                  :style="`background:${prog.color}`"
-                ></div>
-                <a :href="prog.href" target="_blank" class="nh-dd__head">
-                  <span
-                    class="nh-dd__dot"
+                <!-- Mega Dropdown Panel -->
+                <template v-if="prog.mega && prog.megaData">
+                  <div
+                    class="nh-dd__bar"
                     :style="`background:${prog.color}`"
-                  ></span>
-                  {{ prog.label }}
-                  <Icon name="mdi:open-in-new" size="10" class="nh-dd__ext" />
-                </a>
-                <div class="nh-dd__sep"></div>
-                <ul class="nh-dd__list">
-                  <li v-for="c in prog.children" :key="c.label">
-                    <a :href="c.href" target="_blank" class="nh-dd__link">{{ c.label }}</a>
-                  </li>
-                </ul>
+                  ></div>
+                  <div
+                    class="nh-mega__body"
+                    :class="{
+                      'nh-mega__body--solo': !prog.megaData.programs.length,
+                    }"
+                  >
+                    <!-- Left Column: Programs -->
+                    <div
+                      v-if="prog.megaData.programs.length"
+                      class="nh-mega__col"
+                    >
+                      <p class="nh-mega__heading">Programas</p>
+
+                      <template
+                        v-for="card in prog.megaData.programs"
+                        :key="card.label"
+                      >
+                        <!-- Standard Card without sub-models -->
+                        <NuxtLink
+                          v-if="card.href.startsWith('/')"
+                          :to="card.href"
+                          class="nh-mega__card"
+                          @click="activeDropdown = null"
+                        >
+                          <div
+                            class="nh-mega__card-icon"
+                            :style="`background:${prog.color}18; color:${prog.color}`"
+                          >
+                            <Icon :name="card.icon" size="18" />
+                          </div>
+                          <div>
+                            <p class="nh-mega__card-title">{{ card.label }}</p>
+                            <p class="nh-mega__card-desc">{{ card.desc }}</p>
+                          </div>
+                        </NuxtLink>
+                        <a
+                          v-else
+                          :href="card.href"
+                          :target="card.external ? '_blank' : undefined"
+                          class="nh-mega__card"
+                          @click="activeDropdown = null"
+                        >
+                          <div
+                            class="nh-mega__card-icon"
+                            :style="`background:${prog.color}18; color:${prog.color}`"
+                          >
+                            <Icon :name="card.icon" size="18" />
+                          </div>
+                          <div>
+                            <p class="nh-mega__card-title">{{ card.label }}</p>
+                            <p class="nh-mega__card-desc">{{ card.desc }}</p>
+                          </div>
+                        </a>
+                      </template>
+                    </div>
+
+                    <!-- Vertical Divider -->
+                    <div
+                      v-if="prog.megaData.tools && prog.megaData.tools.length"
+                      class="nh-mega__divider"
+                    ></div>
+
+                    <!-- Right Column: Tools -->
+                    <div
+                      v-if="prog.megaData.tools && prog.megaData.tools.length"
+                      class="nh-mega__col nh-mega__col--right"
+                    >
+                      <p class="nh-mega__heading">Herramientas</p>
+                      <template
+                        v-for="tool in prog.megaData.tools"
+                        :key="tool.label"
+                      >
+                        <!-- CTA Solid Button -->
+                        <template v-if="tool.cta">
+                          <NuxtLink
+                            v-if="tool.href.startsWith('/')"
+                            :to="tool.href"
+                            class="nh-mega__cta"
+                            :style="`background:${prog.color}`"
+                            @click="activeDropdown = null"
+                          >
+                            {{ tool.label }}
+                            <Icon :name="tool.icon" size="14" />
+                          </NuxtLink>
+                          <a
+                            v-else
+                            :href="tool.href"
+                            :target="tool.external ? '_blank' : undefined"
+                            class="nh-mega__cta"
+                            :style="`background:${prog.color}`"
+                            @click="activeDropdown = null"
+                          >
+                            {{ tool.label }}
+                            <Icon :name="tool.icon" size="14" />
+                          </a>
+                        </template>
+
+                        <!-- Secondary Tool Links -->
+                        <template v-else>
+                          <NuxtLink
+                            v-if="tool.href.startsWith('/')"
+                            :to="tool.href"
+                            class="nh-mega__tool-link"
+                            @click="activeDropdown = null"
+                          >
+                            <Icon :name="tool.icon" size="15" />
+                            {{ tool.label }}
+                          </NuxtLink>
+                        </template>
+                      </template>
+                    </div>
+                  </div>
+                </template>
+
+                <!-- Standard Simple Dropdown -->
+                <template v-else>
+                  <div
+                    class="nh-dd__bar"
+                    :style="`background:${prog.color}`"
+                  ></div>
+                  <a :href="prog.href" target="_blank" class="nh-dd__head">
+                    <span
+                      class="nh-dd__dot"
+                      :style="`background:${prog.color}`"
+                    ></span>
+                    {{ prog.label }}
+                    <Icon name="mdi:open-in-new" size="10" class="nh-dd__ext" />
+                  </a>
+                  <div class="nh-dd__sep"></div>
+                  <ul class="nh-dd__list">
+                    <li v-for="c in prog.children" :key="c.label">
+                      <a :href="c.href" target="_blank" class="nh-dd__link">{{
+                        c.label
+                      }}</a>
+                    </li>
+                  </ul>
+                </template>
               </div>
             </Transition>
           </li>
         </ul>
 
         <!-- Mobile Beca & Hamburger -->
-        <NuxtLink
-          to="/calcula-tu-beca"
-          class="nh-beca nh-beca--mobile"
-        >
+        <NuxtLink to="/calcula-tu-beca" class="nh-beca nh-beca--mobile">
           Calcula tu Beca
         </NuxtLink>
         <button
@@ -793,15 +1029,21 @@ const social = [
             class="nh-mobile__direct"
             @click="mobileOpen = false"
           >
-            <span class="nh-mbadge" :style="`background:${prog.color}`">{{ prog.label }}</span>
+            <span class="nh-mbadge" :style="`background:${prog.color}`">{{
+              prog.label
+            }}</span>
             <Icon name="mdi:open-in-new" size="12" class="nh-mobile__ext" />
           </a>
           <template v-else>
             <button
               class="nh-mobile__trigger"
-              @click="activeDropdown = activeDropdown === prog.slug ? null : prog.slug"
+              @click="
+                activeDropdown = activeDropdown === prog.slug ? null : prog.slug
+              "
             >
-              <span class="nh-mbadge" :style="`background:${prog.color}`">{{ prog.label }}</span>
+              <span class="nh-mbadge" :style="`background:${prog.color}`">{{
+                prog.label
+              }}</span>
               <ChevronDown
                 :size="13"
                 class="nh-chev nh-chev--r"

@@ -22,7 +22,7 @@ const stats = [
       <div class="banner-slide">
         <!-- Fotografía de fondo -->
         <img
-          src="/images/hero/blur/2.jpg"
+          src="\images\licenciaturas\hero\banerLic.png"
           alt="Licenciaturas Presenciales UNINTER"
           class="banner-slide__img"
         />
@@ -137,7 +137,12 @@ const stats = [
     rgba(0, 26, 46, 0.1) 45%,
     transparent 58%
   );
-  -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 35%, transparent 58%);
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    #000 0%,
+    #000 35%,
+    transparent 58%
+  );
   mask-image: linear-gradient(90deg, #000 0%, #000 35%, transparent 58%);
   pointer-events: none;
 }

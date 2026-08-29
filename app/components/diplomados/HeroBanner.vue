@@ -20,7 +20,7 @@ const stats = [
     <section class="dp-hero">
       <div class="dp-hero__bg">
         <img
-          src="/images/hero/licenciaturasPresenciales.jpg"
+          src="/images/diplomados/hero/banerDiplomados.png"
           alt="Diplomados UNINTER"
           class="dp-hero__img"
         />
@@ -30,8 +30,11 @@ const stats = [
       <div class="dp-container dp-hero__content">
         <div class="dp-hero__inner">
           <div class="dp-hero__eyebrow">
-            <img src="/images/logo-uninter.png" alt="UNINTER" class="dp-hero__logo logo-white-filter" />
-            <span>Universidad Internacional</span>
+            <img
+              src="/images/hero/logo-blanco.svg"
+              alt="UNINTER"
+              class="dp-hero__logo"
+            />
           </div>
 
           <h1 class="dp-hero__title">
@@ -131,20 +134,36 @@ const stats = [
   }
 }
 
-/* OVERLAY CON BLUR A LA IZQUIERDA */
+/* OVERLAY CON BLUR Y TOQUE SUTIL DE NARANJA OSCURO (DESVANECIDO SUAVE Y ORGÁNICO) */
 .dp-hero__overlay {
   position: absolute;
   inset: 0;
   background: linear-gradient(
     90deg,
-    rgba(20, 20, 25, 0.75) 0%,
-    rgba(20, 20, 25, 0.4) 45%,
-    transparent 100%
+    rgba(32, 12, 2, 0.74) 0%,
+    rgba(40, 16, 3, 0.58) 32%,
+    rgba(55, 22, 4, 0.32) 44%,
+    rgba(70, 28, 5, 0.1) 52%,
+    transparent 58%
   );
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  mask-image: linear-gradient(to right, black 40%, transparent 100%);
-  -webkit-mask-image: linear-gradient(to right, black 40%, transparent 100%);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  mask-image: linear-gradient(
+    to right,
+    black 0%,
+    black 34%,
+    rgba(0, 0, 0, 0.6) 46%,
+    rgba(0, 0, 0, 0.2) 53%,
+    transparent 58%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    black 0%,
+    black 34%,
+    rgba(0, 0, 0, 0.6) 46%,
+    rgba(0, 0, 0, 0.2) 53%,
+    transparent 58%
+  );
 }
 
 .dp-hero__content {
@@ -154,13 +173,25 @@ const stats = [
   padding-bottom: 2rem;
 }
 .dp-hero__inner {
-  max-width: 700px;
+  max-width: 620px;
 }
 
-.dp-hero__eyebrow { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.5rem; }
-.dp-hero__logo { height: 36px; object-fit: contain; }
-.logo-white-filter { filter: brightness(0) invert(1); }
-.dp-hero__eyebrow span { font-size: 1rem; font-weight: 500; color: rgba(255, 255, 255, 0.9); }
+.dp-hero__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+.dp-hero__logo {
+  height: 36px;
+  object-fit: contain;
+}
+.dp-hero__eyebrow span {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
 
 .dp-hero__title {
   display: flex;
@@ -174,7 +205,7 @@ const stats = [
   font-weight: 900;
   color: var(--color-orange);
   letter-spacing: -0.02em;
-  text-shadow: 2px 4px 15px rgba(242, 139, 34, 0.3);
+  text-shadow: 2px 4px 15px rgba(242, 139, 34, 0.35);
 }
 .dp-hero__title-sub {
   font-family: var(--font-sans, system-ui, sans-serif);
@@ -182,14 +213,16 @@ const stats = [
   font-weight: 600;
   color: #ffffff;
   margin-top: 0.5rem;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
 }
 
 .dp-hero__desc {
   font-size: clamp(0.95rem, 1.2vw, 1.1rem);
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.95);
   line-height: 1.7;
   margin: 0 0 2.5rem;
   max-width: 600px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
 }
 
 /* ═══ BOTONES CTA TIPO TARJETA ═══ */

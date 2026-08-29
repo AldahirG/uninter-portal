@@ -116,7 +116,7 @@ const data = [
       <section class="pg-hero">
         <div class="pg-hero__bg">
           <img
-            src="/images/hero/licenciaturasPresenciales.jpg"
+            src="/images/posgrados/hero/banerPosgrados.png"
             alt="Especialidades UNINTER"
             class="pg-hero__img"
           />

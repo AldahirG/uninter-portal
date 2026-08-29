@@ -7,7 +7,7 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
     <section class="siu-hero">
       <div class="siu-hero__bg">
         <img
-          src="/images/Secundaria/hero/16.jpg"
+          src="/images/Secundaria/hero/banerSIU.png"
           alt="Estudiantes SIU UNINTER"
           class="siu-hero__img"
         />
@@ -158,7 +158,12 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
   width: 100%;
 }
 .siu-hero__overlay {
-  background: linear-gradient(180deg, #1a150066, #1a15001a 50%, #1a15001a);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 182, 236, 0.12),
+    rgba(26, 21, 0, 0.1) 50%,
+    rgba(26, 21, 0, 0.25)
+  );
   inset: 0;
   position: absolute;
 }
@@ -167,14 +172,29 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
   backdrop-filter: blur(6px);
   background: linear-gradient(
     90deg,
-    rgba(26, 21, 0, 0.85),
-    rgba(26, 21, 0, 0.6) 30%,
-    rgba(26, 21, 0, 0.1) 45%,
-    transparent 60%
+    rgba(8, 20, 28, 0.78) 0%,
+    rgba(10, 24, 34, 0.62) 32%,
+    rgba(0, 182, 236, 0.22) 44%,
+    rgba(0, 182, 236, 0.06) 52%,
+    transparent 58%
   );
   inset: 0;
-  -webkit-mask-image: linear-gradient(90deg, #000, #000 35%, transparent 55%);
-  mask-image: linear-gradient(90deg, #000, #000 35%, transparent 55%);
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    black 0%,
+    black 34%,
+    rgba(0, 0, 0, 0.6) 46%,
+    rgba(0, 0, 0, 0.2) 53%,
+    transparent 58%
+  );
+  mask-image: linear-gradient(
+    90deg,
+    black 0%,
+    black 34%,
+    rgba(0, 0, 0, 0.6) 46%,
+    rgba(0, 0, 0, 0.2) 53%,
+    transparent 58%
+  );
   position: absolute;
 }
 .siu-hero__content {
@@ -262,20 +282,31 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
 .siu-hero__stats-bar {
   backdrop-filter: blur(16px) saturate(150%);
   -webkit-backdrop-filter: blur(16px) saturate(150%);
-  background-attachment: fixed;
-  background-color: #1a1500d9;
-  background-image: radial-gradient(
-    circle at 50% 50%,
-    rgba(255, 206, 82, 0.15) 0,
-    transparent 60%
-  );
-  background-position: 50%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-  border-top: 1px solid rgba(255, 206, 82, 0.3);
-  box-shadow: 0 4px 30px #00000080;
+  background: linear-gradient(90deg, #d49500 0%, #ebb215 50%, #d49500 100%);
+  border-top: 2px solid rgba(0, 182, 236, 0.7);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.35);
   padding: 1.5rem 0;
   position: relative;
+  overflow: hidden;
 }
+
+.siu-hero__stats-bar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(0, 182, 236, 0.5) 0%,
+    rgba(56, 212, 255, 0.25) 30%,
+    transparent 65%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
 .siu-hero__stats-inner {
   align-items: center;
   display: flex;
@@ -285,7 +316,7 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
 }
 .siu-stat {
   align-items: center;
-  border-right: 1px solid rgba(255, 206, 82, 0.3);
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
   display: flex;
   flex: 1;
   flex-direction: row;
@@ -298,9 +329,10 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
 }
 .siu-stat__icon {
   align-items: center;
-  color: var(--s);
+  color: #ffffff;
   display: flex;
   justify-content: center;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.25));
 }
 .siu-stat__text {
   align-items: flex-start;
@@ -308,16 +340,18 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
   flex-direction: column;
 }
 .siu-stat__value {
-  color: #fff;
+  color: #ffffff;
   font-size: clamp(1.1rem, 1.3vw, 1.4rem);
-  font-weight: 800;
+  font-weight: 900;
   line-height: 1.2;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
 }
 .siu-stat__label {
-  color: #fffc;
+  color: rgba(255, 255, 255, 0.95);
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 700;
   text-align: left;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 @keyframes kb-6f81a179 {

@@ -1,4 +1,4 @@
-<script setup lang="ts">
+﻿<script setup lang="ts">
 import {
   Sparkles,
   BookOpen,
@@ -24,7 +24,7 @@ const stats = [
     <section class="biu-hero">
       <div class="biu-hero__bg">
         <img
-          src="/images/bachillerato/hero/2.jpg"
+          src="/images/bachillerato/hero/banerBIU.png"
           alt="Estudiantes BIU UNINTER"
           class="biu-hero__img"
         />

@@ -1,84 +1,85 @@
 <script setup lang="ts">
-import { ArrowRight } from 'lucide-vue-next'
+import { ArrowRight } from "lucide-vue-next";
 
 const niveles = [
   {
-    label: 'Universidad',
-    slug: 'universidad',
-    color: '#0f3c61',
-    bg: '#f0f6fc',
-    text: '#0f3c61',
-    href: '/LicenciaturasPresenciales',
-    desc: '23 licenciaturas · 6 ingenierías',
-    icon: 'mdi:school-outline',
-    stats: ['Presencial', 'Ejecutiva'],
+    label: "Universidad",
+    slug: "universidad",
+    color: "#0f3c61",
+    bg: "#f0f6fc",
+    text: "#0f3c61",
+    href: "/LicenciaturasPresenciales",
+    desc: "23 licenciaturas · 6 ingenierías",
+    icon: "mdi:school-outline",
+    stats: ["Presencial", "Ejecutiva"],
   },
   {
-    label: 'Bachillerato',
-    slug: 'bachillerato',
-    color: '#6BAF04',
-    bg: '#f4f9eb',
-    text: '#6BAF04',
-    href: '/bachillerato',
-    desc: 'Bachillerato Internacional BIU',
-    icon: 'mdi:book-open-outline',
-    stats: ['Presencial'],
+    label: "Bachillerato",
+    slug: "bachillerato",
+    color: "#6BAF04",
+    bg: "#f4f9eb",
+    text: "#6BAF04",
+    href: "/bachillerato",
+    desc: "Bachillerato Internacional BIU",
+    icon: "mdi:book-open-outline",
+    stats: ["Presencial"],
   },
   {
-    label: 'Secundaria',
-    slug: 'secundaria',
-    color: '#FFCA00', 
-    bg: '#fffce5',
-    text: '#0091D7', 
-    href: '/secundaria',
-    desc: 'Secundaria Internacional SIU',
-    icon: 'mdi:pencil-outline',
-    stats: ['Presencial'],
+    label: "Secundaria",
+    slug: "secundaria",
+    color: "#FFCA00",
+    bg: "#fffce5",
+    text: "#0091D7",
+    href: "/secundaria",
+    desc: "Secundaria Internacional SIU",
+    icon: "mdi:pencil-outline",
+    stats: ["Presencial"],
   },
   {
-    label: 'Posgrados',
-    slug: 'posgrados',
-    color: '#828829',
-    bg: '#f5f6ed',
-    text: '#828829',
-    href: '/posgrados',
-    desc: 'Maestrías y especializaciones',
-    icon: 'mdi:certificate-outline',
-    stats: ['Presencial', 'En línea'],
+    label: "Posgrados",
+    slug: "posgrados",
+    color: "#828829",
+    bg: "#f5f6ed",
+    text: "#828829",
+    href: "/posgrados",
+    desc: "Especialidades, maestrías y doctorados",
+    icon: "mdi:certificate-outline",
+    stats: ["Presencial", "En línea"],
   },
   {
-    label: 'Diplomados',
-    slug: 'diplomados',
-    color: '#f28b22',
-    bg: '#fef4eb',
-    text: '#f28b22',
-    href: '/diplomados',
-    desc: 'Capacitación profesional',
-    icon: 'mdi:briefcase-outline',
-    stats: ['Presencial'],
+    label: "Diplomados",
+    slug: "diplomados",
+    color: "#f28b22",
+    bg: "#fef4eb",
+    text: "#f28b22",
+    href: "/diplomados",
+    desc: "Capacitación profesional",
+    icon: "mdi:briefcase-outline",
+    stats: ["Presencial"],
   },
   {
-    label: 'Prepa Abierta',
-    slug: 'prepa-abierta',
-    color: '#53CCBB',
-    bg: '#effaf9',
-    text: '#348A81',
-    href: '/Prep-a',
-    desc: 'Bachillerato flexible y autoplaneado',
-    icon: 'mdi:book-open-page-variant-outline',
-    stats: ['Flexible', 'Acelerado'],
+    label: "Prepa Abierta",
+    slug: "prepa-abierta",
+    color: "#53CCBB",
+    bg: "#effaf9",
+    text: "#348A81",
+    href: "/Prep-a",
+    desc: "Bachillerato flexible y autoplaneado",
+    icon: "mdi:book-open-page-variant-outline",
+    stats: ["Flexible", "Acelerado"],
   },
-]
+];
 </script>
 
 <template>
   <section id="oferta" class="oe-section uninter-section">
     <div class="uninter-container">
-
       <div class="oe-header">
         <div>
-          <div class="uninter-eyebrow">Programas académicos</div>
-          <h2 class="uninter-section-title">Elige tu<br><em>nivel educativo</em></h2>
+          <div class="uninter-eyebrow">Oferta Educativa</div>
+          <h2 class="uninter-section-title">
+            Elige tu<br /><em>nivel educativo</em>
+          </h2>
           <p class="oe-desc">
             Cada nivel cuenta con su propio campus digital. Haz clic para
             conocer la oferta completa de cada programa.
@@ -106,7 +107,9 @@ const niveles = [
 
             <div class="oe-card__bottom">
               <div class="oe-card__pills">
-                <span v-for="s in nivel.stats" :key="s" class="oe-pill">{{ s }}</span>
+                <span v-for="s in nivel.stats" :key="s" class="oe-pill">{{
+                  s
+                }}</span>
               </div>
 
               <div class="oe-card__link">
@@ -135,7 +138,9 @@ const niveles = [
 
             <div class="oe-card__bottom">
               <div class="oe-card__pills">
-                <span v-for="s in nivel.stats" :key="s" class="oe-pill">{{ s }}</span>
+                <span v-for="s in nivel.stats" :key="s" class="oe-pill">{{
+                  s
+                }}</span>
               </div>
 
               <div class="oe-card__link">
@@ -145,7 +150,6 @@ const niveles = [
           </a>
         </template>
       </div>
-
     </div>
   </section>
 </template>

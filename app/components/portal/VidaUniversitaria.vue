@@ -226,11 +226,11 @@ const tabColors: Record<string, string> = {
         <div class="vu-header__left">
           <div class="uninter-eyebrow">Comunidad UNINTER</div>
           <h2 class="uninter-section-title">
-            Vida<br /><em>universitaria</em>
+            Experiencia<br /><em>UNINTER</em>
           </h2>
           <p class="vu-desc">
-            Más allá de las clases — deportes, cultura, idiomas y liderazgo.
-            Todo incluido en tu cuota.
+            Más allá de las clases - Participa en actividades mientras
+            construyes amistades y experiencias.
           </p>
         </div>
         <div class="vu-stats">

@@ -22,23 +22,22 @@ let timer: ReturnType<typeof setTimeout> | null = null;
 const slides = [
   {
     id: 1,
-    eyebrow: "Universidad Internacional",
-    title: "Forma tu futuro\nen UNINTER",
+    eyebrow: "Construye una trayectoria con visión internacional",
+    title: "Educación internacional en Cuernavaca",
     subtitle:
       "Secundaria · Bachillerato · Licenciatura · Posgrado. Cuernavaca, Morelos.",
     image: "/images/hero/blur/1.jpg",
     cta: {
-      label: "Solicitar información",
-      href: "https://universidad.uninter.edu.mx/Admisiones",
+      label: "Encuentra tu programa",
+      href: "#oferta",
     },
-    ctaGhost: { label: "Ver oferta educativa", href: "#oferta" },
+    ctaGhost: { label: "Solicita Información", href: "#admision" },
   },
   {
     id: 2,
-    eyebrow: "Vida Universitaria",
+    eyebrow: "Vida estudiantil",
     title: "Deporte, cultura\ny liderazgo",
-    subtitle:
-      "Más de 40 actividades anuales. Formación integral dentro y fuera del aula.",
+    subtitle: "Desarrolla tus talentos dentro y fuera del aula.",
     image: "/images/hero/blur/5.jpg",
     cta: { label: "Conocer más", href: "#vida" },
     ctaGhost: { label: "Ver eventos", href: "https://uninter.edu.mx/eventos/" },
@@ -46,9 +45,8 @@ const slides = [
   {
     id: 3,
     eyebrow: "Spanish School",
-    title: "Aprende español\nen México",
-    subtitle:
-      "Cursos intensivos para extranjeros. Cuernavaca, la ciudad de la eterna primavera.",
+    title: "Aprende español\nen Cuernavaca",
+    subtitle: "Vive México mientras haces del español parte de tu vida",
     image: "/images/hero/blur/6.jpg",
     cta: {
       label: "Ver programa",
@@ -61,10 +59,10 @@ const slides = [
   },
   {
     id: 4,
-    eyebrow: "Eventos y Sesiones",
-    title: "Conoce UNINTER\nen persona",
+    eyebrow: "Eventos y Sesiones informativas",
+    title: "Conoce UNINTER\nantes de tomar tu decisión",
     subtitle:
-      "Sesiones informativas presenciales y on demand. ¡Aparta tu lugar!",
+      "Participa en una sesión informativa, recorre nuestras instalaciones y resuelve tus dudas. ",
     image: "/images/hero/blur/3.jpg",
     cta: {
       label: "Ver sesiones",

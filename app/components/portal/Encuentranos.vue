@@ -1,32 +1,43 @@
 <script setup lang="ts">
-const mapsUrl = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.4!2d-99.2341!3d18.9242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce73b5b2d8a0f7%3A0x1!2sUniversidad+Internacional+UNINTER!5e0!3m2!1ses!2smx!4v1'
+const mapsUrl =
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.4!2d-99.2341!3d18.9242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce73b5b2d8a0f7%3A0x1!2sUniversidad+Internacional+UNINTER!5e0!3m2!1ses!2smx!4v1";
 
 const contactInfo = [
-  { icon: 'mdi:map-marker-outline', label: 'Dirección', value: 'San Jerónimo No. 304, Col. San Jerónimo, Cuernavaca, Morelos, México' },
-  { icon: 'mdi:phone-outline',      label: 'Teléfonos',  value: '777 357 9000  ·  777 357 9001' },
-  { icon: 'mdi:whatsapp',           label: 'WhatsApp',   value: 'WhatsApp', href: 'https://wa.link/3ktsjb' },
-  { icon: 'mdi:clock-outline',      label: 'Horario',    value: 'Lunes a viernes 8:00 – 20:00 h' },
-]
+  {
+    icon: "mdi:map-marker-outline",
+    label: "Dirección - Edificio Principal",
+    value:
+      "San Jerónimo No. 304, Col. San Jerónimo, Cuernavaca, Morelos, México",
+  },
+  {
+    icon: "mdi:phone-outline",
+    label: "Teléfonos",
+    value: "777 357 9000  ·  777 357 9001",
+  },
+  {
+    icon: "mdi:clock-outline",
+    label: "Horario",
+    value: "Lunes a viernes 8:00 – 20:00 h",
+  },
+];
 </script>
 
 <template>
   <section class="en-section uninter-section">
     <div class="uninter-container">
-
       <div class="en-header">
         <div class="uninter-eyebrow">Visítanos</div>
         <h2 class="uninter-section-title">Encuéntranos</h2>
       </div>
 
       <div class="en-layout">
-
         <!-- Mapa -->
         <div class="en-map">
           <iframe
             :src="mapsUrl"
             width="100%"
             height="100%"
-            style="border:0"
+            style="border: 0"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
@@ -42,7 +53,12 @@ const contactInfo = [
             </div>
             <div class="en-row__text">
               <p class="en-row__label">{{ c.label }}</p>
-              <a v-if="c.href" :href="c.href" target="_blank" class="en-row__value en-row__value--link">
+              <a
+                v-if="c.href"
+                :href="c.href"
+                target="_blank"
+                class="en-row__value en-row__value--link"
+              >
                 {{ c.value }}
               </a>
               <p v-else class="en-row__value">{{ c.value }}</p>
@@ -51,7 +67,7 @@ const contactInfo = [
 
           <div class="en-ctas">
             <a
-              href="https://goo.gl/maps/uninter"
+              href="https://maps.app.goo.gl/deVLV2hQWJwKM3mo9"
               target="_blank"
               rel="noopener"
               class="en-btn en-btn--outline"
@@ -70,15 +86,18 @@ const contactInfo = [
             </a>
           </div>
         </div>
-
       </div>
     </div>
   </section>
 </template>
 
 <style scoped>
-.en-section { background: #f8f9fb; }
-.en-header { margin-bottom: 2rem; }
+.en-section {
+  background: #f8f9fb;
+}
+.en-header {
+  margin-bottom: 2rem;
+}
 
 .en-layout {
   display: grid;
@@ -104,83 +123,97 @@ const contactInfo = [
 .en-row {
   display: flex;
   align-items: flex-start;
-  gap: .875rem;
+  gap: 0.875rem;
   padding: 1rem 1.125rem;
   background: #fff;
   border: 1px solid #e2e8f0;
   border-radius: 10px;
-  border-left: 3px solid #0F3C61;
+  border-left: 3px solid #0f3c61;
 }
 
 .en-row__icon {
-  width: 38px; height: 38px;
+  width: 38px;
+  height: 38px;
   border-radius: 7px;
   background: #e8f0fd;
-  display: flex; align-items: center; justify-content: center;
-  color: #0F3C61;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0f3c61;
   flex-shrink: 0;
 }
 
 .en-row__label {
-  font-size: .68rem;
+  font-size: 0.68rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: .07em;
+  letter-spacing: 0.07em;
   color: #64748b;
   margin: 0 0 3px;
 }
 
 .en-row__value {
-  font-size: .84rem;
+  font-size: 0.84rem;
   color: #1e293b;
   margin: 0;
   line-height: 1.4;
 }
 
 .en-row__value--link {
-  color: #0F3C61;
+  color: #0f3c61;
   text-decoration: none;
   font-weight: 600;
 }
-.en-row__value--link:hover { text-decoration: underline; }
+.en-row__value--link:hover {
+  text-decoration: underline;
+}
 
 .en-ctas {
   display: flex;
-  gap: .75rem;
+  gap: 0.75rem;
   flex-wrap: wrap;
-  margin-top: .25rem;
+  margin-top: 0.25rem;
 }
 
 .en-btn {
   display: inline-flex;
   align-items: center;
-  gap: .4rem;
-  font-size: .8rem;
+  gap: 0.4rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  padding: .65rem 1.1rem;
+  padding: 0.65rem 1.1rem;
   border-radius: 7px;
   text-decoration: none;
-  transition: all .2s;
+  transition: all 0.2s;
   flex: 1;
   justify-content: center;
 }
 
 .en-btn--outline {
-  border: 1.5px solid #0F3C61;
-  color: #0F3C61;
+  border: 1.5px solid #0f3c61;
+  color: #0f3c61;
   background: transparent;
 }
-.en-btn--outline:hover { background: #0F3C61; color: #fff; }
+.en-btn--outline:hover {
+  background: #0f3c61;
+  color: #fff;
+}
 
 .en-btn--wa {
-  background: #25D366;
+  background: #25d366;
   color: #fff;
-  border: 1.5px solid #25D366;
+  border: 1.5px solid #25d366;
 }
-.en-btn--wa:hover { filter: brightness(1.08); }
+.en-btn--wa:hover {
+  filter: brightness(1.08);
+}
 
 @media (max-width: 768px) {
-  .en-layout { grid-template-columns: 1fr; }
-  .en-map { height: 260px; }
+  .en-layout {
+    grid-template-columns: 1fr;
+  }
+  .en-map {
+    height: 260px;
+  }
 }
 </style>

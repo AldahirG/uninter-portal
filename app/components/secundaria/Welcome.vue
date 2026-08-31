@@ -3,24 +3,24 @@ import { Globe, Users, Lightbulb, Trophy } from "lucide-vue-next";
 
 const valores = [
   {
-    icon: Globe,
-    titulo: "Visión internacional",
-    desc: "Formación con perspectiva global desde secundaria, conectando culturas y fomentando la apertura al mundo.",
+    icon: Users,
+    titulo: "Excelencia académica",
+    desc: "Un modelo educativo que fortalece conocimientos, pensamiento crítico y habilidades para continuar con éxito su trayectoria académica",
   },
   {
-    icon: Users,
-    titulo: "Comunidad multicultural",
-    desc: "Convive con jóvenes de distintas culturas, razas, lenguas y realidades en un ambiente de integración y respeto.",
+    icon: Globe,
+    titulo: "Formación internacional",
+    desc: "Preparación para oportunidades internacionales. Idiomas, convivencia multicultural y experiencias que amplían la visión y las oportunidades de nuestros estudiantes.",
   },
   {
     icon: Lightbulb,
-    titulo: "Tecnología integrada",
-    desc: "Herramientas digitales, laboratorios de innovación y metodologías activas que desarrollan el pensamiento crítico.",
+    titulo: "Innovación en el aprendizaje",
+    desc: "Tecnología, laboratorios y metodologías activas que impulsan la creatividad, la resolución de problemas y el pensamiento crítico.",
   },
   {
     icon: Trophy,
-    titulo: "Desarrollo deportivo",
-    desc: "Programas atléticos, artísticos y culturales que complementan la formación académica integral del alumno.",
+    titulo: "Desarrollo integral",
+    desc: "Actividades deportivas, artísticas y culturales que fortalecen disciplina, confianza, liderazgo y trabajo en equipo.",
   },
 ];
 </script>
@@ -33,14 +33,21 @@ const valores = [
         <div class="siu-welcome__intro">
           <div class="siu-welcome__intro-text">
             <p class="siu-welcome__eyebrow">Bienvenido a</p>
-            <h2 class="siu-welcome__title">Comunidad SIU <span class="siu-welcome__title-highlight">UNINTER</span></h2>
+            <h2 class="siu-welcome__title">
+              Comunidad SIU
+              <span class="siu-welcome__title-highlight">UNINTER</span>
+            </h2>
           </div>
           <p class="siu-welcome__desc">
-            En SIU te ofrecemos comodidades únicas: intercambio internacional y relación directa con otras culturas a través de la
-            Universidad Internacional, con más de 40 años de experiencia educativa a nivel internacional y amplio reconocimiento
-            mundial. Somos respuesta a las necesidades de la comunidad monterense, formando jóvenes con gran sentido de integración
-            y permanencia. De esta manera formamos integralmente a los jóvenes, entendiendo y aceptando sus diferencias, cualidades
-            y fortalezas, y contribuyendo con la formación de sus alumnos para alcanzar el clima fin para que puedan crecer.
+            Aquí comienza una historia sin fronteras. <br />
+            En SIU, nuestros estudiantes no solo se preparan académicamente:
+            aprenden a desenvolverse en el mundo. <br />
+            Crecer en un ambiente internacional les permite aprender idiomas,
+            convivir con otras culturas, ganar confianza y desarrollar una
+            visión global que los prepara para las oportunidades del futuro.
+            <br />
+            Porque el futuro exige más que buenas calificaciones: exige estar
+            preparado para el mundo.
           </p>
         </div>
       </div>
@@ -65,8 +72,8 @@ const valores = [
 
 <style scoped>
 .siu-welcome {
-  --s: #ECAB00;
-  --sd: #C49000;
+  --s: #ecab00;
+  --sd: #c49000;
   --sbg: #1a1500;
 }
 .siu-container {
@@ -103,7 +110,7 @@ const valores = [
   line-height: 1.15;
 }
 .siu-welcome__title-highlight {
-  color: #0F3C61;
+  color: #0f3c61;
 }
 .siu-welcome__desc {
   font-size: 0.95rem;
@@ -116,7 +123,7 @@ const valores = [
 
 /* Cards - Fondo crema */
 .siu-welcome__cards-wrap {
-  background: #FFFDF5; 
+  background: #fffdf5;
   padding: 3.5rem 0 5rem;
 }
 .siu-welcome__cards {
@@ -129,7 +136,9 @@ const valores = [
   background: #fff;
   border-radius: 14px;
   padding: 1.75rem 1.5rem;
-  transition: transform 0.25s, box-shadow 0.25s;
+  transition:
+    transform 0.25s,
+    box-shadow 0.25s;
   position: relative;
   z-index: 1;
 }
@@ -139,8 +148,10 @@ const valores = [
   inset: 0;
   border-radius: 14px;
   padding: 1px;
-  background: rgba(236,171,0,0.15);
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  background: rgba(236, 171, 0, 0.15);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   pointer-events: none;
@@ -149,16 +160,16 @@ const valores = [
 }
 .siu-val-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 32px rgba(236,171,0,0.12);
+  box-shadow: 0 12px 32px rgba(236, 171, 0, 0.12);
 }
 .siu-val-card:hover::before {
-  background: linear-gradient(135deg, #FFCE52 0%, #FFCE52 60%, #00b6ec 100%);
+  background: linear-gradient(135deg, #ffce52 0%, #ffce52 60%, #00b6ec 100%);
 }
 .siu-val-card__icon {
   width: 46px;
   height: 46px;
   border-radius: 10px;
-  background: rgba(236,171,0,0.12);
+  background: rgba(236, 171, 0, 0.12);
   color: var(--s);
   display: flex;
   align-items: center;
@@ -179,10 +190,17 @@ const valores = [
 }
 
 @media (max-width: 1024px) {
-  .siu-welcome__cards { grid-template-columns: repeat(2, 1fr); }
-  .siu-welcome__intro { grid-template-columns: 1fr; gap: 1.5rem; }
+  .siu-welcome__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .siu-welcome__intro {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }
 @media (max-width: 560px) {
-  .siu-welcome__cards { grid-template-columns: 1fr; }
+  .siu-welcome__cards {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

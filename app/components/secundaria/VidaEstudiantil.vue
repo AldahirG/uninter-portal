@@ -3,18 +3,11 @@ import { ArrowRight } from "lucide-vue-next";
 
 const blogs = [
   {
-    id: 1,
-    titulo: "Internacionalización",
-    siglas: "INTER",
-    color: "#6a1b9a",
-    url: "https://blogs.uninter.edu.mx/congresoInternacionalLatinoamerica/",
-  },
-  {
-    id: 2,
-    titulo: "Difusión Cultural",
-    siglas: "CULTURA",
-    color: "#1565c0",
-    url: "https://blogs.uninter.edu.mx/difusioncultural",
+    id: 4,
+    titulo: "Secundaria Internacional",
+    siglas: "SIU",
+    color: "#d9531e",
+    url: "https://blogs.uninter.edu.mx/siu",
   },
   {
     id: 3,
@@ -23,12 +16,20 @@ const blogs = [
     color: "#00695c",
     url: "https://blogs.uninter.edu.mx/deportes/",
   },
+
   {
-    id: 4,
-    titulo: "Secundaria Internacional",
-    siglas: "SIU",
-    color: "#d9531e",
-    url: "https://blogs.uninter.edu.mx/siu",
+    id: 2,
+    titulo: "Cultura",
+    siglas: "CULTURA",
+    color: "#1565c0",
+    url: "https://blogs.uninter.edu.mx/difusioncultural",
+  },
+  {
+    id: 1,
+    titulo: "Eventos",
+    siglas: "Eventos",
+    color: "#6a1b9a",
+    url: "https://blogs.uninter.edu.mx/congresoInternacionalLatinoamerica/",
   },
 ];
 </script>
@@ -64,7 +65,9 @@ const blogs = [
         >
           <!-- Banner Superior de Color con Watermark -->
           <div class="bl-card__thumb" :style="{ backgroundColor: b.color }">
-            <span class="bl-card__watermark" aria-hidden="true">{{ b.siglas }}</span>
+            <span class="bl-card__watermark" aria-hidden="true">{{
+              b.siglas
+            }}</span>
             <span class="bl-card__initials">{{ b.siglas }}</span>
           </div>
 
@@ -141,7 +144,10 @@ const blogs = [
   font-weight: 700;
   text-decoration: none;
   background: #ffffff;
-  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .bl-btn-all:hover {
@@ -167,7 +173,9 @@ const blogs = [
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
   position: relative;
 }
 
@@ -242,7 +250,9 @@ const blogs = [
   font-size: 0.85rem;
   font-weight: 700;
   color: #0084d1;
-  transition: color 0.2s ease, gap 0.2s ease;
+  transition:
+    color 0.2s ease,
+    gap 0.2s ease;
 }
 
 .bl-card:hover .bl-card__link {

@@ -261,9 +261,10 @@ function scrollTo(id: string) {
                 'Proyectos artísticos',
               ]"
               :key="tag"
-              class="siu-pill" style="color: #0f3c61;"
+              class="siu-pill"
+              style="color: #0f3c61"
             >
-              <Icon name="mdi:check" size="13" style="color: #0f3c61;" />
+              <Icon name="mdi:check" size="13" style="color: #0f3c61" />
               {{ tag }}
             </span>
           </div>
@@ -313,14 +314,13 @@ function scrollTo(id: string) {
                 >
                   <Icon :name="item.icon" size="16" />
                 </div>
-                <span style="color: #0f3c61;">{{ item.text }}</span>
+                <span style="color: #0f3c61">{{ item.text }}</span>
               </li>
             </ul>
             <a
               href="#admision"
               @click.prevent="scrollTo('#admision')"
               class="siu-hcard__cta"
-              
             >
               Solicitar información →
             </a>
@@ -379,7 +379,7 @@ function scrollTo(id: string) {
             <div class="siu-egreso__icon" style="color: #ffc71c">
               <Icon :name="item.icon" size="18" />
             </div>
-            <span style="color: #0f3c61;">{{ item.text }}</span>
+            <span style="color: #0f3c61">{{ item.text }}</span>
           </div>
         </div>
       </div>
@@ -390,7 +390,9 @@ function scrollTo(id: string) {
         <p class="siu-eyebrow siu-eyebrow--center" style="color: #b88a00">
           Estructura curricular
         </p>
-        <h2 class="siu-title siu-title--center" style="color: #0f3c61;">PLAN DE ESTUDIOS</h2>
+        <h2 class="siu-title siu-title--center" style="color: #0f3c61">
+          PLAN DE ESTUDIOS
+        </h2>
         <p class="siu-plan__caption">
           Haz clic en cada semestre para ver las materias
         </p>
@@ -616,7 +618,9 @@ function scrollTo(id: string) {
   padding: 0.75rem;
   border-radius: 8px;
   text-decoration: none;
-  transition: opacity 0.2s, transform 0.2s;
+  transition:
+    opacity 0.2s,
+    transform 0.2s;
 }
 .siu-hcard__cta:hover {
   transform: translateY(-2px);
@@ -947,16 +951,17 @@ function scrollTo(id: string) {
   backdrop-filter: blur(16px) saturate(150%);
   -webkit-backdrop-filter: blur(16px) saturate(150%);
   background-attachment: fixed;
-  background-color: #1a1500d9;
+  background-color: #dbb100;
   background-image: radial-gradient(
     circle at 50% 50%,
-    rgba(255, 206, 82, 0.15) 0,
-    transparent 60%
+    rgba(255, 206, 0, 0.55) 0,
+    rgba(255, 206, 0, 0.25) 35%,
+    transparent 65%
   );
   background-position: 50%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   border-top: 1px solid rgba(255, 206, 82, 0.3);
-  box-shadow: 0 4px 30px #00000080;
+  border-bottom: 1px solid #8f7400;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
   padding: 1.5rem 0;
   position: relative;
 }
@@ -982,7 +987,7 @@ function scrollTo(id: string) {
 }
 .siu-stat__icon {
   align-items: center;
-  color: var(--s);
+  color: #fde4a6;
   display: flex;
   justify-content: center;
 }
@@ -992,13 +997,13 @@ function scrollTo(id: string) {
   flex-direction: column;
 }
 .siu-stat__value {
-  color: #fff;
+  color: #ffffff;
   font-size: clamp(1.1rem, 1.3vw, 1.4rem);
   font-weight: 800;
   line-height: 1.2;
 }
 .siu-stat__label {
-  color: #fffc;
+  color: rgba(255, 255, 255, 0.9);
   font-size: 0.9rem;
   font-weight: 500;
   text-align: left;

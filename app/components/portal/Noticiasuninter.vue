@@ -62,6 +62,9 @@ const tagBg: Record<string, string> = {
         <div>
           <div class="uninter-eyebrow">Novedades institucionales</div>
           <h2 class="uninter-section-title">Noticias<br /><em>UNINTER</em></h2>
+          <p class="nn-desc">
+            Descubre lo que está sucediendo en UNINTER.
+          </p>
         </div>
         <a
           href="https://uninter.edu.mx/noticias"
@@ -162,6 +165,14 @@ const tagBg: Record<string, string> = {
   margin-bottom: 2rem;
   flex-wrap: wrap;
   gap: 1rem;
+}
+
+.nn-desc {
+  font-size: 0.95rem;
+  color: #64748b;
+  line-height: 1.6;
+  max-width: 580px;
+  margin: 0.6rem 0 0 0;
 }
 
 .nn-layout {

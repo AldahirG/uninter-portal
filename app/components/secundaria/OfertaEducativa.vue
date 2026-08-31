@@ -3,38 +3,38 @@ import { Check } from "lucide-vue-next";
 
 const programas = [
   {
-    id: "multicultural",
-    nombre: "Secundaria Multicultural",
-    sigla: "SIU MULTICULTURAL",
-    color: "#B88A00",
-    colorLight: "#FFD44D",
-    desc: "Eje enseñanza formadora de jóvenes inclusivos preparados para vivirla educación del futuro. Desarrolla el carácter del discente, propicia culturas, actitudes, competencias y desarrollo sostenible. El uso de manera integral a los jóvenes, entendiendo y aceptando sus diferencias, culturas, razas y realidades.",
-    features: [
-      "Intercambio cultural internacional",
-      "Aprendizaje de idiomas",
-      "Actividades deportivas y artísticas",
-      "Metodología activa e innovadora",
-      "Certificaciones internacionales",
-    ],
-    imagen: "/images/Secundaria/14.jpg",
-    href: "/secundaria/siu-multicultural",
-  },
-  {
     id: "bilingue",
-    nombre: "Secundaria Bilingüe",
+    nombre: "Fortalece el inglés sin descuidar las bases académicas ",
     sigla: "SIU BILINGÜE",
     color: "#ECAB00",
     colorLight: "#F5C842",
-    desc: "Contamos con el programa educativo en SIU Uninter para apoyar, ayudar y obtener los mejores beneficios que en el medio pueden hacer, pues los alumnos pueden hacer.",
+    desc: "Un programa que combina la formación académica de secundaria con el aprendizaje progresivo del inglés como lengua extranjera, desarrollando competencias lingüísticas, pensamiento crítico y habilidades para continuar su preparación académica",
     features: [
-      "Clases 100% en inglés y español",
-      "Profesores nativos certificados",
-      "Preparación para exámenes internacionales",
-      "Inmersión lingüística total",
-      "Programas de intercambio",
+      "Inglés como lengua extranjera",
+      "Formación académica integral",
+      "Desarrollo de pensamiento crítico y habilidades cognitivas",
+      "Preparación para certificaciones",
+      "Actividades deportivas, artísticas y culturales",
     ],
     imagen: "/images/Secundaria/17.jpg",
     href: "/secundaria/siu-bilingue",
+  },
+  {
+    id: "multicultural",
+    nombre: "Una formación académica con mayor inmersión internacional ",
+    sigla: "SIU MULTICULTURAL",
+    color: "#B88A00",
+    colorLight: "#FFD44D",
+    desc: "Un programa para estudiantes que buscan desarrollar sus habilidades académicas en un entorno multicultural. Integra materias impartidas en inglés, una segunda lengua extranjera y experiencias que fortalecen su capacidad para desenvolverse en contextos internacionales.",
+    features: [
+      "Materias académicas impartidas en inglés",
+      "Inglés y chino mandarín",
+      "Preparación para certificación PET",
+      "Desarrollo de habilidades cognitivas y pensamiento crítico",
+      "Experiencias y formación internacional",
+    ],
+    imagen: "/images/Secundaria/14.jpg",
+    href: "/secundaria/siu-multicultural",
   },
 ];
 </script>
@@ -46,7 +46,7 @@ const programas = [
         <p class="oferta-eyebrow">Programas SIU</p>
         <h2 class="oferta-title">Oferta Educativa</h2>
         <p class="oferta-sub">
-          Elige la modalidad que mejor se adapte a tu visión y metas
+          Elige el programa que mejor se adapta a tus metas
         </p>
       </div>
 
@@ -82,7 +82,7 @@ const programas = [
             </ul>
 
             <NuxtLink :to="p.href" class="prog-card__cta">
-              A SIU {{ p.sigla.split(" ").pop() }} →
+              CONOCE SIU {{ p.sigla.split(" ").pop() }} →
             </NuxtLink>
           </div>
         </div>
@@ -243,7 +243,9 @@ const programas = [
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   text-decoration: none;
-  transition: opacity 0.2s, transform 0.2s;
+  transition:
+    opacity 0.2s,
+    transform 0.2s;
   cursor: pointer;
 }
 .prog-card__cta:hover {

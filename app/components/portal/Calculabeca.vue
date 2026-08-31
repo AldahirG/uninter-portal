@@ -1,5 +1,4 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <section class="cb-section uninter-section">
@@ -15,30 +14,31 @@
           </div>
           <h2 class="cb-title">Calcula tu beca</h2>
           <p class="cb-desc">
-            Descubre cuánto puedes ahorrar en tu inscripción.
-            Sin costo, sin compromiso — en menos de 2 minutos.
+            Descubre cuánto puedes ahorrar en tu inscripción. Sin costo, sin
+            compromiso — en menos de 2 minutos.
           </p>
           <ul class="cb-list">
-            <li><Icon name="mdi:check-circle" size="14" class="cb-check" /> Becas por mérito académico</li>
-            <li><Icon name="mdi:check-circle" size="14" class="cb-check" /> Descuentos para familiares UNINTER</li>
-            <li><Icon name="mdi:check-circle" size="14" class="cb-check" /> Planes de financiamiento flexibles</li>
+            <li>
+              <Icon name="mdi:check-circle" size="14" class="cb-check" /> Becas
+              por mérito académico
+            </li>
+            <li>
+              <Icon name="mdi:check-circle" size="14" class="cb-check" />
+              Descuentos para familiares UNINTER
+            </li>
+            <li>
+              <Icon name="mdi:check-circle" size="14" class="cb-check" /> Planes
+              de financiamiento flexibles
+            </li>
           </ul>
         </div>
 
         <div class="cb-right">
-          <NuxtLink
-            to="/calcula-tu-beca"
-            class="cb-btn-primary"
-          >
+          <NuxtLink to="/calcula-tu-beca" class="cb-btn-primary">
             <Icon name="mdi:calculator-variant-outline" size="18" />
             Calcular mi beca ahora
           </NuxtLink>
-          <a
-            href="#registro"
-            class="cb-btn-ghost"
-          >
-            Solicitar información
-          </a>
+          <a href="#formulario" class="cb-btn-ghost"> Solicitar información </a>
           <a
             href="https://wa.link/3ktsjb"
             target="_blank"
@@ -46,7 +46,7 @@
             class="cb-whatsapp"
           >
             <Icon name="mdi:whatsapp" size="15" />
-            Preguntar por WhatsApp
+            Habla con un asesor
           </a>
         </div>
       </div>
@@ -55,10 +55,13 @@
 </template>
 
 <style scoped>
-.cb-section { background: #f8f9fb; padding: 3rem 0; }
+.cb-section {
+  background: #f8f9fb;
+  padding: 3rem 0;
+}
 
 .cb-banner {
-  background: #0F3C61;
+  background: #0f3c61;
   border-radius: 16px;
   padding: 3rem;
   display: flex;
@@ -73,23 +76,38 @@
 .cb-deco {
   position: absolute;
   border-radius: 50%;
-  background: rgba(255,255,255,.05);
+  background: rgba(255, 255, 255, 0.05);
 }
-.cb-deco--1 { width: 260px; height: 260px; top: -80px; right: 300px; }
-.cb-deco--2 { width: 180px; height: 180px; bottom: -60px; right: 100px; }
+.cb-deco--1 {
+  width: 260px;
+  height: 260px;
+  top: -80px;
+  right: 300px;
+}
+.cb-deco--2 {
+  width: 180px;
+  height: 180px;
+  bottom: -60px;
+  right: 100px;
+}
 
-.cb-left { position: relative; z-index: 1; flex: 1; min-width: 260px; }
+.cb-left {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  min-width: 260px;
+}
 
 .cb-eyebrow {
   display: inline-flex;
   align-items: center;
-  gap: .4rem;
-  font-size: .7rem;
+  gap: 0.4rem;
+  font-size: 0.7rem;
   font-weight: 700;
-  letter-spacing: .12em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #93c5fd;
-  margin-bottom: .875rem;
+  margin-bottom: 0.875rem;
 }
 
 .cb-title {
@@ -98,12 +116,12 @@
   font-weight: 700;
   color: #fff;
   line-height: 1.1;
-  margin: 0 0 .875rem;
+  margin: 0 0 0.875rem;
 }
 
 .cb-desc {
-  font-size: .9rem;
-  color: rgba(255,255,255,.72);
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.72);
   line-height: 1.65;
   max-width: 400px;
   margin: 0 0 1.25rem;
@@ -115,25 +133,28 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
 .cb-list li {
   display: flex;
   align-items: center;
-  gap: .5rem;
-  font-size: .84rem;
-  color: rgba(255,255,255,.85);
+  gap: 0.5rem;
+  font-size: 0.84rem;
+  color: rgba(255, 255, 255, 0.85);
 }
 
-.cb-check { color: #4ade80; flex-shrink: 0; }
+.cb-check {
+  color: #4ade80;
+  flex-shrink: 0;
+}
 
 .cb-right {
   position: relative;
   z-index: 1;
   display: flex;
   flex-direction: column;
-  gap: .75rem;
+  gap: 0.75rem;
   flex-shrink: 0;
   min-width: 220px;
 }
@@ -142,54 +163,69 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: .5rem;
+  gap: 0.5rem;
   background: #fff;
-  color: #0F3C61;
-  font-size: .88rem;
+  color: #0f3c61;
+  font-size: 0.88rem;
   font-weight: 800;
-  padding: .875rem 1.5rem;
+  padding: 0.875rem 1.5rem;
   border-radius: 8px;
   text-decoration: none;
-  transition: background .2s;
+  transition: background 0.2s;
   text-align: center;
 }
-.cb-btn-primary:hover { background: #e8f0fd; }
+.cb-btn-primary:hover {
+  background: #e8f0fd;
+}
 
 .cb-btn-ghost {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(255,255,255,.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   color: #fff;
-  font-size: .82rem;
+  font-size: 0.82rem;
   font-weight: 600;
-  padding: .7rem 1.5rem;
+  padding: 0.7rem 1.5rem;
   border-radius: 8px;
   text-decoration: none;
-  transition: background .2s;
+  transition: background 0.2s;
   text-align: center;
 }
-.cb-btn-ghost:hover { background: rgba(255,255,255,.08); }
+.cb-btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
 
 .cb-whatsapp {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: .4rem;
+  gap: 0.4rem;
   color: #4ade80;
-  font-size: .78rem;
+  font-size: 0.78rem;
   font-weight: 600;
   text-decoration: none;
-  padding: .5rem;
-  transition: opacity .2s;
+  padding: 0.5rem;
+  transition: opacity 0.2s;
 }
-.cb-whatsapp:hover { opacity: .8; }
+.cb-whatsapp:hover {
+  opacity: 0.8;
+}
 
 @media (max-width: 768px) {
-  .cb-banner { padding: 2rem 1.5rem; flex-direction: column; gap: 2rem; }
-  .cb-right { width: 100%; }
+  .cb-banner {
+    padding: 2rem 1.5rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .cb-right {
+    width: 100%;
+  }
 }
 @media (max-width: 480px) {
-  .cb-banner { padding: 1.5rem 1.25rem; border-radius: 12px; }
+  .cb-banner {
+    padding: 1.5rem 1.25rem;
+    border-radius: 12px;
+  }
 }
 </style>

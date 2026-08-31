@@ -59,6 +59,9 @@ const next = () => {
           <h2 class="uninter-section-title">
             Historias de<br /><em>éxito</em>
           </h2>
+          <p class="he-desc">
+            Conoce cómo nuestros egresados aplican lo aprendido en sus proyectos, empleos y siguientes etapas profesionales.
+          </p>
         </div>
         <a href="https://uninter.edu.mx" class="uninter-ver-mas">Ver todas →</a>
       </div>
@@ -132,6 +135,14 @@ const next = () => {
   margin-bottom: 2rem;
   flex-wrap: wrap;
   gap: 1rem;
+}
+
+.he-desc {
+  font-size: 0.95rem;
+  color: #64748b;
+  line-height: 1.6;
+  max-width: 580px;
+  margin: 0.6rem 0 0 0;
 }
 
 .he-grid {

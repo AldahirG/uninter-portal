@@ -129,89 +129,126 @@ function scrollTo(id: string) {
 
     <!-- HERO -->
     <div class="siu-hero-wrapper">
-    <section class="siu-hero">
-      <div class="siu-hero__bg">
-        <img src="/images/Secundaria/hero/15.jpg" alt="SIU Bilingüe UNINTER" class="siu-hero__img">
-        <div class="siu-hero__overlay"></div>
-        <div class="siu-hero__overlay2"></div>
-      </div>
-      
-      <div class="siu-wrap siu-hero__content">
-        <div class="siu-hero__inner">
-          <div class="siu-hero__eyebrow">
-            <img src="/images/hero/logo-blanco.svg" alt="Secundaria Internacional UNINTER" class="siu-hero__logo-full" onerror="this.style.display = 'none'">
-          </div>
-          <h1 class="siu-hero__title">
-            <span class="siu-hero__title-main">SECUNDARIA</span>
-            <span class="siu-hero__title-sub">Bilingüe</span>
-          </h1>
-          <p class="siu-hero__desc">
-            Clases 100% en inglés y español con profesores nativos certificados e inmersión lingüística total para una formación integral de primer nivel.
-          </p>
-          <div class="siu-hero__ctas-new">
-            <a href="#plan" @click.prevent="scrollTo('#plan')" class="siu-btn-card">
-              <div class="btn-icon"><Icon name="mdi:book-open-variant" size="28" /></div>
-              <span>Ver plan de estudios</span>
-            </a>
-            <a href="#admision" @click.prevent="scrollTo('#admision')" class="siu-btn-card">
-              <div class="btn-icon"><Icon name="mdi:form-textbox" size="28" /></div>
-              <span>Iniciar admisión</span>
-            </a>
-          </div>
+      <section class="siu-hero">
+        <div class="siu-hero__bg">
+          <img
+            src="/images/Secundaria/hero/15.jpg"
+            alt="SIU Bilingüe UNINTER"
+            class="siu-hero__img"
+          />
+          <div class="siu-hero__overlay"></div>
+          <div class="siu-hero__overlay2"></div>
         </div>
-      </div>
-    </section>
 
-    <div class="siu-hero__stats-bar">
-      <div class="siu-wrap siu-hero__stats-inner">
-        <div class="siu-stat">
-          <div class="siu-stat__icon"><Icon name="mdi:layers" size="28" /></div>
-          <div class="siu-stat__text">
-            <span class="siu-stat__value">35+</span>
-            <span class="siu-stat__label">Años de experiencia</span>
+        <div class="siu-wrap siu-hero__content">
+          <div class="siu-hero__inner">
+            <div class="siu-hero__eyebrow">
+              <img
+                src="/images/hero/logo-blanco.svg"
+                alt="Secundaria Internacional UNINTER"
+                class="siu-hero__logo-full"
+                onerror="this.style.display = 'none'"
+              />
+            </div>
+            <h1 class="siu-hero__title">
+              <span class="siu-hero__title-main">SECUNDARIA</span>
+              <span class="siu-hero__title-sub">Bilingüe</span>
+            </h1>
+            <p class="siu-hero__desc">
+              En SIU Bilingüe, los estudiantes fortalecen su dominio del inglés
+              mientras desarrollan bases académicas sólidas, pensamiento crítico
+              y habilidades cognitivas para avanzar con seguridad hacia la
+              siguiente etapa de su formación.
+            </p>
+            <div class="siu-hero__ctas-new">
+              <a
+                href="#plan"
+                @click.prevent="scrollTo('#plan')"
+                class="siu-btn-card"
+              >
+                <div class="btn-icon">
+                  <Icon name="mdi:book-open-variant" size="28" />
+                </div>
+                <span>Conoce el plan de estudios</span>
+              </a>
+              <a
+                href="#admision"
+                @click.prevent="scrollTo('#formulario-registro')"
+                class="siu-btn-card"
+              >
+                <div class="btn-icon">
+                  <Icon name="mdi:form-textbox" size="28" />
+                </div>
+                <span>Mas información</span>
+              </a>
+            </div>
           </div>
         </div>
-        <div class="siu-stat">
-          <div class="siu-stat__icon"><Icon name="mdi:translate" size="28" /></div>
-          <div class="siu-stat__text">
-            <span class="siu-stat__value">2</span>
-            <span class="siu-stat__label">Idiomas principales</span>
+      </section>
+
+      <div class="siu-hero__stats-bar">
+        <div class="siu-wrap siu-hero__stats-inner">
+          <div class="siu-stat">
+            <div class="siu-stat__icon">
+              <Icon name="mdi:layers" size="28" />
+            </div>
+            <div class="siu-stat__text">
+              <span class="siu-stat__value">40+</span>
+              <span class="siu-stat__label">Años de experiencia educativa</span>
+            </div>
           </div>
-        </div>
-        <div class="siu-stat">
-          <div class="siu-stat__icon"><Icon name="mdi:account-group" size="28" /></div>
-          <div class="siu-stat__text">
-            <span class="siu-stat__value">100%</span>
-            <span class="siu-stat__label">Nativos</span>
+          <div class="siu-stat">
+            <div class="siu-stat__icon">
+              <Icon name="mdi:translate" size="28" />
+            </div>
+            <div class="siu-stat__text">
+              <span class="siu-stat__value">Ingles</span>
+              <span class="siu-stat__label">Como lengua extranjera</span>
+            </div>
           </div>
-        </div>
-        <div class="siu-stat">
-          <div class="siu-stat__icon"><Icon name="mdi:school-outline" size="28" /></div>
-          <div class="siu-stat__text">
-            <span class="siu-stat__value">SEP</span>
-            <span class="siu-stat__label">RVOE Oficial</span>
+          <div class="siu-stat">
+            <div class="siu-stat__icon">
+              <Icon name="mdi:account-group" size="28" />
+            </div>
+            <div class="siu-stat__text">
+              <span class="siu-stat__value">PET</span>
+              <span class="siu-stat__label"
+                >Preparacion para certificacion</span
+              >
+            </div>
+          </div>
+          <div class="siu-stat">
+            <div class="siu-stat__icon">
+              <Icon name="mdi:school-outline" size="28" />
+            </div>
+            <div class="siu-stat__text">
+              <span class="siu-stat__value">SEP</span>
+              <span class="siu-stat__label">RVOE Oficial</span>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
     <!-- ¿POR QUÉ BILINGÜE? -->
     <section id="porque" class="siu-porque-sec">
       <div class="siu-wrap siu-porque-sec__inner">
         <div class="siu-porque-sec__text">
-          <p class="siu-eyebrow">Nuestra propuesta</p>
-          <h2 class="siu-title" style="color: #0f3c61;">¿Por qué elegir<br /><em style="color: #ffce52; font-style: italic;">SIU Bilingüe</em><span style="color: #0f3c61;">?</span></h2>
+          <p class="siu-eyebrow">Propuesta educativa</p>
+          <h2 class="siu-title" style="color: #0f3c61">
+            ¿Por qué elegir<br /><em style="color: #ffce52; font-style: italic"
+              >SIU Bilingüe</em
+            ><span style="color: #0f3c61">?</span>
+          </h2>
           <p class="siu-body">
-            Contamos con el programa educativo en SIU Uninter diseñado para
-            apoyar, ayudar y obtener los mejores beneficios que los alumnos
-            pueden alcanzar a nivel de secundaria. Fomentamos un ambiente
-            dinámico y retador.
+            Una secundaria que combina formación académica, aprendizaje del
+            inglés y desarrollo de habilidades para acompañar al estudiante
+            durante esta etapa.
           </p>
           <p class="siu-body">
-            El plan bilingüe de secundaria prepara a los jóvenes para un futuro
-            global, combinando clases teórico-prácticas y desarrollo tecnológico
-            con el dominio del idioma inglés de forma nativa.
+            Además, ofrece viajes académicos internacionales, experiencias que
+            amplían el aprendizaje y acercan a los estudiantes a otros contextos
+            y culturas.
           </p>
 
           <div class="siu-porque-sec__pills">
@@ -224,9 +261,11 @@ function scrollTo(id: string) {
                 'Formación en valores',
               ]"
               :key="tag"
-              class="siu-pill" style="color: #0f3c61;"
+              class="siu-pill"
+              style="color: #0f3c61"
             >
-              <Icon name="mdi:check" size="13" style="color: #0f3c61;" /> {{ tag }}
+              <Icon name="mdi:check" size="13" style="color: #0f3c61" />
+              {{ tag }}
             </span>
           </div>
         </div>
@@ -266,7 +305,7 @@ function scrollTo(id: string) {
                 <div class="siu-hcard__item-icon">
                   <Icon :name="item.icon" size="16" />
                 </div>
-                <span style="color: #0f3c61;">{{ item.text }}</span>
+                <span style="color: #0f3c61">{{ item.text }}</span>
               </li>
             </ul>
             <a
@@ -285,7 +324,11 @@ function scrollTo(id: string) {
       <div class="siu-wrap siu-egreso__inner">
         <div class="siu-egreso__left">
           <p class="siu-eyebrow">Al terminar el programa</p>
-          <h2 class="siu-title" style="color: #0f3c61;">PERFIL<br /><em style="color: #ffce52; font-style: italic;">DE EGRESO</em></h2>
+          <h2 class="siu-title" style="color: #0f3c61">
+            PERFIL<br /><em style="color: #ffce52; font-style: italic"
+              >DE EGRESO</em
+            >
+          </h2>
           <p class="siu-body">
             El egresado de la Secundaria Bilingüe SIU cuenta con sólidas bases
             académicas, habilidades científicas y el dominio fluido del idioma
@@ -326,7 +369,7 @@ function scrollTo(id: string) {
             <div class="siu-egreso__icon">
               <Icon :name="item.icon" size="18" />
             </div>
-            <span style="color: #0f3c61;">{{ item.text }}</span>
+            <span style="color: #0f3c61">{{ item.text }}</span>
           </div>
         </div>
       </div>
@@ -335,7 +378,9 @@ function scrollTo(id: string) {
     <section id="plan" class="siu-plan">
       <div class="siu-wrap">
         <p class="siu-eyebrow siu-eyebrow--center">Estructura curricular</p>
-        <h2 class="siu-title siu-title--center" style="color: #0f3c61;">PLAN DE ESTUDIOS</h2>
+        <h2 class="siu-title siu-title--center" style="color: #0f3c61">
+          PLAN DE ESTUDIOS
+        </h2>
         <p class="siu-plan__caption">
           Haz clic en cada semestre para ver las materias
         </p>
@@ -389,9 +434,31 @@ function scrollTo(id: string) {
 </template>
 
 <style scoped>
-.siu-egreso__eyebrow { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #ffce52; margin: 0 0 0.75rem; }
-.siu-plan__eyebrow { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #ffce52; text-align: center; margin: 0 0 0.5rem; }
-.siu-porque-sec__eyebrow { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #ffce52; margin: 0 0 0.75rem; }
+.siu-egreso__eyebrow {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #ffce52;
+  margin: 0 0 0.75rem;
+}
+.siu-plan__eyebrow {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #ffce52;
+  text-align: center;
+  margin: 0 0 0.5rem;
+}
+.siu-porque-sec__eyebrow {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #ffce52;
+  margin: 0 0 0.75rem;
+}
 /* Variables & Base Styles */
 .siu-page {
   --siu-primary: #ecab00;
@@ -468,7 +535,10 @@ function scrollTo(id: string) {
 }
 
 /* Hero Section */
-.siu-porque-sec { padding: 6rem 0; background: #ffffff; }
+.siu-porque-sec {
+  padding: 6rem 0;
+  background: #ffffff;
+}
 .siu-porque-sec__inner {
   display: grid;
   grid-template-columns: 1.12fr 0.88fr;
@@ -531,7 +601,9 @@ function scrollTo(id: string) {
   padding: 0.75rem;
   border-radius: 8px;
   text-decoration: none;
-  transition: opacity 0.2s, transform 0.2s;
+  transition:
+    opacity 0.2s,
+    transform 0.2s;
 }
 .siu-hcard__cta:hover {
   transform: translateY(-2px);
@@ -539,7 +611,10 @@ function scrollTo(id: string) {
 }
 
 /* Plan de estudios */
-.siu-plan { background: #fdfaf4; padding: 6.5rem 0; }
+.siu-plan {
+  background: #fdfaf4;
+  padding: 6.5rem 0;
+}
 .siu-plan__caption {
   text-align: center;
   font-size: 0.85rem;
@@ -557,9 +632,32 @@ function scrollTo(id: string) {
   text-align: center;
   cursor: pointer;
 }
-.siu-timeline__num { width: 42px; height: 42px; border-radius: 50%; background: #ffffff; border: 2px solid #ddd; color: #0f3c61; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; font-weight: 700; margin: 0 auto 0.5rem; transition: all 0.3s; }
-.siu-timeline__step--active .siu-timeline__num { background: #ffce52; border-color: #ffce52; color: #ffffff; box-shadow: 0 4px 12px rgba(255, 206, 82, 0.3); }
-.siu-timeline__label { font-size: 0.75rem; font-weight: 700; color: #0f3c61; }
+.siu-timeline__num {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 2px solid #ddd;
+  color: #0f3c61;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin: 0 auto 0.5rem;
+  transition: all 0.3s;
+}
+.siu-timeline__step--active .siu-timeline__num {
+  background: #ffce52;
+  border-color: #ffce52;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(255, 206, 82, 0.3);
+}
+.siu-timeline__label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #0f3c61;
+}
 .siu-timeline__bar {
   position: absolute;
   top: 20px;
@@ -581,8 +679,23 @@ function scrollTo(id: string) {
   padding: 2.5rem;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.02);
 }
-.siu-plan__panel-tag { display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.72rem; font-weight: 800; letter-spacing: 0.05em; text-transform: uppercase; color: #ffce52; margin-bottom: 0.75rem; }
-.siu-plan__panel-sem { font-size: 1.4rem; font-weight: 800; color: #0f3c61; margin-bottom: 1.5rem; }
+.siu-plan__panel-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffce52;
+  margin-bottom: 0.75rem;
+}
+.siu-plan__panel-sem {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #0f3c61;
+  margin-bottom: 1.5rem;
+}
 .siu-plan__list {
   list-style: none;
   padding: 0;
@@ -591,11 +704,22 @@ function scrollTo(id: string) {
   grid-template-columns: repeat(2, 1fr);
   gap: 0.75rem;
 }
-.siu-plan__list li { display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; color: #0f3c61; }
-.siu-plan__check { color: #ffce52; }
+.siu-plan__list li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #0f3c61;
+}
+.siu-plan__check {
+  color: #ffce52;
+}
 
 /* Egreso */
-.siu-egreso { padding: 6rem 0; background: #ffffff; }
+.siu-egreso {
+  padding: 6rem 0;
+  background: #ffffff;
+}
 .siu-egreso__inner {
   display: grid;
   grid-template-columns: 0.88fr 1.12fr;
@@ -607,8 +731,24 @@ function scrollTo(id: string) {
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
-.siu-egreso__item { display: flex; gap: 0.75rem; font-size: 0.88rem; line-height: 1.5; color: #0f3c61; }
-.siu-egreso__icon { width: 32px; height: 32px; background: #fdfaf4; border-radius: 6px; display: flex; align-items: center; justify-content: center; color: #ffce52; flex-shrink: 0; }
+.siu-egreso__item {
+  display: flex;
+  gap: 0.75rem;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: #0f3c61;
+}
+.siu-egreso__icon {
+  width: 32px;
+  height: 32px;
+  background: #fdfaf4;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffce52;
+  flex-shrink: 0;
+}
 
 /* Form */
 .siu-register-sec {
@@ -655,54 +795,253 @@ function scrollTo(id: string) {
   }
 }
 
-.siu-hero-wrapper{--s:#ffce52;--sd:#e6b949;--sl:#ffe48f;--sbg:#1a1500;--sa:#fceeb5;--s-blue:#00b6ec;--s-blue-dark:#0091d7;background-color:var(--sbg)}
-.siu-hero-wrapper{background-color:#1a1500}
-.siu-hero{align-items:center;background:transparent;display:flex;height:clamp(520px,68vh,680px);overflow:hidden;position:relative}
-.siu-hero__bg{inset:0;position:absolute}
-.siu-hero__img{animation:kb-6f81a179 14s ease-out forwards;height:100%;-o-object-fit:cover;object-fit:cover;-o-object-position:center top;object-position:center top;width:100%}
-.siu-hero__overlay{background:linear-gradient(180deg,#1a150066,#1a15001a 50%,#1a15001a);inset:0;position:absolute}
-.siu-hero__overlay2{-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);background:linear-gradient(90deg,rgba(26,21,0,.85),rgba(26,21,0,.6) 30%,rgba(26,21,0,.1) 45%,transparent 60%);inset:0;-webkit-mask-image:linear-gradient(90deg,#000,#000 35%,transparent 55%);mask-image:linear-gradient(90deg,#000,#000 35%,transparent 55%);position:absolute}
-.siu-hero__content{position:relative;width:100%;z-index:3}
-.siu-hero__inner{max-width:640px}
-.siu-hero__eyebrow{align-items:center;display:flex;margin-bottom:2rem}
-.siu-hero__logo-full{height:48px;-o-object-fit:contain;object-fit:contain}
-.siu-hero__title{display:flex;flex-direction:column;line-height:1;margin:0 0 2rem}
-.siu-hero__title-main{color:var(--s);font-size:clamp(3rem,7vw,5.5rem);font-weight:900;letter-spacing:-.02em;text-shadow:0 4px 24px hsla(43,100%,66%,.25)}
-.siu-hero__title-main,.siu-hero__title-sub{font-family:var(--font-serif,Georgia,serif)}
-.siu-hero__title-sub{color:#ffffffe6;font-size:clamp(1.2rem,2.5vw,1.9rem);font-weight:600;letter-spacing:.05em;margin-top:1rem}
-.siu-hero__desc{color:#ffffffad;font-size:clamp(.9rem,1.4vw,1rem);line-height:1.65;margin:0 0 3rem;max-width:520px}
-.siu-hero__ctas-new{display:flex;flex-wrap:wrap;gap:1.5rem;margin-top:1rem}
-.siu-btn-card{align-items:center;background:transparent;border:1px solid hsla(0,0%,100%,.4);border-radius:12px;color:#fff;display:flex;flex-direction:column;font-size:.95rem;font-weight:600;gap:.5rem;justify-content:center;min-width:140px;padding:1rem 2.5rem;text-decoration:none;transition:all .3s ease}
+.siu-hero-wrapper {
+  --s: #ffce52;
+  --sd: #e6b949;
+  --sl: #ffe48f;
+  --sbg: #1a1500;
+  --sa: #fceeb5;
+  --s-blue: #00b6ec;
+  --s-blue-dark: #0091d7;
+  background-color: var(--sbg);
+}
+.siu-hero-wrapper {
+  background-color: #1a1500;
+}
+.siu-hero {
+  align-items: center;
+  background: transparent;
+  display: flex;
+  height: clamp(520px, 68vh, 680px);
+  overflow: hidden;
+  position: relative;
+}
+.siu-hero__bg {
+  inset: 0;
+  position: absolute;
+}
+.siu-hero__img {
+  animation: kb-6f81a179 14s ease-out forwards;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center top;
+  object-position: center top;
+  width: 100%;
+}
+.siu-hero__overlay {
+  background: linear-gradient(180deg, #1a150066, #1a15001a 50%, #1a15001a);
+  inset: 0;
+  position: absolute;
+}
+.siu-hero__overlay2 {
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  background: linear-gradient(
+    90deg,
+    rgba(26, 21, 0, 0.85),
+    rgba(26, 21, 0, 0.6) 30%,
+    rgba(26, 21, 0, 0.1) 45%,
+    transparent 60%
+  );
+  inset: 0;
+  -webkit-mask-image: linear-gradient(90deg, #000, #000 35%, transparent 55%);
+  mask-image: linear-gradient(90deg, #000, #000 35%, transparent 55%);
+  position: absolute;
+}
+.siu-hero__content {
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+.siu-hero__inner {
+  max-width: 640px;
+}
+.siu-hero__eyebrow {
+  align-items: center;
+  display: flex;
+  margin-bottom: 2rem;
+}
+.siu-hero__logo-full {
+  height: 48px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.siu-hero__title {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  margin: 0 0 2rem;
+}
+.siu-hero__title-main {
+  color: var(--s);
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  text-shadow: 0 4px 24px hsla(43, 100%, 66%, 0.25);
+}
+.siu-hero__title-main,
+.siu-hero__title-sub {
+  font-family: var(--font-serif, Georgia, serif);
+}
+.siu-hero__title-sub {
+  color: #ffffffe6;
+  font-size: clamp(1.2rem, 2.5vw, 1.9rem);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  margin-top: 1rem;
+}
+.siu-hero__desc {
+  color: #ffffffad;
+  font-size: clamp(0.9rem, 1.4vw, 1rem);
+  line-height: 1.65;
+  margin: 0 0 3rem;
+  max-width: 520px;
+}
+.siu-hero__ctas-new {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.siu-btn-card {
+  align-items: center;
+  background: transparent;
+  border: 1px solid hsla(0, 0%, 100%, 0.4);
+  border-radius: 12px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.95rem;
+  font-weight: 600;
+  gap: 0.5rem;
+  justify-content: center;
+  min-width: 140px;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
 .siu-btn-card:hover {
   background: rgba(5, 173, 220, 0.15);
   border-color: #05addc;
   color: #05addc;
   transform: translateY(-2px);
 }
-.btn-icon{margin-bottom:.1rem}
-.siu-hero__stats-bar{backdrop-filter:blur(16px) saturate(150%);-webkit-backdrop-filter:blur(16px) saturate(150%);background-attachment:fixed;background-color:#1a1500d9;background-image:radial-gradient(circle at 50% 50%,rgba(255,206,82,.15) 0,transparent 60%);background-position:50%;border-bottom:1px solid rgba(0,0,0,.5);border-top:1px solid rgba(255,206,82,.3);box-shadow:0 4px 30px #00000080;padding:1.5rem 0;position:relative}
-.siu-hero__stats-inner{align-items:center;display:flex;justify-content:space-between;position:relative;z-index:2}
-.siu-stat{align-items:center;border-right:1px solid rgba(255,206,82,.3);display:flex;flex:1;flex-direction:row;gap:1rem;justify-content:center;padding:0 1.5rem}
-.siu-stat:last-child{border-right:none}
-.siu-stat__icon{align-items:center;color:var(--s);display:flex;justify-content:center}
-.siu-stat__text{align-items:flex-start;display:flex;flex-direction:column}
-.siu-stat__value{color:#fff;font-size:clamp(1.1rem,1.3vw,1.4rem);font-weight:800;line-height:1.2}
-.siu-stat__label{color:#fffc;font-size:.9rem;font-weight:500;text-align:left}
-@media(max-width:768px){
-  .siu-hero{flex-direction:column;height:auto;min-height:clamp(500px,85vh,800px);padding-top:5rem}
-  .siu-hero__content{align-items:center;display:flex;flex:1;padding-bottom:3rem}
-  .siu-hero__stats-bar{position:relative;width:100%}
-  .siu-hero__stats-inner{flex-wrap:wrap;gap:1rem 0}
-  .siu-stat{border-bottom:1px solid hsla(0,0%,100%,.1);border-right:none;flex:1 1 50%;padding:1rem .5rem}
-  .siu-stat:nth-child(odd){border-right:1px solid hsla(0,0%,100%,.1)}
-  .siu-stat:nth-last-child(-n+2){border-bottom:none}
+.siu-hero__stats-bar {
+  backdrop-filter: blur(16px) saturate(150%);
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
+  background-attachment: fixed;
+  background-color: #dbb100;
+  background-image: radial-gradient(
+    circle at 50% 50%,
+    rgba(255, 206, 0, 0.55) 0,
+    rgba(255, 206, 0, 0.25) 35%,
+    transparent 65%
+  );
+  background-position: 50%;
+  border-top: 1px solid rgba(255, 206, 82, 0.3);
+  border-bottom: 1px solid #8f7400;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  padding: 1.5rem 0;
+  position: relative;
 }
-@media(max-width:480px){
-  .siu-hero__ctas-new{flex-direction:row;gap:1rem}
-  .siu-btn-card{flex:1;padding:1rem}
-  .siu-hero__title-main{font-size:clamp(2.5rem,12vw,4rem)}
-  .siu-stat{border-bottom:1px solid hsla(0,0%,100%,.1)!important;border-right:none!important;flex:1 1 100%;padding:1rem 1.5rem}
-  .siu-stat:last-child{border-bottom:none!important}
+.siu-hero__stats-inner {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
 }
-
+.siu-stat {
+  align-items: center;
+  border-right: 1px solid rgba(255, 206, 82, 0.3);
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+.siu-stat:last-child {
+  border-right: none;
+}
+.siu-stat__icon {
+  align-items: center;
+  color: #fde4a6;
+  display: flex;
+  justify-content: center;
+}
+.siu-stat__text {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.siu-stat__value {
+  color: #ffffff;
+  font-size: clamp(1.1rem, 1.3vw, 1.4rem);
+  font-weight: 800;
+  line-height: 1.2;
+}
+.siu-stat__label {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: left;
+}
+@media (max-width: 768px) {
+  .siu-hero {
+    flex-direction: column;
+    height: auto;
+    min-height: clamp(500px, 85vh, 800px);
+    padding-top: 5rem;
+  }
+  .siu-hero__content {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    padding-bottom: 3rem;
+  }
+  .siu-hero__stats-bar {
+    position: relative;
+    width: 100%;
+  }
+  .siu-hero__stats-inner {
+    flex-wrap: wrap;
+    gap: 1rem 0;
+  }
+  .siu-stat {
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
+    border-right: none;
+    flex: 1 1 50%;
+    padding: 1rem 0.5rem;
+  }
+  .siu-stat:nth-child(odd) {
+    border-right: 1px solid hsla(0, 0%, 100%, 0.1);
+  }
+  .siu-stat:nth-last-child(-n + 2) {
+    border-bottom: none;
+  }
+}
+@media (max-width: 480px) {
+  .siu-hero__ctas-new {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .siu-btn-card {
+    flex: 1;
+    padding: 1rem;
+  }
+  .siu-hero__title-main {
+    font-size: clamp(2.5rem, 12vw, 4rem);
+  }
+  .siu-stat {
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.1) !important;
+    border-right: none !important;
+    flex: 1 1 100%;
+    padding: 1rem 1.5rem;
+  }
+  .siu-stat:last-child {
+    border-bottom: none !important;
+  }
+}
 </style>

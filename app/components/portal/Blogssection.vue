@@ -69,6 +69,9 @@ const blogs = [
         <div class="bl-header__left">
           <span class="bl-eyebrow">— COMUNIDAD ACADÉMICA</span>
           <h2 class="bl-title">Blogs</h2>
+          <p class="bl-desc">
+            Artículos, publicaciones y proyectos especializados de nuestras diferentes escuelas, facultades y áreas académicas.
+          </p>
         </div>
         <a
           href="https://uninter.edu.mx/blogs"
@@ -155,6 +158,14 @@ const blogs = [
   line-height: 1.1;
   margin: 0;
   letter-spacing: -0.01em;
+}
+
+.bl-desc {
+  font-size: 0.95rem;
+  color: #64748b;
+  line-height: 1.6;
+  max-width: 580px;
+  margin: 0.6rem 0 0 0;
 }
 
 .bl-btn-all {

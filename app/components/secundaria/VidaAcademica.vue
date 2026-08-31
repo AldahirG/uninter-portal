@@ -25,8 +25,8 @@ const pilares = [
         <div class="siu-va__left">
           <p class="siu-va__eyebrow">Vida académica</p>
           <h2 class="siu-va__title">
-            En SIU te ofrecemos<br />
-            <em class="siu-va__accent">experiencias únicas</em>
+            Descubre todo lo que puedes vivir en
+            <em class="siu-va__accent">SIU</em>
           </h2>
           <p class="siu-va__text">
             En SIU te ofrecemos comodidades únicas: intercambio internacional y
@@ -42,10 +42,9 @@ const pilares = [
           </p>
           <blockquote class="siu-va__quote">
             <Quote :size="20" class="siu-va__quote-icon" aria-hidden="true" />
-            Alumno en tránsito integral es un proceso, entendiendo y
-            desarrollando sus conocimientos y habilidades propias de su clase y
-            edad, fortaleciendo sus diferencias, cualidades y fortalezas, y
-            contribuyendo con la formación de sus alumnos.
+            En SIU, los estudiantes complementan su formación a través de
+            actividades y experiencias que fortalecen sus habilidades, intereses
+            y valores.
           </blockquote>
           <p class="siu-va__text siu-va__text--muted">
             Nuestra SEP cuenta con el Registro de Validez Oficial de Educación:

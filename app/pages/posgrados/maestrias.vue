@@ -170,6 +170,17 @@ const data = [
             </div>
           </div>
         </div>
+
+        <!-- Caja Flotante en la Esquina -->
+        <div class="pg-hero__float-badge">
+          <div class="pg-float-badge__icon">
+            <Icon name="lucide:graduation-cap" size="24" />
+          </div>
+          <div class="pg-float-badge__text">
+            <span class="pg-float-badge__title">Doble titulación</span>
+            <span class="pg-float-badge__sub">Internacional</span>
+          </div>
+        </div>
       </section>
 
       <!-- BARRA DE ESTADISTICAS -->
@@ -762,6 +773,75 @@ const data = [
 .btn-icon {
   margin-bottom: 0.1rem;
 }
+
+/* Caja Flotante en la Esquina del Banner */
+.pg-hero__float-badge {
+  position: absolute;
+  top: 3.5rem;
+  right: calc((100vw - 1280px) / 2 + 2rem);
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.85rem 1.4rem;
+  background: rgba(26, 28, 9, 0.78);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1.5px solid rgba(244, 235, 130, 0.45);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  animation: float-badge-anim 4s ease-in-out infinite alternate;
+}
+
+@media (max-width: 1340px) {
+  .pg-hero__float-badge {
+    right: 2rem;
+  }
+}
+
+@keyframes float-badge-anim {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-6px);
+  }
+}
+
+.pg-float-badge__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(244, 235, 130, 0.25), rgba(141, 143, 56, 0.35));
+  color: var(--pg-light);
+  border: 1px solid rgba(244, 235, 130, 0.3);
+}
+
+.pg-float-badge__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.pg-float-badge__title {
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.pg-float-badge__sub {
+  color: var(--pg-light);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 2px;
+}
+
 .pg-hero__stats-bar {
   backdrop-filter: blur(16px) saturate(150%);
   background-attachment: fixed;
@@ -837,6 +917,22 @@ const data = [
     height: auto;
     min-height: clamp(500px, 85vh, 800px);
     padding-top: 5rem;
+  }
+  .pg-hero__float-badge {
+    top: 1.25rem;
+    right: 1.25rem;
+    padding: 0.6rem 1rem;
+    gap: 0.6rem;
+  }
+  .pg-float-badge__icon {
+    width: 36px;
+    height: 36px;
+  }
+  .pg-float-badge__title {
+    font-size: 0.85rem;
+  }
+  .pg-float-badge__sub {
+    font-size: 0.7rem;
   }
   .pg-hero__content {
     align-items: center;

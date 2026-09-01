@@ -177,7 +177,7 @@ function scrollTo(id: string) {
                 class="siu-btn-card"
               >
                 <div class="btn-icon">
-                  <Icon name="mdi:form-textbox" size="28" />
+                  <Icon name="mdi:info" size="28" />
                 </div>
                 <span>Mas información</span>
               </a>
@@ -250,24 +250,6 @@ function scrollTo(id: string) {
             amplían el aprendizaje y acercan a los estudiantes a otros contextos
             y culturas.
           </p>
-
-          <div class="siu-porque-sec__pills">
-            <span
-              v-for="tag in [
-                'Clases Bilingües',
-                'Docentes Nativos',
-                'Laboratorio de ciencias',
-                'Talleres artísticos',
-                'Formación en valores',
-              ]"
-              :key="tag"
-              class="siu-pill"
-              style="color: #0f3c61"
-            >
-              <Icon name="mdi:check" size="13" style="color: #0f3c61" />
-              {{ tag }}
-            </span>
-          </div>
         </div>
 
         <div class="siu-porque-sec__card">
@@ -281,23 +263,23 @@ function scrollTo(id: string) {
                 v-for="item in [
                   {
                     icon: 'mdi:comment-multiple-outline',
-                    text: 'Clases 100% en inglés y español',
+                    text: 'Inglés como lengua extranjera',
                   },
                   {
                     icon: 'mdi:certificate-outline',
-                    text: 'Preparación para exámenes internacionales',
+                    text: 'Preparación para certificación PET',
+                  },
+                  {
+                    icon: 'mdi:brain',
+                    text: 'Desarrollo del pensamiento crítico',
+                  },
+                  {
+                    icon: 'mdi:laptop-chromebook',
+                    text: 'Competencias tecnológicas',
                   },
                   {
                     icon: 'mdi:earth',
-                    text: 'Inmersión lingüística y cultural total',
-                  },
-                  {
-                    icon: 'mdi:lightning-bolt-outline',
-                    text: 'Programas de intercambio en el extranjero',
-                  },
-                  {
-                    icon: 'mdi:account-group-outline',
-                    text: 'Formación con tecnología y valores',
+                    text: 'Viajes académicos internacionales',
                   },
                 ]"
                 :key="item.text"
@@ -330,9 +312,9 @@ function scrollTo(id: string) {
             >
           </h2>
           <p class="siu-body">
-            El egresado de la Secundaria Bilingüe SIU cuenta con sólidas bases
-            académicas, habilidades científicas y el dominio fluido del idioma
-            inglés para ingresar con éxito a la preparatoria de su elección.
+            El estudiante cuenta con bases académicas sólidas, competencias en
+            el idioma inglés y habilidades de pensamiento que le permiten
+            continuar con seguridad su formación en preparatoria.
           </p>
         </div>
         <div class="siu-egreso__right">
@@ -352,15 +334,15 @@ function scrollTo(id: string) {
               },
               {
                 icon: 'mdi:laptop',
-                text: 'Utiliza herramientas tecnológicas de forma ética y responsable',
+                text: 'Utilizar herramientas tecnológicas como apoyo para su aprendizaje',
               },
               {
                 icon: 'mdi:account-multiple-outline',
-                text: 'Colabora de forma asertiva en proyectos escolares',
+                text: 'Desenvolverse con responsabilidad y respeto dentro de su comunidad',
               },
               {
-                icon: 'mdi:lightbulb-on-outline',
-                text: 'Desarrolla el pensamiento crítico e innovador',
+                icon: 'mdi:certificate-outline',
+                text: 'Prepararse para acreditar su nivel de inglés mediante PET',
               },
             ]"
             :key="item.text"

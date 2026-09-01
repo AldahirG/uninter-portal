@@ -125,7 +125,7 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
   --s: #ecab00;
   --sd: #c49000;
   --sl: #f5c842;
-  --sbg: #1a1500;
+  --sbg: #0c2336;
   --sa: #fceeb5;
   --s-blue: #00b6ec;
   --s-blue-dark: #0091d7;
@@ -153,24 +153,16 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
   width: 100%;
 }
 .siu-hero__overlay {
-  background: linear-gradient(
-    180deg,
-    rgba(4, 167, 210, 0.2) 0%,
-    rgba(4, 167, 210, 0.08) 50%,
-    rgba(4, 167, 210, 0.25) 100%
-  );
-  inset: 0;
-  position: absolute;
+  display: none;
 }
 .siu-hero__overlay2 {
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
   background: linear-gradient(
     90deg,
-    rgba(4, 167, 210, 0.68) 0%,
-    rgba(4, 167, 210, 0.54) 32%,
-    rgba(4, 167, 210, 0.22) 44%,
-    rgba(4, 167, 210, 0.06) 52%,
+    rgba(10, 22, 32, 0.45) 0%,
+    rgba(10, 22, 32, 0.3) 10%,
+    rgba(236, 171, 0, 0.3) 40%,
     transparent 58%
   );
   inset: 0;
@@ -209,6 +201,7 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
   height: 48px;
   -o-object-fit: contain;
   object-fit: contain;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
 }
 .siu-hero__title {
   display: flex;
@@ -221,7 +214,9 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
   font-size: clamp(3rem, 7vw, 5.5rem);
   font-weight: 900;
   letter-spacing: -0.02em;
-  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
+  text-shadow:
+    0 4px 18px rgba(0, 0, 0, 0.65),
+    0 0 35px rgba(255, 206, 82, 0.35);
 }
 .siu-hero__title-main,
 .siu-hero__title-sub {
@@ -233,15 +228,15 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
   font-weight: 600;
   letter-spacing: 0.05em;
   margin-top: 1rem;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.65);
 }
 .siu-hero__desc {
-  color: rgba(255, 255, 255, 0.95);
+  color: rgba(255, 255, 255, 0.96);
   font-size: clamp(0.9rem, 1.4vw, 1rem);
   line-height: 1.65;
   margin: 0 0 3rem;
   max-width: 520px;
-  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.65);
 }
 .siu-hero__ctas-new {
   display: flex;
@@ -268,8 +263,8 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
 }
 .siu-btn-card:hover {
   background: rgba(5, 173, 220, 0.15);
-  border-color: #05addc;
-  color: #05addc;
+  border-color: #024970;
+  color: #024970;
   transform: translateY(-2px);
 }
 .btn-icon {
@@ -317,7 +312,7 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
 }
 .siu-stat__icon {
   align-items: center;
-  color: #fde4a6;
+  color: #ffff;
   display: flex;
   justify-content: center;
 }

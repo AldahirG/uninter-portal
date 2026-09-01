@@ -156,9 +156,9 @@ function scrollTo(id: string) {
               <span class="siu-hero__title-sub">Multicultural</span>
             </h1>
             <p class="siu-hero__desc">
-              Formación de jóvenes inclusivos mediante intercambios
-              internacionales, aprendizaje de múltiples idiomas y desarrollo
-              sostenible.
+              Un programa que integra pensamiento crítico y experiencias
+              interculturales, con materias académicas en inglés y chino
+              mandarín como segundo idioma.
             </p>
             <div class="siu-hero__ctas-new">
               <a
@@ -177,7 +177,7 @@ function scrollTo(id: string) {
                 class="siu-btn-card"
               >
                 <div class="btn-icon">
-                  <Icon name="mdi:form-textbox" size="28" />
+                  <Icon name="mdi:info" size="28" />
                 </div>
                 <span>Iniciar admisión</span>
               </a>
@@ -190,11 +190,11 @@ function scrollTo(id: string) {
         <div class="siu-wrap siu-hero__stats-inner">
           <div class="siu-stat">
             <div class="siu-stat__icon">
-              <Icon name="mdi:layers" size="28" />
+              <Icon name="mdi:book-open-variant" size="28" />
             </div>
             <div class="siu-stat__text">
-              <span class="siu-stat__value">35+</span>
-              <span class="siu-stat__label">Años de experiencia</span>
+              <span class="siu-stat__value">Aprendizaje</span>
+              <span class="siu-stat__label">Académico en inglés</span>
             </div>
           </div>
           <div class="siu-stat">
@@ -202,26 +202,28 @@ function scrollTo(id: string) {
               <Icon name="mdi:translate" size="28" />
             </div>
             <div class="siu-stat__text">
-              <span class="siu-stat__value">2</span>
-              <span class="siu-stat__label">Idiomas principales</span>
+              <span class="siu-stat__value">2 lenguas</span>
+              <span class="siu-stat__label">Ingles + Chino mandarín</span>
             </div>
           </div>
           <div class="siu-stat">
             <div class="siu-stat__icon">
-              <Icon name="mdi:earth" size="28" />
+              <Icon name="mdi:certificate-outline" size="28" />
             </div>
             <div class="siu-stat__text">
-              <span class="siu-stat__value">25+</span>
-              <span class="siu-stat__label">Países de intercambio</span>
+              <span class="siu-stat__value">PET</span>
+              <span class="siu-stat__label"
+                >Preparación para certificación</span
+              >
             </div>
           </div>
           <div class="siu-stat">
             <div class="siu-stat__icon">
-              <Icon name="mdi:calendar-month-outline" size="28" />
+              <Icon name="mdi:check-circle-outline" size="28" />
             </div>
             <div class="siu-stat__text">
-              <span class="siu-stat__value">6</span>
-              <span class="siu-stat__label">Semestres de formación</span>
+              <span class="siu-stat__value">SEP</span>
+              <span class="siu-stat__label">Acreditación a nivel nacional</span>
             </div>
           </div>
         </div>
@@ -239,35 +241,11 @@ function scrollTo(id: string) {
             >?
           </h2>
           <p class="siu-body">
-            Eje de enseñanza formador de jóvenes inclusivos preparados para
-            vivir la educación del futuro. Desarrolla el carácter del discente,
-            propicia culturas, actitudes, competencias y desarrollo sostenible,
-            entendiendo y aceptando sus diferencias, culturas, razas y
-            realidades.
+            Lleva el aprendizaje de idiomas un paso más allá: los estudiantes
+            cursan materias académicas en inglés, incorporan chino mandarín como
+            segunda lengua extranjera y desarrollan habilidades de pensamiento
+            que fortalecen su preparación académica.
           </p>
-          <p class="siu-body">
-            Este programa fomenta el aprecio internacional e introduce de manera
-            formal el aprendizaje de múltiples lenguas, empoderando a los
-            jóvenes para ser ciudadanos activos del mundo.
-          </p>
-
-          <div class="siu-porque-sec__pills">
-            <span
-              v-for="tag in [
-                'Multilingüismo',
-                'Intercambio cultural',
-                'Desarrollo sostenible',
-                'Inclusión escolar',
-                'Proyectos artísticos',
-              ]"
-              :key="tag"
-              class="siu-pill"
-              style="color: #0f3c61"
-            >
-              <Icon name="mdi:check" size="13" style="color: #0f3c61" />
-              {{ tag }}
-            </span>
-          </div>
         </div>
 
         <div class="siu-porque-sec__card">
@@ -287,23 +265,23 @@ function scrollTo(id: string) {
                 v-for="item in [
                   {
                     icon: 'mdi:translate',
-                    text: 'Enseñanza multilingüe (inglés/francés)',
+                    text: 'Materias académicas impartidas en inglés',
                   },
                   {
                     icon: 'mdi:earth',
-                    text: 'Intercambio cultural internacional',
+                    text: 'Inglés y chino mandarín',
                   },
                   {
-                    icon: 'mdi:leaf',
-                    text: 'Proyectos de sustentabilidad ecológica',
+                    icon: 'mdi:certificate-outline',
+                    text: 'Preparación para certificación PET',
                   },
                   {
-                    icon: 'mdi:palette',
-                    text: 'Actividades artísticas e integradoras',
+                    icon: 'mdi:brain',
+                    text: 'Pensamiento crítico y habilidades cognitivas',
                   },
                   {
-                    icon: 'mdi:account-heart',
-                    text: 'Mentalidad abierta e inclusiva',
+                    icon: 'mdi:account-group-outline',
+                    text: 'Experiencias interculturales',
                   },
                 ]"
                 :key="item.text"
@@ -339,10 +317,10 @@ function scrollTo(id: string) {
             PERFIL<br /><em style="color: #ffc71c">DE EGRESO</em>
           </h2>
           <p class="siu-body">
-            El egresado de la Secundaria Multicultural SIU se destaca por su
-            aprecio de la diversidad cultural, su formación multilingüe y sus
-            competencias en desarrollo sostenible, preparándolo para ser un
-            agente de cambio.
+            El egresado de la Secundaria Multicultural SIU cuenta con bases
+            académicas sólidas, habilidades de pensamiento y una formación
+            intercultural que le permite continuar su preparación con mayor
+            apertura, autonomía y capacidad de adaptación.
           </p>
         </div>
         <div class="siu-egreso__right">
@@ -350,27 +328,27 @@ function scrollTo(id: string) {
             v-for="item in [
               {
                 icon: 'mdi:comment-text-outline',
-                text: 'Se expresa en múltiples idiomas e interactúa interculturalmente',
+                text: 'Comunicarse en inglés y desarrollar conocimientos de chino mandarín',
               },
               {
-                icon: 'mdi:leaf-outline',
-                text: 'Lidera e implementa proyectos de desarrollo sustentable',
+                icon: 'mdi:brain',
+                text: 'Analizar información y resolver situaciones con pensamiento crítico',
               },
               {
-                icon: 'mdi:earth',
-                text: 'Entiende y acepta las diferencias culturales y de realidades',
+                icon: 'mdi:account-group-outline',
+                text: 'Relacionarse con respeto en contextos culturales diversos',
               },
               {
                 icon: 'mdi:laptop',
-                text: 'Usa herramientas de tecnología educativa avanzadas',
+                text: 'Utilizar herramientas tecnológicas como apoyo para su aprendizaje',
               },
               {
                 icon: 'mdi:hand-heart',
-                text: 'Actúa con inclusión, tolerancia y valores éticos',
+                text: 'Actuar con responsabilidad social y conciencia ambiental',
               },
               {
                 icon: 'mdi:school',
-                text: 'Listo para ingresar al bachillerato con visión internacional',
+                text: 'Continuar su formación en bachillerato con bases académicas sólidas',
               },
             ]"
             :key="item.text"
@@ -436,8 +414,8 @@ function scrollTo(id: string) {
       </div>
     </section>
 
-    <!-- INTERNACIONALIZACIÓN -->
-    <Internacionalizacion />
+    <!-- INTERNACIONALIZACIÓN 
+    <Internacionalizacion /> -->
 
     <!-- FORMULARIO DE REGISTRO -->
     <section id="admision" class="siu-register-sec">

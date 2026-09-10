@@ -115,11 +115,17 @@ const data = [
     <div class="pg-hero-wrapper">
       <section class="pg-hero">
         <div class="pg-hero__bg">
-          <img
-            src="/images/posgrados/hero/banerPosgrados.png"
-            alt="Especialidades UNINTER"
-            class="pg-hero__img"
-          />
+          <picture class="pg-hero__picture biu-hero__picture dp-hero__picture">
+            <source
+              media="(max-width: 768px)"
+              srcset="/images/posgrados/heroMobile/18.png"
+            />
+            <img
+              src="/images/posgrados/hero/banerMaestrias.png"
+              alt="Maestrías UNINTER"
+              class="pg-hero__img dp-hero__img"
+            />
+          </picture>
           <div class="pg-hero__overlay"></div>
         </div>
 
@@ -136,11 +142,11 @@ const data = [
         <div class="pg-container pg-hero__content">
           <div class="pg-hero__inner">
             <div class="pg-hero__eyebrow">
-              <img
+              <!-- <img
                 src="/images/hero/logo-blanco.svg"
                 alt="Universidad Internacional"
                 class="pg-hero__logo-full"
-              />
+              /> -->
             </div>
 
             <h1 class="pg-hero__title">
@@ -653,6 +659,12 @@ const data = [
   inset: 0;
   position: absolute;
 }
+.pg-hero__picture,
+.dp-hero__picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 .pg-hero__img {
   animation: kb-7ee60c61 14s ease-out forwards;
   height: 100%;
@@ -815,7 +827,11 @@ const data = [
   width: 44px;
   height: 44px;
   border-radius: 12px;
-  background: linear-gradient(135deg, rgba(244, 235, 130, 0.25), rgba(141, 143, 56, 0.35));
+  background: linear-gradient(
+    135deg,
+    rgba(244, 235, 130, 0.25),
+    rgba(141, 143, 56, 0.35)
+  );
   color: var(--pg-light);
   border: 1px solid rgba(244, 235, 130, 0.3);
 }
@@ -913,10 +929,34 @@ const data = [
 
 @media (max-width: 768px) {
   .pg-hero {
-    flex-direction: column;
     height: auto;
-    min-height: clamp(500px, 85vh, 800px);
-    padding-top: 5rem;
+    min-height: clamp(620px, 88vh, 760px);
+    padding: 5rem 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .pg-hero__img {
+    object-position: center center;
+    animation: none;
+  }
+  .pg-hero__overlay {
+    background: linear-gradient(
+      0deg,
+      rgba(26, 28, 9, 0.94) 0%,
+      rgba(26, 28, 9, 0.8) 32%,
+      rgba(26, 28, 9, 0.4) 52%,
+      rgba(26, 28, 9, 0.08) 70%,
+      transparent 85%
+    );
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+  .pg-hero__deco {
+    display: none;
   }
   .pg-hero__float-badge {
     top: 1.25rem;
@@ -935,10 +975,60 @@ const data = [
     font-size: 0.7rem;
   }
   .pg-hero__content {
-    align-items: center;
+    padding-bottom: 0.5rem;
     display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .pg-hero__inner {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 520px;
+  }
+  .pg-hero__eyebrow {
+    justify-content: center;
+    margin-bottom: 0.75rem;
+  }
+  .pg-hero__logo-full {
+    height: 40px;
+  }
+  .pg-hero__title {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0.75rem;
+  }
+  .pg-hero__title-main {
+    font-size: clamp(2.3rem, 10vw, 3.4rem);
+    text-align: center;
+  }
+  .pg-hero__title-sub {
+    font-size: clamp(1rem, 3.8vw, 1.3rem);
+    text-align: center;
+    margin-top: 0.35rem;
+  }
+  .pg-hero__desc {
+    text-align: center;
+    margin: 0 auto 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    max-width: 440px;
+  }
+  .pg-hero__ctas-new {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 0.85rem;
+  }
+  .pg-btn-card {
     flex: 1;
-    padding-bottom: 3rem;
+    min-width: 135px;
+    padding: 0.9rem 0.75rem;
+    font-size: 0.88rem;
+    gap: 0.45rem;
   }
   .pg-hero__stats-bar {
     position: relative;
@@ -970,17 +1060,6 @@ const data = [
   }
 }
 @media (max-width: 480px) {
-  .pg-hero__ctas-new {
-    flex-direction: row;
-    gap: 1rem;
-  }
-  .pg-btn-card {
-    flex: 1;
-    padding: 1rem;
-  }
-  .pg-hero__title-main {
-    font-size: clamp(2.5rem, 12vw, 4rem);
-  }
   .pg-stat {
     border-bottom: 1px solid hsla(0, 0%, 100%, 0.1) !important;
     border-right: none !important;
@@ -989,6 +1068,18 @@ const data = [
   }
   .pg-stat:last-child {
     border-bottom: none !important;
+  }
+}
+@media (max-width: 380px) {
+  .pg-hero__ctas-new {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .pg-btn-card {
+    width: 100%;
+    flex-direction: row;
+    padding: 0.75rem 1rem;
+    gap: 0.6rem;
   }
 }
 </style>

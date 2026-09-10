@@ -9,10 +9,14 @@ import {
 } from "lucide-vue-next";
 
 const stats = [
-  { value: "23", label: "Licenciaturas", icon: "GraduationCap" },
-  { value: "40+", label: "Años de excelencia", icon: "Award" },
-  { value: "71,000+", label: "Egresados", icon: "Users" },
-  { value: "130+", label: "Universidades aliadas", icon: "Globe" },
+  { value: "29", label: "Licenciaturas e ingenierias", icon: "GraduationCap" },
+  { value: "45+", label: "Años de excelencia", icon: "Award" },
+  { value: "1,000+", label: "Vinculos empresariales", icon: "Users" },
+  {
+    value: "130+",
+    label: "Universidades de intercambio",
+    icon: "Globe",
+  },
 ];
 </script>
 
@@ -41,8 +45,8 @@ const stats = [
             </div>
 
             <h1 class="banner-title">
-              Inicia tu proceso<br />
-              <span class="banner-title__accent">de admisión</span>
+              LICENCIATURAS É<br />
+              <span class="banner-title__accent">INGENIERIAS</span>
             </h1>
 
             <p class="banner-subtitle">

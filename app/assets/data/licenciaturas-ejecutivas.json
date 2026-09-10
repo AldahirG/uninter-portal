@@ -1,0 +1,133 @@
+[
+  {
+    "area": "Negocios y Administración",
+    "color": "#694E39",
+    "icon": "mdi:briefcase-outline",
+    "carreras": [
+      {
+        "sigla": "LAE",
+        "nombre": "Administración de Empresas",
+        "slug": "administracion-de-empresas-ejecutiva",
+        "duracion": "3 años (9 cuatrimestres)",
+        "modalidad": "Ejecutiva / Semipresencial",
+        "rvoe": "RVOE SEP 20211119",
+        "trophy": true,
+        "brochure": "https://uninter.edu.mx/folletos/lae/",
+        "descripcion": "Forma profesionistas capaces de planear, organizar, dirigir y controlar recursos estratégicos para maximizar la rentabilidad y competitividad de organizaciones en entornos dinámicos.",
+        "perfilIngreso": "Profesionales activos y egresados de bachillerato con interés en liderar proyectos empresariales, optimizar recursos y dirigir equipos de trabajo.",
+        "campoLaboral": "Dirección general, consultoría de negocios, gerencia operativa, gestión de talento humano, desarrollo de nuevos modelos de negocio."
+      },
+      {
+        "sigla": "LANI",
+        "nombre": "Administración de Negocios Internacionales",
+        "slug": "administracion-de-negocios-internacionales-ejecutiva",
+        "duracion": "3 años (9 cuatrimestres)",
+        "modalidad": "Ejecutiva / Semipresencial",
+        "rvoe": "RVOE SEP 20211120",
+        "trophy": true,
+        "brochure": "https://uninter.edu.mx/folletos/lani/",
+        "descripcion": "Desarrolla competencias para diseñar estrategias de internacionalización, negociaciones globales, logística internacional y expansión de mercados comerciales.",
+        "perfilIngreso": "Interés en el comercio global, tratados internacionales, idiomas, logística y apertura de nuevos mercados para empresas multinacionales.",
+        "campoLaboral": "Empresas importadoras y exportadoras, agencias aduanales, corporativos transnacionales, consultoría de comercio exterior."
+      },
+      {
+        "sigla": "LAM",
+        "nombre": "Administración y Mercadotecnia",
+        "slug": "administracion-y-mercadotecnia-ejecutiva",
+        "duracion": "3 años (9 cuatrimestres)",
+        "modalidad": "Ejecutiva / Semipresencial",
+        "rvoe": "RVOE SEP 20211121",
+        "trophy": true,
+        "brochure": "https://uninter.edu.mx/folletos/lam/",
+        "descripcion": "Integra la visión de negocio con el análisis de mercados, branding y estrategias comerciales para impulsar el posicionamiento y crecimiento de marcas.",
+        "perfilIngreso": "Profesionales con perfil creativo y analítico, orientados a la gestión comercial, ventas, publicidad y comportamiento del consumidor.",
+        "campoLaboral": "Dirección de marketing, gerencia de marca, agencias publicitarias, desarrollo de producto, investigación de mercados."
+      },
+      {
+        "sigla": "LCE",
+        "nombre": "Comercio Exterior",
+        "slug": "comercio-exterior-ejecutiva",
+        "duracion": "3 años (9 cuatrimestres)",
+        "modalidad": "Ejecutiva / Semipresencial",
+        "rvoe": "RVOE SEP 20211122",
+        "trophy": false,
+        "brochure": "https://uninter.edu.mx/folletos/lce/",
+        "descripcion": "Especialización en operaciones aduanales, tratados comerciales internacionales, aranceles, normatividad y logística de cadenas de suministro globales.",
+        "perfilIngreso": "Personas interesadas en regulaciones internacionales, trámites aduanales, transporte multimodal y logística de comercio internacional.",
+        "campoLaboral": "Aduanas, puertos secos y marítimos, empresas de logística global, agencias de despacho aduanal, secretarías de economía."
+      },
+      {
+        "sigla": "LEGE",
+        "nombre": "Gestión Empresarial",
+        "slug": "gestion-empresarial-ejecutiva",
+        "duracion": "3 años (9 cuatrimestres)",
+        "modalidad": "Ejecutiva / Semipresencial",
+        "rvoe": "RVOE SEP 20211123",
+        "trophy": true,
+        "brochure": "https://uninter.edu.mx/folletos/lae/",
+        "descripcion": "Enfoque en la optimización de procesos operativos, innovación, liderazgo de equipos y formulación de proyectos estratégicos de alta rentabilidad.",
+        "perfilIngreso": "Personas que buscan transformar y escalar negocios mediante herramientas modernas de gestión, calidad y toma de decisiones.",
+        "campoLaboral": "Gerencia de proyectos, planeación estratégica, reingeniería de procesos, consultoría corporativa, emprendimiento propio."
+      },
+      {
+        "sigla": "LME",
+        "nombre": "Mercadotecnia",
+        "slug": "mercadotecnia-ejecutiva",
+        "duracion": "3 años (9 cuatrimestres)",
+        "modalidad": "Ejecutiva / Semipresencial",
+        "rvoe": "RVOE SEP 20211124",
+        "trophy": true,
+        "brochure": "https://uninter.edu.mx/folletos/lme/",
+        "descripcion": "Dominio de estrategias digitales, análisis de datos de mercado, segmentación, comunicación persuasiva y fidelización de clientes.",
+        "perfilIngreso": "Gusto por la innovación comercial, redes sociales, tendencias digitales, creatividad y análisis estratégico de audiencias.",
+        "campoLaboral": "Agencias de marketing digital, gerencia de ventas, consultoría de marca, dirección de e-commerce y publicidad."
+      },
+      {
+        "sigla": "LEMP",
+        "nombre": "Mercadotecnia y Publicidad",
+        "slug": "mercadotecnia-y-publicidad-ejecutiva",
+        "duracion": "3 años (9 cuatrimestres)",
+        "modalidad": "Ejecutiva / Semipresencial",
+        "rvoe": "RVOE SEP 20211125",
+        "trophy": true,
+        "brochure": "https://uninter.edu.mx/folletos/lemp/",
+        "descripcion": "Combina la planificación comercial y el diseño de campañas publicitarias de alto impacto en medios tradicionales y digitales.",
+        "perfilIngreso": "Creatividad aplicada, interés por los medios de comunicación masivos, diseño de mensajes persuasivos y estrategias promocionales.",
+        "campoLaboral": "Dirección creativa, agencias de publicidad, medios de comunicación, centrales de medios, branding corporativo."
+      }
+    ]
+  },
+  {
+    "area": "Ciencias Sociales, Jurídicas y Humanidades",
+    "color": "#876D56",
+    "icon": "mdi:scale-balance",
+    "carreras": [
+      {
+        "sigla": "LED",
+        "nombre": "Derecho",
+        "slug": "derecho-ejecutiva",
+        "duracion": "3 años (9 cuatrimestres)",
+        "modalidad": "Ejecutiva / Semipresencial",
+        "rvoe": "RVOE SEP 20211126",
+        "trophy": true,
+        "brochure": "https://uninter.edu.mx/folletos/led/",
+        "descripcion": "Formación jurídica integral con enfoque en litigio civil, penal, corporativo, laboral y métodos alternativos de solución de controversias.",
+        "perfilIngreso": "Interés en la justicia, argumentación verbal y escrita, análisis normativo, defensa de derechos y resolución de conflictos legales.",
+        "campoLaboral": "Despachos jurídicos, departamentos legales corporativos, función pública, notaría, docencia e investigación jurídica."
+      },
+      {
+        "sigla": "LPO",
+        "nombre": "Psicología Organizacional",
+        "slug": "psicologia-organizacional-ejecutiva",
+        "duracion": "3 años (9 cuatrimestres)",
+        "modalidad": "Ejecutiva / Semipresencial",
+        "rvoe": "RVOE SEP 20211127",
+        "trophy": false,
+        "brochure": "https://uninter.edu.mx/folletos/lps/",
+        "descripcion": "Especialización en comportamiento humano en entornos laborales, cultura organizacional, selección de talento, clima laboral y desarrollo de personal.",
+        "perfilIngreso": "Vocación por el desarrollo humano, liderazgo de equipos, comunicación asertiva y gestión del talento en organizaciones.",
+        "campoLaboral": "Dirección de recursos humanos, consultoría de talento, capacitación y desarrollo, evaluación de desempeño y clima laboral."
+      }
+    ]
+  }
+]

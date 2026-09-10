@@ -19,23 +19,26 @@ const stats = [
   <div class="dp-page-wrapper">
     <section class="dp-hero">
       <div class="dp-hero__bg">
-        <img
-          src="/images/diplomados/hero/banerDiplomados.png"
-          alt="Diplomados UNINTER"
-          class="dp-hero__img"
-        />
+        <picture class="dp-hero__picture">
+          <source media="(max-width: 768px)" srcset="/images/test/test.png" />
+          <img
+            src="/images/diplomados/hero/banerDiplomados.png"
+            alt="Diplomados UNINTER"
+            class="dp-hero__img"
+          />
+        </picture>
         <div class="dp-hero__overlay"></div>
       </div>
 
       <div class="dp-container dp-hero__content">
         <div class="dp-hero__inner">
-          <div class="dp-hero__eyebrow">
+          <!-- <div class="dp-hero__eyebrow">
             <img
               src="/images/hero/logo-blanco.svg"
               alt="UNINTER"
               class="dp-hero__logo"
             />
-          </div>
+          </div> -->
 
           <h1 class="dp-hero__title">
             <span class="dp-hero__title-main">DIPLOMADOS</span>
@@ -118,6 +121,11 @@ const stats = [
   position: absolute;
   inset: 0;
 }
+.dp-hero__picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 .dp-hero__img {
   width: 100%;
   height: 100%;
@@ -183,7 +191,7 @@ const stats = [
   margin-bottom: 1.5rem;
 }
 .dp-hero__logo {
-  height: 36px;
+  height: 48px;
   object-fit: contain;
 }
 .dp-hero__eyebrow span {
@@ -360,17 +368,109 @@ const stats = [
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .dp-hero {
     height: auto;
-    padding: 6rem 0 4rem;
+    min-height: clamp(620px, 88vh, 760px);
+    padding: 5rem 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .dp-hero__img {
+    object-position: center center;
+    animation: none;
+  }
+  .dp-hero__overlay {
+    background: linear-gradient(
+      0deg,
+      rgba(25, 9, 2, 0.94) 0%,
+      rgba(25, 9, 2, 0.8) 32%,
+      rgba(25, 9, 2, 0.4) 52%,
+      rgba(25, 9, 2, 0.08) 70%,
+      transparent 85%
+    );
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+  .dp-hero__content {
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  .dp-hero__inner {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 520px;
+  }
+  .dp-hero__eyebrow {
+    justify-content: center;
+    margin-bottom: 0.75rem;
+  }
+  .dp-hero__logo {
+    height: 40px;
+  }
+  .dp-hero__title {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0.75rem;
   }
   .dp-hero__title-main {
-    font-size: 3rem;
+    font-size: clamp(2.3rem, 10vw, 3.4rem);
+    text-align: center;
   }
+  .dp-hero__title-sub {
+    font-size: clamp(0.95rem, 3.6vw, 1.25rem);
+    text-align: center;
+    margin-top: 0.35rem;
+  }
+  .dp-hero__desc {
+    text-align: center;
+    margin: 0 auto 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    max-width: 440px;
+  }
+  .dp-hero__ctas {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 0.85rem;
+  }
+  .dp-btn-card {
+    flex: 1;
+    min-width: 135px;
+    padding: 0.9rem 0.75rem;
+    font-size: 0.88rem;
+    gap: 0.45rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .dp-hero__ctas {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .dp-btn-card {
+    width: 100%;
+    flex-direction: row;
+    padding: 0.75rem 1rem;
+    gap: 0.6rem;
+  }
+}
+
+@media (max-width: 576px) {
   .dp-stat {
     flex: 1 1 100%;
     border-right: none !important;
+    padding-left: 1.5rem;
   }
 }
 </style>

@@ -6,12 +6,17 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
   <div class="pa-hero-wrapper">
     <section class="pa-hero">
       <div class="pa-hero__bg">
-        <!-- Using a placeholder or generic image as requested -->
-        <img
-          src="/images/hero/blur/1.jpg"
-          alt="Estudiantes Prepa Abierta"
-          class="pa-hero__img"
-        />
+        <picture class="pa-hero__picture biu-hero__picture dp-hero__picture">
+          <source
+            media="(max-width: 768px)"
+            srcset="/images/prep-A/heroMobile/23.png"
+          />
+          <img
+            src="/images/prep-A/hero/PREPa.png"
+            alt="Prepa Abierta UNINTER"
+            class="pa-hero__img dp-hero__img"
+          />
+        </picture>
         <div class="pa-hero__overlay"></div>
         <div class="pa-hero__overlay2"></div>
       </div>
@@ -31,11 +36,11 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
       <div class="pa-wrap pa-hero__content">
         <div class="pa-hero__inner">
           <div class="pa-hero__eyebrow">
-            <img
+            <!-- <img
               src="/images/hero/logo-blanco.svg"
               alt="UNINTER"
               class="pa-hero__logo-full"
-            />
+            /> -->
           </div>
           <h1 class="pa-hero__title">
             <span class="pa-hero__title-main">Prepa Abierta</span>
@@ -122,9 +127,14 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
     <!-- Leyenda Oficial SEP -->
     <div class="pa-hero__disclaimer-strip">
       <div class="pa-wrap pa-hero__disclaimer-inner">
-        <Icon name="mdi:shield-check-outline" size="18" class="pa-disclaimer-icon" />
+        <Icon
+          name="mdi:shield-check-outline"
+          size="18"
+          class="pa-disclaimer-icon"
+        />
         <p class="pa-disclaimer-text">
-          La Inscripción, Acreditación y Certificación son responsabilidad exclusiva de la <strong>Secretaría de Educación Pública</strong>.
+          La Inscripción, Acreditación y Certificación son responsabilidad
+          exclusiva de la <strong>Secretaría de Educación Pública</strong>.
         </p>
       </div>
     </div>
@@ -139,7 +149,7 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
 }
 
 .pa-hero-wrapper {
-  --primary-aqua: #51CAB9;
+  --primary-aqua: #51cab9;
   --dark-teal: #358880;
   --bg-dark: #0a1a18;
   background-color: var(--bg-dark);
@@ -159,6 +169,13 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
   position: absolute;
 }
 
+.pa-hero__picture,
+.dp-hero__picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .pa-hero__img {
   animation: kb-zoom 14s ease-out forwards;
   height: 100%;
@@ -168,13 +185,22 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
 }
 
 @keyframes kb-zoom {
-  0% { transform: scale(1); }
-  100% { transform: scale(1.05); }
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
 }
 
 /* Doble Capa: Blur + Gradiente aqua */
 .pa-hero__overlay {
-  background: linear-gradient(180deg, rgba(10, 26, 24, 0.4), rgba(10, 26, 24, 0.1) 50%, rgba(10, 26, 24, 0.1));
+  background: linear-gradient(
+    180deg,
+    rgba(10, 26, 24, 0.4),
+    rgba(10, 26, 24, 0.1) 50%,
+    rgba(10, 26, 24, 0.1)
+  );
   inset: 0;
   position: absolute;
 }
@@ -224,7 +250,7 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
 }
 
 .pa-hero__title-main {
-  color: #51CAB9;
+  color: #51cab9;
   font-family: var(--font-serif, Georgia, serif);
   font-size: clamp(3rem, 7vw, 5.5rem);
   font-weight: 900;
@@ -281,8 +307,8 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
 
 .pa-btn-card:hover {
   background: rgba(81, 202, 185, 0.25);
-  border-color: #51CAB9;
-  color: #51CAB9;
+  border-color: #51cab9;
+  color: #51cab9;
   transform: translateY(-3px);
   box-shadow: 0 8px 25px rgba(81, 202, 185, 0.35);
 }
@@ -296,19 +322,36 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
 /* ── Elementos Flotantes ── */
 .pa-hero__deco {
   position: absolute;
-  color: #51CAB9;
+  color: #51cab9;
   opacity: 0.6;
   animation: float 6s ease-in-out infinite;
   z-index: 2;
   filter: drop-shadow(0 0 10px rgba(81, 202, 185, 0.35));
 }
-.pa-hero__deco--tl { top: 15%; left: 45%; animation-delay: 0s; }
-.pa-hero__deco--tr { top: 25%; right: 15%; animation-delay: 2s; }
-.pa-hero__deco--br { bottom: 30%; right: 25%; animation-delay: 4s; }
+.pa-hero__deco--tl {
+  top: 15%;
+  left: 45%;
+  animation-delay: 0s;
+}
+.pa-hero__deco--tr {
+  top: 25%;
+  right: 15%;
+  animation-delay: 2s;
+}
+.pa-hero__deco--br {
+  bottom: 30%;
+  right: 25%;
+  animation-delay: 4s;
+}
 
 @keyframes float {
-  0%, 100% { transform: translateY(0) rotate(0deg); }
-  50% { transform: translateY(-15px) rotate(5deg); }
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(5deg);
+  }
 }
 
 /* ── Barra de Estadísticas (Liquid Glass Bar) ── */
@@ -319,14 +362,14 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
   background-color: rgba(10, 26, 24, 0.85); /* Fondo Base Oscuro */
   background-image: radial-gradient(
     circle at 50% 50%,
-    rgba(81, 202, 185, 0.18) 0, /* Destello Radial Central */
-    transparent 65%
+    rgba(81, 202, 185, 0.18) 0,
+    /* Destello Radial Central */ transparent 65%
   );
   background-position: 50%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   border-top: 2px solid rgba(81, 202, 185, 0.35);
-  box-shadow: 
-    0 -10px 30px rgba(53, 136, 128, 0.2), 
+  box-shadow:
+    0 -10px 30px rgba(53, 136, 128, 0.2),
     inset 0 20px 40px rgba(81, 202, 185, 0.05);
   padding: 1.75rem 0;
   position: relative;
@@ -357,7 +400,7 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
 
 .pa-stat__icon {
   align-items: center;
-  color: #51CAB9;
+  color: #51cab9;
   display: flex;
   justify-content: center;
 }
@@ -400,7 +443,7 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
 }
 
 .pa-disclaimer-icon {
-  color: #51CAB9;
+  color: #51cab9;
   flex-shrink: 0;
 }
 
@@ -413,23 +456,147 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
 }
 
 .pa-disclaimer-text strong {
-  color: #51CAB9;
+  color: #51cab9;
   font-weight: 700;
 }
 
 @media (max-width: 992px) {
-  .pa-hero__stats-inner { flex-wrap: wrap; gap: 1.5rem 0; }
-  .pa-stat { flex: 1 1 50%; border-right: none; border-bottom: 1px solid rgba(81, 202, 185, 0.2); padding-bottom: 1.5rem; }
-  .pa-stat:nth-child(odd) { border-right: 1px solid rgba(81, 202, 185, 0.2); }
-  .pa-stat:nth-last-child(-n+2) { border-bottom: none; padding-bottom: 0; }
+  .pa-hero__stats-inner {
+    flex-wrap: wrap;
+    gap: 1.5rem 0;
+  }
+  .pa-stat {
+    flex: 1 1 50%;
+    border-right: none;
+    border-bottom: 1px solid rgba(81, 202, 185, 0.2);
+    padding-bottom: 1.5rem;
+  }
+  .pa-stat:nth-child(odd) {
+    border-right: 1px solid rgba(81, 202, 185, 0.2);
+  }
+  .pa-stat:nth-last-child(-n + 2) {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
 }
 
-@media (max-width: 640px) {
-  .pa-hero__title-main { font-size: 2.8rem; }
-  .pa-hero__title-sub { font-size: 1.15rem; }
-  .pa-hero__disclaimer-inner { flex-direction: column; gap: 0.35rem; }
-  .pa-stat { flex: 1 1 100%; border-right: none !important; border-bottom: 1px solid rgba(81, 202, 185, 0.2) !important; padding-bottom: 1.25rem !important; }
-  .pa-stat:last-child { border-bottom: none !important; padding-bottom: 0 !important; }
-  .pa-hero__deco { display: none; }
+@media (max-width: 768px) {
+  .pa-hero {
+    height: auto;
+    min-height: clamp(620px, 88vh, 760px);
+    padding: 5rem 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .pa-hero__img {
+    object-position: center center;
+    animation: none;
+  }
+  .pa-hero__overlay2 {
+    background: linear-gradient(
+      0deg,
+      rgba(10, 26, 24, 0.94) 0%,
+      rgba(10, 26, 24, 0.8) 32%,
+      rgba(10, 26, 24, 0.4) 52%,
+      rgba(10, 26, 24, 0.08) 70%,
+      transparent 85%
+    );
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+  .pa-hero__deco {
+    display: none;
+  }
+  .pa-hero__content {
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .pa-hero__inner {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 520px;
+  }
+  .pa-hero__eyebrow {
+    justify-content: center;
+    margin-bottom: 0.75rem;
+  }
+  .pa-hero__logo-full {
+    height: 40px;
+  }
+  .pa-hero__title {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0.75rem;
+  }
+  .pa-hero__title-main {
+    font-size: clamp(2.3rem, 10vw, 3.4rem);
+    text-align: center;
+  }
+  .pa-hero__title-sub {
+    font-size: clamp(1rem, 3.8vw, 1.3rem);
+    text-align: center;
+    margin-top: 0.35rem;
+  }
+  .pa-hero__desc {
+    text-align: center;
+    margin: 0 auto 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    max-width: 440px;
+  }
+  .pa-hero__ctas {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 0.85rem;
+  }
+  .pa-btn-card {
+    flex: 1;
+    min-width: 135px;
+    padding: 0.9rem 0.75rem;
+    font-size: 0.88rem;
+    gap: 0.45rem;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .pa-stat {
+    border-bottom: 1px solid rgba(81, 202, 185, 0.2) !important;
+    border-right: none !important;
+    flex: 1 1 100%;
+    padding: 1rem 1.5rem;
+  }
+  .pa-stat:last-child {
+    border-bottom: none !important;
+  }
+  .pa-hero__disclaimer-inner {
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .pa-hero__ctas {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .pa-btn-card {
+    width: 100%;
+    flex-direction: row;
+    padding: 0.75rem 1rem;
+    gap: 0.6rem;
+  }
 }
 </style>

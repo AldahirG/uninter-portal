@@ -124,11 +124,17 @@ function scrollTo(id: string) {
     <div class="biu-hero-wrapper">
       <section class="biu-hero">
         <div class="biu-hero__bg">
-          <img
-            src="/images/bachillerato/hero/4.jpg"
-            alt="BIU Multicultural UNINTER"
-            class="biu-hero__img"
-          />
+          <picture class="biu-hero__picture dp-hero__picture">
+            <source
+              media="(max-width: 768px)"
+              srcset="/images/bachillerato/heroMobile/1.jpg"
+            />
+            <img
+              src="/images/bachillerato/hero/4.jpg"
+              alt="BIU Multicultural UNINTER"
+              class="biu-hero__img dp-hero__img"
+            />
+          </picture>
           <div class="biu-hero__overlay"></div>
           <div class="biu-hero__overlay2"></div>
         </div>
@@ -146,12 +152,12 @@ function scrollTo(id: string) {
         <div class="biu-wrap biu-hero__content">
           <div class="biu-hero__inner">
             <div class="biu-hero__eyebrow">
-              <img
+              <!-- <img
                 src="/images/hero/logo-blanco.svg"
                 alt="Bachillerato Internacional UNINTER"
                 class="biu-hero__logo-full"
                 onerror="this.style.display = 'none'"
-              />
+              /> -->
             </div>
             <h1 class="biu-hero__title">
               <span class="biu-hero__title-main">BACHILLERATO</span>
@@ -758,6 +764,12 @@ function scrollTo(id: string) {
   inset: 0;
   position: absolute;
 }
+.biu-hero__picture,
+.dp-hero__picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 .biu-hero__img {
   animation: kb-ee6eb843 14s ease-out forwards;
   height: 100%;
@@ -963,16 +975,90 @@ function scrollTo(id: string) {
 }
 @media (max-width: 768px) {
   .biu-hero {
-    flex-direction: column;
     height: auto;
-    min-height: clamp(500px, 85vh, 800px);
-    padding-top: 5rem;
+    min-height: clamp(620px, 88vh, 760px);
+    padding: 5rem 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .biu-hero__img {
+    object-position: center center;
+    animation: none;
+  }
+  .biu-hero__overlay2 {
+    background: linear-gradient(
+      0deg,
+      rgba(12, 32, 16, 0.94) 0%,
+      rgba(12, 32, 16, 0.8) 32%,
+      rgba(12, 32, 16, 0.4) 52%,
+      rgba(12, 32, 16, 0.08) 70%,
+      transparent 85%
+    );
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+  .biu-hero__deco {
+    display: none;
   }
   .biu-hero__content {
-    align-items: center;
+    padding-bottom: 0.5rem;
     display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .biu-hero__inner {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 520px;
+  }
+  .biu-hero__eyebrow {
+    justify-content: center;
+    margin-bottom: 0.75rem;
+  }
+  .biu-hero__logo-full {
+    height: 40px;
+  }
+  .biu-hero__title {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0.75rem;
+  }
+  .biu-hero__title-main {
+    font-size: clamp(2.3rem, 10vw, 3.4rem);
+    text-align: center;
+  }
+  .biu-hero__title-sub {
+    font-size: clamp(1rem, 3.8vw, 1.3rem);
+    text-align: center;
+    margin-top: 0.35rem;
+  }
+  .biu-hero__desc {
+    text-align: center;
+    margin: 0 auto 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    max-width: 440px;
+  }
+  .biu-hero__ctas-new {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 0.85rem;
+  }
+  .biu-btn-card {
     flex: 1;
-    padding-bottom: 3rem;
+    min-width: 135px;
+    padding: 0.9rem 0.75rem;
+    font-size: 0.88rem;
+    gap: 0.45rem;
   }
   .biu-hero__stats-bar {
     position: relative;
@@ -994,27 +1080,30 @@ function scrollTo(id: string) {
   .biu-stat:nth-last-child(-n + 2) {
     border-bottom: none;
   }
-  @media (max-width: 480px) {
-    .biu-hero__ctas-new {
-      flex-direction: row;
-      gap: 1rem;
-    }
-    .biu-btn-card {
-      flex: 1;
-      padding: 1rem;
-    }
-    .biu-hero__title-main {
-      font-size: clamp(2.5rem, 12vw, 4rem);
-    }
-    .biu-stat {
-      border-bottom: 1px solid hsla(0, 0%, 100%, 0.1) !important;
-      border-right: none !important;
-      flex: 1 1 100%;
-      padding: 1rem 1.5rem;
-    }
-    .biu-stat:last-child {
-      border-bottom: none !important;
-    }
+}
+
+@media (max-width: 480px) {
+  .biu-stat {
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.1) !important;
+    border-right: none !important;
+    flex: 1 1 100%;
+    padding: 1rem 1.5rem;
+  }
+  .biu-stat:last-child {
+    border-bottom: none !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .biu-hero__ctas-new {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .biu-btn-card {
+    width: 100%;
+    flex-direction: row;
+    padding: 0.75rem 1rem;
+    gap: 0.6rem;
   }
 }
 

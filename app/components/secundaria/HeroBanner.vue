@@ -6,11 +6,17 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
   <div class="siu-hero-wrapper">
     <section class="siu-hero">
       <div class="siu-hero__bg">
-        <img
-          src="/images/Secundaria/hero/banerSIU.png"
-          alt="Estudiantes SIU UNINTER"
-          class="siu-hero__img"
-        />
+        <picture class="siu-hero__picture biu-hero__picture dp-hero__picture">
+          <source
+            media="(max-width: 768px)"
+            srcset="/images/Secundaria/heroMobile/3.png"
+          />
+          <img
+            src="/images/Secundaria/hero/banerSIU.png"
+            alt="Estudiantes SIU UNINTER"
+            class="siu-hero__img dp-hero__img"
+          />
+        </picture>
         <div class="siu-hero__overlay"></div>
         <div class="siu-hero__overlay2"></div>
       </div>
@@ -30,12 +36,12 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
       <div class="siu-wrap siu-hero__content">
         <div class="siu-hero__inner">
           <div class="siu-hero__eyebrow">
-            <img
+            <!-- <img
               src="/images/hero/logo-blanco.svg"
               alt="SIU"
               class="siu-hero__logo-full"
               onerror="this.style.display = 'none'"
-            />
+            /> -->
           </div>
           <h1 class="siu-hero__title">
             <span class="siu-hero__title-main">SECUNDARIA</span>
@@ -142,6 +148,12 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
 .siu-hero__bg {
   inset: 0;
   position: absolute;
+}
+.siu-hero__picture,
+.dp-hero__picture {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 .siu-hero__img {
   animation: kb-6f81a179 14s ease-out forwards;
@@ -312,7 +324,7 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
 }
 .siu-stat__icon {
   align-items: center;
-  color: #ffff;
+  color: #002041;
   display: flex;
   justify-content: center;
 }
@@ -322,13 +334,13 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
   flex-direction: column;
 }
 .siu-stat__value {
-  color: #ffffff;
+  color: #003366;
   font-size: clamp(1.1rem, 1.3vw, 1.4rem);
   font-weight: 800;
   line-height: 1.2;
 }
 .siu-stat__label {
-  color: rgba(255, 255, 255, 0.9);
+  color: #003366;
   font-size: 0.9rem;
   font-weight: 500;
   text-align: left;
@@ -365,16 +377,90 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
 
 @media (max-width: 768px) {
   .siu-hero {
-    flex-direction: column;
     height: auto;
-    min-height: clamp(500px, 85vh, 800px);
-    padding-top: 5rem;
+    min-height: clamp(620px, 88vh, 760px);
+    padding: 5rem 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .siu-hero__img {
+    object-position: center center;
+    animation: none;
+  }
+  .siu-hero__overlay2 {
+    background: linear-gradient(
+      0deg,
+      rgba(10, 22, 32, 0.94) 0%,
+      rgba(10, 22, 32, 0.8) 32%,
+      rgba(10, 22, 32, 0.4) 52%,
+      rgba(10, 22, 32, 0.08) 70%,
+      transparent 85%
+    );
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+  .siu-hero__deco {
+    display: none;
   }
   .siu-hero__content {
-    align-items: center;
+    padding-bottom: 0.5rem;
     display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .siu-hero__inner {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 520px;
+  }
+  .siu-hero__eyebrow {
+    justify-content: center;
+    margin-bottom: 0.75rem;
+  }
+  .siu-hero__logo-full {
+    height: 40px;
+  }
+  .siu-hero__title {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0.75rem;
+  }
+  .siu-hero__title-main {
+    font-size: clamp(2.3rem, 10vw, 3.4rem);
+    text-align: center;
+  }
+  .siu-hero__title-sub {
+    font-size: clamp(1rem, 3.8vw, 1.3rem);
+    text-align: center;
+    margin-top: 0.35rem;
+  }
+  .siu-hero__desc {
+    text-align: center;
+    margin: 0 auto 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    max-width: 440px;
+  }
+  .siu-hero__ctas-new {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 0.85rem;
+  }
+  .siu-btn-card {
     flex: 1;
-    padding-bottom: 3rem;
+    min-width: 135px;
+    padding: 0.9rem 0.75rem;
+    font-size: 0.88rem;
+    gap: 0.45rem;
   }
   .siu-hero__stats-bar {
     position: relative;
@@ -397,18 +483,8 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
     border-bottom: none;
   }
 }
+
 @media (max-width: 480px) {
-  .siu-hero__ctas-new {
-    flex-direction: row;
-    gap: 1rem;
-  }
-  .siu-btn-card {
-    flex: 1;
-    padding: 1rem;
-  }
-  .siu-hero__title-main {
-    font-size: clamp(2.5rem, 12vw, 4rem);
-  }
   .siu-stat {
     border-bottom: 1px solid hsla(0, 0%, 100%, 0.1) !important;
     border-right: none !important;
@@ -417,6 +493,19 @@ import { BookOpen, Atom, Languages } from "lucide-vue-next";
   }
   .siu-stat:last-child {
     border-bottom: none !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .siu-hero__ctas-new {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .siu-btn-card {
+    width: 100%;
+    flex-direction: row;
+    padding: 0.75rem 1rem;
+    gap: 0.6rem;
   }
 }
 </style>

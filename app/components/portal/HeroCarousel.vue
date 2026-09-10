@@ -27,6 +27,7 @@ const slides = [
     subtitle:
       "Secundaria · Bachillerato · Licenciatura · Posgrado. Cuernavaca, Morelos.",
     image: "/images/hero/blur/1.jpg",
+    mobileImage: "/images/heroMobile/blur/1.jpg",
     cta: {
       label: "Encuentra tu programa",
       href: "#oferta",
@@ -39,6 +40,7 @@ const slides = [
     title: "Deporte, cultura\ny liderazgo",
     subtitle: "Desarrolla tus talentos dentro y fuera del aula.",
     image: "/images/hero/blur/5.jpg",
+    mobileImage: "/images/heroMobile/blur/5.jpg",
     cta: { label: "Conocer más", href: "#vida" },
     ctaGhost: { label: "Ver eventos", href: "https://uninter.edu.mx/eventos/" },
   },
@@ -48,6 +50,7 @@ const slides = [
     title: "Aprende español\nen Cuernavaca",
     subtitle: "Vive México mientras haces del español parte de tu vida",
     image: "/images/hero/blur/6.jpg",
+    mobileImage: "/images/heroMobile/blur/6.jpg",
     cta: {
       label: "Ver programa",
       href: "https://spanishschool.uninter.edu.mx/",
@@ -64,6 +67,7 @@ const slides = [
     subtitle:
       "Participa en una sesión informativa, recorre nuestras instalaciones y resuelve tus dudas. ",
     image: "/images/hero/blur/3.jpg",
+    mobileImage: "/images/heroMobile/blur/3.jpg",
     cta: {
       label: "Ver sesiones",
       href: "https://uninter.edu.mx/sesiones-informativas/",
@@ -73,8 +77,8 @@ const slides = [
 ];
 
 const stats = [
-  { value: "4,500+", label: "Egresados", icon: GraduationCap },
-  { value: "30+", label: "Años", icon: Award },
+  { value: "70,000+", label: "Egresados", icon: GraduationCap },
+  { value: "45+", label: "Años", icon: Award },
   { value: "RVOE", label: "Acreditado SEP", icon: ShieldCheck },
   { value: "ISO", label: "9001:2015", icon: FileCheck },
 ];
@@ -122,7 +126,17 @@ onUnmounted(() => {
             'hero-slide--prev': prevIndex === i,
           }"
         >
-          <img :src="slide.image" :alt="slide.title" class="hero-slide__img" />
+          <picture class="hero-slide__picture dp-hero__picture">
+            <source
+              media="(max-width: 768px)"
+              :srcset="slide.mobileImage || '/images/test/test.png'"
+            />
+            <img
+              :src="slide.image"
+              :alt="slide.title"
+              class="hero-slide__img dp-hero__img"
+            />
+          </picture>
           <div class="hero-slide__overlay"></div>
           <div class="hero-slide__overlay2"></div>
 
@@ -238,13 +252,13 @@ onUnmounted(() => {
   z-index: 0;
 }
 
-/* Slide saliente: empieza a desvanecerse */
+/* Slide saliente: se mantiene al 100% visible abajo (z-index 1) mientras el nuevo se disuelve encima */
 .hero-slide--prev {
-  opacity: 0;
+  opacity: 1;
   z-index: 1;
 }
 
-/* Slide entrante: visible y encima */
+/* Slide entrante: visible y encima con transición suave */
 .hero-slide--active {
   opacity: 1;
   pointer-events: auto;
@@ -252,6 +266,14 @@ onUnmounted(() => {
 }
 
 /* Imagen de fondo */
+.hero-slide__picture,
+.dp-hero__picture {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
 .hero-slide__img {
   position: absolute;
   inset: 0;
@@ -278,22 +300,41 @@ onUnmounted(() => {
   inset: 0;
   background: linear-gradient(
     90deg,
-    rgba(10, 24, 50, 0.95) 0%,
-    rgba(10, 24, 50, 0.6) 30%,
-    transparent 40%
+    rgba(7, 25, 46, 0.94) 0%,
+    rgba(7, 25, 46, 0.82) 22%,
+    rgba(7, 25, 46, 0.55) 38%,
+    rgba(7, 25, 46, 0.22) 50%,
+    rgba(7, 25, 46, 0.05) 60%,
+    transparent 68%
   );
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  mask-image: linear-gradient(to right, black 30%, transparent 40%);
-  -webkit-mask-image: linear-gradient(to right, black 30%, transparent 40%);
+  mask-image: linear-gradient(
+    90deg,
+    black 0%,
+    black 22%,
+    rgba(0, 0, 0, 0.8) 38%,
+    rgba(0, 0, 0, 0.35) 50%,
+    rgba(0, 0, 0, 0.08) 60%,
+    transparent 68%
+  );
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    black 0%,
+    black 22%,
+    rgba(0, 0, 0, 0.8) 38%,
+    rgba(0, 0, 0, 0.35) 50%,
+    rgba(0, 0, 0, 0.08) 60%,
+    transparent 68%
+  );
 }
 .hero-slide__overlay2 {
   position: absolute;
   inset: 0;
   background: linear-gradient(
     to top,
-    rgba(10, 24, 50, 0.65) 0%,
-    transparent 40%
+    rgba(7, 25, 46, 0.5) 0%,
+    transparent 35%
   );
 }
 
@@ -505,23 +546,101 @@ onUnmounted(() => {
 
 @media (max-width: 768px) {
   .hero-track {
-    min-height: 70vh;
-    height: 70vh;
+    height: auto;
+    min-height: clamp(620px, 88vh, 760px);
+  }
+  .hero-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5rem 0 3.5rem;
+  }
+  .hero-slide__img {
+    object-position: center center;
+    animation: none !important;
+  }
+  .hero-slide--active .hero-slide__img {
+    animation: none !important;
+  }
+  .hero-slide__overlay {
+    background: linear-gradient(
+      0deg,
+      rgba(7, 25, 46, 0.96) 0%,
+      rgba(7, 25, 46, 0.82) 32%,
+      rgba(7, 25, 46, 0.42) 52%,
+      rgba(7, 25, 46, 0.08) 70%,
+      transparent 85%
+    );
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+  .hero-slide__overlay2 {
+    display: none;
+  }
+  .hero-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 0.5rem;
+  }
+  .hero-inner {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 520px;
+  }
+  .hero-eyebrow {
+    justify-content: center;
+    margin-bottom: 0.65rem;
+    font-size: 0.68rem;
+  }
+  .hero-title {
+    font-size: clamp(1.8rem, 8vw, 2.5rem);
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0.65rem;
+  }
+  .hero-title__line {
+    text-align: center;
+  }
+  .hero-subtitle {
+    display: block;
+    text-align: center;
+    margin: 0 auto 1.35rem;
+    font-size: clamp(0.82rem, 3.4vw, 0.95rem);
+    line-height: 1.5;
+    max-width: 440px;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  .hero-btns {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 0.75rem;
+  }
+  .hero-btn-primary,
+  .hero-btn-ghost {
+    flex: 1;
+    min-width: 130px;
+    padding: 0.8rem 1rem;
+    font-size: 0.85rem;
+    display: inline-flex;
+    justify-content: center;
   }
   .hero-nav {
     display: none;
   }
-  .hero-title {
-    font-size: clamp(1.6rem, 7vw, 2.6rem);
-  }
-  .hero-subtitle {
-    font-size: 0.85rem;
-    margin-bottom: 1.25rem;
-  }
-  .hero-btn-primary,
-  .hero-btn-ghost {
-    font-size: 0.78rem;
-    padding: 0.6rem 1.1rem;
+  .hero-progress {
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    bottom: 12px;
   }
   .hero-stats-bar {
     position: relative;
@@ -546,16 +665,6 @@ onUnmounted(() => {
 }
 
 @media (max-width: 480px) {
-  .hero-track {
-    min-height: 70vh;
-    height: 70vh;
-  }
-  .hero-subtitle {
-    display: none;
-  }
-  .hero-btn-ghost {
-    display: none;
-  }
   .hero-stat {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
     border-right: none !important;
@@ -564,6 +673,17 @@ onUnmounted(() => {
   }
   .hero-stat:last-child {
     border-bottom: none !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero-btns {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .hero-btn-primary,
+  .hero-btn-ghost {
+    width: 100%;
   }
 }
 </style>

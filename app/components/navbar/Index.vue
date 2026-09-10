@@ -77,9 +77,8 @@ const programs: Program[] = [
         {
           label: "Licenciaturas Ejecutivas",
           desc: "Modalidad flexible",
-          href: "https://universidad.uninter.edu.mx/ejecutivas",
+          href: "/LicenciaturasEjecutivas",
           icon: "mdi:briefcase-outline",
-          external: true,
         },
       ],
       tools: [
@@ -110,7 +109,7 @@ const programs: Program[] = [
       },
       {
         label: "Licenciaturas Ejecutivas",
-        href: "https://universidad.uninter.edu.mx/ejecutivas",
+        href: "/LicenciaturasEjecutivas",
       },
       {
         label: "Folletos",

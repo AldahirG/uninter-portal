@@ -184,7 +184,12 @@ const niveles = [
 }
 
 .oe-card {
-  background: #ffffff;
+  background: linear-gradient(
+    0deg,
+    color-mix(in srgb, var(--c) 8%, #ffffff) 0%,
+    color-mix(in srgb, var(--c) 2.5%, #ffffff) 30%,
+    #ffffff 65%
+  );
   border: 1px solid #e2e8f0;
   border-radius: 16px;
   padding: 2rem;
@@ -193,17 +198,42 @@ const niveles = [
   flex-direction: column;
   position: relative;
   overflow: hidden;
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
 }
 
+.oe-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at 50% 105%,
+    color-mix(in srgb, var(--c) 24%, transparent) 0%,
+    color-mix(in srgb, var(--c) 8%, transparent) 45%,
+    transparent 75%
+  );
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  pointer-events: none;
+  border-radius: 16px;
+  z-index: 1;
+}
+
 .oe-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
-  border-color: var(--tx);
+  transform: translateY(-6px);
+  box-shadow:
+    0 18px 36px -6px color-mix(in srgb, var(--c) 26%, transparent),
+    0 0 25px 0 color-mix(in srgb, var(--c) 16%, transparent);
+  border-color: color-mix(in srgb, var(--c) 45%, #ffffff);
+}
+
+.oe-card:hover::after {
+  opacity: 1;
 }
 
 .oe-card__icon-wrap {
+  position: relative;
+  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -213,14 +243,17 @@ const niveles = [
   background: var(--bg);
   color: var(--c);
   margin-bottom: 1.5rem;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .oe-card:hover .oe-card__icon-wrap {
   transform: scale(1.08) rotate(-3deg);
+  box-shadow: 0 6px 18px color-mix(in srgb, var(--c) 20%, transparent);
 }
 
 .oe-card__content {
+  position: relative;
+  z-index: 2;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -244,6 +277,8 @@ const niveles = [
 }
 
 .oe-card__bottom {
+  position: relative;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
@@ -266,6 +301,12 @@ const niveles = [
   background: #f8fafc;
   color: #475569;
   border: 1px solid #e2e8f0;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.oe-card:hover .oe-pill {
+  background: #ffffff;
+  border-color: color-mix(in srgb, var(--c) 25%, #e2e8f0);
 }
 
 .oe-card__link {

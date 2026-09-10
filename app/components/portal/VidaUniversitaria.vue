@@ -25,7 +25,7 @@ const actividades: Record<string, Actividad[]> = {
       titulo: "Fútbol Americano",
       desc: "Leandros — equipo representativo con múltiples campeonatos regionales.",
       icon: "mdi:football",
-      imagen: "/images/talleres/12.jpg",
+      imagen: "/images/test/test2.png",
       tag: "Competitivo",
     },
     {

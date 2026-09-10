@@ -1,31 +1,19 @@
 <script setup lang="ts">
-import {
-  Award,
-  GraduationCap,
-  Globe,
-  Building2
-} from "lucide-vue-next";
-
-const stats = [
-  { icon: Award, value: "1980", label: "Año de fundación" },
-  { icon: GraduationCap, value: "71,000+", label: "Egresados mexicanos y extranjeros" },
-  { icon: Globe, value: "130+", label: "Universidades aliadas en el mundo" },
-  { icon: Building2, value: "25", label: "Países representados en campus" }
-];
+import { Award, GraduationCap, Globe, Building2 } from "lucide-vue-next";
 
 const pillars = [
   {
     title: "Formación internacional",
-    desc: "Idiomas curriculares, materias en inglés y francés, y certificaciones internacionales incluidas en tu licenciatura."
+    desc: "Idiomas curriculares, materias en inglés y francés, y certificaciones internacionales incluidas en tu licenciatura.",
   },
   {
     title: "Conexión profesional",
-    desc: "Más de 1,500 convenios empresariales para prácticas profesionales desde el primer año."
+    desc: "Más de 1,500 convenios empresariales para prácticas profesionales desde el primer año.",
   },
   {
     title: "Garantía de calidad",
-    desc: "Certificación ISO 9001:2015, acreditación FIMPES y más de 40 años en rankings de las mejores universidades."
-  }
+    desc: "Certificación ISO 9001:2015, acreditación FIMPES y más de 40 años en rankings de las mejores universidades.",
+  },
 ];
 </script>
 
@@ -43,8 +31,10 @@ const pillars = [
             <span class="title-highlight">comunidad UNINTER</span>
           </h2>
           <p class="section-desc">
-            Desde 1980, formamos profesionistas con conocimientos sólidos, pensamiento creativo y visión global. Únete a más de
-            <strong>71,000 egresados mexicanos y extranjeros</strong> que hoy son líderes en sus industrias.
+            Desde 1980, formamos profesionistas con conocimientos sólidos,
+            pensamiento creativo y visión global. Únete a más de
+            <strong>71,000 egresados mexicanos y extranjeros</strong> que hoy
+            son líderes en sus industrias.
           </p>
         </div>
 
@@ -56,16 +46,6 @@ const pillars = [
               <p class="pillar-desc">{{ pillar.desc }}</p>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div class="welcome-stats">
-        <div v-for="stat in stats" :key="stat.label" class="stat-card">
-          <div class="stat-card__icon">
-            <component :is="stat.icon" :size="22" />
-          </div>
-          <p class="stat-card__value">{{ stat.value }}</p>
-          <p class="stat-card__label">{{ stat.label }}</p>
         </div>
       </div>
     </div>
@@ -90,7 +70,7 @@ const pillars = [
   font-weight: 800;
   gap: 0.75rem;
   letter-spacing: 0.14em;
-  margin-bottom: 2rem;
+  margin-bottom: 2 rem;
   text-transform: uppercase;
 }
 .eyebrow-line {

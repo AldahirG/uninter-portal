@@ -26,7 +26,7 @@ useHead({
     <VidaAcademica />
     <Internacionalizacion />
     <ModeloAcademico />
-    <VidaEstudiantil />
+    <!-- <VidaEstudiantil /> -->
     <FormRegister />
     <PortalFooter />
     <FloatingActions />

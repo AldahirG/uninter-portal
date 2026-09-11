@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useHead } from "#imports";
+
 useHead({
   script: [
     { src: "https://link.superleads.mx/js/form_embed.js", defer: true }
@@ -7,7 +9,7 @@ useHead({
 </script>
 
 <template>
-  <section class="reg-section">
+  <section id="contacto" class="reg-section">
     <div class="pg-container">
       <div class="reg-card">
         <!-- Lado formulario -->
@@ -24,9 +26,11 @@ useHead({
             data-deactivation-type="neverDeactivate"
             data-deactivation-value=""
             data-form-name="FormPosgrados"
-            data-height="1030"
+            data-height="1055"
             data-layout-iframe-id="inline-El9xhGwRT8XLhNb5UPcf"
             data-form-id="El9xhGwRT8XLhNb5UPcf"
+            data-cookie-consent="true"
+            data-cookie-consent-provider="auto"
             title="FormPosgrados"
           >
           </iframe>
@@ -48,13 +52,15 @@ useHead({
 </template>
 
 <style scoped>
-/* Colores Posgrados */
+/* Colores Posgrados acordes al Banner */
 .reg-section {
-  --s: #546E7A;
-  --sd: #37474F;
-  --sbg: #0f1a22;
-  background: #eceff1;
+  --s: #8d8f38;
+  --sd: #717723;
+  --sbg: #1a1c09;
+  --slight: #f4eb82;
+  background: #f7f8f0;
   padding: 5rem 0;
+  scroll-margin-top: 80px;
 }
 
 .pg-container {
@@ -69,7 +75,8 @@ useHead({
   background: #fff;
   border-radius: 24px;
   overflow: hidden;
-  box-shadow: 0 24px 60px rgba(84, 110, 122, 0.12);
+  box-shadow: 0 24px 60px rgba(26, 28, 9, 0.12);
+  border: 1px solid rgba(141, 143, 56, 0.25);
   min-height: 580px;
 }
 
@@ -85,7 +92,7 @@ useHead({
 /* Lado mascota */
 .reg-mascot-side {
   flex: 0.75;
-  background: linear-gradient(145deg, var(--s) 0%, var(--sbg) 100%);
+  background: linear-gradient(145deg, #717723 0%, #1a1c09 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,8 +106,8 @@ useHead({
   inset: 0;
   background: radial-gradient(
     circle at 30% 70%,
-    rgba(255, 255, 255, 0.1) 0%,
-    transparent 60%
+    rgba(244, 235, 130, 0.18) 0%,
+    transparent 65%
   );
 }
 

@@ -47,6 +47,13 @@ const processDegreeName = (name?: string) => {
   return name.replace(/Especialidad en |Maestría en |Maestria en |Doctorado en /i, "").trim();
 };
 
+const scrollToSection = (id: string) => {
+  if (typeof document === "undefined") return;
+  const target = document.getElementById(id);
+  if (target) {
+    target.scrollIntoView({ behavior: "smooth" });
+  }
+};
 </script>
 
 <template>
@@ -101,19 +108,31 @@ const processDegreeName = (name?: string) => {
 
           <!-- Botones de acción tipo tarjeta -->
           <div class="degree-hero__ctas">
-            <a href="#admision" class="degree-btn-card">
+            <a
+              href="#evolucion"
+              class="degree-btn-card"
+              @click.prevent="scrollToSection('evolucion')"
+            >
               <div class="btn-icon">
                 <Info :size="24" />
               </div>
               <span>Más información</span>
             </a>
-            <a href="#plan-estudios" class="degree-btn-card">
+            <a
+              href="#plan-estudios"
+              class="degree-btn-card"
+              @click.prevent="scrollToSection('plan-estudios')"
+            >
               <div class="btn-icon">
                 <FileText :size="24" />
               </div>
               <span>Ver Plan de estudio</span>
             </a>
-            <a href="#beca" class="degree-btn-card">
+            <a
+              href="#beca"
+              class="degree-btn-card"
+              @click.prevent="scrollToSection('beca')"
+            >
               <div class="btn-icon">
                 <Percent :size="24" />
               </div>

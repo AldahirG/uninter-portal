@@ -1,5 +1,13 @@
 <script setup lang="ts">
 import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
+
+const scrollTo = (id: string) => {
+  if (typeof document === "undefined") return;
+  const target = document.getElementById(id);
+  if (target) {
+    target.scrollIntoView({ behavior: "smooth" });
+  }
+};
 </script>
 
 <template>
@@ -54,16 +62,20 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
           </p>
 
           <div class="pa-hero__ctas">
-            <a href="#oferta-prepaA" class="pa-btn-card">
+            <a
+              href="#oferta-prepaA"
+              class="pa-btn-card"
+              @click.prevent="scrollTo('oferta-prepaA')"
+            >
               <div class="btn-icon">
                 <BookOpen :size="28" :stroke-width="1.8" />
               </div>
               <span>Ver Plan de Estudios</span>
             </a>
             <a
-              href="https://prepaabierta.uninter.edu.mx/"
-              target="_blank"
+              href="#beneficios"
               class="pa-btn-card"
+              @click.prevent="scrollTo('beneficios')"
             >
               <div class="btn-icon">
                 <Info :size="28" :stroke-width="1.8" />
@@ -483,24 +495,25 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
 @media (max-width: 768px) {
   .pa-hero {
     height: auto;
-    min-height: clamp(620px, 88vh, 760px);
-    padding: 5rem 0 1.5rem;
+    min-height: clamp(520px, 80svh, 650px);
+    padding: 3.5rem 0 1rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
   }
-  .pa-hero__img {
-    object-position: center center;
+  .pa-hero__img,
+  .dp-hero__img {
+    object-position: center top;
     animation: none;
   }
   .pa-hero__overlay2 {
     background: linear-gradient(
       0deg,
-      rgba(10, 26, 24, 0.94) 0%,
-      rgba(10, 26, 24, 0.8) 32%,
-      rgba(10, 26, 24, 0.4) 52%,
-      rgba(10, 26, 24, 0.08) 70%,
+      rgba(10, 26, 24, 0.95) 0%,
+      rgba(10, 26, 24, 0.85) 35%,
+      rgba(10, 26, 24, 0.45) 55%,
+      rgba(10, 26, 24, 0.08) 72%,
       transparent 85%
     );
     backdrop-filter: none;
@@ -512,7 +525,7 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
     display: none;
   }
   .pa-hero__content {
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.25rem;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -524,50 +537,66 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
     align-items: center;
     text-align: center;
     width: 100%;
-    max-width: 520px;
+    max-width: 480px;
+    gap: 0 !important;
   }
   .pa-hero__eyebrow {
     justify-content: center;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.35rem;
+  }
+  .pa-hero__eyebrow:empty {
+    display: none;
+    margin: 0;
   }
   .pa-hero__logo-full {
-    height: 40px;
+    height: 36px;
   }
   .pa-hero__title {
     align-items: center;
     text-align: center;
-    margin-bottom: 0.75rem;
+    margin: 0 0 0.45rem 0;
   }
   .pa-hero__title-main {
-    font-size: clamp(2.3rem, 10vw, 3.4rem);
+    font-size: clamp(2rem, 8.5vw, 2.8rem);
     text-align: center;
+    line-height: 1;
   }
   .pa-hero__title-sub {
-    font-size: clamp(1rem, 3.8vw, 1.3rem);
+    font-size: clamp(0.95rem, 3.5vw, 1.25rem);
     text-align: center;
-    margin-top: 0.35rem;
+    margin-top: 0.2rem;
+    line-height: 1.1;
   }
   .pa-hero__desc {
     text-align: center;
-    margin: 0 auto 1.5rem;
-    font-size: 0.9rem;
-    line-height: 1.55;
-    max-width: 440px;
+    margin: 0 auto 0.75rem;
+    font-size: clamp(0.82rem, 3vw, 0.92rem);
+    line-height: 1.45;
+    max-width: 420px;
   }
   .pa-hero__ctas {
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    gap: 0.85rem;
+    margin-top: 0 !important;
+    gap: 0.65rem;
   }
   .pa-btn-card {
     flex: 1;
-    min-width: 135px;
-    padding: 0.9rem 0.75rem;
-    font-size: 0.88rem;
-    gap: 0.45rem;
+    min-width: 120px;
+    padding: 0.65rem 0.5rem;
+    font-size: 0.82rem;
+    gap: 0.3rem;
+    border-radius: 10px;
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
+  }
+  .btn-icon {
+    margin-bottom: 0;
+  }
+  .btn-icon :deep(svg) {
+    width: 20px;
+    height: 20px;
   }
 }
 
@@ -590,13 +619,13 @@ import { BookOpen, Atom, Languages, Info } from "lucide-vue-next";
 @media (max-width: 380px) {
   .pa-hero__ctas {
     flex-direction: column;
-    gap: 0.6rem;
+    gap: 0.5rem;
   }
   .pa-btn-card {
     width: 100%;
     flex-direction: row;
-    padding: 0.75rem 1rem;
-    gap: 0.6rem;
+    padding: 0.55rem 0.75rem;
+    gap: 0.5rem;
   }
 }
 </style>

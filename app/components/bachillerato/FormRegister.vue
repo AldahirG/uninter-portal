@@ -43,7 +43,7 @@ useHead({
 
 
 .biu-container{margin:0 auto;max-width:1100px;padding:0 1.5rem}
-.reg-section{background:#f1f8f0;padding:5rem 0}
+.reg-section{background:#f1f8f0;padding:5rem 0;scroll-margin-top:80px}
 .reg-card{background:#fff;border-radius:24px;box-shadow:0 24px 60px #4a7a021f;display:flex;min-height:560px;overflow:hidden}
 .reg-form-side{flex:1.25;justify-content:center;padding:2rem}
 .reg-form-side,.reg-success{display:flex;flex-direction:column}

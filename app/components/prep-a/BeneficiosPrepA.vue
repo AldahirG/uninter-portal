@@ -46,7 +46,7 @@ const beneficios = [
 </script>
 
 <template>
-  <section class="beneficios-section">
+  <section id="beneficios" class="beneficios-section">
     <div class="ben-container">
       
       <!-- Encabezado de la Sección -->
@@ -103,6 +103,7 @@ const beneficios = [
   padding: 5.5rem 1.5rem;
   background: linear-gradient(180deg, #f7fbfa 0%, #ffffff 100%);
   position: relative;
+  scroll-margin-top: 80px;
 }
 
 .ben-container {

@@ -3,7 +3,6 @@ import { computed } from "vue";
 import {
   Info,
   FileText,
-  Percent,
   Clock,
   Users,
   MapPin,
@@ -56,6 +55,14 @@ const isLongTitle = computed(() => {
 const isLongDesc = computed(() => {
   return (props.data?.description?.length || 0) > 200;
 });
+
+const scrollToSection = (id: string) => {
+  if (typeof document === "undefined") return;
+  const target = document.getElementById(id);
+  if (target) {
+    target.scrollIntoView({ behavior: "smooth" });
+  }
+};
 </script>
 
 <template>
@@ -113,23 +120,25 @@ const isLongDesc = computed(() => {
 
           <!-- Botones de acción tipo tarjeta con Hover Naranja -->
           <div class="degree-hero__ctas">
-            <a href="#contacto" class="degree-btn-card">
+            <a
+              href="#contacto"
+              class="degree-btn-card"
+              @click.prevent="scrollToSection('contacto')"
+            >
               <div class="btn-icon">
                 <Info :size="24" />
               </div>
               <span>Más información</span>
             </a>
-            <a href="#plan-estudios" class="degree-btn-card">
+            <a
+              href="#plan-estudios"
+              class="degree-btn-card"
+              @click.prevent="scrollToSection('plan-estudios')"
+            >
               <div class="btn-icon">
                 <FileText :size="24" />
               </div>
               <span>Ver Plan de estudio</span>
-            </a>
-            <a href="#contacto" class="degree-btn-card">
-              <div class="btn-icon">
-                <Percent :size="24" />
-              </div>
-              <span>Calcula tu beca</span>
             </a>
           </div>
         </div>

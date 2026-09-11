@@ -758,15 +758,6 @@ function scrollTo(id: string) {
 }
 
 @media (max-width: 991px) {
-  .siu-hero__inner {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-  .siu-hero__chips {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-  }
   .siu-porque-sec__inner {
     grid-template-columns: 1fr;
     gap: 3rem;
@@ -1001,24 +992,25 @@ function scrollTo(id: string) {
 @media (max-width: 768px) {
   .siu-hero {
     height: auto;
-    min-height: clamp(620px, 88vh, 760px);
-    padding: 5rem 0 1.5rem;
+    min-height: clamp(520px, 80svh, 650px);
+    padding: 3.5rem 0 1rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
   }
-  .siu-hero__img {
-    object-position: center center;
+  .siu-hero__img,
+  .dp-hero__img {
+    object-position: center top;
     animation: none;
   }
   .siu-hero__overlay2 {
     background: linear-gradient(
       0deg,
-      rgba(26, 21, 0, 0.94) 0%,
-      rgba(26, 21, 0, 0.8) 32%,
-      rgba(26, 21, 0, 0.4) 52%,
-      rgba(26, 21, 0, 0.08) 70%,
+      rgba(26, 21, 0, 0.95) 0%,
+      rgba(26, 21, 0, 0.85) 35%,
+      rgba(26, 21, 0, 0.45) 55%,
+      rgba(26, 21, 0, 0.08) 72%,
       transparent 85%
     );
     backdrop-filter: none;
@@ -1027,7 +1019,7 @@ function scrollTo(id: string) {
     -webkit-mask-image: none;
   }
   .siu-hero__content {
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.25rem;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -1039,48 +1031,64 @@ function scrollTo(id: string) {
     align-items: center;
     text-align: center;
     width: 100%;
-    max-width: 520px;
+    max-width: 480px;
+    gap: 0 !important;
   }
   .siu-hero__eyebrow {
     justify-content: center;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.35rem;
+  }
+  .siu-hero__eyebrow:empty {
+    display: none;
+    margin: 0;
   }
   .siu-hero__logo-full {
-    height: 40px;
+    height: 36px;
   }
   .siu-hero__title {
     align-items: center;
     text-align: center;
-    margin-bottom: 0.75rem;
+    margin: 0 0 0.45rem 0;
   }
   .siu-hero__title-main {
-    font-size: clamp(2.3rem, 10vw, 3.4rem);
+    font-size: clamp(2rem, 8.5vw, 2.8rem);
     text-align: center;
+    line-height: 1;
   }
   .siu-hero__title-sub {
-    font-size: clamp(1rem, 3.8vw, 1.3rem);
+    font-size: clamp(0.95rem, 3.5vw, 1.25rem);
     text-align: center;
-    margin-top: 0.35rem;
+    margin-top: 0.2rem;
+    line-height: 1.1;
   }
   .siu-hero__desc {
     text-align: center;
-    margin: 0 auto 1.5rem;
-    font-size: 0.9rem;
-    line-height: 1.55;
-    max-width: 440px;
+    margin: 0 auto 0.75rem;
+    font-size: clamp(0.82rem, 3vw, 0.92rem);
+    line-height: 1.45;
+    max-width: 420px;
   }
   .siu-hero__ctas-new {
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    gap: 0.85rem;
+    margin-top: 0 !important;
+    gap: 0.65rem;
   }
   .siu-btn-card {
     flex: 1;
-    min-width: 135px;
-    padding: 0.9rem 0.75rem;
-    font-size: 0.88rem;
-    gap: 0.45rem;
+    min-width: 120px;
+    padding: 0.65rem 0.5rem;
+    font-size: 0.82rem;
+    gap: 0.3rem;
+    border-radius: 10px;
+  }
+  .btn-icon {
+    margin-bottom: 0;
+  }
+  .btn-icon :deep(svg) {
+    width: 20px;
+    height: 20px;
   }
   .siu-hero__stats-bar {
     position: relative;

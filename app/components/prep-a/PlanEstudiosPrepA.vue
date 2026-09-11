@@ -196,6 +196,7 @@ const niveles = [
 .pe-section {
   padding: 5rem 1.5rem;
   background: #ffffff;
+  scroll-margin-top: 80px;
 }
 
 .pe-container {

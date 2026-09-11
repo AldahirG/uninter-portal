@@ -11,12 +11,11 @@ interface NoticiaItem {
 // Objeto / Columna Izquierda (Máximo 3)
 const columnaIzquierda: NoticiaItem[] = [
   {
-    Titulo:
-      "UNINTER reafirma certificación ISO 9001:2015 por tercer año consecutivo",
-    SRC: "/images/noticias/diaMujerNews.jpg",
-    URL: "https://uninter.edu.mx/noticias",
+    Titulo: "8a FERIA UNINTER DE DISÑO E INGENIERIA",
+    SRC: "/images/noticias/PostFeriaModas.jpg",
+    URL: "https://uninter.edu.mx/eventos/",
   },
-  {
+  /*{
     Titulo:
       "Convocatoria abierta para intercambios académicos internacionales 2026",
     SRC: "/images/noticias/tastesNews.jpg",
@@ -26,12 +25,12 @@ const columnaIzquierda: NoticiaItem[] = [
     Titulo: "Nuevo Centro de Idiomas abre sus puertas en campus central",
     SRC: "/images/noticias/tastesNews.jpg",
     URL: "https://uninter.edu.mx/noticias",
-  },
+  },*/
 ];
 
 // Objeto / Columna Derecha (Máximo 3)
 const columnaDerecha: NoticiaItem[] = [
-  {
+  /*{
     Titulo: "Leandros clasifican al torneo regional de fútbol americano",
     SRC: "/images/noticias/tastesNews.jpg",
     URL: "https://uninter.edu.mx/noticias",
@@ -45,7 +44,7 @@ const columnaDerecha: NoticiaItem[] = [
     Titulo: "Semana de la Salud y Bienestar Estudiantil en campus UNINTER",
     SRC: "/images/noticias/diaMujerNews.jpg",
     URL: "https://uninter.edu.mx/noticias",
-  },
+  },*/
 ];
 
 // Máximo 3 por columna
@@ -67,7 +66,7 @@ const singleItem = computed(() => leftItems.value[0] || rightItems.value[0]);
       <div class="nn-header">
         <div>
           <div class="uninter-eyebrow">Novedades institucionales</div>
-          <h2 class="uninter-section-title">Noticias<br /><em>UNINTER</em></h2>
+          <h2 class="uninter-section-title">Agenda<br /><em>UNINTER</em></h2>
           <p class="nn-desc">Descubre lo que está sucediendo en UNINTER.</p>
         </div>
       </div>

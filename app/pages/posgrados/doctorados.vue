@@ -2,6 +2,7 @@
 import { ref } from "vue";
 import { X, ArrowRight, MessageCircle } from "lucide-vue-next";
 import Navbare from "@/components/navbar/Index.vue";
+import FormRegister from "@/components/posgrados/FormRegister.vue";
 import PortalFooter from "@/components/layout/Footer.vue";
 
 // Estado del Panel Lateral (Drawer)
@@ -112,11 +113,12 @@ const data = [
         <div class="pg-container pg-hero__content">
           <div class="pg-hero__inner">
             <div class="pg-hero__eyebrow">
-              <!-- <img
-                src="/images/hero/logo-blanco.svg"
-                alt="Universidad Internacional"
-                class="pg-hero__logo-full"
-              /> -->
+              <div class="pg-hero__pill-badge">
+                <Icon name="lucide:graduation-cap" size="16" class="pill-icon" />
+                <span class="pill-text">Doble titulación</span>
+                <span class="pill-dot">&bull;</span>
+                <span class="pill-highlight">Internacional</span>
+              </div>
             </div>
 
             <h1 class="pg-hero__title">
@@ -138,24 +140,13 @@ const data = [
                 </div>
                 <span>Programas Disponibles</span>
               </a>
-              <a href="#contacto" class="pg-btn-card">
+              <a href="#contacto" class="pg-btn-card" @click.prevent="scrollToContacto">
                 <div class="btn-icon">
                   <Icon name="lucide:info" size="28" />
                 </div>
                 <span>Solicita Información</span>
               </a>
             </div>
-          </div>
-        </div>
-
-        <!-- Caja Flotante en la Esquina -->
-        <div class="pg-hero__float-badge">
-          <div class="pg-float-badge__icon">
-            <Icon name="lucide:graduation-cap" size="24" />
-          </div>
-          <div class="pg-float-badge__text">
-            <span class="pg-float-badge__title">Doble titulación</span>
-            <span class="pg-float-badge__sub">Internacional</span>
           </div>
         </div>
       </section>
@@ -256,10 +247,11 @@ const data = [
       </div>
     </section>
 
-    <!-- FOOTER / CONTACTO -->
-    <div id="contacto">
-      <PortalFooter />
-    </div>
+    <!-- CONTACTO / FORMULARIO -->
+    <FormRegister />
+
+    <!-- FOOTER -->
+    <PortalFooter />
 
     <!-- DRAWER MODAL -->
     <Teleport to="body">
@@ -686,7 +678,7 @@ const data = [
 .pg-hero__eyebrow {
   align-items: center;
   display: flex;
-  margin-bottom: 2rem;
+  margin-bottom: 0.85rem;
 }
 .pg-hero__logo-full {
   height: 48px;
@@ -756,76 +748,48 @@ const data = [
   margin-bottom: 0.1rem;
 }
 
-/* Caja Flotante en la Esquina del Banner */
-.pg-hero__float-badge {
-  position: absolute;
-  top: 3.5rem;
-  right: calc((100vw - 1280px) / 2 + 2rem);
-  z-index: 5;
-  display: flex;
+/* Insignia Alargada / Pill Badge */
+.pg-hero__pill-badge {
+  display: inline-flex;
   align-items: center;
-  gap: 0.85rem;
-  padding: 0.85rem 1.4rem;
-  background: rgba(26, 28, 9, 0.78);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border: 1.5px solid rgba(244, 235, 130, 0.45);
-  border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-  animation: float-badge-anim 4s ease-in-out infinite alternate;
+  gap: 0.45rem;
+  padding: 0.32rem 0.9rem;
+  background: rgba(26, 28, 9, 0.72);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1.2px solid rgba(244, 235, 130, 0.45);
+  border-radius: 9999px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  transition: all 0.25s ease;
 }
-
-@media (max-width: 1340px) {
-  .pg-hero__float-badge {
-    right: 2rem;
-  }
+.pg-hero__pill-badge:hover {
+  border-color: var(--pg-light);
+  box-shadow: 0 6px 20px rgba(244, 235, 130, 0.2);
+  transform: translateY(-1px);
 }
-
-@keyframes float-badge-anim {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-6px);
-  }
-}
-
-.pg-float-badge__icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 12px;
-  background: linear-gradient(
-    135deg,
-    rgba(244, 235, 130, 0.25),
-    rgba(141, 143, 56, 0.35)
-  );
+.pill-icon {
   color: var(--pg-light);
-  border: 1px solid rgba(244, 235, 130, 0.3);
+  flex-shrink: 0;
 }
-
-.pg-float-badge__text {
-  display: flex;
-  flex-direction: column;
-}
-
-.pg-float-badge__title {
+.pill-text {
   color: #ffffff;
-  font-size: 0.95rem;
-  font-weight: 800;
-  line-height: 1.2;
-  letter-spacing: -0.01em;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
 }
-
-.pg-float-badge__sub {
+.pill-dot {
+  color: rgba(244, 235, 130, 0.6);
+  font-size: 0.75rem;
+  line-height: 1;
+}
+.pill-highlight {
   color: var(--pg-light);
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  margin-top: 2px;
+  white-space: nowrap;
 }
 
 .pg-hero__stats-bar {
@@ -900,24 +864,25 @@ const data = [
 @media (max-width: 768px) {
   .pg-hero {
     height: auto;
-    min-height: clamp(620px, 88vh, 760px);
-    padding: 5rem 0 1.5rem;
+    min-height: clamp(520px, 80svh, 650px);
+    padding: 3.5rem 0 1rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
   }
-  .pg-hero__img {
-    object-position: center center;
+  .pg-hero__img,
+  .dp-hero__img {
+    object-position: center top;
     animation: none;
   }
   .pg-hero__overlay {
     background: linear-gradient(
       0deg,
-      rgba(26, 28, 9, 0.94) 0%,
-      rgba(26, 28, 9, 0.8) 32%,
-      rgba(26, 28, 9, 0.4) 52%,
-      rgba(26, 28, 9, 0.08) 70%,
+      rgba(26, 28, 9, 0.95) 0%,
+      rgba(26, 28, 9, 0.85) 35%,
+      rgba(26, 28, 9, 0.45) 55%,
+      rgba(26, 28, 9, 0.08) 72%,
       transparent 85%
     );
     backdrop-filter: none;
@@ -928,24 +893,8 @@ const data = [
   .pg-hero__deco {
     display: none;
   }
-  .pg-hero__float-badge {
-    top: 1.25rem;
-    right: 1.25rem;
-    padding: 0.6rem 1rem;
-    gap: 0.6rem;
-  }
-  .pg-float-badge__icon {
-    width: 36px;
-    height: 36px;
-  }
-  .pg-float-badge__title {
-    font-size: 0.85rem;
-  }
-  .pg-float-badge__sub {
-    font-size: 0.7rem;
-  }
   .pg-hero__content {
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.25rem;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -957,48 +906,74 @@ const data = [
     align-items: center;
     text-align: center;
     width: 100%;
-    max-width: 520px;
+    max-width: 480px;
+    gap: 0 !important;
   }
   .pg-hero__eyebrow {
     justify-content: center;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.45rem;
+  }
+  .pg-hero__pill-badge {
+    padding: 0.25rem 0.75rem;
+    gap: 0.35rem;
+  }
+  .pg-hero__pill-badge .pill-text {
+    font-size: 0.76rem;
+  }
+  .pg-hero__pill-badge .pill-highlight {
+    font-size: 0.7rem;
+  }
+  .pg-hero__eyebrow:empty {
+    display: none;
+    margin: 0;
   }
   .pg-hero__logo-full {
-    height: 40px;
+    height: 36px;
   }
   .pg-hero__title {
     align-items: center;
     text-align: center;
-    margin-bottom: 0.75rem;
+    margin: 0 0 0.45rem 0;
   }
   .pg-hero__title-main {
-    font-size: clamp(2.3rem, 10vw, 3.4rem);
+    font-size: clamp(2rem, 8.5vw, 2.8rem);
     text-align: center;
+    line-height: 1;
   }
   .pg-hero__title-sub {
-    font-size: clamp(1rem, 3.8vw, 1.3rem);
+    font-size: clamp(0.95rem, 3.5vw, 1.25rem);
     text-align: center;
-    margin-top: 0.35rem;
+    margin-top: 0.2rem;
+    line-height: 1.1;
   }
   .pg-hero__desc {
     text-align: center;
-    margin: 0 auto 1.5rem;
-    font-size: 0.9rem;
-    line-height: 1.55;
-    max-width: 440px;
+    margin: 0 auto 0.75rem;
+    font-size: clamp(0.82rem, 3vw, 0.92rem);
+    line-height: 1.45;
+    max-width: 420px;
   }
   .pg-hero__ctas-new {
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    gap: 0.85rem;
+    margin-top: 0 !important;
+    gap: 0.65rem;
   }
   .pg-btn-card {
     flex: 1;
-    min-width: 135px;
-    padding: 0.9rem 0.75rem;
-    font-size: 0.88rem;
-    gap: 0.45rem;
+    min-width: 120px;
+    padding: 0.65rem 0.5rem;
+    font-size: 0.82rem;
+    gap: 0.3rem;
+    border-radius: 10px;
+  }
+  .btn-icon {
+    margin-bottom: 0;
+  }
+  .btn-icon :deep(svg) {
+    width: 20px;
+    height: 20px;
   }
   .pg-hero__stats-bar {
     position: relative;
@@ -1043,13 +1018,13 @@ const data = [
 @media (max-width: 380px) {
   .pg-hero__ctas-new {
     flex-direction: column;
-    gap: 0.6rem;
+    gap: 0.5rem;
   }
   .pg-btn-card {
     width: 100%;
     flex-direction: row;
-    padding: 0.75rem 1rem;
-    gap: 0.6rem;
+    padding: 0.55rem 0.75rem;
+    gap: 0.5rem;
   }
 }
 </style>

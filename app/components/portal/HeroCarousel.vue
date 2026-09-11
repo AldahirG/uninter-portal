@@ -66,7 +66,7 @@ const slides = [
     title: "Conoce UNINTER\nantes de tomar tu decisión",
     subtitle:
       "Participa en una sesión informativa, recorre nuestras instalaciones y resuelve tus dudas. ",
-    image: "/images/hero/blur/3.jpg",
+    image: "/images/hero/blur/3.svg",
     mobileImage: "/images/heroMobile/blur/3.jpg",
     cta: {
       label: "Ver sesiones",
@@ -331,11 +331,7 @@ onUnmounted(() => {
 .hero-slide__overlay2 {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    to top,
-    rgba(7, 25, 46, 0.5) 0%,
-    transparent 35%
-  );
+  background: linear-gradient(to top, rgba(7, 25, 46, 0.5) 0%, transparent 35%);
 }
 
 .hero-content {
@@ -547,14 +543,14 @@ onUnmounted(() => {
 @media (max-width: 768px) {
   .hero-track {
     height: auto;
-    min-height: clamp(620px, 88vh, 760px);
+    min-height: clamp(520px, 80svh, 650px);
   }
   .hero-slide {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    padding: 5rem 0 3.5rem;
+    padding: 3.5rem 0 2.2rem;
   }
   .hero-slide__img {
     object-position: center center;
@@ -567,9 +563,9 @@ onUnmounted(() => {
     background: linear-gradient(
       0deg,
       rgba(7, 25, 46, 0.96) 0%,
-      rgba(7, 25, 46, 0.82) 32%,
-      rgba(7, 25, 46, 0.42) 52%,
-      rgba(7, 25, 46, 0.08) 70%,
+      rgba(7, 25, 46, 0.85) 35%,
+      rgba(7, 25, 46, 0.45) 55%,
+      rgba(7, 25, 46, 0.08) 72%,
       transparent 85%
     );
     backdrop-filter: none;
@@ -584,7 +580,7 @@ onUnmounted(() => {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.25rem;
   }
   .hero-inner {
     margin: 0 auto;
@@ -593,18 +589,20 @@ onUnmounted(() => {
     align-items: center;
     text-align: center;
     width: 100%;
-    max-width: 520px;
+    max-width: 480px;
+    gap: 0 !important;
   }
   .hero-eyebrow {
     justify-content: center;
-    margin-bottom: 0.65rem;
+    margin-bottom: 0.35rem;
     font-size: 0.68rem;
   }
   .hero-title {
-    font-size: clamp(1.8rem, 8vw, 2.5rem);
+    font-size: clamp(1.8rem, 8vw, 2.4rem);
     text-align: center;
     align-items: center;
-    margin-bottom: 0.65rem;
+    margin-bottom: 0.45rem;
+    line-height: 1.05;
   }
   .hero-title__line {
     text-align: center;
@@ -612,24 +610,26 @@ onUnmounted(() => {
   .hero-subtitle {
     display: block;
     text-align: center;
-    margin: 0 auto 1.35rem;
-    font-size: clamp(0.82rem, 3.4vw, 0.95rem);
-    line-height: 1.5;
-    max-width: 440px;
+    margin: 0 auto 0.75rem;
+    font-size: clamp(0.82rem, 3vw, 0.92rem);
+    line-height: 1.45;
+    max-width: 420px;
     color: rgba(255, 255, 255, 0.85);
   }
   .hero-btns {
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    gap: 0.75rem;
+    margin-top: 0 !important;
+    gap: 0.65rem;
   }
   .hero-btn-primary,
   .hero-btn-ghost {
     flex: 1;
-    min-width: 130px;
-    padding: 0.8rem 1rem;
-    font-size: 0.85rem;
+    min-width: 120px;
+    padding: 0.65rem 0.75rem;
+    font-size: 0.82rem;
+    border-radius: 10px;
     display: inline-flex;
     justify-content: center;
   }

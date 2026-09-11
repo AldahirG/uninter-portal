@@ -24,7 +24,7 @@ useHead({
     <EducativeOfert />
     <CalScholarship />
     <!-- Blogs Institucionales arriba de 25 Razones -->
-    <SchoolUninter />
+    <!-- <SchoolUninter /> -->
     <!-- 25 Razones para elegir UNINTER -->
     <OptionUninter />
     <DinamicSection />

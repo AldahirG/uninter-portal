@@ -356,6 +356,7 @@ function scrollToContact() {
 .dp-ofe {
   background: #ffffff;
   padding: 5rem 0 6.5rem;
+  scroll-margin-top: 80px;
 }
 
 .dp-container {

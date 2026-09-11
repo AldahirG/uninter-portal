@@ -19,10 +19,10 @@
     <NoticiasUninter />
 
     <!-- 5. Blogs -->
-    <BlogsSection />
+    <!-- <BlogsSection /> -->
 
     <!-- 6. Vida universitaria -->
-    <VidaUniversitaria />
+    <!-- <VidaUniversitaria /> -->
 
     <!-- 7. Calcula tu beca — CTA -->
     <CalculaBeca />

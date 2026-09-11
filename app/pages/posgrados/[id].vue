@@ -5,7 +5,7 @@
     <!-- Cargando o Estado de Error -->
     <div v-if="!careerData" class="not-found-container">
       <h2>Posgrado no encontrado</h2>
-      <NuxtLink to="/posgrados/especialidades" class="btn-return">Ver Especialidades</NuxtLink>
+      <NuxtLink :to="notFoundReturnLink" class="btn-return">{{ notFoundReturnText }}</NuxtLink>
     </div>
 
     <!-- Contenido del Posgrado -->
@@ -127,6 +127,18 @@ const durationText = computed(() => {
   return `${count} Semestres`;
 });
 
+const notFoundReturnLink = computed(() => {
+  if (careerSlug.value.startsWith("doc-")) return "/posgrados/doctorados";
+  if (careerSlug.value.startsWith("maes-")) return "/posgrados/maestrias";
+  return "/posgrados/especialidades";
+});
+
+const notFoundReturnText = computed(() => {
+  if (careerSlug.value.startsWith("doc-")) return "Ver Doctorados";
+  if (careerSlug.value.startsWith("maes-")) return "Ver Maestrías";
+  return "Ver Especialidades";
+});
+
 // Configure dynamic page SEO metadata
 useHead(() => ({
   title: careerData.value ? `${careerData.value.name} | UNINTER` : "Posgrados | UNINTER",
@@ -165,6 +177,7 @@ useHead(() => ({
 .pg-syllabus-section {
   padding: 6rem 0;
   background: #f8fafc;
+  scroll-margin-top: 80px;
 }
 
 .uninter-container {

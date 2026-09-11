@@ -25,11 +25,19 @@ const stats = [
     <section class="banner-section">
       <div class="banner-slide">
         <!-- Fotografía de fondo -->
-        <img
-          src="\images\licenciaturas\hero\banerLic.png"
-          alt="Licenciaturas Presenciales UNINTER"
-          class="banner-slide__img"
-        />
+        <picture
+          class="biu-hero__picture dp-hero__picture banner-slide__picture"
+        >
+          <source
+            media="(max-width: 768px)"
+            srcset="/images/licenciaturas/heroMobile/6.png"
+          />
+          <img
+            src="/images/licenciaturas/hero/banerLic.png"
+            alt="Licenciaturas Presenciales UNINTER"
+            class="biu-hero__img dp-hero__img banner-slide__img"
+          />
+        </picture>
 
         <!-- Capa de Blur Gradiente Horizontal Transparente (Fades out antes de los alumnos) -->
         <div class="banner-slide__blur-overlay"></div>
@@ -37,11 +45,11 @@ const stats = [
         <div class="banner-content uninter-container">
           <div class="banner-inner">
             <div class="banner-eyebrow">
-              <img
+              <!-- <img
                 src="/images/hero/logo-blanco.svg"
                 alt="UNINTER"
                 class="banner-logo-full"
-              />
+              /> -->
             </div>
 
             <h1 class="banner-title">
@@ -117,14 +125,35 @@ const stats = [
   width: 100%;
 }
 
-.banner-slide__img {
-  animation: kb-static-5a0e54da 14s ease-out forwards;
-  height: 100%;
+.banner-slide__picture,
+.dp-hero__picture,
+.biu-hero__picture {
+  display: block;
+  position: absolute;
   inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.banner-slide__img,
+.dp-hero__img,
+.biu-hero__img {
+  animation: kb-zoom 14s ease-out forwards;
+  height: 100%;
+  width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  position: absolute;
-  width: 100%;
+  object-position: center top;
+}
+
+@keyframes kb-zoom {
+  0% {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.06);
+  }
 }
 
 /* ═══ CAPA DE BLUR GRADIENTE TRANSPARENTE ═══ */
@@ -162,10 +191,15 @@ const stats = [
   max-width: 620px;
 }
 
+.banner-eyebrow {
+  align-items: center;
+  display: flex;
+  margin-bottom: 1.75rem;
+}
+
 .banner-logo-full {
   filter: brightness(0) invert(1);
   height: 48px;
-  margin-bottom: 1.75rem;
   -o-object-fit: contain;
   object-fit: contain;
 }
@@ -309,13 +343,99 @@ const stats = [
     --h: auto;
   }
   .banner-slide {
-    min-height: clamp(440px, 65vh, 580px);
-    padding: 3.5rem 0;
+    height: auto;
+    min-height: clamp(520px, 80svh, 650px);
+    padding: 3.5rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .banner-slide__img,
+  .dp-hero__img,
+  .biu-hero__img {
+    object-position: center top;
+    animation: none;
   }
   .banner-slide__blur-overlay {
-    -webkit-mask-image: none;
+    background: linear-gradient(
+      0deg,
+      rgba(0, 26, 46, 0.95) 0%,
+      rgba(0, 26, 46, 0.85) 35%,
+      rgba(0, 26, 46, 0.45) 55%,
+      rgba(0, 26, 46, 0.08) 72%,
+      transparent 85%
+    );
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
     mask-image: none;
-    background: rgba(0, 26, 46, 0.65);
+    -webkit-mask-image: none;
+  }
+  .banner-content {
+    padding-bottom: 0.25rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .banner-inner {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 480px;
+    gap: 0 !important;
+  }
+  .banner-eyebrow {
+    justify-content: center;
+    margin-bottom: 0.35rem;
+  }
+  .banner-eyebrow:empty {
+    display: none;
+    margin: 0;
+  }
+  .banner-logo-full {
+    height: 36px;
+    margin-bottom: 0;
+  }
+  .banner-title {
+    align-items: center;
+    text-align: center;
+    margin: 0 0 0.45rem 0;
+    font-size: clamp(2rem, 8.5vw, 2.8rem);
+    line-height: 1;
+  }
+  .banner-subtitle {
+    text-align: center;
+    margin: 0 auto 0.75rem;
+    font-size: clamp(0.82rem, 3vw, 0.92rem);
+    line-height: 1.45;
+    max-width: 420px;
+  }
+  .banner-ctas {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0 !important;
+    gap: 0.65rem;
+  }
+  .banner-btn,
+  .banner-btn--stacked {
+    flex: 1;
+    min-width: 120px;
+    padding: 0.65rem 0.5rem;
+    font-size: 0.82rem;
+    gap: 0.3rem;
+    border-radius: 10px;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+  .banner-btn :deep(svg),
+  .banner-btn svg {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 0;
   }
   .banner-stats__inner {
     flex-wrap: wrap;
@@ -337,13 +457,6 @@ const stats = [
 }
 
 @media (max-width: 480px) {
-  .banner-ctas {
-    flex-direction: column;
-  }
-  .banner-btn,
-  .banner-stat {
-    justify-content: center;
-  }
   .banner-stat {
     border-bottom: 1px solid rgba(0, 178, 227, 0.2) !important;
     border-right: none !important;
@@ -352,6 +465,20 @@ const stats = [
   }
   .banner-stat:last-child {
     border-bottom: none !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .banner-ctas {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .banner-btn,
+  .banner-btn--stacked {
+    width: 100%;
+    flex-direction: row;
+    padding: 0.55rem 0.75rem;
+    gap: 0.5rem;
   }
 }
 </style>

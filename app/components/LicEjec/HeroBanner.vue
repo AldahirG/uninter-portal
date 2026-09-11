@@ -1,16 +1,30 @@
 <script setup lang="ts">
-import { BookOpen, Briefcase, GraduationCap, Clock, Award, ShieldCheck, Globe } from "lucide-vue-next";
+import {
+  BookOpen,
+  Briefcase,
+  GraduationCap,
+  Clock,
+  Award,
+  ShieldCheck,
+  Globe,
+} from "lucide-vue-next";
 </script>
 
 <template>
   <div class="le-hero-wrapper">
     <section class="le-hero">
       <div class="le-hero__bg">
-        <img
-          src="/images/posgrados/hero/banerPosgrados.png"
-          alt="Licenciaturas Ejecutivas UNINTER"
-          class="le-hero__img"
-        />
+        <picture class="biu-hero__picture dp-hero__picture le-hero__picture">
+          <source
+            media="(max-width: 768px)"
+            srcset="/images/licenciaturasEjc/heroMobile/25.png"
+          />
+          <img
+            src="/images/licenciaturasEjc/hero/EJECU.png"
+            alt="Licenciaturas Ejecutivas UNINTER"
+            class="biu-hero__img dp-hero__img le-hero__img"
+          />
+        </picture>
         <div class="le-hero__overlay"></div>
         <div class="le-hero__overlay2"></div>
       </div>
@@ -112,10 +126,10 @@ import { BookOpen, Briefcase, GraduationCap, Clock, Award, ShieldCheck, Globe } 
 }
 
 .le-hero-wrapper {
-  --le-p: #694E39;
+  --le-p: #694e39;
   --le-pd: #4e3827;
-  --le-s: #876D56;
-  --le-l: #A78D75;
+  --le-s: #876d56;
+  --le-l: #a78d75;
   --le-gold: #d4b89e;
   --le-bg: #1f1812;
   background-color: var(--le-bg);
@@ -135,7 +149,17 @@ import { BookOpen, Briefcase, GraduationCap, Clock, Award, ShieldCheck, Globe } 
   position: absolute;
 }
 
-.le-hero__img {
+.le-hero__picture,
+.dp-hero__picture,
+.biu-hero__picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.le-hero__img,
+.dp-hero__img,
+.biu-hero__img {
   animation: kb-ejec 14s ease-out forwards;
   height: 100%;
   object-fit: cover;
@@ -287,13 +311,13 @@ import { BookOpen, Briefcase, GraduationCap, Clock, Award, ShieldCheck, Globe } 
 /* Hover: contorno, texto e ícono se vuelven café */
 .le-btn-card:hover {
   background: rgba(105, 78, 57, 0.15);
-  border-color: #694E39;
-  color: #694E39;
+  border-color: #694e39;
+  color: #694e39;
   transform: translateY(-2px);
 }
 
 .le-btn-card:hover .btn-icon {
-  color: #694E39;
+  color: #694e39;
   transform: scale(1.05);
 }
 
@@ -395,17 +419,131 @@ import { BookOpen, Briefcase, GraduationCap, Clock, Award, ShieldCheck, Globe } 
 /* Responsivo */
 @media (max-width: 768px) {
   .le-hero {
-    flex-direction: column;
     height: auto;
-    min-height: clamp(500px, 85vh, 800px);
-    padding-top: 5rem;
+    min-height: clamp(520px, 80svh, 650px);
+    padding: 3.5rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .le-hero__img,
+  .dp-hero__img,
+  .biu-hero__img {
+    object-position: center top;
+    animation: none;
+  }
+
+  .le-hero__overlay {
+    display: none;
+  }
+
+  .le-hero__overlay2 {
+    background: linear-gradient(
+      0deg,
+      rgba(31, 24, 18, 0.95) 0%,
+      rgba(31, 24, 18, 0.85) 35%,
+      rgba(31, 24, 18, 0.45) 55%,
+      rgba(31, 24, 18, 0.08) 72%,
+      transparent 85%
+    );
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+
+  .le-hero__deco {
+    display: none;
   }
 
   .le-hero__content {
-    align-items: center;
+    padding-bottom: 0.25rem;
     display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .le-hero__inner {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 480px;
+    gap: 0 !important;
+  }
+
+  .le-hero__eyebrow {
+    justify-content: center;
+    margin-bottom: 0.35rem;
+  }
+
+  .le-hero__eyebrow:empty {
+    display: none;
+    margin: 0;
+  }
+
+  .le-hero__logo-full {
+    height: 36px;
+  }
+
+  .le-hero__title {
+    align-items: center;
+    text-align: center;
+    margin: 0 0 0.45rem 0;
+  }
+
+  .le-hero__title-main {
+    font-size: clamp(2rem, 8.5vw, 2.8rem);
+    text-align: center;
+    line-height: 1;
+  }
+
+  .le-hero__title-sub {
+    font-size: clamp(0.95rem, 3.5vw, 1.25rem);
+    text-align: center;
+    margin-top: 0.2rem;
+    line-height: 1.1;
+  }
+
+  .le-hero__desc {
+    text-align: center;
+    margin: 0 auto 0.75rem;
+    font-size: clamp(0.82rem, 3vw, 0.92rem);
+    line-height: 1.45;
+    max-width: 420px;
+  }
+
+  .le-hero__ctas {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0 !important;
+    gap: 0.65rem;
+  }
+
+  .le-btn-card {
     flex: 1;
-    padding-bottom: 3rem;
+    min-width: 120px;
+    padding: 0.65rem 0.5rem;
+    font-size: 0.82rem;
+    gap: 0.3rem;
+    border-radius: 10px;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+
+  .btn-icon {
+    margin-bottom: 0;
+  }
+
+  .btn-icon :deep(svg),
+  .btn-icon svg {
+    width: 20px;
+    height: 20px;
   }
 
   .le-hero__stats-bar {
@@ -435,20 +573,6 @@ import { BookOpen, Briefcase, GraduationCap, Clock, Award, ShieldCheck, Globe } 
 }
 
 @media (max-width: 480px) {
-  .le-hero__ctas {
-    flex-direction: row;
-    gap: 1rem;
-  }
-
-  .le-btn-card {
-    flex: 1;
-    padding: 1rem;
-  }
-
-  .le-hero__title-main {
-    font-size: clamp(2.5rem, 12vw, 4rem);
-  }
-
   .le-stat {
     border-bottom: 1px solid hsla(0, 0%, 100%, 0.1) !important;
     border-right: none !important;
@@ -458,6 +582,20 @@ import { BookOpen, Briefcase, GraduationCap, Clock, Award, ShieldCheck, Globe } 
 
   .le-stat:last-child {
     border-bottom: none !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .le-hero__ctas {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .le-btn-card {
+    width: 100%;
+    flex-direction: row;
+    padding: 0.55rem 0.75rem;
+    gap: 0.5rem;
   }
 }
 </style>

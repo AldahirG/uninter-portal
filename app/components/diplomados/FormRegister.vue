@@ -52,6 +52,7 @@ useHead({
 .reg-section {
   background: #fbf9f7;
   padding: 5.5rem 0 6rem;
+  scroll-margin-top: 80px;
 }
 
 .dp-container {

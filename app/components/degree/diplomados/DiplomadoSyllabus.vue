@@ -167,6 +167,7 @@ const durationDetails = computed(() => {
 .dp-syllabus-section {
   background-color: #ffffff;
   padding: 5.5rem 0 6.5rem;
+  scroll-margin-top: 80px;
   font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
 }
 

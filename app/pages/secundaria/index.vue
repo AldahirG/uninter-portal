@@ -22,7 +22,7 @@ useHead({
     <Welcome />
     <OfertaEducativa />
     <VidaAcademica />
-    <VidaEstudiantil />
+    <!-- <VidaEstudiantil /> -->
     <FormRegister />
     <PortalFooter />
     <FloatingActions />

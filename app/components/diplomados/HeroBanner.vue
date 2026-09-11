@@ -13,6 +13,14 @@ const stats = [
   { value: "ICPM", label: "Cert. internacional", icon: Award },
   { value: "40+", label: "Años de experiencia", icon: GraduationCap },
 ];
+
+const scrollTo = (id: string) => {
+  if (typeof document === "undefined") return;
+  const target = document.getElementById(id);
+  if (target) {
+    target.scrollIntoView({ behavior: "smooth" });
+  }
+};
 </script>
 
 <template>
@@ -54,16 +62,20 @@ const stats = [
           </p>
 
           <div class="dp-hero__ctas">
-            <NuxtLink to="/diplomados/programas" class="dp-btn-card">
+            <a
+              href="#oferta"
+              class="dp-btn-card"
+              @click.prevent="scrollTo('oferta')"
+            >
               <div class="dp-btn-icon">
                 <BookOpen :size="28" :stroke-width="1.8" />
               </div>
               <span>Programas Disponibles</span>
-            </NuxtLink>
+            </a>
             <a
-              href="https://diplomados.uninter.edu.mx/"
-              target="_blank"
+              href="#contacto"
               class="dp-btn-card"
+              @click.prevent="scrollTo('contacto')"
             >
               <div class="dp-btn-icon">
                 <Info :size="28" :stroke-width="1.8" />

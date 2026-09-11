@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { computed } from "vue";
+import posgradosDB from "~/assets/data/posgrados.json";
+
 const route  = useRoute();
 const router = useRouter();
 
@@ -9,6 +11,9 @@ const LABELS: Record<string, string> = {
   "biu-bilingue":                "BIU Bilingüe",
   LicenciaturasPresenciales:     "Licenciaturas Presenciales",
   posgrados:                     "Posgrados",
+  especialidades:                "Especialidades",
+  maestrias:                     "Maestrías",
+  doctorados:                    "Doctorados",
   diplomados:                    "Diplomados",
   admisiones:                    "Admisiones",
   carreras:                      "Licenciaturas",
@@ -35,7 +40,21 @@ const crumbs = computed(() => {
   let acc = "";
   segs.forEach((s, i) => {
     acc += "/" + s;
-    if (s === "posgrados") return; // Skip intermediate "posgrados" segment
+    if (s === "posgrados") {
+      const nextSeg = segs[i + 1];
+      if (nextSeg && !["especialidades", "maestrias", "doctorados", "admisiones"].includes(nextSeg)) {
+        const pData = (posgradosDB as Record<string, any>)[nextSeg];
+        const pType = pData?.type || "";
+        if (pType === "doctorado" || nextSeg.startsWith("doc-")) {
+          list.push({ label: "Doctorados", href: "/posgrados/doctorados", current: false });
+        } else if (pType === "maestria" || nextSeg.startsWith("maes-")) {
+          list.push({ label: "Maestrías", href: "/posgrados/maestrias", current: false });
+        } else {
+          list.push({ label: "Especialidades", href: "/posgrados/especialidades", current: false });
+        }
+      }
+      return; // Skip intermediate "posgrados" segment
+    }
     const label = LABELS[s] ?? slugToTitle(s);
     const href = HREF_OVERRIDES[s] ?? acc;
     list.push({ label, href, current: i === segs.length - 1 });
@@ -53,9 +72,11 @@ const parentHref = computed(() => {
   if (parts[0] === "posgrados") {
     const sub = parts[1] || "";
     if (sub === "especialidades" || sub === "maestrias" || sub === "doctorados") return "/";
-    if (sub.startsWith("esp-")) return "/posgrados/especialidades";
-    if (sub.startsWith("maes-")) return "/posgrados/maestrias";
-    if (sub.startsWith("doc-")) return "/posgrados/doctorados";
+    const pData = (posgradosDB as Record<string, any>)[sub];
+    const pType = pData?.type || "";
+    if (pType === "doctorado" || sub.startsWith("doc-")) return "/posgrados/doctorados";
+    if (pType === "maestria" || sub.startsWith("maes-")) return "/posgrados/maestrias";
+    if (pType === "especialidad" || sub.startsWith("esp-")) return "/posgrados/especialidades";
     return "/";
   }
   parts.pop();
@@ -63,6 +84,15 @@ const parentHref = computed(() => {
 });
 
 const canGoBack = computed(() => crumbs.value.length > 2); // more than Portal > Page
+
+const handleBack = () => {
+  const prev = crumbs.value[crumbs.value.length - 2];
+  if (prev?.href) {
+    router.push(prev.href);
+  } else {
+    router.back();
+  }
+};
 </script>
 
 <template>
@@ -73,8 +103,8 @@ const canGoBack = computed(() => crumbs.value.length > 2); // more than Portal >
       <button
         v-if="canGoBack"
         class="bc-back"
-        @click="router.back()"
-        :title="'Volver a ' + crumbs[crumbs.length - 2].label"
+        @click="handleBack"
+        :title="'Volver a ' + (crumbs[crumbs.length - 2]?.label || 'Atrás')"
       >
         <Icon name="mdi:arrow-left" size="13" />
         <span>Volver</span>

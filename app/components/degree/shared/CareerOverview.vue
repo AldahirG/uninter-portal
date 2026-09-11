@@ -70,6 +70,7 @@ const getCareerRoleTitle = (name?: string) => {
   background-color: #f8fafc;
   padding: 5.5rem 0 6rem;
   font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+  scroll-margin-top: 80px;
 }
 
 .uninter-container {

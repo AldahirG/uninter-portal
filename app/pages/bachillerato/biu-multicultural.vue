@@ -4,6 +4,7 @@ import AreasEspecializacion from "@/components/bachillerato/biu/AreasEspecializa
 import Internacionalizacion from "@/components/bachillerato/Internacionalizacion.vue";
 import FormRegister from "@/components/bachillerato/FormRegister.vue";
 import PortalFooter from "@/components/portal/Footer.vue";
+import ScholarshipCalculator from "@/components/shared/ScholarshipCalculator.vue";
 
 useHead({
   title: "Bachillerato Multicultural BIU | UNINTER",
@@ -735,7 +736,8 @@ function scrollTo(id: string) {
     <!-- ══════════════════════════════════════════
          INTERNACIONALIZACIÓN / FORM
     ══════════════════════════════════════════ -->
-    <Internacionalizacion />
+    <!-- <Internacionalizacion /> -->
+    <ScholarshipCalculator defaultNivel="Bachillerato" />
     <FormRegister />
     <PortalFooter />
   </div>

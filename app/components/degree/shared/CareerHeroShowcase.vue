@@ -222,12 +222,22 @@ const scrollToSection = (id: string) => {
   position: absolute;
 }
 
-.degree-hero__picture,
+.degree-hero__picture {
+  display: block;
+  inset: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 .degree-hero__img {
+  display: block;
+  inset: 0;
+  position: absolute;
+  width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center top;
-  width: 100%;
+  object-position: center bottom;
 }
 
 /* Capa de contraste vertical general */
@@ -442,12 +452,18 @@ const scrollToSection = (id: string) => {
     padding-top: 5.5rem;
     padding-bottom: 3rem;
   }
+  .degree-hero__img {
+    object-position: center bottom;
+  }
   .degree-hero__overlay2 {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
     background: linear-gradient(
       180deg,
-      rgba(7, 25, 46, 0.92) 0%,
-      rgba(7, 25, 46, 0.8) 60%,
-      rgba(7, 25, 46, 0.95) 100%
+      rgba(7, 25, 46, 0.85) 0%,
+      rgba(7, 25, 46, 0.65) 40%,
+      rgba(7, 25, 46, 0.2) 70%,
+      rgba(7, 25, 46, 0.45) 100%
     );
     -webkit-mask-image: none;
     mask-image: none;

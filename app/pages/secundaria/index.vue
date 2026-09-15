@@ -5,6 +5,8 @@ import Welcome from "@/components/secundaria/Welcome.vue";
 import OfertaEducativa from "@/components/secundaria/OfertaEducativa.vue";
 import PhotoStrip from "@/components/secundaria/PhotoStrip.vue";
 import VidaAcademica from "@/components/secundaria/VidaAcademica.vue";
+import Internacionalizacion from "@/components/secundaria/Internacionalizacion.vue";
+import ScholarshipCalculator from "@/components/shared/ScholarshipCalculator.vue";
 import VidaEstudiantil from "@/components/secundaria/VidaEstudiantil.vue";
 import FormRegister from "@/components/secundaria/FormRegister.vue";
 import PortalFooter from "@/components/portal/Footer.vue";
@@ -22,7 +24,9 @@ useHead({
     <Welcome />
     <OfertaEducativa />
     <VidaAcademica />
+    <!-- <Internacionalizacion /> -->
     <!-- <VidaEstudiantil /> -->
+    <ScholarshipCalculator defaultNivel="Secundaria (SIU)" />
     <FormRegister />
     <PortalFooter />
     <FloatingActions />

@@ -2,6 +2,8 @@
 import { ref } from "vue";
 import { X, ArrowRight, MessageCircle } from "lucide-vue-next";
 import Navbare from "@/components/navbar/Index.vue";
+import Internacionalizacion from "@/components/posgrados/Internacionalizacion.vue";
+import ScholarshipCalculator from "@/components/shared/ScholarshipCalculator.vue";
 import FormRegister from "@/components/posgrados/FormRegister.vue";
 import PortalFooter from "@/components/layout/Footer.vue";
 
@@ -191,7 +193,11 @@ const especialidades = [
                 </div>
                 <span>Programas Disponibles</span>
               </a>
-              <a href="#contacto" class="pg-btn-card" @click.prevent="scrollToContacto">
+              <a
+                href="#contacto"
+                class="pg-btn-card"
+                @click.prevent="scrollToContacto"
+              >
                 <div class="btn-icon">
                   <Icon name="lucide:info" size="28" />
                 </div>
@@ -300,6 +306,12 @@ const especialidades = [
         </div>
       </div>
     </section>
+
+    <!-- INTERNACIONALIZACIÓN -->
+    <!-- <Internacionalizacion /> -->
+
+    <!-- CALCULADORA DE BECAS -->
+    <ScholarshipCalculator defaultNivel="Posgrado" subType="Especialidad" />
 
     <!-- CONTACTO / FORMULARIO -->
     <FormRegister />

@@ -11,17 +11,16 @@ interface NoticiaItem {
 // Objeto / Columna Izquierda (Máximo 3)
 const columnaIzquierda: NoticiaItem[] = [
   {
-    Titulo: "8a FERIA UNINTER DE DISÑO E INGENIERIA",
+    Titulo: "8a FERIA UNINTER DE DISEÑO E INGENIERIA",
     SRC: "/images/noticias/PostFeriaModas.jpg",
     URL: "https://uninter.edu.mx/eventos/",
   },
-  /*{
-    Titulo:
-      "Convocatoria abierta para intercambios académicos internacionales 2026",
-    SRC: "/images/noticias/tastesNews.jpg",
+  {
+    Titulo: 'Conferencia "Integracion de la proteccion civil"',
+    SRC: "/images/noticias/Proteccion_Civil.jpg",
     URL: "https://uninter.edu.mx/noticias",
   },
-  {
+  /*{
     Titulo: "Nuevo Centro de Idiomas abre sus puertas en campus central",
     SRC: "/images/noticias/tastesNews.jpg",
     URL: "https://uninter.edu.mx/noticias",

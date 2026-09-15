@@ -3,6 +3,7 @@ import Navbare from "@/components/navbar/Index.vue";
 import Internacionalizacion from "@/components/bachillerato/Internacionalizacion.vue";
 import FormRegister from "@/components/secundaria/FormRegister.vue";
 import PortalFooter from "@/components/portal/Footer.vue";
+import ScholarshipCalculator from "@/components/shared/ScholarshipCalculator.vue";
 
 useHead({
   title: "Secundaria Multicultural SIU | UNINTER",
@@ -422,6 +423,7 @@ function scrollTo(id: string) {
 
     <!-- INTERNACIONALIZACIÓN 
     <Internacionalizacion /> -->
+    <ScholarshipCalculator defaultNivel="Secundaria (SIU)" />
 
     <!-- FORMULARIO DE REGISTRO -->
     <section id="admision" class="siu-register-sec">

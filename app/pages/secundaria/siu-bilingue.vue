@@ -2,6 +2,7 @@
 import Navbare from "@/components/navbar/Index.vue";
 import FormRegister from "@/components/secundaria/FormRegister.vue";
 import PortalFooter from "@/components/portal/Footer.vue";
+import ScholarshipCalculator from "@/components/shared/ScholarshipCalculator.vue";
 
 useHead({
   title: "Secundaria Bilingüe SIU | UNINTER",
@@ -411,6 +412,8 @@ function scrollTo(id: string) {
         </div>
       </div>
     </section>
+
+    <ScholarshipCalculator defaultNivel="Secundaria (SIU)" />
 
     <!-- FORMULARIO DE REGISTRO -->
     <section id="admision" class="siu-register-sec">

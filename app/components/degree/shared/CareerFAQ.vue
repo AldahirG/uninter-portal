@@ -2,9 +2,16 @@
 import { ref, computed, onMounted } from "vue";
 import { HelpCircle, X, ChevronDown } from "lucide-vue-next";
 
+interface FaqItem {
+  q?: string;
+  question?: string;
+  a?: string;
+  answer?: string;
+}
+
 // Recibir las preguntas y respuestas específicas de la carrera
 const props = defineProps<{
-  faq?: Array<{ q: string; a: string }>;
+  faq?: Array<FaqItem>;
 }>();
 
 const isOpen = ref(false);
@@ -33,7 +40,13 @@ const generalFaq = [
 
 // Determinar el set de preguntas a mostrar
 const activeFaq = computed(() => {
-  return props.faq && props.faq.length > 0 ? props.faq : generalFaq;
+  if (props.faq && props.faq.length > 0) {
+    return props.faq.map((item) => ({
+      q: item.q || item.question || "",
+      a: item.a || item.answer || "",
+    }));
+  }
+  return generalFaq;
 });
 
 function toggleModal() {
@@ -120,7 +133,7 @@ onMounted(() => {
               <!-- Respuesta (Expandible) -->
               <div
                 class="faq-answer-wrapper"
-                :style="{ 'max-height': activeIndex === idx ? '300px' : '0px' }"
+                :style="{ 'max-height': activeIndex === idx ? '600px' : '0px' }"
               >
                 <div class="faq-answer-content">
                   <p>{{ item.a }}</p>

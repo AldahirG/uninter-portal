@@ -74,7 +74,7 @@ const pilares = [
         <div class="siu-va__pillars-inner">
           <div class="siu-va__pillars-text">
             <p class="siu-va__pillars-eyebrow">Modelo Académico</p>
-            <h3 class="siu-va__pillars-title">Blended-Flex Learning</h3>
+            <h3 class="siu-va__pillars-title">Blended Learning 4.0</h3>
             <p class="siu-va__pillars-desc">
               UNINTER es la manera conceptualizada es nuestro modelo pedagógico
               a través del cual formamos alumnos capaces de aprender en

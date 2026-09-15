@@ -7,6 +7,7 @@ import PhotoStrip from "@/components/bachillerato/PhotoStrip.vue";
 import VidaAcademica from "@/components/bachillerato/VidaAcademica.vue";
 import Internacionalizacion from "@/components/bachillerato/Internacionalizacion.vue";
 import ModeloAcademico from "@/components/bachillerato/ModeloAcademico.vue";
+import ScholarshipCalculator from "@/components/shared/ScholarshipCalculator.vue";
 import VidaEstudiantil from "@/components/bachillerato/VidaEstudiantil.vue";
 import FormRegister from "@/components/bachillerato/FormRegister.vue";
 import PortalFooter from "@/components/portal/Footer.vue";
@@ -24,9 +25,10 @@ useHead({
     <Welcome />
     <OfertaEducativa />
     <VidaAcademica />
-    <Internacionalizacion />
+    <!-- <Internacionalizacion /> -->
     <ModeloAcademico />
     <!-- <VidaEstudiantil /> -->
+    <ScholarshipCalculator defaultNivel="Bachillerato" />
     <FormRegister />
     <PortalFooter />
     <FloatingActions />

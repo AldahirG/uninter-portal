@@ -5,6 +5,7 @@ import History from "@/components/LicPrese/History.vue";
 import EducativeOfert from "@/components/LicPrese/EducativeOfert.vue";
 import SchoolUninter from "~/components/LicPrese/SchoolUninter.vue";
 import OptionUninter from "~/components/LicPrese/OptionUninter.vue";
+import Internacionalizacion from "~/components/LicPrese/Internacionalizacion.vue";
 import DinamicSection from "~/components/LicPrese/DinamicSection.vue";
 import CalScholarship from "~/components/LicPrese/CalScholarship.vue";
 import FormRegister from "~/components/LicPrese/FormRegister.vue";
@@ -27,6 +28,7 @@ useHead({
     <!-- <SchoolUninter /> -->
     <!-- 25 Razones para elegir UNINTER -->
     <OptionUninter />
+    <!-- <Internacionalizacion /> -->
     <DinamicSection />
     <FormRegister />
     <PortalFooter />

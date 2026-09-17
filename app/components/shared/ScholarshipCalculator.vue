@@ -12,7 +12,11 @@ import {
 } from "lucide-vue-next";
 
 interface Props {
-  defaultNivel?: "Licenciatura" | "Bachillerato" | "Secundaria (SIU)" | "Posgrado";
+  defaultNivel?:
+    | "Licenciatura"
+    | "Bachillerato"
+    | "Secundaria (SIU)"
+    | "Posgrado";
   subType?: "Especialidad" | "Maestría" | "Doctorado";
   title?: string;
   highlightedTitle?: string;
@@ -75,7 +79,7 @@ watch(
       academicData.value.nivel = newVal;
       academicData.value.carrera = "";
     }
-  }
+  },
 );
 
 const carrerasPorNivel: Record<string, string[]> = {
@@ -265,10 +269,13 @@ const currentThemeClass = computed(() => {
 
 // TEXTOS ADAPTABLES
 const eyebrowText = computed(() => {
-  if (academicData.value.nivel === "Secundaria (SIU)") return "Apoyo económico Secundaria SIU";
-  if (academicData.value.nivel === "Bachillerato") return "Apoyo económico Bachillerato BIU";
+  if (academicData.value.nivel === "Secundaria (SIU)")
+    return "Apoyo económico Secundaria SIU";
+  if (academicData.value.nivel === "Bachillerato")
+    return "Apoyo económico Bachillerato BIU";
   if (academicData.value.nivel === "Posgrado") {
-    if (props.subType === "Especialidad") return "Apoyo económico Especialidades";
+    if (props.subType === "Especialidad")
+      return "Apoyo económico Especialidades";
     if (props.subType === "Maestría") return "Apoyo económico Maestrías";
     if (props.subType === "Doctorado") return "Apoyo económico Doctorados";
     return "Apoyo económico Posgrados";
@@ -803,7 +810,7 @@ const displayBenefits = computed(() => {
 
 /* 3. Secundaria SIU (Carbón Marino & Ámbar Dorado SIU) */
 .beca-section--secundaria {
-  --theme-bg: linear-gradient(160deg, #101a24 0%, #192837 50%, #362908 100%);
+  --theme-bg: linear-gradient(160deg, #0561bd 0%, #3f7ab5 50%, #d19b12 100%);
   --theme-accent: #ffce52;
   --theme-check: #ffce52;
   --theme-btn-bg: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
@@ -853,7 +860,10 @@ const displayBenefits = computed(() => {
    ESTILOS GENERALES DE LA SECCIÓN
    ========================================== */
 .beca-section {
-  background: var(--theme-bg, linear-gradient(160deg, #0d2f4f, #003b5c 55%, #0073b4));
+  background: var(
+    --theme-bg,
+    linear-gradient(160deg, #0d2f4f, #003b5c 55%, #0073b4)
+  );
   overflow: hidden;
   padding: 5.5rem 0;
   position: relative;
@@ -1180,7 +1190,10 @@ const displayBenefits = computed(() => {
 
 /* Botones Wizard */
 .btn-cta-submit {
-  background: var(--theme-btn-bg, linear-gradient(135deg, #f05a28 0%, #d84315 100%));
+  background: var(
+    --theme-btn-bg,
+    linear-gradient(135deg, #f05a28 0%, #d84315 100%)
+  );
   color: #ffffff;
   padding: 0.9rem 1.5rem;
   border-radius: 10px;
@@ -1502,7 +1515,9 @@ const displayBenefits = computed(() => {
   border-radius: 10px;
   border: none;
   cursor: pointer;
-  transition: background-color 0.2s, filter 0.2s;
+  transition:
+    background-color 0.2s,
+    filter 0.2s;
 }
 .calc-modal-btn:hover {
   filter: brightness(0.9);

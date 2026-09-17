@@ -53,10 +53,19 @@ const scrollToContacto = () => {
             <h3 class="oe-card__title">{{ area.area }}</h3>
             <ul class="oe-card__list">
               <li v-for="(carrera, cIdx) in area.carreras" :key="cIdx">
-                <button @click.prevent="openDrawer(carrera)" class="oe-card__link">
+                <button
+                  @click.prevent="openDrawer(carrera)"
+                  class="oe-card__link"
+                >
                   <span class="oe-card__bullet">•</span>
-                  <span class="oe-card__text">{{ carrera.nombre }} ({{ carrera.sigla }})</span>
-                  <div v-if="carrera.trophy" class="oe-badge-excellence" title="Programa de Excelencia">
+                  <span class="oe-card__text"
+                    >{{ carrera.nombre }} ({{ carrera.sigla }})</span
+                  >
+                  <div
+                    v-if="carrera.trophy"
+                    class="oe-badge-excellence"
+                    title="Programa de Excelencia"
+                  >
                     <Trophy :size="14" />
                   </div>
                 </button>
@@ -69,9 +78,17 @@ const scrollToContacto = () => {
 
     <!-- Slide Bar (Drawer Lateral) -->
     <Teleport to="body">
-      <div class="oe-drawer-overlay" :class="{ 'is-open': isDrawerOpen }" @click="closeDrawer">
+      <div
+        class="oe-drawer-overlay"
+        :class="{ 'is-open': isDrawerOpen }"
+        @click="closeDrawer"
+      >
         <div class="oe-drawer" :class="{ 'is-open': isDrawerOpen }" @click.stop>
-          <button class="oe-drawer-close" @click="closeDrawer" aria-label="Cerrar panel">
+          <button
+            class="oe-drawer-close"
+            @click="closeDrawer"
+            aria-label="Cerrar panel"
+          >
             <X :size="24" />
           </button>
 
@@ -80,7 +97,9 @@ const scrollToContacto = () => {
               <div v-if="activeProgram.trophy" class="oe-drawer-badge">
                 <Trophy :size="16" /> Programa de Excelencia
               </div>
-              <h3 class="oe-detail-title">{{ activeProgram.nombre }} ({{ activeProgram.sigla }})</h3>
+              <h3 class="oe-detail-title">
+                {{ activeProgram.nombre }} ({{ activeProgram.sigla }})
+              </h3>
             </div>
 
             <!-- Descripción Principal -->
@@ -96,9 +115,13 @@ const scrollToContacto = () => {
               >
                 <Download :size="16" /> Ver Folleto Digital
               </a>
-              <button @click="scrollToContacto" class="oe-btn oe-btn--solid">
-                Solicitar Información <ArrowRight :size="16" />
-              </button>
+              <NuxtLink
+                :to="`/LicEjec/${activeProgram.slug}`"
+                class="oe-btn oe-btn--solid"
+                @click="closeDrawer"
+              >
+                Ver Detalles Completos <ArrowRight :size="16" />
+              </NuxtLink>
             </div>
           </div>
         </div>
@@ -152,7 +175,7 @@ const scrollToContacto = () => {
 }
 
 .uninter-section-title em {
-  color: #694E39;
+  color: #694e39;
   font-style: italic;
 }
 
@@ -172,12 +195,15 @@ const scrollToContacto = () => {
   display: flex;
   flex-direction: column;
   height: 100%;
-  transition: box-shadow 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .oe-card:hover {
   box-shadow: 0 14px 30px rgba(105, 78, 57, 0.16);
-  border-color: #A78D75;
+  border-color: #a78d75;
   transform: translateY(-4px);
 }
 
@@ -188,7 +214,7 @@ const scrollToContacto = () => {
 /* Título de la card en café */
 .oe-card__title {
   border-bottom: 2px solid #f1f5f9;
-  color: #694E39;
+  color: #694e39;
   font-size: 1.15rem;
   font-weight: 800;
   letter-spacing: 0.02em;
@@ -235,7 +261,7 @@ const scrollToContacto = () => {
 }
 
 .oe-card__link:hover .oe-card__bullet {
-  color: #694E39;
+  color: #694e39;
 }
 
 /* Texto de carrera en negro / dark neutral */
@@ -248,7 +274,7 @@ const scrollToContacto = () => {
 }
 
 .oe-card__link:hover .oe-card__text {
-  color: #694E39;
+  color: #694e39;
 }
 
 /* Ícono de la copa en color amarillo/dorado normal */
@@ -270,7 +296,9 @@ const scrollToContacto = () => {
   inset: 0;
   opacity: 0;
   position: fixed;
-  transition: opacity 0.4s ease, visibility 0.4s ease;
+  transition:
+    opacity 0.4s ease,
+    visibility 0.4s ease;
   visibility: hidden;
   z-index: 9999;
 }
@@ -431,7 +459,7 @@ const scrollToContacto = () => {
 }
 
 .oe-btn--solid {
-  background: #694E39;
+  background: #694e39;
   border: none;
   box-shadow: 0 4px 15px rgba(105, 78, 57, 0.3);
   color: #ffffff;
@@ -445,8 +473,8 @@ const scrollToContacto = () => {
 
 .oe-btn--outline {
   background: transparent;
-  border: 2px solid #694E39;
-  color: #694E39;
+  border: 2px solid #694e39;
+  color: #694e39;
 }
 
 .oe-btn--outline:hover {

@@ -15,9 +15,10 @@ useHead({
   meta: [
     {
       name: "description",
-      content: "Estudia una Licenciatura Ejecutiva en UNINTER con la flexibilidad y el prestigio que necesitas. Planes cuatrimestrales de 3 años con validez oficial SEP."
-    }
-  ]
+      content:
+        "Estudia una Licenciatura Ejecutiva en UNINTER con la flexibilidad y el prestigio que necesitas. Planes cuatrimestrales de 3 años con validez oficial SEP.",
+    },
+  ],
 });
 </script>
 
@@ -27,7 +28,7 @@ useHead({
     <HeroBanner />
     <History />
     <EducativeOfert />
-    <SchoolUninter />
+    <!-- <SchoolUninter /> -->
     <OptionUninter />
     <DinamicSection />
     <FormRegister />

@@ -1,0 +1,1519 @@
+{
+  "derecho-ejecutiva": {
+    "id": "LED",
+    "name": "Licenciatura Ejecutiva en Derecho",
+    "shortName": "Derecho",
+    "slug": "derecho-ejecutiva",
+    "aliases": [
+      "derecho",
+      "led"
+    ],
+    "tagline": "Haz de tu planeación un posicionamiento productivo",
+    "rvoe": "RVOE SEP 20211126",
+    "modalidad": "Mixta / Semipresencial",
+    "duracion": "3 Años (9 Cuatrimestres)",
+    "ciclo": "Ciclo de 16 semanas por cuatrimestre",
+    "creditos": 338,
+    "horasDocente": 1012,
+    "horasIndependientes": 4396,
+    "descripcion": "El Licenciado en Derecho de UNINTER cuenta con una sólida formación en el análisis normativo, el litigio estratégico y la resolución pacífica de controversias. Su preparación en modalidad mixta le permite compatibilizar el ejercicio profesional con el dominio profundo de las ciencias jurídicas, capacitándolo para incidir con ética en el entorno corporativo, gubernamental y social tanto en México como en el plano internacional.",
+    "perfilEgreso": {
+      "general": "El Licenciado en Derecho contará con las herramientas jurídicas para desempeñarse competitivamente en los sectores público y privado, consultoría, investigación, litigio, asociaciones civiles y asesoría de negocios nacionales e internacionales. También contará con bases sólidas para continuar estudios de posgrado.",
+      "conocimientos": [
+        "Analizará, formulará e interpretará normas jurídicas sustantivas en las distintas áreas del derecho, nacional e internacional.",
+        "Comprenderá los aspectos jurídicos de la iniciativa pública y privada para aplicar adecuadamente las normas.",
+        "Dominio de las estructuras procesales del sistema acusatorio y juicios orales en México."
+      ],
+      "habilidades": [
+        "Resolverá conflictos mediante la conciliación, arbitraje y mediación.",
+        "Atenderá controversias en distintas áreas del Derecho mediante la correcta aplicación de leyes y estructuras jurídico-normativas.",
+        "Diseño de estrategias legales de litigio y prevención de riesgos corporativos."
+      ],
+      "actitudes": [
+        "Actuará con honestidad, liderazgo e iniciativa.",
+        "Ejercerá con ética intachable, responsabilidad social, innovación y compromiso con la comunidad."
+      ],
+      "destrezas": [
+        "Manejará el lenguaje oral con capacidad de persuasión y redacción lógico-jurídica rigurosa.",
+        "Desarrollará un pensamiento abstracto, reflexivo y analítico de alto nivel."
+      ]
+    },
+    "perfilIngreso": {
+      "general": "El aspirante a la Licenciatura en Derecho Modalidad Mixta-Cuatrimestral de la Universidad Internacional deberá cumplir con un compromiso genuino hacia la legalidad, los derechos humanos y la impartición de justicia.",
+      "requisitos": [
+        "Certificado total de Bachillerato legalmente emitido o su equivalente.",
+        "Edad preferente a partir de 21 años con perfil ejecutivo.",
+        "Vocación de servicio y defensa de la justicia."
+      ],
+      "habilidades": [
+        "Vocación de servicio, justicia e interés hacia aspectos humanísticos y sociales.",
+        "Disposición para trabajar e interactuar con diversidad de personas y búsqueda permanente de conocimiento.",
+        "Habilidad y manejo del pensamiento abstracto, verbal y razonamiento lógico.",
+        "Capacidad de análisis, síntesis y solución de problemas complejos.",
+        "Manejo fluido del lenguaje oral y escrito con gusto por la lectura crítica.",
+        "Hábitos de estudio, disciplina, asertividad, criterio amplio e imparcial."
+      ]
+    },
+    "mercadoLaboral": {
+      "descripcion": "El campo laboral en Derecho abarca los sectores público y privado, con amplias oportunidades en abogacía, asesoría legal, administración pública, derecho corporativo y resolución de conflictos. La modalidad ejecutiva permite integrar los conocimientos jurídicos con la experiencia profesional inmediata.",
+      "sectores": [
+        "Despachos jurídicos y firmas de litigio corporativo, penal, civil y laboral",
+        "Departamentos legales internos de empresas multinacionales e instituciones financieras",
+        "Administración Pública Federal, Estatal y Municipal",
+        "Poder Judicial: tribunales, juzgados federales y fiscalías",
+        "Notarías públicas, corredurías públicas y registros públicos de la propiedad",
+        "Organismos no gubernamentales (ONGs) y defensa de derechos humanos",
+        "Consultoría y asesoría jurídica independiente para negocios y PYMEs",
+        "Docencia universitaria e investigación socio-jurídica"
+      ]
+    },
+    "planEstudios": {
+      "Primer Cuatrimestre": [
+        "Derecho Romano",
+        "Introducción al Derecho",
+        "Sociología Jurídica",
+        "Desarrollo Humano y Valores",
+        "Computación"
+      ],
+      "Segundo Cuatrimestre": [
+        "Teoría General del Estado",
+        "Teoría General del Proceso",
+        "Derecho Civil I",
+        "Metodología de la Investigación",
+        "Derecho Familiar"
+      ],
+      "Tercer Cuatrimestre": [
+        "Derecho Penal I",
+        "Derecho Mercantil I",
+        "Derecho Civil II",
+        "Derecho Constitucional",
+        "Derechos Humanos"
+      ],
+      "Cuarto Cuatrimestre": [
+        "Derecho Administrativo",
+        "Calidad en las Organizaciones",
+        "Derecho Penal II",
+        "Derecho Mercantil II",
+        "Derecho Laboral"
+      ],
+      "Quinto Cuatrimestre": [
+        "Derecho Procesal Familiar",
+        "Derecho Procesal Penal",
+        "Derecho Procesal Laboral",
+        "Optativa I",
+        "Optativa II"
+      ],
+      "Sexto Cuatrimestre": [
+        "Derecho Fiscal",
+        "Derecho Procesal Civil I",
+        "Cultura Financiera",
+        "Optativa III",
+        "Optativa IV"
+      ],
+      "Séptimo Cuatrimestre": [
+        "Derecho Procesal Fiscal",
+        "Derecho Procesal Civil II",
+        "Técnicas y Destrezas en Juicios Orales",
+        "Optativa V",
+        "Optativa VI"
+      ],
+      "Octavo Cuatrimestre": [
+        "Derecho de Amparo",
+        "Derecho Agrario",
+        "Argumentación Jurídica",
+        "Optativa VII",
+        "Optativa VIII"
+      ],
+      "Noveno Cuatrimestre": [
+        "Seminario de Investigación"
+      ]
+    },
+    "certificados": [
+      {
+        "nombre": "Derecho Corporativo",
+        "descripcion": "Este certificado amplía tu campo laboral en organismos internacionales, embajadas, consulados y empresas nacionales e internacionales, dotándote de herramientas clave para la protección patrimonial y contractual de las organizaciones.",
+        "materias": [
+          "Derecho Corporativo",
+          "Derecho Mercantil",
+          "Régimen Fiscal de Empresas",
+          "Contratos Mercantiles Internacionales"
+        ]
+      },
+      {
+        "nombre": "Administración Jurídica",
+        "descripcion": "Este certificado fortalece tu desarrollo en la Administración Pública Federal o Estatal y en organismos jurídicos como tribunales, congresos, ayuntamientos y la Suprema Corte de Justicia.",
+        "materias": [
+          "Administración Jurídica",
+          "Derecho Administrativo",
+          "Políticas Públicas",
+          "Gestión Gubernamental"
+        ]
+      },
+      {
+        "nombre": "Certificado de Egreso en Formación Jurídica Integral",
+        "descripcion": "Al concluir la carrera ejecutiva en Derecho, recibirás un Certificado de Egreso que acredita tu formación y competencias jurídicas, fortaleciendo tus oportunidades profesionales a nivel nacional e internacional.",
+        "materias": [
+          "Técnicas y Destrezas en Juicios Orales",
+          "Argumentación Jurídica",
+          "Derecho de Amparo",
+          "Seminario de Investigación"
+        ]
+      }
+    ],
+    "lineasInvestigacion": [
+      "Administración",
+      "Derecho Privado",
+      "Derecho Público",
+      "Herramientas Digitales",
+      "Gestión Estratégica",
+      "Ciencias Sociales",
+      "Derecho Social"
+    ]
+  },
+  "administracion-de-negocios-internacionales-ejecutiva": {
+    "id": "LANI",
+    "name": "Licenciatura Ejecutiva en Administración de Negocios Internacionales",
+    "shortName": "Negocios Internacionales",
+    "slug": "administracion-de-negocios-internacionales-ejecutiva",
+    "aliases": [
+      "negocios-internacionales",
+      "lani"
+    ],
+    "tagline": "Haz de tu estrategia global una ganancia nacional",
+    "rvoe": "RVOE 2020P02856 / 2020-01-29",
+    "modalidad": "Mixta / Semipresencial",
+    "duracion": "2 Años 8 Meses (8 Cuatrimestres)",
+    "ciclo": "Ciclo de 16 semanas por cuatrimestre",
+    "creditos": 300,
+    "horasDocente": 960,
+    "horasIndependientes": 3840,
+    "descripcion": "La Licenciatura Ejecutiva en Administración de Negocios Internacionales forma líderes capaces de diseñar e implementar estrategias de expansión global, optimización de cadenas de suministro y negociación intercultural. Este programa combina el rigor de la gestión financiera y administrativa con la visión estratégica de los tratados y mercados comerciales mundiales.",
+    "perfilEgreso": {
+      "general": "Formación integral en administración, contabilidad, finanzas, mercadotecnia y negocios internacionales para competir en la implementación, gestión y desarrollo de negocios globales.",
+      "conocimientos": [
+        "Gestión empresarial, administrativa, contable y financiera en corporaciones internacionales.",
+        "Estrategias de mercadotecnia y penetración en mercados internacionales de alta competitividad.",
+        "Régimen legal, aduanero y tratados internacionales de comercio exterior.",
+        "Administración de cadenas de suministro, logística multimodal y negocios electrónicos."
+      ],
+      "habilidades": [
+        "Diseñar y ejecutar modelos y estrategias de negocios globales rentables.",
+        "Negociación estratégica directiva en entornos multiculturales.",
+        "Evaluación integral de proyectos de inversión y gestión de flujos de capital internacional.",
+        "Optimización de operaciones aduaneras y logísticas transfronterizas."
+      ],
+      "actitudes": [
+        "Liderazgo con visión global y compromiso ético.",
+        "Proactividad ante la dinámica y volatilidad de los mercados financieros y comerciales.",
+        "Responsabilidad social, adaptabilidad cultural y sustentabilidad."
+      ],
+      "destrezas": [
+        "Toma de decisiones ejecutivas en operaciones comerciales internacionales.",
+        "Análisis cuantitativo de riesgos de mercado, divisas y regulaciones arancelarias."
+      ]
+    },
+    "perfilIngreso": {
+      "general": "Profesionales activos y egresados de bachillerato con interés en liderar proyectos de internacionalización comercial, operaciones de logística global y expansión empresarial.",
+      "requisitos": [
+        "Certificado total de Bachillerato o su equivalente.",
+        "+21 años de edad.",
+        "Interés en el comercio global, tratados comerciales e idiomas."
+      ],
+      "habilidades": [
+        "Pensamiento analítico, estratégico y facilidad para el razonamiento cuantitativo.",
+        "Habilidad de negociación, comunicación asertiva y relaciones interpersonales.",
+        "Interés por diplomacia comercial y diversidad cultural."
+      ]
+    },
+    "mercadoLaboral": {
+      "descripcion": "Los egresados cuentan con un perfil altamente demandado en corporativos transnacionales, agencias aduanales y cámaras empresariales.",
+      "sectores": [
+        "Gestión empresarial internacional y dirección de corporativos transnacionales",
+        "Dirección de áreas comerciales de empresas nacionales e internacionales",
+        "Capacitación y consultoría estratégica de negocios internacionales",
+        "Administración de cadenas de suministro y logística internacional multimodal",
+        "Desarrollo de nuevos negocios y alianzas corporativas globales",
+        "Dirección en organismos públicos, cámaras y asociaciones promotoras de comercio e inversión extranjera",
+        "Diseñador de modelos de negocios internacionales y e-commerce transfronterizo",
+        "Docencia e investigación en instituciones de educación superior"
+      ]
+    },
+    "planEstudios": {
+      "Primer Cuatrimestre": [
+        "Metodología de la Investigación",
+        "Matemáticas Básicas",
+        "Introducción al Derecho",
+        "Administración Básica",
+        "Contabilidad Básica"
+      ],
+      "Segundo Cuatrimestre": [
+        "Microeconomía",
+        "Computación",
+        "Derecho Mercantil",
+        "Mercadotecnia Básica",
+        "Contabilidad Financiera"
+      ],
+      "Tercer Cuatrimestre": [
+        "Macroeconomía",
+        "Comportamiento Organizacional",
+        "Desarrollo Humano y Valores",
+        "Fundamentos de Administración Financiera",
+        "Estadística Descriptiva e Inferencial"
+      ],
+      "Cuarto Cuatrimestre": [
+        "Comercio Internacional",
+        "Calidad en las Organizaciones",
+        "Investigación de Mercados",
+        "Derecho Laboral",
+        "Contabilidad de Costos"
+      ],
+      "Quinto Cuatrimestre": [
+        "Régimen Jurídico del Comercio Exterior",
+        "Investigación de Operaciones",
+        "Administración Estratégica",
+        "Presupuestos",
+        "Optativa I",
+        "Optativa II"
+      ],
+      "Sexto Cuatrimestre": [
+        "Administración de Ventas",
+        "Cultura Financiera",
+        "Logística Empresarial",
+        "Negocios Internacionales",
+        "Optativa III",
+        "Optativa IV"
+      ],
+      "Séptimo Cuatrimestre": [
+        "Análisis de Mercados Internacionales",
+        "Finanzas Internacionales",
+        "Contratos Internacionales",
+        "Negocios Electrónicos",
+        "Optativa V",
+        "Optativa VI"
+      ],
+      "Octavo Cuatrimestre": [
+        "Estrategias de Mercadotecnia",
+        "Evaluación de Proyectos de Inversión",
+        "Normatividad y Certificación",
+        "Optativa VII",
+        "Optativa VIII"
+      ]
+    },
+    "certificados": [
+      {
+        "nombre": "Recursos Humanos",
+        "descripcion": "Este certificado te permitirá reclutar, seleccionar y contratar talento, además de desarrollar estrategias que impulsen el compromiso, desempeño y productividad del personal.",
+        "materias": [
+          "Administración de Recursos Humanos",
+          "Comportamiento Organizacional",
+          "Desarrollo Organizacional",
+          "Relaciones Laborales"
+        ]
+      },
+      {
+        "nombre": "Finanzas y Negocios",
+        "descripcion": "Este certificado te permitirá analizar la situación financiera de un negocio, gestionar flujo de efectivo, financiamiento y utilidades, y evaluar oportunidades de inversión que incrementen su valor.",
+        "materias": [
+          "Sistema Financiero Mexicano",
+          "Finanzas Corporativas",
+          "Seminario Integrador de Finanzas",
+          "Seminario Integrador de la Administración",
+          "Planeación y Desarrollo de Empresas Multinacionales",
+          "Negocios Internacionales",
+          "Habilidades y Estrategias de Negociación",
+          "Seminario de Investigación"
+        ]
+      }
+    ],
+    "lineasInvestigacion": [
+      "Capital",
+      "Emprendedores",
+      "Recursos Administrativos",
+      "Liderazgo Empresarial",
+      "Desarrollo Organizacional",
+      "Relaciones Humanas"
+    ]
+  },
+  "administracion-y-mercadotecnia-ejecutiva": {
+    "id": "LAM",
+    "name": "Licenciatura Ejecutiva en Administración y Mercadotecnia",
+    "shortName": "Administración y Mercadotecnia",
+    "slug": "administracion-y-mercadotecnia-ejecutiva",
+    "aliases": [
+      "administracion-mercadotecnia",
+      "lam"
+    ],
+    "tagline": "Haz de tu planeación un posicionamiento productivo",
+    "rvoe": "RVOE 2020P02855 / 2020-01-29",
+    "modalidad": "Mixta / Semipresencial",
+    "duracion": "3 Años (9 Cuatrimestres)",
+    "ciclo": "Ciclo de 16 semanas por cuatrimestre",
+    "creditos": 338,
+    "horasDocente": 1012,
+    "horasIndependientes": 4396,
+    "descripcion": "La Licenciatura Ejecutiva en Administración y Mercadotecnia articula la visión corporativa y directiva con la fuerza de la mercadotecnia, el posicionamiento y la lealtad de marca. Capacita para identificar nichos rentables de negocio y dirigir con éxito campañas comerciales y de comunicación en escenarios físicos y digitales.",
+    "perfilEgreso": {
+      "general": "Contarás con formación teórico-práctica para competir en mercados globales y desempeñarte en organizaciones públicas o privadas. Podrás diseñar estrategias que fortalezcan la lealtad y el posicionamiento, además de identificar oportunidades de negocio mediante funciones de planeación, organización, dirección y control.",
+      "conocimientos": [
+        "Gestión directiva integral: planeación, organización, dirección estratégica y control de recursos.",
+        "Investigación de mercados, comportamiento del consumidor y analítica comercial.",
+        "Estrategias de branding, precio-producto, distribución y merchandising.",
+        "Publicidad, relaciones públicas y desarrollo de campañas multicanal."
+      ],
+      "habilidades": [
+        "Diseñar e implementar estrategias de mercadotecnia comercial y corporativa.",
+        "Liderazgo de fuerzas comerciales y equipos multidisciplinarios.",
+        "Negociación directiva, presupuestación y control de costos.",
+        "Desarrollo y lanzamiento de nuevos modelos de negocio."
+      ],
+      "actitudes": [
+        "Creatividad, proactividad e innovación en la gestión de marcas.",
+        "Compromiso ético con la satisfacción del cliente y la rentabilidad empresarial.",
+        "Pensamiento estratégico orientado al logro de objetivos y adaptación al cambio."
+      ],
+      "destrezas": [
+        "Gestión ágil de herramientas digitales y análisis de métricas de mercado.",
+        "Comunicación persuasiva y presentación ejecutiva de proyectos corporativos."
+      ]
+    },
+    "perfilIngreso": {
+      "general": "Profesionales y egresados de bachillerato con perfil proactivo y creativo, interesados en liderar la gestión comercial, ventas, publicidad y comportamiento de mercado.",
+      "requisitos": [
+        "Certificado total de Bachillerato o su equivalente.",
+        "+21 años de edad.",
+        "Interés en administración, mercadotecnia y publicidad."
+      ],
+      "habilidades": [
+        "Creatividad aplicada y visión de negocios.",
+        "Capacidad analítica y facilidad para la toma de decisiones.",
+        "Interés por las relaciones públicas, marketing digital y ventas."
+      ]
+    },
+    "mercadoLaboral": {
+      "descripcion": "Amplias oportunidades en corporativos, agencias de publicidad, dirección comercial de empresas y consultoría estratégica.",
+      "sectores": [
+        "Gestión empresarial y gerencia de marca (Brand Manager)",
+        "Capacitación y consultoría estratégica de negocios",
+        "Dirección en organismos públicos, cámaras y asociaciones empresariales",
+        "Desarrollo de negocio y/o corporativo",
+        "Servicios financieros (banca de inversión, fondos de inversión, seguros)",
+        "Generador de estrategias de marketing y analista de mercado",
+        "Diseñador de modelos de negocio y campañas publicitarias",
+        "Content Creator, Community Manager y Estratega de Redes Sociales",
+        "Startups, Project Manager o Jefe de Cuentas en agencias",
+        "Ecommerce Manager y Customer Relationship Manager (CRM)",
+        "Consultor de mercadotecnia y Gestor de Marketing Digital",
+        "Docencia e investigación en instituciones educativas"
+      ]
+    },
+    "planEstudios": {
+      "Primer Cuatrimestre": [
+        "Metodología de la Investigación",
+        "Matemáticas Básicas",
+        "Derecho Corporativo",
+        "Administración Básica",
+        "Computación"
+      ],
+      "Segundo Cuatrimestre": [
+        "Contabilidad Básica",
+        "Microeconomía",
+        "Mercadotecnia Básica",
+        "Desarrollo Humano y Valores",
+        "Estadística Descriptiva"
+      ],
+      "Tercer Cuatrimestre": [
+        "Macroeconomía",
+        "Informática Aplicada a la Mercadotecnia",
+        "Derecho Laboral",
+        "Contabilidad de Costos",
+        "Calidad en las Organizaciones"
+      ],
+      "Cuarto Cuatrimestre": [
+        "Planeación y Control",
+        "Investigación de Mercados",
+        "Mercadotecnia de Servicios",
+        "Análisis del Consumidor",
+        "Desarrollo Organizacional"
+      ],
+      "Quinto Cuatrimestre": [
+        "Organización y Dirección Administrativa",
+        "Promoción de Ventas",
+        "Relaciones Públicas",
+        "Administración Estratégica",
+        "Optativa I",
+        "Optativa II"
+      ],
+      "Sexto Cuatrimestre": [
+        "Habilidades y Estrategias de Negociación",
+        "Distribución y Merchandising",
+        "Investigación de Operaciones",
+        "Cultura Financiera",
+        "Optativa III",
+        "Optativa IV"
+      ],
+      "Séptimo Cuatrimestre": [
+        "Seminario Integrador de la Administración",
+        "Administración de Recursos Humanos",
+        "Introducción a la Publicidad",
+        "Estrategia Precio-Producto",
+        "Optativa V",
+        "Optativa VI"
+      ],
+      "Octavo Cuatrimestre": [
+        "Negocios Internacionales",
+        "Tópicos Actuales de Mercadotecnia",
+        "Administración de Ventas",
+        "Optativa VII",
+        "Optativa VIII"
+      ],
+      "Noveno Cuatrimestre": [
+        "Seminario de Investigación"
+      ]
+    },
+    "certificados": [
+      {
+        "nombre": "Negocios Internacionales",
+        "descripcion": "Este certificado te ayudará a detectar oportunidades internacionales y diseñar planes de comercialización, logística y gestión de riesgos para negocios multinacionales.",
+        "materias": [
+          "Planeación y Desarrollo de Empresas Multinacionales",
+          "Comercio Internacional",
+          "Derecho Aduanero",
+          "Finanzas Internacionales",
+          "Análisis de Mercados Internacionales",
+          "Régimen Jurídico del Comercio Exterior"
+        ]
+      },
+      {
+        "nombre": "Publicidad",
+        "descripcion": "Este certificado te brindará herramientas para crear campañas publicitarias efectivas, generar ventajas competitivas e influir en las decisiones de compra del mercado.",
+        "materias": [
+          "Publicidad",
+          "Persuasión",
+          "Estrategias de Mercadotecnia Corporativa",
+          "Comunicación Visual para la Imagen Pública",
+          "Marco Jurídico de la Publicidad y Comunicación",
+          "Publicidad en Medios Impresos",
+          "Producción de Medios Publicitarios"
+        ]
+      }
+    ],
+    "lineasInvestigacion": [
+      "Capital",
+      "Emprendedores",
+      "Recursos Administrativos",
+      "Liderazgo Empresarial",
+      "Desarrollo Organizacional",
+      "Relaciones Humanas"
+    ]
+  },
+  "comercio-exterior-ejecutiva": {
+    "id": "LCE",
+    "name": "Licenciatura Ejecutiva en Comercio Exterior",
+    "shortName": "Comercio Exterior",
+    "slug": "comercio-exterior-ejecutiva",
+    "aliases": [
+      "comercio-exterior",
+      "lce"
+    ],
+    "tagline": "Haz de tu mercado una riqueza global",
+    "rvoe": "RVOE 2020P02858 / 2020-01-29",
+    "modalidad": "Mixta / Semipresencial",
+    "duracion": "3 Años (9 Cuatrimestres)",
+    "ciclo": "Ciclo de 16 semanas por cuatrimestre",
+    "creditos": 338,
+    "horasDocente": 1012,
+    "horasIndependientes": 4396,
+    "descripcion": "La Licenciatura Ejecutiva en Comercio Exterior forma profesionistas especializados en el marco normativo aduanero, tratados internacionales de libre comercio, logística de transporte global y estrategias de exportación. Prepara al estudiante para optimizar cadenas de valor internacionales y liderar transacciones comerciales globales con estricto rigor legal y financiero.",
+    "perfilEgreso": {
+      "general": "Contarás con conocimientos contables, financieros, económicos, administrativos, mercadológicos, legales y tecnológicos para analizar el comercio exterior y desarrollar negocios internacionales. Podrás dirigir organizaciones públicas y privadas con liderazgo y responsabilidad social, y continuar tu formación a nivel de posgrado.",
+      "conocimientos": [
+        "Marco normativo, tratados internacionales y derecho aduanero de México y sus principales socios comerciales.",
+        "Logística multimodal, empaque, embalaje, seguros y despacho arancelario.",
+        "Finanzas internacionales, tipo de cambio y formulación de precios de exportación.",
+        "Normatividad internacional de calidad y certificaciones de origen."
+      ],
+      "habilidades": [
+        "Gestión integral de operaciones aduaneras de importación y exportación.",
+        "Administración y optimización de cadenas de suministro globales.",
+        "Auditoría y cumplimiento normativo en comercio exterior.",
+        "Negociación de contratos comerciales y solución de controversias aduanales."
+      ],
+      "actitudes": [
+        "Integridad, ética profesional y apego estricto a la legislación aduanera.",
+        "Visión global y compromiso con el desarrollo económico del país.",
+        "Capacidad de resiliencia y adaptabilidad ante cambios normativos internacionales."
+      ],
+      "destrezas": [
+        "Manejo de sistemas y plataformas de gestión aduanera y comercio digital.",
+        "Clasificación arancelaria merceológica y valoración aduanera."
+      ]
+    },
+    "perfilIngreso": {
+      "general": "Personas interesadas en regulaciones internacionales, trámites aduanales, transporte multimodal y logística de comercio internacional.",
+      "requisitos": [
+        "Certificado total de Bachillerato o equivalente.",
+        "+21 años de edad.",
+        "Interés en leyes aduanales, logística y comercio global."
+      ],
+      "habilidades": [
+        "Pensamiento lógico y capacidad para la interpretación normativa.",
+        "Aptitud para el análisis financiero y cuantitativo.",
+        "Facilidad para idiomas y relaciones diplomático-comerciales."
+      ]
+    },
+    "mercadoLaboral": {
+      "descripcion": "Alta demanda en aduanas marítimas, terrestres y aéreas, terminales portuarias, agencias de despacho aduanal y empresas exportadoras.",
+      "sectores": [
+        "Gestión empresarial internacional y departamentos de tráfico y aduanas",
+        "Desarrollo de startups de logística global y comercio digital",
+        "Capacitación y consultoría en comercio internacional y derecho aduanero",
+        "Administración del área de logística y cadenas de suministro en transnacionales",
+        "Dirección en organismos públicos, puertos secos y cámaras de comercio exterior",
+        "Desarrollo de negocios internacionales y apertura de nuevos mercados",
+        "Generador de estrategias de marketing internacional",
+        "Docencia e investigación en instituciones de educación superior"
+      ]
+    },
+    "planEstudios": {
+      "Primer Cuatrimestre": [
+        "Metodología de la Investigación",
+        "Matemáticas Básicas",
+        "Administración Básica",
+        "Contabilidad Básica",
+        "Derecho Corporativo"
+      ],
+      "Segundo Cuatrimestre": [
+        "Microeconomía",
+        "Estadística Descriptiva e Inferencial",
+        "Mercadotecnia Básica",
+        "Contabilidad Financiera",
+        "Computación"
+      ],
+      "Tercer Cuatrimestre": [
+        "Macroeconomía",
+        "Comportamiento Organizacional",
+        "Desarrollo Humano y Valores",
+        "Fundamentos de Administración Financiera"
+      ],
+      "Cuarto Cuatrimestre": [
+        "Investigación de Operaciones",
+        "Calidad en las Organizaciones",
+        "Investigación de Mercados",
+        "Comercio Internacional",
+        "Negocios Electrónicos"
+      ],
+      "Quinto Cuatrimestre": [
+        "Análisis de Mercados Internacionales",
+        "Comercio Exterior y Finanzas de México",
+        "Cultura Financiera",
+        "Optativa I",
+        "Optativa II"
+      ],
+      "Sexto Cuatrimestre": [
+        "Derecho Aduanero",
+        "Desarrollo de Emprendedores",
+        "Logística Empresarial",
+        "Optativa III",
+        "Optativa IV"
+      ],
+      "Séptimo Cuatrimestre": [
+        "Normatividad y Certificación",
+        "Finanzas Internacionales",
+        "Contratos Internacionales",
+        "Optativa V",
+        "Optativa VI"
+      ],
+      "Octavo Cuatrimestre": [
+        "Administración Estratégica",
+        "Formulación y Estrategias de Precio de Exportación",
+        "Estrategias de Mercadotecnia",
+        "Seminario de Tratados Internacionales",
+        "Optativa VII",
+        "Optativa VIII"
+      ],
+      "Noveno Cuatrimestre": [
+        "Seminario de Investigación"
+      ]
+    },
+    "certificados": [
+      {
+        "nombre": "Mercadotecnia",
+        "descripcion": "Este certificado te permitirá investigar mercados, diseñar estrategias de ventas y crear campañas de posicionamiento orientadas a comprender y satisfacer las necesidades del cliente internacional.",
+        "materias": [
+          "Mercadotecnia de Servicios",
+          "Investigación de Mercados Avanzada",
+          "Relaciones Públicas",
+          "Promoción de Ventas",
+          "Mercadotecnia Internacional",
+          "Evaluación de Proyectos de Inversión"
+        ]
+      },
+      {
+        "nombre": "Finanzas y Negocios",
+        "descripcion": "Este certificado te permitirá analizar la situación financiera de un negocio, gestionar flujo de efectivo, financiamiento y utilidades, y evaluar oportunidades de inversión que incrementen su valor.",
+        "materias": [
+          "Sistema Financiero Mexicano",
+          "Finanzas Corporativas",
+          "Seminario Integrador de Finanzas",
+          "Seminario Integrador de la Administración",
+          "Planeación y Desarrollo de Empresas Multinacionales",
+          "Negocios Internacionales",
+          "Habilidades y Estrategias de Negociación",
+          "Seminario de Investigación"
+        ]
+      }
+    ],
+    "lineasInvestigacion": [
+      "Capital",
+      "Emprendedores",
+      "Recursos Administrativos",
+      "Liderazgo Empresarial",
+      "Desarrollo Organizacional",
+      "Relaciones Humanas"
+    ]
+  },
+  "gestion-empresarial-ejecutiva": {
+    "id": "LEGE",
+    "name": "Licenciatura Ejecutiva en Gestión Empresarial",
+    "shortName": "Gestión Empresarial",
+    "slug": "gestion-empresarial-ejecutiva",
+    "aliases": [
+      "gestion-empresarial",
+      "lege"
+    ],
+    "tagline": "Haz de tu actitud una difusión estratégica",
+    "rvoe": "RVOE 2020P02857 / 2020-01-29",
+    "modalidad": "Mixta / Semipresencial",
+    "duracion": "2 Años 8 Meses (8 Cuatrimestres)",
+    "ciclo": "Ciclo de 16 semanas por cuatrimestre",
+    "creditos": 300,
+    "horasDocente": 960,
+    "horasIndependientes": 3840,
+    "descripcion": "La Licenciatura Ejecutiva en Gestión Empresarial prepara profesionales orientados a la dirección estratégica, la mejora continua de procesos, el liderazgo de equipos y la innovación organizativa. Proporciona una sólida formación gerencial en finanzas, operaciones, recursos humanos y mercadotecnia para asegurar la rentabilidad de las empresas.",
+    "perfilEgreso": {
+      "general": "Contarás con formación en finanzas, recursos humanos, contabilidad, mercadotecnia y negocios internacionales para competir en organizaciones públicas y privadas, nacionales e internacionales. Podrás liderar funciones de planeación, organización, dirección y control, tomando decisiones orientadas al logro de objetivos.",
+      "conocimientos": [
+        "Dirección estratégica, modelos de calidad y reingeniería de procesos.",
+        "Finanzas corporativas, costos, presupuestos y control administrativo.",
+        "Gestión del capital humano, clima laboral y desarrollo organizacional.",
+        "Políticas públicas, administración federal/estatal y normatividad empresarial."
+      ],
+      "habilidades": [
+        "Optimización de procesos operativos y aumento de la productividad empresarial.",
+        "Toma de decisiones directivas fundamentadas en análisis de datos y KPIs.",
+        "Formulación, evaluación e implementación de proyectos de inversión.",
+        "Negociación directiva y mediación de conflictos laborales."
+      ],
+      "actitudes": [
+        "Actitud proactiva, espíritu emprendedor y orientación a la excelencia.",
+        "Responsabilidad social corporativa y ética empresarial.",
+        "Adaptabilidad y liderazgo inspirador ante transformaciones de mercado."
+      ],
+      "destrezas": [
+        "Manejo de metodologías ágiles de gestión y tableros de control directivo.",
+        "Capacidad de liderazgo situacional y toma de decisiones estratégicas."
+      ]
+    },
+    "perfilIngreso": {
+      "general": "Personas con experiencia laboral o vocación directiva que buscan escalar a posiciones gerenciales, transformar procesos e iniciar nuevos emprendimientos.",
+      "requisitos": [
+        "Certificado total de Bachillerato o su equivalente.",
+        "+21 años de edad.",
+        "Interés en dirección de empresas, optimización de recursos y procesos."
+      ],
+      "habilidades": [
+        "Liderazgo, iniciativa y capacidad de trabajo en equipo.",
+        "Pensamiento analítico y resolución estructurada de problemas.",
+        "Visión orientada a la mejora continua y logro de metas."
+      ]
+    },
+    "mercadoLaboral": {
+      "descripcion": "El egresado posee una versatilidad directiva que le permite liderar organizaciones comerciales, industriales y de servicios.",
+      "sectores": [
+        "Gestión empresarial y gerencia de operaciones en medianas y grandes empresas",
+        "Capacitación y consultoría estratégica en reingeniería de procesos y calidad",
+        "Dirección en organismos públicos, cámaras empresariales y asociaciones",
+        "Desarrollo de proyectos corporativos y nuevos modelos de negocio",
+        "Servicios financieros (banca corporativa, seguros, instituciones de crédito)",
+        "Generador de estrategias de marketing y dirección comercial",
+        "Diseñador de modelos de negocio e incubación de empresas",
+        "Docencia e investigación en instituciones de educación superior"
+      ]
+    },
+    "planEstudios": {
+      "Primer Cuatrimestre": [
+        "Metodología de la Investigación",
+        "Matemáticas Básicas",
+        "Introducción al Derecho",
+        "Administración Básica",
+        "Mercadotecnia Básica"
+      ],
+      "Segundo Cuatrimestre": [
+        "Microeconomía",
+        "Contabilidad Básica",
+        "Derecho Mercantil",
+        "Estadística Descriptiva",
+        "Computación"
+      ],
+      "Tercer Cuatrimestre": [
+        "Macroeconomía",
+        "Contabilidad de Costos",
+        "Fundamentos de Administración Financiera",
+        "Comportamiento Organizacional",
+        "Desarrollo Humano y Valores"
+      ],
+      "Cuarto Cuatrimestre": [
+        "Planeación y Control",
+        "Contabilidad Financiera",
+        "Calidad en las Organizaciones",
+        "Derecho Laboral",
+        "Economía Internacional",
+        "Lengua Extranjera IV"
+      ],
+      "Quinto Cuatrimestre": [
+        "Derecho Fiscal",
+        "Investigación de Operaciones",
+        "Presupuestos",
+        "Desarrollo Organizacional",
+        "Optativa I",
+        "Optativa II"
+      ],
+      "Sexto Cuatrimestre": [
+        "Administración de Recursos Humanos",
+        "Seminario Integrador de la Administración",
+        "Organización y Dirección Administrativa",
+        "Logística Empresarial",
+        "Optativa III",
+        "Optativa IV"
+      ],
+      "Séptimo Cuatrimestre": [
+        "Administración Estratégica",
+        "Desarrollo de Emprendedores",
+        "Cultura Financiera",
+        "Seminario de Investigación I",
+        "Optativa V",
+        "Optativa VI"
+      ],
+      "Octavo Cuatrimestre": [
+        "Administración de Recursos Humanos",
+        "Administración Pública Federal y Estatal",
+        "Políticas Públicas",
+        "Seminario de Investigación II",
+        "Optativa VII",
+        "Optativa VIII"
+      ]
+    },
+    "certificados": [
+      {
+        "nombre": "Mercadotecnia",
+        "descripcion": "Este certificado te permitirá investigar mercados, diseñar estrategias de ventas y crear campañas de posicionamiento orientadas a comprender y satisfacer las necesidades del cliente.",
+        "materias": [
+          "Mercadotecnia de Servicios",
+          "Investigación de Mercados Avanzada",
+          "Relaciones Públicas",
+          "Promoción de Ventas",
+          "Mercadotecnia Internacional",
+          "Evaluación de Proyectos de Inversión"
+        ]
+      },
+      {
+        "nombre": "Finanzas y Negocios",
+        "descripcion": "Este certificado te permitirá analizar la situación financiera de un negocio, gestionar flujo de efectivo, financiamiento y utilidades, y evaluar oportunidades de inversión que incrementen su valor.",
+        "materias": [
+          "Sistema Financiero Mexicano",
+          "Finanzas Corporativas",
+          "Seminario Integrador de Finanzas",
+          "Seminario Integrador de la Administración",
+          "Planeación y Desarrollo de Empresas Multinacionales",
+          "Negocios Internacionales",
+          "Habilidades y Estrategias de Negociación",
+          "Seminario de Investigación"
+        ]
+      }
+    ],
+    "lineasInvestigacion": [
+      "Capital",
+      "Emprendedores",
+      "Recursos Administrativos",
+      "Liderazgo Empresarial",
+      "Desarrollo Organizacional",
+      "Relaciones Humanas"
+    ]
+  },
+  "mercadotecnia-ejecutiva": {
+    "id": "LME",
+    "name": "Licenciatura Ejecutiva en Mercadotecnia",
+    "shortName": "Mercadotecnia",
+    "slug": "mercadotecnia-ejecutiva",
+    "aliases": [
+      "mercadotecnia",
+      "lme"
+    ],
+    "tagline": "Haz de tu cultura tu marca",
+    "rvoe": "RVOE 2020P02859 / 2020-01-29",
+    "modalidad": "Mixta / Semipresencial",
+    "duracion": "2 Años 8 Meses (8 Cuatrimestres)",
+    "ciclo": "Ciclo de 16 semanas por cuatrimestre",
+    "creditos": 300,
+    "horasDocente": 960,
+    "horasIndependientes": 3840,
+    "descripcion": "La Licenciatura Ejecutiva en Mercadotecnia forma expertos en el comportamiento del consumidor, analítica digital, diseño de franquicias y construcción de marcas globales. A través de metodologías ágiles y conocimiento del ecosistema publicitario, prepara al profesionista para liderar campañas comerciales omnicanal con un alto retorno de inversión.",
+    "perfilEgreso": {
+      "general": "Podrá desempeñarse en áreas administrativas de empresas públicas y privadas, comerciales, industriales o de servicios, así como ejercer de forma independiente como asesor empresarial.",
+      "conocimientos": [
+        "Investigación de mercados cualitativa, cuantitativa y analítica predictiva.",
+        "Branding, gestión de marca y diseño de identidad comercial.",
+        "Estrategias de precio-producto, distribución comercial y desarrollo de franquicias.",
+        "Mercadotecnia de servicios, mercadotecnia social y mercadotecnia política."
+      ],
+      "habilidades": [
+        "Diseño, lanzamiento y optimización de productos y servicios comerciales.",
+        "Gestión estratégica de canales de distribución y puntos de venta.",
+        "Dirección y motivación de equipos y fuerzas de ventas.",
+        "Diseño de planes de fidelización y gestión de la experiencia del cliente (CRM)."
+      ],
+      "actitudes": [
+        "Innovación continua, pensamiento creativo y enfoque a resultados comerciales.",
+        "Ética en el tratamiento de información y datos del consumidor.",
+        "Orientación a la rentabilidad, la excelencia y la satisfacción del usuario."
+      ],
+      "destrezas": [
+        "Análisis e interpretación de datos, métricas de pauta y ROI de marketing.",
+        "Comunicación persuasiva y presentación ejecutiva ante directivos."
+      ]
+    },
+    "perfilIngreso": {
+      "general": "Aspirantes apasionados por las tendencias comerciales, el marketing digital, la creatividad publicitaria y el comportamiento del consumidor.",
+      "requisitos": [
+        "Certificado total de Bachillerato o su equivalente.",
+        "+21 años de edad.",
+        "Interés en mercadotecnia, innovación comercial y canales digitales."
+      ],
+      "habilidades": [
+        "Creatividad, pensamiento reflexivo e iniciativa comercial.",
+        "Interés por el comportamiento humano y plataformas digitales.",
+        "Habilidad de comunicación y relaciones públicas."
+      ]
+    },
+    "mercadoLaboral": {
+      "descripcion": "Gran campo de acción en agencias publicitarias, áreas corporativas de marketing, comercio electrónico y consultoría independiente.",
+      "sectores": [
+        "Analista de Mercados y tendencias de consumo",
+        "Generador de estrategias de mercadotecnia comercial",
+        "Diseñador de estrategias, productos y servicios",
+        "Diseñador de campañas publicitarias y promocionales",
+        "Community Manager y Social Media Strategist profesional",
+        "Project Manager de marketing y desarrollo de producto",
+        "Ejecutivo comercial de marketing digital",
+        "E-commerce Manager y Growth Marketer",
+        "Customer Relationship Manager (CRM)",
+        "Consultor de mercadotecnia estratégica independiente",
+        "Gestor de marketing digital y branding"
+      ]
+    },
+    "planEstudios": {
+      "Primer Cuatrimestre": [
+        "Derecho Corporativo",
+        "Metodología de la Investigación",
+        "Administración Básica",
+        "Matemáticas Básicas",
+        "Contabilidad Básica"
+      ],
+      "Segundo Cuatrimestre": [
+        "Computación",
+        "Mercadotecnia Básica",
+        "Estadística Descriptiva e Inferencial",
+        "Contabilidad de Costo",
+        "Microeconomía"
+      ],
+      "Tercer Cuatrimestre": [
+        "Mercadotecnia Internacional",
+        "Análisis del Consumidor",
+        "Calidad en las Organizaciones",
+        "Mercadotecnia de Servicios",
+        "Desarrollo Humano y Valores"
+      ],
+      "Cuarto Cuatrimestre": [
+        "Derechos de Autor y Propiedad Industrial",
+        "Administración de Ventas",
+        "Promoción de Ventas",
+        "Investigación de Mercados",
+        "Informática Aplicada a la Mercadotecnia"
+      ],
+      "Quinto Cuatrimestre": [
+        "Marco Jurídico de la Publicidad y la Comunicación",
+        "Investigación de Mercados Avanzada",
+        "Cultura Financiera",
+        "Mercadotecnia Industrial",
+        "Optativa I",
+        "Optativa II"
+      ],
+      "Sexto Cuatrimestre": [
+        "Mercadotecnia Social",
+        "Desarrollo de Franquicias",
+        "Distribución y Merchandising",
+        "Mercadotecnia Comercial",
+        "Optativa III",
+        "Optativa IV"
+      ],
+      "Séptimo Cuatrimestre": [
+        "Estrategia Precio-Producto",
+        "Estrategias de Mercadotecnia Corporativa",
+        "Desarrollo de Productos y Servicios",
+        "Relaciones Públicas",
+        "Optativa V",
+        "Optativa VI"
+      ],
+      "Octavo Cuatrimestre": [
+        "Branding",
+        "Tópicos Actuales de Mercadotecnia",
+        "Mercadotecnia Política",
+        "Optativa VII",
+        "Optativa VIII"
+      ]
+    },
+    "certificados": [
+      {
+        "nombre": "Administración",
+        "descripcion": "Este certificado te permitirá planear, organizar, dirigir y controlar actividades y equipos para alcanzar los objetivos de la organización.",
+        "materias": [
+          "Comportamiento Organizacional",
+          "Administración Estratégica",
+          "Negocios Internacionales",
+          "Habilidades y Estrategias de Negociación",
+          "Administración de Recursos Humanos",
+          "Evaluación de Proyectos de Inversión",
+          "Seminario Integrador de la Administración",
+          "Taller de Ortografía, Lectura y Redacción"
+        ]
+      },
+      {
+        "nombre": "Diseño Gráfico",
+        "descripcion": "Este certificado te permitirá usar herramientas de diseño gráfico para crear soluciones visuales innovadoras que fortalezcan el posicionamiento de un negocio.",
+        "materias": [
+          "Técnicas de Representación",
+          "Tipografía",
+          "Sistemas de Impresión",
+          "Ilustración",
+          "Señalética",
+          "Diseño de Revistas Digitales",
+          "Diseño y Animación 3D",
+          "Portafolio Profesional"
+        ]
+      }
+    ],
+    "lineasInvestigacion": [
+      "Estrategias de Mercadotecnia",
+      "Desarrollo de nuevos productos",
+      "Estrategias de Promoción",
+      "Gerencia de Marca",
+      "Mercadotecnia Corporativa"
+    ]
+  },
+  "mercadotecnia-y-publicidad-ejecutiva": {
+    "id": "LEMP",
+    "name": "Licenciatura Ejecutiva en Mercadotecnia y Publicidad",
+    "shortName": "Mercadotecnia y Publicidad",
+    "slug": "mercadotecnia-y-publicidad-ejecutiva",
+    "aliases": [
+      "mercadotecnia-publicidad",
+      "lemp"
+    ],
+    "tagline": "Haz de tu actitud una difusión estratégica",
+    "rvoe": "RVOE 2020P02860 / 2020-01-29",
+    "modalidad": "Mixta / Semipresencial",
+    "duracion": "3 Años (9 Cuatrimestres)",
+    "ciclo": "Ciclo de 16 semanas por cuatrimestre",
+    "creditos": 338,
+    "horasDocente": 1012,
+    "horasIndependientes": 4396,
+    "descripcion": "La Licenciatura Ejecutiva en Mercadotecnia y Publicidad integra el pensamiento estratégico comercial con el dominio de la producción audiovisual, el guionismo y las campañas publicitarias multimedios. Prepara líderes capaces de construir marcas memorables mediante narrativas visuales persuasivas en plataformas impresas, televisivas y digitales.",
+    "perfilEgreso": {
+      "general": "Propondrás estrategias para organizaciones públicas y privadas, comerciales, industriales o de servicios. Podrás desempeñarte en la administración empresarial o de forma independiente, integrando mercadotecnia y promoción para aportar innovación y creatividad a los planes de mercado.",
+      "conocimientos": [
+        "Planificación, desarrollo y dirección de campañas publicitarias para medios impresos, televisión e internet.",
+        "Teoría de la comunicación, opinión pública, persuasión y comunicación visual para la imagen pública.",
+        "Guionismo para medios audiovisuales, producción televisiva y publicidad en medios impresos.",
+        "Marco legal de los derechos de autor, normatividad publicitaria y ética de comunicación."
+      ],
+      "habilidades": [
+        "Dirección creativa de campañas publicitarias multimedios.",
+        "Redacción persuasiva, guionismo audiovisual y producción técnica publicitaria.",
+        "Gestión de relaciones públicas y comunicación de marca corporativa.",
+        "Planificación de medios masivos y compra de espacios publicitarios estratégicos."
+      ],
+      "actitudes": [
+        "Creatividad sin límites, pensamiento crítico y sensibilidad estética.",
+        "Ética en la persuasión publicitaria y responsabilidad social con las audiencias.",
+        "Liderazgo motivador e integrador de talentos creativos y de producción."
+      ],
+      "destrezas": [
+        "Manejo de herramientas de diseño digital, producción de video/audio y pauta digital.",
+        "Capacidad de presentación persuasiva de conceptos creativos a clientes y directivos."
+      ]
+    },
+    "perfilIngreso": {
+      "general": "Aspirantes con una marcada inclinación creativa, gusto por los medios de comunicación masivos, diseño de mensajes persuasivos y estrategias promocionales.",
+      "requisitos": [
+        "Certificado total de Bachillerato o su equivalente.",
+        "+21 años de edad.",
+        "Interés en publicidad, medios de difusión masiva y mercadotecnia."
+      ],
+      "habilidades": [
+        "Pensamiento creativo, visual y facilidad de expresión oral y escrita.",
+        "Afinidad hacia los medios audiovisuales, artes gráficas y tendencias digitales.",
+        "Capacidad para el trabajo en equipo interdisciplinario."
+      ]
+    },
+    "mercadoLaboral": {
+      "descripcion": "Alta demanda en agencias de publicidad, televisoras, centrales de medios, áreas de comunicación corporativa y productoras digitales.",
+      "sectores": [
+        "Gerente de Marketing Digital y Estrategia de Medios",
+        "Digital Manager y Diseñador de Campañas",
+        "Consultor SEO y SEM para marcas comerciales",
+        "Coordinador de CRM y Lealtad de Clientes",
+        "Director de Publicidad y Centrales de Medios",
+        "Analista de mercado y tendencias socioculturales",
+        "Generador de estrategias de mercadotecnia y branding",
+        "Diseñador de productos, servicios y conceptos promocionales",
+        "Creador de ideas de negocios e innovación publicitaria",
+        "Content Creator y Community Manager",
+        "Project Manager o Jefe de Cuentas en agencias publicitarias",
+        "Ejecutivo comercial de marketing online",
+        "Ecommerce Manager y diseño de experiencia del cliente",
+        "Consultor independiente de mercadotecnia y publicidad"
+      ]
+    },
+    "planEstudios": {
+      "Primer Cuatrimestre": [
+        "Derecho Corporativo",
+        "Metodología de la Investigación",
+        "Administración Básica",
+        "Matemáticas Básicas",
+        "Contabilidad Básica"
+      ],
+      "Segundo Cuatrimestre": [
+        "Microeconomía",
+        "Desarrollo Humano y Valores",
+        "Estadística Descriptiva e Inferencial",
+        "Mercadotecnia Básica",
+        "Contabilidad de Costos"
+      ],
+      "Tercer Cuatrimestre": [
+        "Macroeconomía",
+        "Computación",
+        "Mercadotecnia de Servicios",
+        "Análisis del Consumidor",
+        "Calidad en las Organizaciones"
+      ],
+      "Cuarto Cuatrimestre": [
+        "Introducción a la Publicidad",
+        "Investigación de Mercados",
+        "Desarrollo Organizacional",
+        "Informática Aplicada a la Mercadotecnia",
+        "Distribución y Merchandising"
+      ],
+      "Quinto Cuatrimestre": [
+        "Marco Jurídico de la Publicidad y Comunicación",
+        "Publicidad",
+        "Promoción de Ventas",
+        "Relaciones Públicas",
+        "Optativa I",
+        "Optativa II"
+      ],
+      "Sexto Cuatrimestre": [
+        "Estrategias de Mercadotecnia Corporativa",
+        "Seminario de Mercadotecnia",
+        "Guionismo para Medios Audiovisuales",
+        "Branding",
+        "Optativa III",
+        "Optativa IV"
+      ],
+      "Séptimo Cuatrimestre": [
+        "Cultura Financiera",
+        "Producción de Televisión",
+        "Seminario de Campañas Publicitarias",
+        "Mercadotecnia Política",
+        "Optativa V",
+        "Optativa VI"
+      ],
+      "Octavo Cuatrimestre": [
+        "Publicidad en Medios Impresos",
+        "Producción de Medios Publicitarios",
+        "Tópicos Actuales de Mercadotecnia",
+        "Optativa VII",
+        "Optativa VIII"
+      ],
+      "Noveno Cuatrimestre": [
+        "Seminario de Investigación"
+      ]
+    },
+    "certificados": [
+      {
+        "nombre": "Comunicación",
+        "descripcion": "Este certificado te permitirá definir estrategias de comunicación para el mercado meta y desarrollar planes de comunicación corporativa que fortalezcan la coordinación interna, el prestigio y la reputación del negocio.",
+        "materias": [
+          "Técnicas de Representación",
+          "Tipografía",
+          "Sistemas de Impresión",
+          "Ilustración",
+          "Señalética",
+          "Diseño de Revistas Digitales",
+          "Diseño y Animación 3D",
+          "Portafolio Profesional",
+          "Taller de Ortografía, Lectura y Redacción"
+        ]
+      },
+      {
+        "nombre": "Diseño Gráfico",
+        "descripcion": "Este certificado te permitirá usar herramientas de diseño gráfico para crear soluciones visuales innovadoras que fortalezcan el posicionamiento de un negocio.",
+        "materias": [
+          "Persuasión",
+          "Opinión Pública",
+          "Teoría de la Comunicación",
+          "Comunicación Corporativa",
+          "Fundamentos Técnicos de Medios de Comunicación",
+          "Comunicación Intercultural",
+          "Comunicación Visual para la Imagen Pública",
+          "Taller de Ortografía, Lectura y Redacción"
+        ]
+      }
+    ],
+    "lineasInvestigacion": [
+      "Capital",
+      "Emprendedores",
+      "Recursos Administrativos",
+      "Liderazgo Empresarial",
+      "Desarrollo Organizacional",
+      "Relaciones Humanas"
+    ]
+  },
+  "administracion-de-empresas-ejecutiva": {
+    "id": "LAE",
+    "name": "Licenciatura Ejecutiva en Administración de Empresas",
+    "shortName": "Administración de Empresas",
+    "slug": "administracion-de-empresas-ejecutiva",
+    "aliases": [
+      "administracion",
+      "lae",
+      "administracion-de-empresas"
+    ],
+    "tagline": "Lidera y transforma el rumbo de las organizaciones",
+    "rvoe": "RVOE SEP 20211119",
+    "modalidad": "Mixta / Semipresencial",
+    "duracion": "3 Años (9 Cuatrimestres)",
+    "ciclo": "Ciclo de 16 semanas por cuatrimestre",
+    "creditos": 338,
+    "horasDocente": 1012,
+    "horasIndependientes": 4396,
+    "descripcion": "Forma profesionistas de excelencia con sólidas habilidades para planear, organizar, dirigir y controlar recursos estratégicos para maximizar la rentabilidad, innovación y sostenibilidad de empresas públicas y privadas en entornos dinámicos y competitivos.",
+    "perfilEgreso": {
+      "general": "El egresado cuenta con competencias integrales para liderar organizaciones, formular modelos de negocio rentables, optimizar procesos de negocio y gestionar talento humano de alto desempeño con responsabilidad ética y social.",
+      "conocimientos": [
+        "Procesos administrativos, finanzas corporativas, costos y presupuestos.",
+        "Gestión del talento humano, relaciones laborales y desarrollo organizacional.",
+        "Planeación estratégica, calidad en las organizaciones y mercadotecnia.",
+        "Marco legal corporativo, fiscal y mercantil aplicable a las empresas."
+      ],
+      "habilidades": [
+        "Dirección estratégica y liderazgo de equipos multidisciplinarios.",
+        "Toma de decisiones basada en indicadores financieros y operativos.",
+        "Negociación comercial y resolución de conflictos laborales.",
+        "Innovación de procesos operativos y modelos de negocio sostenibles."
+      ],
+      "actitudes": [
+        "Liderazgo visionario, proactivo y ético.",
+        "Compromiso con la mejora continua y el bienestar del capital humano.",
+        "Responsabilidad social y sustentabilidad empresarial."
+      ],
+      "destrezas": [
+        "Manejo de sistemas de gestión empresarial (ERP) y tableros directivos.",
+        "Capacidad analítica para el diseño y evaluación de proyectos de inversión."
+      ]
+    },
+    "perfilIngreso": {
+      "general": "Profesionales activos y egresados de bachillerato con interés en liderar proyectos empresariales, optimizar recursos y dirigir equipos de trabajo.",
+      "requisitos": [
+        "Certificado total de Bachillerato o equivalente legal.",
+        "+21 años de edad.",
+        "Interés en gestión empresarial, liderazgo y desarrollo económico."
+      ],
+      "habilidades": [
+        "Capacidad analítica, pensamiento crítico y orientación a metas.",
+        "Habilidad de comunicación interpersonal y liderazgo de grupos.",
+        "Iniciativa emprendedora y resolución de problemas prácticos."
+      ]
+    },
+    "mercadoLaboral": {
+      "descripcion": "Inserción versátil en cualquier sector productivo, tanto en corporativos consolidados como en PyMEs y emprendimientos propios.",
+      "sectores": [
+        "Dirección general y gerencias de operaciones en corporativos nacionales y multinacionales",
+        "Consultoría y asesoría de negocios independiente",
+        "Gerencia de administración, finanzas y control de gestión",
+        "Dirección y desarrollo de talento humano y cultura organizacional",
+        "Gestión y desarrollo de nuevos modelos de negocio y startups",
+        "Administración pública federal, estatal y municipal",
+        "Instituciones bancarias y fondos de inversión",
+        "Docencia e investigación en instituciones de nivel superior"
+      ]
+    },
+    "planEstudios": {
+      "Primer Cuatrimestre": [
+        "Metodología de la Investigación",
+        "Matemáticas Básicas",
+        "Introducción al Derecho",
+        "Administración Básica",
+        "Contabilidad Básica"
+      ],
+      "Segundo Cuatrimestre": [
+        "Microeconomía",
+        "Computación",
+        "Derecho Mercantil",
+        "Mercadotecnia Básica",
+        "Contabilidad Financiera"
+      ],
+      "Tercer Cuatrimestre": [
+        "Macroeconomía",
+        "Comportamiento Organizacional",
+        "Desarrollo Humano y Valores",
+        "Fundamentos de Administración Financiera",
+        "Estadística Descriptiva"
+      ],
+      "Cuarto Cuatrimestre": [
+        "Planeación y Control",
+        "Calidad en las Organizaciones",
+        "Investigación de Mercados",
+        "Derecho Laboral",
+        "Contabilidad de Costos"
+      ],
+      "Quinto Cuatrimestre": [
+        "Organización y Dirección Administrativa",
+        "Investigación de Operaciones",
+        "Administración Estratégica",
+        "Presupuestos",
+        "Optativa I",
+        "Optativa II"
+      ],
+      "Sexto Cuatrimestre": [
+        "Administración de Recursos Humanos",
+        "Cultura Financiera",
+        "Logística Empresarial",
+        "Habilidades de Negociación",
+        "Optativa III",
+        "Optativa IV"
+      ],
+      "Séptimo Cuatrimestre": [
+        "Seminario Integrador de la Administración",
+        "Finanzas Corporativas",
+        "Desarrollo Organizacional",
+        "Negocios Internacionales",
+        "Optativa V",
+        "Optativa VI"
+      ],
+      "Octavo Cuatrimestre": [
+        "Evaluación de Proyectos de Inversión",
+        "Estrategias de Mercadotecnia",
+        "Normatividad y Calidad",
+        "Optativa VII",
+        "Optativa VIII"
+      ],
+      "Noveno Cuatrimestre": [
+        "Seminario de Investigación"
+      ]
+    },
+    "certificados": [
+      {
+        "nombre": "Recursos Humanos",
+        "descripcion": "Este certificado te permitirá reclutar, seleccionar y contratar talento, además de desarrollar estrategias que impulsen el compromiso, desempeño y productividad del personal.",
+        "materias": [
+          "Administración de Recursos Humanos",
+          "Comportamiento Organizacional",
+          "Desarrollo Organizacional",
+          "Relaciones Laborales"
+        ]
+      },
+      {
+        "nombre": "Finanzas y Negocios",
+        "descripcion": "Este certificado te permitirá analizar la situación financiera de un negocio, gestionar flujo de efectivo, financiamiento y utilidades, y evaluar oportunidades de inversión que incrementen su valor.",
+        "materias": [
+          "Sistema Financiero Mexicano",
+          "Finanzas Corporativas",
+          "Seminario Integrador de Finanzas",
+          "Seminario Integrador de la Administración",
+          "Planeación y Desarrollo de Empresas Multinacionales",
+          "Negocios Internacionales"
+        ]
+      }
+    ],
+    "lineasInvestigacion": [
+      "Capital",
+      "Emprendedores",
+      "Recursos Administrativos",
+      "Liderazgo Empresarial",
+      "Desarrollo Organizacional",
+      "Relaciones Humanas"
+    ]
+  },
+  "psicologia-organizacional-ejecutiva": {
+    "id": "LPO",
+    "name": "Licenciatura Ejecutiva en Psicología Organizacional",
+    "shortName": "Psicología Organizacional",
+    "slug": "psicologia-organizacional-ejecutiva",
+    "aliases": [
+      "psicologia-organizacional",
+      "lpo",
+      "psicologia"
+    ],
+    "tagline": "Impulsa el potencial humano y el éxito de las organizaciones",
+    "rvoe": "RVOE SEP 20211127",
+    "modalidad": "Mixta / Semipresencial",
+    "duracion": "3 Años (9 Cuatrimestres)",
+    "ciclo": "Ciclo de 16 semanas por cuatrimestre",
+    "creditos": 338,
+    "horasDocente": 1012,
+    "horasIndependientes": 4396,
+    "descripcion": "Forma profesionistas especializados en el comportamiento humano en el trabajo, la cultura y clima laboral, el bienestar integral y el desarrollo del talento en organizaciones modernas y competitivas.",
+    "perfilEgreso": {
+      "general": "El Licenciado en Psicología Organizacional diseña e implementa programas de atracción, retención, evaluación y desarrollo del capital humano, mejorando la productividad y el bienestar laboral.",
+      "conocimientos": [
+        "Teorías del comportamiento humano, psicología social y dinámica de grupos en el trabajo.",
+        "Procesos de reclutamiento, selección por competencias, inducción y evaluación del desempeño.",
+        "Diagnóstico de clima organizacional, cultura corporativa y salud laboral (NOM-035).",
+        "Marco normativo laboral y relaciones obrero-patronales en México."
+      ],
+      "habilidades": [
+        "Diseño y facilitación de programas de capacitación y desarrollo de competencias.",
+        "Intervención en mediación y resolución de conflictos interpersonales y laborales.",
+        "Gestión del cambio organizacional y fomento del bienestar psicosocial.",
+        "Diseño de planes de carrera, sucesión y compensaciones estratégicas."
+      ],
+      "actitudes": [
+        "Empatía, ética intachable y respeto absoluto por la dignidad humana.",
+        "Sensibilidad hacia la diversidad, equidad e inclusión laboral.",
+        "Compromiso con la salud mental y bienestar de los colaboradores."
+      ],
+      "destrezas": [
+        "Aplicación e interpretación de pruebas psicométricas y evaluaciones 360°.",
+        "Técnicas de entrevista por competencias y dinámicas de grupo."
+      ]
+    },
+    "perfilIngreso": {
+      "general": "Aspirantes con vocación por el desarrollo humano, liderazgo de equipos, comunicación empática y gestión del talento en entornos corporativos.",
+      "requisitos": [
+        "Certificado total de Bachillerato o equivalente legal.",
+        "+21 años de edad.",
+        "Vocación de servicio e interés en el comportamiento humano en las organizaciones."
+      ],
+      "habilidades": [
+        "Escucha activa, empatía y habilidad para relacionarse con diversidad de personas.",
+        "Capacidad de observación, análisis e interpretación de conductas.",
+        "Gusto por la capacitación, el bienestar laboral y el trabajo colaborativo."
+      ]
+    },
+    "mercadoLaboral": {
+      "descripcion": "Alta inserción en departamentos de recursos humanos, consultorías de talento y bienestar laboral de corporativos y dependencias de gobierno.",
+      "sectores": [
+        "Dirección y gerencia de Recursos Humanos y Talento",
+        "Consultoría independiente en clima laboral, cultura y cumplimiento NOM-035",
+        "Atracción de talento y headhunting corporativo",
+        "Capacitación y diseño de universidades corporativas",
+        "Evaluación de desempeño, compensaciones y beneficios",
+        "Desarrollo organizacional y gestión del cambio en corporaciones multinacionales",
+        "Gestión de bienestar, salud psicosocial y ergonomía laboral",
+        "Docencia e investigación en el ámbito socio-organizacional"
+      ]
+    },
+    "planEstudios": {
+      "Primer Cuatrimestre": [
+        "Introducción a la Psicología",
+        "Metodología de la Investigación",
+        "Administración Básica",
+        "Desarrollo Humano y Valores",
+        "Computación"
+      ],
+      "Segundo Cuatrimestre": [
+        "Psicología Social",
+        "Teorías de la Personalidad",
+        "Comportamiento Organizacional",
+        "Estadística Descriptiva",
+        "Comunicación Asertiva"
+      ],
+      "Tercer Cuatrimestre": [
+        "Psicología del Trabajo",
+        "Entrevista Psicológica y Laboral",
+        "Derecho Laboral",
+        "Psicometría Organizacional",
+        "Calidad en las Organizaciones"
+      ],
+      "Cuarto Cuatrimestre": [
+        "Atracción y Selección de Talento",
+        "Evaluación del Desempeño",
+        "Capacitación y Desarrollo de Competencias",
+        "Salud y Seguridad Laboral (NOM-035)",
+        "Dinámica de Grupos"
+      ],
+      "Quinto Cuatrimestre": [
+        "Desarrollo Organizacional",
+        "Clima y Cultura Organizacional",
+        "Compensaciones y Beneficios",
+        "Investigación de Operaciones",
+        "Optativa I",
+        "Optativa II"
+      ],
+      "Sexto Cuatrimestre": [
+        "Liderazgo y Coaching Ejecutivo",
+        "Negociación y Relaciones Laborales",
+        "Gestión del Cambio Organizacional",
+        "Cultura Financiera",
+        "Optativa III",
+        "Optativa IV"
+      ],
+      "Séptimo Cuatrimestre": [
+        "Seminario Integrador de Recursos Humanos",
+        "Responsabilidad Social Corporativa",
+        "Planes de Carrera y Sucesión",
+        "Optativa V",
+        "Optativa VI"
+      ],
+      "Octavo Cuatrimestre": [
+        "Estrategias Directivas de Talento",
+        "Auditoría de Recursos Humanos",
+        "Ética y Deontología Organizacional",
+        "Optativa VII",
+        "Optativa VIII"
+      ],
+      "Noveno Cuatrimestre": [
+        "Seminario de Investigación"
+      ]
+    },
+    "certificados": [
+      {
+        "nombre": "Gestión del Talento y Clima Organizacional",
+        "descripcion": "Este certificado te facultará para diagnosticar el clima laboral, implementar protocolos de bienestar psicosocial y liderar estrategias de retención del talento humano.",
+        "materias": [
+          "Clima y Cultura Organizacional",
+          "Salud y Seguridad Laboral (NOM-035)",
+          "Liderazgo y Coaching Ejecutivo",
+          "Desarrollo Organizacional"
+        ]
+      },
+      {
+        "nombre": "Administración",
+        "descripcion": "Este certificado te permitirá planear, organizar, dirigir y controlar actividades y equipos para alcanzar los objetivos de la organización.",
+        "materias": [
+          "Comportamiento Organizacional",
+          "Administración Estratégica",
+          "Habilidades de Negociación",
+          "Seminario Integrador de la Administración"
+        ]
+      }
+    ],
+    "lineasInvestigacion": [
+      "Capital Humano",
+      "Desarrollo Organizacional",
+      "Liderazgo Empresarial",
+      "Salud y Bienestar Laboral",
+      "Relaciones Humanas"
+    ]
+  }
+}

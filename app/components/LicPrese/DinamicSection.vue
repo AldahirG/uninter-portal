@@ -11,7 +11,7 @@ const slides = [
     title: "VIDA UNINTER",
     icon: Globe,
     text: "A través de actividades educativas, sociales, culturales, deportivas y de servicio a la comunidad, podrás adquirir una formación multicultural conviviendo con estudiantes nacionales y extranjeros. Podrás participar en viajes, congresos, conferencias, teatro, actividades altruistas y equipos deportivos, entre muchas otras cosas.",
-    image: "/images/stock/VidaUninter.jpg",
+    image: "/images/heroMobile/8.jpg",
   },
   {
     id: 2,
@@ -160,6 +160,8 @@ const modules = [Autoplay, Pagination];
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  -o-object-position: right center;
+  object-position: right center;
   width: 100%;
 }
 .info-card__content {

@@ -491,7 +491,7 @@ function scrollTo(id: string) {
           Nuestra metodología
         </p>
         <h2 class="biu-title biu-title--white biu-title--center">
-          MODELO BLENDED<br /><em style="color: var(--gl)">LEARNING</em>
+          MODELO BLENDED<br /><em style="color: var(--gl)">LEARNING 4.0</em>
         </h2>
         <div class="biu-modelo__grid">
           <div

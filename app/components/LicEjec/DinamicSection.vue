@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { Globe, Users, Palette, ArrowRight } from "lucide-vue-next";
-import { Swiper, SwiperSlide } from 'swiper/vue';
-import { Autoplay, Pagination } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/pagination';
+import { Swiper, SwiperSlide } from "swiper/vue";
+import { Autoplay, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
 
 const slides = [
   {
@@ -11,7 +11,7 @@ const slides = [
     title: "VIDA UNINTER",
     icon: Globe,
     text: "A través de actividades educativas, sociales, culturales, deportivas y de servicio a la comunidad, podrás adquirir una formación multicultural conviviendo con estudiantes nacionales y extranjeros. Podrás participar en viajes, congresos, conferencias, teatro, actividades altruistas y equipos deportivos, entre muchas otras cosas.",
-    image: "/images/heroMobile/8.jpg"
+    image: "/images/heroMobile/8.jpg",
   },
   {
     id: 2,
@@ -21,19 +21,19 @@ const slides = [
     image: "/images/heroMobile/12.jpg",
     btn: {
       label: "Conoce más",
-      link: "https://universidad.uninter.edu.mx/Internacionalizaci%C3%B3n"
-    }
+      link: "https://universidad.uninter.edu.mx/Internacionalizaci%C3%B3n",
+    },
   },
   {
     id: 3,
     title: "ENLACE PROFESIONAL",
     icon: Users,
     text: "Convenios con más de 1,500 Empresas Nacionales e Internacionales para tu Desarrollo y Desempeño Profesional durante toda la licenciatura.",
-    image: "/images/heroMobile/10.jpg",
+    image: "/images/stock/Posgrados.jpg",
     btn: {
       label: "Ver convenios",
-      link: "#"
-    }
+      link: "#",
+    },
   },
   {
     id: 4,
@@ -43,10 +43,10 @@ const slides = [
       { label: "Equipo de Fútbol Americano - Legionarios", href: "#" },
       { label: "Blog de Difusión Cultural", href: "#" },
       { label: "Blog de Filarmónica", href: "#" },
-      { label: "Blog de Cheer Dance", href: "#" }
+      { label: "Blog de Cheer Dance", href: "#" },
     ],
-    image: "/images/heroMobile/11.jpg"
-  }
+    image: "/images/stock/Talleres.jpg",
+  },
 ];
 
 const modules = [Autoplay, Pagination];
@@ -72,16 +72,20 @@ const modules = [Autoplay, Pagination];
         <SwiperSlide v-for="slide in slides" :key="slide.id">
           <div class="info-card">
             <div class="info-card__img-wrapper">
-              <img :src="slide.image" :alt="slide.title" class="info-card__img" />
+              <img
+                :src="slide.image"
+                :alt="slide.title"
+                class="info-card__img"
+              />
             </div>
             <div class="info-card__content">
               <div class="info-card__icon-box">
                 <component :is="slide.icon" :size="28" />
               </div>
               <h3 class="info-card__title">{{ slide.title }}</h3>
-              
+
               <p v-if="slide.text" class="info-card__text">{{ slide.text }}</p>
-              
+
               <ul v-if="slide.links" class="info-card__links">
                 <li v-for="(link, idx) in slide.links" :key="idx">
                   <a :href="link.href" class="info-link">
@@ -131,7 +135,7 @@ const modules = [Autoplay, Pagination];
 }
 
 .uninter-section-title em {
-  color: #694E39;
+  color: #694e39;
   font-style: italic;
 }
 
@@ -165,7 +169,10 @@ const modules = [Autoplay, Pagination];
 
 .info-card__img {
   height: 100%;
+  -o-object-fit: cover;
   object-fit: cover;
+  -o-object-position: right center;
+  object-position: right center;
   width: 100%;
 }
 
@@ -250,7 +257,9 @@ const modules = [Autoplay, Pagination];
   gap: 6px;
   padding: 0.75rem 1.5rem;
   text-decoration: none;
-  transition: background-color 0.2s, transform 0.2s;
+  transition:
+    background-color 0.2s,
+    transform 0.2s;
 }
 
 .info-btn:hover {

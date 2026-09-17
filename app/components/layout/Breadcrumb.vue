@@ -17,11 +17,15 @@ const LABELS: Record<string, string> = {
   diplomados:                    "Diplomados",
   admisiones:                    "Admisiones",
   carreras:                      "Licenciaturas",
+  LicEjec:                       "Licenciaturas Ejecutivas",
+  licejec:                       "Licenciaturas Ejecutivas",
 };
 
 // Redireccionamiento especial para segmentos que no tienen página propia
 const HREF_OVERRIDES: Record<string, string> = {
   carreras: "/LicenciaturasPresenciales",
+  LicEjec: "/licenciaturasEjecutivas",
+  licejec: "/licenciaturasEjecutivas",
 };
 
 // Convierte un slug como "relaciones-internacionales" en "Relaciones Internacionales"

@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import Navbare from "~/components/navbar/Index.vue";
 import BlogsSection from "~/components/portal/Blogssection.vue";
-import FormRegister from "~/components/LicPrese/FormRegister.vue";
 import PortalFooter from "~/components/layout/Footer.vue";
+import FloatingActions from "@/components/portal/FloatingActions.vue";
 import {
   FileCheck,
   ClipboardList,
@@ -12,48 +12,51 @@ import {
   BookOpen,
 } from "lucide-vue-next";
 
-useHead({ title: "Proceso de Admisión | Licenciaturas UNINTER" });
+useHead({
+  title: "Proceso de Admisión | UNINTER",
+  script: [
+    {
+      src: "https://link.superleads.mx/js/form_embed.js",
+      defer: true,
+    },
+  ],
+});
+
+const whatsappMessage = encodeURIComponent(
+  "¡Hola! Me gustaría iniciar mi proceso de admisión en UNINTER y recibir asesoría sobre requisitos, fechas y becas disponibles.",
+);
+const whatsappUrl = `https://wa.me/527773579000?text=${whatsappMessage}`;
 
 const stats = [
   { value: "4", label: "Pasos del proceso", icon: "ClipboardList" },
   { value: "100%", label: "Validez Oficial SEP", icon: "ShieldCheck" },
-  { value: "29", label: "Licenciaturas y Posgrados", icon: "BookOpen" },
+  { value: "Todos", label: "Niveles Educativos", icon: "BookOpen" },
   { value: "40+", label: "Años de excelencia", icon: "Award" },
 ];
 
 const pasos = [
   {
     num: "01",
-    title: "Solicitud y Examen de Admisión",
-    desc: "Llena tu solicitud de admisión en línea o con ayuda de tu asesor. Agenda tu examen psicométrico y de conocimientos generales. Si posees un nivel avanzado de inglés (exento por examen de ubicación), puedes exentar esta evaluación.",
-    items: [
-      "Fotografías tamaño infantil (blanco y negro)",
-      "Pago de ficha de admisión ($450 MXN)",
-      "Copia de acta de nacimiento y certificado parcial o constancia de bachillerato",
-    ],
+    title: "Agenda una cita con tu asesor educativo",
+    desc: "Programa tu cita presencial o virtual con tu asesor educativo para recibir orientación personalizada y dar inicio a tu proceso de admisión.",
+    items: [],
   },
   {
     num: "02",
-    title: "Entrega de Resultados y Propuesta de Beca",
-    desc: "Recibe tu diagnóstico de admisión y la propuesta formal de beca académica (según tu promedio de bachillerato y tipo de escuela de procedencia).",
+    title: "Entrega de Curp del alumno e INE (Alumno o tutor)",
+    desc: "Presenta la documentación básica requerida para la integración y validación oficial de tu expediente.",
     items: [],
   },
   {
     num: "03",
-    title: "Pago de Inscripción",
-    desc: "Realiza el pago de tu inscripción y primera colegiatura en caja del campus o vía transferencia electrónica. Envía tu comprobante de pago a tu asesor asignado.",
-    items: [
-      "Acta de nacimiento (Original y 2 copias)",
-      "Certificado total de bachillerato o equivalente (Original y 2 copias)",
-      "Copia de CURP oficial",
-      "Copia de comprobante de domicilio",
-      "4 fotografías infantil (blanco y negro, papel mate)",
-    ],
+    title: "Propuesta de Beca",
+    desc: "Recibe tu diagnóstico de admisión y la propuesta formal de beca académica (según tu promedio y tipo de escuela de procedencia).",
+    items: [],
   },
   {
     num: "04",
-    title: "Requisitos Documentales Especiales",
-    desc: "Toda la documentación expedida fuera de México debe presentarse en original y copias, y contar con la apostilla oficial del estado o país de procedencia.",
+    title: "Pago de Inscripción",
+    desc: "Realiza el pago de tu inscripción y primera colegiatura en caja del campus o vía transferencia electrónica.",
     items: [],
     notes: [
       "Certificados extranjeros no son válidos sin apostilla.",
@@ -75,7 +78,7 @@ const pasos = [
         <div class="adm-hero-slide">
           <!-- Fotografía de fondo limpia -->
           <img
-            src="/images/hero/licenciaturasPresenciales.jpg"
+            src="/images/hero/admision.jpg"
             alt="Proceso de Admisión Licenciaturas UNINTER"
             class="adm-hero-slide__img"
           />
@@ -85,43 +88,22 @@ const pasos = [
 
           <div class="adm-hero-content uninter-container">
             <div class="adm-hero-inner">
-              <div class="adm-hero-eyebrow">
-                <img
-                  src="/images/hero/logo-blanco.svg"
-                  alt="UNINTER"
-                  class="adm-hero-logo-full"
-                />
-              </div>
-
-              <nav class="adm-hero__breadcrumb" aria-label="Breadcrumb">
-                <NuxtLink to="/">Inicio</NuxtLink>
-                <span>/</span>
-                <NuxtLink to="/LicenciaturasPresenciales">Licenciaturas</NuxtLink>
-                <span>/</span>
-                <span class="adm-breadcrumb-active">Admisiones</span>
-              </nav>
-
               <h1 class="adm-hero-title">
                 Proceso de<br />
                 <span class="adm-hero-title__accent">admisión</span>
               </h1>
 
               <p class="adm-hero-subtitle">
-                Te acompañamos paso a paso en tu ingreso a la Universidad. Conoce nuestras convocatorias, requisitos y becas académicas.
+                Completa tu proceso paso a paso, consulta tu beca y asegura tu
+                lugar.
               </p>
 
               <div class="adm-hero-ctas">
-                <a
-                  href="#requisitos"
-                  class="adm-btn-stacked"
-                >
+                <a href="#requisitos" class="adm-btn-stacked">
                   <FileCheck :size="22" />
                   <span>Requisitos de Admisión</span>
                 </a>
-                <a
-                  href="#registro"
-                  class="adm-btn-stacked"
-                >
+                <a href="#registro" class="adm-btn-stacked">
                   <GraduationCap :size="22" />
                   <span>Registrarse Ahora</span>
                 </a>
@@ -159,10 +141,17 @@ const pasos = [
           <div class="adm-welcome__intro">
             <div>
               <p class="adm-eyebrow">Admisiones</p>
-              <h2 class="adm-title">Comienza tu camino<br /><em>en la Universidad</em></h2>
+              <h2 class="adm-title">
+                Comienza tu admisión<br /><em>a UNINTER</em>
+              </h2>
             </div>
             <p class="adm-desc">
-              Universidad Internacional te brinda una formación de excelencia en un ambiente multicultural. El proceso de admisión es ágil y cuenta con el apoyo continuo de un asesor asignado que resolverá cualquier duda sobre requisitos, becas y revalidación de materias.
+              Universidad Internacional te brinda una formación de excelencia en
+              todos sus niveles educativos en un ambiente multicultural. El
+              proceso de admisión es ágil y cuenta con el apoyo continuo de un
+              asesor asignado que resolverá cualquier duda sobre requisitos,
+              becas y trámites de ingreso para secundaria, bachillerato,
+              licenciaturas o posgrados.
             </p>
           </div>
         </div>
@@ -170,23 +159,44 @@ const pasos = [
       <div class="adm-welcome__cards-wrap">
         <div class="uninter-container adm-welcome__cards">
           <a href="#requisitos" class="adm-wcard">
-            <div class="adm-wcard__icon"><Icon name="mdi:school-outline" size="26" /></div>
+            <div class="adm-wcard__icon">
+              <Icon name="mdi:school-outline" size="26" />
+            </div>
             <h3 class="adm-wcard__title">Admisión Presencial</h3>
-            <p class="adm-wcard__desc">Entrega de papeles en el Campus Cuernavaca y entrevista con tu asesor.</p>
+            <p class="adm-wcard__desc">
+              Entrega de papeles en el Campus Cuernavaca y entrevista con tu
+              asesor.
+            </p>
             <span class="adm-wcard__link">Ver proceso →</span>
           </a>
           <a href="#registro" class="adm-wcard">
-            <div class="adm-wcard__icon"><Icon name="mdi:laptop" size="26" /></div>
+            <div class="adm-wcard__icon">
+              <Icon name="mdi:laptop" size="26" />
+            </div>
             <h3 class="adm-wcard__title">Proceso en Línea</h3>
-            <p class="adm-wcard__desc">Completa tu registro y carga tu documentación en formato digital.</p>
+            <p class="adm-wcard__desc">
+              Completa tu registro y carga tu documentación en formato digital.
+            </p>
             <span class="adm-wcard__link">Registrarse →</span>
           </a>
-          <div class="adm-wcard adm-wcard--contact">
-            <div class="adm-wcard__icon"><Icon name="mdi:phone-outline" size="26" /></div>
+          <a
+            :href="whatsappUrl"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="adm-wcard adm-wcard--whatsapp"
+          >
+            <div class="adm-wcard__icon adm-wcard__icon--wa">
+              <Icon name="mdi:whatsapp" size="26" />
+            </div>
             <h3 class="adm-wcard__title">¿Dudas o Consultas?</h3>
-            <p class="adm-wcard__desc">777 357 9000 · 777 357 9001<br />admisiones@uninter.edu.mx</p>
-            <span class="adm-wcard__link">Lunes a Sábado</span>
-          </div>
+            <p class="adm-wcard__desc">
+              Chatea directamente con nuestro equipo de admisiones y recibe
+              asesoría inmediata para iniciar tu proceso.
+            </p>
+            <span class="adm-wcard__link adm-wcard__link--wa">
+              Iniciar en WhatsApp →
+            </span>
+          </a>
         </div>
       </div>
     </section>
@@ -195,9 +205,14 @@ const pasos = [
     <section id="requisitos" class="adm-pre">
       <div class="uninter-container">
         <div class="adm-pre__head">
-          <p class="adm-eyebrow">Paso a Paso</p>
-          <h2 class="adm-title adm-title--dark">Proceso y Requisitos de <em>Ingreso</em></h2>
-          <p class="adm-pre__sub">Sigue estas sencillas etapas para formalizar tu inscripción.</p>
+          <p class="adm-eyebrow">Proceso Presencial</p>
+          <h2 class="adm-title adm-title--dark">
+            Proceso y Requisitos de <em>Ingreso</em>
+          </h2>
+          <p class="adm-pre__sub">
+            Sigue estas 4 sencillas etapas para formalizar tu inscripción en
+            cualquier nivel educativo.
+          </p>
         </div>
 
         <div class="adm-steps">
@@ -225,22 +240,77 @@ const pasos = [
         </div>
 
         <div class="adm-pre__contact">
-          <div class="adm-contact-item"><Icon name="mdi:email-outline" size="16" /><span>admisiones@uninter.edu.mx</span></div>
-          <div class="adm-contact-item"><Icon name="mdi:phone-outline" size="16" /><span>777 357 9000 ext. 1</span></div>
-          <div class="adm-contact-item"><Icon name="mdi:clock-outline" size="16" /><span>Lun-Vie 8:00–18:00 · Sáb 9:00–13:00</span></div>
+          <div class="adm-contact-item">
+            <Icon name="mdi:email-outline" size="16" /><span
+              >admisiones@uninter.edu.mx</span
+            >
+          </div>
+          <div class="adm-contact-item">
+            <Icon name="mdi:phone-outline" size="16" /><span
+              >777 357 9000 ext. 1</span
+            >
+          </div>
+          <div class="adm-contact-item">
+            <Icon name="mdi:clock-outline" size="16" /><span
+              >Lun-Vie 8:00–18:00 · Sáb 9:00–13:00</span
+            >
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- BLOGS -->
-    <BlogsSection />
+    <!-- BLOGS (comentada temporalmente) -->
+    <!-- <BlogsSection /> -->
 
-    <!-- REGISTRO -->
-    <section id="registro">
-      <FormRegister />
+    <!-- ══════════════════════════════════════════
+         REGISTRO (FORMULARIO SUPERLEADS EXCLUSIVO DE ESTA VISTA)
+         (Cambiar el atributo src del iframe para actualizar el formulario)
+    ══════════════════════════════════════════ -->
+    <section id="registro" class="reg-section">
+      <div class="uninter-container">
+        <div class="reg-card">
+          <div class="reg-mascot-side">
+            <div class="mascot-wrap">
+              <img
+                src="/images/forms/legi-mascot.png"
+                alt="Mascota Legi UNINTER"
+                class="mascot-img"
+              />
+            </div>
+          </div>
+          <div class="reg-form-side">
+            <iframe
+              src="https://link.superleads.mx/widget/form/6Eb1HzKNQtIl2AxJZwz7"
+              style="
+                width: 100%;
+                height: 100%;
+                border: none;
+                border-radius: 4px;
+              "
+              id="inline-6Eb1HzKNQtIl2AxJZwz7"
+              data-layout="{'id':'INLINE'}"
+              data-trigger-type="alwaysShow"
+              data-trigger-value=""
+              data-activation-type="alwaysActivated"
+              data-activation-value=""
+              data-deactivation-type="neverDeactivate"
+              data-deactivation-value=""
+              data-form-name="FormAdmisionLic"
+              data-height="1147"
+              data-layout-iframe-id="inline-6Eb1HzKNQtIl2AxJZwz7"
+              data-form-id="6Eb1HzKNQtIl2AxJZwz7"
+              data-cookie-consent="true"
+              data-cookie-consent-provider="auto"
+              title="FormAdmisionLic"
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
     </section>
 
     <PortalFooter />
+    <FloatingActions />
   </div>
 </template>
 
@@ -270,18 +340,13 @@ const pasos = [
 }
 
 .adm-hero-slide__img {
-  animation: kb-adm 14s ease-out forwards;
   height: 100%;
   inset: 0;
   -o-object-fit: cover;
   object-fit: cover;
   position: absolute;
   width: 100%;
-}
-
-@keyframes kb-adm {
-  0% { transform: scale(1); }
-  100% { transform: scale(1.06); }
+  transform: none;
 }
 
 /* ═══ CAPA DE BLUR GRADIENTE TRANSPARENTE ═══ */
@@ -298,7 +363,12 @@ const pasos = [
     rgba(0, 26, 46, 0.1) 45%,
     transparent 58%
   );
-  -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 35%, transparent 58%);
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    #000 0%,
+    #000 35%,
+    transparent 58%
+  );
   mask-image: linear-gradient(90deg, #000 0%, #000 35%, transparent 58%);
   pointer-events: none;
 }
@@ -552,7 +622,10 @@ const pasos = [
   gap: 0.875rem;
   text-decoration: none;
   box-shadow: 0 4px 16px rgba(15, 60, 97, 0.04);
-  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
   cursor: pointer;
 }
 
@@ -562,14 +635,20 @@ const pasos = [
   box-shadow: 0 14px 30px rgba(0, 132, 209, 0.12);
 }
 
-.adm-wcard--contact {
-  cursor: default;
+.adm-wcard--whatsapp:hover {
+  transform: translateY(-4px);
+  border-color: #25d366;
+  box-shadow: 0 14px 30px rgba(37, 211, 102, 0.16);
 }
 
-.adm-wcard--contact:hover {
-  transform: none;
-  border-color: #e2e8f0;
-  box-shadow: 0 4px 16px rgba(15, 60, 97, 0.04);
+.adm-wcard__icon--wa {
+  background: rgba(37, 211, 102, 0.12);
+  color: #16a34a;
+}
+
+.adm-wcard__link--wa {
+  color: #15803d;
+  font-weight: 700;
 }
 
 .adm-wcard__icon {
@@ -607,7 +686,9 @@ const pasos = [
   display: inline-flex;
   align-items: center;
   gap: 0.25rem;
-  transition: gap 0.2s ease, color 0.2s ease;
+  transition:
+    gap 0.2s ease,
+    color 0.2s ease;
 }
 
 .adm-wcard:hover .adm-wcard__link {
@@ -792,7 +873,9 @@ const pasos = [
    RESPONSIVE
 ═══════════════════════════════════════════ */
 @media (max-width: 768px) {
-  .adm-hero-section { --h: auto; }
+  .adm-hero-section {
+    --h: auto;
+  }
   .adm-hero-slide {
     min-height: clamp(440px, 65vh, 580px);
     padding: 3.5rem 0;
@@ -802,7 +885,10 @@ const pasos = [
     mask-image: none;
     background: rgba(0, 26, 46, 0.65);
   }
-  .adm-stats__inner { flex-wrap: wrap; gap: 1rem 0; }
+  .adm-stats__inner {
+    flex-wrap: wrap;
+    gap: 1rem 0;
+  }
   .adm-stat {
     flex: 1 1 50%;
     border-right: none;
@@ -816,13 +902,23 @@ const pasos = [
   .adm-stat:nth-last-child(-n + 2) {
     border-bottom: none;
   }
-  .adm-welcome__intro { grid-template-columns: 1fr; gap: 1.5rem; }
-  .adm-welcome__cards { grid-template-columns: 1fr; }
+  .adm-welcome__intro {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .adm-welcome__cards {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 480px) {
-  .adm-hero-ctas { flex-direction: column; }
-  .adm-btn-stacked, .adm-stat { justify-content: center; }
+  .adm-hero-ctas {
+    flex-direction: column;
+  }
+  .adm-btn-stacked,
+  .adm-stat {
+    justify-content: center;
+  }
   .adm-stat {
     border-bottom: 1px solid rgba(0, 178, 227, 0.2) !important;
     border-right: none !important;
@@ -831,6 +927,85 @@ const pasos = [
   }
   .adm-stat:last-child {
     border-bottom: none !important;
+  }
+}
+
+/* ═══════════════════════════════════════════
+   SECCIÓN DE REGISTRO SUPERLEADS
+═══════════════════════════════════════════ */
+.reg-section {
+  background: #eef2f6;
+  padding: 5rem 0;
+  scroll-margin-top: 80px;
+}
+.reg-card {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 24px 60px rgba(0, 59, 92, 0.12);
+  display: flex;
+  min-height: 580px;
+  overflow: hidden;
+}
+.reg-mascot-side {
+  align-items: center;
+  background: linear-gradient(145deg, #1a73e8, #003b5c);
+  display: flex;
+  flex: 0.75;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+.reg-mascot-side:before {
+  background: radial-gradient(
+    circle at 30% 70%,
+    hsla(0, 0%, 100%, 0.07) 0,
+    transparent 60%
+  );
+  content: "";
+  inset: 0;
+  position: absolute;
+}
+.mascot-wrap {
+  max-width: 300px;
+  position: relative;
+  width: 85%;
+  z-index: 1;
+}
+.mascot-img {
+  filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.35));
+  height: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+  width: 100%;
+}
+.reg-form-side {
+  flex: 1.25;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+@media (max-width: 900px) {
+  .reg-card {
+    flex-direction: column;
+  }
+  .reg-mascot-side {
+    min-height: 200px;
+    padding: 2.5rem 0;
+  }
+  .mascot-wrap {
+    width: 50%;
+  }
+  .reg-form-side {
+    padding: 2.5rem 1.75rem;
+  }
+}
+@media (max-width: 560px) {
+  .reg-section {
+    padding: 3rem 0;
+  }
+  .reg-form-side {
+    padding: 2rem 1.25rem;
   }
 }
 </style>

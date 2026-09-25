@@ -12,6 +12,9 @@ export default defineNuxtConfig({
     viewTransition: true
   },
 
+  routeRules: {
+  },
+
   app: {
     pageTransition: { name: "page", mode: "out-in" }
   },
@@ -48,6 +51,16 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       failOnError: false,
+      routes: [
+        "/conocenos/blendedflex",
+        "/admisiones",
+        "/bachillerato/admisiones",
+        "/secundaria/admisiones",
+        "/posgrados/admisiones",
+        "/diplomados/admisiones",
+        "/Prep-a",
+        "/Prep-a/admisiones",
+      ]
     }
   }
 })

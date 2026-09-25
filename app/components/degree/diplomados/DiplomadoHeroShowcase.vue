@@ -63,6 +63,20 @@ const scrollToSection = (id: string) => {
     target.scrollIntoView({ behavior: "smooth" });
   }
 };
+
+const heroImgHorizontal = computed(() => {
+  const img = props.data?.imageHorizontal;
+  if (!img) return "/images/hero/licenciaturasPresenciales.jpg";
+  if (img.startsWith("/")) return img;
+  return `/images/diplomados/WebHorizontal/${img}`;
+});
+
+const heroImgVertical = computed(() => {
+  const img = props.data?.imageVertical;
+  if (!img) return heroImgHorizontal.value;
+  if (img.startsWith("/")) return img;
+  return `/images/diplomados/WebVertical/${img}`;
+});
 </script>
 
 <template>
@@ -70,20 +84,20 @@ const scrollToSection = (id: string) => {
     <section class="degree-hero">
       <!-- FONDO RESPONSIVO -->
       <div class="degree-hero__bg">
-        <picture v-if="data?.imageHorizontal && data?.imageVertical" class="degree-hero__picture">
+        <picture v-if="data?.imageHorizontal" class="degree-hero__picture">
           <source
             media="(max-width: 768px)"
-            :srcset="encodeURI(`/images/WebVertical/${data.imageVertical}`)"
+            :srcset="encodeURI(heroImgVertical)"
           />
           <img
-            :src="encodeURI(`/images/WebHorizontal/${data.imageHorizontal}`)"
+            :src="encodeURI(heroImgHorizontal)"
             :alt="data.name"
             class="degree-hero__img"
           />
         </picture>
         <img
           v-else
-          :src="encodeURI(`/images/hero/licenciaturasPresenciales.jpg`)"
+          :src="encodeURI('/images/hero/licenciaturasPresenciales.jpg')"
           :alt="data?.name"
           class="degree-hero__img"
         />
@@ -235,7 +249,7 @@ const scrollToSection = (id: string) => {
 .degree-hero__img {
   height: 100%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center bottom;
   width: 100%;
 }
 
@@ -466,6 +480,9 @@ const scrollToSection = (id: string) => {
     min-height: clamp(500px, 85vh, 800px);
     padding-top: 5.5rem;
     padding-bottom: 3rem;
+  }
+  .degree-hero__img {
+    object-position: center bottom;
   }
   .degree-hero__overlay2 {
     background: linear-gradient(

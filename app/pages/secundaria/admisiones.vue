@@ -1,148 +1,118 @@
 <script setup lang="ts">
 import Navbare from "~/components/navbar/Index.vue";
-import BlogsSection from "~/components/portal/Blogssection.vue";
-import FormRegister from "~/components/secundaria/FormRegister.vue";
 import PortalFooter from "~/components/layout/Footer.vue";
+import FloatingActions from "@/components/portal/FloatingActions.vue";
 import {
   FileCheck,
+  ClipboardList,
   GraduationCap,
-  Atom,
+  Award,
+  ShieldCheck,
   BookOpen,
-  Languages,
-  Layers,
-  Calendar,
-  Globe2,
-  Activity,
 } from "lucide-vue-next";
 
-useHead({ title: "Proceso de Admisión | Secundaria Internacional SIU" });
+useHead({
+  title: "Proceso de Admisión Secundaria SIU | UNINTER",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Inicia tu proceso de admisión en Secundaria Internacional UNINTER (SIU). Formación bilingüe y multicultural con acompañamiento integral, validez oficial SEP y becas de ingreso.",
+    },
+  ],
+  script: [{ src: "https://link.superleads.mx/js/form_embed.js", defer: true }],
+});
+
+const whatsappMessage = encodeURIComponent(
+  "¡Hola! Me gustaría iniciar el proceso de admisión para Secundaria Internacional UNINTER (SIU) y recibir orientación sobre requisitos, fechas y becas disponibles.",
+);
+const whatsappUrl = `https://wa.me/527773579000?text=${whatsappMessage}`;
 
 const stats = [
-  { value: "Modalidades", label: "Disponibles", icon: "Layers" },
-  { value: "Años de", label: "Duración", icon: "Calendar" },
-  { value: "Enfoque", label: "Bilingüe", icon: "Globe" },
-  { value: "Actividades", label: "Extracurriculares", icon: "Activity" },
+  { value: "4", label: "Pasos del proceso", icon: "ClipboardList" },
+  { value: "100%", label: "Validez Oficial SEP", icon: "ShieldCheck" },
+  { value: "2", label: "Modalidades SIU", icon: "BookOpen" },
+  { value: "40+", label: "Años de excelencia", icon: "Award" },
 ];
 
 const pasos = [
   {
     num: "01",
-    title: "Registro del Alumno",
-    desc: "Completa tu registro en línea en nuestro portal de admisiones o acude directamente a nuestro campus para asistencia presencial.",
-    items: [
-      "Llenado de solicitud de admisión de Secundaria",
-      "Programación de cita para evaluaciones",
-    ],
+    title: "Agenda una cita con tu asesor educativo",
+    desc: "Programa una cita presencial en Campus Cuernavaca o virtual con nuestro equipo de admisiones para conocer el ambiente educativo de SIU y dar inicio a tu proceso.",
+    items: [],
   },
   {
     num: "02",
-    title: "Examen de Diagnóstico y Ubicación",
-    desc: "Presenta el examen psicométrico y el diagnóstico del idioma inglés para ubicar al alumno en el nivel correspondiente (Bilingüe o Multicultural).",
+    title: "Entrega de Curp del alumno e INE (Padres o tutor)",
+    desc: "Presenta la documentación básica requerida (CURP del aspirante e identificación oficial de los padres o tutor) para la integración y validación oficial de tu expediente.",
     items: [],
   },
   {
     num: "03",
-    title: "Entrevista con la Dirección",
-    desc: "Entrevista de inducción y orientación con los padres de familia y el alumno a cargo de la Dirección de Secundaria de SIU.",
+    title: "Propuesta de Beca",
+    desc: "Recibe el diagnóstico de admisión y la propuesta formal de beca académica SIU (según el promedio de primaria y tipo de escuela de procedencia).",
     items: [],
   },
   {
     num: "04",
-    title: "Inscripción y Entrega de Expediente",
-    desc: "Formaliza tu ingreso con el pago de inscripción y primera colegiatura, y entregando tu documentación en Control Escolar.",
-    items: [
-      "Acta de Nacimiento (Original y 2 copias)",
-      "Certificado de Primaria o boleta del último grado cursado (Original y 2 copias)",
-      "Carta de buena conducta de la escuela de procedencia",
-      "Copia de CURP oficial",
-      "Copia de comprobante de domicilio reciente",
-      "Carta de no adeudo (solo si proviene de colegio privado)",
-      "4 fotografías infantil (blanco y negro, papel mate)",
+    title: "Pago de Inscripción",
+    desc: "Realiza el pago de tu inscripción y primera colegiatura en caja del campus o vía transferencia electrónica para asegurar tu lugar en SIU.",
+    items: [],
+    notes: [
+      "Certificados extranjeros no son válidos sin apostilla.",
+      "Cualquier documento en idioma distinto al español requiere traducción oficial por perito autorizado.",
     ],
   },
 ];
 </script>
 
 <template>
-  <div class="siu-adm-page">
+  <div class="adm-page">
     <Navbare />
 
     <!-- ══════════════════════════════════════════
-         HERO SECTION (68% VIEWPORT CON BLUR GRADIENTE SIU)
+         HERO SECTION SECUNDARIA SIU
     ══════════════════════════════════════════ -->
-    <div class="siu-hero-wrapper">
-      <section class="siu-hero-section">
-        <div class="siu-hero-slide">
-          <!-- Fotografía de fondo limpia de Secundaria -->
-          <img
-            src="/images/Secundaria/hero/16.jpg"
-            alt="Proceso de Admisión SIU Secundaria"
-            class="siu-hero-slide__img"
-          />
+    <div class="adm-hero-wrapper">
+      <section class="adm-hero-section">
+        <div class="adm-hero-slide">
+          <picture class="adm-hero-picture">
+            <source
+              media="(max-width: 768px)"
+              srcset="/images/Secundaria/heroMobile/3.png"
+            />
+            <img
+              src="/images/Secundaria/hero/banerSIU.png"
+              alt="Proceso de Admisión Secundaria SIU UNINTER"
+              class="adm-hero-slide__img"
+            />
+          </picture>
 
-          <!-- Capas de Contraste y Blur Idénticas a Secundaria -->
-          <div class="siu-hero-slide__overlay"></div>
-          <div class="siu-hero-slide__overlay2"></div>
+          <!-- Capa de Blur Gradiente Horizontal Transparente -->
+          <div class="adm-hero-slide__blur-overlay"></div>
 
-          <!-- Elementos decorativos flotantes -->
-          <div class="siu-hero__deco siu-hero__deco--tl" aria-hidden="true">
-            <Atom :size="34" />
-          </div>
-          <div class="siu-hero__deco siu-hero__deco--tr" aria-hidden="true">
-            <BookOpen :size="30" />
-          </div>
-          <div class="siu-hero__deco siu-hero__deco--br" aria-hidden="true">
-            <Languages :size="28" />
-          </div>
-
-          <!-- Sticker HOLA / HELLO -->
-          <div class="siu-hero__sticker siu-hero__sticker--hola" aria-hidden="true">
-            <span class="sticker-line">HOLA</span>
-            <span class="sticker-arrow">↙</span>
-            <span class="sticker-line sticker-line--en">HELLO</span>
-          </div>
-
-          <div class="siu-hero-content siu-container">
-            <div class="siu-hero-inner">
-              <div class="siu-hero-eyebrow">
-                <img
-                  src="/images/hero/logo-blanco.svg"
-                  alt="Secundaria Internacional SIU"
-                  class="siu-hero-logo-full"
-                />
-              </div>
-
-              <nav class="siu-hero__breadcrumb" aria-label="Breadcrumb">
-                <NuxtLink to="/">Inicio</NuxtLink>
-                <span>/</span>
-                <NuxtLink to="/secundaria">Secundaria</NuxtLink>
-                <span>/</span>
-                <span class="siu-breadcrumb-active">Admisiones</span>
-              </nav>
-
-              <h1 class="siu-hero-title">
+          <div class="adm-hero-content uninter-container">
+            <div class="adm-hero-inner">
+              <h1 class="adm-hero-title">
                 Proceso de<br />
-                <span class="siu-hero-title__accent">admisión</span>
+                <span class="adm-hero-title__accent">admisión SIU</span>
               </h1>
 
-              <p class="siu-hero-subtitle">
-                Formación bilingüe y multicultural para tus hijos. Te apoyamos y asesoramos en cada paso de su ingreso a SIU.
+              <p class="adm-hero-subtitle">
+                Secundaria Internacional UNINTER: educación bilingüe y
+                multicultural centrada en valores y excelencia. Completa tu
+                proceso paso a paso y asegura tu lugar.
               </p>
 
-              <div class="siu-hero-ctas">
-                <a
-                  href="#requisitos"
-                  class="siu-btn-stacked"
-                >
+              <div class="adm-hero-ctas">
+                <a href="#requisitos" class="adm-btn-stacked">
                   <FileCheck :size="22" />
-                  <span>Requisitos SIU</span>
+                  <span>Requisitos de Admisión</span>
                 </a>
-                <a
-                  href="#registro"
-                  class="siu-btn-stacked"
-                >
+                <a href="#registro" class="adm-btn-stacked">
                   <GraduationCap :size="22" />
-                  <span>Inscríbete Ahora</span>
+                  <span>Registrarse Ahora</span>
                 </a>
               </div>
             </div>
@@ -150,27 +120,19 @@ const pasos = [
         </div>
       </section>
 
-      <!-- BARRA DE ESTADÍSTICAS (LIQUID GLASS BAR SIU) -->
-      <div class="siu-hero__stats-bar">
-        <div class="siu-container siu-hero__stats-inner">
-          <div v-for="stat in stats" :key="stat.label" class="siu-stat">
-            <div class="siu-stat__icon">
-              <component
-                :is="
-                  stat.icon === 'Layers'
-                    ? Layers
-                    : stat.icon === 'Calendar'
-                      ? Calendar
-                      : stat.icon === 'Globe'
-                        ? Globe2
-                        : Activity
-                "
-                :size="28"
-              />
+      <!-- BARRA DE ESTADÍSTICAS (LIQUID GLASS BAR CON ACENTO ÁMBAR SIU) -->
+      <div class="adm-stats-bar">
+        <div class="uninter-container adm-stats__inner">
+          <div v-for="stat in stats" :key="stat.label" class="adm-stat">
+            <div class="adm-stat__icon">
+              <ClipboardList v-if="stat.icon === 'ClipboardList'" :size="28" />
+              <ShieldCheck v-else-if="stat.icon === 'ShieldCheck'" :size="28" />
+              <BookOpen v-else-if="stat.icon === 'BookOpen'" :size="28" />
+              <Award v-else-if="stat.icon === 'Award'" :size="28" />
             </div>
-            <div class="siu-stat__text">
-              <span class="siu-stat__value">{{ stat.value }}</span>
-              <span class="siu-stat__label">{{ stat.label }}</span>
+            <div class="adm-stat__text">
+              <span class="adm-stat__value">{{ stat.value }}</span>
+              <span class="adm-stat__label">{{ stat.label }}</span>
             </div>
           </div>
         </div>
@@ -178,122 +140,202 @@ const pasos = [
     </div>
 
     <!-- ══════════════════════════════════════════
-         BIENVENIDA (FONDO BLANCO / CARDS BLANCAS)
+         BIENVENIDA
     ══════════════════════════════════════════ -->
-    <section class="siu-welcome">
-      <div class="siu-welcome__top">
-        <div class="siu-container">
-          <div class="siu-welcome__intro">
+    <section class="adm-welcome">
+      <div class="adm-welcome__top">
+        <div class="uninter-container">
+          <div class="adm-welcome__intro">
             <div>
-              <p class="siu-eyebrow">Admisiones SIU</p>
-              <h2 class="siu-title">Un ambiente óptimo<br /><em>para tus hijos</em></h2>
+              <p class="adm-eyebrow">Admisiones Secundaria</p>
+              <h2 class="adm-title">
+                Comienza tu admisión<br /><em>a Secundaria SIU</em>
+              </h2>
             </div>
-            <p class="siu-desc">
-              La Secundaria Internacional SIU ofrece un modelo académico innovador centrado en valores y el dominio de idiomas. Recibe el soporte de nuestros asesores en cada trámite del proceso de incorporación.
+            <p class="adm-desc">
+              Secundaria Internacional UNINTER ofrece a tus hijos un entorno
+              seguro, multicultural y con alta exigencia académica en sus
+              modalidades Bilingüe y Multicultural. Nuestro equipo de asesores
+              te acompañará en cada fase para resolver dudas sobre requisitos,
+              becas y fechas de ingreso.
             </p>
           </div>
         </div>
       </div>
-      <div class="siu-welcome__cards-wrap">
-        <div class="siu-container siu-welcome__cards">
-          <a href="#requisitos" class="siu-wcard">
-            <div class="siu-wcard__icon"><Icon name="mdi:school-outline" size="26" /></div>
-            <h3 class="siu-wcard__title">Proceso Físico</h3>
-            <p class="siu-wcard__desc">Agenda una cita guiada en el campus y conoce nuestro laboratorio de idiomas.</p>
-            <span class="siu-wcard__link">Ver proceso →</span>
+      <div class="adm-welcome__cards-wrap">
+        <div class="uninter-container adm-welcome__cards">
+          <a href="#requisitos" class="adm-wcard">
+            <div class="adm-wcard__icon">
+              <Icon name="mdi:school-outline" size="26" />
+            </div>
+            <h3 class="adm-wcard__title">Admisión Presencial</h3>
+            <p class="adm-wcard__desc">
+              Visita nuestro campus en Cuernavaca, conoce las instalaciones con
+              tu familia y entrega tu documentación.
+            </p>
+            <span class="adm-wcard__link">Ver proceso →</span>
           </a>
-          <a href="#registro" class="siu-wcard">
-            <div class="siu-wcard__icon"><Icon name="mdi:laptop" size="26" /></div>
-            <h3 class="siu-wcard__title">Registro Digital</h3>
-            <p class="siu-wcard__desc">Llena el formulario de registro y agenda tus evaluaciones diagnósticas.</p>
-            <span class="siu-wcard__link">Registrarse →</span>
+          <a href="#registro" class="adm-wcard">
+            <div class="adm-wcard__icon">
+              <Icon name="mdi:laptop" size="26" />
+            </div>
+            <h3 class="adm-wcard__title">Proceso en Línea</h3>
+            <p class="adm-wcard__desc">
+              Completa el pre-registro digital en unos minutos y un asesor se
+              comunicará contigo de inmediato.
+            </p>
+            <span class="adm-wcard__link">Registrarse →</span>
           </a>
-          <div class="siu-wcard siu-wcard--contact">
-            <div class="siu-wcard__icon"><Icon name="mdi:phone-outline" size="26" /></div>
-            <h3 class="siu-wcard__title">Contacto SIU</h3>
-            <p class="siu-wcard__desc">777 357 9000 ext. 3<br />admisiones@uninter.edu.mx</p>
-            <span class="siu-wcard__link">Lunes a Sábado</span>
-          </div>
+          <a
+            :href="whatsappUrl"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="adm-wcard adm-wcard--whatsapp"
+          >
+            <div class="adm-wcard__icon adm-wcard__icon--wa">
+              <Icon name="mdi:whatsapp" size="26" />
+            </div>
+            <h3 class="adm-wcard__title">¿Dudas sobre SIU?</h3>
+            <p class="adm-wcard__desc">
+              Comunícate por WhatsApp con el equipo de admisiones de Secundaria
+              y recibe atención personalizada.
+            </p>
+            <span class="adm-wcard__link adm-wcard__link--wa">
+              Iniciar en WhatsApp →
+            </span>
+          </a>
         </div>
       </div>
     </section>
 
     <!-- PASOS & REQUISITOS -->
-    <section id="requisitos" class="siu-pre">
-      <div class="siu-container">
-        <div class="siu-pre__head">
-          <p class="siu-eyebrow">Etapas</p>
-          <h2 class="siu-title siu-title--dark">Etapas de Ingreso a <em>Secundaria</em></h2>
-          <p class="siu-pre__sub">Sigue estos sencillos pasos para formar parte de la comunidad SIU.</p>
+    <section id="requisitos" class="adm-pre">
+      <div class="uninter-container">
+        <div class="adm-pre__head">
+          <p class="adm-eyebrow">Etapas de Ingreso</p>
+          <h2 class="adm-title adm-title--dark">
+            Proceso y Requisitos de <em>Secundaria</em>
+          </h2>
+          <p class="adm-pre__sub">
+            Sigue estas 4 etapas sencillas para formalizar la inscripción en SIU
+            Bilingüe o SIU Multicultural.
+          </p>
         </div>
 
-        <div class="siu-steps">
-          <div v-for="(paso, i) in pasos" :key="paso.num" class="siu-step">
-            <div class="siu-step__aside">
-              <div class="siu-step__num">{{ paso.num }}</div>
-              <div v-if="i < pasos.length - 1" class="siu-step__line"></div>
+        <div class="adm-steps">
+          <div v-for="(paso, i) in pasos" :key="paso.num" class="adm-step">
+            <div class="adm-step__aside">
+              <div class="adm-step__num">{{ paso.num }}</div>
+              <div v-if="i < pasos.length - 1" class="adm-step__line"></div>
             </div>
-            <div class="siu-step__body">
-              <h3 class="siu-step__title">{{ paso.title }}</h3>
-              <p class="siu-step__desc">{{ paso.desc }}</p>
-              <ul v-if="paso.items.length" class="siu-step__list">
+            <div class="adm-step__body">
+              <h3 class="adm-step__title">{{ paso.title }}</h3>
+              <p class="adm-step__desc">{{ paso.desc }}</p>
+              <ul v-if="paso.items.length" class="adm-step__list">
                 <li v-for="item in paso.items" :key="item">
-                  <span class="siu-step__dot"></span>{{ item }}
+                  <span class="adm-step__dot"></span>{{ item }}
                 </li>
               </ul>
+              <div v-if="paso.notes?.length" class="adm-step__notebox">
+                <p class="adm-step__note-label">Notas importantes:</p>
+                <ol>
+                  <li v-for="note in paso.notes" :key="note">{{ note }}</li>
+                </ol>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="siu-pre__contact">
-          <div class="siu-contact-item"><Icon name="mdi:email-outline" size="16" /><span>siu@uninter.edu.mx</span></div>
-          <div class="siu-contact-item"><Icon name="mdi:phone-outline" size="16" /><span>777 357 9000 ext. 3</span></div>
-          <div class="siu-contact-item"><Icon name="mdi:clock-outline" size="16" /><span>Lun-Vie 8:00–18:00 · Sáb 9:00–13:00</span></div>
+        <div class="adm-pre__contact">
+          <div class="adm-contact-item">
+            <Icon name="mdi:email-outline" size="16" /><span
+              >admisiones@uninter.edu.mx</span
+            >
+          </div>
+          <div class="adm-contact-item">
+            <Icon name="mdi:phone-outline" size="16" /><span
+              >777 357 9000 ext. 1</span
+            >
+          </div>
+          <div class="adm-contact-item">
+            <Icon name="mdi:clock-outline" size="16" /><span
+              >Lun-Vie 8:00–18:00 · Sáb 9:00–13:00</span
+            >
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- BLOGS -->
-    <BlogsSection />
-
-    <!-- REGISTRO -->
-    <section id="registro">
-      <FormRegister />
+    <!-- ══════════════════════════════════════════
+         REGISTRO (FORMULARIO SUPERLEADS EXCLUSIVO SECUNDARIA SIU)
+         (Cambiar el atributo src del iframe para actualizar el formulario)
+    ══════════════════════════════════════════ -->
+    <section id="registro" class="reg-section">
+      <div class="uninter-container">
+        <div class="reg-card">
+          <div class="reg-mascot-side">
+            <div class="mascot-wrap">
+              <img
+                src="/images/forms/legi-mascot.png"
+                alt="Mascota Legi UNINTER"
+                class="mascot-img"
+              />
+            </div>
+          </div>
+          <div class="reg-form-side">
+            <iframe
+              src="https://link.superleads.mx/widget/form/fHo4T0VhTSD3DAgIwgu9"
+              style="
+                width: 100%;
+                height: 100%;
+                border: none;
+                border-radius: 4px;
+              "
+              id="inline-fHo4T0VhTSD3DAgIwgu9"
+              data-layout="{'id':'INLINE'}"
+              data-trigger-type="alwaysShow"
+              data-trigger-value=""
+              data-activation-type="alwaysActivated"
+              data-activation-value=""
+              data-deactivation-type="neverDeactivate"
+              data-deactivation-value=""
+              data-form-name="FormAdmisionSiu"
+              data-height="1189"
+              data-layout-iframe-id="inline-fHo4T0VhTSD3DAgIwgu9"
+              data-form-id="fHo4T0VhTSD3DAgIwgu9"
+              data-cookie-consent="true"
+              data-cookie-consent-provider="auto"
+              title="FormAdmisionSiu"
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
     </section>
 
     <PortalFooter />
+    <FloatingActions />
   </div>
 </template>
 
 <style scoped>
-.siu-hero-wrapper {
-  --s: #ecab00;
-  --sd: #c49000;
-  --sl: #f5c842;
-  --sbg: #1a1500;
-  --sa: #fceeb5;
-  --s-blue: #00b6ec;
-  --s-blue-dark: #0091d7;
-  background-color: var(--sbg);
-}
-
-.siu-container {
+.uninter-container {
   margin: 0 auto;
   max-width: 1280px;
   padding: 0 1.5rem;
 }
 
 /* ═══════════════════════════════════════════
-   HERO SECTION SIU (68% VIEWPORT)
+   HERO SECTION (TEMA ÁMBAR / NARANJA SIU)
 ═══════════════════════════════════════════ */
-.siu-hero-section {
+.adm-hero-section {
   --h: clamp(520px, 68vh, 680px);
-  background: transparent;
+  background: #1a0f03;
   overflow: hidden;
   position: relative;
 }
 
-.siu-hero-slide {
+.adm-hero-slide {
   align-items: center;
   display: flex;
   height: var(--h);
@@ -301,184 +343,94 @@ const pasos = [
   width: 100%;
 }
 
-.siu-hero-slide__img {
-  animation: kb-siu 14s ease-out forwards;
-  height: 100%;
+.adm-hero-picture {
+  position: absolute;
   inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.adm-hero-slide__img {
+  height: 100%;
+  width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  -o-object-position: center top;
   object-position: center top;
+}
+
+/* ═══ CAPA DE BLUR GRADIENTE TRANSPARENTE CON TINTE SIU ═══ */
+.adm-hero-slide__blur-overlay {
   position: absolute;
-  width: 100%;
-}
-
-@keyframes kb-siu {
-  0% { transform: scale(1); }
-  100% { transform: scale(1.06); }
-}
-
-/* ═══ CAPAS DE CONTRASTE Y BLUR IDÉNTICAS A SECUNDARIA ═══ */
-.siu-hero-slide__overlay {
-  background: linear-gradient(180deg, #1a150066, #1a15001a 50%, #1a15001a);
   inset: 0;
-  position: absolute;
   z-index: 1;
-}
-
-.siu-hero-slide__overlay2 {
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
   background: linear-gradient(
     90deg,
-    rgba(26, 21, 0, 0.85),
-    rgba(26, 21, 0, 0.6) 30%,
-    rgba(26, 21, 0, 0.1) 45%,
+    rgba(26, 15, 3, 0.72) 0%,
+    rgba(26, 15, 3, 0.45) 30%,
+    rgba(26, 15, 3, 0.12) 48%,
     transparent 60%
   );
-  inset: 0;
-  -webkit-mask-image: linear-gradient(90deg, #000, #000 35%, transparent 55%);
-  mask-image: linear-gradient(90deg, #000, #000 35%, transparent 55%);
-  position: absolute;
-  z-index: 1;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    #000 0%,
+    #000 35%,
+    transparent 60%
+  );
+  mask-image: linear-gradient(90deg, #000 0%, #000 35%, transparent 60%);
   pointer-events: none;
 }
 
-/* Decorativos Flotantes */
-.siu-hero__deco {
-  position: absolute;
-  z-index: 2;
-  opacity: 0.14;
-  color: #ecab00;
-}
-.siu-hero__deco--tl {
-  top: 14%;
-  left: 5%;
-}
-.siu-hero__deco--tr {
-  top: 10%;
-  right: 8%;
-}
-.siu-hero__deco--br {
-  bottom: 20%;
-  right: 12%;
-}
-
-/* Sticker HOLA/HELLO */
-.siu-hero__sticker {
-  position: absolute;
-  z-index: 3;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.1rem;
-  transform: rotate(-8deg);
-  opacity: 0.88;
-}
-.siu-hero__sticker--hola {
-  top: 16%;
-  right: 28%;
-}
-.sticker-line {
-  background: #fff;
-  color: #1a1500;
-  font-size: clamp(0.9rem, 2vw, 1.2rem);
-  font-weight: 900;
-  letter-spacing: 0.08em;
-  padding: 0.25rem 0.9rem;
-  border-radius: 6px;
-  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.35);
-  line-height: 1;
-}
-.sticker-line--en {
-  background: #00a8e8;
-  color: #fff;
-}
-.sticker-arrow {
-  font-size: 1.2rem;
-  color: #fff;
-  font-weight: 900;
-  line-height: 1;
-}
-
-.siu-hero-content {
+.adm-hero-content {
   position: relative;
   width: 100%;
-  z-index: 3;
+  z-index: 2;
+  padding-top: 1.5rem;
   padding-bottom: 2rem;
 }
 
-.siu-hero-inner {
+.adm-hero-inner {
   max-width: 620px;
 }
 
-.siu-hero-logo-full {
-  filter: brightness(0) invert(1);
-  height: 46px;
-  margin-bottom: 1.25rem;
-  -o-object-fit: contain;
-  object-fit: contain;
-}
-
-.siu-hero__breadcrumb {
-  display: flex;
-  align-items: center;
-  gap: 0.45rem;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.55);
-  margin-bottom: 1rem;
-}
-
-.siu-hero__breadcrumb a {
-  color: inherit;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.siu-hero__breadcrumb a:hover {
-  color: var(--s);
-}
-
-.siu-breadcrumb-active {
-  color: var(--s);
-}
-
-.siu-hero-title {
+.adm-hero-title {
   color: #ffffff;
   font-family: var(--font-serif, Georgia, serif);
-  font-size: clamp(2.4rem, 5vw, 4rem);
+  font-size: clamp(2.2rem, 4.5vw, 3.8rem);
   font-weight: 800;
   letter-spacing: -0.02em;
-  line-height: 1.06;
+  line-height: 1.08;
   margin: 0 0 1.25rem;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-.siu-hero-title__accent {
-  color: var(--s);
+.adm-hero-title__accent {
+  color: #f59e0b;
 }
 
-.siu-hero-subtitle {
+.adm-hero-subtitle {
   color: rgba(255, 255, 255, 0.92);
-  font-size: clamp(0.95rem, 1.4vw, 1.08rem);
+  font-family: var(--font-sans, "Plus Jakarta Sans", sans-serif);
+  font-size: clamp(0.95rem, 1.3vw, 1.08rem);
   line-height: 1.65;
   margin: 0 0 2rem;
-  max-width: 520px;
+  max-width: 530px;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
 }
 
-.siu-hero-ctas {
+.adm-hero-ctas {
   display: flex;
   flex-wrap: wrap;
   gap: 0.875rem;
 }
 
-.siu-btn-stacked {
+.adm-btn-stacked {
   align-items: center;
   border-radius: 12px;
   cursor: pointer;
   display: inline-flex;
+  font-family: var(--font-sans, "Plus Jakarta Sans", sans-serif);
   font-size: 0.9rem;
   font-weight: 700;
   justify-content: center;
@@ -494,46 +446,46 @@ const pasos = [
   -webkit-backdrop-filter: blur(8px);
 }
 
-.siu-btn-stacked:hover {
-  background: rgba(5, 173, 220, 0.2);
-  border-color: #05addc;
-  color: #05addc;
+.adm-btn-stacked:hover {
+  background: rgba(245, 158, 11, 0.25);
+  border-color: #f59e0b;
+  color: #f59e0b;
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(5, 173, 220, 0.25);
+  box-shadow: 0 8px 20px rgba(245, 158, 11, 0.3);
 }
 
 /* ═══════════════════════════════════════════
-   LIQUID GLASS STATS BAR (EXACTA A /secundaria)
+   LIQUID GLASS STATS BAR (SIU AMBER GLOW)
 ═══════════════════════════════════════════ */
-.siu-hero__stats-bar {
+.adm-stats-bar {
   backdrop-filter: blur(16px) saturate(150%);
   -webkit-backdrop-filter: blur(16px) saturate(150%);
   background-attachment: fixed;
-  background-color: #1a1500d9;
+  background-color: #1a0f03f2;
   background-image: radial-gradient(
     circle at 50% 50%,
-    rgba(255, 206, 82, 0.15) 0,
+    rgba(245, 158, 11, 0.22) 0,
     transparent 60%
   );
   background-position: 50%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-  border-top: 1px solid rgba(255, 206, 82, 0.3);
+  border-top: 1px solid rgba(245, 158, 11, 0.35);
   box-shadow: 0 4px 30px #00000080;
-  padding: 1.5rem 0;
+  padding: 1.35rem 0;
   position: relative;
+  z-index: 10;
 }
 
-.siu-hero__stats-inner {
+.adm-stats__inner {
   align-items: center;
   display: flex;
   justify-content: space-between;
   position: relative;
-  z-index: 2;
 }
 
-.siu-stat {
+.adm-stat {
   align-items: center;
-  border-right: 1px solid rgba(255, 206, 82, 0.3);
+  border-right: 1px solid rgba(245, 158, 11, 0.3);
   display: flex;
   flex: 1;
   flex-direction: row;
@@ -542,100 +494,117 @@ const pasos = [
   padding: 0 1.5rem;
 }
 
-.siu-stat:last-child {
+.adm-stat:last-child {
   border-right: none;
 }
 
-.siu-stat__icon {
+.adm-stat__icon {
   align-items: center;
-  color: var(--s);
+  color: #f59e0b;
   display: flex;
   justify-content: center;
+  flex-shrink: 0;
 }
 
-.siu-stat__text {
+.adm-stat__text {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
 }
 
-.siu-stat__value {
-  color: #fff;
+.adm-stat__value {
+  color: #ffffff;
+  font-family: var(
+    --font-sans,
+    "Plus Jakarta Sans",
+    system-ui,
+    -apple-system,
+    sans-serif
+  );
   font-size: clamp(1.1rem, 1.3vw, 1.4rem);
   font-weight: 800;
   line-height: 1.2;
 }
 
-.siu-stat__label {
-  color: #fffc;
-  font-size: 0.9rem;
+.adm-stat__label {
+  color: rgba(255, 255, 255, 0.82);
+  font-family: var(
+    --font-sans,
+    "Plus Jakarta Sans",
+    system-ui,
+    -apple-system,
+    sans-serif
+  );
+  font-size: 0.88rem;
   font-weight: 500;
+  letter-spacing: normal;
+  margin-top: 0;
   text-align: left;
 }
 
 /* ═══════════════════════════════════════════
-   BIENVENIDA & TARJETAS (FONDO BLANCO / CARDS BLANCAS)
+   BIENVENIDA & TARJETAS
 ═══════════════════════════════════════════ */
-.siu-welcome {
+.adm-welcome {
   background-color: #ffffff;
   padding: 5rem 0 5.5rem;
 }
 
-.siu-welcome__top {
+.adm-welcome__top {
   margin-bottom: 3.5rem;
 }
 
-.siu-welcome__intro {
+.adm-welcome__intro {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   gap: 3.5rem;
   align-items: start;
 }
 
-.siu-eyebrow {
+.adm-eyebrow {
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #c49000;
+  color: #b45309;
   margin: 0 0 0.6rem;
 }
 
-.siu-title {
+.adm-title {
   font-family: var(--font-serif, Georgia, serif);
   font-size: clamp(2rem, 3.6vw, 2.9rem);
   font-weight: 800;
-  color: #0f3c61;
+  color: #3b2005;
   margin: 0;
   line-height: 1.12;
   letter-spacing: -0.01em;
 }
 
-.siu-title em {
+.adm-title em {
   font-style: italic;
-  color: #c49000;
+  color: #b45309;
 }
 
-.siu-title--dark {
-  color: #0f3c61;
+.adm-title--dark {
+  color: #3b2005;
 }
 
-.siu-desc {
+.adm-desc {
   font-size: 0.98rem;
   line-height: 1.75;
   color: #1e293b;
   margin: 0;
   padding-top: 1.5rem;
-  border-top: 2.5px solid #ecab00;
+  border-top: 2.5px solid #f59e0b;
 }
 
-.siu-welcome__cards {
+.adm-welcome__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 
-.siu-wcard {
+.adm-wcard {
   background: #ffffff;
   border: 1.5px solid #e2e8f0;
   border-radius: 16px;
@@ -644,47 +613,56 @@ const pasos = [
   flex-direction: column;
   gap: 0.875rem;
   text-decoration: none;
-  box-shadow: 0 4px 16px rgba(15, 60, 97, 0.04);
-  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 16px rgba(59, 32, 5, 0.04);
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
   cursor: pointer;
 }
 
-.siu-wcard:hover {
+.adm-wcard:hover {
   transform: translateY(-4px);
-  border-color: #ecab00;
-  box-shadow: 0 14px 30px rgba(236, 171, 0, 0.18);
+  border-color: #b45309;
+  box-shadow: 0 14px 30px rgba(180, 83, 9, 0.14);
 }
 
-.siu-wcard--contact {
-  cursor: default;
+.adm-wcard--whatsapp:hover {
+  transform: translateY(-4px);
+  border-color: #25d366;
+  box-shadow: 0 14px 30px rgba(37, 211, 102, 0.16);
 }
 
-.siu-wcard--contact:hover {
-  transform: none;
-  border-color: #e2e8f0;
-  box-shadow: 0 4px 16px rgba(15, 60, 97, 0.04);
+.adm-wcard__icon--wa {
+  background: rgba(37, 211, 102, 0.12);
+  color: #16a34a;
 }
 
-.siu-wcard__icon {
+.adm-wcard__link--wa {
+  color: #15803d;
+  font-weight: 700;
+}
+
+.adm-wcard__icon {
   width: 50px;
   height: 50px;
   border-radius: 12px;
-  background: rgba(236, 171, 0, 0.15);
-  color: #c49000;
+  background: rgba(180, 83, 9, 0.1);
+  color: #b45309;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.siu-wcard__title {
+.adm-wcard__title {
   font-family: var(--font-serif, Georgia, serif);
   font-size: 1.15rem;
   font-weight: 800;
-  color: #0f3c61;
+  color: #3b2005;
   margin: 0;
 }
 
-.siu-wcard__desc {
+.adm-wcard__desc {
   font-size: 0.88rem;
   color: #334155;
   line-height: 1.6;
@@ -692,212 +670,305 @@ const pasos = [
   flex: 1;
 }
 
-.siu-wcard__link {
+.adm-wcard__link {
   font-size: 0.84rem;
   font-weight: 700;
-  color: #c49000;
+  color: #b45309;
   letter-spacing: 0.02em;
   display: inline-flex;
   align-items: center;
   gap: 0.25rem;
-  transition: gap 0.2s ease, color 0.2s ease;
+  transition:
+    gap 0.2s ease,
+    color 0.2s ease;
 }
 
-.siu-wcard:hover .siu-wcard__link {
-  color: #05addc;
+.adm-wcard:hover .adm-wcard__link {
+  color: #78350f;
   gap: 0.45rem;
 }
 
 /* ═══════════════════════════════════════════
    STEPS & TIMELINE
 ═══════════════════════════════════════════ */
-.siu-pre {
-  background-color: #fbfaf6;
-  padding: 5.5rem 0;
+.adm-pre {
+  background: #fdfaf5;
+  padding: 5rem 0 5.5rem;
 }
 
-.siu-pre__head {
+.adm-pre__head {
   text-align: center;
-  margin-bottom: 3.5rem;
+  max-width: 640px;
+  margin: 0 auto 3.5rem;
 }
 
-.siu-pre__sub {
+.adm-pre__sub {
+  color: #64748b;
   font-size: 0.95rem;
-  color: #5c5543;
-  max-width: 480px;
-  margin: 0.5rem auto 0;
+  line-height: 1.6;
+  margin-top: 0.5rem;
 }
 
-.siu-steps {
+.adm-steps {
   display: flex;
   flex-direction: column;
   max-width: 820px;
-  margin: 0 auto 3rem;
+  margin: 0 auto 3.5rem;
 }
 
-.siu-step {
+.adm-step {
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
-.siu-step__aside {
+.adm-step__aside {
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-shrink: 0;
 }
 
-.siu-step__num {
-  width: 48px;
-  height: 48px;
+.adm-step__num {
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
-  background: #c49000;
+  background: #b45309;
   color: #ffffff;
-  font-size: 0.82rem;
-  font-weight: 900;
-  letter-spacing: 0.06em;
+  font-size: 1.15rem;
+  font-weight: 800;
+  font-family: var(--font-serif, Georgia, serif);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(196, 144, 0, 0.25);
-  flex-shrink: 0;
-  z-index: 1;
+  box-shadow: 0 4px 14px rgba(180, 83, 9, 0.3);
 }
 
-.siu-step__line {
+.adm-step__line {
   width: 2px;
   flex: 1;
-  min-height: 24px;
-  background: rgba(196, 144, 0, 0.2);
-  margin: 4px 0;
+  min-height: 48px;
+  background: #cbd5e1;
+  margin: 0.5rem 0;
 }
 
-.siu-step__body {
-  padding: 0 0 2.5rem 0;
+.adm-step__body {
+  padding-bottom: 2.75rem;
   flex: 1;
 }
 
-.siu-step__title {
+.adm-step__title {
   font-family: var(--font-serif, Georgia, serif);
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight: 800;
-  color: #0f3c61;
-  margin: 0.5rem 0 0.625rem;
+  color: #3b2005;
+  margin: 0 0 0.5rem;
 }
 
-.siu-step__desc {
-  font-size: 0.9rem;
-  color: #334155;
-  line-height: 1.7;
-  margin: 0 0 0.875rem;
-}
-
-.siu-step__list {
-  list-style: none;
+.adm-step__desc {
+  font-size: 0.92rem;
+  color: #475569;
+  line-height: 1.65;
   margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
 }
 
-.siu-step__list li {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.5rem;
-  font-size: 0.85rem;
+.adm-step__notebox {
+  margin-top: 1rem;
+  background: #fef7ee;
+  border-left: 3px solid #b45309;
+  padding: 0.85rem 1.15rem;
+  border-radius: 0 8px 8px 0;
+}
+
+.adm-step__note-label {
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #b45309;
+  margin: 0 0 0.4rem;
+}
+
+.adm-step__notebox ol {
+  margin: 0;
+  padding-left: 1.2rem;
+  font-size: 0.83rem;
   color: #334155;
   line-height: 1.5;
 }
 
-.siu-step__dot {
-  width: 6px;
-  height: 6px;
-  min-width: 6px;
-  border-radius: 50%;
-  background: #ecab00;
-  margin-top: 0.45em;
-}
-
-.siu-pre__contact {
+.adm-pre__contact {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 1.5rem;
-  background: #ffffff;
-  border-radius: 14px;
-  padding: 1.5rem 2rem;
-  border: 1px solid #f0ede4;
-  max-width: 820px;
-  margin: 0 auto;
-  box-shadow: 0 4px 14px rgba(196, 144, 0, 0.03);
+  gap: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e2e8f0;
 }
 
-.siu-contact-item {
+.adm-contact-item {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.85rem;
-  color: #334155;
-}
-
-.siu-contact-item svg {
-  color: #c49000;
-  flex-shrink: 0;
+  font-size: 0.88rem;
+  color: #475569;
+  font-weight: 600;
 }
 
 /* ═══════════════════════════════════════════
    RESPONSIVE
 ═══════════════════════════════════════════ */
+@media (max-width: 900px) {
+  .adm-welcome__intro {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .adm-welcome__cards {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 768px) {
-  .siu-hero-section { --h: auto; }
-  .siu-hero-slide {
-    min-height: clamp(440px, 65vh, 580px);
-    padding: 3.5rem 0;
+  .adm-hero-section {
+    --h: auto;
   }
-  .siu-hero-slide__overlay2 {
-    -webkit-mask-image: none;
+  .adm-hero-slide {
+    height: auto;
+    min-height: clamp(500px, 80svh, 640px);
+    padding: 3.5rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .adm-hero-slide__blur-overlay {
+    background: linear-gradient(
+      0deg,
+      rgba(26, 15, 3, 0.95) 0%,
+      rgba(26, 15, 3, 0.85) 35%,
+      rgba(26, 15, 3, 0.45) 55%,
+      transparent 85%
+    );
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
     mask-image: none;
-    background: rgba(26, 21, 0, 0.85);
+    -webkit-mask-image: none;
   }
-  .siu-hero__stats-bar {
-    position: relative;
-    width: 100%;
+  .adm-hero-inner {
+    text-align: center;
+    margin: 0 auto;
   }
-  .siu-hero__stats-inner {
+  .adm-hero-subtitle {
+    margin: 0 auto 1.25rem;
+  }
+  .adm-hero-ctas {
+    justify-content: center;
+  }
+  .adm-stats__inner {
     flex-wrap: wrap;
     gap: 1rem 0;
   }
-  .siu-stat {
-    border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
+  .adm-stat {
+    border-bottom: 1px solid rgba(245, 158, 11, 0.2);
     border-right: none;
     flex: 1 1 50%;
-    padding: 1rem 0.5rem;
+    justify-content: center;
+    padding: 0.75rem 0.5rem;
   }
-  .siu-stat:nth-child(odd) {
-    border-right: 1px solid hsla(0, 0%, 100%, 0.1);
+  .adm-stat:nth-child(odd) {
+    border-right: 1px solid rgba(245, 158, 11, 0.3);
   }
-  .siu-stat:nth-last-child(-n + 2) {
+  .adm-stat:nth-last-child(-n + 2) {
     border-bottom: none;
   }
-  .siu-hero__sticker--hola {
-    display: none;
-  }
-  .siu-welcome__intro { grid-template-columns: 1fr; gap: 1.5rem; }
-  .siu-welcome__cards { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 480px) {
-  .siu-hero-ctas { flex-direction: column; }
-  .siu-btn-stacked, .siu-stat { justify-content: center; }
-  .siu-stat {
-    border-bottom: 1px solid hsla(0, 0%, 100%, 0.1) !important;
+  .adm-stat {
+    border-bottom: 1px solid rgba(245, 158, 11, 0.2) !important;
     border-right: none !important;
     flex: 1 1 100%;
-    padding: 1rem 1.5rem;
+    padding: 0.85rem 1.5rem;
   }
-  .siu-stat:last-child {
+  .adm-stat:last-child {
     border-bottom: none !important;
+  }
+}
+
+/* ═══════════════════════════════════════════
+   SECCIÓN DE REGISTRO SUPERLEADS
+═══════════════════════════════════════════ */
+.reg-section {
+  background: #fdfbf2;
+  padding: 5rem 0;
+  scroll-margin-top: 80px;
+}
+.reg-card {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 24px 60px rgba(236, 171, 0, 0.18);
+  display: flex;
+  min-height: 580px;
+  overflow: hidden;
+}
+.reg-mascot-side {
+  align-items: center;
+  background: linear-gradient(145deg, #ecab00, #362400);
+  display: flex;
+  flex: 0.75;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+.reg-mascot-side:before {
+  background: radial-gradient(
+    circle at 30% 70%,
+    rgba(255, 255, 255, 0.1) 0,
+    transparent 60%
+  );
+  content: "";
+  inset: 0;
+  position: absolute;
+}
+.mascot-wrap {
+  max-width: 300px;
+  position: relative;
+  width: 85%;
+  z-index: 1;
+}
+.mascot-img {
+  filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.4));
+  height: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+  width: 100%;
+}
+.reg-form-side {
+  flex: 1.25;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+@media (max-width: 900px) {
+  .reg-card {
+    flex-direction: column;
+  }
+  .reg-mascot-side {
+    min-height: 200px;
+    padding: 2.5rem 0;
+  }
+  .mascot-wrap {
+    width: 50%;
+  }
+  .reg-form-side {
+    padding: 2.5rem 1.75rem;
+  }
+}
+@media (max-width: 560px) {
+  .reg-section {
+    padding: 3rem 0;
+  }
+  .reg-form-side {
+    padding: 2rem 1.25rem;
   }
 }
 </style>

@@ -25,7 +25,7 @@ useHead({
     <Welcome />
     <OfertaEducativa />
     <VidaAcademica />
-    <!-- <Internacionalizacion /> -->
+    <Internacionalizacion />
     <ModeloAcademico />
     <!-- <VidaEstudiantil /> -->
     <ScholarshipCalculator defaultNivel="Bachillerato" />

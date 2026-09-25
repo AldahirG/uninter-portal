@@ -1,0 +1,1 @@
+import{f as t,_ as n}from"./BQ62qayN.js";const o=t({__name:"FloatingActions",setup(a){return(e,s)=>null}}),c=Object.assign(n(o,[["__scopeId","data-v-cba6ec9e"]]),{__name:"PortalFloatingActions"});export{c as F};

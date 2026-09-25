@@ -10,7 +10,18 @@ useHead({
   <section class="reg-section" id="contacto">
     <div class="dp-container">
       <div class="reg-card">
-        <!-- Lado formulario (Incrustación SUPERLEADS) -->
+        <!-- Lado mascota con degradado cálido institucional (Izquierda) -->
+        <div class="reg-mascot-side">
+          <div class="mascot-wrap">
+            <img
+              src="/images/forms/legi-mascot.png"
+              alt="Mascota Legi UNINTER"
+              class="mascot-img"
+            />
+          </div>
+        </div>
+
+        <!-- Lado formulario (Incrustación SUPERLEADS) (Derecha) -->
         <div class="reg-form-side">
           <iframe
             src="https://link.superleads.mx/widget/form/KHpOCcYwrUtI7nUVFh2Y"
@@ -30,17 +41,6 @@ useHead({
             title="FormDiplomados"
           >
           </iframe>
-        </div>
-
-        <!-- Lado mascota con degradado cálido institucional -->
-        <div class="reg-mascot-side">
-          <div class="mascot-wrap">
-            <img
-              src="/images/forms/legi-mascot.png"
-              alt="Mascota Legi UNINTER"
-              class="mascot-img"
-            />
-          </div>
         </div>
       </div>
     </div>
@@ -125,7 +125,7 @@ useHead({
 /* Responsive */
 @media (max-width: 900px) {
   .reg-card {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .reg-mascot-side {
     padding: 3rem 0;

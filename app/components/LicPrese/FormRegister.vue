@@ -16,6 +16,11 @@ useHead({
   <section id="formulario-registro" class="reg-section">
     <div class="uninter-container">
       <div class="reg-card">
+        <div class="reg-mascot-side">
+          <div class="mascot-wrap">
+            <img src="/images/forms/legi-mascot.png" alt="Mascota Legi UNINTER" class="mascot-img" />
+          </div>
+        </div>
         <div class="reg-form-side">
           <iframe 
             src="https://link.superleads.mx/widget/form/6rkDqSG2V8BZNsczD2wL" 
@@ -34,11 +39,6 @@ useHead({
             data-form-id="6rkDqSG2V8BZNsczD2wL" 
             title="FormUniversidad"
           ></iframe>
-        </div>
-        <div class="reg-mascot-side">
-          <div class="mascot-wrap">
-            <img src="/images/forms/legi-mascot.png" alt="Mascota Legi UNINTER" class="mascot-img" />
-          </div>
         </div>
       </div>
     </div>
@@ -99,7 +99,7 @@ useHead({
 .reg-mascot-side:before{background:radial-gradient(circle at 30% 70%,hsla(0,0%,100%,.07) 0,transparent 60%);content:"";inset:0;position:absolute}
 .mascot-wrap{max-width:300px;position:relative;width:85%;z-index:1}
 .mascot-img{filter:drop-shadow(0 20px 30px rgba(0,0,0,.35));height:auto;-o-object-fit:contain;object-fit:contain;width:100%}
-@media(max-width:900px){.reg-card{flex-direction:column-reverse}
+@media(max-width:900px){.reg-card{flex-direction:column}
 .reg-mascot-side{min-height:200px;padding:2.5rem 0}
 .mascot-wrap{width:50%}
 .reg-form-side{padding:2.5rem 1.75rem}

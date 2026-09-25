@@ -15,7 +15,18 @@ useHead({
   <section id="formulario-registro" class="le-reg-section">
     <div class="le-container">
       <div class="le-reg-card">
-        <!-- Lado del Formulario -->
+        <!-- Lado de la Mascota Legi (Izquierda) -->
+        <div class="le-reg-mascot-side">
+          <div class="mascot-wrap">
+            <img
+              src="/images/forms/legi-mascot.png"
+              alt="Mascota Legi UNINTER"
+              class="mascot-img"
+            />
+          </div>
+        </div>
+
+        <!-- Lado del Formulario (Derecha) -->
         <div class="le-reg-form-side">
           <iframe
             src="https://link.superleads.mx/widget/form/4crDIop7ylztoeWZxtZ0"
@@ -36,17 +47,6 @@ useHead({
             data-cookie-consent-provider="auto"
             title="FormEjecutivas"
           ></iframe>
-        </div>
-
-        <!-- Lado de la Mascota Legi -->
-        <div class="le-reg-mascot-side">
-          <div class="mascot-wrap">
-            <img
-              src="/images/forms/legi-mascot.png"
-              alt="Mascota Legi UNINTER"
-              class="mascot-img"
-            />
-          </div>
         </div>
       </div>
     </div>
@@ -123,7 +123,7 @@ useHead({
 
 @media (max-width: 860px) {
   .le-reg-card {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .le-reg-mascot-side {
     padding: 3rem 1.5rem;

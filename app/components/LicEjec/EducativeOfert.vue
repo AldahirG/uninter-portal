@@ -1,10 +1,37 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, computed } from "vue";
 import { X, ArrowRight, Trophy, Download } from "lucide-vue-next";
-import carrerasData from "@/assets/data/licenciaturas-ejecutivas.json";
+import carrerasEjecutivasDB from "@/assets/data/carrerasEjecutivas.json";
 
 const isDrawerOpen = ref(false);
 const activeProgram = ref<any>(null);
+
+const areasOrder = [
+  "Negocios y Administración",
+  "Ciencias Sociales, Jurídicas y Humanidades",
+];
+
+const carrerasData = computed(() => {
+  const groups: Record<string, any[]> = {};
+  for (const item of Object.values(carrerasEjecutivasDB as Record<string, any>)) {
+    const area = item.area || "Negocios y Administración";
+    if (!groups[area]) {
+      groups[area] = [];
+    }
+    groups[area].push({
+      ...item,
+      nombre: item.shortName || item.name,
+      sigla: item.id,
+    });
+  }
+
+  return areasOrder
+    .filter((areaName) => groups[areaName] && groups[areaName].length > 0)
+    .map((areaName) => ({
+      area: areaName,
+      carreras: groups[areaName],
+    }));
+});
 
 const openDrawer = (carrera: any) => {
   activeProgram.value = carrera;

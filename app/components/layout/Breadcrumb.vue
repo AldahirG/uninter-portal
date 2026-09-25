@@ -19,6 +19,8 @@ const LABELS: Record<string, string> = {
   carreras:                      "Licenciaturas",
   LicEjec:                       "Licenciaturas Ejecutivas",
   licejec:                       "Licenciaturas Ejecutivas",
+  conocenos:                     "Conócenos",
+  blendedflex:                   "Blended Learning 4.0",
 };
 
 // Redireccionamiento especial para segmentos que no tienen página propia
@@ -26,6 +28,7 @@ const HREF_OVERRIDES: Record<string, string> = {
   carreras: "/LicenciaturasPresenciales",
   LicEjec: "/licenciaturasEjecutivas",
   licejec: "/licenciaturasEjecutivas",
+  conocenos: "/",
 };
 
 // Convierte un slug como "relaciones-internacionales" en "Relaciones Internacionales"

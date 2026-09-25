@@ -67,7 +67,7 @@ const scrollToSection = (id: string) => {
         </picture>
         <img
           v-else
-          :src="encodeURI(`/images/WebHorizontal/${data?.imageHorizontal || 'derrcho h.webp'}`)"
+          :src="encodeURI(`/images/WebHorizontal/${data?.imageHorizontal || 'derrcho h.jpg'}`)"
           :alt="data?.name"
           class="degree-hero__img"
         />

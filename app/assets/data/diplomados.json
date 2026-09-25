@@ -17,7 +17,11 @@
         "Seminario, Sociedad y Publicidad",
         "Taller de Creatividad"
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/EPU.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/EPU V.jpg",
+    "posgradoRelacionado": "EPU",
+    "posgradoRelacionadoNombre": "Especialidad en Publicidad"
   },
   "diplomado-en-mercadotecnia-y-publicidad": {
     "slug": "diplomado-en-mercadotecnia-y-publicidad",
@@ -37,7 +41,11 @@
         "Seminario de Campañas Publicitarias II",
         "Seminario de Mercadotecnia"
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/EPU.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/EPU V.jpg",
+    "posgradoRelacionado": "EPU",
+    "posgradoRelacionadoNombre": "Especialidad en Publicidad"
   },
   "diplomado-en-estrategias-y-experiencias-digitales": {
     "slug": "diplomado-en-estrategias-y-experiencias-digitales",
@@ -63,7 +71,11 @@
       "Mobile Marketing y Diseño de Aplicaciones": [
         "Diseñar estrategias de marketing enfocadas en dispositivos móviles y desarrollar aplicaciones funcionales que favorezcan la interacción, fidelización y conversión de los usuarios en entornos digitales."
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/EMD.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/EMD V.jpg",
+    "posgradoRelacionado": "EMD",
+    "posgradoRelacionadoNombre": "Especialidad en Marketing Digital"
   },
   "diplomado-en-inteligencia-artificial-aplicada-a-los-negocios": {
     "slug": "diplomado-en-inteligencia-artificial-aplicada-a-los-negocios",
@@ -93,7 +105,11 @@
         "Inteligencia Artificial en la Gestión del Talento y Recursos Humanos",
         "Tendencias Futuras y Oportunidades de la Inteligencia Artificial en los Negocios"
       ]
-    }
+    },
+    "imageHorizontal": "/images/diplomados/WebHorizontal/Inteligencia Artificial Aplicada a los Negocios.jpg",
+    "imageVertical": "/images/diplomados/WebVertical/Inteligencia vertrical.jpg",
+    "posgradoRelacionado": null,
+    "posgradoRelacionadoNombre": null
   },
   "diplomado-en-administracion-de-la-tecnologia-en-linea": {
     "slug": "diplomado-en-administracion-de-la-tecnologia-en-linea",
@@ -119,7 +135,11 @@
       "Módulo IV": [
         "Responsabilidad Social"
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/EATL.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/EATL V.jpg",
+    "posgradoRelacionado": "EATL",
+    "posgradoRelacionadoNombre": "Especialidad en Administración de la Tecnología en Línea"
   },
   "diplomado-en-innovacion-y-transferencia-tecnologicas": {
     "slug": "diplomado-en-innovacion-y-transferencia-tecnologicas",
@@ -145,7 +165,11 @@
       "Módulo IV": [
         "Transferencia Tecnológica"
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/EATL.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/EATL V.jpg",
+    "posgradoRelacionado": "EATL",
+    "posgradoRelacionadoNombre": "Especialidad en Administración de la Tecnología en Línea"
   },
   "diplomado-en-arquitectura-diseno-y-legislacion-de-redes-y-tecnologias-web": {
     "slug": "diplomado-en-arquitectura-diseno-y-legislacion-de-redes-y-tecnologias-web",
@@ -171,7 +195,11 @@
       "Módulo IV": [
         "Tecnologías y Aplicaciones Web"
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/MARET.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/MARET V.jpg",
+    "posgradoRelacionado": "MARET",
+    "posgradoRelacionadoNombre": "Maestría en Redes de Computadoras y Tecnologías Web"
   },
   "diplomado-en-crear-y-contar-historias-con-animacion-digital": {
     "slug": "diplomado-en-crear-y-contar-historias-con-animacion-digital",
@@ -197,7 +225,11 @@
       "Narrativas Audiovisuales": [
         "Narrativas audiovisuales: estructura y ritmo para contar historias impactantes."
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/EAPD.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/EAPD V.jpg",
+    "posgradoRelacionado": "EAPD",
+    "posgradoRelacionadoNombre": "Especialidad en Animación y Post-Producción Digital"
   },
   "diplomado-en-produccion-creativa-y-posicionamiento-digital": {
     "slug": "diplomado-en-produccion-creativa-y-posicionamiento-digital",
@@ -223,7 +255,11 @@
       "Marketing Digital": [
         "Marketing digital: posicionamiento de productos creativos en redes sociales y entornos digitales."
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/EAPD.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/EAPD V.jpg",
+    "posgradoRelacionado": "EAPD",
+    "posgradoRelacionadoNombre": "Especialidad en Animación y Post-Producción Digital"
   },
   "diplomado-en-psicopedagogia-aplicada": {
     "slug": "diplomado-en-psicopedagogia-aplicada",
@@ -255,7 +291,11 @@
       "Módulo VI": [
         "Psicoexpresión Sensorial (6 días)"
       ]
-    }
+    },
+    "imageHorizontal": "/images/diplomados/WebHorizontal/Psicopedagogía Aplicada.jpg",
+    "imageVertical": "/images/diplomados/WebVertical/Psicopedagogía vertical.jpg",
+    "posgradoRelacionado": null,
+    "posgradoRelacionadoNombre": null
   },
   "diplomado-en-doblaje-profesional-para-cine-television-y-streaming": {
     "slug": "diplomado-en-doblaje-profesional-para-cine-television-y-streaming",
@@ -281,7 +321,11 @@
       "Módulo IV": [
         "Técnicas de Doblaje"
       ]
-    }
+    },
+    "imageHorizontal": "/images/diplomados/WebHorizontal/Doblaje profesional para cine, Televisión y streaming.jpg",
+    "imageVertical": "/images/diplomados/WebVertical/Doblaje profesi vertical.jpg",
+    "posgradoRelacionado": null,
+    "posgradoRelacionadoNombre": null
   },
   "diplomado-en-comercio-exterior-y-contratos-internacionales": {
     "slug": "diplomado-en-comercio-exterior-y-contratos-internacionales",
@@ -301,7 +345,11 @@
         "Legislación del Comercio Exterior",
         "Propiedad Intelectual"
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/ERMI.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/ERMI V.jpg",
+    "posgradoRelacionado": "ERMI",
+    "posgradoRelacionadoNombre": "Especialidad en Relaciones Mercantiles Internacionales"
   },
   "diplomado-en-derecho-aduanero-y-marco-juridico-de-la-competencia-economica": {
     "slug": "diplomado-en-derecho-aduanero-y-marco-juridico-de-la-competencia-economica",
@@ -321,7 +369,11 @@
         "Responsabilidad Social",
         "Tratados Comerciales Internacionales"
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/ERMI.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/ERMI V.jpg",
+    "posgradoRelacionado": "ERMI",
+    "posgradoRelacionadoNombre": "Especialidad en Relaciones Mercantiles Internacionales"
   },
   "diplomado-en-paradigmas-en-la-ensenanza-y-aprendizaje-en-innovacion-educativa": {
     "slug": "diplomado-en-paradigmas-en-la-ensenanza-y-aprendizaje-en-innovacion-educativa",
@@ -341,7 +393,11 @@
         "Problemas de la Enseñanza en la Educación",
         "Paradigmas de Aprendizaje e Innovación Educativa"
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/MEFD.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/MEFD V.jpg",
+    "posgradoRelacionado": "MEFD",
+    "posgradoRelacionadoNombre": "Maestría en Educación y Formación Docente"
   },
   "diplomado-en-elaboracion-y-planeacion-didactica-basado-en-el-modelo-de-competencias": {
     "slug": "diplomado-en-elaboracion-y-planeacion-didactica-basado-en-el-modelo-de-competencias",
@@ -361,7 +417,11 @@
         "Optativa I",
         "Optativa II"
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/MEFD.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/MEFD V.jpg",
+    "posgradoRelacionado": "MEFD",
+    "posgradoRelacionadoNombre": "Maestría en Educación y Formación Docente"
   },
   "diplomado-en-evaluacion-de-los-diversos-modelos-de-gestion-educativo": {
     "slug": "diplomado-en-evaluacion-de-los-diversos-modelos-de-gestion-educativo",
@@ -381,7 +441,11 @@
         "Optativa III",
         "Optativa IV"
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/MEFD.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/MEFD V.jpg",
+    "posgradoRelacionado": "MEFD",
+    "posgradoRelacionadoNombre": "Maestría en Educación y Formación Docente"
   },
   "diplomado-en-metodologia-y-adquisicion-de-una-segunda-lengua": {
     "slug": "diplomado-en-metodologia-y-adquisicion-de-una-segunda-lengua",
@@ -401,7 +465,11 @@
         "Metodología de la Enseñanza de Lenguas Extranjeras",
         "Responsabilidad Social"
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/MEL.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/MEL V.jpg",
+    "posgradoRelacionado": "MEL",
+    "posgradoRelacionadoNombre": "Maestría en Enseñanza de Lenguas Extranjeras"
   },
   "diplomado-en-desarrollo-de-destrezas-linguisticas": {
     "slug": "diplomado-en-desarrollo-de-destrezas-linguisticas",
@@ -421,7 +489,11 @@
         "Desarrollo de destrezas Lingüísticas",
         "Métodos Estadísticos Avanzados"
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/MEL.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/MEL V.jpg",
+    "posgradoRelacionado": "MEL",
+    "posgradoRelacionadoNombre": "Maestría en Enseñanza de Lenguas Extranjeras"
   },
   "diplomado-en-analisis-del-uso-del-espanol-como-segunda-lengua-para-la-planeacion-de-metodologias-didacticas": {
     "slug": "diplomado-en-analisis-del-uso-del-espanol-como-segunda-lengua-para-la-planeacion-de-metodologias-didacticas",
@@ -441,7 +513,11 @@
         "Optativa I",
         "Optativa II"
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/MEL.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/MEL V.jpg",
+    "posgradoRelacionado": "MEL",
+    "posgradoRelacionadoNombre": "Maestría en Enseñanza de Lenguas Extranjeras"
   },
   "diplomado-en-elaboracion-de-programas-de-estudio-para-espanol-e-ingles-como-segunda-lengua": {
     "slug": "diplomado-en-elaboracion-de-programas-de-estudio-para-espanol-e-ingles-como-segunda-lengua",
@@ -461,7 +537,11 @@
         "Optativa III",
         "Optativa IV"
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/MEL.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/MEL V.jpg",
+    "posgradoRelacionado": "MEL",
+    "posgradoRelacionadoNombre": "Maestría en Enseñanza de Lenguas Extranjeras"
   },
   "diplomado-en-tecnologias-de-la-informacion-y-comunicacion-aplicadas-a-la-pedagogia": {
     "slug": "diplomado-en-tecnologias-de-la-informacion-y-comunicacion-aplicadas-a-la-pedagogia",
@@ -481,7 +561,11 @@
         "Tecnología de la Información y la Comunicación",
         "Gramática Comparativa del Inglés y del español"
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/EDELE.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/EDELE V.jpg",
+    "posgradoRelacionado": "EDELE",
+    "posgradoRelacionadoNombre": "Especialidad en Docencia del Español como Lengua Extranjera"
   },
   "diplomado-en-diseno-de-interiores": {
     "slug": "diplomado-en-diseno-de-interiores",
@@ -510,7 +594,11 @@
       "Módulo V": [
         "Taller de Diseño Interior y Modelado 3D"
       ]
-    }
+    },
+    "imageHorizontal": "/images/diplomados/WebHorizontal/Diseño de Interiores.jpg",
+    "imageVertical": "/images/diplomados/WebVertical/Interiores vertical.jpg",
+    "posgradoRelacionado": null,
+    "posgradoRelacionadoNombre": null
   },
   "diplomado-en-fotografia": {
     "slug": "diplomado-en-fotografia",
@@ -558,7 +646,11 @@
         "Laboratorio digital (Photoshop)",
         "Fotografía y ética (derechos de autor y propiedad)"
       ]
-    }
+    },
+    "imageHorizontal": "/images/diplomados/WebHorizontal/foto.jpg",
+    "imageVertical": "/images/diplomados/WebVertical/foto vertical.jpg",
+    "posgradoRelacionado": null,
+    "posgradoRelacionadoNombre": null
   },
   "diplomado-en-diseno-de-modas-con-enfoque-en-desarrollo-de-colecciones": {
     "slug": "diplomado-en-diseno-de-modas-con-enfoque-en-desarrollo-de-colecciones",
@@ -596,7 +688,11 @@
       "Módulo 8": [
         "Proyecto Integral Fashion Showroom"
       ]
-    }
+    },
+    "imageHorizontal": "/images/diplomados/WebHorizontal/Diseño de Modas con Enfoque en Desarrollo de Colecciones.jpg",
+    "imageVertical": "/images/diplomados/WebVertical/Diseño vertical.jpg",
+    "posgradoRelacionado": null,
+    "posgradoRelacionadoNombre": null
   },
   "diplomado-en-administracion-de-obra-i": {
     "slug": "diplomado-en-administracion-de-obra-i",
@@ -616,7 +712,11 @@
         "Costos y presupuestos de Construcción",
         "Seminario de Administración de Proyectos de Obras en Edificación"
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/EAO copia.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/EAO V.jpg",
+    "posgradoRelacionado": "EA0",
+    "posgradoRelacionadoNombre": "Especialidad en Administración de Obra"
   },
   "diplomado-en-administracion-de-obra-ii": {
     "slug": "diplomado-en-administracion-de-obra-ii",
@@ -636,7 +736,11 @@
         "Proyectos de Inversión en Edificación",
         "Sistemas de Información Aplicados a la Edificación"
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/EAO copia.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/EAO V.jpg",
+    "posgradoRelacionado": "EA0",
+    "posgradoRelacionadoNombre": "Especialidad en Administración de Obra"
   },
   "diplomado-en-gestion-empresarial": {
     "slug": "diplomado-en-gestion-empresarial",
@@ -662,7 +766,11 @@
       "Administración Financiera Internacional": [
         "Analizar las distintas fuentes de financiamiento nacional e internacional, que permita identificar su impacto en el capital del trabajo, a través de la distinción de diversos productos financieros que ofrecen las entidades, para beneficiar la toma de decisiones y disminución de costos financieros."
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/MADE.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/MADE V.jpg",
+    "posgradoRelacionado": "MADE",
+    "posgradoRelacionadoNombre": "Maestría en Administración y Dirección de Empresas"
   },
   "diplomado-en-direccion-de-empresas": {
     "slug": "diplomado-en-direccion-de-empresas",
@@ -688,7 +796,11 @@
       "Responsabilidad Social": [
         "Crear indicadores de responsabilidad social, a través del análisis de modelos, herramientas, normas y certificaciones, comprometiendo la transparencia y valores éticos, para generar óptimas condiciones de competitividad en el marco de la responsabilidad que tienen las empresas con la sociedad y el desarrollo sustentable."
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/MADE.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/MADE V.jpg",
+    "posgradoRelacionado": "MADE",
+    "posgradoRelacionadoNombre": "Maestría en Administración y Dirección de Empresas"
   },
   "diplomado-en-marketing-digital-estrategico-y-creativo": {
     "slug": "diplomado-en-marketing-digital-estrategico-y-creativo",
@@ -714,7 +826,11 @@
       "Diseño Aplicado al Marketing Digital": [
         "Aplicar principios de diseño gráfico y comunicación visual en el desarrollo de contenidos y campañas digitales, utilizando software especializado y técnicas de creatividad, para mejorar el impacto y la efectividad de las estrategias de marketing."
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/EMD.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/EMD V.jpg",
+    "posgradoRelacionado": "EMD",
+    "posgradoRelacionadoNombre": "Especialidad en Marketing Digital"
   },
   "diplomado-en-modelos-de-ensenanza-y-evaluacion-de-programas": {
     "slug": "diplomado-en-modelos-de-ensenanza-y-evaluacion-de-programas",
@@ -734,7 +850,11 @@
         "Evaluación de Programas Educativos",
         "Responsabilidad Social"
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/MEFD.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/MEFD V.jpg",
+    "posgradoRelacionado": "MEFD",
+    "posgradoRelacionadoNombre": "Maestría en Educación y Formación Docente"
   },
   "diplomado-en-estrategias-didacticas-y-metodos-de-ensenanza": {
     "slug": "diplomado-en-estrategias-didacticas-y-metodos-de-ensenanza",
@@ -754,7 +874,11 @@
         "La Pragmática y el Estudio del Español",
         "Sociolingüística"
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/EDELE.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/EDELE V.jpg",
+    "posgradoRelacionado": "EDELE",
+    "posgradoRelacionadoNombre": "Especialidad en Docencia del Español como Lengua Extranjera"
   },
   "diplomado-en-formacion-para-cronistas": {
     "slug": "diplomado-en-formacion-para-cronistas",
@@ -777,7 +901,11 @@
         "Preservación del Patrimonio Cultural (20 Horas)",
         "Proyecto de Acreditación como Cronistas (20 Horas)"
       ]
-    }
+    },
+    "imageHorizontal": "/images/diplomados/WebHorizontal/cronista.jpg",
+    "imageVertical": "/images/diplomados/WebVertical/cronista vertical.jpg",
+    "posgradoRelacionado": null,
+    "posgradoRelacionadoNombre": null
   },
   "diplomado-en-gestion-empresarial-en-linea": {
     "slug": "diplomado-en-gestion-empresarial-en-linea",
@@ -803,7 +931,11 @@
       "Administración Financiera Internacional": [
         "Analizar las distintas fuentes de financiamiento nacional e internacional, que permita identificar su impacto en el capital del trabajo, a través de la distinción de diversos productos financieros que ofrecen las entidades, para beneficiar la toma de decisiones y disminución de costos financieros."
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/MADEL.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/MADEL V.jpg",
+    "posgradoRelacionado": "MADEL",
+    "posgradoRelacionadoNombre": "Maestría en Administración y Dirección de Empresas (en línea)"
   },
   "diplomado-en-direccion-de-empresas-en-linea": {
     "slug": "diplomado-en-direccion-de-empresas-en-linea",
@@ -829,7 +961,11 @@
       "Responsabilidad Social": [
         "Crear indicadores de responsabilidad social, a través del análisis de modelos, herramientas, normas y certificaciones, comprometiendo la transparencia y valores éticos, para generar óptimas condiciones de competitividad en el marco de la responsabilidad que tienen las empresas con la sociedad y el desarrollo sustentable."
       ]
-    }
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/MADEL.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/MADEL V.jpg",
+    "posgradoRelacionado": "MADEL",
+    "posgradoRelacionadoNombre": "Maestría en Administración y Dirección de Empresas (en línea)"
   },
   "diplomado-en-diseno-y-desarrollo-de-proyectos-academicos-de-investigacion": {
     "slug": "diplomado-en-diseno-y-desarrollo-de-proyectos-academicos-de-investigacion",
@@ -855,7 +991,11 @@
       "Módulo IV": [
         "Desarrollo del proyecto de investigación del capítulo III (Resultados, Discusión, Conclusiones, Recomendaciones, Anexos, Referencias)"
       ]
-    }
+    },
+    "imageHorizontal": "/images/diplomados/WebHorizontal/Diseño y Desarrollo de Proyectos Académicos de Investigación.jpg",
+    "imageVertical": "/images/diplomados/WebVertical/Desarrollo vertical.jpg",
+    "posgradoRelacionado": null,
+    "posgradoRelacionadoNombre": null
   },
   "diplomado-en-ingles": {
     "slug": "diplomado-en-ingles",
@@ -899,7 +1039,11 @@
       "Módulo X": [
         "Inglés Avanzado II (Desarrollo de la capacidad para describir apariencia de personas y comparar lugares)"
       ]
-    }
+    },
+    "imageHorizontal": "/images/diplomados/WebHorizontal/d ingles.jpg",
+    "imageVertical": "/images/diplomados/WebVertical/d ingles vertical.jpg",
+    "posgradoRelacionado": null,
+    "posgradoRelacionadoNombre": null
   },
   "diplomado-en-frances": {
     "slug": "diplomado-en-frances",
@@ -965,7 +1109,11 @@
         "Aplicar el francés en contextos profesionales y preparar la presentación a certificaciones internacionales.",
         "Preparación a los exámenes DELF y DFP: estrategias, simulacros, expresión oral y escrita avanzada."
       ]
-    }
+    },
+    "imageHorizontal": "/images/diplomados/WebHorizontal/frances .jpg",
+    "imageVertical": "/images/diplomados/WebVertical/frances vertical.jpg",
+    "posgradoRelacionado": null,
+    "posgradoRelacionadoNombre": null
   },
   "diplomado-en-ingles-profesional": {
     "slug": "diplomado-en-ingles-profesional",
@@ -1022,6 +1170,10 @@
       "Unidad 12: Presentaciones profesionales": [
         "Estructura de presentaciones efectivas, manejo de apoyos visuales, lenguaje persuasivo y conclusiones ejecutivas."
       ]
-    }
+    },
+    "imageHorizontal": "/images/diplomados/WebHorizontal/ingles prof.jpg",
+    "imageVertical": "/images/diplomados/WebVertical/ingles prof vertical.jpg",
+    "posgradoRelacionado": null,
+    "posgradoRelacionadoNombre": null
   }
 }

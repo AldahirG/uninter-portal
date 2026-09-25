@@ -736,7 +736,7 @@ function scrollTo(id: string) {
     <!-- ══════════════════════════════════════════
          INTERNACIONALIZACIÓN / FORM
     ══════════════════════════════════════════ -->
-    <!-- <Internacionalizacion /> -->
+    <Internacionalizacion mode="multicultural" />
     <ScholarshipCalculator defaultNivel="Bachillerato" />
     <FormRegister />
     <PortalFooter />

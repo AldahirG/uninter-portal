@@ -3,8 +3,8 @@
     "id": "LCO",
     "name": "Comunicación",
     "slug": "comunicacion",
-    "imageHorizontal": "Comunicación h.webp",
-    "imageVertical": "Comunicación v.webp",
+    "imageHorizontal": "Comunicación h.jpg",
+    "imageVertical": "Comunicación v.jpg",
     "description": "Fórmate como un estratega transmedia, creador de contenido de alto impacto, especialista en relaciones públicas y periodismo digital. Domina la narrativa en un ecosistema mediático que evoluciona cada segundo.",
     "careerRole": "Conviértete en el director de las conversaciones globales y la voz que define tendencias en medios masivos, redes sociales y plataformas de streaming.",
     "uninterEnvironment": "Vive una inmersión total en el ecosistema de Comunicación obteniendo experiencia real desde antes de graduarte al producir campañas y narrativas para clientes y medios reales. Potencia tu perfil competitivo con práctica directa en estudios 4K, cabina de radio profesional y certificaciones estratégicas con visión internacional.",
@@ -45,7 +45,7 @@
       "countries": [
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Desarrolla narrativas transmedia y estrategias de comunicación pública en los principales medios de Iberoamérica.",
           "universities": [
             {
@@ -60,7 +60,7 @@
         },
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Inmersión total en estudios lingüísticos, comunicación corporativa europea y diplomacia cultural.",
           "universities": [
             {
@@ -75,7 +75,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Domina la producción digital, relaciones públicas y periodismo multimedia en instituciones de clase mundial.",
           "universities": [
             {
@@ -108,7 +108,7 @@
       {
         "title": "Cabina de Radio y Podcasting Profesional",
         "description": "Domina la transmisión en vivo, producción de audio y broadcasting con estándar de industria antes de graduarte.",
-        "image": "comunicacion_tech_1.webp",
+        "image": "comunicacion_tech_1.jpg",
         "features": [
           "Opera consolas de audio digital de última generación.",
           "Graba con microfonía Shure Pro estándar de la industria.",
@@ -118,7 +118,7 @@
       {
         "title": "Estudio de Televisión 4K y Streaming",
         "description": "Crea producciones cinematográficas y programas de televisión en tu propio campus universitario.",
-        "image": "comunicacion_tech_2.webp",
+        "image": "comunicacion_tech_2.jpg",
         "features": [
           "Dirige con cámaras profesionales 4K y switchers Blackmagic Design.",
           "Crea magia visual en set con ciclorama verde (Chroma Key) profesional.",
@@ -128,7 +128,7 @@
       {
         "title": "Islas de Edición y Postproducción Mac",
         "description": "Edición y renderizado a la velocidad de las grandes productoras mundiales.",
-        "image": "comunicacion_tech_3.webp",
+        "image": "comunicacion_tech_3.jpg",
         "features": [
           "Edita en estaciones Apple iMac de alto rendimiento.",
           "Domina la suite Adobe Creative Cloud (Premiere, After Effects, Audition) y DaVinci Resolve Studio."
@@ -160,8 +160,8 @@
     "id": "LRI",
     "name": "Relaciones Internacionales",
     "slug": "relaciones-internacionales",
-    "imageHorizontal": "relaciones h.webp",
-    "imageVertical": "relaciones v.webp",
+    "imageHorizontal": "relaciones h.jpg",
+    "imageVertical": "relaciones v.jpg",
     "description": "Prepárate para negociar en las mesas de poder global, liderar la diplomacia corporativa y diseñar estrategias geopolíticas. Conviértete en el estratega que conecta a México con el mundo.",
     "careerRole": "Fórmate como diplomático, consultor geopolítico o estratega en organismos multilaterales y corporaciones multinacionales de primer nivel.",
     "uninterEnvironment": "Experimenta la diplomacia real desde las aulas mediante modelos de Naciones Unidas, simulaciones de crisis geopolíticas y contacto directo con diplomáticos y cámaras de comercio internacional. Estudia en un ambiente verdaderamente multicultural con estudiantes de más de 25 nacionalidades y 49 materias impartidas en inglés y francés.",
@@ -202,7 +202,7 @@
       "countries": [
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Especialización en diplomacia europea, organismos multilaterales y cooperación cultural internacional.",
           "universities": [
             {
@@ -217,7 +217,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Inmersión en políticas hemisféricas, análisis geopolítico y negociación estratégica en organismos mundiales.",
           "universities": [
             {
@@ -228,7 +228,7 @@
         },
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Puente estratégico entre América Latina y la Unión Europea en diplomacia pública y comercio.",
           "universities": [
             {
@@ -261,7 +261,7 @@
       {
         "title": "Sala de Negociación y Modelo de Naciones Unidas (MUN)",
         "description": "Simulación inmersiva de debates parlamentarios internacionales y resolución de crisis en tiempo real.",
-        "image": "lri_tech_1.webp",
+        "image": "lri_tech_1.jpg",
         "features": [
           "Diseñada bajo estándares de asambleas diplomáticas internacionales.",
           "Sistema de audio para traducción simultánea y debate multilateral.",
@@ -271,7 +271,7 @@
       {
         "title": "Centro de Inteligencia Geopolítica y Monitoreo Global",
         "description": "Herramientas de análisis de coyuntura y tendencias políticas mundiales en vivo.",
-        "image": "lri_tech_2.webp",
+        "image": "lri_tech_2.jpg",
         "features": [
           "Bases de datos especializadas en comercio exterior, tratados y aranceles.",
           "Plataformas de monitoreo en tiempo real de mercados y conflictos globales.",
@@ -281,7 +281,7 @@
       {
         "title": "Laboratorio de Idiomas y Competencias Interculturales",
         "description": "Inmersión intensiva para dominar la negociación en inglés y francés técnico.",
-        "image": "lri_tech_3.webp",
+        "image": "lri_tech_3.jpg",
         "features": [
           "Cabinas interactivas de fonética y pronunciación avanzada.",
           "Software de simulación de reuniones de negocios multinacionales.",
@@ -314,8 +314,8 @@
     "id": "LED",
     "name": "Derecho",
     "slug": "derecho",
-    "imageHorizontal": "derrcho h.webp",
-    "imageVertical": "derrcho v.webp",
+    "imageHorizontal": "derrcho h.jpg",
+    "imageVertical": "derrcho v.jpg",
     "description": "Fórmate como un jurista de vanguardia, litigante implacable y consultor corporativo estratégico. Domina el sistema de justicia oral, el derecho corporativo y la defensa ética en un mundo globalizado.",
     "careerRole": "Conviértete en el líder legal que defiende la justicia, blinda activos empresariales y resuelve los conflictos más complejos con inteligencia estratégica.",
     "uninterEnvironment": "Experimenta la práctica jurídica desde el primer semestre en nuestra Sala de Juicios Orales equipada con la misma tecnología que los tribunales federales. Desarrolla casos reales, asesoría jurídica en clínicas de apoyo y adquiere certificaciones de alto valor en Derecho Corporativo y Administración Jurídica.",
@@ -356,7 +356,7 @@
       "countries": [
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Estudio del derecho continental europeo, arbitraje comercial internacional y litigio comparado.",
           "universities": [
             {
@@ -371,7 +371,7 @@
         },
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Inmersión en derecho administrativo, derechos humanos y fundamentos del derecho civil contemporáneo.",
           "universities": [
             {
@@ -382,7 +382,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Comprensión del Common Law, derecho corporativo internacional y negociación de contratos globales.",
           "universities": [
             {
@@ -415,7 +415,7 @@
       {
         "title": "Sala de Juicios Orales de Alta Especialidad",
         "description": "El mismo entorno tecnológico y procesal que encontrarás en juzgados y salas de audiencias federales.",
-        "image": "led_tech_1.webp",
+        "image": "led_tech_1.jpg",
         "features": [
           "Sistema de videograbación y audio multicanal para audiencias orales.",
           "Estrado de jueces, zona de fiscalía, defensa y tribuna de testigos bajo normativa oficial.",
@@ -425,7 +425,7 @@
       {
         "title": "Biblioteca Jurídica Digital y LegalTech",
         "description": "Acceso inmediato a la doctrina y jurisprudencia más actualizada del mundo.",
-        "image": "led_tech_2.webp",
+        "image": "led_tech_2.jpg",
         "features": [
           "Bases de datos jurídicas especializadas (SCJN, Tirant lo Blanch, Westlaw).",
           "Herramientas de automatización contractual y gestión digital de juicios.",
@@ -435,7 +435,7 @@
       {
         "title": "Consultorio Jurídico Universitario",
         "description": "Atención de casos reales y asesoría a la comunidad con acompañamiento docente.",
-        "image": "led_tech_3.webp",
+        "image": "led_tech_3.jpg",
         "features": [
           "Resolución de problemáticas civiles, familiares y laborales reales.",
           "Desarrollo de empatía profesional y ética jurídica impecable.",
@@ -468,8 +468,8 @@
     "id": "ARQ",
     "name": "Arquitectura",
     "slug": "arquitectura",
-    "imageHorizontal": "arquitectura h.webp",
-    "imageVertical": "arquitectura v.webp",
+    "imageHorizontal": "arquitectura h.jpg",
+    "imageVertical": "arquitectura v.jpg",
     "description": "Materializa tus visiones en espacios sustentables, funcionales e icónicos. Diseña el futuro del hábitat humano integrando innovación bioclimática, composición artística y tecnología constructiva avanzada.",
     "careerRole": "Sé el arquitecto que transforma ciudades, diseña desarrollos emblemáticos y lidera proyectos constructivos de alto impacto estético y social.",
     "uninterEnvironment": "Experimenta la arquitectura viva desde el primer día: talleres de diseño con luz natural, maquetas con corte láser y modelado BIM 3D, y visitas de supervisión a obras reales. Respaldado por certificaciones técnicas, materias en idiomas y una visión bioclimática que prioriza la sustentabilidad del entorno.",
@@ -510,7 +510,7 @@
       "countries": [
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Inmersión en vanguardia arquitectónica europea, urbanismo sustentable y restauración de patrimonio histórico.",
           "universities": [
             {
@@ -525,7 +525,7 @@
         },
         {
           "name": "Italia",
-          "image": "italia.webp",
+          "image": "italia.jpg",
           "description": "Cuna del diseño arquitectónico, interiorismo contemporáneo y preservación de monumentos.",
           "universities": [
             {
@@ -536,7 +536,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Estudio de rascacielos, tecnología de materiales avanzados y normativas LEED internacionales.",
           "universities": [
             {
@@ -569,7 +569,7 @@
       {
         "title": "Taller de Maquetas, Prototipado y Corte Láser",
         "description": "Lleva tus planos de la pantalla al mundo tangible con tecnología de precisión.",
-        "image": "arq_tech_1.webp",
+        "image": "arq_tech_1.jpg",
         "features": [
           "Cortadoras láser de precisión para maderas, acrílicos y cartones estructurales.",
           "Impresoras 3D para detalles volumétricos y celosías complejas.",
@@ -579,7 +579,7 @@
       {
         "title": "Laboratorio Digital BIM y Renderizado 3D",
         "description": "Visualización arquitectónica fotorrealista con estaciones de alta potencia gráfica.",
-        "image": "arq_tech_2.webp",
+        "image": "arq_tech_2.jpg",
         "features": [
           "Software profesional estándar: AutoCAD, Revit BIM, SketchUp, Lumion y Rhino.",
           "Renders en tiempo real y recorridos virtuales interactivos para clientes.",
@@ -589,7 +589,7 @@
       {
         "title": "Taller de Dibujo Análogo y Composición Artística",
         "description": "Cultiva la sensibilidad del croquis, acuarela y perspectiva a mano alzada.",
-        "image": "arq_tech_3.webp",
+        "image": "arq_tech_3.jpg",
         "features": [
           "Caballetes y restiradores profesionales regulables ergonómicos.",
           "Estudio de iluminación natural y modelos geométricos para entrenamiento visual.",
@@ -622,8 +622,8 @@
     "id": "LDG",
     "name": "Diseño Gráfico",
     "slug": "diseno-grafico",
-    "imageHorizontal": "gráfico h.webp",
-    "imageVertical": "gráfico v.webp",
+    "imageHorizontal": "gráfico h.jpg",
+    "imageVertical": "gráfico v.jpg",
     "description": "Transforma conceptos e ideas en soluciones visuales memorables. Conviértete en un director de arte integral que domina el branding, diseño UI/UX, animación digital y estrategias de comunicación comercial.",
     "careerRole": "Sé el arquitecto visual que construye la identidad de las marcas del futuro y cautiva audiencias a través de experiencias gráficas multiplataforma.",
     "uninterEnvironment": "Experimenta la adrenalina de una agencia creativa real dentro de UNINTER: laboratorios equipados con estaciones Apple Mac, tabletas de dibujo digital y talleres de producción física. Enriquecido con certificaciones en Transformación Digital, Liderazgo 4.0 e idiomas para competir en el mercado creativo internacional.",
@@ -664,7 +664,7 @@
       "countries": [
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Epicentro de la tipografía, diseño editorial iberoamericano y dirección de arte en agencias globales.",
           "universities": [
             {
@@ -675,7 +675,7 @@
         },
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Inmersión en ilustración contemporánea, diseño de lujo, moda y vanguardia conceptual.",
           "universities": [
             {
@@ -686,7 +686,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Vanguardia en diseño de producto digital UI/UX, Silicon Valley y diseño corporativo global.",
           "universities": [
             {
@@ -719,7 +719,7 @@
       {
         "title": "Laboratorio Mac con Suite Adobe Creative Cloud",
         "description": "Equipamiento estándar de las agencias y estudios de diseño más prestigiosos del planeta.",
-        "image": "ldg_tech_1.webp",
+        "image": "ldg_tech_1.jpg",
         "features": [
           "Estaciones Apple iMac con pantallas Retina de alta fidelidad cromática.",
           "Suite completa: Photoshop, Illustrator, InDesign, After Effects y Figma para UI/UX.",
@@ -729,7 +729,7 @@
       {
         "title": "Taller de Artes Gráficas, Serigrafía y Pre-Prensa",
         "description": "Experimenta con tintas, papeles finos y procesos de estampación tangibles.",
-        "image": "ldg_tech_2.webp",
+        "image": "ldg_tech_2.jpg",
         "features": [
           "Pulpas de serigrafía, pulpos de estampado textil y mesas de revelado fotomecánico.",
           "Laboratorio de pruebas de color y calibración de pre-prensa digital e offset.",
@@ -739,7 +739,7 @@
       {
         "title": "Estudio Fotográfico de Iluminación y Bodegón Publicitario",
         "description": "Captura fotografías de producto y publicidad con calidad de portada.",
-        "image": "ldg_tech_3.webp",
+        "image": "ldg_tech_3.jpg",
         "features": [
           "Flashes de estudio, softboxes, sombrillas y reflectores profesionales.",
           "Fondos sin fin de diversos colores para tomas publicitarias limpias.",
@@ -772,8 +772,8 @@
     "id": "IME",
     "name": "Mecatrónica",
     "slug": "mecatronica",
-    "imageHorizontal": "mecatronica h.webp",
-    "imageVertical": "mecatronica v.webp",
+    "imageHorizontal": "mecatronica h.jpg",
+    "imageVertical": "mecatronica v.jpg",
     "description": "Domina la fusión de la mecánica de precisión, la electrónica inteligente, la programación y la robótica industrial. Diseña sistemas automatizados y soluciones ciberfísicas para la Industria 4.0.",
     "careerRole": "Conviértete en el ingeniero que automatiza los procesos del futuro, diseña robots inteligentes y revoluciona las líneas de producción de la industria global.",
     "uninterEnvironment": "Aprende ingeniería haciendo ingeniería: programa brazos robóticos industriales, maquinado en tornos y centros CNC, e integra controladores PLC y microcontroladores desde las primeras etapas. Fortalecido con certificaciones en Transformación Digital, Liderazgo 4.0 y opciones de intercambios internacionales en potencias industriales.",
@@ -814,7 +814,7 @@
       "countries": [
         {
           "name": "Alemania",
-          "image": "alemania.webp",
+          "image": "alemania.jpg",
           "description": "Cuna de la Industria 4.0, mecatrónica automotriz y estándares mundiales de automatización industrial.",
           "universities": [
             {
@@ -825,7 +825,7 @@
         },
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Vanguardia en energías renovables, automatización de procesos e investigación robótica europea.",
           "universities": [
             {
@@ -836,7 +836,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Innovación en robótica espacial, manufactura aeroespacial y vehículos autónomos.",
           "universities": [
             {
@@ -869,7 +869,7 @@
       {
         "title": "Laboratorio de Robótica y Automatización Industrial",
         "description": "Entrenamiento real con el hardware y software que utilizan las fábricas automotrices y de tecnología punta.",
-        "image": "lim_tech_1.webp",
+        "image": "lim_tech_1.jpg",
         "features": [
           "Brazos robóticos industriales articulados para programación de trayectorias y pick & place.",
           "Bancos de automatización electroneumática e hidráulica Festo.",
@@ -879,7 +879,7 @@
       {
         "title": "Taller de Manufactura CNC y Prototipado 3D",
         "description": "Fabrica piezas metálicas y poliméricas con tolerancia milimétrica.",
-        "image": "lim_tech_2.webp",
+        "image": "lim_tech_2.jpg",
         "features": [
           "Centros de maquinado CNC y tornos de control numérico para fabricación automatizada.",
           "Granja de impresoras 3D industriales para prototipado rápido de piezas mecánicas.",
@@ -889,7 +889,7 @@
       {
         "title": "Laboratorio de Simulación CAD/CAM y Sistemas Embebidos",
         "description": "Diseña virtualmente y simula esfuerzos antes de mandar a producción.",
-        "image": "lim_tech_3.webp",
+        "image": "lim_tech_3.jpg",
         "features": [
           "Estaciones con SolidWorks, AutoCAD Mechanical y simuladores de circuitos.",
           "Osciloscopios digitales, generadores de señales y analizadores lógicos.",
@@ -922,8 +922,8 @@
     "id": "ISC",
     "name": "Sistemas Computacionales",
     "slug": "sistemas-computacionales",
-    "imageHorizontal": "sistemas h.webp",
-    "imageVertical": "sistemas v.webp",
+    "imageHorizontal": "sistemas h.jpg",
+    "imageVertical": "sistemas v.jpg",
     "description": "Conviértete en el creador del software que mueve al planeta. Domina el desarrollo Full Stack, la Inteligencia Artificial, la ciberseguridad, las arquitecturas Cloud y las redes de telecomunicaciones de alta disponibilidad.",
     "careerRole": "Fórmate como arquitecto de software, ingeniero en IA o líder de infraestructura tecnológica capaz de resolver problemas complejos y cotizarte en el mercado tech global.",
     "uninterEnvironment": "Entrena en entornos de programación reales: servidores de cómputo para despliegue de modelos de IA, laboratorio oficial de redes con Cisco Networking Academy y proyectos colaborativos bajo metodologías ágiles (Scrum/DevOps). Respaldado por certificaciones con validez ante STPS e industria tech.",
@@ -964,7 +964,7 @@
       "countries": [
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Inmersión en Silicon Valley, desarrollo de software avanzado y ecosistemas de innovación tecnológica.",
           "universities": [
             {
@@ -975,7 +975,7 @@
         },
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Centro europeo de hubs tecnológicos, ciberseguridad avanzada y desarrollo de software bancario.",
           "universities": [
             {
@@ -986,7 +986,7 @@
         },
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Liderazgo en investigación matemática, inteligencia artificial y telecomunicaciones de última generación.",
           "universities": [
             {
@@ -1019,7 +1019,7 @@
       {
         "title": "Laboratorio Oficial de Redes Cisco",
         "description": "Práctica directa con hardware de telecomunicaciones utilizado por los mayores proveedores de Internet del mundo.",
-        "image": "isc_tech_1.webp",
+        "image": "isc_tech_1.jpg",
         "features": [
           "Racks configurables con routers y switches Cisco gestionables.",
           "Patch panels y cableado estructurado para pruebas de rendimiento y fibra óptica.",
@@ -1029,7 +1029,7 @@
       {
         "title": "Centro de Cómputo de Alto Rendimiento para IA y Software",
         "description": "Estaciones de alto poder de procesamiento gráfico para compilación y entrenamiento de algoritmos.",
-        "image": "isc_tech_2.webp",
+        "image": "isc_tech_2.jpg",
         "features": [
           "Equipos con tarjetas gráficas dedicadas para procesamiento de Machine Learning y Deep Learning.",
           "Entornos de virtualización (Docker, Kubernetes) y servidores Linux para prácticas de despliegue.",
@@ -1039,7 +1039,7 @@
       {
         "title": "Laboratorio de Desarrollo Móvil y Videojuegos",
         "description": "Plataforma para crear apps interactivas y probarlas en múltiples dispositivos.",
-        "image": "isc_tech_3.webp",
+        "image": "isc_tech_3.jpg",
         "features": [
           "Estaciones Mac y PC optimizadas para Unity, Unreal Engine y Android Studio.",
           "Dispositivos físicos para pruebas de rendimiento de software y apps en vivo.",
@@ -1072,8 +1072,8 @@
     "id": "LME",
     "name": "Mercadotecnia",
     "slug": "mercadotecnia",
-    "imageHorizontal": "merca h.webp",
-    "imageVertical": "merca v.webp",
+    "imageHorizontal": "merca h.jpg",
+    "imageVertical": "merca v.jpg",
     "description": "Domina la psicología del consumidor, el marketing digital de alto rendimiento y el análisis de datos. Aprende a posicionar marcas de escala global, crear productos irresistibles y maximizar la rentabilidad comercial.",
     "careerRole": "Conviértete en el estratega que detecta oportunidades invisibles de mercado, conecta con el corazón del consumidor y lidera el crecimiento comercial de las marcas más exitosas.",
     "uninterEnvironment": "Aprende mercadotecnia con campañas e investigaciones para marcas reales: gestiona presupuestos publicitarios, realiza focus groups en Cámara Gesell y analiza métricas de mercado con software de vanguardia. Respaldado por certificaciones en Administración y Diseño Gráfico para un perfil 360° altamente competitivo.",
@@ -1114,7 +1114,7 @@
       "countries": [
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Vanguardia en marketing relacional, retail de moda internacional y gestión de marcas de lujo.",
           "universities": [
             {
@@ -1129,7 +1129,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Liderazgo en marketing de contenidos, comercio electrónico y analítica de datos en Silicon Valley y Nueva York.",
           "universities": [
             {
@@ -1140,7 +1140,7 @@
         },
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Especialización en marketing sensorial, branding de alta gama y comportamiento del consumidor europeo.",
           "universities": [
             {
@@ -1173,7 +1173,7 @@
       {
         "title": "Cámara Gesell para Focus Groups y Neuromarketing",
         "description": "Observa el comportamiento y reacciones no verbales de consumidores reales en tiempo real.",
-        "image": "lem_tech_1.webp",
+        "image": "lem_tech_1.jpg",
         "features": [
           "Espejo de visión unidireccional con sala de observación aislada acústicamente.",
           "Sistema de audio y videograbación en alta definición para análisis de entrevistas.",
@@ -1183,7 +1183,7 @@
       {
         "title": "Laboratorio de Analítica Digital y Social Listening",
         "description": "Monitoriza tendencias y métricas de marcas en redes sociales y buscadores.",
-        "image": "lem_tech_2.webp",
+        "image": "lem_tech_2.jpg",
         "features": [
           "Acceso a herramientas de analítica digital y rastreo de conversiones.",
           "Simuladores de compra de pauta y optimización de campañas de rendimiento.",
@@ -1193,7 +1193,7 @@
       {
         "title": "Espacio de Co-Working y Aceleración de Campañas",
         "description": "Ambiente de trabajo colaborativo similar a las agencias de marketing más modernas.",
-        "image": "lem_tech_3.webp",
+        "image": "lem_tech_3.jpg",
         "features": [
           "Pizarras interactivas de Design Thinking y mapas de empatía del consumidor.",
           "Estaciones conectadas para presentaciones de pitch a directivos de empresas reales.",
@@ -1226,8 +1226,8 @@
     "id": "LAE",
     "name": "Administración de Empresas",
     "slug": "administracion-de-empresas",
-    "imageHorizontal": "admin h.webp",
-    "imageVertical": "admin v.webp",
+    "imageHorizontal": "admin h.jpg",
+    "imageVertical": "admin v.jpg",
     "description": "Conviértete en el líder que dirige organizaciones hacia el éxito rentable y sostenible. Domina la toma de decisiones estratégicas, la optimización financiera, la gestión de talento de alto desempeño y la innovación de modelos de negocio.",
     "careerRole": "Fórmate como el director general, consultor de negocios o empresario visionario capaz de transformar cualquier organización en una empresa competitiva y de alcance global.",
     "uninterEnvironment": "Experimenta la gestión empresarial real desde tus estudios: desarrolla proyectos de incubación de negocios, simulaciones financieras en entornos de mercado dinámicos y consultoría a PyMEs con clientes reales. Respaldado por certificaciones en Mercadotecnia y Finanzas y Negocios, opción de doble titulación con EE. UU. y formación bilingüe.",
@@ -1268,7 +1268,7 @@
       "countries": [
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Formación en alta gerencia, Venture Capital, fusiones corporativas y opción de doble titulación universitaria.",
           "universities": [
             {
@@ -1279,7 +1279,7 @@
         },
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Especialización en administración estratégica europea, gestión de empresas familiares y mercados iberoamericanos.",
           "universities": [
             {
@@ -1290,7 +1290,7 @@
         },
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Inmersión en gestión de marcas corporativas europeas, sustentabilidad y gobernanza organizacional.",
           "universities": [
             {
@@ -1323,7 +1323,7 @@
       {
         "title": "Simulador de Negocios y Toma de Decisiones Gerenciales",
         "description": "Práctica con software de simulación empresarial donde compites en mercados virtuales tomando decisiones en tiempo real.",
-        "image": "lae_tech_1.webp",
+        "image": "lae_tech_1.jpg",
         "features": [
           "Simulación de entornos macroeconómicos, fijación de precios y competencia de mercado.",
           "Manejo de variables de producción, compras, marketing, recursos humanos y finanzas.",
@@ -1333,7 +1333,7 @@
       {
         "title": "Incubadora y Aceleradora de Empresas UNINTER",
         "description": "El espacio donde incubas tu propia empresa o desarrollas planes de negocio con mentoría directa.",
-        "image": "lae_tech_2.webp",
+        "image": "lae_tech_2.jpg",
         "features": [
           "Mentoría de empresarios y consultores en activo con amplia trayectoria de mercado.",
           "Preparación para rondas de capital semilla y presentación ante comités inversionistas.",
@@ -1343,7 +1343,7 @@
       {
         "title": "Laboratorio de Inteligencia de Negocios y ERP",
         "description": "Domina las herramientas tecnológicas que usan los grandes corporativos del mundo.",
-        "image": "lae_tech_3.webp",
+        "image": "lae_tech_3.jpg",
         "features": [
           "Modelado financiero avanzado en Microsoft Excel y Power BI.",
           "Introducción a sistemas de planificación de recursos empresariales (ERP tipo SAP/Odoo).",
@@ -1376,8 +1376,8 @@
     "id": "CORP",
     "name": "Comunicación y Relaciones Públicas",
     "slug": "comunicacion-y-relaciones-publicas",
-    "imageHorizontal": "comunica h.webp",
-    "imageVertical": "comunica v.webp",
+    "imageHorizontal": "comunica h.jpg",
+    "imageVertical": "comunica v.jpg",
     "description": "Construye puentes estratégicos entre organizaciones, líderes y la opinión pública. Domina la comunicación corporativa, la gestión de crisis, el marketing de influencia y la producción de eventos de escala internacional.",
     "careerRole": "Conviértete en el estratega que diseña la reputación pública de las marcas y personalidades más influyentes del mundo.",
     "uninterEnvironment": "Experimenta el mundo de las relaciones públicas con proyectos y vocerías reales: entrena en nuestro set de televisión 4K, produce conferencias de prensa y media training en cabina profesional y adquiere certificaciones de alto valor en Comunicación Corporativa y Adobe Certified Associate.",
@@ -1418,7 +1418,7 @@
       "countries": [
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Cuna del protocolo internacional, diplomacia cultural y relaciones públicas de casas de alta gama.",
           "universities": [
             {
@@ -1433,7 +1433,7 @@
         },
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Liderazgo en comunicación estratégica iberoamericana, grandes agencias de PR y eventos corporativos.",
           "universities": [
             {
@@ -1448,7 +1448,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Vanguardia en relaciones públicas digitales, gestión de crisis mediáticas y lobby corporativo en Washington y Nueva York.",
           "universities": [
             {
@@ -1481,7 +1481,7 @@
       {
         "title": "Sala de Prensa y Media Training Inmersivo",
         "description": "Entrena en condiciones reales de entrevistas y conferencias de prensa bajo presión de medios.",
-        "image": "lcrp_tech_1.webp",
+        "image": "lcrp_tech_1.jpg",
         "features": [
           "Pódium de conferencias oficial con microfonía profesional y backdrop institucional.",
           "Cámaras robóticas y teleprompter para entrenamiento de voceros ejecutivos.",
@@ -1491,7 +1491,7 @@
       {
         "title": "Estudio de Televisión 4K y Transmisión en Vivo",
         "description": "Produce transmisiones para eventos híbridos y contenidos institucionales de alta definición.",
-        "image": "lcrp_tech_2.webp",
+        "image": "lcrp_tech_2.jpg",
         "features": [
           "Cámaras 4K con switchers Blackmagic para producción multicámara en vivo.",
           "Ciclorama verde para inserción de escenografías virtuales corporativas.",
@@ -1501,7 +1501,7 @@
       {
         "title": "Cabina de Radio y Podcasting Corporativo",
         "description": "Graba comunicados de voz, podcasts de marca y cápsulas informativas con calidad acústica impecable.",
-        "image": "lcrp_tech_3.webp",
+        "image": "lcrp_tech_3.jpg",
         "features": [
           "Microfonía Shure y cabina tratada acústicamente para locución nítida.",
           "Software de edición digital multipista y automatización de programas.",
@@ -1534,8 +1534,8 @@
     "id": "RICP",
     "name": "Relaciones Internacionales y Ciencias Políticas",
     "slug": "relaciones-internacionales-y-ciencias-politicas",
-    "imageHorizontal": "relaciones h.webp",
-    "imageVertical": "relaciones v.webp",
+    "imageHorizontal": "relaciones h.jpg",
+    "imageVertical": "relaciones v.jpg",
     "description": "Comprende la estructura del poder, la diplomacia internacional y la gobernanza contemporánea. Fórmate como el estratega capaz de analizar conflictos globales, diseñar políticas de Estado y asesorar a líderes de clase mundial.",
     "careerRole": "Conviértete en el analista político, diplomático y consultor de gobierno que define las agendas públicas nacionales e internacionales.",
     "uninterEnvironment": "Experimenta la política viva en campus: debates parlamentarios, simulaciones de cumbres mundiales y análisis de coyuntura electoral en tiempo real. Cursas 49 materias en inglés y francés, con la oportunidad de obtener un Certificado Internacional en Francia y acceder a nuestra red de más de 130 convenios universitarios.",
@@ -1576,7 +1576,7 @@
       "countries": [
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Estudio de las instituciones republicanas europeas, ciencias políticas en Sciences Po y diplomacia.",
           "universities": [
             {
@@ -1591,7 +1591,7 @@
         },
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Inmersión en gobernanza comparada europea, análisis electoral y políticas públicas iberoamericanas.",
           "universities": [
             {
@@ -1602,7 +1602,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Análisis del sistema político norteamericano, geopolítica de defensa y organismos multilaterales.",
           "universities": [
             {
@@ -1635,7 +1635,7 @@
       {
         "title": "Hemiciclo de Debate Político y Modelos Internacionales",
         "description": "Escenario parlamentario diseñado para el debate oratorio, defensa de iniciativas y simulaciones diplomáticas.",
-        "image": "ricp_tech_1.webp",
+        "image": "ricp_tech_1.jpg",
         "features": [
           "Diseño en herradura con microfonía parlamentaria individual e iluminación de estudio.",
           "Entrenamiento en oratoria política, réplica y contrarréplica de alta persuasión.",
@@ -1645,7 +1645,7 @@
       {
         "title": "Observatorio de Tendencias Electorales y Geopolítica",
         "description": "Laboratorio de datos para el seguimiento de elecciones, encuestas y política pública global.",
-        "image": "ricp_tech_2.webp",
+        "image": "ricp_tech_2.jpg",
         "features": [
           "Plataformas de minería de opinión pública y social listening político.",
           "Mapeo geoespacial de distritos electorales e indicadores socioeconómicos.",
@@ -1655,7 +1655,7 @@
       {
         "title": "Centro de Medios y Comunicación Política",
         "description": "Entrenamiento en ruedas de prensa, discursos en teleprompter y manejo de crisis informativa.",
-        "image": "ricp_tech_3.webp",
+        "image": "ricp_tech_3.jpg",
         "features": [
           "Set con cámaras profesionales para simular conferencias matutinas y entrevistas televisivas.",
           "Taller de redacción de discursos (Speechwriting) con técnicas retóricas modernas.",
@@ -1688,8 +1688,8 @@
     "id": "RIEC",
     "name": "Relaciones Internacionales y Economía",
     "slug": "relaciones-internacionales-y-economia",
-    "imageHorizontal": "relaciones h.webp",
-    "imageVertical": "relaciones v.webp",
+    "imageHorizontal": "relaciones h.jpg",
+    "imageVertical": "relaciones v.jpg",
     "description": "Domina las fuerzas económicas que mueven al mundo y la diplomacia que teje los grandes acuerdos globales. Fórmate para liderar negociaciones comerciales, analizar mercados de capitales y gestionar inversiones estratégicas transfronterizas.",
     "careerRole": "Sé el estratega que fusiona la economía global con la diplomacia, asesorando a gobiernos, corporaciones multinacionales y bancos de desarrollo.",
     "uninterEnvironment": "Experimenta la economía global en vivo: laboratorios con simuladores de mercado financiero, análisis de tratados de libre comercio y contacto con expertos del comercio internacional. Estudia en un campus multicultural con 49 asignaturas en inglés y francés y opción de Certificado Internacional en Francia.",
@@ -1730,7 +1730,7 @@
       "countries": [
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Estudio de la integración económica europea, políticas monetarias del Banco Central Europeo y comercio.",
           "universities": [
             {
@@ -1745,7 +1745,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Inmersión en finanzas globales de Wall Street, análisis econométrico avanzado y organismos en Washington.",
           "universities": [
             {
@@ -1756,7 +1756,7 @@
         },
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Análisis de mercados iberoamericanos, comercio transatlántico y regulación económica comunitaria.",
           "universities": [
             {
@@ -1789,7 +1789,7 @@
       {
         "title": "Laboratorio de Inteligencia Económica y Simulación Financiera",
         "description": "Plataforma para el análisis cuantitativo de variables macroeconómicas y proyecciones de mercado.",
-        "image": "riec_tech_1.webp",
+        "image": "riec_tech_1.jpg",
         "features": [
           "Software de modelado econométrico y análisis de series de tiempo (R, Python, Stata).",
           "Terminales para seguimiento en tiempo real de tipos de cambio, commodities y bolsas mundiales.",
@@ -1799,7 +1799,7 @@
       {
         "title": "Centro de Monitoreo de Tratados y Comercio Exterior",
         "description": "Acceso a la información más relevante sobre regulaciones comerciales y arancelarias del planeta.",
-        "image": "riec_tech_2.webp",
+        "image": "riec_tech_2.jpg",
         "features": [
           "Bases de datos de comercio internacional (UN Comtrade, ITC Trademap, Banxico).",
           "Herramientas de análisis de cadenas de valor y desgravación arancelaria del T-MEC y TLCUEM.",
@@ -1809,7 +1809,7 @@
       {
         "title": "Espacio de Diplomacia Económica y Pitch Internacional",
         "description": "Entrena en la presentación de proyectos ante inversionistas extranjeros y delegaciones de comercio.",
-        "image": "riec_tech_3.webp",
+        "image": "riec_tech_3.jpg",
         "features": [
           "Salas de telepresencia para conferencias con instituciones financieras internacionales.",
           "Módulos para negociación multilateral en inglés y francés de negocios.",
@@ -1842,8 +1842,8 @@
     "id": "LCP",
     "name": "Ciencias Políticas y Gestión Pública",
     "slug": "ciencias-politicas-y-gestion-publica",
-    "imageHorizontal": "politicas h.webp",
-    "imageVertical": "politicas v.webp",
+    "imageHorizontal": "politicas h.jpg",
+    "imageVertical": "politicas v.jpg",
     "description": "Lidera la transformación del Estado, moderniza la administración pública y diseña políticas de alto impacto social. Conviértete en el profesional ético e innovador que México necesita para gobernar con transparencia y eficiencia.",
     "careerRole": "Fórmate como el estratega gubernamental, consultor de políticas públicas o líder de gestión pública que resuelve los grandes retos de la sociedad.",
     "uninterEnvironment": "Aprende la gestión del Estado con casos y proyectos reales: diseña presupuestos participativos, analiza el impacto de programas sociales y debate en nuestro hemiciclo legislativo. Enriquecido con idiomas (inglés y francés), certificaciones en Política Internacional y acceso a estancias en organismos de primer orden.",
@@ -1884,7 +1884,7 @@
       "countries": [
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Referente histórico en administración pública, derecho administrativo y formación de altos funcionarios.",
           "universities": [
             {
@@ -1899,7 +1899,7 @@
         },
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Modelos autonómicos de gestión pública, contratación estatal y políticas de bienestar de la Unión Europea.",
           "universities": [
             {
@@ -1910,7 +1910,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Gestión de políticas públicas (Public Policy), análisis demográfico y escuelas de gobierno.",
           "universities": [
             {
@@ -1943,7 +1943,7 @@
       {
         "title": "Laboratorio de Innovación Gubernamental y Datos Públicos",
         "description": "Plataforma para el diseño de soluciones tecnológicas aplicadas al servicio ciudadano (GovTech).",
-        "image": "lcpgp_tech_1.webp",
+        "image": "lcpgp_tech_1.jpg",
         "features": [
           "Bases de datos de finanzas públicas, presupuestos abiertos e indicadores de INEGI y CONEVAL.",
           "Software de visualización de datos estadísticos para evaluación de programas sociales.",
@@ -1953,7 +1953,7 @@
       {
         "title": "Sala de Crisis y Comunicación de Gobierno",
         "description": "Entrenamiento inmersivo para la toma de decisiones rápidas ante emergencias sociales y mediáticas.",
-        "image": "lcpgp_tech_2.webp",
+        "image": "lcpgp_tech_2.jpg",
         "features": [
           "Mesa de situación equipada con monitoreo de medios informativos y redes ciudadanas.",
           "Protocolos de comunicación de riesgo y mensajes a la población en tiempo real.",
@@ -1963,7 +1963,7 @@
       {
         "title": "Taller de Debate Parlamentario y Técnica Legislativa",
         "description": "Perfecciona la redacción de iniciativas de ley y la oratoria política persuasiva.",
-        "image": "lcpgp_tech_3.webp",
+        "image": "lcpgp_tech_3.jpg",
         "features": [
           "Entorno réplica de cámara legislativa para sesiones ordinarias simuladas.",
           "Revisión de reglamentos, gacetas parlamentarias y técnica jurídica legislativa.",
@@ -1996,8 +1996,8 @@
     "id": "LID",
     "name": "Idiomas",
     "slug": "idiomas",
-    "imageHorizontal": "idiomas h.webp",
-    "imageVertical": "idiomas v.webp",
+    "imageHorizontal": "idiomas h.jpg",
+    "imageVertical": "idiomas v.jpg",
     "description": "Domina el puente lingüístico y cultural que conecta al mundo. Fórmate como traductor profesional, intérprete simultáneo de conferencias, diseñador de tecnologías educativas y consultor en comunicación intercultural multilingüe.",
     "careerRole": "Conviértete en el mediador cultural y traductor de élite capaz de romper cualquier barrera lingüística en organismos mundiales y corporaciones transnacionales.",
     "uninterEnvironment": "Vive en una auténtica comunidad internacional dentro de UNINTER: convive a diario con alumnos extranjeros de más de 25 países que eligen nuestra universidad para aprender español. Entrena en cabinas de interpretación simultánea profesional, laboratorios con herramientas TAO (Trados) y obtén certificaciones de alto valor en traducción y producción editorial.",
@@ -2038,7 +2038,7 @@
       "countries": [
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Inmersión total en letras francesas, traducción literaria y lingüística aplicada en París y Lyon.",
           "universities": [
             {
@@ -2053,7 +2053,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Perfeccionamiento del inglés técnico y corporativo, lingüística computacional y estudios multiculturales.",
           "universities": [
             {
@@ -2064,7 +2064,7 @@
         },
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Estudios avanzados en lingüística hispánica, traducción editorial y corrección de estilo en Madrid.",
           "universities": [
             {
@@ -2105,7 +2105,7 @@
       {
         "title": "Cabinas de Interpretación Simultánea Profesional",
         "description": "El mismo equipamiento acústico y de transmisión que se utiliza en la Asamblea General de la ONU.",
-        "image": "lid_tech_1.webp",
+        "image": "lid_tech_1.jpg",
         "features": [
           "Cabinas aisladas acústicamente con consola de control para intérprete A/B.",
           "Transmisores y receptores multicanal para prácticas en eventos y congresos en vivo.",
@@ -2115,7 +2115,7 @@
       {
         "title": "Laboratorio TAO y Lingüística Computacional",
         "description": "Domina el software estándar de la industria mundial de la traducción asistida.",
-        "image": "lid_tech_2.webp",
+        "image": "lid_tech_2.jpg",
         "features": [
           "Estaciones con licencias de software TAO (Trados Studio, memoQ).",
           "Gestión de memorias de traducción y bases de datos terminológicas complejas.",
@@ -2125,7 +2125,7 @@
       {
         "title": "Centro de Inmersión y Fonética Intercultural",
         "description": "Perfeccionamiento acústico y fonético para lograr una pronunciación nativa.",
-        "image": "lid_tech_3.webp",
+        "image": "lid_tech_3.jpg",
         "features": [
           "Software especializado en análisis espectrográfico de voz y patrones de acento.",
           "Plataformas interactivas para enseñanza de segundas lenguas mediante tecnología.",
@@ -2158,8 +2158,8 @@
     "id": "LPE",
     "name": "Pedagogía",
     "slug": "pedagogia",
-    "imageHorizontal": "pedagogía h.webp",
-    "imageVertical": "pedagogía v.webp",
+    "imageHorizontal": "pedagogía h.jpg",
+    "imageVertical": "pedagogía v.jpg",
     "description": "Revoluciona el aprendizaje, diseña el futuro de la educación y lidera la formación del talento humano. Conviértete en el especialista capaz de crear tecnología educativa innovadora, dirigir instituciones de excelencia y transformar vidas a través del conocimiento.",
     "careerRole": "Fórmate como el diseñador instruccional, consultor educativo o directivo académico que marca el estándar pedagógico de las nuevas generaciones.",
     "uninterEnvironment": "Experimenta la pedagogía del siglo XXI: diseña entornos virtuales de aprendizaje (EdTech), realiza diagnósticos en Cámara Gesell y desarrolla proyectos reales en instituciones educativas y corporativos de clase mundial. Complementado con formación en inglés y francés y certificaciones de gran versatilidad.",
@@ -2200,7 +2200,7 @@
       "countries": [
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Pionera en teorías pedagógicas contemporáneas, filosofía de la educación y modelos de inclusión.",
           "universities": [
             {
@@ -2215,7 +2215,7 @@
         },
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Liderazgo en innovación didáctica, educación basada en competencias y tecnología educativa europea.",
           "universities": [
             {
@@ -2226,7 +2226,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Vanguardia en diseño instruccional digital, neurociencia del aprendizaje y gamificación educativa.",
           "universities": [
             {
@@ -2259,7 +2259,7 @@
       {
         "title": "Laboratorio de Innovación Educativa y EdTech",
         "description": "Crea cursos virtuales, recursos gamificados y experiencias interactivas de aprendizaje.",
-        "image": "lpd_tech_1.webp",
+        "image": "lpd_tech_1.jpg",
         "features": [
           "Plataformas de diseño instruccional (Articulate Storyline, Canva Edu, Genially).",
           "Configuración de entornos virtuales de aprendizaje (LMS tipo Moodle, Canvas, Google Classroom).",
@@ -2269,7 +2269,7 @@
       {
         "title": "Cámara Gesell para Diagnóstico Psicopedagógico",
         "description": "Observa procesos cognitivos, de socialización y dinámicas grupales con máxima confidencialidad.",
-        "image": "lpd_tech_2.webp",
+        "image": "lpd_tech_2.jpg",
         "features": [
           "Espejo de visión unidireccional con audio digital de alta fidelidad.",
           "Entrenamiento en evaluación de estilos de aprendizaje y conducta infantil y adolescente.",
@@ -2279,7 +2279,7 @@
       {
         "title": "Taller de Material Didáctico Multisensorial",
         "description": "Diseña herramientas tangibles y juegos educativos adaptados a diversas necesidades cognitivas.",
-        "image": "lpd_tech_3.webp",
+        "image": "lpd_tech_3.jpg",
         "features": [
           "Materiales para estimulación temprana, psicomotricidad y lectoescritura.",
           "Recursos para alumnos con neurodiversidad (TDAH, TEA, altas capacidades).",
@@ -2312,8 +2312,8 @@
     "id": "LAET",
     "name": "Administración de Empresas Turísticas",
     "slug": "administracion-de-empresas-turisticas",
-    "imageHorizontal": "admin h.webp",
-    "imageVertical": "admin v.webp",
+    "imageHorizontal": "admin h.jpg",
+    "imageVertical": "admin v.jpg",
     "description": "Lidera la industria más apasionante y global del mundo: la hospitalidad, los resorts de lujo y el turismo experiencial. Domina la gestión hotelera, la dirección de eventos internacionales y el marketing de destinos sustentables.",
     "careerRole": "Conviértete en el director de hospitalidad, gestor de resorts de gran turismo o creador de experiencias turísticas que cautivan al viajero moderno.",
     "uninterEnvironment": "Experimenta la hospitalidad de alto nivel desde las aulas: simuladores de sistemas de reservación hotelera mundial (PMS), talleres de protocolo de banquetes y visitas operativas a resorts de clase mundial. Respaldado por formación bilingüe con asignaturas en inglés y convenios de prácticas en los principales destinos turísticos del planeta.",
@@ -2354,7 +2354,7 @@
       "countries": [
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Líder mundial en turismo vacacional, gestión de grandes cadenas hoteleras internacionales y gastronomía.",
           "universities": [
             {
@@ -2365,7 +2365,7 @@
         },
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "El destino más visitado del planeta; excelencia en hospitalidad de lujo, enoturismo y patrimonio.",
           "universities": [
             {
@@ -2376,7 +2376,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Gestión de megaresorts, parques temáticos de clase mundial (Orlando/California) y turismo de negocios.",
           "universities": [
             {
@@ -2409,7 +2409,7 @@
       {
         "title": "Simulador de Gestión Hotelera y Sistemas PMS",
         "description": "Opera el software de recepción y administración que utilizan los grandes hoteles del mundo.",
-        "image": "laet_tech_1.webp",
+        "image": "laet_tech_1.jpg",
         "features": [
           "Simulaciones de Check-in/Check-out, asignación de habitaciones y facturación.",
           "Conexión con canales de distribución global (OTAs tipo Booking, Expedia) y motores de reserva.",
@@ -2419,7 +2419,7 @@
       {
         "title": "Taller de Protocolo, Banquetes y Eventos de Alta Gama",
         "description": "Práctica de montaje, servicio de alimentos y etiqueta en recepciones corporativas y sociales.",
-        "image": "laet_tech_2.webp",
+        "image": "laet_tech_2.jpg",
         "features": [
           "Mobiliario profesional de banquetes, cristalería y mantelería fina de etiqueta internacional.",
           "Diseño de rutas de servicio, tiempos de cocina y atención a comensales VIP.",
@@ -2429,7 +2429,7 @@
       {
         "title": "Laboratorio de Inteligencia y Tendencias Turísticas",
         "description": "Analiza datos de flujos turísticos mundiales para diseñar experiencias innovadoras.",
-        "image": "laet_tech_3.webp",
+        "image": "laet_tech_3.jpg",
         "features": [
           "Acceso a indicadores de la Organización Mundial del Turismo (OMT) y Datatur.",
           "Herramientas de marketing digital aplicadas al posicionamiento de hoteles y destinos.",
@@ -2462,8 +2462,8 @@
     "id": "LANI",
     "name": "Administración de Negocios Internacionales",
     "slug": "administracion-de-negocios-internacionales",
-    "imageHorizontal": "admin h.webp",
-    "imageVertical": "admin v.webp",
+    "imageHorizontal": "admin h.jpg",
+    "imageVertical": "admin v.jpg",
     "description": "Lidera la expansión de empresas más allá de las fronteras. Domina la logística global, la negociación intercultural, el comercio exterior, los tratados de libre comercio y las finanzas corporativas internacionales.",
     "careerRole": "Conviértete en el director de operaciones globales, broker internacional o estratega de expansión transfronteriza en corporaciones multinacionales.",
     "uninterEnvironment": "Aprende a hacer negocios en el mundo real: participa en simuladores de logística portuaria y aduanera, diseña planes de internacionalización para empresas mexicanas y negocia con estudiantes de más de 25 nacionalidades en campus. Respaldado por formación bilingüe, acreditación FIMPES e intercambios en más de 130 universidades.",
@@ -2504,7 +2504,7 @@
       "countries": [
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "El mayor socio comercial de México; inmersión en negociación en Wall Street, logística y T-MEC.",
           "universities": [
             {
@@ -2515,7 +2515,7 @@
         },
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Puerta de entrada al mercado único de la Unión Europea y gestión de empresas multinacionales.",
           "universities": [
             {
@@ -2526,7 +2526,7 @@
         },
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Especialización en marketing de lujo global, negociación comercial y cadenas de valor europeas.",
           "universities": [
             {
@@ -2559,7 +2559,7 @@
       {
         "title": "Simulador de Negocios y Logística Portuaria Global",
         "description": "Simula operaciones de despacho de contenedores, cálculo de fletes y trámites de aduana.",
-        "image": "lani_tech_1.webp",
+        "image": "lani_tech_1.jpg",
         "features": [
           "Cálculo automatizado de términos de comercio internacional (Incoterms 2020).",
           "Rastreo de rutas navieras y costos de transporte intermodal marítimo y aéreo.",
@@ -2569,7 +2569,7 @@
       {
         "title": "Laboratorio de Inteligencia de Mercados y Tratados Comerciales",
         "description": "Acceso a bases de datos mundiales para identificar nichos de exportación no explotados.",
-        "image": "lani_tech_2.webp",
+        "image": "lani_tech_2.jpg",
         "features": [
           "Bases de datos especializadas (Trademap, MacMap, Secretarías de Comercio).",
           "Análisis de reglas de origen y desgravación arancelaria en tratados de libre comercio.",
@@ -2579,7 +2579,7 @@
       {
         "title": "Sala de Negociaciones Ejecutivas y Pitch Bilingüe",
         "description": "Entrena en la presentación de proyectos ante delegaciones comerciales extranjeras.",
-        "image": "lani_tech_3.webp",
+        "image": "lani_tech_3.jpg",
         "features": [
           "Salas de teleconferencia para reuniones de negocios transnacionales.",
           "Prácticas de oratoria comercial y protocolo de negocios en inglés.",
@@ -2612,8 +2612,8 @@
     "id": "LAM",
     "name": "Administración y Mercadotecnia",
     "slug": "administracion-y-mercadotecnia",
-    "imageHorizontal": "admin h.webp",
-    "imageVertical": "admin v.webp",
+    "imageHorizontal": "admin h.jpg",
+    "imageVertical": "admin v.jpg",
     "description": "La combinación perfecta entre la visión directiva y la creatividad comercial. Domina la administración financiera de negocios, la creación de marcas poderosas, el marketing digital y la dirección de equipos de alto rendimiento comercial.",
     "careerRole": "Conviértete en el director comercial (Chief Commercial Officer) o estratega de negocios capaz de diseñar productos rentables y liderar su éxito en el mercado.",
     "uninterEnvironment": "Experimenta la fusión entre los números y la creatividad: resuelve casos de negocio reales en simuladores empresariales, desarrolla campañas publicitarias en laboratorios creativos y diseña planes de negocio en nuestra incubadora. Respaldado por certificaciones en Transformación Digital, Liderazgo 4.0, Publicidad y Finanzas.",
@@ -2654,7 +2654,7 @@
       "countries": [
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Modelos europeos de gestión comercial, retail y estrategias de marketing iberoamericano.",
           "universities": [
             {
@@ -2669,7 +2669,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Innovación en administración corporativa, marketing digital y analítica de datos en Silicon Valley.",
           "universities": [
             {
@@ -2680,7 +2680,7 @@
         },
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Especialización en marketing de marcas premium, dirección de empresas y sustentabilidad corporativa.",
           "universities": [
             {
@@ -2713,7 +2713,7 @@
       {
         "title": "Simulador de Mercados y Decisiones Estratégicas",
         "description": "Compite en mercados virtuales tomando decisiones de fijación de precios, capacidad de planta y presupuesto publicitario.",
-        "image": "lam_tech_1.webp",
+        "image": "lam_tech_1.jpg",
         "features": [
           "Algoritmos que simulan el impacto de tus campañas en ventas reales y utilidades netas.",
           "Análisis de sensibilidad de precios, elasticidad de la demanda y cuota de mercado.",
@@ -2723,7 +2723,7 @@
       {
         "title": "Laboratorio de Analítica de Clientes y CRM",
         "description": "Herramientas para segmentar mercados y fidelizar consumidores a gran escala.",
-        "image": "lam_tech_2.webp",
+        "image": "lam_tech_2.jpg",
         "features": [
           "Plataformas de Customer Relationship Management (CRM) para gestión de embudos de ventas.",
           "Modelado de datos comerciales en Microsoft Excel avanzado y Power BI.",
@@ -2733,7 +2733,7 @@
       {
         "title": "Espacio de Incubación y Coworking Creativo",
         "description": "El punto de encuentro donde nacen las marcas y modelos de negocio de nuestros estudiantes.",
-        "image": "lam_tech_3.webp",
+        "image": "lam_tech_3.jpg",
         "features": [
           "Metodologías ágiles de innovación (Lean Startup, Design Thinking, Business Model Canvas).",
           "Mentoría con directores comerciales y empresarios en activo.",
@@ -2766,8 +2766,8 @@
     "id": "LCE",
     "name": "Comercio Exterior",
     "slug": "comercio-exterior",
-    "imageHorizontal": "comercio h.webp",
-    "imageVertical": "comercio v.webp",
+    "imageHorizontal": "comercio h.jpg",
+    "imageVertical": "comercio v.jpg",
     "description": "Sé el experto que conecta a las industrias con los mercados del planeta. Domina el despacho aduanero, la legislación arancelaria y fiscal, la logística multimodal y la planeación de compras y ventas internacionales.",
     "careerRole": "Conviértete en el agente aduanal, director de logística internacional o consultor de comercio exterior que moviliza el intercambio comercial de México con el mundo.",
     "uninterEnvironment": "Experimenta el comercio exterior real desde el primer día: simula operaciones en aduanas digitales (VUCEM), audita pedimentos reales y calcula aranceles en laboratorios especializados. Con 49 materias en inglés y francés, opción de Certificado Internacional en Francia y más de 130 convenios de intercambio.",
@@ -2808,7 +2808,7 @@
       "countries": [
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Normativas comerciales de la Unión Europea, transporte portuario y derecho mercantil internacional.",
           "universities": [
             {
@@ -2823,7 +2823,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Operaciones aduaneras transfronterizas del T-MEC, logística multimodal y puertos de gran calado.",
           "universities": [
             {
@@ -2834,7 +2834,7 @@
         },
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Puertos logísticos de Algeciras y Valencia, aduanas comunitarias y comercio transatlántico.",
           "universities": [
             {
@@ -2867,7 +2867,7 @@
       {
         "title": "Simulador de Despacho Aduanero y VUCEM",
         "description": "Práctica con la plataforma oficial que utilizan los agentes aduanales y el SAT en México.",
-        "image": "lce_tech_1.webp",
+        "image": "lce_tech_1.jpg",
         "features": [
           "Llenado y validación de pedimentos aduanales con casos reales de importación y exportación.",
           "Clasificación arancelaria conforme a la Ley de los Impuestos Generales de Importación y Exportación (TIGIE).",
@@ -2877,7 +2877,7 @@
       {
         "title": "Centro de Logística Global y Rastreo Satelital",
         "description": "Monitorea buques portacontenedores, trenes de carga y transporte aéreo en vivo.",
-        "image": "lce_tech_2.webp",
+        "image": "lce_tech_2.jpg",
         "features": [
           "Software de seguimiento de fletes internacionales y gestión de conocimientos de embarque (Bill of Lading).",
           "Plataformas de cotización de rutas marítimas y cálculo de emisiones logísticas.",
@@ -2887,7 +2887,7 @@
       {
         "title": "Repositorio de Tratados de Libre Comercio y Normatividad",
         "description": "Acceso a todos los tratados comerciales suscritos por México y reglas de origen.",
-        "image": "lce_tech_3.webp",
+        "image": "lce_tech_3.jpg",
         "features": [
           "Herramientas para determinar saltos arancelarios y valor de contenido regional (T-MEC, TLCUEM, TIPAT).",
           "Consultas en tiempo real a resoluciones de la Organización Mundial de Comercio (OMC).",
@@ -2920,8 +2920,8 @@
     "id": "LEMP",
     "name": "Mercadotecnia y Publicidad",
     "slug": "mercadotecnia-y-publicidad",
-    "imageHorizontal": "merca h.webp",
-    "imageVertical": "merca v.webp",
+    "imageHorizontal": "merca h.jpg",
+    "imageVertical": "merca v.jpg",
     "description": "Fusiona la ciencia del comportamiento del consumidor con el arte de las campañas que cautivan al mundo. Diseña estrategias de marca 360°, domina la pauta digital, la creatividad publicitaria y la producción de contenidos memorables.",
     "careerRole": "Conviértete en el director creativo publicitario, estratega de medios o brand strategist que diseña las campañas que marcan la cultura pop y multiplican ventas.",
     "uninterEnvironment": "Vive la experiencia de una agencia publicitaria real dentro de UNINTER: diseña comerciales en estudio de video 4K, planifica campañas en laboratorios digitales y testea anuncios en Cámara Gesell con audiencias reales. Respaldado por acreditación FIMPES e intercambios en las capitales creativas del mundo.",
@@ -2962,7 +2962,7 @@
       "countries": [
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Epicentro de la creatividad publicitaria iberoamericana, festivales como El Sol y grandes agencias multinacionales.",
           "universities": [
             {
@@ -2977,7 +2977,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Cuna de Madison Avenue, publicidad digital en Silicon Valley y campañas de Super Bowl.",
           "universities": [
             {
@@ -2988,7 +2988,7 @@
         },
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Vanguardia en publicidad de marcas de alta gama, moda, perfumes y el festival Cannes Lions.",
           "universities": [
             {
@@ -3021,7 +3021,7 @@
       {
         "title": "Laboratorio de Creatividad Publicitaria y Design Thinking",
         "description": "El espacio donde nacen los grandes conceptos de campaña con metodologías de innovación.",
-        "image": "lmp_tech_1.webp",
+        "image": "lmp_tech_1.jpg",
         "features": [
           "Muros de ideación e ilustración para lluvias de ideas y mapas de insights del consumidor.",
           "Estaciones de trabajo Mac con suite Adobe para bocetaje y armado de layouts publicitarios.",
@@ -3031,7 +3031,7 @@
       {
         "title": "Estudio de Fotografía y Producción Publicitaria 4K",
         "description": "Iluminación profesional y cámaras para comerciales de televisión y fotografía de producto.",
-        "image": "lmp_tech_2.webp",
+        "image": "lmp_tech_2.jpg",
         "features": [
           "Cicloramas de estudio y equipo de iluminación estroboscópica y continua LED.",
           "Cámaras de alta velocidad y 4K para rodaje de spots y producto en movimiento.",
@@ -3041,7 +3041,7 @@
       {
         "title": "Cámara Gesell para Evaluación de Anuncios",
         "description": "Prueba anuncios y empaques ante grupos focales reales antes de lanzarlos al mercado.",
-        "image": "lmp_tech_3.webp",
+        "image": "lmp_tech_3.jpg",
         "features": [
           "Sala con espejo de visión unidireccional y grabación multipunto de audio y video.",
           "Análisis de lenguaje no verbal y reacciones espontáneas ante piezas publicitarias.",
@@ -3074,8 +3074,8 @@
     "id": "IAM",
     "name": "Ingeniería Ambiental",
     "slug": "ingenieria-ambiental",
-    "imageHorizontal": "ambiental h.webp",
-    "imageVertical": "ambiental v.webp",
+    "imageHorizontal": "ambiental h.jpg",
+    "imageVertical": "ambiental v.jpg",
     "description": "Lidera la transición ecológica y diseña el futuro sustentable del planeta. Conviértete en el ingeniero que desarrolla tecnologías limpias, optimiza plantas de tratamiento de agua y aire, gestiona energías renovables y guía a las empresas hacia una huella de carbono cero.",
     "careerRole": "Fórmate como el consultor ambiental, auditor de sustentabilidad corporativa (ESG) o directivo de ingeniería verde que transforma los desafíos ecológicos en oportunidades rentables y humanas.",
     "uninterEnvironment": "Aprende ingeniería ambiental con práctica directa: toma muestras en campo, analiza la calidad del agua y suelo en laboratorios químicos y simula dispersión de contaminantes con software avanzado. Respaldado por formación bilingüe en inglés y francés y convenios de intercambio en potencias ecológicas europeas.",
@@ -3116,7 +3116,7 @@
       "countries": [
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Liderazgo en acuerdos climáticos mundiales (Acuerdo de París), ingeniería de aguas y ecología urbana.",
           "universities": [
             {
@@ -3131,7 +3131,7 @@
         },
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Pionera en energía solar y eólica, gestión de sequías y normativas ambientales de la Unión Europea.",
           "universities": [
             {
@@ -3142,7 +3142,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Innovación en tecnologías de captura de carbono, biotecnología ambiental y energías alternativas.",
           "universities": [
             {
@@ -3175,7 +3175,7 @@
       {
         "title": "Laboratorio de Análisis Químico y Calidad de Agua y Suelo",
         "description": "Equipamiento instrumental de alta precisión para medir parámetros contaminantes en muestras reales.",
-        "image": "liam_tech_1.webp",
+        "image": "liam_tech_1.jpg",
         "features": [
           "Espectrofotómetros, turbidímetros y medidores de demanda bioquímica de oxígeno (DBO y DQO).",
           "Pruebas de toxicidad, pH, metales pesados y conductividad en muestras ambientales.",
@@ -3185,7 +3185,7 @@
       {
         "title": "Estación de Monitoreo de Calidad del Aire y Meteorología",
         "description": "Mide en tiempo real los contaminantes atmosféricos y variables climáticas en campus.",
-        "image": "liam_tech_2.webp",
+        "image": "liam_tech_2.jpg",
         "features": [
           "Sensores de partículas suspendidas (PM2.5 y PM10) y gases de efecto invernadero (CO2, NOx, SOx).",
           "Anemómetros y barómetros digitales para modelos de dispersión de penachos de humo.",
@@ -3195,7 +3195,7 @@
       {
         "title": "Laboratorio de Sistemas de Información Geográfica (GIS)",
         "description": "Mapeo territorial satelital para planeación ambiental y cuencas hidrográficas.",
-        "image": "liam_tech_3.webp",
+        "image": "liam_tech_3.jpg",
         "features": [
           "Software especializado (QGIS, ArcGIS) para delimitación de áreas naturales protegidas.",
           "Modelado de escorrentías pluviales, riesgos de inundación y erosión de suelos.",
@@ -3228,8 +3228,8 @@
     "id": "ICI",
     "name": "Ingeniería Civil",
     "slug": "ingenieria-civil",
-    "imageHorizontal": "civil h.webp",
-    "imageVertical": "civil v.webp",
+    "imageHorizontal": "civil h.jpg",
+    "imageVertical": "civil v.jpg",
     "description": "Construye la infraestructura que sostiene al mundo moderno. Fórmate para diseñar puentes icónicos, autopistas, presas, edificaciones sismorresistentes y obras hidráulicas monumentales con la más alta seguridad estructural y tecnología de vanguardia.",
     "careerRole": "Conviértete en el director de obra, calculista estructural o líder de megaproyectos de infraestructura que transforma el paisaje y conecta ciudades.",
     "uninterEnvironment": "Experimenta la ingeniería civil en el terreno y el laboratorio: ensaya probetas de concreto en prensas hidráulicas, realiza levantamientos con topografía satelital y modela estructuras complejas con software de cálculo sismorresistente. Respaldado por certificaciones en Seguridad Industrial, Office MOS/STPS e intercambios internacionales.",
@@ -3270,7 +3270,7 @@
       "countries": [
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Potencia mundial en empresas concesionarias de infraestructura, trenes de alta velocidad y puentes atirantados.",
           "universities": [
             {
@@ -3281,7 +3281,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Liderazgo en normativas estructurales (ACI, AISC), ingeniería sismo-geotécnica y megaproyectos en California.",
           "universities": [
             {
@@ -3292,7 +3292,7 @@
         },
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Excelencia en ingeniería de túneles, materiales avanzados de concreto y obras marítimas.",
           "universities": [
             {
@@ -3325,7 +3325,7 @@
       {
         "title": "Laboratorio de Materiales de Construcción y Mecánica de Suelos",
         "description": "Prueba la resistencia real del concreto y la capacidad de soporte de terrenos.",
-        "image": "lic_tech_1.webp",
+        "image": "lic_tech_1.jpg",
         "features": [
           "Prensa hidráulica de compresión para ensaye y ruptura de cilindros de concreto y vigas.",
           "Tamices mecánicos para granulometría, límites de Atterberg y permeámetros de suelos.",
@@ -3335,7 +3335,7 @@
       {
         "title": "Equipo de Topografía Satelital y Estación Total",
         "description": "Realiza levantamientos topográficos con precisión milimétrica.",
-        "image": "lic_tech_2.webp",
+        "image": "lic_tech_2.jpg",
         "features": [
           "Estaciones totales electrónicas con distanciómetro láser integrado.",
           "Equipos GPS geodésicos diferenciales para georreferenciación de predios.",
@@ -3345,7 +3345,7 @@
       {
         "title": "Centro de Cálculo y Modelado Estructural Digital",
         "description": "Calcula el comportamiento de edificios bajo fuerzas sísmicas y de viento.",
-        "image": "lic_tech_3.webp",
+        "image": "lic_tech_3.jpg",
         "features": [
           "Software estándar de la ingeniería civil: SAP2000, ETABS, AutoCAD Civil 3D.",
           "Modelado de armaduras de acero, marcos de concreto y muros de contención.",
@@ -3378,8 +3378,8 @@
     "id": "IISCA",
     "name": "Ingeniería Industrial y de Sistemas de Calidad",
     "slug": "ingenieria-industrial-y-de-sistemas-de-calidad",
-    "imageHorizontal": "calidad h.webp",
-    "imageVertical": "calidad v.webp",
+    "imageHorizontal": "calidad h.jpg",
+    "imageVertical": "calidad v.jpg",
     "description": "Optimiza los procesos productivos, elimina desperdicios y lidera la calidad total en las empresas más competitivas del planeta. Domina Lean Manufacturing, Six Sigma, logística de clase mundial y la dirección de operaciones en la era de la Industria 4.0.",
     "careerRole": "Conviértete en el director de operaciones, gerente de planta o consultor de calidad y productividad que multiplica la rentabilidad y eficiencia de las organizaciones globales.",
     "uninterEnvironment": "Experimenta la optimización real de plantas industriales: laboratorios de estudio de tiempos y movimientos, simuladores de líneas de ensamble automatizadas y proyectos directos de certificación ISO 9001 en empresas asociadas. Con certificaciones de alto valor en Productividad y Administración y acreditación FIMPES.",
@@ -3420,7 +3420,7 @@
       "countries": [
         {
           "name": "Alemania",
-          "image": "alemania.webp",
+          "image": "alemania.jpg",
           "description": "Referente absoluto en manufactura de precisión, estándares de calidad DIN/ISO e Industria 4.0.",
           "universities": [
             {
@@ -3431,7 +3431,7 @@
         },
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Excelencia en logística europea, optimización de servicios y gestión de calidad total.",
           "universities": [
             {
@@ -3442,7 +3442,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Cuna del Lean Six Sigma, gestión de operaciones en megaempresas y analítica predictiva de procesos.",
           "universities": [
             {
@@ -3475,7 +3475,7 @@
       {
         "title": "Laboratorio de Métodos, Tiempos y Ergonomía Industrial",
         "description": "Diseña puestos de trabajo eficientes y seguros mediante cronometraje y análisis biomecánico.",
-        "image": "iisca_tech_1.webp",
+        "image": "iisca_tech_1.jpg",
         "features": [
           "Cronómetros digitales, software de estudio de movimientos MTM y MOST.",
           "Dinamómetros, sonómetros y luxómetros para evaluación de factores ambientales y ergonómicos.",
@@ -3485,7 +3485,7 @@
       {
         "title": "Simulador de Procesos Productivos y Logísticos 3D",
         "description": "Modela fábricas completas en la computadora para detectar cuellos de botella antes de invertir.",
-        "image": "iisca_tech_2.webp",
+        "image": "iisca_tech_2.jpg",
         "features": [
           "Software de simulación discreta de eventos (FlexSim, Arena Simulation).",
           "Animación 3D de bandas transportadoras, montacargas, robots y almacenes automáticos.",
@@ -3495,7 +3495,7 @@
       {
         "title": "Centro de Metrología y Control Estadístico de Calidad",
         "description": "Inspecciona piezas con instrumental de precisión y aplica control estadístico (SPC).",
-        "image": "iisca_tech_3.webp",
+        "image": "iisca_tech_3.jpg",
         "features": [
           "Calibradores Vernier, micrómetros digitales, durómetros y comparadores ópticos.",
           "Software Minitab para gráficos de control X-R, capacidad de proceso Cp y Cpk y pruebas de hipótesis.",
@@ -3528,8 +3528,8 @@
     "id": "IMI",
     "name": "Ingeniería Mecánica Industrial",
     "slug": "ingenieria-mecanica-industrial",
-    "imageHorizontal": "industrial h.webp",
-    "imageVertical": "industrial v.webp",
+    "imageHorizontal": "industrial h.jpg",
+    "imageVertical": "industrial v.jpg",
     "description": "Domina las fuerzas, la energía y las máquinas que impulsan la civilización moderna. Fórmate para diseñar componentes mecánicos avanzados, sistemas térmicos y de fluidos, maquinaria pesada y optimizar el mantenimiento de grandes plantas industriales.",
     "careerRole": "Sé el ingeniero que diseña la maquinaria del futuro, optimiza turbinas y motores, y asegura que las plantas industriales operen con la máxima potencia y eficiencia energética.",
     "uninterEnvironment": "Experimenta la potencia de la mecánica aplicada: tornea y fresa piezas en talleres metalmecánicos, experimenta con intercambiadores de calor e hidroneumática y simula esfuerzos mecánicos con software CAD/CAE avanzado. Respaldado por certificaciones en Seguridad Industrial y Administración, formación bilingüe e intercambios globales.",
@@ -3570,7 +3570,7 @@
       "countries": [
         {
           "name": "Alemania",
-          "image": "alemania.webp",
+          "image": "alemania.jpg",
           "description": "Cuna de la ingeniería mecánica de excelencia, automotriz (Porsche, BMW) y maquinaria pesada.",
           "universities": [
             {
@@ -3581,7 +3581,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Innovación en diseño aeroespacial, turbinas de gas y estándares ASME de la Sociedad de Ingenieros Mecánicos.",
           "universities": [
             {
@@ -3592,7 +3592,7 @@
         },
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Ingeniería de componentes ferroviarios, energía eólica y parques industriales automatizados.",
           "universities": [
             {
@@ -3625,7 +3625,7 @@
       {
         "title": "Taller Metalmecánico y de Soldadura Industrial",
         "description": "Fabrica mecanismos físicos utilizando maquinaria pesada convencional y especializada.",
-        "image": "limi_tech_1.webp",
+        "image": "limi_tech_1.jpg",
         "features": [
           "Tornos paralelos, fresadoras universales y taladros de columna de alta capacidad.",
           "Equipos de soldadura eléctrica (SMAW, GMAW/MIG, GTAW/TIG) y corte por plasma.",
@@ -3635,7 +3635,7 @@
       {
         "title": "Laboratorio de Termofluidos, Hidráulica y Neumática",
         "description": "Estudia el comportamiento real de fluidos, bombas, compresores y sistemas de vapor.",
-        "image": "limi_tech_2.webp",
+        "image": "limi_tech_2.jpg",
         "features": [
           "Bancos de prueba de bombas centrífugas en serie y paralelo con medidores de caudal.",
           "Módulos de entrenamiento en circuitos de potencia hidráulica y electroneumática industrial.",
@@ -3645,7 +3645,7 @@
       {
         "title": "Laboratorio de Modelado CAD 3D y Análisis de Elementos Finitos",
         "description": "Diseña componentes y simula esfuerzos mecánicos y fatiga de materiales antes de fabricar.",
-        "image": "limi_tech_3.webp",
+        "image": "limi_tech_3.jpg",
         "features": [
           "Estaciones con licencias de SolidWorks Simulation y ANSYS Mechanical.",
           "Cálculo de concentración de esfuerzos de Von Mises, deformaciones y factores de seguridad.",
@@ -3678,8 +3678,8 @@
     "id": "LADD",
     "name": "Animación y Diseño Digital",
     "slug": "animacion-y-diseno-digital",
-    "imageHorizontal": "animacion h.webp",
-    "imageVertical": "animacion v.webp",
+    "imageHorizontal": "animacion h.jpg",
+    "imageVertical": "animacion v.jpg",
     "description": "Da vida a mundos inimaginables, personajes memorables y experiencias interactivas que asombren al planeta. Domina la animación 2D y 3D, el modelado digital, los efectos visuales (VFX) para cine y el desarrollo de videojuegos de última generación.",
     "careerRole": "Conviértete en el director de animación, modelador 3D o artista de efectos visuales que trabaja en películas taquilleras, videojuegos AAA y series de streaming global.",
     "uninterEnvironment": "Experimenta la creación audiovisual con tecnología de punta: estaciones de renderizado de alta velocidad con GPUs dedicadas, taller de stop motion con ciclorama verde para VFX y proyectos con software estándar de Hollywood (Blender, Maya, Toon Boom, Unreal Engine). Complementado con certificaciones en Transformación Digital y Liderazgo 4.0.",
@@ -3720,7 +3720,7 @@
       "countries": [
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Capital mundial de la animación de autor, sede del festival de Annecy y prestigiosos estudios de arte digital.",
           "universities": [
             {
@@ -3731,7 +3731,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Epicentro de la industria en Hollywood y Silicon Valley; animación de grandes estudios (Pixar, Disney, DreamWorks).",
           "universities": [
             {
@@ -3742,7 +3742,7 @@
         },
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Creciente industria de animación 3D europea, videojuegos y estudios de postproducción reconocidos internacionalmente.",
           "universities": [
             {
@@ -3775,7 +3775,7 @@
       {
         "title": "Laboratorio de Animación 3D y Renderizado con GPUs Dedicadas",
         "description": "Estaciones de cómputo de alta gama preparadas para mover millones de polígonos sin esfuerzo.",
-        "image": "ladd_tech_1.webp",
+        "image": "ladd_tech_1.jpg",
         "features": [
           "Tarjetas gráficas NVIDIA RTX de última generación para renderizado en tiempo real.",
           "Licencias de software estándar: Autodesk Maya, Blender, ZBrush, Substance Painter y Unreal Engine 5.",
@@ -3785,7 +3785,7 @@
       {
         "title": "Taller de Stop Motion, Iluminación y Ciclorama para VFX",
         "description": "Captura animación física y rueda efectos visuales con equipamiento profesional.",
-        "image": "ladd_tech_2.webp",
+        "image": "ladd_tech_2.jpg",
         "features": [
           "Cámaras réflex con software Dragonframe para animación cuadro por cuadro.",
           "Ciclorama verde (Chroma Key) e iluminación fría LED para integración de acción real y CGI.",
@@ -3795,7 +3795,7 @@
       {
         "title": "Laboratorio de Animación 2D y Tabletas Gráficas Digitales",
         "description": "Dibuja directamente sobre la pantalla como en los grandes estudios tradicionales.",
-        "image": "ladd_tech_3.webp",
+        "image": "ladd_tech_3.jpg",
         "features": [
           "Tabletas gráficas digitales Wacom con sensibilidad a la presión y trazo natural.",
           "Software Toon Boom Harmony y Storyboard Pro para animación vectorial y de recorte (cut-out).",
@@ -3828,8 +3828,8 @@
     "id": "LDI",
     "name": "Diseño Industrial",
     "slug": "diseno-industrial",
-    "imageHorizontal": "industrial h.webp",
-    "imageVertical": "industrial v.webp",
+    "imageHorizontal": "industrial h.jpg",
+    "imageVertical": "industrial v.jpg",
     "description": "Diseña los objetos tangibles que transforman la vida de las personas. Fórmate para crear productos de consumo innovadores, mobiliario contemporáneo, envases inteligentes, tecnología vestible y soluciones sustentables que unan estética, ergonomía y viabilidad productiva.",
     "careerRole": "Sé el diseñador de producto que concibe los objetos del mañana, resuelve necesidades cotidianas con elegancia y lidera la innovación en industrias globales.",
     "uninterEnvironment": "Experimenta el diseño físico en acción: talleres equipados para madera, metal y resinas, laboratorio de fabricación aditiva con impresión 3D industrial y termoformado, y modelado digital de superficies de alta precisión. Respaldado por certificaciones en Transformación Digital, Liderazgo 4.0 e intercambios en las capitales del diseño mundial.",
@@ -3870,7 +3870,7 @@
       "countries": [
         {
           "name": "Italia",
-          "image": "italia.webp",
+          "image": "italia.jpg",
           "description": "La meca mundial del diseño de mobiliario, iluminación, automotriz y la Feria del Mueble de Milán (Salone del Mobile).",
           "universities": [
             {
@@ -3881,7 +3881,7 @@
         },
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Referente en diseño mediterráneo de producto, packaging innovador y cerámica contemporánea.",
           "universities": [
             {
@@ -3892,7 +3892,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Innovación en diseño de electrónica de consumo, diseño centrado en el usuario (IDEO) y Silicon Valley.",
           "universities": [
             {
@@ -3925,7 +3925,7 @@
       {
         "title": "Taller de Fabricación Digital y Granja de Impresión 3D",
         "description": "Pasa de la idea en computadora a un prototipo funcional en tus manos en pocas horas.",
-        "image": "ldi_tech_1.webp",
+        "image": "ldi_tech_1.jpg",
         "features": [
           "Impresoras 3D de tecnología FDM y resina SLA para acabados de alta definición.",
           "Cortadoras láser de precisión para corte de acrílicos, MDF y cueros.",
@@ -3935,7 +3935,7 @@
       {
         "title": "Taller de Maderas, Metales y Resinas",
         "description": "Conoce de primera mano cómo se comportan los materiales en el proceso de manufactura física.",
-        "image": "ldi_tech_2.webp",
+        "image": "ldi_tech_2.jpg",
         "features": [
           "Sierras de banco, lijadoras de banda, taladros de banco y tornos para trabajo en maderas.",
           "Dobladoras de lámina, cortadoras de metal y equipo de soldadura para estructuras de mobiliario.",
@@ -3945,7 +3945,7 @@
       {
         "title": "Laboratorio de Modelado CAD de Superficies y Renderizado",
         "description": "Visualizaciones fotorrealistas para catálogos y presentaciones a inversionistas.",
-        "image": "ldi_tech_3.webp",
+        "image": "ldi_tech_3.jpg",
         "features": [
           "Estaciones con software profesional: Rhinoceros 3D, SolidWorks y KeyShot.",
           "Modelado de superficies complejas de clase A aptas para moldes de inyección de plástico.",
@@ -3978,8 +3978,8 @@
     "id": "LDM",
     "name": "Diseño de Modas y Tendencias Internacionales",
     "slug": "diseno-de-modas-y-tendencias-internacionales",
-    "imageHorizontal": "modas h.webp",
-    "imageVertical": "modas v.webp",
+    "imageHorizontal": "modas h.jpg",
+    "imageVertical": "modas v.jpg",
     "description": "Convierte tu visión estética en colecciones que definan tendencias y marquen la pauta de la industria textil. Domina el diseño de indumentaria, el patronaje de alta costura, la sustentabilidad textil, el estilismo editorial y la dirección de marcas de moda.",
     "careerRole": "Conviértete en el director creativo de moda, diseñador de colecciones o consultor de tendencias que viste a las pasarelas, el cine y las tiendas más exclusivas del mundo.",
     "uninterEnvironment": "Experimenta la adrenalina del mundo de la moda: confecciona en talleres con maquinaria industrial, produce pasarelas y sesiones fotográficas editoriales en nuestro estudio y diseña colecciones digitales con software 3D. Respaldado por formación bilingüe en inglés y francés, certificaciones en Transformación Digital e intercambios en las capitales de la moda.",
@@ -4020,7 +4020,7 @@
       "countries": [
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Capital indiscutible de la alta costura en París, semanas de la moda y casas históricas de lujo.",
           "universities": [
             {
@@ -4035,7 +4035,7 @@
         },
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Cuna de los gigantes del retail de moda mundial (Inditex), diseño de autor y pasarela Mercedes-Benz Madrid.",
           "universities": [
             {
@@ -4046,7 +4046,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Vanguardia en moda urbana en Nueva York, estilismo de celebridades en Los Ángeles y Fashion E-commerce.",
           "universities": [
             {
@@ -4079,7 +4079,7 @@
       {
         "title": "Taller de Patronaje, Corte y Confección Industrial",
         "description": "Confecciona prendas con el mismo estándar de acabado que las casas de moda profesionales.",
-        "image": "ldm_tech_1.webp",
+        "image": "ldm_tech_1.jpg",
         "features": [
           "Máquinas de coser industriales rectas, overlock, collarette y ojeteadoras automáticas.",
           "Mesas de trazo y corte ergonómicas con reglas de patronaje profesionales y maniquíes de modistería.",
@@ -4089,7 +4089,7 @@
       {
         "title": "Estudio de Fotografía Editorial y Pasarela",
         "description": "Produce las imágenes de tu propio Lookbook y sesiones de moda profesional.",
-        "image": "ldm_tech_2.webp",
+        "image": "ldm_tech_2.jpg",
         "features": [
           "Fondos sin fin, iluminación con flashes de estudio, sombrillas y reflectores profesionales.",
           "Área de vestidor y maquillaje para modelos antes de sesión fotográfica o desfile.",
@@ -4099,7 +4099,7 @@
       {
         "title": "Laboratorio de Ilustración Digital y Patronaje 3D",
         "description": "Modela colecciones virtuales y crea patrones exactos en la computadora.",
-        "image": "ldm_tech_3.webp",
+        "image": "ldm_tech_3.jpg",
         "features": [
           "Software de diseño digital y bocetaje de modas (Adobe Illustrator para moda, Photoshop).",
           "Software de patronaje digital y prototipado virtual de prendas en 3D.",
@@ -4132,8 +4132,8 @@
     "id": "LPS",
     "name": "Psicología",
     "slug": "psicologia",
-    "imageHorizontal": "pedagogía h.webp",
-    "imageVertical": "pedagogía v.webp",
+    "imageHorizontal": "pedagogía h.jpg",
+    "imageVertical": "pedagogía v.jpg",
     "description": "Descifra la mente humana, comprende las raíces del comportamiento y promueve la salud mental y el bienestar integral. Fórmate para ejercer en psicología clínica, recursos humanos en corporativos, orientación educativa y desarrollo social comunitario.",
     "careerRole": "Conviértete en el psicoterapeuta, director de talento humano o consultor de salud mental que transforma vidas, fortalece familias y optimiza entornos laborales.",
     "uninterEnvironment": "Experimenta la práctica psicológica real desde los primeros semestres: realiza sesiones de observación en Cámara Gesell equipada con audio y video digital, aplica baterías de pruebas psicométricas estandarizadas y atiende casos reales en nuestra clínica universitaria con supervisión docente de psicólogos con posgrado. Respaldado por formación bilingüe e intercambios internacionales.",
@@ -4174,7 +4174,7 @@
       "countries": [
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Liderazgo en psicología clínica cognitivo-conductual, neuropsicología y programas de salud comunitaria.",
           "universities": [
             {
@@ -4189,7 +4189,7 @@
         },
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Cuna del psicoanálisis europeo, psicopatología clínica y psicología social contemporánea.",
           "universities": [
             {
@@ -4204,7 +4204,7 @@
         },
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Vanguardia en psicología positiva, neurociencias del comportamiento y normas de la APA (American Psychological Association).",
           "universities": [
             {
@@ -4237,7 +4237,7 @@
       {
         "title": "Cámara Gesell de Alta Especialidad Clínica",
         "description": "El espacio idóneo para observar entrevistas diagnósticas, dinámicas de grupo y terapias sin interferir en la sesión.",
-        "image": "lps_tech_1.webp",
+        "image": "lps_tech_1.jpg",
         "features": [
           "Espejo de visión unidireccional con aislamiento acústico total.",
           "Sistema de audio multicanal y cámaras de videograbación para supervisión clínica docente.",
@@ -4247,7 +4247,7 @@
       {
         "title": "Laboratorio de Pruebas Psicométricas y Neuroevaluación",
         "description": "Acceso a las baterías de evaluación psicológica más reconocidas a nivel mundial.",
-        "image": "lps_tech_2.webp",
+        "image": "lps_tech_2.jpg",
         "features": [
           "Pruebas estandarizadas de inteligencia (escalas Wechsler: WAIS, WISC).",
           "Inventarios de personalidad (MMPI-2, 16PF) y pruebas proyectivas (Rorschach, TAT, H-T-P).",
@@ -4257,7 +4257,7 @@
       {
         "title": "Clínica de Atención Psicológica Universitaria",
         "description": "Atención de pacientes reales bajo supervisión de terapeutas experimentados.",
-        "image": "lps_tech_3.webp",
+        "image": "lps_tech_3.jpg",
         "features": [
           "Consultorios individuales y sala de terapia de juego para atención infantil.",
           "Acompañamiento clínico permanente por docentes con estudios de posgrado en psicología.",
@@ -4290,8 +4290,8 @@
     "id": "LEF",
     "name": "Economía y Finanzas",
     "slug": "economia-y-finanzas",
-    "imageHorizontal": "eco h.webp",
-    "imageVertical": "eco v.webp",
+    "imageHorizontal": "eco h.jpg",
+    "imageVertical": "eco v.jpg",
     "description": "Comprende los flujos del dinero, anticipa los ciclos económicos y maximiza el rendimiento de los capitales en los mercados globales. Domina la valuación de empresas, el análisis bursátil, la econometría, las FinTech y la planeación financiera estratégica.",
     "careerRole": "Conviértete en el gestor de fondos de inversión, analista macroeconómico o director financiero que toma las decisiones que multiplican la riqueza de corporaciones y naciones.",
     "uninterEnvironment": "Experimenta el pulso de los mercados financieros en tiempo real: simuladores bursátiles de trading, análisis econométrico con Python y R, y proyectos de estructuración financiera con empresas reales. Respaldado por certificaciones en Transformación Digital, Liderazgo 4.0, opción de doble titulación con EE. UU. e intercambios globales.",
@@ -4332,7 +4332,7 @@
       "countries": [
         {
           "name": "Estados Unidos",
-          "image": "estados_unidos.webp",
+          "image": "estados_unidos.jpg",
           "description": "Corazón de los mercados de capitales mundiales en Nueva York (NYSE, NASDAQ), Chicago y opción de doble grado.",
           "universities": [
             {
@@ -4343,7 +4343,7 @@
         },
         {
           "name": "España",
-          "image": "espana.webp",
+          "image": "espana.jpg",
           "description": "Banca transatlántica europea (Santander, BBVA), análisis de mercados iberoamericanos y regulación comunitaria.",
           "universities": [
             {
@@ -4354,7 +4354,7 @@
         },
         {
           "name": "Francia",
-          "image": "francia.webp",
+          "image": "francia.jpg",
           "description": "Especialización en macroeconomía europea, finanzas sustentables y organismos como la OCDE en París.",
           "universities": [
             {
@@ -4391,7 +4391,7 @@
       {
         "title": "Sala de Simulación Bursátil y Trading Financiero",
         "description": "Opera en mercados de capitales virtuales con cotizaciones y volatilidad en tiempo real.",
-        "image": "lef_tech_1.webp",
+        "image": "lef_tech_1.jpg",
         "features": [
           "Plataformas de simulación de compraventa de acciones, commodities, divisas (Forex) y criptoactivos.",
           "Monitores multipantalla para seguimiento de gráficas técnicas y velas japonesas en vivo.",
@@ -4401,7 +4401,7 @@
       {
         "title": "Laboratorio de Econometría y Big Data Financiero",
         "description": "Modela el comportamiento de la economía con las herramientas cuantitativas más potentes.",
-        "image": "lef_tech_2.webp",
+        "image": "lef_tech_2.jpg",
         "features": [
           "Estaciones con licencias de software estadístico y econométrico (R, Python, EViews, Stata).",
           "Bases de datos macroeconómicas y financieras (Banco de México, INEGI, Banco Mundial, Bloomberg Data).",
@@ -4411,7 +4411,7 @@
       {
         "title": "Centro de Valuación de Proyectos y Finanzas Corporativas",
         "description": "Evalúa la viabilidad de inversiones multimillonarias y fusiones de empresas reales.",
-        "image": "lef_tech_3.webp",
+        "image": "lef_tech_3.jpg",
         "features": [
           "Modelos de flujos de efectivo descontados (DCF), costo de capital (WACC) y valor presente neto (VPN).",
           "Simulaciones de Monte Carlo para análisis de riesgo e incertidumbre en proyectos de inversión.",

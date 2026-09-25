@@ -13,7 +13,7 @@ import {
 const WA_URL =
   "https://wa.me/5217776154241?text=Hola%20vengo%20de%20la%20p%C3%A1gina%20de%20Universidad%2C%20necesito%20m%C3%A1s%20informaci%C3%B3n%20%E2%9C%8C%EF%B8%8F.";
 
-const DELAY = 5500;
+const DELAY = 8000;
 const activeIndex = ref(0);
 const prevIndex = ref<number | null>(null);
 const animating = ref(false);
@@ -73,6 +73,23 @@ const slides = [
       href: "https://uninter.edu.mx/sesiones-informativas/",
     },
     ctaGhost: { label: "On Demand", href: "https://uninter.edu.mx/ondemand/" },
+  },
+  {
+    id: 5,
+    eyebrow: "EXCELENCIA ACADÉMICA AVALADA",
+    title: "Elige prepararte con los mejores. Elige UNINTER.",
+    subtitle:
+      "Consolidados en el Top Ranking de El Universal 2026. Formación de clase mundial, certificaciones internacionales y programas de vanguardia.",
+    image: "/images/hero/blur/TopRanking.png",
+    mobileImage: "/images/heroMobile/blur/TopRanking.png",
+    cta: {
+      label: "Carreras TOP",
+      href: "https://uninter.edu.mx/TopRanking/",
+    },
+    ctaGhost: {
+      label: "Ver ranking oficial",
+      href: "https://generacionuniversitaria.com.mx/interactivos/2024/mejores-universidades/#page/1",
+    },
   },
 ];
 
@@ -282,16 +299,16 @@ onUnmounted(() => {
   object-fit: cover;
 }
 
-/* Kenburns solo en slide activo */
+/* Kenburns suave y sutil solo en slide activo */
 .hero-slide--active .hero-slide__img {
-  animation: kb 8s ease forwards;
+  animation: kb 12s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 @keyframes kb {
   from {
     transform: scale(1);
   }
   to {
-    transform: scale(1.05);
+    transform: scale(1.025);
   }
 }
 
@@ -553,7 +570,7 @@ onUnmounted(() => {
     padding: 3.5rem 0 2.2rem;
   }
   .hero-slide__img {
-    object-position: center center;
+    object-position: center top;
     animation: none !important;
   }
   .hero-slide--active .hero-slide__img {

@@ -10,6 +10,15 @@ useHead({
   <section class="reg-section" id="formulario-registro">
     <div class="siu-container">
       <div class="reg-card">
+        <div class="reg-mascot-side">
+          <div class="mascot-wrap">
+            <img
+              src="/images/forms/legi-mascot.png"
+              alt="Mascota Legi UNINTER"
+              class="mascot-img"
+            />
+          </div>
+        </div>
         <div class="reg-form-side">
           <iframe
             src="https://link.superleads.mx/widget/form/FqVQFTMb4bpP98Fi2kVS"
@@ -28,15 +37,6 @@ useHead({
             data-form-id="FqVQFTMb4bpP98Fi2kVS"
             title="FormSecundaria"
           ></iframe>
-        </div>
-        <div class="reg-mascot-side">
-          <div class="mascot-wrap">
-            <img
-              src="/images/forms/legi-mascot.png"
-              alt="Mascota Legi UNINTER"
-              class="mascot-img"
-            />
-          </div>
         </div>
       </div>
     </div>
@@ -101,7 +101,7 @@ useHead({
 }
 @media (max-width: 900px) {
   .reg-card {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .reg-mascot-side {
     min-height: 200px;

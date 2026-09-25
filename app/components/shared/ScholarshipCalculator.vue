@@ -834,26 +834,26 @@ const displayBenefits = computed(() => {
 
 /* 5. Maestrías (Azul Noche Zafiro & Cyan Ejecutivo) */
 .beca-section--maestria {
-  --theme-bg: linear-gradient(160deg, #091929 0%, #10273f 50%, #1a3d63 100%);
-  --theme-accent: #38bdf8;
-  --theme-check: #38bdf8;
-  --theme-btn-bg: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
-  --theme-btn-hover: #075985;
-  --theme-btn-shadow: rgba(2, 132, 199, 0.35);
-  --theme-slider: #0284c7;
-  --theme-border-hover: rgba(56, 189, 248, 0.4);
+  --theme-bg: linear-gradient(160deg, #0e1a12 0%, #1a2c1e 50%, #2f3e1b 100%);
+  --theme-accent: #d4dc69;
+  --theme-check: #d4dc69;
+  --theme-btn-bg: linear-gradient(135deg, #8d8f38 0%, #6e7025 100%);
+  --theme-btn-hover: #585a1c;
+  --theme-btn-shadow: rgba(141, 143, 56, 0.35);
+  --theme-slider: #8d8f38;
+  --theme-border-hover: rgba(212, 220, 105, 0.4);
 }
 
 /* 6. Doctorados (Borgoña / Púrpura Doctoral & Oro Académico) */
 .beca-section--doctorado {
-  --theme-bg: linear-gradient(160deg, #180d19 0%, #291427 50%, #3f1b3c 100%);
-  --theme-accent: #fbbf24;
-  --theme-check: #fbbf24;
-  --theme-btn-bg: linear-gradient(135deg, #9d174d 0%, #701a75 100%);
-  --theme-btn-hover: #500724;
-  --theme-btn-shadow: rgba(157, 23, 77, 0.35);
-  --theme-slider: #9d174d;
-  --theme-border-hover: rgba(251, 191, 36, 0.4);
+  --theme-bg: linear-gradient(160deg, #0e1a12 0%, #1a2c1e 50%, #2f3e1b 100%);
+  --theme-accent: #d4dc69;
+  --theme-check: #d4dc69;
+  --theme-btn-bg: linear-gradient(135deg, #8d8f38 0%, #6e7025 100%);
+  --theme-btn-hover: #585a1c;
+  --theme-btn-shadow: rgba(141, 143, 56, 0.35);
+  --theme-slider: #8d8f38;
+  --theme-border-hover: rgba(212, 220, 105, 0.4);
 }
 
 /* ==========================================

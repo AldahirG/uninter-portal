@@ -16,7 +16,18 @@ useHead({
     <div class="prep-container">
       <div class="reg-card">
         
-        <!-- Lado Izquierdo: Formulario SuperLeads -->
+        <!-- Lado Izquierdo: Mascota Legi con color representativo #51CAB9 / #0f3c61 -->
+        <div class="reg-mascot-side">
+          <div class="mascot-wrap">
+            <img 
+              src="/images/forms/legi-mascot.png" 
+              alt="Mascota Legi UNINTER" 
+              class="mascot-img" 
+            />
+          </div>
+        </div>
+
+        <!-- Lado Derecho: Formulario SuperLeads -->
         <div class="reg-form-side">
           <iframe
             src="https://link.superleads.mx/widget/form/pl9WuxNcBIIan1OPZ8yf"
@@ -35,17 +46,6 @@ useHead({
             data-form-id="pl9WuxNcBIIan1OPZ8yf"
             title="FormPrep-a"
           ></iframe>
-        </div>
-
-        <!-- Lado Derecho: Mascota Legi con color representativo #51CAB9 / #0f3c61 -->
-        <div class="reg-mascot-side">
-          <div class="mascot-wrap">
-            <img 
-              src="/images/forms/legi-mascot.png" 
-              alt="Mascota Legi UNINTER" 
-              class="mascot-img" 
-            />
-          </div>
         </div>
 
       </div>
@@ -115,7 +115,7 @@ useHead({
 
 @media (max-width: 900px) {
   .reg-card {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .reg-mascot-side {

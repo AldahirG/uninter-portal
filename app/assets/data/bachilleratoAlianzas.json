@@ -1,0 +1,196 @@
+{
+  "intercambios": [
+    {
+      "id": "rotary",
+      "nombre": "Rotary International",
+      "tipo": "Intercambio Académico-Cultural",
+      "duracion": "10 meses (Año Escolar Completo)",
+      "badge": "10 Meses · Validez Oficial",
+      "tagline": "Estancia de 10 meses con acreditación oficial de año escolar y labor social comunitaria.",
+      "descripcionCorta": "A pesar de que el alumno no sea socio Rotary, por ser estudiante de BIU accede a intercambio por 10 meses con revalidación completa del año escolar en el país destino.",
+      "requisitos": [
+        "Proceso formal de postulación y entrega de trámites correspondientes.",
+        "Estar inscrito en el año escolar correspondiente en una preparatoria del país destino y aprobar el ciclo académico.",
+        "Seguir normas, reglamentos y participar activamente en la labor social del país destino y actividades de Rotary.",
+        "Cubrir responsabilidades de Relaciones Públicas y Servicio Comunitario UNINTER.",
+        "La familia del alumno en México debe recibir en casa a 3 alumnos de intercambio, quienes rotarán las estancias con otras familias."
+      ],
+      "acreditacion": "El alumno acredita su año escolar completo en BIU debido a nuestro convenio institucional oficial.",
+      "caracter": "No son estancias turísticas ni recreativas: es una estancia académico-cultural formal con valor curricular y formativo.",
+      "contacto": "Departamento de Internacionalización / Vicerrectoría Académica (VRA)",
+      "programas": ["bilingue", "multicultural"]
+    },
+    {
+      "id": "putney-school",
+      "nombre": "The Putney School",
+      "ubicacion": "Vermont, USA",
+      "tipo": "Intercambio Académico Intensivo",
+      "duracion": "2 semanas en High School estadounidense",
+      "badge": "Vermont, USA · 2 Semanas",
+      "tagline": "Inmersión intensiva en una High School autosustentable en Vermont con talleres prácticos, arte y cultura.",
+      "descripcionCorta": "Oportunidad de intercambio por dos semanas en esta High School de Vermont. El estudiante convive en dormitorios con compañeros nativos, toma clases y participa en talleres de autosustentabilidad y arte.",
+      "requisitos": [
+        "Proceso de entrevista y cumplimiento de perfil de elegibilidad tanto para el alumno como para la familia.",
+        "Dominio fluido del idioma inglés para tomar clases académicas regulares en la institución estadounidense.",
+        "Perfil colaborativo: la escuela es autosustentable, por lo que el alumno debe registrarse en talleres de trabajo (establo, cafetería, etc.) y en áreas de arte, fotografía o cultura.",
+        "Presentar un proyecto de cultura durante su estancia y mantener al corriente sus responsabilidades académicas en BIU.",
+        "La familia del alumno debe cubrir gastos del estudiante que venga en intercambio y apoyar en dinámicas y actividades de Dirección."
+      ],
+      "acreditacion": "Experiencia de inmersión total en campus (boarding school): dormitorio con compañero nativo, vida académica y desarrollo de habilidades sustentables.",
+      "caracter": "Enfoque vivencial único que combina rigor académico con conciencia ecológica, expresión artística y autonomía personal.",
+      "contacto": "Departamento de Internacionalización UNINTER",
+      "programas": ["bilingue", "multicultural"]
+    },
+    {
+      "id": "centro-idiomas-af",
+      "nombre": "Centro de Idiomas UNINTER & Alianza Francesa",
+      "tipo": "Alianza Estratégica & Descuentos Preferenciales",
+      "duracion": "Permanente durante todo el bachillerato",
+      "badge": "Tarifas Exclusivas BIU",
+      "tagline": "Promociones exclusivas para la comunidad BIU en clases de idiomas y preparación para certificaciones.",
+      "descripcionCorta": "Convenio estratégico que brinda a los estudiantes de BIU acceso a promociones muy atractivas, cursos especializados y preparación para certificaciones oficiales con docentes certificados.",
+      "requisitos": [
+        "Ser alumno activo de Bachillerato BIU (Bilingüe o Multicultural).",
+        "Elegir el idioma o certificación de interés mediante el Centro de Idiomas.",
+        "Aprovechar los convenios preferenciales para programas regulares o intensivos."
+      ],
+      "acreditacion": "Cursos y programas alineados estrictamente al Marco Común Europeo de Referencia para las Lenguas (MCER).",
+      "caracter": "Acceso preferencial a una amplia cartelera de idiomas extranjeros con respaldo institucional de máxima calidad.",
+      "contacto": "Centro de Idiomas UNINTER / Alianza Francesa",
+      "programas": ["bilingue", "multicultural"]
+    },
+    {
+      "id": "international-house",
+      "nombre": "International House (IH)",
+      "tipo": "Casa Certificadora Internacional de Inglés",
+      "duracion": "Presente en más de 25 países",
+      "badge": "Red en 25 Países",
+      "tagline": "Red certificadora líder mundial para la evaluación y certificación de proficiencia en idioma inglés.",
+      "descripcionCorta": "Casa certificadora especializada con presencia en 25 países. Avala y certifica la proficiencia del idioma inglés en distintos niveles para los estudiantes de BIU, garantizando reconocimiento internacional.",
+      "requisitos": [
+        "Ser estudiante de Bachillerato BIU con nivel de inglés acorde al examen seleccionado.",
+        "Cumplir con el proceso de inscripción y preparación académica coordinado con el área de Lenguas Extranjeras."
+      ],
+      "acreditacion": "Acreditación y aplicación oficial de exámenes de proficiencia lingüística con validez curricular internacional.",
+      "caracter": "Estándar de calidad docente y evaluadora con reconocimiento global en universidades y empresas del mundo anglófono.",
+      "contacto": "Departamento de Lenguas Extranjeras",
+      "programas": ["bilingue", "multicultural"]
+    }
+  ],
+  "certificaciones": [
+    {
+      "id": "fce",
+      "nombre": "Cambridge B2 First (FCE)",
+      "idioma": "Inglés",
+      "nivel": "Nivel B2 (MCER) · Intermedio Alto",
+      "aval": "University of Cambridge & International House (IH)",
+      "badge": "Cambridge B2 · BIU Bilingüe",
+      "color": "#002b49",
+      "tagline": "Acredita tu dominio del inglés para entornos académicos y profesionales de nivel intermedio-alto.",
+      "descripcion": "El examen Cambridge B2 First (antiguamente conocido como FCE) certifica un dominio del inglés equivalente al nivel B2 del Marco Común Europeo de Referencia. Ofertado especialmente para los alumnos de inglés avanzado de Bachillerato Bilingüe.",
+      "beneficios": [
+        "Certificación oficial de renombre mundial avalada por Cambridge English.",
+        "Demuestra fluidez y competencia para estudiar en entornos anglófonos.",
+        "Validez permanente que respalda el perfil académico y el CV universitario.",
+        "Aceptado por miles de corporativos multinacionales y universidades internacionales."
+      ],
+      "contacto": "Departamento de Lenguas Extranjeras / International House",
+      "programas": ["bilingue"]
+    },
+    {
+      "id": "ielts",
+      "nombre": "IELTS (International English Language Testing System)",
+      "idioma": "Inglés",
+      "nivel": "Nivel Avanzado / Superior (B2 - C1 - C2)",
+      "aval": "University of Cambridge, British Council e IDP Education",
+      "badge": "Cambridge · +10,000 Instituciones",
+      "color": "#c62828",
+      "tagline": "La prueba de inglés con mayor prestigio mundial, aceptada por más de 10,000 organizaciones.",
+      "descripcion": "Creada por la Universidad de Cambridge, IELTS es la certificación estándar de oro en todo el mundo. Ofertada para alumnos de Bachillerato Multicultural con alto nivel de inglés que buscan ingresar a universidades internacionales o procesos de movilidad global.",
+      "beneficios": [
+        "Aceptada por más de 10,000 universidades, empleadores y organismos migratorios en más de 140 países.",
+        "Evaluación rigurosa de las cuatro habilidades: Listening, Reading, Writing y Speaking.",
+        "Acreditación oficial indispensable para ingresar a universidades en Reino Unido, Estados Unidos, Canadá y Australia.",
+        "Máximo prestigio curricular en admisiones de educación superior internacional."
+      ],
+      "contacto": "Centro de Idiomas UNINTER",
+      "programas": ["multicultural"]
+    },
+    {
+      "id": "delf-dalf",
+      "nombre": "DELF / DALF (Francés)",
+      "idioma": "Francés",
+      "nivel": "DELF: A1 a B2 | DALF: C1 a C2",
+      "aval": "France Éducation International / Ministerio Francés de Educación Nacional",
+      "badge": "Validez de por Vida · SEP",
+      "color": "#1565c0",
+      "tagline": "Diplomas oficiales del Estado Francés con validez permanente y reconocimiento de la SEP.",
+      "descripcion": "Diplomas oficiales que acreditan el nivel de dominio del idioma francés otorgados por France Éducation International en nombre del Ministerio Francés de Educación Nacional. El DELF acredita niveles A1, A2, B1 y B2; el DALF acredita los niveles C1 y C2.",
+      "beneficios": [
+        "Validez definitiva (de por vida): no caduca ni requiere revalidaciones periódicas.",
+        "Reconocido internacionalmente por empresas privadas, cámaras de comercio y la SEP en México.",
+        "Llave indispensable de acceso directo a universidades en Francia, Bélgica, Suiza y Quebec (Canadá).",
+        "Requisito fundamental para trámites oficiales de naturalización o emigración hacia países francófonos.",
+        "Enriquece de manera sobresaliente el perfil académico y laboral del egresado."
+      ],
+      "contacto": "Alianza Francesa / Centro de Idiomas UNINTER",
+      "programas": ["multicultural"]
+    },
+    {
+      "id": "plida",
+      "nombre": "PLIDA & PLIDA Juniores (Italiano)",
+      "idioma": "Italiano",
+      "nivel": "PLIDA Juniores: A1, A2, B1, B2 (13 a 18 años)",
+      "aval": "Società Dante Alighieri / Ministerio de Asuntos Exteriores de Italia / SEP México",
+      "badge": "Aval SEP CENNI · Unión Europea",
+      "color": "#2e7d32",
+      "tagline": "Única certificación de italiano en México avalada por la SEP para tramitar el CENNI.",
+      "descripcion": "Certificación oficial del idioma italiano otorgada por la Società Dante Alighieri con validez en la Unión Europea. La certificación PLIDA Juniores está diseñada específicamente para jóvenes entre 13 y 18 años con temáticas adaptadas a su contexto educativo.",
+      "beneficios": [
+        "Única instancia evaluadora de italiano en México reconocida por la SEP que permite tramitar la Certificación Nacional de Nivel de Idioma (CENNI).",
+        "Diseño pedagógico especializado 'Juniores' para jóvenes de 13 a 18 años en niveles A1 a B2.",
+        "Validez oficial ante la Unión Europea para emprender estudios universitarios en Italia.",
+        "Requisito oficial válido para trámites de nacionalidad italiana."
+      ],
+      "contacto": "Centro de Idiomas UNINTER",
+      "programas": ["multicultural"]
+    },
+    {
+      "id": "toefl",
+      "nombre": "TOEFL (Test of English as a Foreign Language)",
+      "idioma": "Inglés",
+      "nivel": "Evaluación Estandarizada Global",
+      "aval": "ETS (Educational Testing Service)",
+      "badge": "ETS · Estándar Global",
+      "color": "#00838f",
+      "tagline": "Prueba estandarizada internacional para evaluar competencias en inglés académico.",
+      "descripcion": "El TOEFL es la prueba estandarizada líder a nivel mundial que mide el dominio del idioma inglés en hablantes no nativos. Es ampliamente solicitada por universidades de prestigio y corporativos multinacionales.",
+      "beneficios": [
+        "Reconocimiento en miles de universidades y centros académicos internacionales.",
+        "Medición precisa de competencias comunicativas en contextos académicos rigurosos.",
+        "Diversos formatos adaptables al objetivo escolar y profesional de cada estudiante."
+      ],
+      "contacto": "Centro de Idiomas UNINTER",
+      "programas": ["bilingue", "multicultural"]
+    },
+    {
+      "id": "iso-9001",
+      "nombre": "Certificación de Calidad ISO 9001:2015",
+      "idioma": "Calidad Institucional",
+      "nivel": "Sistemas de Mejora Continua en Didáctica",
+      "aval": "Organismo Certificador Internacional",
+      "badge": "Recertificación Anual Didáctica",
+      "color": "#e65100",
+      "tagline": "Sistemas de gestión de calidad recertificados anualmente en los procesos de enseñanza y didáctica.",
+      "descripcion": "Bachillerato BIU y UNINTER cuentan con la certificación internacional ISO 9001:2015, garantizando una educación respaldada por estándares de mejora continua, supervisión académica y excelencia en procesos didácticos.",
+      "beneficios": [
+        "Auditoría y recertificación cada año en los procesos de Didáctica y evaluación escolar.",
+        "Planeaciones docentes estandarizadas y metodologías de aprendizaje comprobadas.",
+        "Seguimiento riguroso del desempeño y acompañamiento del estudiante.",
+        "Garantía de excelencia y respaldo institucional para padres de familia."
+      ],
+      "contacto": "Dirección de Calidad Académica UNINTER",
+      "programas": ["bilingue", "multicultural"]
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "general": {
+    "titulo": "Modelo Pedagógico Blended Learning 4.0",
+    "subtitulo": "Educación integral que combina lo mejor de las clases presenciales con la flexibilidad de los entornos virtuales, colocando al alumno en el centro del proceso formativo y potenciado por la tecnología y la Inteligencia Artificial.",
+    "descripcion": "En UNINTER, nuestro modelo pedagógico coloca al alumno en el centro del proceso de aprendizaje, reconociéndolo como el protagonista. El profesor, por su parte, asume el rol de facilitador, guiando y potenciando el desarrollo del conocimiento en un entorno dinámico, colaborativo y con visión internacional.",
+    "enfoque": "Mediante el apoyo de nuestra plataforma UninterVirtual (LMS), los estudiantes toman clases presenciales en campus y complementan su formación con actividades y sesiones virtuales. Este enfoque integra la tecnología para ofrecer una educación integral, una experiencia global y un aprendizaje activo y flexible."
+  },
+  "stats": [
+    { "value": "100%", "label": "Programas integrados a UninterVirtual LMS", "icon": "GraduationCap" },
+    { "value": "6", "label": "Competencias docentes clave con uso ético de IA", "icon": "Award" },
+    { "value": "+100k", "label": "Libros digitales especializados en E-Libro", "icon": "BookOpen" },
+    { "value": "24/7", "label": "Acceso a contenidos, evaluaciones y recursos", "icon": "Clock" }
+  ],
+  "roles": {
+    "alumno": {
+      "titulo": "El Estudiante: Rol Protagónico",
+      "descripcion": "El alumno es el centro de la experiencia educativa. Desarrolla autonomía, pensamiento crítico y competencias tecnológicas necesarias para enfrentar los desafíos profesionales contemporáneos.",
+      "pilares": [
+        {
+          "id": "alfabetizacion-alumno",
+          "nombre": "Alfabetización Digital",
+          "desc": "Uso estratégico de tecnologías digitales para la investigación, creación de contenido y resolución colaborativa de problemas.",
+          "icon": "Laptop"
+        },
+        {
+          "id": "brecha-digital",
+          "nombre": "Reducción de Brecha Digital",
+          "desc": "Acceso equitativo a infraestructura, soporte técnico y recursos de calidad para que cada estudiante participe plenamente del modelo.",
+          "icon": "Wifi"
+        },
+        {
+          "id": "experiencia-aprendizaje",
+          "nombre": "Experiencia & Comunidad Virtual",
+          "desc": "Interacción activa y enriquecedora con profesores, compañeros y expertos internacionales dentro de un entorno virtual amigable.",
+          "icon": "Users"
+        },
+        {
+          "id": "hardware-software-alumno",
+          "nombre": "Hardware & Software",
+          "desc": "Dominio de dispositivos, herramientas ofimáticas y plataformas digitales esenciales para la vida universitaria y laboral.",
+          "icon": "Cpu"
+        },
+        {
+          "id": "ia-estudiante",
+          "nombre": "IA como Co-Piloto de Aprendizaje",
+          "desc": "Aprovechamiento de la inteligencia artificial para síntesis, estudio y creatividad, con estricto apego a la honestidad académica y verificación.",
+          "icon": "Sparkles"
+        }
+      ]
+    },
+    "profesor": {
+      "titulo": "El Profesor: Facilitador del Conocimiento",
+      "descripcion": "En el modelo Blended Learning 4.0, el docente evoluciona de ser un transmisor tradicional a un facilitador activo, mentor y diseñador de experiencias de aprendizaje significativas.",
+      "competencias": [
+        {
+          "id": "engagement",
+          "nombre": "Engagement Académico",
+          "desc": "Compromiso constante con el estudiante, generando motivación, acompañamiento empático y dinamismo en las actividades de clase.",
+          "icon": "HeartHandshake",
+          "color": "#028CDF"
+        },
+        {
+          "id": "alfabetizacion-digital-prof",
+          "nombre": "Alfabetización Digital",
+          "desc": "Uso correcto, didáctico y propositivo de herramientas digitales, software educativo y ambientes virtuales de aprendizaje.",
+          "icon": "MonitorCheck",
+          "color": "#358880"
+        },
+        {
+          "id": "metodologia-ensenanza",
+          "nombre": "Metodología de Enseñanza",
+          "desc": "Planificación y diseño integral de clases combinando metodologías activas, aprendizaje basado en proyectos y casos prácticos.",
+          "icon": "Compass",
+          "color": "#1A237E"
+        },
+        {
+          "id": "hardware-software-prof",
+          "nombre": "Hardware y Software",
+          "desc": "Dominio técnico del equipamiento de aulas híbridas y de los sistemas institucionales proporcionados por UNINTER.",
+          "icon": "Laptop2",
+          "color": "#BF360C"
+        },
+        {
+          "id": "evaluacion-digital",
+          "nombre": "Evaluación Formativa Digital",
+          "desc": "Diseño de instrumentos de evaluación continua, rúbricas transparentes y retroalimentación oportuna en entornos virtuales.",
+          "icon": "ClipboardCheck",
+          "color": "#6A1B9A"
+        },
+        {
+          "id": "etica-ia",
+          "nombre": "Uso Ético de la IA",
+          "desc": "Orientación pedagógica sobre el uso responsable de la inteligencia artificial, fomento de la honestidad académica y desarrollo del criterio analítico.",
+          "icon": "Bot",
+          "color": "#0D9488"
+        }
+      ]
+    }
+  },
+  "herramientas": [
+    {
+      "id": "unintervirtual",
+      "nombre": "UninterVirtual (LMS)",
+      "badge": "Plataforma Central 24/7",
+      "categoria": "Entorno Virtual de Aprendizaje",
+      "descripcion": "El corazón de nuestro modelo educativo. Plataforma de aprendizaje con más de una década de evolución donde los estudiantes acceden a contenidos, tareas, foros de debate y evaluaciones de cada asignatura, disponible las 24 horas del día.",
+      "enfoque": "Acceso a cursos, materiales didácticos, actividades interactivas y seguimiento continuo del avance académico.",
+      "enlace": "https://unintervirtual.mx/",
+      "textoEnlace": "Ingresar a UninterVirtual",
+      "icon": "GraduationCap"
+    },
+    {
+      "id": "teams",
+      "nombre": "Microsoft Teams",
+      "badge": "Colaboración Global",
+      "categoria": "Sesiones Virtuales y Clases Espejo",
+      "descripcion": "Herramienta para llevar a cabo sesiones virtuales sincrónicas de alta interacción, como clases espejo con universidades internacionales, así como para participar en conferencias y congresos de alcance global.",
+      "enfoque": "Salas de trabajo colaborativo, pizarras interactivas, presentaciones en directo e interacción en tiempo real con profesores y colegas de todo el mundo.",
+      "enlace": "https://teams.microsoft.com/",
+      "textoEnlace": "Conectar a Teams",
+      "icon": "Video"
+    },
+    {
+      "id": "elibro",
+      "nombre": "Biblioteca Virtual E-Libro",
+      "badge": "+100,000 Títulos",
+      "categoria": "Recursos Bibliográficos Digitales",
+      "descripcion": "Plataforma de consulta digital en la nube con un acervo superior a 100,000 libros especializados, tratados científicos y publicaciones de las editoriales académicas más prestigiosas del mundo.",
+      "enfoque": "Acceso a colecciones multidisciplinarias, digitalizando más de 1,000 libros nuevos cada mes para el apoyo y fundamentación de investigaciones.",
+      "enlace": "https://elibro.net/es/lc/uninter/login_usuario/",
+      "textoEnlace": "Abrir E-Libro",
+      "icon": "BookOpen"
+    },
+    {
+      "id": "ia-academica",
+      "nombre": "Inteligencia Artificial Académica",
+      "badge": "Uso Ético y Asistido",
+      "categoria": "Tecnología de Asistencia Cognitiva",
+      "descripcion": "Incorporación de la IA generativa como co-piloto del proceso cognitivo. Apoyo al estudio, síntesis de lecturas complejas y detonador de ideas creativas, siempre sujeto a principios de honestidad académica, transparencia y validación de fuentes.",
+      "enfoque": "Desarrollo del pensamiento crítico para contrastar información sintética, proteger la privacidad y evitar la dependencia acrítica.",
+      "enlace": "#manifiesto-ia",
+      "textoEnlace": "Conocer Lineamientos Éticos",
+      "icon": "Sparkles"
+    },
+    {
+      "id": "gamificacion",
+      "nombre": "Herramientas Interactivas y de Evaluación",
+      "badge": "Dinamismo en Aula",
+      "categoria": "Evaluación Formativa y Gamificación",
+      "descripcion": "Ecosistema de aplicaciones dinámicas que transforman las clases en experiencias participativas de alta retención del conocimiento.",
+      "enfoque": "Actividades interactivas, diagnósticos en tiempo real y evaluaciones formativas con aplicaciones como Kahoot, Socrative, Quizizz y Microsoft Forms.",
+      "enlace": "#",
+      "textoEnlace": "Ver Dinámicas de Clase",
+      "icon": "Gamepad2"
+    }
+  ],
+  "manifiestoIA": {
+    "titulo": "Uso Ético y Responsable de la Inteligencia Artificial",
+    "declaracion": "En UNINTER promovemos el uso ético y responsable de la inteligencia artificial como parte fundamental de la alfabetización digital de nuestra comunidad. Profesores y alumnos incorporan estas herramientas para potenciar el aprendizaje —nunca para sustituir el pensamiento crítico— con criterios claros de honestidad, transparencia y rigor científico.",
+    "principios": [
+      {
+        "id": "pensamiento-critico",
+        "titulo": "El pensamiento crítico no se sustituye",
+        "desc": "La IA es una herramienta de asistencia y exploración; la capacidad de análisis, síntesis, juicio reflexivo y creatividad original residen exclusivamente en la persona.",
+        "icon": "Brain"
+      },
+      {
+        "id": "honestidad-transparencia",
+        "titulo": "Honestidad académica y transparencia",
+        "desc": "Toda colaboración de herramientas sintéticas en entregables, ensayos o proyectos debe ser declarada explícitamente y citada conforme a las normas académicas vigentes.",
+        "icon": "FileCheck"
+      },
+      {
+        "id": "verificacion-fuentes",
+        "titulo": "Verificación y contrastación de datos",
+        "desc": "El estudiante asume la responsabilidad de verificar fuentes primarias, cotejar datos estadísticos y descartar alucinaciones o imprecisiones generadas por modelos de lenguaje.",
+        "icon": "CheckCheck"
+      },
+      {
+        "id": "privacidad-datos",
+        "titulo": "Protección de datos personales",
+        "desc": "Compromiso irrestricto de no ingresar información confidencial, datos biométricos o propiedad intelectual no autorizada en plataformas públicas de IA.",
+        "icon": "ShieldCheck"
+      },
+      {
+        "id": "enfoque-humano",
+        "titulo": "Convivencia tecnológica con sentido humano",
+        "desc": "Formar profesionistas que utilicen la tecnología para resolver problemáticas sociales complejas con empatía, equidad, sostenibilidad y ética profesional.",
+        "icon": "HeartHandshake"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "pregunta": "¿Qué significa que el modelo sea 'Blended Learning' (Híbrido)?",
+      "respuesta": "Significa que combinas actividades presenciales en las instalaciones universitarias (prácticas de laboratorio, talleres, interacción directa con profesores) con la flexibilidad de sesiones y contenidos en línea disponibles las 24 horas a través de UninterVirtual (LMS) y Microsoft Teams."
+    },
+    {
+      "pregunta": "¿En qué consisten las 'clases espejo' con Microsoft Teams?",
+      "respuesta": "Son sesiones sincrónicas donde los alumnos de UNINTER toman clase conjunta con estudiantes y catedráticos de universidades internacionales aliadas en Europa, Norteamérica o Latinoamérica, permitiendo debate intercultural y resolución de proyectos binacionales sin salir de casa."
+    },
+    {
+      "pregunta": "¿Cómo apoya la Inteligencia Artificial en el modelo sin infringir la honestidad académica?",
+      "respuesta": "La IA se utiliza como co-piloto para estructurar ideas, generar cuestionarios de repaso, programar código base o explorar hipótesis. La institución promueve la transparencia mediante la citación obligatoria de los prompts y herramientas utilizadas, evaluando la aportación crítica personal del alumno."
+    },
+    {
+      "pregunta": "¿Qué equipo tecnológico requiero para cursar mis materias en este modelo?",
+      "respuesta": "Una computadora portátil o de escritorio con conexión a internet estable, cámara web y micrófono para sesiones en Teams. UNINTER también cuenta con salas de cómputo, laboratorios especializados y red Wi-Fi de alta velocidad en todo el campus."
+    }
+  ]
+}

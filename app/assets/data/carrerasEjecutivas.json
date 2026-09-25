@@ -1,6 +1,6 @@
 {
   "derecho-ejecutiva": {
-    "id": "LED",
+    "id": "LEDE",
     "name": "Licenciatura Ejecutiva en Derecho",
     "shortName": "Derecho",
     "slug": "derecho-ejecutiva",
@@ -168,10 +168,13 @@
       "Gestión Estratégica",
       "Ciencias Sociales",
       "Derecho Social"
-    ]
+    ],
+    "area": "Ciencias Sociales, Jurídicas y Humanidades",
+    "trophy": true,
+    "brochure": "https://uninter.edu.mx/folletos/led/"
   },
   "administracion-de-negocios-internacionales-ejecutiva": {
-    "id": "LANI",
+    "id": "LEANI",
     "name": "Licenciatura Ejecutiva en Administración de Negocios Internacionales",
     "shortName": "Negocios Internacionales",
     "slug": "administracion-de-negocios-internacionales-ejecutiva",
@@ -332,10 +335,13 @@
       "Liderazgo Empresarial",
       "Desarrollo Organizacional",
       "Relaciones Humanas"
-    ]
+    ],
+    "area": "Negocios y Administración",
+    "trophy": true,
+    "brochure": "https://uninter.edu.mx/folletos/lani/"
   },
   "administracion-y-mercadotecnia-ejecutiva": {
-    "id": "LAM",
+    "id": "LEAM",
     "name": "Licenciatura Ejecutiva en Administración y Mercadotecnia",
     "shortName": "Administración y Mercadotecnia",
     "slug": "administracion-y-mercadotecnia-ejecutiva",
@@ -504,10 +510,13 @@
       "Liderazgo Empresarial",
       "Desarrollo Organizacional",
       "Relaciones Humanas"
-    ]
+    ],
+    "area": "Negocios y Administración",
+    "trophy": true,
+    "brochure": "https://uninter.edu.mx/folletos/lam/"
   },
   "comercio-exterior-ejecutiva": {
-    "id": "LCE",
+    "id": "LECE",
     "name": "Licenciatura Ejecutiva en Comercio Exterior",
     "shortName": "Comercio Exterior",
     "slug": "comercio-exterior-ejecutiva",
@@ -670,7 +679,10 @@
       "Liderazgo Empresarial",
       "Desarrollo Organizacional",
       "Relaciones Humanas"
-    ]
+    ],
+    "area": "Negocios y Administración",
+    "trophy": false,
+    "brochure": "https://uninter.edu.mx/folletos/lce/"
   },
   "gestion-empresarial-ejecutiva": {
     "id": "LEGE",
@@ -838,10 +850,13 @@
       "Liderazgo Empresarial",
       "Desarrollo Organizacional",
       "Relaciones Humanas"
-    ]
+    ],
+    "area": "Negocios y Administración",
+    "trophy": true,
+    "brochure": "https://uninter.edu.mx/folletos/lae/"
   },
   "mercadotecnia-ejecutiva": {
-    "id": "LME",
+    "id": "LEMK",
     "name": "Licenciatura Ejecutiva en Mercadotecnia",
     "shortName": "Mercadotecnia",
     "slug": "mercadotecnia-ejecutiva",
@@ -1008,10 +1023,13 @@
       "Estrategias de Promoción",
       "Gerencia de Marca",
       "Mercadotecnia Corporativa"
-    ]
+    ],
+    "area": "Negocios y Administración",
+    "trophy": true,
+    "brochure": "https://uninter.edu.mx/folletos/lme/"
   },
   "mercadotecnia-y-publicidad-ejecutiva": {
-    "id": "LEMP",
+    "id": "LEMKP",
     "name": "Licenciatura Ejecutiva en Mercadotecnia y Publicidad",
     "shortName": "Mercadotecnia y Publicidad",
     "slug": "mercadotecnia-y-publicidad-ejecutiva",
@@ -1186,334 +1204,9 @@
       "Liderazgo Empresarial",
       "Desarrollo Organizacional",
       "Relaciones Humanas"
-    ]
-  },
-  "administracion-de-empresas-ejecutiva": {
-    "id": "LAE",
-    "name": "Licenciatura Ejecutiva en Administración de Empresas",
-    "shortName": "Administración de Empresas",
-    "slug": "administracion-de-empresas-ejecutiva",
-    "aliases": [
-      "administracion",
-      "lae",
-      "administracion-de-empresas"
     ],
-    "tagline": "Lidera y transforma el rumbo de las organizaciones",
-    "rvoe": "RVOE SEP 20211119",
-    "modalidad": "Mixta / Semipresencial",
-    "duracion": "3 Años (9 Cuatrimestres)",
-    "ciclo": "Ciclo de 16 semanas por cuatrimestre",
-    "creditos": 338,
-    "horasDocente": 1012,
-    "horasIndependientes": 4396,
-    "descripcion": "Forma profesionistas de excelencia con sólidas habilidades para planear, organizar, dirigir y controlar recursos estratégicos para maximizar la rentabilidad, innovación y sostenibilidad de empresas públicas y privadas en entornos dinámicos y competitivos.",
-    "perfilEgreso": {
-      "general": "El egresado cuenta con competencias integrales para liderar organizaciones, formular modelos de negocio rentables, optimizar procesos de negocio y gestionar talento humano de alto desempeño con responsabilidad ética y social.",
-      "conocimientos": [
-        "Procesos administrativos, finanzas corporativas, costos y presupuestos.",
-        "Gestión del talento humano, relaciones laborales y desarrollo organizacional.",
-        "Planeación estratégica, calidad en las organizaciones y mercadotecnia.",
-        "Marco legal corporativo, fiscal y mercantil aplicable a las empresas."
-      ],
-      "habilidades": [
-        "Dirección estratégica y liderazgo de equipos multidisciplinarios.",
-        "Toma de decisiones basada en indicadores financieros y operativos.",
-        "Negociación comercial y resolución de conflictos laborales.",
-        "Innovación de procesos operativos y modelos de negocio sostenibles."
-      ],
-      "actitudes": [
-        "Liderazgo visionario, proactivo y ético.",
-        "Compromiso con la mejora continua y el bienestar del capital humano.",
-        "Responsabilidad social y sustentabilidad empresarial."
-      ],
-      "destrezas": [
-        "Manejo de sistemas de gestión empresarial (ERP) y tableros directivos.",
-        "Capacidad analítica para el diseño y evaluación de proyectos de inversión."
-      ]
-    },
-    "perfilIngreso": {
-      "general": "Profesionales activos y egresados de bachillerato con interés en liderar proyectos empresariales, optimizar recursos y dirigir equipos de trabajo.",
-      "requisitos": [
-        "Certificado total de Bachillerato o equivalente legal.",
-        "+21 años de edad.",
-        "Interés en gestión empresarial, liderazgo y desarrollo económico."
-      ],
-      "habilidades": [
-        "Capacidad analítica, pensamiento crítico y orientación a metas.",
-        "Habilidad de comunicación interpersonal y liderazgo de grupos.",
-        "Iniciativa emprendedora y resolución de problemas prácticos."
-      ]
-    },
-    "mercadoLaboral": {
-      "descripcion": "Inserción versátil en cualquier sector productivo, tanto en corporativos consolidados como en PyMEs y emprendimientos propios.",
-      "sectores": [
-        "Dirección general y gerencias de operaciones en corporativos nacionales y multinacionales",
-        "Consultoría y asesoría de negocios independiente",
-        "Gerencia de administración, finanzas y control de gestión",
-        "Dirección y desarrollo de talento humano y cultura organizacional",
-        "Gestión y desarrollo de nuevos modelos de negocio y startups",
-        "Administración pública federal, estatal y municipal",
-        "Instituciones bancarias y fondos de inversión",
-        "Docencia e investigación en instituciones de nivel superior"
-      ]
-    },
-    "planEstudios": {
-      "Primer Cuatrimestre": [
-        "Metodología de la Investigación",
-        "Matemáticas Básicas",
-        "Introducción al Derecho",
-        "Administración Básica",
-        "Contabilidad Básica"
-      ],
-      "Segundo Cuatrimestre": [
-        "Microeconomía",
-        "Computación",
-        "Derecho Mercantil",
-        "Mercadotecnia Básica",
-        "Contabilidad Financiera"
-      ],
-      "Tercer Cuatrimestre": [
-        "Macroeconomía",
-        "Comportamiento Organizacional",
-        "Desarrollo Humano y Valores",
-        "Fundamentos de Administración Financiera",
-        "Estadística Descriptiva"
-      ],
-      "Cuarto Cuatrimestre": [
-        "Planeación y Control",
-        "Calidad en las Organizaciones",
-        "Investigación de Mercados",
-        "Derecho Laboral",
-        "Contabilidad de Costos"
-      ],
-      "Quinto Cuatrimestre": [
-        "Organización y Dirección Administrativa",
-        "Investigación de Operaciones",
-        "Administración Estratégica",
-        "Presupuestos",
-        "Optativa I",
-        "Optativa II"
-      ],
-      "Sexto Cuatrimestre": [
-        "Administración de Recursos Humanos",
-        "Cultura Financiera",
-        "Logística Empresarial",
-        "Habilidades de Negociación",
-        "Optativa III",
-        "Optativa IV"
-      ],
-      "Séptimo Cuatrimestre": [
-        "Seminario Integrador de la Administración",
-        "Finanzas Corporativas",
-        "Desarrollo Organizacional",
-        "Negocios Internacionales",
-        "Optativa V",
-        "Optativa VI"
-      ],
-      "Octavo Cuatrimestre": [
-        "Evaluación de Proyectos de Inversión",
-        "Estrategias de Mercadotecnia",
-        "Normatividad y Calidad",
-        "Optativa VII",
-        "Optativa VIII"
-      ],
-      "Noveno Cuatrimestre": [
-        "Seminario de Investigación"
-      ]
-    },
-    "certificados": [
-      {
-        "nombre": "Recursos Humanos",
-        "descripcion": "Este certificado te permitirá reclutar, seleccionar y contratar talento, además de desarrollar estrategias que impulsen el compromiso, desempeño y productividad del personal.",
-        "materias": [
-          "Administración de Recursos Humanos",
-          "Comportamiento Organizacional",
-          "Desarrollo Organizacional",
-          "Relaciones Laborales"
-        ]
-      },
-      {
-        "nombre": "Finanzas y Negocios",
-        "descripcion": "Este certificado te permitirá analizar la situación financiera de un negocio, gestionar flujo de efectivo, financiamiento y utilidades, y evaluar oportunidades de inversión que incrementen su valor.",
-        "materias": [
-          "Sistema Financiero Mexicano",
-          "Finanzas Corporativas",
-          "Seminario Integrador de Finanzas",
-          "Seminario Integrador de la Administración",
-          "Planeación y Desarrollo de Empresas Multinacionales",
-          "Negocios Internacionales"
-        ]
-      }
-    ],
-    "lineasInvestigacion": [
-      "Capital",
-      "Emprendedores",
-      "Recursos Administrativos",
-      "Liderazgo Empresarial",
-      "Desarrollo Organizacional",
-      "Relaciones Humanas"
-    ]
-  },
-  "psicologia-organizacional-ejecutiva": {
-    "id": "LPO",
-    "name": "Licenciatura Ejecutiva en Psicología Organizacional",
-    "shortName": "Psicología Organizacional",
-    "slug": "psicologia-organizacional-ejecutiva",
-    "aliases": [
-      "psicologia-organizacional",
-      "lpo",
-      "psicologia"
-    ],
-    "tagline": "Impulsa el potencial humano y el éxito de las organizaciones",
-    "rvoe": "RVOE SEP 20211127",
-    "modalidad": "Mixta / Semipresencial",
-    "duracion": "3 Años (9 Cuatrimestres)",
-    "ciclo": "Ciclo de 16 semanas por cuatrimestre",
-    "creditos": 338,
-    "horasDocente": 1012,
-    "horasIndependientes": 4396,
-    "descripcion": "Forma profesionistas especializados en el comportamiento humano en el trabajo, la cultura y clima laboral, el bienestar integral y el desarrollo del talento en organizaciones modernas y competitivas.",
-    "perfilEgreso": {
-      "general": "El Licenciado en Psicología Organizacional diseña e implementa programas de atracción, retención, evaluación y desarrollo del capital humano, mejorando la productividad y el bienestar laboral.",
-      "conocimientos": [
-        "Teorías del comportamiento humano, psicología social y dinámica de grupos en el trabajo.",
-        "Procesos de reclutamiento, selección por competencias, inducción y evaluación del desempeño.",
-        "Diagnóstico de clima organizacional, cultura corporativa y salud laboral (NOM-035).",
-        "Marco normativo laboral y relaciones obrero-patronales en México."
-      ],
-      "habilidades": [
-        "Diseño y facilitación de programas de capacitación y desarrollo de competencias.",
-        "Intervención en mediación y resolución de conflictos interpersonales y laborales.",
-        "Gestión del cambio organizacional y fomento del bienestar psicosocial.",
-        "Diseño de planes de carrera, sucesión y compensaciones estratégicas."
-      ],
-      "actitudes": [
-        "Empatía, ética intachable y respeto absoluto por la dignidad humana.",
-        "Sensibilidad hacia la diversidad, equidad e inclusión laboral.",
-        "Compromiso con la salud mental y bienestar de los colaboradores."
-      ],
-      "destrezas": [
-        "Aplicación e interpretación de pruebas psicométricas y evaluaciones 360°.",
-        "Técnicas de entrevista por competencias y dinámicas de grupo."
-      ]
-    },
-    "perfilIngreso": {
-      "general": "Aspirantes con vocación por el desarrollo humano, liderazgo de equipos, comunicación empática y gestión del talento en entornos corporativos.",
-      "requisitos": [
-        "Certificado total de Bachillerato o equivalente legal.",
-        "+21 años de edad.",
-        "Vocación de servicio e interés en el comportamiento humano en las organizaciones."
-      ],
-      "habilidades": [
-        "Escucha activa, empatía y habilidad para relacionarse con diversidad de personas.",
-        "Capacidad de observación, análisis e interpretación de conductas.",
-        "Gusto por la capacitación, el bienestar laboral y el trabajo colaborativo."
-      ]
-    },
-    "mercadoLaboral": {
-      "descripcion": "Alta inserción en departamentos de recursos humanos, consultorías de talento y bienestar laboral de corporativos y dependencias de gobierno.",
-      "sectores": [
-        "Dirección y gerencia de Recursos Humanos y Talento",
-        "Consultoría independiente en clima laboral, cultura y cumplimiento NOM-035",
-        "Atracción de talento y headhunting corporativo",
-        "Capacitación y diseño de universidades corporativas",
-        "Evaluación de desempeño, compensaciones y beneficios",
-        "Desarrollo organizacional y gestión del cambio en corporaciones multinacionales",
-        "Gestión de bienestar, salud psicosocial y ergonomía laboral",
-        "Docencia e investigación en el ámbito socio-organizacional"
-      ]
-    },
-    "planEstudios": {
-      "Primer Cuatrimestre": [
-        "Introducción a la Psicología",
-        "Metodología de la Investigación",
-        "Administración Básica",
-        "Desarrollo Humano y Valores",
-        "Computación"
-      ],
-      "Segundo Cuatrimestre": [
-        "Psicología Social",
-        "Teorías de la Personalidad",
-        "Comportamiento Organizacional",
-        "Estadística Descriptiva",
-        "Comunicación Asertiva"
-      ],
-      "Tercer Cuatrimestre": [
-        "Psicología del Trabajo",
-        "Entrevista Psicológica y Laboral",
-        "Derecho Laboral",
-        "Psicometría Organizacional",
-        "Calidad en las Organizaciones"
-      ],
-      "Cuarto Cuatrimestre": [
-        "Atracción y Selección de Talento",
-        "Evaluación del Desempeño",
-        "Capacitación y Desarrollo de Competencias",
-        "Salud y Seguridad Laboral (NOM-035)",
-        "Dinámica de Grupos"
-      ],
-      "Quinto Cuatrimestre": [
-        "Desarrollo Organizacional",
-        "Clima y Cultura Organizacional",
-        "Compensaciones y Beneficios",
-        "Investigación de Operaciones",
-        "Optativa I",
-        "Optativa II"
-      ],
-      "Sexto Cuatrimestre": [
-        "Liderazgo y Coaching Ejecutivo",
-        "Negociación y Relaciones Laborales",
-        "Gestión del Cambio Organizacional",
-        "Cultura Financiera",
-        "Optativa III",
-        "Optativa IV"
-      ],
-      "Séptimo Cuatrimestre": [
-        "Seminario Integrador de Recursos Humanos",
-        "Responsabilidad Social Corporativa",
-        "Planes de Carrera y Sucesión",
-        "Optativa V",
-        "Optativa VI"
-      ],
-      "Octavo Cuatrimestre": [
-        "Estrategias Directivas de Talento",
-        "Auditoría de Recursos Humanos",
-        "Ética y Deontología Organizacional",
-        "Optativa VII",
-        "Optativa VIII"
-      ],
-      "Noveno Cuatrimestre": [
-        "Seminario de Investigación"
-      ]
-    },
-    "certificados": [
-      {
-        "nombre": "Gestión del Talento y Clima Organizacional",
-        "descripcion": "Este certificado te facultará para diagnosticar el clima laboral, implementar protocolos de bienestar psicosocial y liderar estrategias de retención del talento humano.",
-        "materias": [
-          "Clima y Cultura Organizacional",
-          "Salud y Seguridad Laboral (NOM-035)",
-          "Liderazgo y Coaching Ejecutivo",
-          "Desarrollo Organizacional"
-        ]
-      },
-      {
-        "nombre": "Administración",
-        "descripcion": "Este certificado te permitirá planear, organizar, dirigir y controlar actividades y equipos para alcanzar los objetivos de la organización.",
-        "materias": [
-          "Comportamiento Organizacional",
-          "Administración Estratégica",
-          "Habilidades de Negociación",
-          "Seminario Integrador de la Administración"
-        ]
-      }
-    ],
-    "lineasInvestigacion": [
-      "Capital Humano",
-      "Desarrollo Organizacional",
-      "Liderazgo Empresarial",
-      "Salud y Bienestar Laboral",
-      "Relaciones Humanas"
-    ]
+    "area": "Negocios y Administración",
+    "trophy": true,
+    "brochure": "https://uninter.edu.mx/folletos/lemp/"
   }
 }

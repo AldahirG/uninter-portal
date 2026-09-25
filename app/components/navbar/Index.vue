@@ -174,7 +174,7 @@ const programs: Program[] = [
         href: "/bachillerato/biu-multicultural",
         sub: true,
       },
-      { label: "Admisiones BIU", href: "/bachillerato/admisiones" },
+      { label: "Admisiones", href: "/bachillerato/admisiones" },
     ],
   },
   {
@@ -229,7 +229,7 @@ const programs: Program[] = [
         href: "/secundaria/siu-multicultural",
         sub: true,
       },
-      { label: "Admisiones SIU", href: "/secundaria/admisiones" },
+      { label: "Admisiones", href: "/secundaria/admisiones" },
     ],
   },
   {
@@ -336,8 +336,8 @@ const programs: Program[] = [
       ],
       tools: [
         {
-          label: "Inscríbete Ahora",
-          href: "/Prep-a#formulario-registro",
+          label: "Proceso de Admisión",
+          href: "/Prep-a/admisiones",
           icon: "mdi:arrow-right",
           cta: true,
         },
@@ -353,8 +353,8 @@ const programs: Program[] = [
       { label: "Prepa Abierta UNINTER", href: "/Prep-a" },
       { label: "Plan de Estudios", href: "/Prep-a#oferta-prepaA", sub: true },
       {
-        label: "Inscripciones y Registro",
-        href: "/Prep-a#formulario-registro",
+        label: "Proceso de Admisión",
+        href: "/Prep-a/admisiones",
       },
       { label: "Sitio Oficial", href: "https://prepaabierta.uninter.edu.mx/" },
     ],
@@ -370,26 +370,31 @@ const programs: Program[] = [
         label: "Admissions",
         href: "https://spanishschool.uninter.edu.mx/Home",
       },
-    ],
-  },
-  {
-    label: "Verano Kids",
-    slug: "verano-kids",
-    color: "#6A1B9A",
-    href: "https://kids.uninter.edu.mx/",
-    children: [
-      { label: "Spanish", href: "https://kids.uninter.edu.mx/" },
       {
-        label: "English",
+        label: "KIDS PROGRAM",
         href: "https://spanishschool.uninter.edu.mx/Kids-Program",
       },
     ],
   },
   {
-    label: "Eventos",
-    slug: "eventos",
-    color: "#1A237E",
-    href: "https://uninter.edu.mx/sesiones-informativas/",
+    label: "Centro de Idiomas",
+    slug: "centro-idiomas",
+    color: "#028CDF",
+    href: "https://uninter.edu.mx/centroidiomas/",
+    children: [],
+  },
+  {
+    label: "Internacionalización",
+    slug: "internacionalizacion",
+    color: "#C62828",
+    href: "https://universidad.uninter.edu.mx/Internacionalizaci%C3%B3n",
+    children: [],
+  },
+  {
+    label: "Vida UNINTER",
+    slug: "vida-uninter",
+    color: "#6A1B9A",
+    href: "https://uninter.edu.mx/eventos/",
     children: [
       {
         label: "Sesiones Informativas",
@@ -401,21 +406,31 @@ const programs: Program[] = [
         label: "Calendario Cultural",
         href: "https://uninter.edu.mx/difusion-cultural/",
       },
+      {
+        label: "Verano Kids",
+        href: "https://kids.uninter.edu.mx/",
+      },
     ],
   },
   {
-    label: "Internacionalización",
-    slug: "internacionalizacion",
-    color: "#C62828",
-    href: "https://universidad.uninter.edu.mx/Internacionalizaci%C3%B3n",
-    children: [],
-  },
-  {
-    label: "Centro de Idiomas",
-    slug: "centro-idiomas",
-    color: "#0277BD",
-    href: "https://uninter.edu.mx/centroidiomas/",
-    children: [],
+    label: "Conócenos",
+    slug: "conocenos",
+    color: "#1A237E",
+    href: "https://uninter.edu.mx/",
+    children: [
+      {
+        label: "Modelo Blended Learning 4.0",
+        href: "/conocenos/blendedflex",
+      },
+      {
+        label: "Filosofía Institucional",
+        href: "https://uninter.edu.mx/",
+      },
+      {
+        label: "Campus e Instalaciones",
+        href: "https://uninter.edu.mx/campus/",
+      },
+    ],
   },
 ];
 
@@ -773,9 +788,22 @@ const social = [
                   <div class="nh-dd__sep"></div>
                   <ul class="nh-dd__list">
                     <li v-for="c in prog.children" :key="c.label">
-                      <a :href="c.href" target="_blank" class="nh-dd__link">{{
-                        c.label
-                      }}</a>
+                      <NuxtLink
+                        v-if="c.href.startsWith('/')"
+                        :to="c.href"
+                        class="nh-dd__link"
+                        @click="activeDropdown = null"
+                      >
+                        {{ c.label }}
+                      </NuxtLink>
+                      <a
+                        v-else
+                        :href="c.href"
+                        target="_blank"
+                        class="nh-dd__link"
+                      >
+                        {{ c.label }}
+                      </a>
                     </li>
                   </ul>
                 </template>
@@ -959,9 +987,22 @@ const social = [
                   <div class="nh-dd__sep"></div>
                   <ul class="nh-dd__list">
                     <li v-for="c in prog.children" :key="c.label">
-                      <a :href="c.href" target="_blank" class="nh-dd__link">{{
-                        c.label
-                      }}</a>
+                      <NuxtLink
+                        v-if="c.href.startsWith('/')"
+                        :to="c.href"
+                        class="nh-dd__link"
+                        @click="activeDropdown = null"
+                      >
+                        {{ c.label }}
+                      </NuxtLink>
+                      <a
+                        v-else
+                        :href="c.href"
+                        target="_blank"
+                        class="nh-dd__link"
+                      >
+                        {{ c.label }}
+                      </a>
                     </li>
                   </ul>
                 </template>
@@ -1324,6 +1365,13 @@ const social = [
   box-shadow: 0 12px 36px rgba(0, 0, 0, 0.13);
   z-index: 200;
 }
+
+.nh-plist--right .nh-pitem:last-child .nh-dropdown {
+  left: auto;
+  right: 0;
+  transform: none;
+}
+
 .nh-dd__bar {
   height: 3px;
 }

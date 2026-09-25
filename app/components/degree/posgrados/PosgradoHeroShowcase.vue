@@ -74,7 +74,7 @@ const scrollToSection = (id: string) => {
         </picture>
         <img
           v-else
-          :src="encodeURI(`/images/posgrados/Web Horizontal/${data?.imageHorizontal || 'default-posgrado.webp'}`)"
+          :src="encodeURI(`/images/posgrados/Web Horizontal/${data?.imageHorizontal || 'default-posgrado.jpg'}`)"
           :alt="data?.name"
           class="degree-hero__img"
         />
@@ -453,6 +453,9 @@ const scrollToSection = (id: string) => {
     min-height: clamp(500px, 85vh, 800px);
     padding-top: 5.5rem;
     padding-bottom: 3rem;
+  }
+  .degree-hero__img {
+    object-position: center bottom;
   }
   .degree-hero__overlay2 {
     background: linear-gradient(

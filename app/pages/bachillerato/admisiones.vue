@@ -1,129 +1,123 @@
 <script setup lang="ts">
 import Navbare from "~/components/navbar/Index.vue";
-import BlogsSection from "~/components/portal/Blogssection.vue";
-import FormRegister from "~/components/bachillerato/FormRegister.vue";
 import PortalFooter from "~/components/layout/Footer.vue";
+import FloatingActions from "@/components/portal/FloatingActions.vue";
 import {
   FileCheck,
+  ClipboardList,
   GraduationCap,
-  Layers,
-  Calendar,
-  BookOpen,
-  Globe2,
+  Award,
   ShieldCheck,
+  BookOpen,
 } from "lucide-vue-next";
 
-useHead({ title: "Proceso de Admisión | Bachillerato Internacional BIU" });
+useHead({
+  title: "Proceso de Admisión Bachillerato BIU | UNINTER",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Inicia tu proceso de admisión en Bachillerato Internacional UNINTER (BIU). Programas Bilingüe y Multicultural con validez oficial SEP y becas académicas.",
+    },
+  ],
+  script: [
+    {
+      src: "https://link.superleads.mx/js/form_embed.js",
+      defer: true,
+    },
+  ],
+});
+
+const whatsappMessage = encodeURIComponent(
+  "¡Hola! Me gustaría iniciar mi proceso de admisión en Bachillerato Internacional UNINTER (BIU) y recibir asesoría sobre requisitos, fechas y becas disponibles.",
+);
+const whatsappUrl = `https://wa.me/527773579000?text=${whatsappMessage}`;
 
 const stats = [
-  { value: "Modalidades", label: "Disponibles", icon: "Layers" },
-  { value: "Años de", label: "Duración", icon: "Calendar" },
-  { value: "Materias en", label: "Inglés", icon: "BookOpen" },
-  { value: "Enfoque", label: "Bilingüe", icon: "Globe" },
-  { value: "Validez", label: "SEP RVOE", icon: "ShieldCheck" },
+  { value: "4", label: "Pasos del proceso", icon: "ClipboardList" },
+  { value: "100%", label: "Validez Oficial SEP", icon: "ShieldCheck" },
+  { value: "2", label: "Modalidades BIU", icon: "BookOpen" },
+  { value: "40+", label: "Años de excelencia", icon: "Award" },
 ];
 
 const pasos = [
   {
     num: "01",
-    title: "Registro de Solicitud",
-    desc: "Completa tu registro digital en nuestro portal de aspirantes o solicita apoyo directo a un asesor de admisiones de Bachillerato.",
-    items: [
-      "Llenado de solicitud de ingreso",
-      "Agenda para examen psicométrico y diagnóstico",
-    ],
+    title: "Agenda una cita con tu asesor educativo",
+    desc: "Programa tu cita presencial o virtual con tu asesor educativo para conocer las instalaciones de BIU y dar inicio a tu proceso de admisión.",
+    items: [],
   },
   {
     num: "02",
-    title: "Evaluaciones de Diagnóstico",
-    desc: "Presenta tu examen psicométrico y el diagnóstico de nivelación de idioma inglés en línea o presencial en nuestras instalaciones.",
+    title: "Entrega de Curp del alumno e INE (Alumno o tutor)",
+    desc: "Presenta la documentación básica requerida (CURP del aspirante e identificación oficial de padres o tutor) para la integración y validación oficial de tu expediente.",
     items: [],
   },
   {
     num: "03",
-    title: "Entrevista Familiar",
-    desc: "Conversa con la Dirección y Coordinación Académica de BIU en compañía de tus padres o tutores para conocer a detalle el modelo internacional y resolver dudas.",
+    title: "Propuesta de Beca",
+    desc: "Recibe tu diagnóstico de admisión y la propuesta formal de beca académica BIU (según el promedio de secundaria y tipo de escuela de procedencia).",
     items: [],
   },
   {
     num: "04",
-    title: "Inscripción y Entrega de Documentos",
-    desc: "Realiza el pago de tu inscripción y primera mensualidad en caja o transferencia, y entrega los documentos en Control Escolar.",
-    items: [
-      "Acta de Nacimiento (Original y 2 copias)",
-      "Certificado de Secundaria o boleta oficial de 3er año (Original y 2 copias)",
-      "Carta de buena conducta de la secundaria de procedencia",
-      "Copia de CURP oficial",
-      "Copia de comprobante de domicilio reciente",
-      "Carta de no adeudo (solo si proviene de escuela privada)",
-      "4 fotografías infantil (blanco y negro, papel mate)",
+    title: "Pago de Inscripción",
+    desc: "Realiza el pago de tu inscripción y primera colegiatura en caja del campus o vía transferencia electrónica para asegurar tu lugar en BIU.",
+    items: [],
+    notes: [
+      "Certificados extranjeros no son válidos sin apostilla.",
+      "Cualquier documento en idioma distinto al español requiere traducción oficial por perito autorizado.",
     ],
   },
 ];
 </script>
 
 <template>
-  <div class="biu-adm-page">
+  <div class="adm-page">
     <Navbare />
 
     <!-- ══════════════════════════════════════════
-         HERO SECTION (68% VIEWPORT CON BLUR GRADIENTE BIU)
+         HERO SECTION BACHILLERATO BIU
     ══════════════════════════════════════════ -->
-    <div class="biu-hero-wrapper">
-      <section class="biu-hero-section">
-        <div class="biu-hero-slide">
-          <!-- Fotografía de fondo limpia de Bachillerato -->
-          <img
-            src="/images/bachillerato/hero/2.jpg"
-            alt="Proceso de Admisión BIU Bachillerato"
-            class="biu-hero-slide__img"
-          />
+    <div class="adm-hero-wrapper">
+      <section class="adm-hero-section">
+        <div class="adm-hero-slide">
+          <picture class="adm-hero-picture">
+            <source
+              media="(max-width: 768px)"
+              srcset="/images/bachillerato/heroMobile/9.png"
+            />
+            <img
+              src="/images/bachillerato/hero/banerBIU.png"
+              alt="Proceso de Admisión Bachillerato BIU UNINTER"
+              class="adm-hero-slide__img"
+            />
+          </picture>
 
-          <!-- Capas de Contraste y Blur Idénticas a Bachillerato -->
-          <div class="biu-hero-slide__overlay"></div>
-          <div class="biu-hero-slide__overlay2"></div>
+          <!-- Capa de Blur Gradiente Horizontal Transparente -->
+          <div class="adm-hero-slide__blur-overlay"></div>
 
-          <div class="biu-hero-content biu-container">
-            <div class="biu-hero-inner">
-              <div class="biu-hero-eyebrow">
-                <img
-                  src="/images/hero/logo-blanco.svg"
-                  alt="Bachillerato Internacional BIU"
-                  class="biu-hero-logo-full"
-                />
-              </div>
-
-              <nav class="biu-hero__breadcrumb" aria-label="Breadcrumb">
-                <NuxtLink to="/">Inicio</NuxtLink>
-                <span>/</span>
-                <NuxtLink to="/bachillerato">Bachillerato</NuxtLink>
-                <span>/</span>
-                <span class="biu-breadcrumb-active">Admisiones</span>
-              </nav>
-
-              <h1 class="biu-hero-title">
+          <div class="adm-hero-content uninter-container">
+            <div class="adm-hero-inner">
+              <h1 class="adm-hero-title">
                 Proceso de<br />
-                <span class="biu-hero-title__accent">admisión</span>
+                <span class="adm-hero-title__accent">admisión BIU</span>
               </h1>
 
-              <p class="biu-hero-subtitle">
-                Construye tu futuro internacional. Te asesoramos durante todo tu proceso de inscripción y convocatorias de becas en BIU.
+              <p class="adm-hero-subtitle">
+                Descubre el Bachillerato Internacional UNINTER. Completa tu
+                proceso paso a paso, consulta tu porcentaje de beca y asegura tu
+                lugar.
               </p>
 
-              <div class="biu-hero-ctas">
-                <a
-                  href="#requisitos"
-                  class="biu-btn-stacked"
-                >
+              <div class="adm-hero-ctas">
+                <a href="#requisitos" class="adm-btn-stacked">
                   <FileCheck :size="22" />
-                  <span>Requisitos BIU</span>
+                  <span>Requisitos de Admisión</span>
                 </a>
-                <a
-                  href="#registro"
-                  class="biu-btn-stacked"
-                >
+                <a href="#registro" class="adm-btn-stacked">
                   <GraduationCap :size="22" />
-                  <span>Inscríbete Aquí</span>
+                  <span>Registrarse Ahora</span>
                 </a>
               </div>
             </div>
@@ -131,29 +125,19 @@ const pasos = [
         </div>
       </section>
 
-      <!-- BARRA DE ESTADÍSTICAS (EXACTA A /bachillerato) -->
-      <div class="biu-hero__stats-bar">
-        <div class="biu-container biu-hero__stats-inner">
-          <div v-for="stat in stats" :key="stat.label" class="biu-stat">
-            <div class="biu-stat__icon">
-              <component
-                :is="
-                  stat.icon === 'Layers'
-                    ? Layers
-                    : stat.icon === 'Calendar'
-                      ? Calendar
-                      : stat.icon === 'BookOpen'
-                        ? BookOpen
-                        : stat.icon === 'Globe'
-                          ? Globe2
-                          : ShieldCheck
-                "
-                :size="28"
-              />
+      <!-- BARRA DE ESTADÍSTICAS (LIQUID GLASS BAR CON ACENTO VERDE BIU) -->
+      <div class="adm-stats-bar">
+        <div class="uninter-container adm-stats__inner">
+          <div v-for="stat in stats" :key="stat.label" class="adm-stat">
+            <div class="adm-stat__icon">
+              <ClipboardList v-if="stat.icon === 'ClipboardList'" :size="28" />
+              <ShieldCheck v-else-if="stat.icon === 'ShieldCheck'" :size="28" />
+              <BookOpen v-else-if="stat.icon === 'BookOpen'" :size="28" />
+              <Award v-else-if="stat.icon === 'Award'" :size="28" />
             </div>
-            <div class="biu-stat__text">
-              <span class="biu-stat__value">{{ stat.value }}</span>
-              <span class="biu-stat__label">{{ stat.label }}</span>
+            <div class="adm-stat__text">
+              <span class="adm-stat__value">{{ stat.value }}</span>
+              <span class="adm-stat__label">{{ stat.label }}</span>
             </div>
           </div>
         </div>
@@ -161,119 +145,202 @@ const pasos = [
     </div>
 
     <!-- ══════════════════════════════════════════
-         BIENVENIDA (FONDO BLANCO / CARDS BLANCAS)
+         BIENVENIDA
     ══════════════════════════════════════════ -->
-    <section class="biu-welcome">
-      <div class="biu-welcome__top">
-        <div class="biu-container">
-          <div class="biu-welcome__intro">
+    <section class="adm-welcome">
+      <div class="adm-welcome__top">
+        <div class="uninter-container">
+          <div class="adm-welcome__intro">
             <div>
-              <p class="biu-eyebrow">Admisiones BIU</p>
-              <h2 class="biu-title">Un ambiente global<br /><em>para tu crecimiento</em></h2>
+              <p class="adm-eyebrow">Admisiones Bachillerato</p>
+              <h2 class="adm-title">
+                Comienza tu admisión<br /><em>a Bachillerato BIU</em>
+              </h2>
             </div>
-            <p class="biu-desc">
-              El Bachillerato Internacional de UNINTER combina exigencia académica de clase mundial con el desarrollo de competencias multiculturales. Agenda tu cita y conoce nuestras modalidades Bilingüe y Multicultural.
+            <p class="adm-desc">
+              Bachillerato Internacional UNINTER te ofrece una formación
+              integral y global en sus modalidades Bilingüe y Multicultural. El
+              proceso de admisión es ágil y contarás con la guía personalizada
+              de un asesor educativo para resolver dudas sobre requisitos, becas
+              y fechas de inicio.
             </p>
           </div>
         </div>
       </div>
-      <div class="biu-welcome__cards-wrap">
-        <div class="biu-container biu-welcome__cards">
-          <a href="#requisitos" class="biu-wcard">
-            <div class="biu-wcard__icon"><Icon name="mdi:school-outline" size="26" /></div>
-            <h3 class="biu-wcard__title">Admisión en Campus</h3>
-            <p class="biu-wcard__desc">Agenda tu visita personalizada y realiza tu examen de ubicación de inglés.</p>
-            <span class="biu-wcard__link">Ver proceso →</span>
+      <div class="adm-welcome__cards-wrap">
+        <div class="uninter-container adm-welcome__cards">
+          <a href="#requisitos" class="adm-wcard">
+            <div class="adm-wcard__icon">
+              <Icon name="mdi:school-outline" size="26" />
+            </div>
+            <h3 class="adm-wcard__title">Admisión Presencial</h3>
+            <p class="adm-wcard__desc">
+              Conoce nuestro Campus Cuernavaca, entrega tu documentación básica
+              y recibe asesoría con tu familia.
+            </p>
+            <span class="adm-wcard__link">Ver proceso →</span>
           </a>
-          <a href="#registro" class="biu-wcard">
-            <div class="biu-wcard__icon"><Icon name="mdi:laptop" size="26" /></div>
-            <h3 class="biu-wcard__title">Admisión Digital</h3>
-            <p class="biu-wcard__desc">Carga digital de documentos y entrevista virtual con coordinación.</p>
-            <span class="biu-wcard__link">Registrarse →</span>
+          <a href="#registro" class="adm-wcard">
+            <div class="adm-wcard__icon">
+              <Icon name="mdi:laptop" size="26" />
+            </div>
+            <h3 class="adm-wcard__title">Proceso en Línea</h3>
+            <p class="adm-wcard__desc">
+              Completa tu pre-registro digital desde casa y un asesor se pondrá
+              en contacto contigo de inmediato.
+            </p>
+            <span class="adm-wcard__link">Registrarse →</span>
           </a>
-          <div class="biu-wcard biu-wcard--contact">
-            <div class="biu-wcard__icon"><Icon name="mdi:phone-outline" size="26" /></div>
-            <h3 class="biu-wcard__title">Contacto BIU</h3>
-            <p class="biu-wcard__desc">777 357 9000 ext. 2<br />admisiones@uninter.edu.mx</p>
-            <span class="biu-wcard__link">Lunes a Sábado</span>
-          </div>
+          <a
+            :href="whatsappUrl"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="adm-wcard adm-wcard--whatsapp"
+          >
+            <div class="adm-wcard__icon adm-wcard__icon--wa">
+              <Icon name="mdi:whatsapp" size="26" />
+            </div>
+            <h3 class="adm-wcard__title">¿Dudas sobre BIU?</h3>
+            <p class="adm-wcard__desc">
+              Chatea directamente con el equipo de admisiones de Bachillerato y
+              resuelve tus preguntas al instante.
+            </p>
+            <span class="adm-wcard__link adm-wcard__link--wa">
+              Iniciar en WhatsApp →
+            </span>
+          </a>
         </div>
       </div>
     </section>
 
     <!-- PASOS & REQUISITOS -->
-    <section id="requisitos" class="biu-pre">
-      <div class="biu-container">
-        <div class="biu-pre__head">
-          <p class="biu-eyebrow">Etapas</p>
-          <h2 class="biu-title biu-title--dark">Proceso de Ingreso a <em>Bachillerato</em></h2>
-          <p class="biu-pre__sub">Sigue estos sencillos pasos para formar parte de la comunidad BIU.</p>
+    <section id="requisitos" class="adm-pre">
+      <div class="uninter-container">
+        <div class="adm-pre__head">
+          <p class="adm-eyebrow">Etapas de Ingreso</p>
+          <h2 class="adm-title adm-title--dark">
+            Proceso y Requisitos de <em>Bachillerato</em>
+          </h2>
+          <p class="adm-pre__sub">
+            Sigue estas 4 sencillas etapas para formalizar tu inscripción en BIU
+            Bilingüe o BIU Multicultural.
+          </p>
         </div>
 
-        <div class="biu-steps">
-          <div v-for="(paso, i) in pasos" :key="paso.num" class="biu-step">
-            <div class="biu-step__aside">
-              <div class="biu-step__num">{{ paso.num }}</div>
-              <div v-if="i < pasos.length - 1" class="biu-step__line"></div>
+        <div class="adm-steps">
+          <div v-for="(paso, i) in pasos" :key="paso.num" class="adm-step">
+            <div class="adm-step__aside">
+              <div class="adm-step__num">{{ paso.num }}</div>
+              <div v-if="i < pasos.length - 1" class="adm-step__line"></div>
             </div>
-            <div class="biu-step__body">
-              <h3 class="biu-step__title">{{ paso.title }}</h3>
-              <p class="biu-step__desc">{{ paso.desc }}</p>
-              <ul v-if="paso.items.length" class="biu-step__list">
+            <div class="adm-step__body">
+              <h3 class="adm-step__title">{{ paso.title }}</h3>
+              <p class="adm-step__desc">{{ paso.desc }}</p>
+              <ul v-if="paso.items.length" class="adm-step__list">
                 <li v-for="item in paso.items" :key="item">
-                  <span class="biu-step__dot"></span>{{ item }}
+                  <span class="adm-step__dot"></span>{{ item }}
                 </li>
               </ul>
+              <div v-if="paso.notes?.length" class="adm-step__notebox">
+                <p class="adm-step__note-label">Notas importantes:</p>
+                <ol>
+                  <li v-for="note in paso.notes" :key="note">{{ note }}</li>
+                </ol>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="biu-pre__contact">
-          <div class="biu-contact-item"><Icon name="mdi:email-outline" size="16" /><span>admisiones@uninter.edu.mx</span></div>
-          <div class="biu-contact-item"><Icon name="mdi:phone-outline" size="16" /><span>777 357 9000 ext. 2</span></div>
-          <div class="biu-contact-item"><Icon name="mdi:clock-outline" size="16" /><span>Lun-Vie 8:00–18:00 · Sáb 9:00–13:00</span></div>
+        <div class="adm-pre__contact">
+          <div class="adm-contact-item">
+            <Icon name="mdi:email-outline" size="16" /><span
+              >admisiones@uninter.edu.mx</span
+            >
+          </div>
+          <div class="adm-contact-item">
+            <Icon name="mdi:phone-outline" size="16" /><span
+              >777 357 9000 ext. 1</span
+            >
+          </div>
+          <div class="adm-contact-item">
+            <Icon name="mdi:clock-outline" size="16" /><span
+              >Lun-Vie 8:00–18:00 · Sáb 9:00–13:00</span
+            >
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- BLOGS -->
-    <BlogsSection />
-
-    <!-- REGISTRO -->
-    <section id="registro">
-      <FormRegister />
+    <!-- ══════════════════════════════════════════
+         REGISTRO (FORMULARIO SUPERLEADS EXCLUSIVO BACHILLERATO)
+         (Cambiar el atributo src del iframe para actualizar el formulario)
+    ══════════════════════════════════════════ -->
+    <section id="registro" class="reg-section">
+      <div class="uninter-container">
+        <div class="reg-card">
+          <div class="reg-mascot-side">
+            <div class="mascot-wrap">
+              <img
+                src="/images/forms/legi-mascot.png"
+                alt="Mascota Legi UNINTER"
+                class="mascot-img"
+              />
+            </div>
+          </div>
+          <div class="reg-form-side">
+            <iframe
+              src="https://link.superleads.mx/widget/form/uYpBZrNnpzCSmJKsSJQK"
+              style="
+                width: 100%;
+                height: 100%;
+                border: none;
+                border-radius: 4px;
+              "
+              id="inline-uYpBZrNnpzCSmJKsSJQK"
+              data-layout="{'id':'INLINE'}"
+              data-trigger-type="alwaysShow"
+              data-trigger-value=""
+              data-activation-type="alwaysActivated"
+              data-activation-value=""
+              data-deactivation-type="neverDeactivate"
+              data-deactivation-value=""
+              data-form-name="FormAdmisionBiu"
+              data-height="1189"
+              data-layout-iframe-id="inline-uYpBZrNnpzCSmJKsSJQK"
+              data-form-id="uYpBZrNnpzCSmJKsSJQK"
+              data-cookie-consent="true"
+              data-cookie-consent-provider="auto"
+              title="FormAdmisionBiu"
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
     </section>
 
     <PortalFooter />
+    <FloatingActions />
   </div>
 </template>
 
 <style scoped>
-.biu-hero-wrapper {
-  --g: #bad043;
-  --gl: #7bba4f;
-  --gd: #459c4a;
-  --ga: #bad043;
-  background-color: #0c2010;
-}
-
-.biu-container {
+.uninter-container {
   margin: 0 auto;
   max-width: 1280px;
   padding: 0 1.5rem;
 }
 
 /* ═══════════════════════════════════════════
-   HERO SECTION BIU (68% VIEWPORT)
+   HERO SECTION (TEMA VERDE BACHILLERATO BIU)
 ═══════════════════════════════════════════ */
-.biu-hero-section {
+.adm-hero-section {
   --h: clamp(520px, 68vh, 680px);
-  background: transparent;
+  background: #0e1b04;
   overflow: hidden;
   position: relative;
 }
 
-.biu-hero-slide {
+.adm-hero-slide {
   align-items: center;
   display: flex;
   height: var(--h);
@@ -281,125 +348,94 @@ const pasos = [
   width: 100%;
 }
 
-.biu-hero-slide__img {
-  animation: kb-biu 14s ease-out forwards;
-  height: 100%;
+.adm-hero-picture {
+  position: absolute;
   inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.adm-hero-slide__img {
+  height: 100%;
+  width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  object-position: center top;
+}
+
+/* ═══ CAPA DE BLUR GRADIENTE TRANSPARENTE CON TINTE BIU ═══ */
+.adm-hero-slide__blur-overlay {
   position: absolute;
-  width: 100%;
-}
-
-@keyframes kb-biu {
-  0% { transform: scale(1); }
-  100% { transform: scale(1.06); }
-}
-
-/* ═══ CAPAS DE CONTRASTE Y BLUR IDÉNTICAS A BACHILLERATO ═══ */
-.biu-hero-slide__overlay {
-  background: linear-gradient(180deg, #0c201066, #0c20101a 50%, #0c20101a);
   inset: 0;
-  position: absolute;
   z-index: 1;
-}
-
-.biu-hero-slide__overlay2 {
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
   background: linear-gradient(
     90deg,
-    rgba(12, 32, 16, 0.85),
-    rgba(12, 32, 16, 0.6) 30%,
-    rgba(12, 32, 16, 0.1) 45%,
+    rgba(14, 27, 4, 0.72) 0%,
+    rgba(14, 27, 4, 0.45) 30%,
+    rgba(14, 27, 4, 0.12) 48%,
     transparent 60%
   );
-  inset: 0;
-  -webkit-mask-image: linear-gradient(90deg, #000, #000 35%, transparent 55%);
-  mask-image: linear-gradient(90deg, #000, #000 35%, transparent 55%);
-  position: absolute;
-  z-index: 1;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    #000 0%,
+    #000 35%,
+    transparent 60%
+  );
+  mask-image: linear-gradient(90deg, #000 0%, #000 35%, transparent 60%);
   pointer-events: none;
 }
 
-.biu-hero-content {
+.adm-hero-content {
   position: relative;
   width: 100%;
   z-index: 2;
+  padding-top: 1.5rem;
   padding-bottom: 2rem;
 }
 
-.biu-hero-inner {
+.adm-hero-inner {
   max-width: 620px;
 }
 
-.biu-hero-logo-full {
-  filter: brightness(0) invert(1);
-  height: 46px;
-  margin-bottom: 1.25rem;
-  -o-object-fit: contain;
-  object-fit: contain;
-}
-
-.biu-hero__breadcrumb {
-  display: flex;
-  align-items: center;
-  gap: 0.45rem;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.55);
-  margin-bottom: 1rem;
-}
-
-.biu-hero__breadcrumb a {
-  color: inherit;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.biu-hero__breadcrumb a:hover {
-  color: #bad043;
-}
-
-.biu-breadcrumb-active {
-  color: #bad043;
-}
-
-.biu-hero-title {
+.adm-hero-title {
   color: #ffffff;
   font-family: var(--font-serif, Georgia, serif);
-  font-size: clamp(2.4rem, 5vw, 4rem);
+  font-size: clamp(2.2rem, 4.5vw, 3.8rem);
   font-weight: 800;
   letter-spacing: -0.02em;
-  line-height: 1.06;
+  line-height: 1.08;
   margin: 0 0 1.25rem;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-.biu-hero-title__accent {
-  color: #bad043;
+.adm-hero-title__accent {
+  color: #8db824;
 }
 
-.biu-hero-subtitle {
+.adm-hero-subtitle {
   color: rgba(255, 255, 255, 0.92);
-  font-size: clamp(0.95rem, 1.4vw, 1.08rem);
+  font-family: var(--font-sans, "Plus Jakarta Sans", sans-serif);
+  font-size: clamp(0.95rem, 1.3vw, 1.08rem);
   line-height: 1.65;
   margin: 0 0 2rem;
-  max-width: 520px;
+  max-width: 530px;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
 }
 
-.biu-hero-ctas {
+.adm-hero-ctas {
   display: flex;
   flex-wrap: wrap;
   gap: 0.875rem;
 }
 
-.biu-btn-stacked {
+.adm-btn-stacked {
   align-items: center;
   border-radius: 12px;
   cursor: pointer;
   display: inline-flex;
+  font-family: var(--font-sans, "Plus Jakarta Sans", sans-serif);
   font-size: 0.9rem;
   font-weight: 700;
   justify-content: center;
@@ -415,46 +451,46 @@ const pasos = [
   -webkit-backdrop-filter: blur(8px);
 }
 
-.biu-btn-stacked:hover {
-  background: rgba(186, 208, 67, 0.25);
-  border-color: #bad043;
-  color: #bad043;
+.adm-btn-stacked:hover {
+  background: rgba(141, 184, 36, 0.25);
+  border-color: #8db824;
+  color: #8db824;
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(186, 208, 67, 0.25);
+  box-shadow: 0 8px 20px rgba(141, 184, 36, 0.3);
 }
 
 /* ═══════════════════════════════════════════
-   LIQUID GLASS STATS BAR (EXACTA A /bachillerato)
+   LIQUID GLASS STATS BAR (BIU GREEN GLOW)
 ═══════════════════════════════════════════ */
-.biu-hero__stats-bar {
+.adm-stats-bar {
   backdrop-filter: blur(16px) saturate(150%);
   -webkit-backdrop-filter: blur(16px) saturate(150%);
   background-attachment: fixed;
-  background-color: #0c2010d9;
+  background-color: #0e1b04f2;
   background-image: radial-gradient(
     circle at 50% 50%,
-    rgba(186, 208, 67, 0.15) 0,
+    rgba(141, 184, 36, 0.22) 0,
     transparent 60%
   );
   background-position: 50%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-  border-top: 1px solid rgba(186, 208, 67, 0.3);
+  border-top: 1px solid rgba(141, 184, 36, 0.35);
   box-shadow: 0 4px 30px #00000080;
-  padding: 1.5rem 0;
+  padding: 1.35rem 0;
   position: relative;
+  z-index: 10;
 }
 
-.biu-hero__stats-inner {
+.adm-stats__inner {
   align-items: center;
   display: flex;
   justify-content: space-between;
   position: relative;
-  z-index: 2;
 }
 
-.biu-stat {
+.adm-stat {
   align-items: center;
-  border-right: 1px solid rgba(186, 208, 67, 0.3);
+  border-right: 1px solid rgba(141, 184, 36, 0.3);
   display: flex;
   flex: 1;
   flex-direction: row;
@@ -463,100 +499,117 @@ const pasos = [
   padding: 0 1.5rem;
 }
 
-.biu-stat:last-child {
+.adm-stat:last-child {
   border-right: none;
 }
 
-.biu-stat__icon {
+.adm-stat__icon {
   align-items: center;
-  color: var(--g);
+  color: #8db824;
   display: flex;
   justify-content: center;
+  flex-shrink: 0;
 }
 
-.biu-stat__text {
+.adm-stat__text {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
 }
 
-.biu-stat__value {
-  color: #fff;
+.adm-stat__value {
+  color: #ffffff;
+  font-family: var(
+    --font-sans,
+    "Plus Jakarta Sans",
+    system-ui,
+    -apple-system,
+    sans-serif
+  );
   font-size: clamp(1.1rem, 1.3vw, 1.4rem);
   font-weight: 800;
   line-height: 1.2;
 }
 
-.biu-stat__label {
-  color: #fffc;
-  font-size: 0.9rem;
+.adm-stat__label {
+  color: rgba(255, 255, 255, 0.82);
+  font-family: var(
+    --font-sans,
+    "Plus Jakarta Sans",
+    system-ui,
+    -apple-system,
+    sans-serif
+  );
+  font-size: 0.88rem;
   font-weight: 500;
+  letter-spacing: normal;
+  margin-top: 0;
   text-align: left;
 }
 
 /* ═══════════════════════════════════════════
-   BIENVENIDA & TARJETAS (FONDO BLANCO / CARDS BLANCAS)
+   BIENVENIDA & TARJETAS
 ═══════════════════════════════════════════ */
-.biu-welcome {
+.adm-welcome {
   background-color: #ffffff;
   padding: 5rem 0 5.5rem;
 }
 
-.biu-welcome__top {
+.adm-welcome__top {
   margin-bottom: 3.5rem;
 }
 
-.biu-welcome__intro {
+.adm-welcome__intro {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   gap: 3.5rem;
   align-items: start;
 }
 
-.biu-eyebrow {
+.adm-eyebrow {
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #4a7a02;
+  color: #4a7c13;
   margin: 0 0 0.6rem;
 }
 
-.biu-title {
+.adm-title {
   font-family: var(--font-serif, Georgia, serif);
   font-size: clamp(2rem, 3.6vw, 2.9rem);
   font-weight: 800;
-  color: #0f3c61;
+  color: #1a3407;
   margin: 0;
   line-height: 1.12;
   letter-spacing: -0.01em;
 }
 
-.biu-title em {
+.adm-title em {
   font-style: italic;
-  color: #4a7a02;
+  color: #4a7c13;
 }
 
-.biu-title--dark {
-  color: #0f3c61;
+.adm-title--dark {
+  color: #1a3407;
 }
 
-.biu-desc {
+.adm-desc {
   font-size: 0.98rem;
   line-height: 1.75;
   color: #1e293b;
   margin: 0;
   padding-top: 1.5rem;
-  border-top: 2.5px solid #bad043;
+  border-top: 2.5px solid #8db824;
 }
 
-.biu-welcome__cards {
+.adm-welcome__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 
-.biu-wcard {
+.adm-wcard {
   background: #ffffff;
   border: 1.5px solid #e2e8f0;
   border-radius: 16px;
@@ -565,47 +618,56 @@ const pasos = [
   flex-direction: column;
   gap: 0.875rem;
   text-decoration: none;
-  box-shadow: 0 4px 16px rgba(15, 60, 97, 0.04);
-  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 16px rgba(26, 52, 7, 0.04);
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
   cursor: pointer;
 }
 
-.biu-wcard:hover {
+.adm-wcard:hover {
   transform: translateY(-4px);
-  border-color: #bad043;
-  box-shadow: 0 14px 30px rgba(186, 208, 67, 0.18);
+  border-color: #4a7c13;
+  box-shadow: 0 14px 30px rgba(74, 124, 19, 0.14);
 }
 
-.biu-wcard--contact {
-  cursor: default;
+.adm-wcard--whatsapp:hover {
+  transform: translateY(-4px);
+  border-color: #25d366;
+  box-shadow: 0 14px 30px rgba(37, 211, 102, 0.16);
 }
 
-.biu-wcard--contact:hover {
-  transform: none;
-  border-color: #e2e8f0;
-  box-shadow: 0 4px 16px rgba(15, 60, 97, 0.04);
+.adm-wcard__icon--wa {
+  background: rgba(37, 211, 102, 0.12);
+  color: #16a34a;
 }
 
-.biu-wcard__icon {
+.adm-wcard__link--wa {
+  color: #15803d;
+  font-weight: 700;
+}
+
+.adm-wcard__icon {
   width: 50px;
   height: 50px;
   border-radius: 12px;
-  background: rgba(186, 208, 67, 0.15);
-  color: #4a7a02;
+  background: rgba(74, 124, 19, 0.1);
+  color: #4a7c13;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.biu-wcard__title {
+.adm-wcard__title {
   font-family: var(--font-serif, Georgia, serif);
   font-size: 1.15rem;
   font-weight: 800;
-  color: #0f3c61;
+  color: #1a3407;
   margin: 0;
 }
 
-.biu-wcard__desc {
+.adm-wcard__desc {
   font-size: 0.88rem;
   color: #334155;
   line-height: 1.6;
@@ -613,209 +675,305 @@ const pasos = [
   flex: 1;
 }
 
-.biu-wcard__link {
+.adm-wcard__link {
   font-size: 0.84rem;
   font-weight: 700;
-  color: #4a7a02;
+  color: #4a7c13;
   letter-spacing: 0.02em;
   display: inline-flex;
   align-items: center;
   gap: 0.25rem;
-  transition: gap 0.2s ease, color 0.2s ease;
+  transition:
+    gap 0.2s ease,
+    color 0.2s ease;
 }
 
-.biu-wcard:hover .biu-wcard__link {
-  color: #2e7d32;
+.adm-wcard:hover .adm-wcard__link {
+  color: #2d4e07;
   gap: 0.45rem;
 }
 
 /* ═══════════════════════════════════════════
    STEPS & TIMELINE
 ═══════════════════════════════════════════ */
-.biu-pre {
-  background-color: #f8faf4;
-  padding: 5.5rem 0;
+.adm-pre {
+  background: #f7faf4;
+  padding: 5rem 0 5.5rem;
 }
 
-.biu-pre__head {
+.adm-pre__head {
   text-align: center;
-  margin-bottom: 3.5rem;
+  max-width: 640px;
+  margin: 0 auto 3.5rem;
 }
 
-.biu-pre__sub {
+.adm-pre__sub {
+  color: #64748b;
   font-size: 0.95rem;
-  color: #4b5d44;
-  max-width: 480px;
-  margin: 0.5rem auto 0;
+  line-height: 1.6;
+  margin-top: 0.5rem;
 }
 
-.biu-steps {
+.adm-steps {
   display: flex;
   flex-direction: column;
   max-width: 820px;
-  margin: 0 auto 3rem;
+  margin: 0 auto 3.5rem;
 }
 
-.biu-step {
+.adm-step {
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
-.biu-step__aside {
+.adm-step__aside {
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-shrink: 0;
 }
 
-.biu-step__num {
-  width: 48px;
-  height: 48px;
+.adm-step__num {
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
-  background: #2e7d32;
+  background: #4a7c13;
   color: #ffffff;
-  font-size: 0.82rem;
-  font-weight: 900;
-  letter-spacing: 0.06em;
+  font-size: 1.15rem;
+  font-weight: 800;
+  font-family: var(--font-serif, Georgia, serif);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(46, 125, 50, 0.25);
-  flex-shrink: 0;
-  z-index: 1;
+  box-shadow: 0 4px 14px rgba(74, 124, 19, 0.3);
 }
 
-.biu-step__line {
+.adm-step__line {
   width: 2px;
   flex: 1;
-  min-height: 24px;
-  background: rgba(46, 125, 50, 0.2);
-  margin: 4px 0;
+  min-height: 48px;
+  background: #cbd5e1;
+  margin: 0.5rem 0;
 }
 
-.biu-step__body {
-  padding: 0 0 2.5rem 0;
+.adm-step__body {
+  padding-bottom: 2.75rem;
   flex: 1;
 }
 
-.biu-step__title {
+.adm-step__title {
   font-family: var(--font-serif, Georgia, serif);
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight: 800;
-  color: #0f3c61;
-  margin: 0.5rem 0 0.625rem;
+  color: #1a3407;
+  margin: 0 0 0.5rem;
 }
 
-.biu-step__desc {
-  font-size: 0.9rem;
-  color: #334155;
-  line-height: 1.7;
-  margin: 0 0 0.875rem;
-}
-
-.biu-step__list {
-  list-style: none;
+.adm-step__desc {
+  font-size: 0.92rem;
+  color: #475569;
+  line-height: 1.65;
   margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
 }
 
-.biu-step__list li {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.5rem;
-  font-size: 0.85rem;
+.adm-step__notebox {
+  margin-top: 1rem;
+  background: #f0f7e8;
+  border-left: 3px solid #4a7c13;
+  padding: 0.85rem 1.15rem;
+  border-radius: 0 8px 8px 0;
+}
+
+.adm-step__note-label {
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #4a7c13;
+  margin: 0 0 0.4rem;
+}
+
+.adm-step__notebox ol {
+  margin: 0;
+  padding-left: 1.2rem;
+  font-size: 0.83rem;
   color: #334155;
   line-height: 1.5;
 }
 
-.biu-step__dot {
-  width: 6px;
-  height: 6px;
-  min-width: 6px;
-  border-radius: 50%;
-  background: #bad043;
-  margin-top: 0.45em;
-}
-
-.biu-pre__contact {
+.adm-pre__contact {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 1.5rem;
-  background: #ffffff;
-  border-radius: 14px;
-  padding: 1.5rem 2rem;
-  border: 1px solid #edf4e6;
-  max-width: 820px;
-  margin: 0 auto;
-  box-shadow: 0 4px 14px rgba(46, 125, 50, 0.03);
+  gap: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e2e8f0;
 }
 
-.biu-contact-item {
+.adm-contact-item {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.85rem;
-  color: #334155;
-}
-
-.biu-contact-item svg {
-  color: #2e7d32;
-  flex-shrink: 0;
+  font-size: 0.88rem;
+  color: #475569;
+  font-weight: 600;
 }
 
 /* ═══════════════════════════════════════════
    RESPONSIVE
 ═══════════════════════════════════════════ */
+@media (max-width: 900px) {
+  .adm-welcome__intro {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .adm-welcome__cards {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 768px) {
-  .biu-hero-section { --h: auto; }
-  .biu-hero-slide {
-    min-height: clamp(440px, 65vh, 580px);
-    padding: 3.5rem 0;
+  .adm-hero-section {
+    --h: auto;
   }
-  .biu-hero-slide__overlay2 {
-    -webkit-mask-image: none;
+  .adm-hero-slide {
+    height: auto;
+    min-height: clamp(500px, 80svh, 640px);
+    padding: 3.5rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .adm-hero-slide__blur-overlay {
+    background: linear-gradient(
+      0deg,
+      rgba(14, 27, 4, 0.95) 0%,
+      rgba(14, 27, 4, 0.85) 35%,
+      rgba(14, 27, 4, 0.45) 55%,
+      transparent 85%
+    );
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
     mask-image: none;
-    background: rgba(12, 32, 16, 0.85);
+    -webkit-mask-image: none;
   }
-  .biu-hero__stats-bar {
-    position: relative;
-    width: 100%;
+  .adm-hero-inner {
+    text-align: center;
+    margin: 0 auto;
   }
-  .biu-hero__stats-inner {
+  .adm-hero-subtitle {
+    margin: 0 auto 1.25rem;
+  }
+  .adm-hero-ctas {
+    justify-content: center;
+  }
+  .adm-stats__inner {
     flex-wrap: wrap;
     gap: 1rem 0;
   }
-  .biu-stat {
-    border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
+  .adm-stat {
+    border-bottom: 1px solid rgba(141, 184, 36, 0.2);
     border-right: none;
     flex: 1 1 50%;
-    padding: 1rem 0.5rem;
+    justify-content: center;
+    padding: 0.75rem 0.5rem;
   }
-  .biu-stat:nth-child(odd) {
-    border-right: 1px solid hsla(0, 0%, 100%, 0.1);
+  .adm-stat:nth-child(odd) {
+    border-right: 1px solid rgba(141, 184, 36, 0.3);
   }
-  .biu-stat:nth-last-child(-n + 2) {
+  .adm-stat:nth-last-child(-n + 2) {
     border-bottom: none;
   }
-  .biu-welcome__intro { grid-template-columns: 1fr; gap: 1.5rem; }
-  .biu-welcome__cards { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 480px) {
-  .biu-hero-ctas { flex-direction: column; }
-  .biu-btn-stacked, .biu-stat { justify-content: center; }
-  .biu-stat {
-    border-bottom: 1px solid hsla(0, 0%, 100%, 0.1) !important;
+  .adm-stat {
+    border-bottom: 1px solid rgba(141, 184, 36, 0.2) !important;
     border-right: none !important;
     flex: 1 1 100%;
-    padding: 1rem 1.5rem;
+    padding: 0.85rem 1.5rem;
   }
-  .biu-stat:last-child {
+  .adm-stat:last-child {
     border-bottom: none !important;
+  }
+}
+
+/* ═══════════════════════════════════════════
+   SECCIÓN DE REGISTRO SUPERLEADS
+═══════════════════════════════════════════ */
+.reg-section {
+  background: #f4f7ee;
+  padding: 5rem 0;
+  scroll-margin-top: 80px;
+}
+.reg-card {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 24px 60px rgba(45, 78, 7, 0.12);
+  display: flex;
+  min-height: 580px;
+  overflow: hidden;
+}
+.reg-mascot-side {
+  align-items: center;
+  background: linear-gradient(145deg, #8db824, #2d4e07);
+  display: flex;
+  flex: 0.75;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+.reg-mascot-side:before {
+  background: radial-gradient(
+    circle at 30% 70%,
+    hsla(0, 0%, 100%, 0.07) 0,
+    transparent 60%
+  );
+  content: "";
+  inset: 0;
+  position: absolute;
+}
+.mascot-wrap {
+  max-width: 300px;
+  position: relative;
+  width: 85%;
+  z-index: 1;
+}
+.mascot-img {
+  filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.35));
+  height: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+  width: 100%;
+}
+.reg-form-side {
+  flex: 1.25;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+@media (max-width: 900px) {
+  .reg-card {
+    flex-direction: column;
+  }
+  .reg-mascot-side {
+    min-height: 200px;
+    padding: 2.5rem 0;
+  }
+  .mascot-wrap {
+    width: 50%;
+  }
+  .reg-form-side {
+    padding: 2.5rem 1.75rem;
+  }
+}
+@media (max-width: 560px) {
+  .reg-section {
+    padding: 3rem 0;
+  }
+  .reg-form-side {
+    padding: 2rem 1.25rem;
   }
 }
 </style>

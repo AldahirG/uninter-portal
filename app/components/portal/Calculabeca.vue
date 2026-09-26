@@ -38,7 +38,7 @@
             <Icon name="mdi:calculator-variant-outline" size="18" />
             Calcular mi beca ahora
           </NuxtLink>
-          <a href="#formulario" class="cb-btn-ghost"> Solicitar información </a>
+          <!-- <a href="#formulario" class="cb-btn-ghost"> Solicitar información </a> -->
           <a
             href="https://wa.link/3ktsjb"
             target="_blank"

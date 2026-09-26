@@ -69,7 +69,7 @@ const pilares = [
     </div>
 
     <!-- MDCT — Pilares académicos -->
-    <div class="siu-va__pillars">
+    <!-- <div class="siu-va__pillars">
       <div class="siu-container">
         <div class="siu-va__pillars-inner">
           <div class="siu-va__pillars-text">
@@ -92,7 +92,7 @@ const pilares = [
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
 </template>
 

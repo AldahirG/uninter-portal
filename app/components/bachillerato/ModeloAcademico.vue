@@ -116,7 +116,7 @@ const modalidades = [
       </div>
     </div>
 
-    <div class="flex-block">
+    <!-- <div class="flex-block">
       <div class="biu-container">
         <div class="flex-header">
           <div class="biu-eyebrow biu-eyebrow--light">
@@ -148,7 +148,7 @@ const modalidades = [
           </a>
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
 </template>
 

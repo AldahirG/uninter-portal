@@ -484,7 +484,7 @@ function scrollTo(id: string) {
     <!-- ══════════════════════════════════════════
          MODELO PEDAGÓGICO
     ══════════════════════════════════════════ -->
-    <section class="biu-modelo">
+    <!-- <section class="biu-modelo">
       <div class="biu-modelo__noise" aria-hidden="true"></div>
       <div class="biu-wrap">
         <p class="biu-eyebrow biu-eyebrow--light biu-eyebrow--center">
@@ -538,7 +538,7 @@ function scrollTo(id: string) {
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- ══════════════════════════════════════════
          PROCESO DE ADMISIÓN (MINI)

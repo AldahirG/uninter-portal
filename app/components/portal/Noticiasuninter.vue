@@ -15,11 +15,6 @@ const columnaIzquierda: NoticiaItem[] = [
     SRC: "/images/noticias/PostFeriaModas.jpg",
     URL: "https://uninter.edu.mx/eventos/",
   },
-  {
-    Titulo: 'Conferencia "Integracion de la proteccion civil"',
-    SRC: "/images/noticias/Proteccion_Civil.jpg",
-    URL: "https://uninter.edu.mx/noticias",
-  },
   /*{
     Titulo: "Nuevo Centro de Idiomas abre sus puertas en campus central",
     SRC: "/images/noticias/tastesNews.jpg",
@@ -29,12 +24,12 @@ const columnaIzquierda: NoticiaItem[] = [
 
 // Objeto / Columna Derecha (Máximo 3)
 const columnaDerecha: NoticiaItem[] = [
-  /*{
-    Titulo: "Leandros clasifican al torneo regional de fútbol americano",
-    SRC: "/images/noticias/tastesNews.jpg",
-    URL: "https://uninter.edu.mx/noticias",
-  },
   {
+    Titulo: "ONE DAY LICENCIATURAS",
+    SRC: "/images/noticias/OneDayOct2026.png",
+    URL: "https://uninter.edu.mx/sesiones-informativas/",
+  },
+  /*{
     Titulo: "Sesión informativa de Licenciaturas Ejecutivas — Próximo inicio",
     SRC: "/images/noticias/tastesNews.jpg",
     URL: "https://uninter.edu.mx/noticias",

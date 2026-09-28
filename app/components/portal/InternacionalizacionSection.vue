@@ -39,16 +39,16 @@ const paisesConvenio = [
   { nombre: 'Francia', bandera: '🇫🇷', imagen: 'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80', region: 'Europa' },
   { nombre: 'Alemania', bandera: '🇩🇪', imagen: 'https://images.unsplash.com/photo-1599946347371-68eb71b16afc?auto=format&fit=crop&w=600&q=80', region: 'Europa' },
   { nombre: 'Italia', bandera: '🇮🇹', imagen: 'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=600&q=80', region: 'Europa' },
+  { nombre: 'Bélgica', bandera: '🇧🇪', imagen: 'https://images.unsplash.com/photo-1559113513-d5e09c78b9dd?auto=format&fit=crop&w=600&q=80', region: 'Europa' },
+  { nombre: 'Portugal', bandera: '🇵🇹', imagen: 'https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=600&q=80', region: 'Europa' },
   { nombre: 'Canadá', bandera: '🇨🇦', imagen: 'https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=600&q=80', region: 'Norteamérica' },
   { nombre: 'Estados Unidos', bandera: '🇺🇸', imagen: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=600&q=80', region: 'Norteamérica' },
-  { nombre: 'Suiza', bandera: '🇨🇭', imagen: 'https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=600&q=80', region: 'Europa' },
-  { nombre: 'Argentina', bandera: '🇦🇷', imagen: 'https://images.unsplash.com/photo-1589909202802-8f4aadce1849?auto=format&fit=crop&w=600&q=80', region: 'Sudamérica' },
+  { nombre: 'México', bandera: '🇲🇽', imagen: 'https://images.unsplash.com/photo-1518638150340-f706e86654de?auto=format&fit=crop&w=600&q=80', region: 'Norteamérica' },
   { nombre: 'Chile', bandera: '🇨🇱', imagen: 'https://images.unsplash.com/photo-1549880338-65ddcdfd017b?auto=format&fit=crop&w=600&q=80', region: 'Sudamérica' },
-  { nombre: 'Japón', bandera: '🇯🇵', imagen: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80', region: 'Asia' },
-  { nombre: 'Corea del Sur', bandera: '🇰🇷', imagen: 'https://images.unsplash.com/photo-1517154421773-0529f29ea451?auto=format&fit=crop&w=600&q=80', region: 'Asia' },
-  { nombre: 'Reino Unido', bandera: '🇬🇧', imagen: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=600&q=80', region: 'Europa' },
   { nombre: 'Colombia', bandera: '🇨🇴', imagen: 'https://images.unsplash.com/photo-1583531352515-8884af319dc1?auto=format&fit=crop&w=600&q=80', region: 'Sudamérica' },
-  { nombre: 'Brasil', bandera: '🇧🇷', imagen: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=600&q=80', region: 'Sudamérica' }
+  { nombre: 'Brasil', bandera: '🇧🇷', imagen: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=600&q=80', region: 'Sudamérica' },
+  { nombre: 'Japón', bandera: '🇯🇵', imagen: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80', region: 'Asia' },
+  { nombre: 'Corea del Sur', bandera: '🇰🇷', imagen: 'https://images.unsplash.com/photo-1517154421773-0529f29ea451?auto=format&fit=crop&w=600&q=80', region: 'Asia' }
 ]
 
 // Duplicamos la lista para crear un bucle infinito continuo

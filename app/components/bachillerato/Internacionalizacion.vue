@@ -109,20 +109,62 @@ function openWhatsAppForTour() {
       />
       <div class="inter-banner__overlay"></div>
       <div class="biu-container inter-banner__content">
-        <div class="inter-banner__inner">
-          <div class="inter-eyebrow">
-            <span class="eyebrow-line"></span>
-            PROYECCIÓN GLOBAL & VALIDEZ OFICIAL
+        <div class="inter-banner__grid">
+          <div class="inter-banner__inner">
+            <div class="inter-eyebrow">
+              <span class="eyebrow-line"></span>
+              PROYECCIÓN GLOBAL & VALIDEZ OFICIAL
+            </div>
+            <h2 class="inter-title">
+              Alianzas globales y<br />
+              <em>certificaciones oficiales</em>
+            </h2>
+            <p class="inter-desc">
+              En BIU UNINTER tu formación trasciende las fronteras. Accede a estancias académicas en Estados Unidos,
+              intercambios escolares con valor oficial de 10 meses y certificaciones avaladas por Cambridge, la SEP,
+              el Ministerio Francés y la Unión Europea.
+            </p>
           </div>
-          <h2 class="inter-title">
-            Alianzas globales y<br />
-            <em>certificaciones oficiales</em>
-          </h2>
-          <p class="inter-desc">
-            En BIU UNINTER tu formación trasciende las fronteras. Accede a estancias académicas en Estados Unidos,
-            intercambios escolares con valor oficial de 10 meses y certificaciones avaladas por Cambridge, la SEP,
-            el Ministerio Francés y la Unión Europea.
-          </p>
+
+          <!-- BURBUJAS FLOTANTES DE INTERNACIONALIZACIÓN (LADO DERECHO) -->
+          <div class="inter-floating-bubbles">
+            <div class="inter-bubble inter-bubble--1">
+              <div class="inter-bubble__icon-wrap">
+                <Globe class="inter-bubble__icon" :size="20" />
+              </div>
+              <div class="inter-bubble__info">
+                <div class="inter-bubble__badge">Experiencias Internacionales</div>
+                <h4 class="inter-bubble__title">Viajes Académicos Culturales</h4>
+                <div class="inter-bubble__tags">
+                  <span class="bubble-tag">🇮🇪 Irlanda</span>
+                  <span class="bubble-tag">🇬🇧 Londres</span>
+                  <span class="bubble-tag">🇯🇵 Japón</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="inter-bubble inter-bubble--2">
+              <div class="inter-bubble__icon-wrap">
+                <Languages class="inter-bubble__icon" :size="20" />
+              </div>
+              <div class="inter-bubble__info">
+                <div class="inter-bubble__badge">Inmersión Lingüística</div>
+                <h4 class="inter-bubble__title">Clases de Interculturalidad</h4>
+                <p class="inter-bubble__desc">Convivencia e intercambio de perspectivas con estudiantes extranjeros.</p>
+              </div>
+            </div>
+
+            <div class="inter-bubble inter-bubble--3">
+              <div class="inter-bubble__icon-wrap">
+                <Users class="inter-bubble__icon" :size="20" />
+              </div>
+              <div class="inter-bubble__info">
+                <div class="inter-bubble__badge">Comunidad Global</div>
+                <h4 class="inter-bubble__title">Estudiantes Internacionales en Campus</h4>
+                <p class="inter-bubble__desc">Ambiente multicultural y networking juvenil en Cuernavaca.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -535,6 +577,134 @@ function openWhatsAppForTour() {
   font-size: 1rem;
   line-height: 1.65;
   margin: 0;
+}
+
+/* ── Banner Grid y Burbujas Flotantes ── */
+.inter-banner__grid {
+  display: grid;
+  grid-template-columns: 1.12fr 0.88fr;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.inter-floating-bubbles {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+}
+
+.inter-bubble {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: rgba(8, 33, 15, 0.65);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(159, 228, 58, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  padding: 1rem 1.25rem;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.inter-bubble:hover {
+  transform: translateY(-3px) scale(1.01);
+  border-color: rgba(159, 228, 58, 0.6);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.45), 0 0 20px rgba(159, 228, 58, 0.2);
+}
+
+.inter-bubble--1 {
+  animation: floatBubble 5s ease-in-out infinite;
+}
+
+.inter-bubble--2 {
+  animation: floatBubble 5.8s ease-in-out infinite 0.7s;
+  margin-left: 1.5rem;
+}
+
+.inter-bubble--3 {
+  animation: floatBubble 6.2s ease-in-out infinite 1.4s;
+}
+
+@keyframes floatBubble {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.inter-bubble__icon-wrap {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(159, 228, 58, 0.15);
+  border: 1px solid rgba(159, 228, 58, 0.35);
+  color: #a3e635;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.inter-bubble__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.inter-bubble__badge {
+  color: #a3e635;
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.inter-bubble__title {
+  color: #ffffff;
+  font-size: 0.96rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.inter-bubble__desc {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.82rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.inter-bubble__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.35rem;
+}
+
+.bubble-tag {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  backdrop-filter: blur(4px);
+}
+
+@media (max-width: 960px) {
+  .inter-banner__grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .inter-bubble--2 {
+    margin-left: 0;
+  }
 }
 
 /* ── 2. Franja de Estadísticas ── */

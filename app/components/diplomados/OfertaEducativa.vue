@@ -5,137 +5,102 @@ import diplomadosDB from "~/assets/data/diplomados.json";
 
 const categorias = [
   {
-    area: "Gerenciales – Publicidad",
-    icon: "mdi:bullhorn-outline",
+    area: "Educación, Docencia e Investigación",
+    icon: "mdi:school-outline",
     programas: [
-      { nombre: "Diplomado en Creatividad y Publicidad", sigla: "DEPU1", nuevo: false },
-      { nombre: "Diplomado en Mercadotecnia y Publicidad", sigla: "DEPU2", nuevo: false },
-    ],
-  },
-  {
-    area: "Gerenciales – Marketing Digital",
-    icon: "mdi:chart-line",
-    programas: [
-      { nombre: "Diplomado en Marketing Digital Estratégico y Creativo", sigla: "DMDEC", nuevo: false },
-      { nombre: "Diplomado en Estrategias y Experiencias Digitales", sigla: "DEED", nuevo: true },
-    ],
-  },
-  {
-    area: "Inteligencia Artificial",
-    icon: "mdi:robot-outline",
-    programas: [
-      { nombre: "Diplomado en Inteligencia Artificial Aplicada a los Negocios", sigla: "DIAAN", nuevo: true },
-    ],
-  },
-  {
-    area: "Innovación Digital",
-    icon: "mdi:lightning-bolt-outline",
-    programas: [
-      { nombre: "Diplomado en Administración de la Tecnología en Línea", sigla: "DATL", nuevo: true },
-      { nombre: "Diplomado en Innovación y Transferencia Tecnológicas", sigla: "DITL", nuevo: true },
-      { nombre: "Diplomado en Arquitectura, Diseño y Legislación de Redes y Tecnologías Web", sigla: "DADLR", nuevo: true },
-    ],
-  },
-  {
-    area: "Era Digital",
-    icon: "mdi:monitor-outline",
-    programas: [
-      { nombre: "Diplomado en Crear y Contar Historias con Animación Digital", sigla: "DCCHA", nuevo: true },
-      { nombre: "Diplomado en Producción Creativa y Posicionamiento Digital", sigla: "DPCPD", nuevo: true },
-    ],
-  },
-  {
-    area: "Psicología",
-    icon: "mdi:head-outline",
-    programas: [
+      { nombre: "Diplomado en Análisis del Uso del Español como Segunda Lengua para la Planeación de Metodologías Didácticas", sigla: "DMEELE3", nuevo: false },
+      { nombre: "Diplomado en Desarrollo de Destrezas Lingüísticas", sigla: "DMEL2", nuevo: false },
+      { nombre: "Diplomado en Diseño y Desarrollo de Proyectos Académicos de Investigación", sigla: "DDPAI", nuevo: false },
+      { nombre: "Diplomado en Elaboración y Planeación Didáctica Basado en el Modelo de Competencias", sigla: "DEPDI", nuevo: false },
+      { nombre: "Diplomado en Elaboración de Programas de Estudio para el Español e Inglés como Segunda Lengua", sigla: "DMEELE4", nuevo: false },
+      { nombre: "Diplomado en Estrategias Didácticas y Métodos de Enseñanza de una L2", sigla: "DEDME", nuevo: false },
+      { nombre: "Diplomado en Evaluación de los Diversos Modelos de Gestión Educativo", sigla: "DEDMG", nuevo: false },
+      { nombre: "Diplomado en Metodología y Adquisición de una Segunda Lengua", sigla: "DMEELE1", nuevo: false },
+      { nombre: "Diplomado en Modelos de Enseñanza y Evaluación de Programas Educativos Siglo XXI", sigla: "DMEEP-D", nuevo: false },
+      { nombre: "Diplomado en Paradigmas en la Enseñanza y Aprendizaje en Innovación Educativa", sigla: "DPEAI", nuevo: false },
+      { nombre: "Diplomado en Tecnologías de la Información y Comunicación Aplicadas a la Pedagogía", sigla: "DTICAP", nuevo: false },
       { nombre: "Diplomado en Psicopedagogía Aplicada", sigla: "DPA", nuevo: true },
     ],
   },
   {
-    area: "Doblaje Profesional",
-    icon: "mdi:microphone-outline",
+    area: "Administración y Negocios",
+    icon: "mdi:briefcase-outline",
     programas: [
+      { nombre: "Diplomado en Administración Tecnológica", sigla: "DATL", nuevo: false },
+      { nombre: "Diplomado en Dirección de Empresas", sigla: "DDE", nuevo: false },
+      { nombre: "Diplomado en Gestión Empresarial", sigla: "DGE", nuevo: false },
+      { nombre: "Diplomado en Innovación y Transferencia Tecnológica", sigla: "DITL", nuevo: false },
+      { nombre: "Diplomado en Calidad Productiva y Competitividad Organizacional", sigla: "DCPCO", nuevo: false },
+      { nombre: "Diplomado en Gestión de la Calidad", sigla: "DGC", nuevo: false },
+      { nombre: "Diplomado en Legislación y Sistemas de Calidad", sigla: "DLSC", nuevo: false },
+      { nombre: "Diplomado en Normatividad y Reingeniería de Procesos Operativos", sigla: "DNRPO", nuevo: false },
+    ],
+  },
+  {
+    area: "Marketing y Publicidad",
+    icon: "mdi:bullhorn-outline",
+    programas: [
+      { nombre: "Diplomado en Creatividad y Publicidad", sigla: "DEPU1", nuevo: false },
+      { nombre: "Diplomado en Mercadotecnia y Publicidad", sigla: "DEPU2", nuevo: false },
+      { nombre: "Diplomado en Estrategias y Experiencias Digitales", sigla: "DEED", nuevo: false },
+      { nombre: "Diplomado en Marketing Digital Estratégico y Creativo", sigla: "DMDEC", nuevo: false },
+      { nombre: "Diplomado en Estrategias de Mercadotecnia para la Conexión y Análisis Inteligente de Datos", sigla: "DEMCAD", nuevo: false },
+    ],
+  },
+  {
+    area: "Tecnología, Redes e Inteligencia Artificial",
+    icon: "mdi:robot-outline",
+    programas: [
+      { nombre: "Diplomado en Arquitectura, Diseño y Legislación de Redes y Tecnologías Web", sigla: "DADLR", nuevo: false },
+      { nombre: "Diplomado en Innovación Tecnológica en Ambientes Electrónicos", sigla: "DITAE", nuevo: false },
+      { nombre: "Diplomado en Negocios Electrónicos y Conmutación Inalámbrica de Redes Empresariales", sigla: "DNECI", nuevo: false },
+      { nombre: "Diplomado en Inteligencia Artificial Aplicada a los Negocios", sigla: "DIAAN", nuevo: true },
+    ],
+  },
+  {
+    area: "Diseño, Animación y Artes Creativas",
+    icon: "mdi:palette-outline",
+    programas: [
+      { nombre: "Diplomado en Crear y Contar Historias con Animación Digital", sigla: "DCCHA", nuevo: true },
+      { nombre: "Diplomado en Producción Creativa y Posicionamiento Digital", sigla: "DPCPD", nuevo: true },
+      { nombre: "Diplomado en Diseño de Interiores", sigla: "DDI", nuevo: false },
+      { nombre: "Diplomado en Fotografía", sigla: "DIFO", nuevo: false },
+      { nombre: "Diplomado en Diseño de Modas con Enfoque en Desarrollo de Colecciones", sigla: "DMEDC", nuevo: true },
       { nombre: "Diplomado en Doblaje Profesional para Cine, Televisión y Streaming", sigla: "DDCTS", nuevo: true },
     ],
   },
   {
-    area: "Gerenciales – Relaciones Mercantiles Internacionales",
+    area: "Comercio Exterior y Derecho Aduanero",
     icon: "mdi:earth",
     programas: [
-      { nombre: "Diplomado en Comercio Exterior y Contratos Internacionales", sigla: "DERMI", nuevo: true },
-      { nombre: "Diplomado en Derecho Aduanero y Marco Jurídico de la Competencia Económica", sigla: "DAMCE", nuevo: true },
-    ],
-  },
-  {
-    area: "Gerenciales – Educación en Formación Docente",
-    icon: "mdi:school-outline",
-    programas: [
-      { nombre: "Diplomado en Modelos de Enseñanza y Evaluación de Programas", sigla: "DMEEP-D", nuevo: true },
-      { nombre: "Diplomado en Paradigmas en la Enseñanza y Aprendizaje en Innovación Educativa", sigla: "DPEAI", nuevo: true },
-      { nombre: "Diplomado en Elaboración y Planeación Didáctica basado en el Modelo de Competencias", sigla: "DEPDI", nuevo: true },
-      { nombre: "Diplomado en Evaluación de los Diversos Modelos de Gestión Educativo", sigla: "DEDMG", nuevo: true },
-    ],
-  },
-  {
-    area: "Gerenciales – Enseñanza del Español como Lengua Extranjera",
-    icon: "mdi:translate",
-    programas: [
-      { nombre: "Diplomado en Metodología y Adquisición de una Segunda Lengua", sigla: "DMEELE1", nuevo: true },
-      { nombre: "Diplomado en Desarrollo de Destrezas Lingüísticas", sigla: "DMEL2", nuevo: true },
-      { nombre: "Diplomado en Análisis del Uso del Español como Segunda Lengua para la Planeación de Metodologías Didácticas", sigla: "DMEELE3", nuevo: true },
-      { nombre: "Diplomado en Elaboración de Programas de Estudio para Español e Inglés como Segunda Lengua", sigla: "DMEELE4", nuevo: true },
-    ],
-  },
-  {
-    area: "Gerenciales – Docencia del Español como Lengua Extranjera",
-    icon: "mdi:book-open-outline",
-    programas: [
-      { nombre: "Diplomado en Estrategias Didácticas y Métodos de Enseñanza", sigla: "DEDME", nuevo: true },
-      { nombre: "Diplomado en Tecnologías de la Información y Comunicación aplicadas a la Pedagogía", sigla: "DTICAP", nuevo: true },
-    ],
-  },
-  {
-    area: "Diseño y Arte",
-    icon: "mdi:palette-outline",
-    programas: [
-      { nombre: "Diplomado en Diseño de Interiores", sigla: "DDI", nuevo: false },
-      { nombre: "Diplomado en Fotografía", sigla: "DIFO", nuevo: false },
-      { nombre: "Diplomado en Diseño de Modas con Enfoque en Desarrollo de Colecciones", sigla: "DMEDC", nuevo: true },
-    ],
-  },
-  {
-    area: "Arquitectura y Construcción",
-    icon: "mdi:hard-hat",
-    programas: [
-      { nombre: "Diplomado en Administración de Obra I", sigla: "DAO1", nuevo: false },
-      { nombre: "Diplomado en Administración de Obra II", sigla: "DAO2", nuevo: false },
-    ],
-  },
-  {
-    area: "Administrativos",
-    icon: "mdi:briefcase-outline",
-    programas: [
-      { nombre: "Diplomado en Gestión Empresarial", sigla: "DGE", nuevo: false },
-      { nombre: "Diplomado en Gestión Empresarial en Línea", sigla: "DGE-L", nuevo: true },
-      { nombre: "Diplomado en Dirección de Empresas", sigla: "DDE", nuevo: false },
-      { nombre: "Diplomado en Dirección de Empresas en Línea", sigla: "DDE-L", nuevo: true },
+      { nombre: "Diplomado en Comercio Exterior y Contratos Internacionales", sigla: "DERMI", nuevo: false },
+      { nombre: "Diplomado en Derecho Aduanero y Marco Jurídico de la Competencia Económica", sigla: "DAMCE", nuevo: false },
     ],
   },
   {
     area: "Idiomas",
     icon: "mdi:translate",
     programas: [
-      { nombre: "Diplomado en Francés", sigla: "DEF", nuevo: true },
-      { nombre: "Diplomado en Inglés", sigla: "DEI", nuevo: true },
-      { nombre: "Diplomado en Inglés Profesional", sigla: "DEIP", nuevo: true },
+      { nombre: "Diplomado en Francés", sigla: "DEF", nuevo: false },
+      { nombre: "Diplomado en Inglés", sigla: "DEI", nuevo: false },
+      { nombre: "Diplomado en Inglés con Especialidad en Negocios Internacionales", sigla: "DEIP", nuevo: false },
     ],
   },
   {
-    area: "Educación e Investigación",
-    icon: "mdi:school-outline",
+    area: "Arquitectura y Construcción",
+    icon: "mdi:hard-hat",
     programas: [
-      { nombre: "Diplomado en Diseño y Desarrollo de Proyectos Académicos de Investigación", sigla: "DDPAI", nuevo: true },
-      { nombre: "Diplomado en Formación para Cronistas", sigla: "DFC", nuevo: true },
+      { nombre: "Diplomado en Informática para Proyectos y Edificación", sigla: "DIPE", nuevo: false },
+      { nombre: "Diplomado en Administración de Obra I", sigla: "DAO1", nuevo: false },
+      { nombre: "Diplomado en Administración de Obra II", sigla: "DAO2", nuevo: false },
+    ],
+  },
+  {
+    area: "Criminalística y Criminología",
+    icon: "mdi:shield-search",
+    programas: [
+      { nombre: "Diplomado en Criminalística de Campo", sigla: "DCC", nuevo: false },
+      { nombre: "Diplomado en Criminalística y Criminología", sigla: "DCCRIM", nuevo: false },
     ],
   },
 ];
@@ -144,14 +109,15 @@ const filter = ref("Todos");
 
 const tabs = [
   { label: "Todos", value: "Todos" },
-  { label: "Negocios y Marketing", value: "Negocios" },
-  { label: "Administrativos", value: "Administrativos" },
-  { label: "Tecnología e IA", value: "Tecnologia" },
-  { label: "Educación y ELE", value: "Educacion" },
-  { label: "Educación e Investigación", value: "EducacionInvestigacion" },
+  { label: "Educación, Docencia e Investigación", value: "Educacion" },
+  { label: "Administración y Negocios", value: "Administracion" },
+  { label: "Marketing y Publicidad", value: "Marketing" },
+  { label: "Tecnología, Redes e Inteligencia Artificial", value: "Tecnologia" },
+  { label: "Diseño, Animación y Artes Creativas", value: "Diseno" },
+  { label: "Comercio Exterior y Derecho Aduanero", value: "Comercio" },
   { label: "Idiomas", value: "Idiomas" },
-  { label: "Diseño y Construcción", value: "Diseno" },
-  { label: "Psicología y Doblaje", value: "Psicologia" },
+  { label: "Arquitectura y Construcción", value: "Arquitectura" },
+  { label: "Criminalística y Criminología", value: "Criminalistica" },
 ];
 
 const programList = computed(() => {
@@ -176,51 +142,32 @@ const programList = computed(() => {
   });
 
   if (filter.value === "Todos") return list;
-  if (filter.value === "Negocios") {
-    return list.filter(
-      (item) =>
-        item.area.includes("Publicidad") ||
-        item.area.includes("Marketing") ||
-        item.area.includes("Relaciones Mercantiles")
-    );
+  if (filter.value === "Educacion") {
+    return list.filter((item) => item.area === "Educación, Docencia e Investigación");
   }
-  if (filter.value === "Administrativos") {
-    return list.filter((item) => item.area.includes("Administrativos"));
+  if (filter.value === "Administracion") {
+    return list.filter((item) => item.area === "Administración y Negocios");
+  }
+  if (filter.value === "Marketing") {
+    return list.filter((item) => item.area === "Marketing y Publicidad");
   }
   if (filter.value === "Tecnologia") {
-    return list.filter(
-      (item) =>
-        item.area.includes("Inteligencia Artificial") ||
-        item.area.includes("Innovación") ||
-        item.area.includes("Era Digital")
-    );
-  }
-  if (filter.value === "Educacion") {
-    return list.filter(
-      (item) => item.area.includes("Español") || item.area.includes("Docencia")
-    );
-  }
-  if (filter.value === "EducacionInvestigacion") {
-    return list.filter((item) =>
-      item.area.includes("Educación e Investigación")
-    );
-  }
-  if (filter.value === "Idiomas") {
-    return list.filter((item) => item.area.includes("Idiomas"));
+    return list.filter((item) => item.area === "Tecnología, Redes e Inteligencia Artificial");
   }
   if (filter.value === "Diseno") {
-    return list.filter(
-      (item) =>
-        item.area.includes("Diseño") ||
-        item.area.includes("Modas") ||
-        item.area.includes("Arquitectura") ||
-        item.area.includes("Construcción")
-    );
+    return list.filter((item) => item.area === "Diseño, Animación y Artes Creativas");
   }
-  if (filter.value === "Psicologia") {
-    return list.filter(
-      (item) => item.area.includes("Psicología") || item.area.includes("Doblaje")
-    );
+  if (filter.value === "Comercio") {
+    return list.filter((item) => item.area === "Comercio Exterior y Derecho Aduanero");
+  }
+  if (filter.value === "Idiomas") {
+    return list.filter((item) => item.area === "Idiomas");
+  }
+  if (filter.value === "Arquitectura") {
+    return list.filter((item) => item.area === "Arquitectura y Construcción");
+  }
+  if (filter.value === "Criminalistica") {
+    return list.filter((item) => item.area === "Criminalística y Criminología");
   }
   return list;
 });
@@ -290,7 +237,10 @@ function scrollToContact() {
           class="dp-card"
           @click="openDrawer(p)"
         >
-          <h3 class="dp-card__title">{{ p.nombre }}</h3>
+          <div class="dp-card__top">
+            <span v-if="p.nuevo" class="dp-badge-new">Nuevo</span>
+            <h3 class="dp-card__title">{{ p.nombre }}</h3>
+          </div>
 
           <div class="dp-card__footer">
             <span class="dp-card__sigla" v-if="p.sigla">{{ p.sigla }}</span>
@@ -470,6 +420,25 @@ function scrollToContact() {
   transform: translateY(-4px);
   border-color: #ea580c;
   box-shadow: 0 14px 35px rgba(234, 88, 12, 0.1);
+}
+
+.dp-card__top {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  align-items: flex-start;
+}
+
+.dp-badge-new {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  background: #ffedd5;
+  color: #c2410c;
+  padding: 0.2rem 0.55rem;
+  border-radius: 9999px;
+  border: 1px solid #fed7aa;
 }
 
 .dp-card__title {

@@ -24,7 +24,7 @@ useHead({
     <Welcome />
     <OfertaEducativa />
     <VidaAcademica />
-    <!-- <Internacionalizacion /> -->
+    <Internacionalizacion />
     <!-- <VidaEstudiantil /> -->
     <ScholarshipCalculator defaultNivel="Secundaria (SIU)" />
     <FormRegister />

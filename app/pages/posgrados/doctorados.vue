@@ -6,6 +6,7 @@ import Internacionalizacion from "@/components/posgrados/Internacionalizacion.vu
 import ScholarshipCalculator from "@/components/shared/ScholarshipCalculator.vue";
 import FormRegister from "@/components/posgrados/FormRegister.vue";
 import PortalFooter from "@/components/layout/Footer.vue";
+import posgradosData from "@/assets/data/posgrados.json";
 
 // Estado del Panel Lateral (Drawer)
 const isDrawerOpen = ref(false);
@@ -13,7 +14,11 @@ const activeProgram = ref<any>(null);
 
 // Abrir Drawer
 const openDrawer = (programData: any) => {
-  activeProgram.value = programData;
+  const official = programData.slug ? (posgradosData as Record<string, any>)[programData.slug] : null;
+  activeProgram.value = {
+    ...programData,
+    desc: official?.description || programData.desc,
+  };
   isDrawerOpen.value = true;
   if (typeof document !== "undefined") {
     document.body.style.overflow = "hidden"; // Evita el scroll del fondo
@@ -258,7 +263,7 @@ const data = [
     </section>
 
     <!-- INTERNACIONALIZACIÓN -->
-    <!-- <Internacionalizacion /> -->
+    <Internacionalizacion tipo="doctorado" />
 
     <!-- CALCULADORA DE BECAS -->
     <ScholarshipCalculator defaultNivel="Posgrado" subType="Doctorado" />

@@ -9,7 +9,7 @@ import {
 
 const stats = [
   { value: "100+", label: "Diplomados y cursos", icon: BookOpen },
-  { value: "16", label: "Áreas de especialización", icon: LayoutGrid },
+  { value: "9", label: "Áreas de especialización", icon: LayoutGrid },
   { value: "ICPM", label: "Cert. internacional", icon: Award },
   { value: "40+", label: "Años de experiencia", icon: GraduationCap },
 ];

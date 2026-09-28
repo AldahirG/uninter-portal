@@ -5,7 +5,7 @@
     "name": "Creatividad y Publicidad",
     "area": "Gerenciales – Publicidad",
     "tagline": "Actualización y especialización en Creatividad y Publicidad",
-    "description": "Formar personas con conocimientos en publicidad capaces de analizar campañas publicitarias y desarrollar habilidades creativas, dentro de un entorno ético y de responsabilidad social, a través del uso de herramientas de mercadotecnia y publicidad en proyectos específicos.",
+    "description": "Diseña campañas publicitarias de alto impacto visual y conceptual, integrando metodologías creativas y herramientas de mercadotecnia estratégica para conectar de forma memorable con audiencias clave.",
     "ingreso": "Personas relacionadas al ámbito o con interés en el área de la Publicidad, Comunicación, Diseño Gráfico o la Mercadotecnia con Conocimiento en las disciplinas básicas de publicidad y mercadotecnia. Con capacidad de análisis, síntesis y sensibilidad hacía las diversas campañas y spots publicitarios.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Creatividad y Publicidad.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Creatividad y Publicidad.",
@@ -21,7 +21,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/EPU.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/EPU V.jpg",
     "posgradoRelacionado": "EPU",
-    "posgradoRelacionadoNombre": "Especialidad en Publicidad"
+    "posgradoRelacionadoNombre": "Especialidad en Publicidad",
+    "sluginstitucional": "Formar personas con conocimientos en publicidad capaces de analizar campañas publicitarias y desarrollar habilidades creativas, dentro de un entorno ético y de responsabilidad social, a través del uso de herramientas de mercadotecnia y publicidad en proyectos específicos.",
+    "descripcionInstitucional": "Formar personas con conocimientos en publicidad capaces de analizar campañas publicitarias y desarrollar habilidades creativas, dentro de un entorno ético y de responsabilidad social, a través del uso de herramientas de mercadotecnia y publicidad en proyectos específicos."
   },
   "diplomado-en-mercadotecnia-y-publicidad": {
     "slug": "diplomado-en-mercadotecnia-y-publicidad",
@@ -29,7 +31,7 @@
     "name": "Mercadotecnia y Publicidad",
     "area": "Gerenciales – Publicidad",
     "tagline": "Actualización y especialización en Mercadotecnia y Publicidad",
-    "description": "Formar personas con conocimientos en publicidad y mercadotecnia básica capaces de analizar y aplicar herramientas creativas, mercadológicas y publicitarias, dentro de un entorno ético y de responsabilidad social a proyectos específicos.",
+    "description": "Domina los fundamentos de la mercadotecnia moderna y la dirección publicitaria, formulando estrategias comerciales persuasivas orientadas a posicionar marcas y maximizar conversiones de mercado.",
     "ingreso": "Capacidad de análisis y e interpretación de estados financieros en organizaciones nacionales e internacionales.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Mercadotecnia y Publicidad.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Mercadotecnia y Publicidad.",
@@ -45,7 +47,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/EPU.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/EPU V.jpg",
     "posgradoRelacionado": "EPU",
-    "posgradoRelacionadoNombre": "Especialidad en Publicidad"
+    "posgradoRelacionadoNombre": "Especialidad en Publicidad",
+    "sluginstitucional": "Formar personas con conocimientos en publicidad y mercadotecnia básica capaces de analizar y aplicar herramientas creativas, mercadológicas y publicitarias, dentro de un entorno ético y de responsabilidad social a proyectos específicos.",
+    "descripcionInstitucional": "Formar personas con conocimientos en publicidad y mercadotecnia básica capaces de analizar y aplicar herramientas creativas, mercadológicas y publicitarias, dentro de un entorno ético y de responsabilidad social a proyectos específicos."
   },
   "diplomado-en-estrategias-y-experiencias-digitales": {
     "slug": "diplomado-en-estrategias-y-experiencias-digitales",
@@ -53,7 +57,7 @@
     "name": "Estrategias y Experiencias Digitales",
     "area": "Gerenciales – Marketing Digital",
     "tagline": "Actualización y especialización en Estrategias y Experiencias Digitales",
-    "description": "Diseñar estrategias digitales de alto impacto que integren análisis, creatividad y planeación estratégica para optimizar la experiencia del usuario, fortalecer el posicionamiento de marca y generar ventajas competitivas sostenibles en entornos digitales.",
+    "description": "Diseña experiencias de usuario memorables y estrategias digitales omnicanal que impulsen el engagement, la fidelización del cliente y el crecimiento comercial de las organizaciones.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Estrategias y Experiencias Digitales.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Estrategias y Experiencias Digitales.",
     "egreso": "Capacidad de análisis, diseño y ejecución de experiencias digitales centradas en el usuario, desarrollo de estrategias avanzadas de marketing en entornos web y móviles, implementación de proyectos de comercio electrónico y aplicaciones funcionales, así como evaluación de métricas y resultados para la optimización continua de campañas digitales.",
@@ -75,7 +79,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/EMD.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/EMD V.jpg",
     "posgradoRelacionado": "EMD",
-    "posgradoRelacionadoNombre": "Especialidad en Marketing Digital"
+    "posgradoRelacionadoNombre": "Especialidad en Marketing Digital",
+    "sluginstitucional": "Diseñar estrategias digitales de alto impacto que integren análisis, creatividad y planeación estratégica para optimizar la experiencia del usuario, fortalecer el posicionamiento de marca y generar ventajas competitivas sostenibles en entornos digitales.",
+    "descripcionInstitucional": "Diseñar estrategias digitales de alto impacto que integren análisis, creatividad y planeación estratégica para optimizar la experiencia del usuario, fortalecer el posicionamiento de marca y generar ventajas competitivas sostenibles en entornos digitales."
   },
   "diplomado-en-inteligencia-artificial-aplicada-a-los-negocios": {
     "slug": "diplomado-en-inteligencia-artificial-aplicada-a-los-negocios",
@@ -83,7 +89,7 @@
     "name": "Inteligencia Artificial Aplicada a los Negocios",
     "area": "Inteligencia Artificial",
     "tagline": "Actualización y especialización en Inteligencia Artificial Aplicada a los Negocios",
-    "description": "Proporcionar una formación integral en el uso estratégico de la Inteligencia Artificial (IA), a través del uso de herramientas prácticas y aplicación de conocimientos técnicos con diferentes usos de la IA generativa, aplicables en estrategias de planeación de trabajo y aprendizajes basados en problemas (ABP) y/o aprendizaje orientado a proyectos (AOP), creación de contenido, etc., que permitan la implementación de soluciones innovadoras que generen valor en diversas áreas de los negocios, como finanzas, mercadotecnia, salud, arte, diseño, entre otras, además de optimizar procesos y tomar decisiones informadas en el ámbito empresarial.",
+    "description": "Integra herramientas de Inteligencia Artificial generativa y analítica predictiva en la toma de decisiones corporativas, optimizando procesos clave y elevando la ventaja competitiva de tu organización.",
     "ingreso": "Interés y curiosidad por la innovación tecnológica, especialmente la inteligencia artificial, y su potencial para transformar el mundo de los negocios. Es recomendable que el aspirante tenga un conocimiento previo en tecnología. Capacidad analítica para solucionar problemas. Mentalidad enfocada en la mejora continua, optimización de procesos y toma de decisiones. Habilidades para trabajar en equipo. Interés en la gestión de proyectos, así como un pensamiento crítico. Comprometido con aplicar los conocimientos adquiridos para mejorar los procesos, la competitividad y la sostenibilidad de los negocios. Compromiso con la ética y la responsabilidad social al utilizar la inteligencia artificial.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Inteligencia Artificial Aplicada a los Negocios.",
     "egreso": "Aplicar herramientas de IA en la toma de decisiones y optimización de procesos. Diseñar proyectos empresariales con machine learning y big data. Analizar datos para generar estrategias de negocio efectivas. Implementar soluciones de IA en marketing, finanzas y gestión del talento. Actuar con responsabilidad ética y social en el uso de la IA. Identificar tendencias y oportunidades futuras en inteligencia artificial.",
@@ -109,7 +115,9 @@
     "imageHorizontal": "/images/diplomados/WebHorizontal/Inteligencia Artificial Aplicada a los Negocios.jpg",
     "imageVertical": "/images/diplomados/WebVertical/Inteligencia vertrical.jpg",
     "posgradoRelacionado": null,
-    "posgradoRelacionadoNombre": null
+    "posgradoRelacionadoNombre": null,
+    "sluginstitucional": "Proporcionar una formación integral en el uso estratégico de la Inteligencia Artificial (IA), a través del uso de herramientas prácticas y aplicación de conocimientos técnicos con diferentes usos de la IA generativa, aplicables en estrategias de planeación de trabajo y aprendizajes basados en problemas (ABP) y/o aprendizaje orientado a proyectos (AOP), creación de contenido, etc., que permitan la implementación de soluciones innovadoras que generen valor en diversas áreas de los negocios, como finanzas, mercadotecnia, salud, arte, diseño, entre otras, además de optimizar procesos y tomar decisiones informadas en el ámbito empresarial.",
+    "descripcionInstitucional": "Proporcionar una formación integral en el uso estratégico de la Inteligencia Artificial (IA), a través del uso de herramientas prácticas y aplicación de conocimientos técnicos con diferentes usos de la IA generativa, aplicables en estrategias de planeación de trabajo y aprendizajes basados en problemas (ABP) y/o aprendizaje orientado a proyectos (AOP), creación de contenido, etc., que permitan la implementación de soluciones innovadoras que generen valor en diversas áreas de los negocios, como finanzas, mercadotecnia, salud, arte, diseño, entre otras, además de optimizar procesos y tomar decisiones informadas en el ámbito empresarial."
   },
   "diplomado-en-administracion-de-la-tecnologia-en-linea": {
     "slug": "diplomado-en-administracion-de-la-tecnologia-en-linea",
@@ -117,7 +125,7 @@
     "name": "Administración de la Tecnología en Línea",
     "area": "Innovación Digital",
     "tagline": "Actualización y especialización en Administración de la Tecnología en Línea",
-    "description": "Formar profesionales capaces de administrar y gestionar proyectos tecnológicos de manera estratégica, integrando conocimientos de propiedad intelectual, gestión tecnológica y responsabilidad social, para fortalecer la competitividad y la innovación dentro de las organizaciones.",
+    "description": "Lidera la transformación digital corporativa y la gestión estratégica de proyectos de TI, optimizando recursos tecnológicos y maximizando la rentabilidad organizacional con flexibilidad en línea.",
     "ingreso": "Profesionistas de cualquier área que participen o deseen participar en proyectos tecnológicos. Directivos, mandos medios y coordinadores que toman decisiones relacionadas con la implementación de tecnología. Emprendedores y dueños de negocio que buscan optimizar procesos mediante el uso estratégico de la tecnología. Docentes y consultores interesados en la gestión tecnológica y la innovación organizacional.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Administración de la Tecnología en Línea.",
     "egreso": "Planear y administrar proyectos tecnológicos con enfoque estratégico. Gestionar la tecnología como un recurso clave para la competitividad organizacional. Aplicar principios básicos de propiedad intelectual en entornos digitales y tecnológicos. Integrar criterios de responsabilidad social en la toma de decisiones tecnológicas.",
@@ -139,7 +147,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/EATL.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/EATL V.jpg",
     "posgradoRelacionado": "EATL",
-    "posgradoRelacionadoNombre": "Especialidad en Administración de la Tecnología en Línea"
+    "posgradoRelacionadoNombre": "Especialidad en Administración de la Tecnología en Línea",
+    "sluginstitucional": "Formar profesionales capaces de administrar y gestionar proyectos tecnológicos de manera estratégica, integrando conocimientos de propiedad intelectual, gestión tecnológica y responsabilidad social, para fortalecer la competitividad y la innovación dentro de las organizaciones.",
+    "descripcionInstitucional": "Formar profesionales capaces de administrar y gestionar proyectos tecnológicos de manera estratégica, integrando conocimientos de propiedad intelectual, gestión tecnológica y responsabilidad social, para fortalecer la competitividad y la innovación dentro de las organizaciones."
   },
   "diplomado-en-innovacion-y-transferencia-tecnologicas": {
     "slug": "diplomado-en-innovacion-y-transferencia-tecnologicas",
@@ -147,7 +157,7 @@
     "name": "Innovación y Transferencia Tecnológicas",
     "area": "Innovación Digital",
     "tagline": "Actualización y especialización en Innovación y Transferencia Tecnológicas",
-    "description": "Formar profesionales capaces de aplicar modelos estratégicos de innovación, gestionar procesos financieros y de mercadotecnia asociados a tecnología, y liderar procesos de transferencia tecnológica efectiva para maximizar el valor y la competitividad de organizaciones en entornos dinámicos.",
+    "description": "Especialízate en la evaluación, protección y comercialización de activos tecnológicos e innovación aplicada, acelerando la transferencia de conocimiento hacia sectores productivos de alto valor.",
     "ingreso": "Profesionistas que desean impulsar procesos de innovación dentro de su organización. Líderes, mandos medios o directivos que participan en la toma de decisiones estratégicas relacionadas con mercado, finanzas e innovación. Emprendedores interesados en desarrollar proyectos tecnológicos con enfoque de mercado y escalabilidad. Consultores y asesores que trabajan con innovación, tecnología y transferencia de conocimiento.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Innovación y Transferencia Tecnológicas.",
     "egreso": "Formular e implementar estrategias financieras alineadas con objetivos tecnológicos y de negocio. Desarrollar planes de mercadotecnia orientados al producto, servicio o innovación tecnológica. Gestionar procesos de innovación y evaluarlos para incrementar valor competitivo. Planear y ejecutar procesos de transferencia tecnológica que conecten investigación, empresa y mercado.",
@@ -169,7 +179,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/EATL.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/EATL V.jpg",
     "posgradoRelacionado": "EATL",
-    "posgradoRelacionadoNombre": "Especialidad en Administración de la Tecnología en Línea"
+    "posgradoRelacionadoNombre": "Especialidad en Administración de la Tecnología en Línea",
+    "sluginstitucional": "Formar profesionales capaces de aplicar modelos estratégicos de innovación, gestionar procesos financieros y de mercadotecnia asociados a tecnología, y liderar procesos de transferencia tecnológica efectiva para maximizar el valor y la competitividad de organizaciones en entornos dinámicos.",
+    "descripcionInstitucional": "Formar profesionales capaces de aplicar modelos estratégicos de innovación, gestionar procesos financieros y de mercadotecnia asociados a tecnología, y liderar procesos de transferencia tecnológica efectiva para maximizar el valor y la competitividad de organizaciones en entornos dinámicos."
   },
   "diplomado-en-arquitectura-diseno-y-legislacion-de-redes-y-tecnologias-web": {
     "slug": "diplomado-en-arquitectura-diseno-y-legislacion-de-redes-y-tecnologias-web",
@@ -177,7 +189,7 @@
     "name": "Arquitectura, Diseño y Legislación de Redes y Tecnologías Web",
     "area": "Innovación Digital",
     "tagline": "Actualización y especialización en Arquitectura, Diseño y Legislación de Redes y Tecnologías Web",
-    "description": "Desarrollar en los participantes una visión integral de las redes de computadoras y las tecnologías web, combinando arquitectura, diseño y legislación, que les permita crear, evaluar y gestionar soluciones digitales con alto impacto en entornos profesionales y organizacionales.",
+    "description": "Diseña infraestructuras de red seguras y arquitecturas web corporativas bajo el marco regulatorio vigente, garantizando alta disponibilidad, confidencialidad de datos y continuidad operativa.",
     "ingreso": "Profesionistas del área de tecnologías de la información interesados en redes y tecnologías web. Administradores de sistemas que buscan ampliar sus conocimientos en diseño de interfaces y legislación digital. Desarrolladores web y consultores tecnológicos que desean fortalecer su visión integral y estratégica. Estudiantes con interés en infraestructura de redes, entornos web y regulación de telecomunicaciones. Interés por redes de computadoras, tecnologías web y normatividad digital.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Arquitectura, Diseño y Legislación de Redes y Tecnologías Web.",
     "egreso": "Comprender y aplicar los principios de arquitectura y funcionamiento de redes de computadoras. Diseñar interfaces web funcionales y orientadas a la experiencia del usuario. Identificar y aplicar la legislación y normatividad vigente en telecomunicaciones y tecnologías digitales. Utilizar tecnologías web actuales para el desarrollo y evaluación de soluciones tecnológicas con estándares de calidad.",
@@ -199,7 +211,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/MARET.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/MARET V.jpg",
     "posgradoRelacionado": "MARET",
-    "posgradoRelacionadoNombre": "Maestría en Redes de Computadoras y Tecnologías Web"
+    "posgradoRelacionadoNombre": "Maestría en Redes de Computadoras y Tecnologías Web",
+    "sluginstitucional": "Desarrollar en los participantes una visión integral de las redes de computadoras y las tecnologías web, combinando arquitectura, diseño y legislación, que les permita crear, evaluar y gestionar soluciones digitales con alto impacto en entornos profesionales y organizacionales.",
+    "descripcionInstitucional": "Desarrollar en los participantes una visión integral de las redes de computadoras y las tecnologías web, combinando arquitectura, diseño y legislación, que les permita crear, evaluar y gestionar soluciones digitales con alto impacto en entornos profesionales y organizacionales."
   },
   "diplomado-en-crear-y-contar-historias-con-animacion-digital": {
     "slug": "diplomado-en-crear-y-contar-historias-con-animacion-digital",
@@ -207,7 +221,7 @@
     "name": "Crear y Contar Historias con Animación Digital",
     "area": "Era Digital",
     "tagline": "Actualización y especialización en Crear y Contar Historias con Animación Digital",
-    "description": "Desarrollar competencias técnicas y creativas en animación digital, que te permitan crear y producir contenidos visuales con una narrativa sólida, original y atractiva para medios digitales, cine, redes sociales, videojuegos o publicidad.",
+    "description": "Domina el arte del storytelling visual y las técnicas de animación digital 2D/3D, creando narrativas cautivadoras para cine, televisión, videojuegos y medios interactivos contemporáneos.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Crear y Contar Historias con Animación Digital.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Crear y Contar Historias con Animación Digital.",
     "egreso": "Aplicar herramientas de IA en la toma de decisiones y optimización de procesos. Diseñar proyectos empresariales con machine learning y big data. Analizar datos para generar estrategias de negocio efectivas. Implementar soluciones de IA en marketing, finanzas y gestión del talento. Actuar con responsabilidad ética y social en el uso de la IA. Identificar tendencias y oportunidades futuras en inteligencia artificial.",
@@ -229,7 +243,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/EAPD.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/EAPD V.jpg",
     "posgradoRelacionado": "EAPD",
-    "posgradoRelacionadoNombre": "Especialidad en Animación y Post-Producción Digital"
+    "posgradoRelacionadoNombre": "Especialidad en Animación y Post-Producción Digital",
+    "sluginstitucional": "Desarrollar competencias técnicas y creativas en animación digital, que te permitan crear y producir contenidos visuales con una narrativa sólida, original y atractiva para medios digitales, cine, redes sociales, videojuegos o publicidad.",
+    "descripcionInstitucional": "Desarrollar competencias técnicas y creativas en animación digital, que te permitan crear y producir contenidos visuales con una narrativa sólida, original y atractiva para medios digitales, cine, redes sociales, videojuegos o publicidad."
   },
   "diplomado-en-produccion-creativa-y-posicionamiento-digital": {
     "slug": "diplomado-en-produccion-creativa-y-posicionamiento-digital",
@@ -237,7 +253,7 @@
     "name": "Producción Creativa y Posicionamiento Digital",
     "area": "Era Digital",
     "tagline": "Actualización y especialización en Producción Creativa y Posicionamiento Digital",
-    "description": "Formar creadores capaces de desarrollar proyectos audiovisuales complejos con animación, efectos visuales y diseño sonoro, combinando sus habilidades con estrategias de marketing digital para potenciar la visibilidad, el alcance y el posicionamiento de sus contenidos en medios y plataformas digitales.",
+    "description": "Desarrolla contenidos audiovisuales de alto impacto estético y domina estrategias de posicionamiento digital, captando la atención de audiencias globales en plataformas digitales y redes sociales.",
     "ingreso": "Personas interesadas en la producción audiovisual, la animación y el marketing digital. Estudiantes, egresados o profesionales de áreas como animación, diseño, comunicación, publicidad, producción multimedia o afines. Creadores de contenido, emprendedores o artistas digitales que deseen frtalecer su presencia en medios digitales. Se recomienda contar con conocimientos básicos en animación o herramientas de diseño.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Producción Creativa y Posicionamiento Digital.",
     "egreso": "Producir contenidos audiovisuales complejos con animación 3D, efectos especiales y diseño sonoro. Desarrollar campañas de posicionamiento digital para promocionar tus productos, marcas o servicios creativos. Integrar herramientas profesionales de producción audiovisual con estrategias de marketing digital. Diseñar propuestas visuales innovadoras adaptadas a diferentes medios y plataformas. Presentar un portafolio completo con proyectos listos para el mercado digital.",
@@ -259,7 +275,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/EAPD.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/EAPD V.jpg",
     "posgradoRelacionado": "EAPD",
-    "posgradoRelacionadoNombre": "Especialidad en Animación y Post-Producción Digital"
+    "posgradoRelacionadoNombre": "Especialidad en Animación y Post-Producción Digital",
+    "sluginstitucional": "Formar creadores capaces de desarrollar proyectos audiovisuales complejos con animación, efectos visuales y diseño sonoro, combinando sus habilidades con estrategias de marketing digital para potenciar la visibilidad, el alcance y el posicionamiento de sus contenidos en medios y plataformas digitales.",
+    "descripcionInstitucional": "Formar creadores capaces de desarrollar proyectos audiovisuales complejos con animación, efectos visuales y diseño sonoro, combinando sus habilidades con estrategias de marketing digital para potenciar la visibilidad, el alcance y el posicionamiento de sus contenidos en medios y plataformas digitales."
   },
   "diplomado-en-psicopedagogia-aplicada": {
     "slug": "diplomado-en-psicopedagogia-aplicada",
@@ -267,7 +285,7 @@
     "name": "Psicopedagogía Aplicada",
     "area": "Psicología",
     "tagline": "Actualización y especialización en Psicopedagogía Aplicada",
-    "description": "La Universidad Internacional ofrece este diplomado dirigido tanto, para alumnos egresados de licenciatura y/o posgrado, en áreas como Psicología, Educación, Pedagogía, como para profesores y profesionistas que trabajen en contextos educativos, clínicos o comunitarios, que busquen fortalecer sus habilidades para el diagnóstico, intervención y acompañamiento de procesos de aprendizaje. El diplomado cuenta con sólidos conocimientos teóricos y prácticos en psicopedagogía, que le permiten comprender y distinguir las principales teorías psicológicas del aprendizaje que, con fines diagnósticos integrará a los principios de la neuroeducación así como estrategias tecnológicas para los procesos del aprendizaje a la vez que, implementará técnicas de evaluación psicoeducativas basadas en diversos modelos de intervención, empleando recursos creativos y sensoriales para potenciar la expresión y el desarrollo artístico de los estudiantes, tomando en consideración su experiencia previa en docencia, la intervención educativa o trabajo con niños, adolescentes o poblaciones con necesidades educativas especiales.",
+    "description": "Adquiere herramientas diagnósticas y estrategias de intervención psicopedagógica para atender barreras de aprendizaje y potenciar el desarrollo integral del estudiante en diversos entornos educativos.",
     "ingreso": "Egresado de licenciatura y/o posgrado en psicología, educación y pedagogía. Profesionista con interés y/o experiencia en la psicopedagogía.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Psicopedagogía Aplicada.",
     "egreso": "Dominio de estrategias de aprendizaje para generar ambientes de aprendizaje aptos. Comprensión y fortalecimiento de la emoción y la memoria en los procesos de aprendizaje, a través de la creación de ambientes óptimos. Capacidad para incorporar estrategias psicopedagógicas adecuadas a las necesidades educativas especiales. Capacidad para proponer intervenciones psicoeducativias eficientes y éticas. Comprensión e intervención en situaciones educativas conflictivas. Promoción de habilidades artísitcas y plásticas en los infantes.",
@@ -295,7 +313,9 @@
     "imageHorizontal": "/images/diplomados/WebHorizontal/Psicopedagogía Aplicada.jpg",
     "imageVertical": "/images/diplomados/WebVertical/Psicopedagogía vertical.jpg",
     "posgradoRelacionado": null,
-    "posgradoRelacionadoNombre": null
+    "posgradoRelacionadoNombre": null,
+    "sluginstitucional": "La Universidad Internacional ofrece este diplomado dirigido tanto, para alumnos egresados de licenciatura y/o posgrado, en áreas como Psicología, Educación, Pedagogía, como para profesores y profesionistas que trabajen en contextos educativos, clínicos o comunitarios, que busquen fortalecer sus habilidades para el diagnóstico, intervención y acompañamiento de procesos de aprendizaje. El diplomado cuenta con sólidos conocimientos teóricos y prácticos en psicopedagogía, que le permiten comprender y distinguir las principales teorías psicológicas del aprendizaje que, con fines diagnósticos integrará a los principios de la neuroeducación así como estrategias tecnológicas para los procesos del aprendizaje a la vez que, implementará técnicas de evaluación psicoeducativas basadas en diversos modelos de intervención, empleando recursos creativos y sensoriales para potenciar la expresión y el desarrollo artístico de los estudiantes, tomando en consideración su experiencia previa en docencia, la intervención educativa o trabajo con niños, adolescentes o poblaciones con necesidades educativas especiales.",
+    "descripcionInstitucional": "La Universidad Internacional ofrece este diplomado dirigido tanto, para alumnos egresados de licenciatura y/o posgrado, en áreas como Psicología, Educación, Pedagogía, como para profesores y profesionistas que trabajen en contextos educativos, clínicos o comunitarios, que busquen fortalecer sus habilidades para el diagnóstico, intervención y acompañamiento de procesos de aprendizaje. El diplomado cuenta con sólidos conocimientos teóricos y prácticos en psicopedagogía, que le permiten comprender y distinguir las principales teorías psicológicas del aprendizaje que, con fines diagnósticos integrará a los principios de la neuroeducación así como estrategias tecnológicas para los procesos del aprendizaje a la vez que, implementará técnicas de evaluación psicoeducativas basadas en diversos modelos de intervención, empleando recursos creativos y sensoriales para potenciar la expresión y el desarrollo artístico de los estudiantes, tomando en consideración su experiencia previa en docencia, la intervención educativa o trabajo con niños, adolescentes o poblaciones con necesidades educativas especiales."
   },
   "diplomado-en-doblaje-profesional-para-cine-television-y-streaming": {
     "slug": "diplomado-en-doblaje-profesional-para-cine-television-y-streaming",
@@ -303,7 +323,7 @@
     "name": "Doblaje Profesional para Cine, Televisión y Streaming",
     "area": "Doblaje Profesional",
     "tagline": "Actualización y especialización en Doblaje Profesional para Cine, Televisión y Streaming",
-    "description": "Formar profesionales capaces de realizar doblaje de manera integral —desde la interpretación y adaptación de guiones del idioma original al español hasta la locución, sincronía, producción y postproducción— dominando herramientas líderes como Pro Tools y construyendo un reel profesional; todo ello bajo estándares internacionales y con la guía de directores activos en la industria, para facilitar su inserción laboral en casas de doblaje y proyectos de cine, televisión y plataformas de streaming.",
+    "description": "Perfecciona técnicas de locución, modulación vocal y sincronización labial para la industria cinematográfica, series de televisión y plataformas de streaming internacional con estándar profesional.",
     "ingreso": "Interés genuino en el doblaje, la actuación y la locución (perfil abierto a cualquier persona interesada). Comunicación oral sólida en español: lectura en voz alta, dicción y buena ortografía. Sensibilidad auditiva para ritmo, entonación y sincronía labial (lip-sync). Disposición para interpretar, improvisar y trabajar en equipo bajo dirección. Disponibilidad de tiempo: viernes por la tarde y sábados por la mañana/mediodía durante un semestre (2 h semanales por módulo). Habilidades digitales básicas y apertura para aprender producción y postproducción con Pro Tools (no se requiere certificación previa). Recomendable para práctica en casa: computadora, conexión estable, audífonos cerrados y micrófono básico. Hábitos de cuidado de la voz y salud vocal básica. Deseable (no obligatorio): comprensión lectora de inglés u otros idiomas para apoyar la adaptación de guiones. Actitudes de disciplina, constancia, puntualidad y respeto a estándares profesionales.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Doblaje Profesional para Cine, Televisión y Streaming.",
     "egreso": "Profesionales capaces de interpretar y adaptar guiones y locución a partir de materiales audiovisuales, del idioma original al español. Actores que apliquen las técnicas específicas de la actuación para realizar un doblaje profesional, tanto de series de televisión o streaming como de material cinematográfico. Locutores que controlen su voz y la dominen tanto para doblaje, como para locución comercial. Producir su propio material de doblaje, generando un portafolio para poder mostrar al acudir a castings.",
@@ -325,7 +345,9 @@
     "imageHorizontal": "/images/diplomados/WebHorizontal/Doblaje profesional para cine, Televisión y streaming.jpg",
     "imageVertical": "/images/diplomados/WebVertical/Doblaje profesi vertical.jpg",
     "posgradoRelacionado": null,
-    "posgradoRelacionadoNombre": null
+    "posgradoRelacionadoNombre": null,
+    "sluginstitucional": "Formar profesionales capaces de realizar doblaje de manera integral —desde la interpretación y adaptación de guiones del idioma original al español hasta la locución, sincronía, producción y postproducción— dominando herramientas líderes como Pro Tools y construyendo un reel profesional; todo ello bajo estándares internacionales y con la guía de directores activos en la industria, para facilitar su inserción laboral en casas de doblaje y proyectos de cine, televisión y plataformas de streaming.",
+    "descripcionInstitucional": "Formar profesionales capaces de realizar doblaje de manera integral —desde la interpretación y adaptación de guiones del idioma original al español hasta la locución, sincronía, producción y postproducción— dominando herramientas líderes como Pro Tools y construyendo un reel profesional; todo ello bajo estándares internacionales y con la guía de directores activos en la industria, para facilitar su inserción laboral en casas de doblaje y proyectos de cine, televisión y plataformas de streaming."
   },
   "diplomado-en-comercio-exterior-y-contratos-internacionales": {
     "slug": "diplomado-en-comercio-exterior-y-contratos-internacionales",
@@ -333,7 +355,7 @@
     "name": "Comercio Exterior y Contratos Internacionales",
     "area": "Gerenciales – Relaciones Mercantiles Internacionales",
     "tagline": "Actualización y especialización en Comercio Exterior y Contratos Internacionales",
-    "description": "Formar especialistas en Relaciones Mercantiles Internacionales capaces de negociar en términos legales y económicos contratos mercantiles en los ámbitos público y/o privado a escala local, nacional e internacional. Asimismo, capaces de ofrecer soluciones a problemáticas mercantiles, a través de la investigación en áreas jurídicas y corporativas estratégicas haciendo uso de la tecnología educativa para crear mejores ambientes de enseñanza-aprendizaje en sus contextos pedagógicos, para favorecer la apertura de mercados de bienes y servicios comprometidos con la responsabilidad que tienen las empresas en la sociedad y el desarrollo sustentable.",
+    "description": "Gestiona operaciones aduaneras de importación y exportación, negociando contratos mercantiles internacionales con estricto apego a normativas globales y acuerdos comerciales vigentes.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Comercio Exterior y Contratos Internacionales.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Comercio Exterior y Contratos Internacionales.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Comercio Exterior y Contratos Internacionales.",
@@ -349,7 +371,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/ERMI.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/ERMI V.jpg",
     "posgradoRelacionado": "ERMI",
-    "posgradoRelacionadoNombre": "Especialidad en Relaciones Mercantiles Internacionales"
+    "posgradoRelacionadoNombre": "Especialidad en Relaciones Mercantiles Internacionales",
+    "sluginstitucional": "Formar especialistas en Relaciones Mercantiles Internacionales capaces de negociar en términos legales y económicos contratos mercantiles en los ámbitos público y/o privado a escala local, nacional e internacional. Asimismo, capaces de ofrecer soluciones a problemáticas mercantiles, a través de la investigación en áreas jurídicas y corporativas estratégicas haciendo uso de la tecnología educativa para crear mejores ambientes de enseñanza-aprendizaje en sus contextos pedagógicos, para favorecer la apertura de mercados de bienes y servicios comprometidos con la responsabilidad que tienen las empresas en la sociedad y el desarrollo sustentable.",
+    "descripcionInstitucional": "Formar especialistas en Relaciones Mercantiles Internacionales capaces de negociar en términos legales y económicos contratos mercantiles en los ámbitos público y/o privado a escala local, nacional e internacional. Asimismo, capaces de ofrecer soluciones a problemáticas mercantiles, a través de la investigación en áreas jurídicas y corporativas estratégicas haciendo uso de la tecnología educativa para crear mejores ambientes de enseñanza-aprendizaje en sus contextos pedagógicos, para favorecer la apertura de mercados de bienes y servicios comprometidos con la responsabilidad que tienen las empresas en la sociedad y el desarrollo sustentable."
   },
   "diplomado-en-derecho-aduanero-y-marco-juridico-de-la-competencia-economica": {
     "slug": "diplomado-en-derecho-aduanero-y-marco-juridico-de-la-competencia-economica",
@@ -357,7 +381,7 @@
     "name": "Derecho Aduanero y Marco Jurídico de la Competencia Económica",
     "area": "Gerenciales – Relaciones Mercantiles Internacionales",
     "tagline": "Actualización y especialización en Derecho Aduanero y Marco Jurídico de la Competencia Económica",
-    "description": "Formar especialistas en Relaciones Mercantiles Internacionales capaces de negociar en términos legales y económicos contratos mercantiles en los ámbitos público y/o privado a escala local, nacional e internacional. Asimismo, capaces de ofrecer soluciones a problemáticas mercantiles, a través de la investigación en áreas jurídicas y corporativas estratégicas haciendo uso de la tecnología educativa para crear mejores ambientes de enseñanza-aprendizaje en sus contextos pedagógicos, para favorecer la apertura de mercados de bienes y servicios comprometidos con la responsabilidad que tienen las empresas en la sociedad y el desarrollo sustentable.",
+    "description": "Domina la legislación aduanera y las regulaciones antimonopolio, blindando jurídicamente operaciones transfronterizas y garantizando el cumplimiento normativo en mercados altamente competitivos.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Derecho Aduanero y Marco Jurídico de la Competencia Económica.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Derecho Aduanero y Marco Jurídico de la Competencia Económica.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Derecho Aduanero y Marco Jurídico de la Competencia Económica.",
@@ -373,7 +397,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/ERMI.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/ERMI V.jpg",
     "posgradoRelacionado": "ERMI",
-    "posgradoRelacionadoNombre": "Especialidad en Relaciones Mercantiles Internacionales"
+    "posgradoRelacionadoNombre": "Especialidad en Relaciones Mercantiles Internacionales",
+    "sluginstitucional": "Formar especialistas en Relaciones Mercantiles Internacionales capaces de negociar en términos legales y económicos contratos mercantiles en los ámbitos público y/o privado a escala local, nacional e internacional. Asimismo, capaces de ofrecer soluciones a problemáticas mercantiles, a través de la investigación en áreas jurídicas y corporativas estratégicas haciendo uso de la tecnología educativa para crear mejores ambientes de enseñanza-aprendizaje en sus contextos pedagógicos, para favorecer la apertura de mercados de bienes y servicios comprometidos con la responsabilidad que tienen las empresas en la sociedad y el desarrollo sustentable.",
+    "descripcionInstitucional": "Formar especialistas en Relaciones Mercantiles Internacionales capaces de negociar en términos legales y económicos contratos mercantiles en los ámbitos público y/o privado a escala local, nacional e internacional. Asimismo, capaces de ofrecer soluciones a problemáticas mercantiles, a través de la investigación en áreas jurídicas y corporativas estratégicas haciendo uso de la tecnología educativa para crear mejores ambientes de enseñanza-aprendizaje en sus contextos pedagógicos, para favorecer la apertura de mercados de bienes y servicios comprometidos con la responsabilidad que tienen las empresas en la sociedad y el desarrollo sustentable."
   },
   "diplomado-en-paradigmas-en-la-ensenanza-y-aprendizaje-en-innovacion-educativa": {
     "slug": "diplomado-en-paradigmas-en-la-ensenanza-y-aprendizaje-en-innovacion-educativa",
@@ -381,7 +407,7 @@
     "name": "Paradigmas en la Enseñanza y Aprendizaje en Innovación Educativa",
     "area": "Gerenciales – Educación en Formación Docente",
     "tagline": "Actualización y especialización en Paradigmas en la Enseñanza y Aprendizaje en Innovación Educativa",
-    "description": "Formar profesionistas en el campo de la Educación en Formación Docente capaces de diseñar, implementar, estructurar y fundamentar los principios de planeación y evaluación educativa de los modelos actuales, así como las estrategias innovadoras, para crear situaciones de enseñanza-aprendizaje, a partir de la relación epistemológica y tecnológica, para alcanzar una integración entre los componentes pedagógicos y didácticos en la transformación de la realidad contextual de la práctica docente.",
+    "description": "Transforma la práctica docente incorporando nuevos paradigmas pedagógicos y metodologías activas, potenciando la innovación didáctica y el aprendizaje significativo en la era digital.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Paradigmas en la Enseñanza y Aprendizaje en Innovación Educativa.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Paradigmas en la Enseñanza y Aprendizaje en Innovación Educativa.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Paradigmas en la Enseñanza y Aprendizaje en Innovación Educativa.",
@@ -397,7 +423,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/MEFD.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/MEFD V.jpg",
     "posgradoRelacionado": "MEFD",
-    "posgradoRelacionadoNombre": "Maestría en Educación y Formación Docente"
+    "posgradoRelacionadoNombre": "Maestría en Educación y Formación Docente",
+    "sluginstitucional": "Formar profesionistas en el campo de la Educación en Formación Docente capaces de diseñar, implementar, estructurar y fundamentar los principios de planeación y evaluación educativa de los modelos actuales, así como las estrategias innovadoras, para crear situaciones de enseñanza-aprendizaje, a partir de la relación epistemológica y tecnológica, para alcanzar una integración entre los componentes pedagógicos y didácticos en la transformación de la realidad contextual de la práctica docente.",
+    "descripcionInstitucional": "Formar profesionistas en el campo de la Educación en Formación Docente capaces de diseñar, implementar, estructurar y fundamentar los principios de planeación y evaluación educativa de los modelos actuales, así como las estrategias innovadoras, para crear situaciones de enseñanza-aprendizaje, a partir de la relación epistemológica y tecnológica, para alcanzar una integración entre los componentes pedagógicos y didácticos en la transformación de la realidad contextual de la práctica docente."
   },
   "diplomado-en-elaboracion-y-planeacion-didactica-basado-en-el-modelo-de-competencias": {
     "slug": "diplomado-en-elaboracion-y-planeacion-didactica-basado-en-el-modelo-de-competencias",
@@ -405,7 +433,7 @@
     "name": "Elaboración y Planeación Didáctica basado en el Modelo de Competencias",
     "area": "Gerenciales – Educación en Formación Docente",
     "tagline": "Actualización y especialización en Elaboración y Planeación Didáctica basado en el Modelo de Competencias",
-    "description": "Formar profesionistas en el campo de la Educación en Formación Docente capaces de diseñar, implementar, estructurar y fundamentar los principios de planeación y evaluación educativa de los modelos actuales, así como las estrategias innovadoras, para crear situaciones de enseñanza-aprendizaje, a partir de la relación epistemológica y tecnológica, para alcanzar una integración entre los componentes pedagógicos y didácticos en la transformación de la realidad contextual de la práctica docente.",
+    "description": "Diseña planeaciones didácticas orientadas al desarrollo de competencias profesionales, alineando objetivos de aprendizaje, estrategias de enseñanza y mecanismos de evaluación formativa de vanguardia.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Elaboración y Planeación Didáctica basado en el Modelo de Competencias.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Elaboración y Planeación Didáctica basado en el Modelo de Competencias.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Elaboración y Planeación Didáctica basado en el Modelo de Competencias.",
@@ -421,7 +449,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/MEFD.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/MEFD V.jpg",
     "posgradoRelacionado": "MEFD",
-    "posgradoRelacionadoNombre": "Maestría en Educación y Formación Docente"
+    "posgradoRelacionadoNombre": "Maestría en Educación y Formación Docente",
+    "sluginstitucional": "Formar profesionistas en el campo de la Educación en Formación Docente capaces de diseñar, implementar, estructurar y fundamentar los principios de planeación y evaluación educativa de los modelos actuales, así como las estrategias innovadoras, para crear situaciones de enseñanza-aprendizaje, a partir de la relación epistemológica y tecnológica, para alcanzar una integración entre los componentes pedagógicos y didácticos en la transformación de la realidad contextual de la práctica docente.",
+    "descripcionInstitucional": "Formar profesionistas en el campo de la Educación en Formación Docente capaces de diseñar, implementar, estructurar y fundamentar los principios de planeación y evaluación educativa de los modelos actuales, así como las estrategias innovadoras, para crear situaciones de enseñanza-aprendizaje, a partir de la relación epistemológica y tecnológica, para alcanzar una integración entre los componentes pedagógicos y didácticos en la transformación de la realidad contextual de la práctica docente."
   },
   "diplomado-en-evaluacion-de-los-diversos-modelos-de-gestion-educativo": {
     "slug": "diplomado-en-evaluacion-de-los-diversos-modelos-de-gestion-educativo",
@@ -429,7 +459,7 @@
     "name": "Evaluación de los Diversos Modelos de Gestión Educativo",
     "area": "Gerenciales – Educación en Formación Docente",
     "tagline": "Actualización y especialización en Evaluación de los Diversos Modelos de Gestión Educativo",
-    "description": "Formar profesionistas en el campo de la Educación en Formación Docente capaces de diseñar, implementar, estructurar y fundamentar los principios de planeación y evaluación educativa de los modelos actuales, así como las estrategias innovadoras, para crear situaciones de enseñanza-aprendizaje, a partir de la relación epistemológica y tecnológica, para alcanzar una integración entre los componentes pedagógicos y didácticos en la transformación de la realidad contextual de la práctica docente.",
+    "description": "Evalúa y lidera modelos de gestión institucional, optimizando procesos directivos, administrativos y de calidad académica para elevar el rendimiento y acreditación de centros escolares.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Evaluación de los Diversos Modelos de Gestión Educativo.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Evaluación de los Diversos Modelos de Gestión Educativo.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Evaluación de los Diversos Modelos de Gestión Educativo.",
@@ -445,7 +475,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/MEFD.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/MEFD V.jpg",
     "posgradoRelacionado": "MEFD",
-    "posgradoRelacionadoNombre": "Maestría en Educación y Formación Docente"
+    "posgradoRelacionadoNombre": "Maestría en Educación y Formación Docente",
+    "sluginstitucional": "Formar profesionistas en el campo de la Educación en Formación Docente capaces de diseñar, implementar, estructurar y fundamentar los principios de planeación y evaluación educativa de los modelos actuales, así como las estrategias innovadoras, para crear situaciones de enseñanza-aprendizaje, a partir de la relación epistemológica y tecnológica, para alcanzar una integración entre los componentes pedagógicos y didácticos en la transformación de la realidad contextual de la práctica docente.",
+    "descripcionInstitucional": "Formar profesionistas en el campo de la Educación en Formación Docente capaces de diseñar, implementar, estructurar y fundamentar los principios de planeación y evaluación educativa de los modelos actuales, así como las estrategias innovadoras, para crear situaciones de enseñanza-aprendizaje, a partir de la relación epistemológica y tecnológica, para alcanzar una integración entre los componentes pedagógicos y didácticos en la transformación de la realidad contextual de la práctica docente."
   },
   "diplomado-en-metodologia-y-adquisicion-de-una-segunda-lengua": {
     "slug": "diplomado-en-metodologia-y-adquisicion-de-una-segunda-lengua",
@@ -453,7 +485,7 @@
     "name": "Metodología y Adquisición de una Segunda Lengua",
     "area": "Gerenciales – Enseñanza del Español como Lengua Extranjera",
     "tagline": "Actualización y especialización en Metodología y Adquisición de una Segunda Lengua",
-    "description": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción.",
+    "description": "Aplica principios lingüísticos y metodologías interactivas para facilitar la adquisición natural de una segunda lengua, acelerando la fluidez y competencia comunicativa del alumnado.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Metodología y Adquisición de una Segunda Lengua.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Metodología y Adquisición de una Segunda Lengua.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Metodología y Adquisición de una Segunda Lengua.",
@@ -469,7 +501,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/MEL.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/MEL V.jpg",
     "posgradoRelacionado": "MEL",
-    "posgradoRelacionadoNombre": "Maestría en Enseñanza de Lenguas Extranjeras"
+    "posgradoRelacionadoNombre": "Maestría en Enseñanza de Lenguas Extranjeras",
+    "sluginstitucional": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción.",
+    "descripcionInstitucional": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción."
   },
   "diplomado-en-desarrollo-de-destrezas-linguisticas": {
     "slug": "diplomado-en-desarrollo-de-destrezas-linguisticas",
@@ -477,7 +511,7 @@
     "name": "Desarrollo de Destrezas Lingüísticas",
     "area": "Gerenciales – Enseñanza del Español como Lengua Extranjera",
     "tagline": "Actualización y especialización en Desarrollo de Destrezas Lingüísticas",
-    "description": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción.",
+    "description": "Potencia las habilidades de comprensión auditiva, lectora, expresión oral y escrita en segundas lenguas mediante estrategias didácticas personalizadas y dinámicas de inmersión comunicativa.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Desarrollo de Destrezas Lingüísticas.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Desarrollo de Destrezas Lingüísticas.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Desarrollo de Destrezas Lingüísticas.",
@@ -493,7 +527,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/MEL.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/MEL V.jpg",
     "posgradoRelacionado": "MEL",
-    "posgradoRelacionadoNombre": "Maestría en Enseñanza de Lenguas Extranjeras"
+    "posgradoRelacionadoNombre": "Maestría en Enseñanza de Lenguas Extranjeras",
+    "sluginstitucional": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción.",
+    "descripcionInstitucional": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción."
   },
   "diplomado-en-analisis-del-uso-del-espanol-como-segunda-lengua-para-la-planeacion-de-metodologias-didacticas": {
     "slug": "diplomado-en-analisis-del-uso-del-espanol-como-segunda-lengua-para-la-planeacion-de-metodologias-didacticas",
@@ -501,7 +537,7 @@
     "name": "Análisis del Uso del Español como Segunda Lengua para la Planeación de Metodologías Didácticas",
     "area": "Gerenciales – Enseñanza del Español como Lengua Extranjera",
     "tagline": "Actualización y especialización en Análisis del Uso del Español como Segunda Lengua para la Planeación de Metodologías Didácticas",
-    "description": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción.",
+    "description": "Domina el análisis lingüístico y pedagógico del español como lengua extranjera, diseñando metodologías didácticas que aceleren el dominio gramatical y cultural en estudiantes internacionales.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Análisis del Uso del Español como Segunda Lengua para la Planeación de Metodologías Didácticas.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Análisis del Uso del Español como Segunda Lengua para la Planeación de Metodologías Didácticas.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Análisis del Uso del Español como Segunda Lengua para la Planeación de Metodologías Didácticas.",
@@ -517,7 +553,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/MEL.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/MEL V.jpg",
     "posgradoRelacionado": "MEL",
-    "posgradoRelacionadoNombre": "Maestría en Enseñanza de Lenguas Extranjeras"
+    "posgradoRelacionadoNombre": "Maestría en Enseñanza de Lenguas Extranjeras",
+    "sluginstitucional": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción.",
+    "descripcionInstitucional": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción."
   },
   "diplomado-en-elaboracion-de-programas-de-estudio-para-espanol-e-ingles-como-segunda-lengua": {
     "slug": "diplomado-en-elaboracion-de-programas-de-estudio-para-espanol-e-ingles-como-segunda-lengua",
@@ -525,7 +563,7 @@
     "name": "Elaboración de Programas de Estudio para Español e Inglés como Segunda Lengua",
     "area": "Gerenciales – Enseñanza del Español como Lengua Extranjera",
     "tagline": "Actualización y especialización en Elaboración de Programas de Estudio para Español e Inglés como Segunda Lengua",
-    "description": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción.",
+    "description": "Diseña planes de estudio y programas curriculares bilingües de alto rigor didáctico, respondiendo a estándares internacionales de certificación en la enseñanza del español e inglés.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Elaboración de Programas de Estudio para Español e Inglés como Segunda Lengua.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Elaboración de Programas de Estudio para Español e Inglés como Segunda Lengua.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Elaboración de Programas de Estudio para Español e Inglés como Segunda Lengua.",
@@ -541,7 +579,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/MEL.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/MEL V.jpg",
     "posgradoRelacionado": "MEL",
-    "posgradoRelacionadoNombre": "Maestría en Enseñanza de Lenguas Extranjeras"
+    "posgradoRelacionadoNombre": "Maestría en Enseñanza de Lenguas Extranjeras",
+    "sluginstitucional": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción.",
+    "descripcionInstitucional": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción."
   },
   "diplomado-en-tecnologias-de-la-informacion-y-comunicacion-aplicadas-a-la-pedagogia": {
     "slug": "diplomado-en-tecnologias-de-la-informacion-y-comunicacion-aplicadas-a-la-pedagogia",
@@ -549,7 +589,7 @@
     "name": "Tecnologías de la Información y Comunicación aplicadas a la Pedagogía",
     "area": "Gerenciales – Docencia del Español como Lengua Extranjera",
     "tagline": "Actualización y especialización en Tecnologías de la Información y Comunicación aplicadas a la Pedagogía",
-    "description": "Formar especialistas con un alto dominio de la didáctica aplicada a la enseñanza del español como lengua extranjera, desarrollar conocimientos sólidos sobre sistemas de evaluación e implementación de programas de español haciendo énfasis en la evaluación de materiales, así como de la práctica docente.",
+    "description": "Integra entornos virtuales, recursos interactivos y plataformas LMS en la docencia moderna, enriqueciendo los procesos de enseñanza-aprendizaje con herramientas digitales innovadoras.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Tecnologías de la Información y Comunicación aplicadas a la Pedagogía.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Tecnologías de la Información y Comunicación aplicadas a la Pedagogía.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Tecnologías de la Información y Comunicación aplicadas a la Pedagogía.",
@@ -565,7 +605,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/EDELE.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/EDELE V.jpg",
     "posgradoRelacionado": "EDELE",
-    "posgradoRelacionadoNombre": "Especialidad en Docencia del Español como Lengua Extranjera"
+    "posgradoRelacionadoNombre": "Especialidad en Docencia del Español como Lengua Extranjera",
+    "sluginstitucional": "Formar especialistas con un alto dominio de la didáctica aplicada a la enseñanza del español como lengua extranjera, desarrollar conocimientos sólidos sobre sistemas de evaluación e implementación de programas de español haciendo énfasis en la evaluación de materiales, así como de la práctica docente.",
+    "descripcionInstitucional": "Formar especialistas con un alto dominio de la didáctica aplicada a la enseñanza del español como lengua extranjera, desarrollar conocimientos sólidos sobre sistemas de evaluación e implementación de programas de español haciendo énfasis en la evaluación de materiales, así como de la práctica docente."
   },
   "diplomado-en-diseno-de-interiores": {
     "slug": "diplomado-en-diseno-de-interiores",
@@ -573,7 +615,7 @@
     "name": "Diseño de Interiores",
     "area": "Diseño y Arte",
     "tagline": "Actualización y especialización en Diseño de Interiores",
-    "description": "Generar habilidades metodológicas, técnicas y del pensamiento; a través de la adaptación de entornos, para formar especialistas en la creación y transformación de espacios útiles, funcionales y armónicos.",
+    "description": "Transforma espacios residenciales y comerciales integrando ergonomía, iluminación, materiales sostenibles y tendencias de vanguardia para crear experiencias ambientales funcionales y estéticas.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Diseño de Interiores.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Diseño de Interiores.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Diseño de Interiores.",
@@ -598,7 +640,9 @@
     "imageHorizontal": "/images/diplomados/WebHorizontal/Diseño de Interiores.jpg",
     "imageVertical": "/images/diplomados/WebVertical/Interiores vertical.jpg",
     "posgradoRelacionado": null,
-    "posgradoRelacionadoNombre": null
+    "posgradoRelacionadoNombre": null,
+    "sluginstitucional": "Generar habilidades metodológicas, técnicas y del pensamiento; a través de la adaptación de entornos, para formar especialistas en la creación y transformación de espacios útiles, funcionales y armónicos.",
+    "descripcionInstitucional": "Generar habilidades metodológicas, técnicas y del pensamiento; a través de la adaptación de entornos, para formar especialistas en la creación y transformación de espacios útiles, funcionales y armónicos."
   },
   "diplomado-en-fotografia": {
     "slug": "diplomado-en-fotografia",
@@ -606,7 +650,7 @@
     "name": "Fotografía",
     "area": "Diseño y Arte",
     "tagline": "Actualización y especialización en Fotografía",
-    "description": "Desarrollar las habilidades técnicas y comunicativas que se requieren para el correcto manejo de una cámara profesional de 35mm a través de la identificación de sus elementos, uso de materiales y equipo, reconocimiento de características fotográficas, así como del análisis de las condiciones de luz y otros aspectos que construyen una buena imagen, logrando así diversos resultados fotográficos mediante distintos métodos de trabajo y la aplicación de la fotografía en sus distintas áreas de trabajo.",
+    "description": "Domina el lenguaje visual, la iluminación profesional y la postproducción digital en fotografía comercial, editorial y artística, construyendo un portafolio de nivel competitivo internacional.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Fotografía.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Fotografía.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Fotografía.",
@@ -650,7 +694,9 @@
     "imageHorizontal": "/images/diplomados/WebHorizontal/foto.jpg",
     "imageVertical": "/images/diplomados/WebVertical/foto vertical.jpg",
     "posgradoRelacionado": null,
-    "posgradoRelacionadoNombre": null
+    "posgradoRelacionadoNombre": null,
+    "sluginstitucional": "Desarrollar las habilidades técnicas y comunicativas que se requieren para el correcto manejo de una cámara profesional de 35mm a través de la identificación de sus elementos, uso de materiales y equipo, reconocimiento de características fotográficas, así como del análisis de las condiciones de luz y otros aspectos que construyen una buena imagen, logrando así diversos resultados fotográficos mediante distintos métodos de trabajo y la aplicación de la fotografía en sus distintas áreas de trabajo.",
+    "descripcionInstitucional": "Desarrollar las habilidades técnicas y comunicativas que se requieren para el correcto manejo de una cámara profesional de 35mm a través de la identificación de sus elementos, uso de materiales y equipo, reconocimiento de características fotográficas, así como del análisis de las condiciones de luz y otros aspectos que construyen una buena imagen, logrando así diversos resultados fotográficos mediante distintos métodos de trabajo y la aplicación de la fotografía en sus distintas áreas de trabajo."
   },
   "diplomado-en-diseno-de-modas-con-enfoque-en-desarrollo-de-colecciones": {
     "slug": "diplomado-en-diseno-de-modas-con-enfoque-en-desarrollo-de-colecciones",
@@ -658,7 +704,7 @@
     "name": "Diseño de Modas con Enfoque en Desarrollo de Colecciones",
     "area": "Diseño y Arte",
     "tagline": "Actualización y especialización en Diseño de Modas con Enfoque en Desarrollo de Colecciones",
-    "description": "Desarrollar habilidades en diseño de modas y creación de colecciones, abarcando todo el proceso productivo, desde el análisis de tendencias internacionales hasta la conceptualización de ideas a través de técnicas de ilustración, corte y confección; para lograr documentar el proceso en un portafolio profesional aplicando estrategias de comunicación efectivas para crear colecciones funcionales que respondan a las necesidades de las personas.",
+    "description": "Desarrolla colecciones de moda completas desde la investigación de tendencias y patronaje hasta la producción y branding, respondiendo con éxito a las demandas del mercado textil.",
     "ingreso": "Pasión por la moda y el diseño. Deseo de dar vida a ideas a través de la interpretación de tendencias. Dominio del proceso creativo. Habilidades en investigación de tendencias. Capacidad de trabajo en equipo. Aptitud para la presentación visual de colecciones. Creatividad y pensamiento innovador. Habilidades de comunicación efectiva.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Diseño de Modas con Enfoque en Desarrollo de Colecciones.",
     "egreso": "Diseñar y desarrollar colecciones de moda completas y funcionales. Interpretar tendencias internacionales y aplicarlas en propuestas creativas. Ilustrar figurines con técnicas tradicionales y digitales. Crear patrones a medida y confeccionar prendas con acabados profesionales. Aplicar bordados, estampados y técnicas textiles innovadoras. Desarrollar estrategias de branding y comunicación visual para sus colecciones. Asesorar en imagen personal, estilo y fashion styling. Elaborar un portafolio profesional competitivo para el mercado laboral. Gestionar proyectos de moda desde su conceptualización hasta su presentación final. Emprender su propia marca o integrarse a la industria del diseño con una visión integral.",
@@ -692,7 +738,9 @@
     "imageHorizontal": "/images/diplomados/WebHorizontal/Diseño de Modas con Enfoque en Desarrollo de Colecciones.jpg",
     "imageVertical": "/images/diplomados/WebVertical/Diseño vertical.jpg",
     "posgradoRelacionado": null,
-    "posgradoRelacionadoNombre": null
+    "posgradoRelacionadoNombre": null,
+    "sluginstitucional": "Desarrollar habilidades en diseño de modas y creación de colecciones, abarcando todo el proceso productivo, desde el análisis de tendencias internacionales hasta la conceptualización de ideas a través de técnicas de ilustración, corte y confección; para lograr documentar el proceso en un portafolio profesional aplicando estrategias de comunicación efectivas para crear colecciones funcionales que respondan a las necesidades de las personas.",
+    "descripcionInstitucional": "Desarrollar habilidades en diseño de modas y creación de colecciones, abarcando todo el proceso productivo, desde el análisis de tendencias internacionales hasta la conceptualización de ideas a través de técnicas de ilustración, corte y confección; para lograr documentar el proceso en un portafolio profesional aplicando estrategias de comunicación efectivas para crear colecciones funcionales que respondan a las necesidades de las personas."
   },
   "diplomado-en-administracion-de-obra-i": {
     "slug": "diplomado-en-administracion-de-obra-i",
@@ -700,7 +748,7 @@
     "name": "Administración de Obra I",
     "area": "Arquitectura y Construcción",
     "tagline": "Actualización y especialización en Administración de Obra I",
-    "description": "Formar especialistas de manera integral, que cuenten con el conocimiento administrativo y técnico suficiente, para desempeñarse de manera competitiva y eficaz en el ámbito de la construcción, con capacidades demostradas para la planeación, programación y control de todos los procesos que demanda un proyecto de edificación.",
+    "description": "Especialízate en la planeación técnica, presupuestación y control operativo de proyectos de construcción, garantizando eficiencia de recursos y cumplimiento de plazos en obra.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Administración de Obra I.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Administración de Obra I.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Administración de Obra I.",
@@ -716,7 +764,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/EAO copia.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/EAO V.jpg",
     "posgradoRelacionado": "EA0",
-    "posgradoRelacionadoNombre": "Especialidad en Administración de Obra"
+    "posgradoRelacionadoNombre": "Especialidad en Administración de Obra",
+    "sluginstitucional": "Formar especialistas de manera integral, que cuenten con el conocimiento administrativo y técnico suficiente, para desempeñarse de manera competitiva y eficaz en el ámbito de la construcción, con capacidades demostradas para la planeación, programación y control de todos los procesos que demanda un proyecto de edificación.",
+    "descripcionInstitucional": "Formar especialistas de manera integral, que cuenten con el conocimiento administrativo y técnico suficiente, para desempeñarse de manera competitiva y eficaz en el ámbito de la construcción, con capacidades demostradas para la planeación, programación y control de todos los procesos que demanda un proyecto de edificación."
   },
   "diplomado-en-administracion-de-obra-ii": {
     "slug": "diplomado-en-administracion-de-obra-ii",
@@ -724,7 +774,7 @@
     "name": "Administración de Obra II",
     "area": "Arquitectura y Construcción",
     "tagline": "Actualización y especialización en Administración de Obra II",
-    "description": "Formar especialistas de manera integral, que cuenten con el conocimiento administrativo y técnico suficiente, para desempeñarse de manera competitiva y eficaz en el ámbito de la construcción, con capacidades demostradas para la planeación, programación y control de todos los procesos que demanda un proyecto de edificación.",
+    "description": "Perfecciona la supervisión contractual, control de calidad y gestión financiera avanzada en obras de gran escala, aplicando normativas de seguridad y mejores prácticas constructivas.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Administración de Obra II.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Administración de Obra II.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Administración de Obra II.",
@@ -740,7 +790,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/EAO copia.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/EAO V.jpg",
     "posgradoRelacionado": "EA0",
-    "posgradoRelacionadoNombre": "Especialidad en Administración de Obra"
+    "posgradoRelacionadoNombre": "Especialidad en Administración de Obra",
+    "sluginstitucional": "Formar especialistas de manera integral, que cuenten con el conocimiento administrativo y técnico suficiente, para desempeñarse de manera competitiva y eficaz en el ámbito de la construcción, con capacidades demostradas para la planeación, programación y control de todos los procesos que demanda un proyecto de edificación.",
+    "descripcionInstitucional": "Formar especialistas de manera integral, que cuenten con el conocimiento administrativo y técnico suficiente, para desempeñarse de manera competitiva y eficaz en el ámbito de la construcción, con capacidades demostradas para la planeación, programación y control de todos los procesos que demanda un proyecto de edificación."
   },
   "diplomado-en-gestion-empresarial": {
     "slug": "diplomado-en-gestion-empresarial",
@@ -748,7 +800,7 @@
     "name": "Gestión Empresarial",
     "area": "Administrativos",
     "tagline": "Actualización y especialización en Gestión Empresarial",
-    "description": "UNINTER te ofrece un ambiente multicultural donde podrás interactuar con estudiantes de otras nacionalidades. Por otro lado en sus diplomados encontrarás compañeros y profesores con perfiles académicos que podrán enriquecer tu experiencia.",
+    "description": "Desarrolla competencias directivas para optimizar procesos comerciales, liderar equipos multidisciplinarios y formular estrategias de negocio que impulsen la rentabilidad y sostenibilidad corporativa.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Gestión Empresarial.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Gestión Empresarial.",
     "egreso": "El egresado del Diplomado en Gestión Empresarial estará preparado para asumir roles de responsabilidad en diversas áreas de la empresa, aportando con sus conocimientos y habilidades en la toma de decisiones estratégicas, la optimización de procesos, y la implementación de estrategias que contribuyan al crecimiento y sostenibilidad de la organización en un contexto global.",
@@ -770,7 +822,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/MADE.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/MADE V.jpg",
     "posgradoRelacionado": "MADE",
-    "posgradoRelacionadoNombre": "Maestría en Administración y Dirección de Empresas"
+    "posgradoRelacionadoNombre": "Maestría en Administración y Dirección de Empresas",
+    "sluginstitucional": "UNINTER te ofrece un ambiente multicultural donde podrás interactuar con estudiantes de otras nacionalidades. Por otro lado en sus diplomados encontrarás compañeros y profesores con perfiles académicos que podrán enriquecer tu experiencia.",
+    "descripcionInstitucional": "UNINTER te ofrece un ambiente multicultural donde podrás interactuar con estudiantes de otras nacionalidades. Por otro lado en sus diplomados encontrarás compañeros y profesores con perfiles académicos que podrán enriquecer tu experiencia."
   },
   "diplomado-en-direccion-de-empresas": {
     "slug": "diplomado-en-direccion-de-empresas",
@@ -778,7 +832,7 @@
     "name": "Dirección de Empresas",
     "area": "Administrativos",
     "tagline": "Actualización y especialización en Dirección de Empresas",
-    "description": "UNINTER te ofrece un ambiente multicultural donde podrás interactuar con estudiantes de otras nacionalidades. Por otro lado en sus diplomados encontrarás compañeros y profesores con perfiles académicos que podrán enriquecer tu experiencia",
+    "description": "Fortalece tu liderazgo ejecutivo y visión estratégica global para tomar decisiones asertivas de alta dirección, resolver crisis organizacionales y expandir modelos de negocio exitosos.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Dirección de Empresas.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Dirección de Empresas.",
     "egreso": "El egresado del Diplomado en Dirección Empresarial estará preparado para asumir roles de liderazgo y responsabilidad en diversas áreas de la empresa, aportando sus conocimientos y habilidades en la toma de decisiones estratégicas, la creación de planes de negocios internacionales, y la implementación de estrategias de responsabilidad social que contribuyan al crecimiento y sostenibilidad de la organización en un contexto global.",
@@ -800,7 +854,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/MADE.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/MADE V.jpg",
     "posgradoRelacionado": "MADE",
-    "posgradoRelacionadoNombre": "Maestría en Administración y Dirección de Empresas"
+    "posgradoRelacionadoNombre": "Maestría en Administración y Dirección de Empresas",
+    "sluginstitucional": "UNINTER te ofrece un ambiente multicultural donde podrás interactuar con estudiantes de otras nacionalidades. Por otro lado en sus diplomados encontrarás compañeros y profesores con perfiles académicos que podrán enriquecer tu experiencia",
+    "descripcionInstitucional": "UNINTER te ofrece un ambiente multicultural donde podrás interactuar con estudiantes de otras nacionalidades. Por otro lado en sus diplomados encontrarás compañeros y profesores con perfiles académicos que podrán enriquecer tu experiencia"
   },
   "diplomado-en-marketing-digital-estrategico-y-creativo": {
     "slug": "diplomado-en-marketing-digital-estrategico-y-creativo",
@@ -808,7 +864,7 @@
     "name": "Marketing Digital Estratégico y Creativo",
     "area": "Gerenciales – Marketing Digital",
     "tagline": "Actualización y especialización en Marketing Digital y Creativo",
-    "description": "Desarrollarás una visión estratégica y creativa del marketing digital, que te permitirá analizar métricas, diseñar campañas innovadoras, optimizar la presencia de marca en buscadores y redes sociales, así como aplicar principios de diseño y comunicación visual para crear contenidos de alto impacto. Al concluir, contarás con las herramientas necesarias para implementar estrategias integrales que fortalezcan tu posicionamiento digital y generen resultados medibles en entornos altamente competitivos.",
+    "description": "Diseña campañas integrales de marketing digital, combinando creatividad publicitaria, analítica web y pauta publicitaria para maximizar el retorno de inversión y posicionamiento de marca.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Marketing Digital y Creativo.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Marketing Digital y Creativo.",
     "egreso": "Capacidad de análisis, diseño, desarrollo y ejecución de campañas efectivas de marketing digital, gestión de la presencia en redes sociales, implementación estrategias de marketing integradas.",
@@ -830,7 +886,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/EMD.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/EMD V.jpg",
     "posgradoRelacionado": "EMD",
-    "posgradoRelacionadoNombre": "Especialidad en Marketing Digital"
+    "posgradoRelacionadoNombre": "Especialidad en Marketing Digital",
+    "sluginstitucional": "Desarrollarás una visión estratégica y creativa del marketing digital, que te permitirá analizar métricas, diseñar campañas innovadoras, optimizar la presencia de marca en buscadores y redes sociales, así como aplicar principios de diseño y comunicación visual para crear contenidos de alto impacto. Al concluir, contarás con las herramientas necesarias para implementar estrategias integrales que fortalezcan tu posicionamiento digital y generen resultados medibles en entornos altamente competitivos.",
+    "descripcionInstitucional": "Desarrollarás una visión estratégica y creativa del marketing digital, que te permitirá analizar métricas, diseñar campañas innovadoras, optimizar la presencia de marca en buscadores y redes sociales, así como aplicar principios de diseño y comunicación visual para crear contenidos de alto impacto. Al concluir, contarás con las herramientas necesarias para implementar estrategias integrales que fortalezcan tu posicionamiento digital y generen resultados medibles en entornos altamente competitivos."
   },
   "diplomado-en-modelos-de-ensenanza-y-evaluacion-de-programas": {
     "slug": "diplomado-en-modelos-de-ensenanza-y-evaluacion-de-programas",
@@ -838,7 +896,7 @@
     "name": "Modelos de Enseñanza y Evaluación de Programas",
     "area": "Gerenciales – Educación en Formación Docente",
     "tagline": "Actualización y especialización en Modelos de Enseñanza y Evaluación de Programas Educativos Siglo XXI",
-    "description": "Formar profesionistas en el campo de la Educación en Formación Docente capaces de diseñar, implementar, estructurar y fundamentar los principios de planeación y evaluación educativa de los modelos actuales, así como las estrategias innovadoras, para crear situaciones de enseñanza-aprendizaje, a partir de la relación epistemológica y tecnológica, para alcanzar una integración entre los componentes pedagógicos y didácticos en la transformación de la realidad contextual de la práctica docente.",
+    "description": "Diseña e implementa esquemas de evaluación curricular y modelos pedagógicos modernos, fortaleciendo la calidad formativa y la efectividad docente en instituciones educativas de todos los niveles.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Modelos de Enseñanza y Evaluación de Programas Educativos Siglo XXI.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Modelos de Enseñanza y Evaluación de Programas Educativos Siglo XXI.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Modelos de Enseñanza y Evaluación de Programas Educativos Siglo XXI.",
@@ -854,7 +912,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/MEFD.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/MEFD V.jpg",
     "posgradoRelacionado": "MEFD",
-    "posgradoRelacionadoNombre": "Maestría en Educación y Formación Docente"
+    "posgradoRelacionadoNombre": "Maestría en Educación y Formación Docente",
+    "sluginstitucional": "Formar profesionistas en el campo de la Educación en Formación Docente capaces de diseñar, implementar, estructurar y fundamentar los principios de planeación y evaluación educativa de los modelos actuales, así como las estrategias innovadoras, para crear situaciones de enseñanza-aprendizaje, a partir de la relación epistemológica y tecnológica, para alcanzar una integración entre los componentes pedagógicos y didácticos en la transformación de la realidad contextual de la práctica docente.",
+    "descripcionInstitucional": "Formar profesionistas en el campo de la Educación en Formación Docente capaces de diseñar, implementar, estructurar y fundamentar los principios de planeación y evaluación educativa de los modelos actuales, así como las estrategias innovadoras, para crear situaciones de enseñanza-aprendizaje, a partir de la relación epistemológica y tecnológica, para alcanzar una integración entre los componentes pedagógicos y didácticos en la transformación de la realidad contextual de la práctica docente."
   },
   "diplomado-en-estrategias-didacticas-y-metodos-de-ensenanza": {
     "slug": "diplomado-en-estrategias-didacticas-y-metodos-de-ensenanza",
@@ -862,7 +922,7 @@
     "name": "Estrategias Didácticas y Métodos de Enseñanza",
     "area": "Gerenciales – Docencia del Español como Lengua Extranjera",
     "tagline": "Actualización y especialización en Estrategias Didácticas y Métodos de Enseñanza de una L2",
-    "description": "Formar especialistas con un alto dominio de la didáctica aplicada a la enseñanza del español como lengua extranjera, desarrollar conocimientos sólidos sobre sistemas de evaluación e implementación de programas de español haciendo énfasis en la evaluación de materiales, así como de la práctica docente.",
+    "description": "Aplica metodologías docentes interactivas y técnicas didácticas de vanguardia para diseñar experiencias de clase motivadoras, dinámicas y orientadas al aprendizaje profundo y colaborativo.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Estrategias Didácticas y Métodos de Enseñanza de una L2.",
     "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Estrategias Didácticas y Métodos de Enseñanza de una L2.",
     "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Estrategias Didácticas y Métodos de Enseñanza de una L2.",
@@ -878,7 +938,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/EDELE.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/EDELE V.jpg",
     "posgradoRelacionado": "EDELE",
-    "posgradoRelacionadoNombre": "Especialidad en Docencia del Español como Lengua Extranjera"
+    "posgradoRelacionadoNombre": "Especialidad en Docencia del Español como Lengua Extranjera",
+    "sluginstitucional": "Formar especialistas con un alto dominio de la didáctica aplicada a la enseñanza del español como lengua extranjera, desarrollar conocimientos sólidos sobre sistemas de evaluación e implementación de programas de español haciendo énfasis en la evaluación de materiales, así como de la práctica docente.",
+    "descripcionInstitucional": "Formar especialistas con un alto dominio de la didáctica aplicada a la enseñanza del español como lengua extranjera, desarrollar conocimientos sólidos sobre sistemas de evaluación e implementación de programas de español haciendo énfasis en la evaluación de materiales, así como de la práctica docente."
   },
   "diplomado-en-formacion-para-cronistas": {
     "slug": "diplomado-en-formacion-para-cronistas",
@@ -886,7 +948,7 @@
     "name": "Formación para Cronistas",
     "area": "Educación e Investigación",
     "tagline": "Enriquece Tu desarrollo personal",
-    "description": "El objetivo de este diplomado está dirigido a la formación de profesionales comprometidos con la narración y preservación del patrimonio cultural, local, regional y nacional, a través de la crónica y el periodismo histórico, promocionando los estudios interculturales, geográficos, históricos y de la antropología, entre otros más.",
+    "description": "Adquiere herramientas de investigación histórica, narrativa periodística y rescate patrimonial para documentar, preservar y divulgar la memoria colectiva e identidad cultural de las comunidades.",
     "ingreso": "Interés general en la historia de México e historia universal y regional. Buen dominio de la lengua y destreza en el manejo del lenguaje y de la expresión oral y escrita. Aptitudes para la búsqueda de información, así como para el análisis de datos. Curiosidad para la investigación. Hábitos de estudio y capacidad de trabajo individual y en equipo. Valores tales como: constancia y puntualidad, honradez y honestidad, tolerancia y respeto, compromiso con la historia de su ciudad y con la sociedad. Tener una actitud de apertura hacia los nuevos conocimientos.",
     "perfilEgreso": "Haber acreditado las asignaturas correspondientes al plan de estudios del diplomado, es decir, cubrir el 100% de los créditos. Tener 8.0 como promedio mínimo del total de cursos del plan de estudios.",
     "egreso": "Haber acreditado las asignaturas correspondientes al plan de estudios del diplomado, es decir, cubrir el 100% de los créditos. Tener 8.0 como promedio mínimo del total de cursos del plan de estudios y haber obtenido la calificación de 7.0 en un máximo de tres asignaturas.",
@@ -905,7 +967,9 @@
     "imageHorizontal": "/images/diplomados/WebHorizontal/cronista.jpg",
     "imageVertical": "/images/diplomados/WebVertical/cronista vertical.jpg",
     "posgradoRelacionado": null,
-    "posgradoRelacionadoNombre": null
+    "posgradoRelacionadoNombre": null,
+    "sluginstitucional": "El objetivo de este diplomado está dirigido a la formación de profesionales comprometidos con la narración y preservación del patrimonio cultural, local, regional y nacional, a través de la crónica y el periodismo histórico, promocionando los estudios interculturales, geográficos, históricos y de la antropología, entre otros más.",
+    "descripcionInstitucional": "El objetivo de este diplomado está dirigido a la formación de profesionales comprometidos con la narración y preservación del patrimonio cultural, local, regional y nacional, a través de la crónica y el periodismo histórico, promocionando los estudios interculturales, geográficos, históricos y de la antropología, entre otros más."
   },
   "diplomado-en-gestion-empresarial-en-linea": {
     "slug": "diplomado-en-gestion-empresarial-en-linea",
@@ -913,7 +977,7 @@
     "name": "Gestión Empresarial en Línea",
     "area": "Administrativos",
     "tagline": "Enriquece Tu desarrollo personal",
-    "description": "UNINTER te ofrece un ambiente multicultural donde podrás interactuar con estudiantes de otras nacionalidades. Por otro lado en sus diplomados encontrarás compañeros y profesores con perfiles académicos que podrán enriquecer tu experiencia.",
+    "description": "Adquiere habilidades gerenciales clave para optimizar recursos, dirigir operaciones y formular estrategias de crecimiento empresarial con total flexibilidad a través de nuestra plataforma virtual.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Gestión Empresarial.",
     "perfilEgreso": "El egresado del Diplomado en Gestión Empresarial estará preparado para asumir roles de responsabilidad en diversas áreas de la empresa, aportando con sus conocimientos y habilidades en la toma de decisiones estratégicas, la optimización de procesos y la competitividad empresarial.",
     "egreso": "El egresado del Diplomado en Gestión Empresarial estará preparado para asumir roles de responsabilidad en diversas áreas de la empresa, aportando con sus conocimientos y habilidades en la toma de decisiones estratégicas, la optimización de procesos, y la implementación de estrategias que contribuyan al crecimiento y sostenibilidad de la organización en un contexto global.",
@@ -935,7 +999,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/MADEL.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/MADEL V.jpg",
     "posgradoRelacionado": "MADEL",
-    "posgradoRelacionadoNombre": "Maestría en Administración y Dirección de Empresas (en línea)"
+    "posgradoRelacionadoNombre": "Maestría en Administración y Dirección de Empresas (en línea)",
+    "sluginstitucional": "UNINTER te ofrece un ambiente multicultural donde podrás interactuar con estudiantes de otras nacionalidades. Por otro lado en sus diplomados encontrarás compañeros y profesores con perfiles académicos que podrán enriquecer tu experiencia.",
+    "descripcionInstitucional": "UNINTER te ofrece un ambiente multicultural donde podrás interactuar con estudiantes de otras nacionalidades. Por otro lado en sus diplomados encontrarás compañeros y profesores con perfiles académicos que podrán enriquecer tu experiencia."
   },
   "diplomado-en-direccion-de-empresas-en-linea": {
     "slug": "diplomado-en-direccion-de-empresas-en-linea",
@@ -943,7 +1009,7 @@
     "name": "Dirección de Empresas en Línea",
     "area": "Administrativos",
     "tagline": "Enriquece Tu desarrollo personal",
-    "description": "UNINTER te ofrece un ambiente multicultural donde podrás interactuar con estudiantes de otras nacionalidades. Por otro lado en sus diplomados encontrarás compañeros y profesores con perfiles académicos que podrán enriquecer tu experiencia",
+    "description": "Desarrolla capacidades ejecutivas de alta dirección, finanzas corporativas y gobierno organizacional en modalidad online, preparándote para liderar compañías hacia el éxito en mercados globales.",
     "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Dirección de Empresas.",
     "perfilEgreso": "El egresado estará preparado para asumir roles de liderazgo directivo en diversas áreas, aportando en decisiones estratégicas de sustentabilidad, planeación a largo plazo y competitividad global.",
     "egreso": "El egresado del Diplomado en Dirección Empresarial estará preparado para asumir roles de liderazgo y responsabilidad en diversas áreas de la empresa, aportando sus conocimientos y habilidades en la toma de decisiones estratégicas, la creación de planes de negocios internacionales, y la implementación de estrategias de responsabilidad social que contribuyan al crecimiento y sostenibilidad de la organización en un contexto global.",
@@ -965,7 +1031,9 @@
     "imageHorizontal": "/images/posgrados/Web Horizontal/MADEL.jpg",
     "imageVertical": "/images/posgrados/Web Vertical/MADEL V.jpg",
     "posgradoRelacionado": "MADEL",
-    "posgradoRelacionadoNombre": "Maestría en Administración y Dirección de Empresas (en línea)"
+    "posgradoRelacionadoNombre": "Maestría en Administración y Dirección de Empresas (en línea)",
+    "sluginstitucional": "UNINTER te ofrece un ambiente multicultural donde podrás interactuar con estudiantes de otras nacionalidades. Por otro lado en sus diplomados encontrarás compañeros y profesores con perfiles académicos que podrán enriquecer tu experiencia",
+    "descripcionInstitucional": "UNINTER te ofrece un ambiente multicultural donde podrás interactuar con estudiantes de otras nacionalidades. Por otro lado en sus diplomados encontrarás compañeros y profesores con perfiles académicos que podrán enriquecer tu experiencia"
   },
   "diplomado-en-diseno-y-desarrollo-de-proyectos-academicos-de-investigacion": {
     "slug": "diplomado-en-diseno-y-desarrollo-de-proyectos-academicos-de-investigacion",
@@ -973,7 +1041,7 @@
     "name": "Diseño y Desarrollo de Proyectos Académicos de Investigación",
     "area": "Educación e Investigación",
     "tagline": "Enriquece Tu desarrollo personal",
-    "description": "Desarrollar un proyecto de investigación en las diferentes áreas disciplinarias que contemplen los elementos teóricos y metodológicos establecidos por la División de Posgrado e Investigación para la obtención del título.",
+    "description": "Estructura protocolos de investigación científica rigurosos, dominando metodologías cuantitativas y cualitativas para publicar hallazgos y acceder a fondos de financiamiento académico.",
     "ingreso": "Dirigido a egresados de licenciaturas, especialidades y maestrías de la Universidad Internacional (UNINTER). Requiere capacidad de razonamiento lógico, análisis, síntesis, comprensión de lectura y redacción formal.",
     "perfilEgreso": "Tendrá una base significativa de formación metodológica para la investigación científica, poseerá una actitud crítica y de autocrítica frente a problemas de estudio y estará capacitado para defender su protocolo final.",
     "egreso": "Tendrá una base significativa de formación metodológica. Habrá desarrollado interés por la investigación. Poseerá una actitud crítica y de autocrítica.",
@@ -995,7 +1063,9 @@
     "imageHorizontal": "/images/diplomados/WebHorizontal/Diseño y Desarrollo de Proyectos Académicos de Investigación.jpg",
     "imageVertical": "/images/diplomados/WebVertical/Desarrollo vertical.jpg",
     "posgradoRelacionado": null,
-    "posgradoRelacionadoNombre": null
+    "posgradoRelacionadoNombre": null,
+    "sluginstitucional": "Desarrollar un proyecto de investigación en las diferentes áreas disciplinarias que contemplen los elementos teóricos y metodológicos establecidos por la División de Posgrado e Investigación para la obtención del título.",
+    "descripcionInstitucional": "Desarrollar un proyecto de investigación en las diferentes áreas disciplinarias que contemplen los elementos teóricos y metodológicos establecidos por la División de Posgrado e Investigación para la obtención del título."
   },
   "diplomado-en-ingles": {
     "slug": "diplomado-en-ingles",
@@ -1003,7 +1073,7 @@
     "name": "Inglés",
     "area": "Idiomas",
     "tagline": "Enriquece Tu desarrollo personal",
-    "description": "Desarrollar las cuatro habilidades lingüísticas y comunicativas de los estudiantes con la finalidad de aplicar sus conocimientos en un ambiente profesional, académico o personal para el dominio del idioma inglés como lengua extranjera a través de una práctica dinámica y efectiva.",
+    "description": "Desarrolla fluidez conversacional y precisión gramatical en el idioma inglés mediante prácticas situacionales inmersivas, facilitando tu desempeño en ámbitos académicos, profesionales y personales.",
     "ingreso": "Estudiantes que no tienen bases de inglés a estudiantes con base sólida del idioma.",
     "perfilEgreso": "Haber desarrollado fluidez y corrección en el habla, capacidad de escribir textos descriptivos e informales, comprensión de audios en velocidad normal y lectura fluida del idioma en contextos cotidianos.",
     "egreso": "Alcanzar desde un nivel intermedio comunicativo (A2-B1) hasta pulir y perfeccionar competencias orales y escritas para un manejo más fluido y preciso mediante talleres especializados centrados en la producción del idioma, vocabulario especializado y uso avanzado de estructuras gramaticales.",
@@ -1043,7 +1113,9 @@
     "imageHorizontal": "/images/diplomados/WebHorizontal/d ingles.jpg",
     "imageVertical": "/images/diplomados/WebVertical/d ingles vertical.jpg",
     "posgradoRelacionado": null,
-    "posgradoRelacionadoNombre": null
+    "posgradoRelacionadoNombre": null,
+    "sluginstitucional": "Desarrollar las cuatro habilidades lingüísticas y comunicativas de los estudiantes con la finalidad de aplicar sus conocimientos en un ambiente profesional, académico o personal para el dominio del idioma inglés como lengua extranjera a través de una práctica dinámica y efectiva.",
+    "descripcionInstitucional": "Desarrollar las cuatro habilidades lingüísticas y comunicativas de los estudiantes con la finalidad de aplicar sus conocimientos en un ambiente profesional, académico o personal para el dominio del idioma inglés como lengua extranjera a través de una práctica dinámica y efectiva."
   },
   "diplomado-en-frances": {
     "slug": "diplomado-en-frances",
@@ -1051,7 +1123,7 @@
     "name": "Francés",
     "area": "Idiomas",
     "tagline": "Enriquece Tu desarrollo personal",
-    "description": "Desarrollar las cuatro habilidades lingüísticas y comunicativas de los estudiantes con la finalidad de aplicar sus conocimientos en un ambiente profesional, académico o personal, y proporcionar al alumno habilidades y destrezas para la adquisición y manejo del idioma francés como lengua extranjera a través de una práctica dinámica y efectiva.",
+    "description": "Domina las competencias comunicativas orales y escritas del idioma francés a través de dinámicas culturales e interactivas, ampliando tus oportunidades académicas y laborales a nivel global.",
     "ingreso": "Personas interesadas en adquirir competencias profesionales en francés, con motivación por la comunicación internacional y el desarrollo de habilidades prácticas en entornos laborales.",
     "perfilEgreso": "Profesionales capaces de interactuar con seguridad en situaciones cotidianas y de negocio, expresar ideas, opiniones y planes, comprender textos y conversaciones, y aplicar el francés en su especialidad profesional.",
     "egreso": "Profesionales capaces de interactuar con seguridad en situaciones cotidianas y de negocio, expresar ideas, opiniones y planes, comprender textos y conversaciones, y aplicar el francés en su especialidad profesional, respaldado por certificaciones internacionales reconocidas.",
@@ -1113,7 +1185,9 @@
     "imageHorizontal": "/images/diplomados/WebHorizontal/frances .jpg",
     "imageVertical": "/images/diplomados/WebVertical/frances vertical.jpg",
     "posgradoRelacionado": null,
-    "posgradoRelacionadoNombre": null
+    "posgradoRelacionadoNombre": null,
+    "sluginstitucional": "Desarrollar las cuatro habilidades lingüísticas y comunicativas de los estudiantes con la finalidad de aplicar sus conocimientos en un ambiente profesional, académico o personal, y proporcionar al alumno habilidades y destrezas para la adquisición y manejo del idioma francés como lengua extranjera a través de una práctica dinámica y efectiva.",
+    "descripcionInstitucional": "Desarrollar las cuatro habilidades lingüísticas y comunicativas de los estudiantes con la finalidad de aplicar sus conocimientos en un ambiente profesional, académico o personal, y proporcionar al alumno habilidades y destrezas para la adquisición y manejo del idioma francés como lengua extranjera a través de una práctica dinámica y efectiva."
   },
   "diplomado-en-ingles-profesional": {
     "slug": "diplomado-en-ingles-profesional",
@@ -1121,7 +1195,7 @@
     "name": "Inglés Profesional",
     "area": "Idiomas",
     "tagline": "Enriquece Tu desarrollo personal",
-    "description": "Desarrollar en el participante las competencias lingüísticas y comunicativas necesarias para interactuar con fluidez y precisión en contextos internacionales, aplicando el idioma inglés de manera efectiva en situaciones de comunicación empresarial, negociación, correspondencia, presentaciones y redacción profesional.",
+    "description": "Perfecciona tu comunicación ejecutiva en inglés, dominando presentaciones de negocios, redacción corporativa y vocabulario técnico especializado para interactuar con éxito en mercados internacionales.",
     "ingreso": "Estudiantes de licenciatura o posgrado en áreas de negocios, comercio, administración, turismo, derecho o afines. Profesionales que deseen mejorar su comunicación en inglés dentro de entornos empresariales o corporativos. Personas con nivel intermedio de inglés (B1) comprobable o equivalente.",
     "perfilEgreso": "El egresado será capaz de redactar correos, informes, cartas y contratos formales; participar activamente en reuniones, llamadas y negociaciones; y realizar presentaciones persuasivas en inglés.",
     "egreso": "Comunicarse con fluidez y corrección en inglés en contextos laborales y académicos internacionales. Redactar correos, informes, cartas y documentos empresariales con estructura, vocabulario y tono formal adecuados. Participar activamente en reuniones, llamadas, negociaciones y presentaciones en inglés con seguridad y profesionalismo. Emplear terminología técnica relacionada con los negocios, el derecho comercial y la comunicación corporativa.",
@@ -1174,6 +1248,430 @@
     "imageHorizontal": "/images/diplomados/WebHorizontal/ingles prof.jpg",
     "imageVertical": "/images/diplomados/WebVertical/ingles prof vertical.jpg",
     "posgradoRelacionado": null,
-    "posgradoRelacionadoNombre": null
+    "posgradoRelacionadoNombre": null,
+    "sluginstitucional": "Desarrollar en el participante las competencias lingüísticas y comunicativas necesarias para interactuar con fluidez y precisión en contextos internacionales, aplicando el idioma inglés de manera efectiva en situaciones de comunicación empresarial, negociación, correspondencia, presentaciones y redacción profesional.",
+    "descripcionInstitucional": "Desarrollar en el participante las competencias lingüísticas y comunicativas necesarias para interactuar con fluidez y precisión en contextos internacionales, aplicando el idioma inglés de manera efectiva en situaciones de comunicación empresarial, negociación, correspondencia, presentaciones y redacción profesional."
+  },
+  "diplomado-en-calidad-productiva-y-competitividad-organizacional": {
+    "slug": "diplomado-en-calidad-productiva-y-competitividad-organizacional",
+    "sigla": "DCPCO",
+    "name": "Calidad Productiva y Competitividad Organizacional",
+    "area": "Administración y Negocios",
+    "tagline": "Optimización de procesos productivos y competitividad empresarial",
+    "description": "Implementa sistemas de gestión de calidad y modelos de mejora continua que reduzcan costos operativos, eleven la productividad y posicionen a la empresa en estándares de excelencia internacional.",
+    "ingreso": "Profesionales, directivos y egresados de áreas económico-administrativas, ingenierías o disciplinas afines interesados en liderar la productividad y excelencia operativa de sus organizaciones.",
+    "perfilEgreso": "Al egresar, serás capaz de evaluar la eficiencia operativa, diseñar modelos de mejora continua, optimizar costos y liderar equipos multidisciplinarios orientados a la competitividad internacional.",
+    "egreso": "Podrás desempeñarte en gerencias de operaciones, consultorías de productividad, departamentos de calidad y alta dirección de empresas manufactureras o de servicios.",
+    "duracion": "128 hrs.",
+    "plan": {
+      "Contenido Temático": [
+        "Sistemas de Administración para la Calidad Total",
+        "Dirección de la Productividad y Costos Operativos",
+        "Competencias Laborales y Gestión del Talento",
+        "Responsabilidad Social y Competitividad Global"
+      ]
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/MGC.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/MGC V.jpg",
+    "posgradoRelacionado": "MGC",
+    "posgradoRelacionadoNombre": "Maestría en Gestión de la Calidad",
+    "sluginstitucional": "Desarrollar competencias directivas para planear, dirigir e implementar sistemas de calidad productiva y modelos de competitividad organizacional que aseguren la eficiencia, reducción de costos y satisfacción de los clientes en entornos globalizados.",
+    "descripcionInstitucional": "Desarrollar competencias directivas para planear, dirigir e implementar sistemas de calidad productiva y modelos de competitividad organizacional que aseguren la eficiencia, reducción de costos y satisfacción de los clientes en entornos globalizados."
+  },
+  "diplomado-en-gestion-de-la-calidad": {
+    "slug": "diplomado-en-gestion-de-la-calidad",
+    "sigla": "DGC",
+    "name": "Gestión de la Calidad",
+    "area": "Administración y Negocios",
+    "tagline": "Especialización en Sistemas de Gestión y Normativas Internacionales de Calidad",
+    "description": "Domina las normas ISO y herramientas estadísticas de calidad para diseñar, auditar y certificar procesos organizacionales, asegurando la satisfacción del cliente y la excelencia operativa.",
+    "ingreso": "Dirigido a ingenieros, administradores, auditores internos y profesionales con responsabilidad en el control, aseguramiento o supervisión de la calidad de bienes y servicios.",
+    "perfilEgreso": "Dominarás los métodos de control estadístico de procesos, auditorías de calidad, herramientas de diagnóstico y modelos de implantación de sistemas de calidad total.",
+    "egreso": "Liderarás áreas de aseguramiento de calidad, coordinarás certificaciones ISO, supervisarás procesos productivos o fungirás como consultor en gestión de calidad.",
+    "duracion": "128 hrs.",
+    "plan": {
+      "Contenido Temático": [
+        "Sistemas de Información y Diagnóstico de Calidad",
+        "Control Estadístico de Procesos y Métricas",
+        "Gestión de la Calidad y Normas Técnicas ISO",
+        "Implantación y Auditorías de Sistemas de Calidad"
+      ]
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/MGC.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/MGC V.jpg",
+    "posgradoRelacionado": "MGC",
+    "posgradoRelacionadoNombre": "Maestría en Gestión de la Calidad",
+    "sluginstitucional": "Proporcionar al participante las metodologías, herramientas estadísticas y directrices técnicas de gestión de la calidad indispensables para diseñar, auditar y mantener sistemas certificados bajo estándares internacionales ISO y lineamientos de mejora continua.",
+    "descripcionInstitucional": "Proporcionar al participante las metodologías, herramientas estadísticas y directrices técnicas de gestión de la calidad indispensables para diseñar, auditar y mantener sistemas certificados bajo estándares internacionales ISO y lineamientos de mejora continua."
+  },
+  "diplomado-en-legislacion-y-sistemas-de-calidad": {
+    "slug": "diplomado-en-legislacion-y-sistemas-de-calidad",
+    "sigla": "DLSC",
+    "name": "Legislación y Sistemas de Calidad",
+    "area": "Administración y Negocios",
+    "tagline": "Marco jurídico, cumplimiento normativo y acreditación institucional",
+    "description": "Aplica el marco jurídico, regulatorio y normativo de la metrología y normalización técnica, asegurando el cumplimiento legal y el éxito de auditorías de acreditación corporativa.",
+    "ingreso": "Profesionales del derecho, administración, ingeniería industrial y responsables de cumplimiento legal o regulatorio (compliance) en organizaciones públicas y privadas.",
+    "perfilEgreso": "Capacidad para interpretar leyes de metrología, normas oficiales mexicanas (NOM), regulaciones comerciales internacionales y gestionar auditorías legales de calidad.",
+    "egreso": "Desempeño en despachos jurídicos corporativos, áreas de cumplimiento y normatividad, dependencias gubernamentales y organismos de acreditación y certificación.",
+    "duracion": "128 hrs.",
+    "plan": {
+      "Contenido Temático": [
+        "Marco Legal de la Calidad y Normalización en México",
+        "Tratados Internacionales y Cumplimiento Normativo",
+        "Auditorías Legales y Gestión de Riesgos Regulatorios",
+        "Responsabilidad Corporativa y Buenas Prácticas"
+      ]
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/MGC.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/MGC V.jpg",
+    "posgradoRelacionado": "MGC",
+    "posgradoRelacionadoNombre": "Maestría en Gestión de la Calidad",
+    "sluginstitucional": "Analizar e instrumentar el marco legal y regulatorio de la calidad, metrología y normalización técnica nacional e internacional, blindando jurídicamente a las organizaciones y garantizando el cumplimiento estricto de auditorías y acreditaciones.",
+    "descripcionInstitucional": "Analizar e instrumentar el marco legal y regulatorio de la calidad, metrología y normalización técnica nacional e internacional, blindando jurídicamente a las organizaciones y garantizando el cumplimiento estricto de auditorías y acreditaciones."
+  },
+  "diplomado-en-normatividad-y-reingenieria-de-procesos-operativos": {
+    "slug": "diplomado-en-normatividad-y-reingenieria-de-procesos-operativos",
+    "sigla": "DNRPO",
+    "name": "Normatividad y Reingeniería de Procesos Operativos",
+    "area": "Administración y Negocios",
+    "tagline": "Rediseño estratégico de flujos de trabajo y excelencia en operaciones",
+    "description": "Optimiza la cadena de valor mediante metodologías Lean y reingeniería de procesos, eliminando cuellos de botella y transformando la eficiencia operativa bajo normas vigentes.",
+    "ingreso": "Profesionales de áreas operativas, ingeniería de procesos, consultoría de negocios y directivos que busquen transformar radicalmente el desempeño de su organización.",
+    "perfilEgreso": "Competencias sólidas para mapear cadenas de valor, identificar cuellos de botella, modelar procesos eficientes y liderar la gestión del cambio tecnológico.",
+    "egreso": "Puestos de gerencia de operaciones, dirección de logística, consultor de reingeniería y líder de transformación digital y operativa.",
+    "duracion": "128 hrs.",
+    "plan": {
+      "Contenido Temático": [
+        "Diagnóstico y Mapeo de Flujos de Trabajo",
+        "Metodologías de Reingeniería y Lean Management",
+        "Normatividad de Procesos y Control de Indicadores",
+        "Gestión del Cambio Organizacional y Tecnología"
+      ]
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/MGC.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/MGC V.jpg",
+    "posgradoRelacionado": "MGC",
+    "posgradoRelacionadoNombre": "Maestría en Gestión de la Calidad",
+    "sluginstitucional": "Capacitar a los profesionales en el diagnóstico, rediseño integral y optimización de procesos operativos mediante metodologías de reingeniería, Lean y normativas aplicadas, transformando costos en valor y agilizando la cadena de suministro.",
+    "descripcionInstitucional": "Capacitar a los profesionales en el diagnóstico, rediseño integral y optimización de procesos operativos mediante metodologías de reingeniería, Lean y normativas aplicadas, transformando costos en valor y agilizando la cadena de suministro."
+  },
+  "diplomado-en-estrategias-de-mercadotecnia-para-la-conexion-y-analisis-inteligente-de-datos": {
+    "slug": "diplomado-en-estrategias-de-mercadotecnia-para-la-conexion-y-analisis-inteligente-de-datos",
+    "sigla": "DEMCAD",
+    "name": "Estrategias de Mercadotecnia para la Conexión y Análisis Inteligente de Datos",
+    "area": "Marketing y Publicidad",
+    "tagline": "Marketing impulsado por analítica de datos, insights y customer intelligence",
+    "description": "Aprovecha el Big Data y la analítica predictiva del consumidor para diseñar estrategias comerciales hiperpersonalizadas, optimizando la toma de decisiones y el ROI en marketing.",
+    "ingreso": "Mercadologos, publicistas, científicos de datos, administradores y comunicadores interesados en potenciar el impacto de sus decisiones con base en analítica cuantitativa.",
+    "perfilEgreso": "Al finalizar, sabrás interpretar tableros de métricas, segmentar audiencias predictivamente, diseñar funnels de conversión basados en datos y evaluar modelos de atribución.",
+    "egreso": "Dirección de growth marketing, analista de business intelligence, consultor de data-driven marketing y estratega de medios digitales.",
+    "duracion": "136 hrs.",
+    "plan": {
+      "Contenido Temático": [
+        "Fundamentos de Analítica Digital y Customer Journey",
+        "Herramientas de Análisis de Datos y Business Intelligence",
+        "Modelos Predictivos y Segmentación de Audiencias",
+        "Estrategias de Conexión, Conversión y Medición de ROI"
+      ]
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/EMD.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/EMD V.jpg",
+    "posgradoRelacionado": "EMD",
+    "posgradoRelacionadoNombre": "Especialidad en Marketing Digital",
+    "sluginstitucional": "Comprender y dominar el uso de la analítica de datos, big data e inteligencia de clientes para construir estrategias de conexión comercial profundas, optimizar el ROI de campañas digitales y predecir comportamientos de mercado.",
+    "descripcionInstitucional": "Comprender y dominar el uso de la analítica de datos, big data e inteligencia de clientes para construir estrategias de conexión comercial profundas, optimizar el ROI de campañas digitales y predecir comportamientos de mercado."
+  },
+  "diplomado-en-innovacion-tecnologica-en-ambientes-electronicos": {
+    "slug": "diplomado-en-innovacion-tecnologica-en-ambientes-electronicos",
+    "sigla": "DITAE",
+    "name": "Innovación Tecnológica en Ambientes Electrónicos",
+    "area": "Tecnología, Redes e Inteligencia Artificial",
+    "tagline": "Transformación digital, computación en la nube y plataformas electrónicas",
+    "description": "Explora soluciones en la nube, arquitecturas digitales y tecnologías emergentes para liderar la modernización de infraestructuras electrónicas corporativas escalables y seguras.",
+    "ingreso": "Ingenieros en sistemas, desarrolladores, administradores de TI y profesionales interesados en la vanguardia de la tecnología electrónica y digital.",
+    "perfilEgreso": "Capacidad para evaluar y desplegar plataformas en la nube, integrar arquitecturas tecnológicas modernas y diseñar proyectos de innovación que respondan a desafíos empresariales.",
+    "egreso": "Líder técnico, consultor de innovación tecnológica, gerente de infraestructura digital y arquitecto de soluciones de TI.",
+    "duracion": "128 hrs.",
+    "plan": {
+      "Contenido Temático": [
+        "Ecosistemas Tecnológicos y Computación en la Nube",
+        "Integración de Ambientes Electrónicos Seguros",
+        "Innovación Ágil y Gestión de Proyectos Tecnológicos",
+        "Tendencias Emergentes e Inteligencia de Infraestructura"
+      ]
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/MARET.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/MARET V.jpg",
+    "posgradoRelacionado": "REDES",
+    "posgradoRelacionadoNombre": "Maestría en Redes de Computadoras y Tecnologías Web",
+    "sluginstitucional": "Explorar las tecnologías emergentes, arquitecturas en la nube y entornos digitales modernos para liderar la innovación tecnológica en organizaciones, desarrollando soluciones escalables, seguras e interconectadas.",
+    "descripcionInstitucional": "Explorar las tecnologías emergentes, arquitecturas en la nube y entornos digitales modernos para liderar la innovación tecnológica en organizaciones, desarrollando soluciones escalables, seguras e interconectadas."
+  },
+  "diplomado-en-negocios-electronicos-y-conmutacion-inalambrica-de-redes-empresariales": {
+    "slug": "diplomado-en-negocios-electronicos-y-conmutacion-inalambrica-de-redes-empresariales",
+    "sigla": "DNECI",
+    "name": "Negocios Electrónicos y Conmutación Inalámbrica de Redes Empresariales",
+    "area": "Tecnología, Redes e Inteligencia Artificial",
+    "tagline": "Infraestructura de redes inalámbricas, comercio digital y conectividad segura",
+    "description": "Diseña redes inalámbricas corporativas robustas e impulsa ecosistemas de e-commerce seguros, integrando infraestructura tecnológica de última generación con modelos comerciales rentables.",
+    "ingreso": "Administradores de red, ingenieros en telecomunicaciones, especialistas en comercio electrónico y líderes de sistemas empresariales.",
+    "perfilEgreso": "Habilidades avanzadas en configuración de conmutación LAN/WAN, protocolos de radiofrecuencia, seguridad en transacciones electrónicas y pasarelas de pago digitales.",
+    "egreso": "Ingeniero de conectividad, consultor de e-commerce, administrador de redes corporativas y gerente de telecomunicaciones.",
+    "duracion": "128 hrs.",
+    "plan": {
+      "Contenido Temático": [
+        "Modelos de Negocios y Plataformas de Comercio Electrónico",
+        "Protocolos de Conmutación y Enrutamiento Inalámbrico",
+        "Ciberseguridad y Pasarelas de Transacción Electrónica",
+        "Optimización de Redes Corporativas y Telecomunicación Móvil"
+      ]
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/MARET.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/MARET V.jpg",
+    "posgradoRelacionado": "REDES",
+    "posgradoRelacionadoNombre": "Maestría en Redes de Computadoras y Tecnologías Web",
+    "sluginstitucional": "Diseñar y configurar infraestructuras de redes inalámbricas empresariales de alta disponibilidad, articulándolas con modelos de negocio electrónico, comercio digital seguro y protocolos de telecomunicación corporativa.",
+    "descripcionInstitucional": "Diseñar y configurar infraestructuras de redes inalámbricas empresariales de alta disponibilidad, articulándolas con modelos de negocio electrónico, comercio digital seguro y protocolos de telecomunicación corporativa."
+  },
+  "diplomado-en-informatica-para-proyectos-y-edificacion": {
+    "slug": "diplomado-en-informatica-para-proyectos-y-edificacion",
+    "sigla": "DIPE",
+    "name": "Informática para Proyectos y Edificación",
+    "area": "Arquitectura y Construcción",
+    "tagline": "Software técnico, modelado BIM y sistemas de información en la construcción",
+    "description": "Domina software especializado de presupuestación, modelado BIM y control informático para la planeación y gestión eficiente de proyectos constructivos y arquitectónicos de vanguardia.",
+    "ingreso": "Arquitectos, ingenieros civiles, supervisores de obra y proyectistas con interés en digitalizar y automatizar los procesos de sus obras.",
+    "perfilEgreso": "Manejo avanzado de sistemas informáticos de gestión de proyectos, elaboración de presupuestos digitales y modelado de información de la construcción (BIM).",
+    "egreso": "Coordinador BIM, proyectista digital, gerente de costos y presupuestos en despachos de arquitectura y empresas constructoras.",
+    "duracion": "128 hrs.",
+    "plan": {
+      "Contenido Temático": [
+        "Sistemas de Información Aplicados a la Edificación",
+        "Modelado Digital de Proyectos y Metodología BIM",
+        "Software de Costos, Presupuestos y Control de Insumos",
+        "Programación y Seguimiento Informático de Obra"
+      ]
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/EAO copia.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/EAO V.jpg",
+    "posgradoRelacionado": "OBRA",
+    "posgradoRelacionadoNombre": "Especialidad en Administración de Obra",
+    "sluginstitucional": "Formar especialistas en la aplicación de herramientas informáticas, software de presupuestación, control de obra y metodología BIM para la planeación y ejecución técnica de proyectos arquitectónicos y de edificación.",
+    "descripcionInstitucional": "Formar especialistas en la aplicación de herramientas informáticas, software de presupuestación, control de obra y metodología BIM para la planeación y ejecución técnica de proyectos arquitectónicos y de edificación."
+  },
+  "diplomado-en-criminalistica-de-campo": {
+    "slug": "diplomado-en-criminalistica-de-campo",
+    "sigla": "DCC",
+    "name": "Criminalística de Campo",
+    "area": "Criminalística y Criminología",
+    "tagline": "Preservación de la escena, cadena de custodia e investigación pericial",
+    "description": "Aplica la metodología científica en el procesamiento de la escena del crimen, embalaje de indicios, cadena de custodia y emisión de dictámenes periciales con validez jurídica.",
+    "ingreso": "Abogados, criminólogos, médicos, psicólogos, peritos y servidores públicos vinculados al sistema penal acusatorio e investigación pericial.",
+    "perfilEgreso": "Competencia técnica en preservación del lugar de intervención, recolección de indicios biológicos y balísticos, y sustento de informes periciales en audiencias orales.",
+    "egreso": "Perito criminalista oficial o particular, asesor en litigación penal, consultor en investigación forense y docencia universitaria.",
+    "duracion": "128 hrs.",
+    "plan": {
+      "Contenido Temático": [
+        "Metodología de la Investigación Criminalística de Campo",
+        "Protección y Procesamiento del Lugar de los Hechos",
+        "Cadena de Custodia, Embalaje e Indicios Materiales",
+        "Elaboración y Sustentación del Dictamen Pericial"
+      ]
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/EC.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/EC V.jpg",
+    "posgradoRelacionado": "EC",
+    "posgradoRelacionadoNombre": "Especialidad en Criminalística",
+    "sluginstitucional": "Capacitar en los métodos científicos, técnicas y protocolos indispensables para el procesamiento idóneo del lugar de los hechos, fijación de indicios, embalaje, cadena de custodia y elaboración de dictámenes criminalísticos con validez pericial.",
+    "descripcionInstitucional": "Capacitar en los métodos científicos, técnicas y protocolos indispensables para el procesamiento idóneo del lugar de los hechos, fijación de indicios, embalaje, cadena de custodia y elaboración de dictámenes criminalísticos con validez pericial."
+  },
+  "diplomado-en-criminalistica-y-criminologia": {
+    "slug": "diplomado-en-criminalistica-y-criminologia",
+    "sigla": "DCCRIM",
+    "name": "Criminalística y Criminología",
+    "area": "Criminalística y Criminología",
+    "tagline": "Análisis integral de la conducta criminal, victimología y ciencias forenses",
+    "description": "Analiza las causas del delito, perfiles criminales y técnicas de investigación forense para desarrollar estrategias eficaces de prevención delictiva y esclarecimiento de hechos ante tribunales.",
+    "ingreso": "Profesionales del derecho, psicología, sociología, seguridad pública y ciencias forenses interesados en la comprensión profunda del fenómeno criminal.",
+    "perfilEgreso": "Capacidad para diseñar perfiles criminológicos, evaluar factores de riesgo psicosocial, proponer programas de prevención del delito y aplicar la criminalística integral.",
+    "egreso": "Instituciones de seguridad pública, centros penitenciarios, departamentos periciales, fiscalías y organizaciones de prevención social y atención a víctimas.",
+    "duracion": "128 hrs.",
+    "plan": {
+      "Contenido Temático": [
+        "Fundamentos de Criminología y Conducta Delictiva",
+        "Victimología y Psicología Forense",
+        "Bases de Criminalística y Medicina Legal",
+        "Prevención del Delito y Políticas de Seguridad"
+      ]
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/EC.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/EC V.jpg",
+    "posgradoRelacionado": "EC",
+    "posgradoRelacionadoNombre": "Especialidad en Criminalística",
+    "sluginstitucional": "Proporcionar una visión interdisciplinaria de las ciencias forenses y el estudio del delito, combinando el análisis del comportamiento criminal, perfiles delictivos y técnicas de investigación forense para la prevención y el esclarecimiento de hechos punibles.",
+    "descripcionInstitucional": "Proporcionar una visión interdisciplinaria de las ciencias forenses y el estudio del delito, combinando el análisis del comportamiento criminal, perfiles delictivos y técnicas de investigación forense para la prevención y el esclarecimiento de hechos punibles."
+  },
+  "diplomado-en-ingles-con-especialidad-en-negocios-internacionales": {
+    "slug": "diplomado-en-ingles-con-especialidad-en-negocios-internacionales",
+    "sigla": "DEIP",
+    "name": "Inglés con Especialidad en Negocios Internacionales",
+    "area": "Idiomas",
+    "tagline": "Comunicación ejecutiva, negociación y terminología corporativa global",
+    "description": "Adquiere fluidez bilingüe especializada en negociaciones globales, contratos comerciales y relaciones corporativas internacionales, impulsando tu proyección profesional en corporativos multinacionales.",
+    "ingreso": "Profesionales, licenciados y directivos con nivel intermedio de inglés que requieran proyectar su liderazgo y desenvolverse con soltura en negocios internacionales.",
+    "perfilEgreso": "Fluidez y precisión técnica para liderar juntas bilaterales, negociar acuerdos comerciales, redactar correspondencia de negocios y argumentar propuestas en inglés.",
+    "egreso": "Cargos ejecutivos en corporativos multinacionales, comercio exterior, diplomacia, relaciones internacionales y consultorías globales.",
+    "duracion": "128 hrs.",
+    "plan": {
+      "Contenido Temático": [
+        "Business Communication & Corporate Correspondence",
+        "International Negotiations & Contract Terminology",
+        "Executive Presentations & Global Market Strategies",
+        "Cross-Cultural Business Protocol & Case Studies"
+      ]
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/ERMI.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/ERMI V.jpg",
+    "posgradoRelacionado": "ERMI",
+    "posgradoRelacionadoNombre": "Especialidad en Relaciones Mercantiles Internacionales",
+    "sluginstitucional": "Perfeccionar las competencias comunicativas y el dominio del idioma inglés en contextos profesionales, comerciales y diplomáticos, dominando la negociación internacional, redacción de contratos y presentaciones ejecutivas.",
+    "descripcionInstitucional": "Perfeccionar las competencias comunicativas y el dominio del idioma inglés en contextos profesionales, comerciales y diplomáticos, dominando la negociación internacional, redacción de contratos y presentaciones ejecutivas."
+  },
+  "diplomado-en-administracion-tecnologica": {
+    "slug": "diplomado-en-administracion-tecnologica",
+    "sigla": "DATL",
+    "name": "Administración Tecnológica",
+    "area": "Administración y Negocios",
+    "tagline": "Gestión estratégica de la tecnología y liderazgo en transformación digital",
+    "description": "Alinea las soluciones tecnológicas con los objetivos estratégicos corporativos, optimizando la infraestructura digital y liderando proyectos de innovación que potencien el crecimiento del negocio.",
+    "ingreso": "Directores de TI, administradores, ingenieros en computación y profesionales con responsabilidad en la toma de decisiones tecnológicas.",
+    "perfilEgreso": "Competencias en formulación de planes estratégicos de TI, gobierno de tecnologías de información, evaluación financiera de proyectos tecnológicos y gestión del cambio.",
+    "egreso": "Dirección de sistemas (CIO/CTO), consultoría de transformación digital, gerencia de proyectos de software y administración de operaciones tecnológicas.",
+    "duracion": "128 hrs.",
+    "plan": {
+      "Contenido Temático": [
+        "Planeación Estratégica de Tecnologías de Información",
+        "Gobierno y Gestión de Servicios Tecnológicos",
+        "Evaluación Financiera y Rentabilidad de Proyectos de TI",
+        "Gestión de la Innovación y Transformación Digital"
+      ]
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/EATL.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/EATL V.jpg",
+    "posgradoRelacionado": "EATL",
+    "posgradoRelacionadoNombre": "Especialidad en Administración de la Tecnología",
+    "sluginstitucional": "Desarrollar capacidades de planeación, evaluación y dirección estratégica de recursos tecnológicos en las organizaciones, alineando las soluciones de TI con los objetivos de negocio y la competitividad en mercados dinámicos.",
+    "descripcionInstitucional": "Desarrollar capacidades de planeación, evaluación y dirección estratégica de recursos tecnológicos en las organizaciones, alineando las soluciones de TI con los objetivos de negocio y la competitividad en mercados dinámicos."
+  },
+  "diplomado-en-modelos-de-ensenanza-y-evaluacion-de-programas-educativos-siglo-xxi": {
+    "slug": "diplomado-en-modelos-de-ensenanza-y-evaluacion-de-programas-educativos-siglo-xxi",
+    "sigla": "DMEEP-D",
+    "name": "Modelos de Enseñanza y Evaluación de Programas Educativos Siglo XXI",
+    "area": "Educación, Docencia e Investigación",
+    "tagline": "Diseño curricular moderno, pedagogía activa y evaluación formativa",
+    "description": "Diseña modelos pedagógicos innovadores y sistemas de evaluación formativa adaptados a las demandas del siglo XXI, promoviendo el pensamiento crítico y la integración tecnológica en el aula.",
+    "ingreso": "Docentes, coordinadores pedagógicos, directivos escolares e investigadores educativos de todos los niveles académicos.",
+    "perfilEgreso": "Habilidad para estructurar programas formativos por competencias, formular instrumentos de evaluación auténtica y liderar la innovación pedagógica en sus instituciones.",
+    "egreso": "Coordinación académica, dirección de diseño curricular, asesoría pedagógica y docencia de excelencia en instituciones educativas.",
+    "duracion": "128 hrs.",
+    "plan": {
+      "Contenido Temático": [
+        "Tendencias y Enfoques Pedagógicos del Siglo XXI",
+        "Diseño Curricular por Competencias y Resultados de Aprendizaje",
+        "Evaluación Formativa e Instrumentos de Medición",
+        "Liderazgo y Gestión de la Calidad Educativa"
+      ]
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/EAPD.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/EAPD V.jpg",
+    "posgradoRelacionado": "EAPD",
+    "posgradoRelacionadoNombre": "Especialidad en Aplicación Pedagógica de la Docencia",
+    "sluginstitucional": "Analizar, diseñar y evaluar modelos pedagógicos contemporáneos adaptados a las exigencias educativas del siglo XXI, promoviendo el aprendizaje significativo, la evaluación formativa y el uso ético de tecnologías en el aula.",
+    "descripcionInstitucional": "Analizar, diseñar y evaluar modelos pedagógicos contemporáneos adaptados a las exigencias educativas del siglo XXI, promoviendo el aprendizaje significativo, la evaluación formativa y el uso ético de tecnologías en el aula."
+  },
+  "diplomado-en-estrategias-didacticas-y-metodos-de-ensenanza-de-una-l2": {
+    "slug": "diplomado-en-estrategias-didacticas-y-metodos-de-ensenanza-de-una-l2",
+    "sigla": "DEDME",
+    "name": "Estrategias Didácticas y Métodos de Enseñanza de una L2",
+    "area": "Educación, Docencia e Investigación",
+    "tagline": "Metodologías activas para la enseñanza y aprendizaje de segundas lenguas",
+    "description": "Domina metodologías didácticas avanzadas y técnicas comunicativas dinámicas para la enseñanza efectiva de una segunda lengua (L2), potenciando la fluidez y motivación de los estudiantes.",
+    "ingreso": "Profesores de inglés, español u otros idiomas, licenciados en idiomas, letras o pedagogía interesados en perfeccionar su práctica docente en L2.",
+    "perfilEgreso": "Capacidad para seleccionar y crear material didáctico interactivo, aplicar el enfoque comunicativo por tareas y gestionar ambientes de inmersión lingüística.",
+    "egreso": "Docente titular en centros de idiomas, institutos bilingües, universidades y diseñador de contenidos pedagógicos para la enseñanza de lenguas.",
+    "duracion": "128 hrs.",
+    "plan": {
+      "Contenido Temático": [
+        "Teorías y Enfoques en la Adquisición de una Segunda Lengua",
+        "Enfoque Comunicativo Basado en Tareas y Proyectos",
+        "Diseño y Adaptación de Recursos Didácticos para L2",
+        "Evaluación de la Competencia Comunicativa"
+      ]
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/EDELE.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/EDELE V.jpg",
+    "posgradoRelacionado": "EDELE",
+    "posgradoRelacionadoNombre": "Especialidad en Docencia del Español como Lengua Extranjera",
+    "sluginstitucional": "Proporcionar al docente de idiomas los principios teóricos y herramientas metodológicas avanzadas para la enseñanza eficaz de una segunda lengua (L2), potenciando las destrezas comunicativas de los alumnos mediante enfoques dinámicos y contextualizados.",
+    "descripcionInstitucional": "Proporcionar al docente de idiomas los principios teóricos y herramientas metodológicas avanzadas para la enseñanza eficaz de una segunda lengua (L2), potenciando las destrezas comunicativas de los alumnos mediante enfoques dinámicos y contextualizados."
+  },
+  "diplomado-en-elaboracion-de-programas-de-estudio-para-el-espanol-e-ingles-como-segunda-lengua": {
+    "slug": "diplomado-en-elaboracion-de-programas-de-estudio-para-el-espanol-e-ingles-como-segunda-lengua",
+    "sigla": "DMEELE4",
+    "name": "Elaboración de Programas de Estudio para Español e Inglés como Segunda Lengua",
+    "area": "Gerenciales – Enseñanza del Español como Lengua Extranjera",
+    "tagline": "Actualización y especialización en Elaboración de Programas de Estudio para Español e Inglés como Segunda Lengua",
+    "description": "Diseña planes de estudio y programas curriculares bilingües de alto rigor didáctico, respondiendo a estándares internacionales de certificación en la enseñanza del español e inglés.",
+    "ingreso": "Dirigido a profesionales, licenciados, estudiantes de semestres avanzados y emprendedores con interés en actualizar o consolidar sus competencias en Elaboración de Programas de Estudio para Español e Inglés como Segunda Lengua.",
+    "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Elaboración de Programas de Estudio para Español e Inglés como Segunda Lengua.",
+    "egreso": "Podrás desempeñarte exitosamente en departamentos directivos, consultorías independientes, proyectos empresariales y agencias especializadas en Elaboración de Programas de Estudio para Español e Inglés como Segunda Lengua.",
+    "duracion": "128 hrs.",
+    "plan": {
+      "Contenido Temático": [
+        "Elaboración del Currículum de Lenguas",
+        "Gramática Comparativa del Inglés y del Español",
+        "Optativa III",
+        "Optativa IV"
+      ]
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/MEL.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/MEL V.jpg",
+    "posgradoRelacionado": "MEL",
+    "posgradoRelacionadoNombre": "Maestría en Enseñanza de Lenguas Extranjeras",
+    "sluginstitucional": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción.",
+    "descripcionInstitucional": "Formar Maestros en el campo de la Enseñanza de Lenguas Extranjeras con sólida preparación teórica y metodológica, a partir de la reflexión propositiva sobre los problemas de la enseñanza y del aprendizaje, capaces de comprender y saber utilizar las herramientas pedagógicas, didácticas, socio-culturales, de traducción y semióticas, asimismo; construir las estrategias de aprendizaje que contribuyan a la programación, desarrollo y evaluación de cursos ubicados en un marco metodológico, por medio de los actuales avances de la semiótica, pragmática, cognición, traducción y la comunicación, apoyándose en el uso de la tecnología educativa; logrando competencias profesionales, académicas y sociales en escenarios interdisciplinarios y multidisciplinarios para la enseñanza y el aprendizaje del español y del inglés como lengua extranjera y ocupaciones de traducción."
+  },
+  "diplomado-en-innovacion-y-transferencia-tecnologica": {
+    "slug": "diplomado-en-innovacion-y-transferencia-tecnologica",
+    "sigla": "DITL",
+    "name": "Innovación y Transferencia Tecnológica",
+    "area": "Innovación Digital",
+    "tagline": "Actualización y especialización en Innovación y Transferencia Tecnológicas",
+    "description": "Especialízate en la evaluación, protección y comercialización de activos tecnológicos e innovación aplicada, acelerando la transferencia de conocimiento hacia sectores productivos de alto valor.",
+    "ingreso": "Profesionistas que desean impulsar procesos de innovación dentro de su organización. Líderes, mandos medios o directivos que participan en la toma de decisiones estratégicas relacionadas con mercado, finanzas e innovación. Emprendedores interesados en desarrollar proyectos tecnológicos con enfoque de mercado y escalabilidad. Consultores y asesores que trabajan con innovación, tecnología y transferencia de conocimiento.",
+    "perfilEgreso": "Al finalizar el diplomado, contarás con la preparación necesaria para formular estrategias eficaces, liderar proyectos sectoriales complejos e implementar tecnologías de punta en el área de Innovación y Transferencia Tecnológicas.",
+    "egreso": "Formular e implementar estrategias financieras alineadas con objetivos tecnológicos y de negocio. Desarrollar planes de mercadotecnia orientados al producto, servicio o innovación tecnológica. Gestionar procesos de innovación y evaluarlos para incrementar valor competitivo. Planear y ejecutar procesos de transferencia tecnológica que conecten investigación, empresa y mercado.",
+    "duracion": "1 semestre",
+    "plan": {
+      "Módulo I": [
+        "Dirección Estratégica Financiera"
+      ],
+      "Módulo II": [
+        "Mercadotecnia Estratégica"
+      ],
+      "Módulo III": [
+        "Investigación y Administración de la Innovación Tecnológica"
+      ],
+      "Módulo IV": [
+        "Transferencia Tecnológica"
+      ]
+    },
+    "imageHorizontal": "/images/posgrados/Web Horizontal/EATL.jpg",
+    "imageVertical": "/images/posgrados/Web Vertical/EATL V.jpg",
+    "posgradoRelacionado": "EATL",
+    "posgradoRelacionadoNombre": "Especialidad en Administración de la Tecnología en Línea",
+    "sluginstitucional": "Formar profesionales capaces de aplicar modelos estratégicos de innovación, gestionar procesos financieros y de mercadotecnia asociados a tecnología, y liderar procesos de transferencia tecnológica efectiva para maximizar el valor y la competitividad de organizaciones en entornos dinámicos.",
+    "descripcionInstitucional": "Formar profesionales capaces de aplicar modelos estratégicos de innovación, gestionar procesos financieros y de mercadotecnia asociados a tecnología, y liderar procesos de transferencia tecnológica efectiva para maximizar el valor y la competitividad de organizaciones en entornos dinámicos."
   }
 }

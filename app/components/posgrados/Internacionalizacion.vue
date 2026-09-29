@@ -158,85 +158,21 @@ function openWhatsAppGeneral() {
       />
       <div class="inter-banner__overlay"></div>
       <div class="pg-container inter-banner__content">
-        <div class="inter-banner__grid">
-          <!-- Columna Izquierda: Información Principal -->
-          <div class="inter-banner__inner">
-            <div class="inter-eyebrow">
-              <span class="eyebrow-line"></span>
-              PROYECCIÓN GLOBAL & VINCULACIÓN ACADÉMICA
-            </div>
-            <h2 class="inter-title">
-              Oportunidades de<br />
-              <em>Internacionalización para {{ seccionTitulo }}</em>
-            </h2>
-            <p class="inter-desc">
-              En Posgrados UNINTER impulsamos la investigación, el liderazgo corporativo
-              y la proyección global de nuestros estudiantes. Accede a convenios con
-              universidades de prestigio en América y Europa, estancias de investigación
-              y experiencias vivenciales diseñadas para transformar tu perfil profesional.
-            </p>
+        <div class="inter-banner__inner">
+          <div class="inter-eyebrow">
+            <span class="eyebrow-line"></span>
+            PROYECCIÓN GLOBAL & VINCULACIÓN ACADÉMICA
           </div>
-
-          <!-- Columna Derecha: Burbujas Flotantes (Azul Marino + Oro Glassmorphism) -->
-          <div class="inter-floating-bubbles">
-            <!-- Burbuja 1: Doble Titulación (Solo Maestrías) O Estancias -->
-            <div v-if="tipo === 'maestria' || tipo === 'all'" class="inter-bubble inter-bubble--1">
-              <div class="inter-bubble__icon-wrap">
-                <GraduationCap class="inter-bubble__icon" :size="20" />
-              </div>
-              <div class="inter-bubble__info">
-                <div class="inter-bubble__badge">Excelencia Curricular</div>
-                <h4 class="inter-bubble__title">Doble Titulación Internacional</h4>
-                <p class="inter-bubble__desc">
-                  Grado académico simultáneo avalado por universidades socias en el extranjero.
-                </p>
-              </div>
-            </div>
-
-            <!-- Burbuja 2: Viajes Culturales (Para Todos) -->
-            <div class="inter-bubble" :class="{ 'inter-bubble--2': tipo === 'maestria' || tipo === 'all', 'inter-bubble--1': tipo !== 'maestria' && tipo !== 'all' }">
-              <div class="inter-bubble__icon-wrap">
-                <Globe class="inter-bubble__icon" :size="20" />
-              </div>
-              <div class="inter-bubble__info">
-                <div class="inter-bubble__badge">Experiencias en el Extranjero</div>
-                <h4 class="inter-bubble__title">Viajes Académicos Culturales</h4>
-                <div class="inter-bubble__tags">
-                  <span class="bubble-tag">🇮🇪 Irlanda</span>
-                  <span class="bubble-tag">🇬🇧 Londres</span>
-                  <span class="bubble-tag">🇯🇵 Japón</span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Burbuja 3: Intercambios / Movilidad -->
-            <div class="inter-bubble" :class="{ 'inter-bubble--3': tipo === 'maestria' || tipo === 'all', 'inter-bubble--2': tipo !== 'maestria' && tipo !== 'all' }">
-              <div class="inter-bubble__icon-wrap">
-                <Calendar class="inter-bubble__icon" :size="20" />
-              </div>
-              <div class="inter-bubble__info">
-                <div class="inter-bubble__badge">Movilidad de Posgrado</div>
-                <h4 class="inter-bubble__title">Intercambios Semestrales o Anuales</h4>
-                <p class="inter-bubble__desc">
-                  Estancias de 1 semestre o hasta 1 año con revalidación y acreditación oficial.
-                </p>
-              </div>
-            </div>
-
-            <!-- Burbuja 4: Interculturalidad en Campus (Si no es maestría para mantener 3 burbujas) -->
-            <div v-if="tipo !== 'maestria' && tipo !== 'all'" class="inter-bubble inter-bubble--3">
-              <div class="inter-bubble__icon-wrap">
-                <Users class="inter-bubble__icon" :size="20" />
-              </div>
-              <div class="inter-bubble__info">
-                <div class="inter-bubble__badge">Networking Directivo</div>
-                <h4 class="inter-bubble__title">Comunidad Internacional en Campus</h4>
-                <p class="inter-bubble__desc">
-                  Clases de interculturalidad y convivencia con investigadores extranjeros.
-                </p>
-              </div>
-            </div>
-          </div>
+          <h2 class="inter-title">
+            Oportunidades de<br />
+            <em>Internacionalización para {{ seccionTitulo }}</em>
+          </h2>
+          <p class="inter-desc">
+            En Posgrados UNINTER impulsamos la investigación, el liderazgo corporativo
+            y la proyección global de nuestros estudiantes. Accede a convenios con
+            universidades de prestigio en América y Europa, estancias de investigación
+            y experiencias vivenciales diseñadas para transformar tu perfil profesional.
+          </p>
         </div>
       </div>
     </div>

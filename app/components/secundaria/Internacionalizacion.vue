@@ -96,71 +96,21 @@ function openWhatsAppGeneral() {
       />
       <div class="inter-banner__overlay"></div>
       <div class="siu-container inter-banner__content">
-        <div class="inter-banner__grid">
-          <!-- Columna Izquierda: Información Principal -->
-          <div class="inter-banner__inner">
-            <div class="inter-eyebrow">
-              <span class="eyebrow-line"></span>
-              PROYECCIÓN GLOBAL & CIUDADANÍA MUNDIAL
-            </div>
-            <h2 class="inter-title">
-              Oportunidades de<br />
-              <em>Internacionalización para SIU</em>
-            </h2>
-            <p class="inter-desc">
-              En SIU Secundaria formamos ciudadanos del mundo desde temprana edad.
-              Nuestros alumnos desarrollan un dominio natural del inglés y francés,
-              conviven con estudiantes extranjeros y participan en experiencias
-              culturales internacionales que transforman su visión del futuro.
-            </p>
+        <div class="inter-banner__inner">
+          <div class="inter-eyebrow">
+            <span class="eyebrow-line"></span>
+            PROYECCIÓN GLOBAL & CIUDADANÍA MUNDIAL
           </div>
-
-          <!-- Columna Derecha: Burbujas Flotantes (Amarillo Opaco Glassmorphism) -->
-          <div class="inter-floating-bubbles">
-            <!-- Burbuja 1: Viajes -->
-            <div class="inter-bubble inter-bubble--1">
-              <div class="inter-bubble__icon-wrap">
-                <Globe class="inter-bubble__icon" :size="20" />
-              </div>
-              <div class="inter-bubble__info">
-                <div class="inter-bubble__badge">Experiencias en el Extranjero</div>
-                <h4 class="inter-bubble__title">Viajes Académicos Culturales</h4>
-                <div class="inter-bubble__tags">
-                  <span class="bubble-tag">🇮🇪 Irlanda</span>
-                  <span class="bubble-tag">🇬🇧 Londres</span>
-                  <span class="bubble-tag">🇯🇵 Japón</span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Burbuja 2: Interculturalidad -->
-            <div class="inter-bubble inter-bubble--2">
-              <div class="inter-bubble__icon-wrap">
-                <Languages class="inter-bubble__icon" :size="20" />
-              </div>
-              <div class="inter-bubble__info">
-                <div class="inter-bubble__badge">Inmersión Bilingüe</div>
-                <h4 class="inter-bubble__title">Clases de Interculturalidad</h4>
-                <p class="inter-bubble__desc">
-                  Intercambio directo y dinámicas con estudiantes internacionales en campus.
-                </p>
-              </div>
-            </div>
-
-            <!-- Burbuja 3: Pen Pals -->
-            <div class="inter-bubble inter-bubble--3">
-              <div class="inter-bubble__icon-wrap">
-                <Mail class="inter-bubble__icon" :size="20" />
-              </div>
-              <div class="inter-bubble__info">
-                <div class="inter-bubble__badge">Experiencias Virtuales</div>
-                <h4 class="inter-bubble__title">Pen Pals con Secundaria de USA</h4>
-                <p class="inter-bubble__desc">
-                  Proyectos colaborativos y correspondencia digital bilingüe con estudiantes de EE.UU. 🇺🇸
-                </p>
-              </div>
-            </div>
-          </div>
+          <h2 class="inter-title">
+            Oportunidades de<br />
+            <em>Internacionalización para SIU</em>
+          </h2>
+          <p class="inter-desc">
+            En SIU Secundaria formamos ciudadanos del mundo desde temprana edad.
+            Nuestros alumnos desarrollan un dominio natural del inglés y francés,
+            conviven con estudiantes extranjeros y participan en experiencias
+            culturales internacionales que transforman su visión del futuro.
+          </p>
         </div>
       </div>
     </div>

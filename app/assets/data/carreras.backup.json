@@ -44,47 +44,43 @@
       ],
       "countries": [
         {
+          "name": "España",
+          "image": "espana.jpg",
+          "description": "Desarrolla narrativas transmedia y estrategias de comunicación pública en los principales medios de Iberoamérica.",
+          "universities": [
+            {
+              "name": "Universidad Complutense de Madrid",
+              "url": "https://www.ucm.es"
+            },
+            {
+              "name": "Universidad de Navarra",
+              "url": "https://www.unav.edu"
+            }
+          ]
+        },
+        {
           "name": "Francia",
-          "image": "francia.webp",
-          "description": "Inmersión en producción mediática europea, periodismo internacional y comunicación audiovisual.",
+          "image": "francia.jpg",
+          "description": "Inmersión total en estudios lingüísticos, comunicación corporativa europea y diplomacia cultural.",
           "universities": [
             {
-              "name": "SciencesPo Lille",
-              "url": "http://www.sciencespo-lille.eu/"
+              "name": "Sorbonne Université",
+              "url": "https://www.sorbonne-universite.fr"
             },
             {
-              "name": "SciencesPo Grenoble",
-              "url": "http://www.sciencespo-grenoble.fr/"
-            },
-            {
-              "name": "École Supérieure d´art et Médias ESAM",
-              "url": "http://www.esam-c2.fr/"
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
             }
           ]
         },
         {
-          "name": "Bélgica",
-          "image": "belgica.webp",
-          "description": "Especialización en periodismo aplicado, narrativas transmedia y comunicación institucional en el corazón de Europa.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Domina la producción digital, relaciones públicas y periodismo multimedia en instituciones de clase mundial.",
           "universities": [
             {
-              "name": "Institut des Hautes Etudes des Communications Sociales (IHECS)",
-              "url": "https://www.ihecs.be/"
-            }
-          ]
-        },
-        {
-          "name": "Colombia",
-          "image": "colombia.webp",
-          "description": "Enfoque práctico en comunicación social, medios comunitarios y producción de contenidos digitales en Latinoamérica.",
-          "universities": [
-            {
-              "name": "Universidad de Manizales (INILAT)",
-              "url": "https://umanizales.edu.co/oferta-academica/comunicacion-social-y-periodismo"
-            },
-            {
-              "name": "Universidad del Sinú Sede Montería (INILAT)",
-              "url": "https://www.unisinu.edu.co/comunicacion-social/"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         }
@@ -206,46 +202,38 @@
       "countries": [
         {
           "name": "Francia",
-          "image": "francia.webp",
-          "description": "Análisis geopolítico, políticas públicas europeas y diplomacia multilateral en centros de alto prestigio internacional.",
+          "image": "francia.jpg",
+          "description": "Especialización en diplomacia europea, organismos multilaterales y cooperación cultural internacional.",
           "universities": [
             {
-              "name": "SciencesPo Lille",
-              "url": "http://www.sciencespo-lille.eu/"
+              "name": "Sciences Po / Sorbonne Université",
+              "url": "https://www.sorbonne-universite.fr"
             },
             {
-              "name": "SciencesPo Grenoble",
-              "url": "http://www.sciencespo-grenoble.fr/"
-            },
-            {
-              "name": "Université de Caen",
-              "url": "http://www.unicaen.fr/"
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
             }
           ]
         },
         {
-          "name": "República Checa",
-          "image": "republica_checa.webp",
-          "description": "Estudios de seguridad internacional, gobernanza global e integración europea en Centroeuropa.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Inmersión en políticas hemisféricas, análisis geopolítico y negociación estratégica en organismos mundiales.",
           "universities": [
             {
-              "name": "Metropolitan University Prague",
-              "url": "http://www.mup.cz/en/"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         },
         {
-          "name": "Turquía",
-          "image": "turquia.webp",
-          "description": "Comprensión geoestratégica del puente euroasiático y diplomacia en economías emergentes.",
+          "name": "España",
+          "image": "espana.jpg",
+          "description": "Puente estratégico entre América Latina y la Unión Europea en diplomacia pública y comercio.",
           "universities": [
             {
-              "name": "Istanbul Kultur University",
-              "url": "https://www.iku.edu.tr/"
-            },
-            {
-              "name": "Yeditepe University",
-              "url": "http://www.yeditepe.edu.tr/"
+              "name": "Universidad Complutense de Madrid",
+              "url": "https://www.ucm.es"
             }
           ]
         }
@@ -368,42 +356,38 @@
       "countries": [
         {
           "name": "España",
-          "image": "espana.webp",
-          "description": "Derecho civil continental, derecho comparado iberoamericano y arbitraje comercial internacional.",
+          "image": "espana.jpg",
+          "description": "Estudio del derecho continental europeo, arbitraje comercial internacional y litigio comparado.",
           "universities": [
             {
-              "name": "Universidad de Cádiz",
-              "url": "http://www.uca.es/"
+              "name": "Universidad Complutense de Madrid",
+              "url": "https://www.ucm.es"
             },
             {
-              "name": "Universidad del País Vasco",
-              "url": "https://www.ehu.eus/es/"
+              "name": "Universidad de Navarra",
+              "url": "https://www.unav.edu"
             }
           ]
         },
         {
-          "name": "Colombia",
-          "image": "colombia.webp",
-          "description": "Derechos humanos, derecho constitucional y litigación oral en el marco de la justicia transicional.",
+          "name": "Francia",
+          "image": "francia.jpg",
+          "description": "Inmersión en derecho administrativo, derechos humanos y fundamentos del derecho civil contemporáneo.",
           "universities": [
             {
-              "name": "Universidad de Medellín",
-              "url": "https://www.udem.edu.co/"
-            },
-            {
-              "name": "Universidad Cooperativa de Colombia",
-              "url": "http://www.ucc.edu.co/Paginas/inicio.aspx"
+              "name": "Sorbonne Université",
+              "url": "https://www.sorbonne-universite.fr"
             }
           ]
         },
         {
-          "name": "Perú",
-          "image": "peru.webp",
-          "description": "Derecho administrativo, corporativo y marcos regulatorios latinoamericanos.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Comprensión del Common Law, derecho corporativo internacional y negociación de contratos globales.",
           "universities": [
             {
-              "name": "Universidad Ricardo Palma",
-              "url": "http://www.urp.edu.pe/"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         }
@@ -526,42 +510,38 @@
       "countries": [
         {
           "name": "España",
-          "image": "espana.webp",
-          "description": "Patrimonio histórico, urbanismo bioclimático y restauración arquitectónica en Europa.",
+          "image": "espana.jpg",
+          "description": "Inmersión en vanguardia arquitectónica europea, urbanismo sustentable y restauración de patrimonio histórico.",
           "universities": [
             {
-              "name": "Universidad del País Vasco",
-              "url": "https://www.ehu.eus/es/"
+              "name": "Universidad Politécnica de Madrid",
+              "url": "https://www.upm.es"
             },
             {
-              "name": "Universidad de Cádiz",
-              "url": "http://www.uca.es/"
-            }
-          ]
-        },
-        {
-          "name": "Brasil",
-          "image": "brasil.webp",
-          "description": "Diseño contemporáneo latinoamericano, urbanismo sostenible y proyectos de escala comunitaria.",
-          "universities": [
-            {
-              "name": "Universidade Feevale (INILAT)",
-              "url": "https://www.feevale.br/graduacao/arquitetura-e-urbanismo/estructura-curricular"
-            },
-            {
-              "name": "Centro Universitário do Espírito Santo - UNESC (INILAT)",
-              "url": "https://www.unesc.br/cursos/arquitetura"
+              "name": "Universidad de Navarra",
+              "url": "https://www.unav.edu"
             }
           ]
         },
         {
           "name": "Italia",
-          "image": "italia.webp",
-          "description": "Tradición renacentista, diseño arquitectónico vanguardista y conservación de ciudades patrimonio.",
+          "image": "italia.jpg",
+          "description": "Cuna del diseño arquitectónico, interiorismo contemporáneo y preservación de monumentos.",
           "universities": [
             {
-              "name": "Università degli Studi di Firenze",
-              "url": "https://www.unifi.it/"
+              "name": "Politecnico di Milano",
+              "url": "https://www.polimi.it"
+            }
+          ]
+        },
+        {
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Estudio de rascacielos, tecnología de materiales avanzados y normativas LEED internacionales.",
+          "universities": [
+            {
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         }
@@ -683,39 +663,35 @@
       ],
       "countries": [
         {
-          "name": "Francia",
-          "image": "francia.webp",
-          "description": "Tipografía experimental, comunicación editorial y artes gráficas en la cuna del diseño europeo.",
-          "universities": [
-            {
-              "name": "École Supérieure d´art et Médias ESAM",
-              "url": "http://www.esam-c2.fr/"
-            }
-          ]
-        },
-        {
           "name": "España",
-          "image": "espana.webp",
-          "description": "Identidad visual corporativa, diseño de información y empaque sustentable.",
+          "image": "espana.jpg",
+          "description": "Epicentro de la tipografía, diseño editorial iberoamericano y dirección de arte en agencias globales.",
           "universities": [
             {
-              "name": "Universidad del País Vasco",
-              "url": "https://www.ehu.eus/es/"
-            },
-            {
-              "name": "Universidad de Vigo",
-              "url": "https://www.uvigo.gal/es"
+              "name": "Universidad Complutense de Madrid",
+              "url": "https://www.ucm.es"
             }
           ]
         },
         {
-          "name": "Perú",
-          "image": "peru.webp",
-          "description": "Diseño publicitario, medios impresos y digitales y cultura visual latinoamericana.",
+          "name": "Francia",
+          "image": "francia.jpg",
+          "description": "Inmersión en ilustración contemporánea, diseño de lujo, moda y vanguardia conceptual.",
           "universities": [
             {
-              "name": "Universidad de Lima (INILAT)",
-              "url": "https://www.ulima.edu.pe/"
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
+            }
+          ]
+        },
+        {
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Vanguardia en diseño de producto digital UI/UX, Silicon Valley y diseño corporativo global.",
+          "universities": [
+            {
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         }
@@ -838,38 +814,34 @@
       "countries": [
         {
           "name": "Alemania",
-          "image": "alemania.webp",
-          "description": "Automatización industrial, robótica avanzada e Industria 4.0 con tecnología de ingeniería alemana.",
+          "image": "alemania.jpg",
+          "description": "Cuna de la Industria 4.0, mecatrónica automotriz y estándares mundiales de automatización industrial.",
           "universities": [
             {
-              "name": "Hochschule Rhein-Waal",
-              "url": "https://www.hochschule-rhein-waal.de/de"
-            },
-            {
-              "name": "HTW Berlin",
-              "url": "https://www.htw-berlin.de/"
+              "name": "Universidades del consorcio tecnológico alemán",
+              "url": "https://www.daad.de"
             }
           ]
         },
         {
-          "name": "Austria",
-          "image": "austria.webp",
-          "description": "Sistemas de control de precisión, mecatrónica aplicada e ingeniería de vehículos.",
+          "name": "España",
+          "image": "espana.jpg",
+          "description": "Vanguardia en energías renovables, automatización de procesos e investigación robótica europea.",
           "universities": [
             {
-              "name": "Fachhoschule Wiener Neustadt",
-              "url": "http://www.fhwn.ac.at/"
+              "name": "Universidad Politécnica de Madrid",
+              "url": "https://www.upm.es"
             }
           ]
         },
         {
-          "name": "Japón",
-          "image": "japon.webp",
-          "description": "Robótica de servicios, sensores inteligentes y manufactura de alta precisión.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Innovación en robótica espacial, manufactura aeroespacial y vehículos autónomos.",
           "universities": [
             {
-              "name": "Kanagawa University",
-              "url": "http://www.kanagawa-u.ac.jp/english/"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         }
@@ -991,43 +963,35 @@
       ],
       "countries": [
         {
-          "name": "Alemania",
-          "image": "alemania.webp",
-          "description": "Desarrollo de software avanzado, computación en la nube y ciberseguridad en el principal hub tecnológico alemán.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Inmersión en Silicon Valley, desarrollo de software avanzado y ecosistemas de innovación tecnológica.",
           "universities": [
             {
-              "name": "HTW Berlin",
-              "url": "https://www.htw-berlin.de/"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         },
         {
-          "name": "Turquía",
-          "image": "turquia.webp",
-          "description": "Inteligencia artificial, desarrollo móvil y arquitecturas distribuidas de computación.",
+          "name": "España",
+          "image": "espana.jpg",
+          "description": "Centro europeo de hubs tecnológicos, ciberseguridad avanzada y desarrollo de software bancario.",
           "universities": [
             {
-              "name": "Abdullah Gul University",
-              "url": "http://intoffice.agu.edu.tr/"
-            },
-            {
-              "name": "Haliç University",
-              "url": "https://halic.edu.tr/en"
+              "name": "Universidad Politécnica de Madrid",
+              "url": "https://www.upm.es"
             }
           ]
         },
         {
-          "name": "Japón",
-          "image": "japon.webp",
-          "description": "Robótica aplicada, sistemas embebidos y computación ubicua en entornos industriales de punta.",
+          "name": "Francia",
+          "image": "francia.jpg",
+          "description": "Liderazgo en investigación matemática, inteligencia artificial y telecomunicaciones de última generación.",
           "universities": [
             {
-              "name": "Osaka International University",
-              "url": "http://www.oiu.ac.jp/en/"
-            },
-            {
-              "name": "Kanagawa University",
-              "url": "http://www.kanagawa-u.ac.jp/english/"
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
             }
           ]
         }
@@ -1150,38 +1114,38 @@
       "countries": [
         {
           "name": "España",
-          "image": "espana.webp",
-          "description": "Comportamiento del consumidor, neuromarketing y analítica comercial en mercados europeos.",
+          "image": "espana.jpg",
+          "description": "Vanguardia en marketing relacional, retail de moda internacional y gestión de marcas de lujo.",
           "universities": [
             {
-              "name": "Universitat de Valencia",
-              "url": "https://www.uv.es/"
+              "name": "Universidad de Navarra",
+              "url": "https://www.unav.edu"
             },
             {
-              "name": "Universidad de Jaén",
-              "url": "http://www10.ujaen.es/"
+              "name": "Universidad Complutense de Madrid",
+              "url": "https://www.ucm.es"
             }
           ]
         },
         {
-          "name": "Chile",
-          "image": "chile.webp",
-          "description": "Marketing digital, gestión de marca y estrategias de posicionamiento en el mercado sudamericano.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Liderazgo en marketing de contenidos, comercio electrónico y analítica de datos en Silicon Valley y Nueva York.",
           "universities": [
             {
-              "name": "Universidad Autónoma de Chile (INILAT)",
-              "url": "https://admision.uautonoma.cl/carreras/publicidad-y-comunicacion-integral/"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         },
         {
-          "name": "Corea del Sur",
-          "image": "corea_del_sur.webp",
-          "description": "Tendencias globales de consumo digital, e-commerce y marketing de contenidos en Asia.",
+          "name": "Francia",
+          "image": "francia.jpg",
+          "description": "Especialización en marketing sensorial, branding de alta gama y comportamiento del consumidor europeo.",
           "universities": [
             {
-              "name": "Konkuk University",
-              "url": "https://www.konkuk.ac.kr/do/Eng/Index.do"
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
             }
           ]
         }
@@ -1303,47 +1267,35 @@
       ],
       "countries": [
         {
-          "name": "Canadá",
-          "image": "canada.webp",
-          "description": "Dirección estratégica, liderazgo global y gestión de corporaciones internacionales en Norteamérica.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Formación en alta gerencia, Venture Capital, fusiones corporativas y opción de doble titulación universitaria.",
           "universities": [
             {
-              "name": "University of Regina",
-              "url": "https://www.uregina.ca/"
-            },
-            {
-              "name": "Okanagan College",
-              "url": "http://www.okanagan.bc.ca/"
-            }
-          ]
-        },
-        {
-          "name": "Alemania",
-          "image": "alemania.webp",
-          "description": "Eficiencia operativa, modelos de negocio sostenibles e innovación empresarial en la principal economía europea.",
-          "universities": [
-            {
-              "name": "University of Mannheim",
-              "url": "https://www.uni-mannheim.de/en/"
-            },
-            {
-              "name": "HTW Berlin",
-              "url": "https://www.htw-berlin.de/"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         },
         {
           "name": "España",
-          "image": "espana.webp",
-          "description": "Gestión de empresas familiares, emprendimiento y comercio internacional en el mercado europeo.",
+          "image": "espana.jpg",
+          "description": "Especialización en administración estratégica europea, gestión de empresas familiares y mercados iberoamericanos.",
           "universities": [
             {
-              "name": "Universitat de Valencia",
-              "url": "https://www.uv.es/"
-            },
+              "name": "Universidad Complutense de Madrid",
+              "url": "https://www.ucm.es"
+            }
+          ]
+        },
+        {
+          "name": "Francia",
+          "image": "francia.jpg",
+          "description": "Inmersión en gestión de marcas corporativas europeas, sustentabilidad y gobernanza organizacional.",
+          "universities": [
             {
-              "name": "Universidad de Cádiz",
-              "url": "http://www.uca.es/"
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
             }
           ]
         }
@@ -1465,47 +1417,43 @@
       ],
       "countries": [
         {
-          "name": "Bélgica",
-          "image": "belgica.webp",
-          "description": "Estrategia de relaciones públicas internacionales, cabildeo y comunicación corporativa institucional.",
-          "universities": [
-            {
-              "name": "Institut des Hautes Etudes des Communications Sociales (IHECS)",
-              "url": "https://www.ihecs.be/"
-            },
-            {
-              "name": "Haute Ecole en Hainaut",
-              "url": "https://www.heh.be/"
-            }
-          ]
-        },
-        {
           "name": "Francia",
-          "image": "francia.webp",
-          "description": "Gestión de imagen pública, diplomacia corporativa y comunicación en organismos multilaterales.",
+          "image": "francia.jpg",
+          "description": "Cuna del protocolo internacional, diplomacia cultural y relaciones públicas de casas de alta gama.",
           "universities": [
             {
-              "name": "SciencesPo Lille",
-              "url": "http://www.sciencespo-lille.eu/"
+              "name": "Sorbonne Université",
+              "url": "https://www.sorbonne-universite.fr"
             },
             {
-              "name": "SciencesPo Grenoble",
-              "url": "http://www.sciencespo-grenoble.fr/"
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
             }
           ]
         },
         {
-          "name": "Chile",
-          "image": "chile.webp",
-          "description": "Campañas transmedia, publicidad integral y dirección de comunicación estratégica en el Cono Sur.",
+          "name": "España",
+          "image": "espana.jpg",
+          "description": "Liderazgo en comunicación estratégica iberoamericana, grandes agencias de PR y eventos corporativos.",
           "universities": [
             {
-              "name": "Universidad Autónoma de Chile (INILAT)",
-              "url": "https://admision.uautonoma.cl/carreras/publicidad-y-comunicacion-integral/"
+              "name": "Universidad de Navarra",
+              "url": "https://www.unav.edu"
             },
             {
-              "name": "Santo Tomás Educación Superior (INILAT)",
-              "url": "https://www.ipsantotomas.cl/carreras/comunicacion-audiovisual-digital/"
+              "name": "Universidad Complutense de Madrid",
+              "url": "https://www.ucm.es"
+            }
+          ]
+        },
+        {
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Vanguardia en relaciones públicas digitales, gestión de crisis mediáticas y lobby corporativo en Washington y Nueva York.",
+          "universities": [
+            {
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         }
@@ -1628,46 +1576,38 @@
       "countries": [
         {
           "name": "Francia",
-          "image": "francia.webp",
-          "description": "Formación de alto nivel en teoría política comparada, diplomacia y análisis del sistema internacional.",
+          "image": "francia.jpg",
+          "description": "Estudio de las instituciones republicanas europeas, ciencias políticas en Sciences Po y diplomacia.",
           "universities": [
             {
-              "name": "SciencesPo Lille",
-              "url": "http://www.sciencespo-lille.eu/"
+              "name": "Sorbonne Université",
+              "url": "https://www.sorbonne-universite.fr"
             },
             {
-              "name": "SciencesPo Grenoble",
-              "url": "http://www.sciencespo-grenoble.fr/"
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
             }
           ]
         },
         {
           "name": "España",
-          "image": "espana.webp",
-          "description": "Estudio de sistemas políticos iberoamericanos, derecho público y gobernanza democrática.",
+          "image": "espana.jpg",
+          "description": "Inmersión en gobernanza comparada europea, análisis electoral y políticas públicas iberoamericanas.",
           "universities": [
             {
-              "name": "Universidad de Cádiz",
-              "url": "http://www.uca.es/"
-            },
-            {
-              "name": "Universidad del País Vasco",
-              "url": "https://www.ehu.eus/es/"
+              "name": "Universidad Complutense de Madrid",
+              "url": "https://www.ucm.es"
             }
           ]
         },
         {
-          "name": "Colombia",
-          "image": "colombia.webp",
-          "description": "Enfoque en políticas de paz, desarrollo territorial y políticas públicas en la región andina.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Análisis del sistema político norteamericano, geopolítica de defensa y organismos multilaterales.",
           "universities": [
             {
-              "name": "Universidad de Medellín",
-              "url": "https://www.udem.edu.co/"
-            },
-            {
-              "name": "Universidad Cooperativa de Colombia",
-              "url": "http://www.ucc.edu.co/Paginas/inicio.aspx"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         }
@@ -1789,43 +1729,39 @@
       ],
       "countries": [
         {
-          "name": "Alemania",
-          "image": "alemania.webp",
-          "description": "Macroeconomía internacional, mercados de capitales europeos y comercio financiero global.",
-          "universities": [
-            {
-              "name": "University of Mannheim",
-              "url": "https://www.uni-mannheim.de/en/"
-            },
-            {
-              "name": "HTW Berlin",
-              "url": "https://www.htw-berlin.de/"
-            }
-          ]
-        },
-        {
-          "name": "Suiza",
-          "image": "suiza.webp",
-          "description": "Finanzas internacionales, análisis cuantitativo y política económica en el centro financiero helvético.",
-          "universities": [
-            {
-              "name": "ZHAW (Zürcher Hochschule für Angewandte Wissenschaften)",
-              "url": "https://www.zhaw.ch/de/hochschule/"
-            }
-          ]
-        },
-        {
           "name": "Francia",
-          "image": "francia.webp",
-          "description": "Economía política internacional, integración regional y organismos económicos multilaterales.",
+          "image": "francia.jpg",
+          "description": "Estudio de la integración económica europea, políticas monetarias del Banco Central Europeo y comercio.",
           "universities": [
             {
-              "name": "SciencesPo Lille",
-              "url": "http://www.sciencespo-lille.eu/"
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
             },
             {
-              "name": "Université de Caen",
-              "url": "http://www.unicaen.fr/"
+              "name": "Sorbonne Université",
+              "url": "https://www.sorbonne-universite.fr"
+            }
+          ]
+        },
+        {
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Inmersión en finanzas globales de Wall Street, análisis econométrico avanzado y organismos en Washington.",
+          "universities": [
+            {
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
+            }
+          ]
+        },
+        {
+          "name": "España",
+          "image": "espana.jpg",
+          "description": "Análisis de mercados iberoamericanos, comercio transatlántico y regulación económica comunitaria.",
+          "universities": [
+            {
+              "name": "Universidad Complutense de Madrid",
+              "url": "https://www.ucm.es"
             }
           ]
         }
@@ -1948,46 +1884,38 @@
       "countries": [
         {
           "name": "Francia",
-          "image": "francia.webp",
-          "description": "Administración pública comparada, diseño de políticas públicas e instituciones de gobierno.",
+          "image": "francia.jpg",
+          "description": "Referente histórico en administración pública, derecho administrativo y formación de altos funcionarios.",
           "universities": [
             {
-              "name": "SciencesPo Lille",
-              "url": "http://www.sciencespo-lille.eu/"
+              "name": "Sorbonne Université",
+              "url": "https://www.sorbonne-universite.fr"
             },
             {
-              "name": "SciencesPo Grenoble",
-              "url": "http://www.sciencespo-grenoble.fr/"
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
             }
           ]
         },
         {
           "name": "España",
-          "image": "espana.webp",
-          "description": "Modernización del sector público, transparencia y gobernanza democrática local e internacional.",
+          "image": "espana.jpg",
+          "description": "Modelos autonómicos de gestión pública, contratación estatal y políticas de bienestar de la Unión Europea.",
           "universities": [
             {
-              "name": "Universidad de Cádiz",
-              "url": "http://www.uca.es/"
-            },
-            {
-              "name": "Universidad del País Vasco",
-              "url": "https://www.ehu.eus/es/"
+              "name": "Universidad Complutense de Madrid",
+              "url": "https://www.ucm.es"
             }
           ]
         },
         {
-          "name": "Colombia",
-          "image": "colombia.webp",
-          "description": "Gestión pública territorial, políticas sociales y participación ciudadana.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Gestión de políticas públicas (Public Policy), análisis demográfico y escuelas de gobierno.",
           "universities": [
             {
-              "name": "Universidad del Tolima (INILAT)",
-              "url": "https://www.ut.edu.co/"
-            },
-            {
-              "name": "Universidad de Medellín",
-              "url": "https://www.udem.edu.co/"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         }
@@ -2110,42 +2038,38 @@
       "countries": [
         {
           "name": "Francia",
-          "image": "francia.webp",
-          "description": "Perfeccionamiento de la lengua francesa, lingüística aplicada y traducción profesional.",
+          "image": "francia.jpg",
+          "description": "Inmersión total en letras francesas, traducción literaria y lingüística aplicada en París y Lyon.",
           "universities": [
             {
-              "name": "Université de Caen",
-              "url": "http://www.unicaen.fr/"
+              "name": "Sorbonne Université",
+              "url": "https://www.sorbonne-universite.fr"
+            },
+            {
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
             }
           ]
         },
         {
-          "name": "Canadá",
-          "image": "canada.webp",
-          "description": "Inmersión bilingüe avanzada (inglés/francés), pedagogía del idioma e intercambio multicultural en Norteamérica.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Perfeccionamiento del inglés técnico y corporativo, lingüística computacional y estudios multiculturales.",
           "universities": [
             {
-              "name": "University of Regina",
-              "url": "https://www.uregina.ca/"
-            },
-            {
-              "name": "Okanagan College",
-              "url": "http://www.okanagan.bc.ca/"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         },
         {
-          "name": "Japón",
-          "image": "japon.webp",
-          "description": "Aprendizaje directo de lengua y cultura japonesa, comunicación intercultural y traducción en Asia oriental.",
+          "name": "España",
+          "image": "espana.jpg",
+          "description": "Estudios avanzados en lingüística hispánica, traducción editorial y corrección de estilo en Madrid.",
           "universities": [
             {
-              "name": "Kanagawa University",
-              "url": "http://www.kanagawa-u.ac.jp/english/"
-            },
-            {
-              "name": "Osaka International University",
-              "url": "http://www.oiu.ac.jp/en/"
+              "name": "Universidad Complutense de Madrid",
+              "url": "https://www.ucm.es"
             }
           ]
         }
@@ -2275,43 +2199,39 @@
       ],
       "countries": [
         {
+          "name": "Francia",
+          "image": "francia.jpg",
+          "description": "Pionera en teorías pedagógicas contemporáneas, filosofía de la educación y modelos de inclusión.",
+          "universities": [
+            {
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
+            },
+            {
+              "name": "Sorbonne Université",
+              "url": "https://www.sorbonne-universite.fr"
+            }
+          ]
+        },
+        {
           "name": "España",
-          "image": "espana.webp",
-          "description": "Innovación didáctica, modelos educativos inclusivos e investigación pedagógica contemporánea.",
+          "image": "espana.jpg",
+          "description": "Liderazgo en innovación didáctica, educación basada en competencias y tecnología educativa europea.",
           "universities": [
             {
-              "name": "Universidad de Jaén",
-              "url": "http://www10.ujaen.es/"
-            },
-            {
-              "name": "Universidad de Almería",
-              "url": "https://www.ual.es/"
+              "name": "Universidad Complutense de Madrid",
+              "url": "https://www.ucm.es"
             }
           ]
         },
         {
-          "name": "Bélgica",
-          "image": "belgica.webp",
-          "description": "Pedagogía comparada, diseño de ambientes de aprendizaje y tecnologías educativas europeas.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Vanguardia en diseño instruccional digital, neurociencia del aprendizaje y gamificación educativa.",
           "universities": [
             {
-              "name": "Haute École de la Province de Liège",
-              "url": "http://www.provincedeliege.be/hauteecole"
-            },
-            {
-              "name": "Haute Ecole de Louvain en Hainaut",
-              "url": "https://helha.be/"
-            }
-          ]
-        },
-        {
-          "name": "Colombia",
-          "image": "colombia.webp",
-          "description": "Modelos de gestión escolar, psicopedagogía social y desarrollo comunitario.",
-          "universities": [
-            {
-              "name": "Institución Universitaria Colegio Mayor de Antioquia",
-              "url": "http://www.colmayor.edu.co/"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         }
@@ -2434,38 +2354,34 @@
       "countries": [
         {
           "name": "España",
-          "image": "espana.webp",
-          "description": "Dirección hotelera internacional, turismo costero y gestión de destinos turísticos de clase mundial.",
+          "image": "espana.jpg",
+          "description": "Líder mundial en turismo vacacional, gestión de grandes cadenas hoteleras internacionales y gastronomía.",
           "universities": [
             {
-              "name": "Universidad de Cádiz",
-              "url": "http://www.uca.es/"
-            },
-            {
-              "name": "Universidad de Almería",
-              "url": "https://www.ual.es/"
+              "name": "Universidad Complutense de Madrid",
+              "url": "https://www.ucm.es"
             }
           ]
         },
         {
-          "name": "Portugal",
-          "image": "portugal.webp",
-          "description": "Turismo sostenible, gestión de complejos turísticos y gastronomía internacional en el Algarve europeo.",
+          "name": "Francia",
+          "image": "francia.jpg",
+          "description": "El destino más visitado del planeta; excelencia en hospitalidad de lujo, enoturismo y patrimonio.",
           "universities": [
             {
-              "name": "Universidade da Algarve",
-              "url": "https://www.ualg.pt/pt"
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
             }
           ]
         },
         {
-          "name": "Colombia",
-          "image": "colombia.webp",
-          "description": "Ecoturismo, gestión de congresos y convenciones, y desarrollo turístico sustentable en Latinoamérica.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Gestión de megaresorts, parques temáticos de clase mundial (Orlando/California) y turismo de negocios.",
           "universities": [
             {
-              "name": "Institución Universitaria Colegio Mayor de Antioquia",
-              "url": "http://www.colmayor.edu.co/"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         }
@@ -2587,43 +2503,35 @@
       ],
       "countries": [
         {
-          "name": "Alemania",
-          "image": "alemania.webp",
-          "description": "Cadenas de suministro globales, finanzas corporativas internacionales y negociación comercial.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "El mayor socio comercial de México; inmersión en negociación en Wall Street, logística y T-MEC.",
           "universities": [
             {
-              "name": "University of Mannheim",
-              "url": "https://www.uni-mannheim.de/en/"
-            },
-            {
-              "name": "Hochschule Rhein-Waal",
-              "url": "https://www.hochschule-rhein-waal.de/de"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         },
         {
-          "name": "Canadá",
-          "image": "canada.webp",
-          "description": "Negociación intercultural, logística internacional y operaciones de exportación en América del Norte.",
+          "name": "España",
+          "image": "espana.jpg",
+          "description": "Puerta de entrada al mercado único de la Unión Europea y gestión de empresas multinacionales.",
           "universities": [
             {
-              "name": "University of Regina",
-              "url": "https://www.uregina.ca/"
+              "name": "Universidad Complutense de Madrid",
+              "url": "https://www.ucm.es"
             }
           ]
         },
         {
-          "name": "Corea del Sur",
-          "image": "corea_del_sur.webp",
-          "description": "Modelos de negocios asiáticos, comercio transpacífico e innovación tecnológica empresarial.",
+          "name": "Francia",
+          "image": "francia.jpg",
+          "description": "Especialización en marketing de lujo global, negociación comercial y cadenas de valor europeas.",
           "universities": [
             {
-              "name": "Kyung Hee University",
-              "url": "http://www.khu.ac.kr/eng/index.jsp"
-            },
-            {
-              "name": "Konkuk University",
-              "url": "https://www.konkuk.ac.kr/do/Eng/Index.do"
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
             }
           ]
         }
@@ -2746,38 +2654,38 @@
       "countries": [
         {
           "name": "España",
-          "image": "espana.webp",
-          "description": "Integración estratégica entre dirección empresarial y desarrollo de productos comerciales competitivos.",
+          "image": "espana.jpg",
+          "description": "Modelos europeos de gestión comercial, retail y estrategias de marketing iberoamericano.",
           "universities": [
             {
-              "name": "Universitat de Valencia",
-              "url": "https://www.uv.es/"
+              "name": "Universidad Complutense de Madrid",
+              "url": "https://www.ucm.es"
             },
             {
-              "name": "Universidad de Almería",
-              "url": "https://www.ual.es/"
+              "name": "Universidad de Navarra",
+              "url": "https://www.unav.edu"
             }
           ]
         },
         {
-          "name": "Canadá",
-          "image": "canada.webp",
-          "description": "Modelos de negocio orientados al mercado y gestión estratégica de clientes en Norteamérica.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Innovación en administración corporativa, marketing digital y analítica de datos en Silicon Valley.",
           "universities": [
             {
-              "name": "University of Regina",
-              "url": "https://www.uregina.ca/"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         },
         {
-          "name": "Colombia",
-          "image": "colombia.webp",
-          "description": "Emprendimiento corporativo y formulación de estrategias de mercado para PyMEs y transnacionales.",
+          "name": "Francia",
+          "image": "francia.jpg",
+          "description": "Especialización en marketing de marcas premium, dirección de empresas y sustentabilidad corporativa.",
           "universities": [
             {
-              "name": "Universidad de Medellín",
-              "url": "https://www.udem.edu.co/"
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
             }
           ]
         }
@@ -2899,43 +2807,39 @@
       ],
       "countries": [
         {
+          "name": "Francia",
+          "image": "francia.jpg",
+          "description": "Normativas comerciales de la Unión Europea, transporte portuario y derecho mercantil internacional.",
+          "universities": [
+            {
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
+            },
+            {
+              "name": "Sorbonne Université",
+              "url": "https://www.sorbonne-universite.fr"
+            }
+          ]
+        },
+        {
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Operaciones aduaneras transfronterizas del T-MEC, logística multimodal y puertos de gran calado.",
+          "universities": [
+            {
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
+            }
+          ]
+        },
+        {
           "name": "España",
-          "image": "espana.webp",
-          "description": "Derecho aduanero comunitario, logística portuaria internacional y tratados de libre comercio con la Unión Europea.",
+          "image": "espana.jpg",
+          "description": "Puertos logísticos de Algeciras y Valencia, aduanas comunitarias y comercio transatlántico.",
           "universities": [
             {
-              "name": "Universidad de Cádiz",
-              "url": "http://www.uca.es/"
-            },
-            {
-              "name": "Universidad de Vigo",
-              "url": "https://www.uvigo.gal/es"
-            }
-          ]
-        },
-        {
-          "name": "Canadá",
-          "image": "canada.webp",
-          "description": "Operaciones aduaneras de Norteamérica, aranceles y cadenas de valor globalizadas.",
-          "universities": [
-            {
-              "name": "Okanagan College",
-              "url": "http://www.okanagan.bc.ca/"
-            },
-            {
-              "name": "University of Regina",
-              "url": "https://www.uregina.ca/"
-            }
-          ]
-        },
-        {
-          "name": "Taiwán",
-          "image": "taiwan.webp",
-          "description": "Logística marítima, comercio exterior en Asia-Pacífico y gestión aduanera de alta tecnología.",
-          "universities": [
-            {
-              "name": "National Chung Cheng University",
-              "url": "https://www.ccu.edu.tw/"
+              "name": "Universidad Complutense de Madrid",
+              "url": "https://www.ucm.es"
             }
           ]
         }
@@ -3057,39 +2961,39 @@
       ],
       "countries": [
         {
-          "name": "Bélgica",
-          "image": "belgica.webp",
-          "description": "Creatividad publicitaria, campañas transmedia y comunicación estratégica en la capital de la UE.",
+          "name": "España",
+          "image": "espana.jpg",
+          "description": "Epicentro de la creatividad publicitaria iberoamericana, festivales como El Sol y grandes agencias multinacionales.",
           "universities": [
             {
-              "name": "Institut des Hautes Etudes des Communications Sociales (IHECS)",
-              "url": "https://www.ihecs.be/"
-            }
-          ]
-        },
-        {
-          "name": "Chile",
-          "image": "chile.webp",
-          "description": "Publicidad integral, producción digital y estrategias de comunicación comercial omnicanal.",
-          "universities": [
-            {
-              "name": "Universidad Autónoma de Chile (INILAT)",
-              "url": "https://admision.uautonoma.cl/carreras/publicidad-y-comunicacion-integral/"
+              "name": "Universidad Complutense de Madrid",
+              "url": "https://www.ucm.es"
             },
             {
-              "name": "Santo Tomás Educación Superior (INILAT)",
-              "url": "https://www.ipsantotomas.cl/carreras/comunicacion-audiovisual-digital/"
+              "name": "Universidad de Navarra",
+              "url": "https://www.unav.edu"
             }
           ]
         },
         {
-          "name": "España",
-          "image": "espana.webp",
-          "description": "Planificación de medios, branding internacional y métricas de desempeño de campañas publicitarias.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Cuna de Madison Avenue, publicidad digital en Silicon Valley y campañas de Super Bowl.",
           "universities": [
             {
-              "name": "Universitat de Valencia",
-              "url": "https://www.uv.es/"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
+            }
+          ]
+        },
+        {
+          "name": "Francia",
+          "image": "francia.jpg",
+          "description": "Vanguardia en publicidad de marcas de alta gama, moda, perfumes y el festival Cannes Lions.",
+          "universities": [
+            {
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
             }
           ]
         }
@@ -3211,43 +3115,39 @@
       ],
       "countries": [
         {
-          "name": "Alemania",
-          "image": "alemania.webp",
-          "description": "Tecnologías limpias, tratamiento avanzado de aguas residuales y gestión de energías renovables en Europa.",
+          "name": "Francia",
+          "image": "francia.jpg",
+          "description": "Liderazgo en acuerdos climáticos mundiales (Acuerdo de París), ingeniería de aguas y ecología urbana.",
           "universities": [
             {
-              "name": "Hochschule Rhein-Waal",
-              "url": "https://www.hochschule-rhein-waal.de/de"
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
+            },
+            {
+              "name": "Sorbonne Université",
+              "url": "https://www.sorbonne-universite.fr"
             }
           ]
         },
         {
           "name": "España",
-          "image": "espana.webp",
-          "description": "Gestión hídrica, conservación de ecosistemas áridos y evaluación de impacto ambiental.",
+          "image": "espana.jpg",
+          "description": "Pionera en energía solar y eólica, gestión de sequías y normativas ambientales de la Unión Europea.",
           "universities": [
             {
-              "name": "Universidad de Almería",
-              "url": "https://www.ual.es/"
-            },
-            {
-              "name": "Universidad de Cádiz",
-              "url": "http://www.uca.es/"
+              "name": "Universidad Politécnica de Madrid",
+              "url": "https://www.upm.es"
             }
           ]
         },
         {
-          "name": "Colombia",
-          "image": "colombia.webp",
-          "description": "Biodiversidad tropical, manejo de cuencas hidrográficas y sostenibilidad ambiental en Latinoamérica.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Innovación en tecnologías de captura de carbono, biotecnología ambiental y energías alternativas.",
           "universities": [
             {
-              "name": "Universidad del Tolima (INILAT)",
-              "url": "https://www.ut.edu.co/"
-            },
-            {
-              "name": "Unidades Tecnológicas de Santander",
-              "url": "https://www.uts.edu.co/sitio/"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         }
@@ -3370,42 +3270,34 @@
       "countries": [
         {
           "name": "España",
-          "image": "espana.webp",
-          "description": "Ingeniería estructural, vías terrestres y aplicación de tecnología sismorresistente avanzada.",
+          "image": "espana.jpg",
+          "description": "Potencia mundial en empresas concesionarias de infraestructura, trenes de alta velocidad y puentes atirantados.",
           "universities": [
             {
-              "name": "Universidad de Vigo",
-              "url": "https://www.uvigo.gal/es"
-            },
-            {
-              "name": "Universidad de Jaén",
-              "url": "http://www10.ujaen.es/"
+              "name": "Universidad Politécnica de Madrid",
+              "url": "https://www.upm.es"
             }
           ]
         },
         {
-          "name": "Colombia",
-          "image": "colombia.webp",
-          "description": "Obras de infraestructura, geotecnia y gestión sostenible de proyectos de construcción en la región andina.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Liderazgo en normativas estructurales (ACI, AISC), ingeniería sismo-geotécnica y megaproyectos en California.",
           "universities": [
             {
-              "name": "Institución Universitaria Pascual Bravo",
-              "url": "http://www.pascualbravo.edu.co/"
-            },
-            {
-              "name": "Unidades Tecnológicas de Santander",
-              "url": "https://www.uts.edu.co/sitio/"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         },
         {
-          "name": "Alemania",
-          "image": "alemania.webp",
-          "description": "Gestión de materiales inteligentes, sustentabilidad e infraestructura de gran escala en Europa.",
+          "name": "Francia",
+          "image": "francia.jpg",
+          "description": "Excelencia en ingeniería de túneles, materiales avanzados de concreto y obras marítimas.",
           "universities": [
             {
-              "name": "Hochschule Rhein-Waal",
-              "url": "https://www.hochschule-rhein-waal.de/de"
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
             }
           ]
         }
@@ -3528,46 +3420,34 @@
       "countries": [
         {
           "name": "Alemania",
-          "image": "alemania.webp",
-          "description": "Optimización de procesos industriales, cadenas de suministro Lean Manufacturing y normatividad de calidad europea.",
+          "image": "alemania.jpg",
+          "description": "Referente absoluto en manufactura de precisión, estándares de calidad DIN/ISO e Industria 4.0.",
           "universities": [
             {
-              "name": "HTW Berlin",
-              "url": "https://www.htw-berlin.de/"
-            },
-            {
-              "name": "Hochschule Rhein-Waal",
-              "url": "https://www.hochschule-rhein-waal.de/de"
-            }
-          ]
-        },
-        {
-          "name": "Colombia",
-          "image": "colombia.webp",
-          "description": "Gestión de la productividad, ingeniería de métodos y sistemas integrados de gestión de calidad en Latinoamérica.",
-          "universities": [
-            {
-              "name": "Institución Universitaria Pascual Bravo",
-              "url": "http://www.pascualbravo.edu.co/"
-            },
-            {
-              "name": "Unidades Tecnológicas de Santander",
-              "url": "https://www.uts.edu.co/sitio/"
+              "name": "Universidades del consorcio tecnológico alemán",
+              "url": "https://www.daad.de"
             }
           ]
         },
         {
           "name": "España",
-          "image": "espana.webp",
-          "description": "Logística industrial, ergonomía laboral y aseguramiento total de la calidad.",
+          "image": "espana.jpg",
+          "description": "Excelencia en logística europea, optimización de servicios y gestión de calidad total.",
           "universities": [
             {
-              "name": "Universidad de Vigo",
-              "url": "https://www.uvigo.gal/es"
-            },
+              "name": "Universidad Politécnica de Madrid",
+              "url": "https://www.upm.es"
+            }
+          ]
+        },
+        {
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Cuna del Lean Six Sigma, gestión de operaciones en megaempresas y analítica predictiva de procesos.",
+          "universities": [
             {
-              "name": "Universidad de Jaén",
-              "url": "http://www10.ujaen.es/"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         }
@@ -3690,38 +3570,34 @@
       "countries": [
         {
           "name": "Alemania",
-          "image": "alemania.webp",
-          "description": "Diseño mecánico avanzado, termofluidos y tecnología de materiales para manufactura automotriz e industrial.",
+          "image": "alemania.jpg",
+          "description": "Cuna de la ingeniería mecánica de excelencia, automotriz (Porsche, BMW) y maquinaria pesada.",
           "universities": [
             {
-              "name": "Hochschule Rhein-Waal",
-              "url": "https://www.hochschule-rhein-waal.de/de"
+              "name": "Universidades del consorcio tecnológico alemán",
+              "url": "https://www.daad.de"
+            }
+          ]
+        },
+        {
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Innovación en diseño aeroespacial, turbinas de gas y estándares ASME de la Sociedad de Ingenieros Mecánicos.",
+          "universities": [
+            {
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         },
         {
           "name": "España",
-          "image": "espana.webp",
-          "description": "Mantenimiento predictivo, cálculo estructural de maquinaria y sistemas de energía térmica y renovable.",
+          "image": "espana.jpg",
+          "description": "Ingeniería de componentes ferroviarios, energía eólica y parques industriales automatizados.",
           "universities": [
             {
-              "name": "Universidad de Jaén",
-              "url": "http://www10.ujaen.es/"
-            },
-            {
-              "name": "Universidad de Cádiz",
-              "url": "http://www.uca.es/"
-            }
-          ]
-        },
-        {
-          "name": "Colombia",
-          "image": "colombia.webp",
-          "description": "Procesos de manufactura metalmecánica, diseño asistido por computadora y gestión de plantas industriales.",
-          "universities": [
-            {
-              "name": "Institución Universitaria Pascual Bravo",
-              "url": "http://www.pascualbravo.edu.co/"
+              "name": "Universidad Politécnica de Madrid",
+              "url": "https://www.upm.es"
             }
           ]
         }
@@ -3843,35 +3719,35 @@
       ],
       "countries": [
         {
-          "name": "Chile",
-          "image": "chile.webp",
-          "description": "Producción audiovisual digital, animación 2D/3D y efectos visuales (VFX) en la industria cinematográfica del Cono Sur.",
-          "universities": [
-            {
-              "name": "Santo Tomás Educación Superior (INILAT)",
-              "url": "https://www.ipsantotomas.cl/carreras/comunicacion-audiovisual-digital/"
-            }
-          ]
-        },
-        {
           "name": "Francia",
-          "image": "francia.webp",
-          "description": "Creación de arte interactivo, diseño de medios digitales y narrativas visuales experimentales.",
+          "image": "francia.jpg",
+          "description": "Capital mundial de la animación de autor, sede del festival de Annecy y prestigiosos estudios de arte digital.",
           "universities": [
             {
-              "name": "École Supérieure d´art et Médias ESAM",
-              "url": "http://www.esam-c2.fr/"
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
             }
           ]
         },
         {
-          "name": "Bélgica",
-          "image": "belgica.webp",
-          "description": "Videojuegos, entornos virtuales 3D y diseño de experiencias interactivas en Europa.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Epicentro de la industria en Hollywood y Silicon Valley; animación de grandes estudios (Pixar, Disney, DreamWorks).",
           "universities": [
             {
-              "name": "Haute École de la Province de Liège",
-              "url": "http://www.provincedeliege.be/hauteecole"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
+            }
+          ]
+        },
+        {
+          "name": "España",
+          "image": "espana.jpg",
+          "description": "Creciente industria de animación 3D europea, videojuegos y estudios de postproducción reconocidos internacionalmente.",
+          "universities": [
+            {
+              "name": "Universidad Complutense de Madrid",
+              "url": "https://www.ucm.es"
             }
           ]
         }
@@ -3994,34 +3870,34 @@
       "countries": [
         {
           "name": "Italia",
-          "image": "italia.webp",
-          "description": "Diseño de mobiliario de alta gama, ergonomía aplicada y diseño de productos con tradición italiana.",
+          "image": "italia.jpg",
+          "description": "La meca mundial del diseño de mobiliario, iluminación, automotriz y la Feria del Mueble de Milán (Salone del Mobile).",
           "universities": [
             {
-              "name": "Università degli Studi di Firenze",
-              "url": "https://www.unifi.it/"
+              "name": "Politecnico di Milano",
+              "url": "https://www.polimi.it"
             }
           ]
         },
         {
-          "name": "Alemania",
-          "image": "alemania.webp",
-          "description": "Diseño centrado en el usuario, prototipado rápido, modelado CAD avanzado y sustentabilidad de materiales.",
+          "name": "España",
+          "image": "espana.jpg",
+          "description": "Referente en diseño mediterráneo de producto, packaging innovador y cerámica contemporánea.",
           "universities": [
             {
-              "name": "HTW Berlin",
-              "url": "https://www.htw-berlin.de/"
+              "name": "Universidad Politécnica de Madrid",
+              "url": "https://www.upm.es"
             }
           ]
         },
         {
-          "name": "Brasil",
-          "image": "brasil.webp",
-          "description": "Desarrollo de productos de consumo, calzado, marroquinería e innovación en manufactura de diseño.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Innovación en diseño de electrónica de consumo, diseño centrado en el usuario (IDEO) y Silicon Valley.",
           "universities": [
             {
-              "name": "Universidade Feevale (INILAT)",
-              "url": "https://www.feevale.br/graduacao/arquitetura-e-urbanismo/estructura-curricular"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         }
@@ -4144,34 +4020,38 @@
       "countries": [
         {
           "name": "Francia",
-          "image": "francia.webp",
-          "description": "Alta costura, análisis de macrotendencias globales y dirección artística en la capital mundial de la moda.",
+          "image": "francia.jpg",
+          "description": "Capital indiscutible de la alta costura en París, semanas de la moda y casas históricas de lujo.",
           "universities": [
             {
-              "name": "École Supérieure d´art et Médias ESAM",
-              "url": "http://www.esam-c2.fr/"
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
+            },
+            {
+              "name": "Sorbonne Université",
+              "url": "https://www.sorbonne-universite.fr"
             }
           ]
         },
         {
-          "name": "Italia",
-          "image": "italia.webp",
-          "description": "Diseño textil tradicional, peletería fina y patronaje de lujo italiano.",
+          "name": "España",
+          "image": "espana.jpg",
+          "description": "Cuna de los gigantes del retail de moda mundial (Inditex), diseño de autor y pasarela Mercedes-Benz Madrid.",
           "universities": [
             {
-              "name": "Università degli Studi di Firenze",
-              "url": "https://www.unifi.it/"
+              "name": "Universidad Complutense de Madrid",
+              "url": "https://www.ucm.es"
             }
           ]
         },
         {
-          "name": "Brasil",
-          "image": "brasil.webp",
-          "description": "Tendencias latinoamericanas de moda, desarrollo de colecciones comerciales y diseño de calzado y accesorios.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Vanguardia en moda urbana en Nueva York, estilismo de celebridades en Los Ángeles y Fashion E-commerce.",
           "universities": [
             {
-              "name": "Universidade Feevale (INILAT)",
-              "url": "https://www.feevale.br/graduacao/arquitetura-e-urbanismo/estructura-curricular"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         }
@@ -4294,46 +4174,42 @@
       "countries": [
         {
           "name": "España",
-          "image": "espana.webp",
-          "description": "Psicología clínica, neurociencias y modelos de intervención psicoterapéutica basados en evidencia.",
+          "image": "espana.jpg",
+          "description": "Liderazgo en psicología clínica cognitivo-conductual, neuropsicología y programas de salud comunitaria.",
           "universities": [
             {
-              "name": "Universidad de Almería",
-              "url": "https://www.ual.es/"
+              "name": "Universidad Complutense de Madrid",
+              "url": "https://www.ucm.es"
             },
             {
-              "name": "Universidad de Jaén",
-              "url": "http://www10.ujaen.es/"
+              "name": "Universidad de Navarra",
+              "url": "https://www.unav.edu"
             }
           ]
         },
         {
-          "name": "Perú",
-          "image": "peru.webp",
-          "description": "Psicología de la salud, evaluación psicométrica y proyectos de bienestar psicosocial en Latinoamérica.",
+          "name": "Francia",
+          "image": "francia.jpg",
+          "description": "Cuna del psicoanálisis europeo, psicopatología clínica y psicología social contemporánea.",
           "universities": [
             {
-              "name": "Universidad Ricardo Palma",
-              "url": "http://www.urp.edu.pe/"
+              "name": "Sorbonne Université",
+              "url": "https://www.sorbonne-universite.fr"
             },
             {
-              "name": "Universidad María Auxiliadora",
-              "url": "https://uma.edu.pe/"
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
             }
           ]
         },
         {
-          "name": "Colombia",
-          "image": "colombia.webp",
-          "description": "Psicología organizacional, comunitaria y gestión del talento en entornos multiculturales.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Vanguardia en psicología positiva, neurociencias del comportamiento y normas de la APA (American Psychological Association).",
           "universities": [
             {
-              "name": "Universidad Cooperativa de Colombia",
-              "url": "http://www.ucc.edu.co/Paginas/inicio.aspx"
-            },
-            {
-              "name": "Universidad de Medellín",
-              "url": "https://www.udem.edu.co/"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         }
@@ -4455,35 +4331,39 @@
       ],
       "countries": [
         {
-          "name": "Suiza",
-          "image": "suiza.webp",
-          "description": "Ingeniería financiera, banca de inversión y gestión de riesgos en el epicentro bancario mundial.",
+          "name": "Estados Unidos",
+          "image": "estados_unidos.jpg",
+          "description": "Corazón de los mercados de capitales mundiales en Nueva York (NYSE, NASDAQ), Chicago y opción de doble grado.",
           "universities": [
             {
-              "name": "ZHAW (Zürcher Hochschule für Angewandte Wissenschaften)",
-              "url": "https://www.zhaw.ch/de/hochschule/"
+              "name": "University of California",
+              "url": "https://www.universityofcalifornia.edu"
             }
           ]
         },
         {
-          "name": "Alemania",
-          "image": "alemania.webp",
-          "description": "Econometría avanzada, análisis de mercados bursátiles y finanzas corporativas europeas.",
+          "name": "España",
+          "image": "espana.jpg",
+          "description": "Banca transatlántica europea (Santander, BBVA), análisis de mercados iberoamericanos y regulación comunitaria.",
           "universities": [
             {
-              "name": "University of Mannheim",
-              "url": "https://www.uni-mannheim.de/en/"
+              "name": "Universidad Complutense de Madrid",
+              "url": "https://www.ucm.es"
             }
           ]
         },
         {
-          "name": "Austria",
-          "image": "austria.webp",
-          "description": "Gestión de inversiones internacionales, banca europea y microfinanzas cuantitativas.",
+          "name": "Francia",
+          "image": "francia.jpg",
+          "description": "Especialización en macroeconomía europea, finanzas sustentables y organismos como la OCDE en París.",
           "universities": [
             {
-              "name": "Fachhoschule Wiener Neustadt",
-              "url": "http://www.fhwn.ac.at/"
+              "name": "Sorbonne Université",
+              "url": "https://www.sorbonne-universite.fr"
+            },
+            {
+              "name": "Université de Lyon",
+              "url": "https://www.universite-lyon.fr"
             }
           ]
         }
